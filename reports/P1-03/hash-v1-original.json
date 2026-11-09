@@ -1,0 +1,578 @@
+{
+ "fileKey": "xJoAz66aekAToyhBmfGNt0",
+ "readAt": "2026-11-09T17:26:17.585Z",
+ "owners": 95,
+ "variants": 1212,
+ "rows": [
+  [
+   "1029:37647",
+   "_Swatch base",
+   "278985b1",
+   8
+  ],
+  [
+   "7531:71186",
+   "Partner affiliate logos",
+   "98f5f46e",
+   28
+  ],
+  [
+   "21465:11",
+   "Logo",
+   "51a1342f",
+   32
+  ],
+  [
+   "21465:30",
+   "Logomark",
+   "d7e4e787",
+   56
+  ],
+  [
+   "1019:35537",
+   "_Type scale base",
+   "c31c89a4",
+   10
+  ],
+  [
+   "5253:373419",
+   "_Shadow card",
+   "fc149953",
+   3
+  ],
+  [
+   "5424:399227",
+   "_Focus ring card",
+   "19a2afab",
+   4
+  ],
+  [
+   "1027:9560",
+   "DS note",
+   "7aefa77d",
+   12
+  ],
+  [
+   "6472:99378",
+   "_Variables icon",
+   "74afef66",
+   6
+  ],
+  [
+   "6472:98427",
+   "_Documentation table cell",
+   "e3f7dbcb",
+   40
+  ],
+  [
+   "9342:257073",
+   "Cursor",
+   "f563d6fe",
+   24
+  ],
+  [
+   "17570:607",
+   "Flow note",
+   "d8186a7a",
+   12
+  ],
+  [
+   "21135:239",
+   "Flow heading",
+   "5161dbf9",
+   10
+  ],
+  [
+   "1518:345435",
+   "Design system header",
+   "fb5bc9e6",
+   6
+  ],
+  [
+   "21231:10266",
+   "Designer area",
+   "d66889b7",
+   4
+  ],
+  [
+   "17540:4885",
+   "Slot",
+   "30df8060",
+   3
+  ],
+  [
+   "3287:427074",
+   "Buttons/Button",
+   "8ae74d7e",
+   546
+  ],
+  [
+   "17503:16162",
+   "Buttons/Button destructive",
+   "0197c8cd",
+   312
+  ],
+  [
+   "1256:130788",
+   "Social button",
+   "6b1aaed2",
+   189
+  ],
+  [
+   "1256:132638",
+   "Social button groups",
+   "4fc945ef",
+   36
+  ],
+  [
+   "1303:2162",
+   "Mobile app store badge",
+   "8cab0fdc",
+   74
+  ],
+  [
+   "8993:429278",
+   "Buttons/Button loading icon",
+   "e27b58b8",
+   8
+  ],
+  [
+   "17528:1499",
+   "Buttons/Button icon",
+   "fe78f9e9",
+   36
+  ],
+  [
+   "21539:9592",
+   "Buttons/Button action",
+   "2dfa7898",
+   12
+  ],
+  [
+   "21543:896",
+   "Buttons/Button navigation",
+   "9938fc6f",
+   12
+  ],
+  [
+   "1046:9312",
+   "_Button group base",
+   "070e0bf3",
+   112
+  ],
+  [
+   "1046:10171",
+   "Button group",
+   "2efc7a46",
+   33
+  ],
+  [
+   "21543:1115",
+   "Navigation button group",
+   "69b28f00",
+   7
+  ],
+  [
+   "21269:11402",
+   "_Tab button base",
+   "482d60cf",
+   68
+  ],
+  [
+   "21387:5280",
+   "_Filter button base",
+   "3c66de41",
+   10
+  ],
+  [
+   "21453:537",
+   "Tab group",
+   "9f12cce0",
+   28
+  ],
+  [
+   "21387:9103",
+   "Filter group",
+   "3461340e",
+   11
+  ],
+  [
+   "17528:20237",
+   "Badge",
+   "4d3bf8ff",
+   129
+  ],
+  [
+   "3307:417515",
+   "Tag",
+   "7279a0e9",
+   168
+  ],
+  [
+   "3307:417827",
+   "Tag count",
+   "0b42f8fd",
+   18
+  ],
+  [
+   "3281:382793",
+   "_Dropdown list item",
+   "69ddaa87",
+   56
+  ],
+  [
+   "3281:383083",
+   "Dropdown",
+   "c22fbfda",
+   12
+  ],
+  [
+   "3281:377673",
+   "Select",
+   "43bbdcaa",
+   362
+  ],
+  [
+   "8003:32901",
+   "_Scroll bar (control fill with bottom padding)",
+   "4333216b",
+   3
+  ],
+  [
+   "1106:66560",
+   "_Mega input field base",
+   "ba951b93",
+   36
+  ],
+  [
+   "1106:66757",
+   "Verification code input field",
+   "7dcb20be",
+   30
+  ],
+  [
+   "1238:278",
+   "Textarea input field",
+   "3497564f",
+   161
+  ],
+  [
+   "17515:929",
+   "Helper text",
+   "4ad1b8b5",
+   60
+  ],
+  [
+   "17517:11024",
+   "Input field",
+   "1dac3558",
+   643
+  ],
+  [
+   "17571:10947",
+   "_Input title",
+   "b0975e48",
+   15
+  ],
+  [
+   "122:3294",
+   "_Toggle base",
+   "32b64077",
+   48
+  ],
+  [
+   "1102:4208",
+   "Toggle",
+   "7df66f89",
+   48
+  ],
+  [
+   "1097:63652",
+   "Radio / Checkbox",
+   "37b9605a",
+   380
+  ],
+  [
+   "1097:63886",
+   "_Checkbox base",
+   "914160ee",
+   136
+  ],
+  [
+   "124:2838",
+   "Radio group item",
+   "90bf2247",
+   1024
+  ],
+  [
+   "1142:87213",
+   "Radio group",
+   "48904f71",
+   140
+  ],
+  [
+   "82:2793",
+   "Avatar label group",
+   "ee435dd3",
+   24
+  ],
+  [
+   "19:1012",
+   "Avatar",
+   "63cfcdbe",
+   226
+  ],
+  [
+   "1036:4",
+   "_Avatar company icon",
+   "f87fb27b",
+   12
+  ],
+  [
+   "1102:4864",
+   "_Avatar add button",
+   "d66d7fc0",
+   57
+  ],
+  [
+   "1274:812",
+   "Avatar group",
+   "abca3d08",
+   42
+  ],
+  [
+   "1052:489",
+   "Tooltip",
+   "9793c9f9",
+   94
+  ],
+  [
+   "1054:13",
+   "Help icon",
+   "f4d4d7a3",
+   112
+  ],
+  [
+   "1085:57382",
+   "Progress bar",
+   "2fd8c580",
+   187
+  ],
+  [
+   "1084:2717",
+   "Progress circle",
+   "bdce3f11",
+   39
+  ],
+  [
+   "1086:534",
+   "Slider",
+   "29c7998b",
+   210
+  ],
+  [
+   "3287:442783",
+   "_Control handle",
+   "062ed24a",
+   39
+  ],
+  [
+   "21132:1691",
+   "_Indicator",
+   "957d01bb",
+   6
+  ],
+  [
+   "21206:142",
+   "Navigator",
+   "a9ea8e50",
+   35
+  ],
+  [
+   "1157:90307",
+   "_Nav featured card",
+   "2597334f",
+   84
+  ],
+  [
+   "7891:71338",
+   "_Nav account card menu item",
+   "56f7feef",
+   52
+  ],
+  [
+   "1207:1678",
+   "Header navigation",
+   "853d5f4e",
+   23
+  ],
+  [
+   "1152:89220",
+   "_Nav item base",
+   "317d6d17",
+   54
+  ],
+  [
+   "1161:14070",
+   "_Application nav menu button",
+   "5b811dfe",
+   18
+  ],
+  [
+   "1165:736",
+   "_Nav item button",
+   "5bc3c42f",
+   36
+  ],
+  [
+   "4057:414352",
+   "_Modal actions",
+   "17f011ec",
+   25
+  ],
+  [
+   "4055:413620",
+   "_Modal header",
+   "b8c947ef",
+   13
+  ],
+  [
+   "4057:415205",
+   "Modal",
+   "cc63d7f1",
+   10
+  ],
+  [
+   "1130:81134",
+   "Alert",
+   "d8b686a0",
+   48
+  ],
+  [
+   "1150:62",
+   "_Date picker list item",
+   "f5e70197",
+   18
+  ],
+  [
+   "1150:1925",
+   "_Date picker menu",
+   "23f73d48",
+   339
+  ],
+  [
+   "7365:57922",
+   "_Calendar cell",
+   "4c353e07",
+   70
+  ],
+  [
+   "1150:16803",
+   "Date picker dropdown",
+   "fd4f9379",
+   56
+  ],
+  [
+   "1547:269867",
+   "Date picker modal",
+   "5d95baa8",
+   16
+  ],
+  [
+   "1192:610",
+   "Loading indicator",
+   "276048bd",
+   56
+  ],
+  [
+   "21565:5486",
+   "Textelement",
+   "abb18da4",
+   20
+  ],
+  [
+   "21218:355",
+   "Illustration wrapper",
+   "7b71fa18",
+   24
+  ],
+  [
+   "21474:482",
+   "Virtual card",
+   "f59c17ad",
+   36
+  ],
+  [
+   "21509:15249",
+   "Physical card",
+   "5a171d9f",
+   112
+  ],
+  [
+   "21131:1230",
+   "Illustration/placeholder",
+   "1b1ecbba",
+   22
+  ],
+  [
+   "21247:1149",
+   "Illustration/blocker",
+   "a09c266d",
+   7
+  ],
+  [
+   "21258:6196",
+   "Illustration/success",
+   "9c0b9092",
+   6
+  ],
+  [
+   "21240:1493",
+   "Illustration/lego",
+   "82803e7b",
+   95
+  ],
+  [
+   "21243:1572",
+   "Illustration/secure",
+   "8217a570",
+   15
+  ],
+  [
+   "21320:1880",
+   "Illustration/QR",
+   "a7b56204",
+   10
+  ],
+  [
+   "21246:1031",
+   "Illustration/Custom img",
+   "ad17cb2d",
+   10
+  ],
+  [
+   "21181:107",
+   "Empty card",
+   "e1117de4",
+   5
+  ],
+  [
+   "1624:462461",
+   "Divider",
+   "30706c2b",
+   4
+  ],
+  [
+   "21139:811",
+   "Background overlay",
+   "efa98a92",
+   3
+  ],
+  [
+   "21314:754",
+   "Spacer",
+   "b7992666",
+   18
+  ]
+ ]
+}

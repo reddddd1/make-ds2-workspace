@@ -3,7 +3,7 @@
 > **Phase 1 is APPROVED (D-12, Mike, 2026-11-09). Phases 2–4 are NOT approved.**
 > Phase 1 = safe foundations: inspection, validation, documentation and explicitly approved preparation. **No component refactoring, no token or variable writes, no bulk migration, no publishing.**
 > Work the tasks **one at a time, in order**. Stop and report after each task; start the next only when Mike says so.
-> **Status 2026-11-09:** Phase 1 complete except P1-03 (blocked). Milestone report and Phase 2 proposal: `reports/PHASE-1-REPORT.md`.
+> **Status 2026-11-09:** Phase 1 complete (P1-03 verified 2026-11-09). Milestone report and Phase 2 proposal: `reports/PHASE-1-REPORT.md`.
 
 ## Global rules for every Phase 1 task
 
@@ -20,7 +20,7 @@
 |---|---|---|---|---|
 | **P1-01** | Workspace & environment inspection (read-only) | P0 | — | **DONE** (report in chat, no file — per Mike) |
 | P1-02 | Record ADR-0011 (D-01) in `design-tokens` (`decisions/ADR-0011-*.md`; the repo has no `DECISIONS.md`) | P0 | P1-01 | **DONE** (`dcee093`, pushed) |
-| P1-03 | Verify Mike's Figma duplicate (read-only) | P0 | P1-01, **Mike provides URL** | **BLOCKED** (waiting on Mike) |
+| P1-03 | Verify Mike's Figma duplicate (read-only) | P0 | P1-01, **Mike provides URL** | **DONE** (`reports/P1-03-duplicate-verification.md`) |
 | P1-04 | Component registry from MAKER-DS-v2 (read-only) | P0 | P1-01 | **DONE** (`6edf894`) |
 | P1-05 | Extended binding scan (spacing, radius, effects, text) | P1 | P1-04 | **DONE** (`cfee6be`) |
 | P1-06 | Figma → registry token mapping report (read-only) | P1 | P1-01 | **DONE** (`d952e7b`) |

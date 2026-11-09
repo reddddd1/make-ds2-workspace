@@ -1,0 +1,1129 @@
+{
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "rootName": "Document",
+ "readAt": "2026-11-09T17:24:45.782Z",
+ "totals": {
+  "pages": 39,
+  "sets": 77,
+  "variants": 1212,
+  "standalone": 18
+ },
+ "publishStatus": {
+  "UNPUBLISHED": 95
+ },
+ "fingerprint": {
+  "collections": [
+   [
+    "_Primitives",
+    309,
+    "Style",
+    "VariableCollectionId:5248:377685"
+   ],
+   [
+    "1. Color modes",
+    292,
+    "Light mode/Dark mode",
+    "VariableCollectionId:5256:372339"
+   ],
+   [
+    "5. Containers",
+    3,
+    "Value",
+    "VariableCollectionId:6283:327807"
+   ],
+   [
+    "4. Widths",
+    12,
+    "Mode 1",
+    "VariableCollectionId:6298:45304"
+   ],
+   [
+    "3. Spacing",
+    17,
+    "Mode 1",
+    "VariableCollectionId:6298:45383"
+   ],
+   [
+    "2. Radius",
+    12,
+    "Mode 1",
+    "VariableCollectionId:6298:46388"
+   ],
+   [
+    "6. Typography",
+    36,
+    "Value",
+    "VariableCollectionId:7403:16248"
+   ]
+  ],
+  "variables": 681,
+  "paintStyles": 393,
+  "textStyles": 65,
+  "effectStyles": 25,
+  "gridStyles": 8
+ },
+ "sampleVariables": {
+  "VariableID:5248:377715": {
+   "name": "Colors/Brand/600",
+   "key": "1c26773fc64decdfbfa267f76805d3a0c4f57e5c",
+   "remote": false
+  },
+  "VariableID:5263:373125": {
+   "name": "Colors/Text/text-error-primary",
+   "key": "f23bdbe244ec5a4810c65e19bf621c31c6dbfc92",
+   "remote": false
+  },
+  "VariableID:6298:46479": {
+   "name": "radius-md",
+   "key": "0742c0fc8e8e7ba6befc543ce59bf5a3e63240f2",
+   "remote": false
+  },
+  "VariableID:5253:372203": {
+   "name": "Spacing/3 (12px)",
+   "key": "402feebfa58428c3f84a073884185c6a5d606a32",
+   "remote": false
+  },
+  "VariableID:7407:110364": {
+   "name": "Font size/text-sm",
+   "key": "7ee4b5198618fd7ce36353ecef204bbeaf4002a9",
+   "remote": false
+  }
+ },
+ "pages": [
+  [
+   "21022:2",
+   "Cover",
+   0,
+   0,
+   0
+  ],
+  [
+   "21022:5083",
+   "Changelog",
+   0,
+   0,
+   0
+  ],
+  [
+   "1624:431457",
+   "\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013",
+   0,
+   0,
+   0
+  ],
+  [
+   "925:34508",
+   "\u2756 Primitives",
+   0,
+   0,
+   0
+  ],
+  [
+   "1023:36350",
+   "\u21b3 Colors",
+   0,
+   0,
+   1
+  ],
+  [
+   "1083:118533",
+   "\u21b3 Logos",
+   3,
+   20,
+   0
+  ],
+  [
+   "18:1951",
+   "\u21b3 Typography",
+   0,
+   0,
+   1
+  ],
+  [
+   "1030:33573",
+   "\u21b3 Effect styles",
+   0,
+   0,
+   2
+  ],
+  [
+   "1054:557",
+   "\u21b3 Design annotations",
+   6,
+   23,
+   2
+  ],
+  [
+   "17540:4651",
+   "\u21b3 Slot (temporary - to be deprecated after native figma slots is introduced)",
+   0,
+   0,
+   1
+  ],
+  [
+   "6452:213971",
+   "\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013",
+   0,
+   0,
+   0
+  ],
+  [
+   "1030:33572",
+   "\u2756 BASE COMPONENTS",
+   0,
+   0,
+   0
+  ],
+  [
+   "1:1183",
+   "\u21b3 Buttons",
+   9,
+   278,
+   0
+  ],
+  [
+   "16:399",
+   "\u21b3 Button groups",
+   2,
+   35,
+   1
+  ],
+  [
+   "21269:1860",
+   "\u21b3 Tab & filter groups",
+   3,
+   14,
+   1
+  ],
+  [
+   "12:539",
+   "\u21b3 Badges",
+   1,
+   27,
+   0
+  ],
+  [
+   "3306:403749",
+   "\u21b3 Tags",
+   2,
+   36,
+   0
+  ],
+  [
+   "18:0",
+   "\u21b3 Dropdowns",
+   3,
+   38,
+   1
+  ],
+  [
+   "85:1269",
+   "\u21b3 Inputs",
+   6,
+   100,
+   0
+  ],
+  [
+   "1102:4631",
+   "\u21b3 Toggles",
+   2,
+   32,
+   0
+  ],
+  [
+   "1097:63638",
+   "\u21b3 Checkboxes",
+   2,
+   136,
+   0
+  ],
+  [
+   "122:3484",
+   "\u21b3 Radio groups",
+   2,
+   116,
+   0
+  ],
+  [
+   "18:1350",
+   "\u21b3 Avatars",
+   5,
+   105,
+   0
+  ],
+  [
+   "1052:485",
+   "\u21b3 Tooltips",
+   2,
+   42,
+   0
+  ],
+  [
+   "1154:89940",
+   "\u21b3 Progress indicators",
+   2,
+   38,
+   0
+  ],
+  [
+   "1086:1423",
+   "\u21b3 Sliders",
+   2,
+   39,
+   0
+  ],
+  [
+   "21132:323",
+   "\u21b3 Navigators",
+   2,
+   7,
+   0
+  ],
+  [
+   "82:1862",
+   "\u21b3 App Navigation",
+   6,
+   40,
+   0
+  ],
+  [
+   "172:4293",
+   "\u21b3 Modals",
+   3,
+   5,
+   0
+  ],
+  [
+   "176:4256",
+   "\u21b3 Alerts & notifications",
+   1,
+   4,
+   0
+  ],
+  [
+   "1143:85678",
+   "\u21b3 Date pickers",
+   5,
+   42,
+   0
+  ],
+  [
+   "1172:32",
+   "\u21b3 Loading indicators",
+   1,
+   8,
+   0
+  ],
+  [
+   "21565:5419",
+   "\u21b3 Label",
+   1,
+   4,
+   0
+  ],
+  [
+   "1172:31",
+   "\u21b3 Empty states",
+   0,
+   0,
+   0
+  ],
+  [
+   "21131:1009",
+   "\u21b3 Illustration and assets",
+   3,
+   15,
+   8
+  ],
+  [
+   "6452:213972",
+   "\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013",
+   0,
+   0,
+   0
+  ],
+  [
+   "1238:52",
+   "\u2756 OTHERS",
+   0,
+   0,
+   0
+  ],
+  [
+   "1291:157819",
+   "\u21b3 Miscellaneous assets",
+   3,
+   8,
+   0
+  ],
+  [
+   "17557:14958",
+   "\u21b3 Archive/Sources/Playground",
+   0,
+   0,
+   0
+  ]
+ ],
+ "sets": [
+  [
+   "1029:37647",
+   "_Swatch base",
+   null,
+   "5465b825",
+   "3d032f65b99962273c1a3dad533d2ec089a9b617",
+   "UNPUBLISHED"
+  ],
+  [
+   "7531:71186",
+   "Partner affiliate logos",
+   4,
+   "7830a5d5",
+   "610d0474a411ba08ccf5cd4d7adc45f4ae3633c9",
+   "UNPUBLISHED"
+  ],
+  [
+   "21465:11",
+   "Logo",
+   8,
+   "4e863d68",
+   "3d999639b8d0bda10be4aa8f7022bc3420e4b200",
+   "UNPUBLISHED"
+  ],
+  [
+   "21465:30",
+   "Logomark",
+   8,
+   "4e863d68",
+   "b49fac9454ef707ec3c98ce8509378835ebb236c",
+   "UNPUBLISHED"
+  ],
+  [
+   "1019:35537",
+   "_Type scale base",
+   null,
+   "5465b825",
+   "3b3dbbb42168d2c213c26300d9430918e16bd754",
+   "UNPUBLISHED"
+  ],
+  [
+   "5253:373419",
+   "_Shadow card",
+   null,
+   "5465b825",
+   "e90b7a5c99b4ffcba1f8e9b8533640718440bd25",
+   "UNPUBLISHED"
+  ],
+  [
+   "5424:399227",
+   "_Focus ring card",
+   null,
+   "5465b825",
+   "ca3702721fbcd70a0fa8d4980dc7103118f80434",
+   "UNPUBLISHED"
+  ],
+  [
+   "1027:9560",
+   "DS note",
+   2,
+   "443477e8",
+   "c496c83bce8a0568411036c3137fa5bb94cc3695",
+   "UNPUBLISHED"
+  ],
+  [
+   "6472:99378",
+   "_Variables icon",
+   2,
+   "806e67a6",
+   "fc8be809d6369b717de0b9c1cefb2891b70fca99",
+   "UNPUBLISHED"
+  ],
+  [
+   "6472:98427",
+   "_Documentation table cell",
+   8,
+   "0ad1b73b",
+   "3348e4829d0d86fafcc1f7b2228a362c20ba7323",
+   "UNPUBLISHED"
+  ],
+  [
+   "9342:257073",
+   "Cursor",
+   7,
+   "fc97d6ff",
+   "31a727336be4241116dec58c1c3c11776212df34",
+   "UNPUBLISHED"
+  ],
+  [
+   "17570:607",
+   "Flow note",
+   2,
+   "84637fce",
+   "41c3b6167db1d5dac0bbb9a60fef16aef83f8ee3",
+   "UNPUBLISHED"
+  ],
+  [
+   "21135:239",
+   "Flow heading",
+   2,
+   "d0c73e3d",
+   "a913c2356c17f5cb6c3a073e4d2bcfd4014b8c8e",
+   "UNPUBLISHED"
+  ],
+  [
+   "1518:345435",
+   "Design system header",
+   null,
+   "5465b825",
+   "4c8d5709057680db5ebe575c4b40cce5979699b2",
+   "UNPUBLISHED"
+  ],
+  [
+   "21231:10266",
+   "Designer area",
+   null,
+   "a5e6f9c1",
+   "39e9d86791cfa5588379bb8c22612184f7dfacc8",
+   "UNPUBLISHED"
+  ],
+  [
+   "17540:4885",
+   "Slot",
+   null,
+   "5465b825",
+   "c774dee721bcfe3fb25ec39b9043727a7a6cf0a6",
+   "UNPUBLISHED"
+  ],
+  [
+   "3287:427074",
+   "Buttons/Button",
+   118,
+   "8a5584cf",
+   "0e6a12a0a252b7fad39fe5e896d0628821ceca3d",
+   "UNPUBLISHED"
+  ],
+  [
+   "17503:16162",
+   "Buttons/Button destructive",
+   68,
+   "54deb4da",
+   "14f815537b90d2150b51e48064b1c375ede6b7b1",
+   "UNPUBLISHED"
+  ],
+  [
+   "1256:130788",
+   "Social button",
+   54,
+   "3628bc8e",
+   "567d3a9c0c814ec80d9298b47b9af1c6f5277be5",
+   "UNPUBLISHED"
+  ],
+  [
+   "1256:132638",
+   "Social button groups",
+   6,
+   "e4c55a73",
+   "5635d3289c6dca3a880c1f20e4c543c1ba1ea734",
+   "UNPUBLISHED"
+  ],
+  [
+   "1303:2162",
+   "Mobile app store badge",
+   12,
+   "6a7b726c",
+   "9aa6d845b713c6cc9883c52c0446bfaa4bdc60a9",
+   "UNPUBLISHED"
+  ],
+  [
+   "8993:429278",
+   "Buttons/Button loading icon",
+   2,
+   "f8814655",
+   "71e0532ed8fe2996094fa3b6d011760b7c122051",
+   "UNPUBLISHED"
+  ],
+  [
+   "17528:1499",
+   "Buttons/Button icon",
+   12,
+   "1096856c",
+   "a92e2042b1c28bc6a0918253066c338a5ff352be",
+   "UNPUBLISHED"
+  ],
+  [
+   "21539:9592",
+   "Buttons/Button action",
+   3,
+   "6670b73e",
+   "720770895fef4d95a541e394a008a0cad255c88e",
+   "UNPUBLISHED"
+  ],
+  [
+   "21543:896",
+   "Buttons/Button navigation",
+   3,
+   "b6bbec98",
+   "7846de5dc94ccc49aca08027475e3372ca6e664c",
+   "UNPUBLISHED"
+  ],
+  [
+   "1046:9312",
+   "_Button group base",
+   32,
+   "17a4256a",
+   "d7949aa5fd7e0817d16ddcd60e0fb20c14703e2c",
+   "UNPUBLISHED"
+  ],
+  [
+   "1046:10171",
+   "Button group",
+   3,
+   "64cdc390",
+   "d122fb77d7e56b95144dfc6be6db7ec268f8cf56",
+   "UNPUBLISHED"
+  ],
+  [
+   "21543:1115",
+   "Navigation button group",
+   null,
+   "5465b825",
+   "8f6952b005daece2fc5d080680f1cdbda685649c",
+   "UNPUBLISHED"
+  ],
+  [
+   "21269:11402",
+   "_Tab button base",
+   8,
+   "06635daf",
+   "0bb4e2eec99ef50ee89108dcf13add725c76936e",
+   "UNPUBLISHED"
+  ],
+  [
+   "21387:5280",
+   "_Filter button base",
+   2,
+   "f4aa3d41",
+   "2102e8299a8141e80aab8d50b6c7af1a10ed8818",
+   "UNPUBLISHED"
+  ],
+  [
+   "21453:537",
+   "Tab group",
+   4,
+   "678513cb",
+   "2df30027f50f6f4f95bb0f27eaf80f69222234b6",
+   "UNPUBLISHED"
+  ],
+  [
+   "21387:9103",
+   "Filter group",
+   null,
+   "5465b825",
+   "e5f2f25c29db5a9fd53340599104fbfbc53cb9f9",
+   "UNPUBLISHED"
+  ],
+  [
+   "17528:20237",
+   "Badge",
+   27,
+   "e19e1e7e",
+   "bfd735b5e0078dc2a6cbde18e6f719e38e618b10",
+   "UNPUBLISHED"
+  ],
+  [
+   "3307:417515",
+   "Tag",
+   30,
+   "f74187ec",
+   "6f3404ca8916cf7eaf289a2eaed4c4b1cf80cea7",
+   "UNPUBLISHED"
+  ],
+  [
+   "3307:417827",
+   "Tag count",
+   6,
+   "e110aad6",
+   "c44ad4812a255f065fb76c84ad302dfe23d88cb8",
+   "UNPUBLISHED"
+  ],
+  [
+   "3281:382793",
+   "_Dropdown list item",
+   11,
+   "2d812385",
+   "e1fb7cdf79acd3ff410d1fc74be34cc8043c4bd9",
+   "UNPUBLISHED"
+  ],
+  [
+   "3281:383083",
+   "Dropdown",
+   2,
+   "214d4ff9",
+   "bb182eb31e4f99d3c518755884c7c1eba86b64ae",
+   "UNPUBLISHED"
+  ],
+  [
+   "3281:377673",
+   "Select",
+   25,
+   "a5182b50",
+   "05b36aa0f4895e81e454936929e5aee593cef712",
+   "UNPUBLISHED"
+  ],
+  [
+   "8003:32901",
+   "_Scroll bar (control fill with bottom padding)",
+   null,
+   "5465b825",
+   "7e4d4eb05d59bedd9805467b516c2c301077d782",
+   "UNPUBLISHED"
+  ],
+  [
+   "1106:66560",
+   "_Mega input field base",
+   12,
+   "38baf488",
+   "cd61fd2b6233e74556013791a20b14264d84f554",
+   "UNPUBLISHED"
+  ],
+  [
+   "1106:66757",
+   "Verification code input field",
+   3,
+   "b1e7cd21",
+   "cbfc4b7ace343e8f52ca5e8a3bd7442c799aeb70",
+   "UNPUBLISHED"
+  ],
+  [
+   "1238:278",
+   "Textarea input field",
+   14,
+   "ab9727f6",
+   "35d7a80a3a9ac67fc9fc350b0f5b74dc31129091",
+   "UNPUBLISHED"
+  ],
+  [
+   "17515:929",
+   "Helper text",
+   15,
+   "aa4da463",
+   "bf7952fd1ce79de1df648c093691016df4f8ea5c",
+   "UNPUBLISHED"
+  ],
+  [
+   "17517:11024",
+   "Input field",
+   53,
+   "667e45ba",
+   "3fed6fe8a62e21c1fd1ce0489160e714f8177e54",
+   "UNPUBLISHED"
+  ],
+  [
+   "17571:10947",
+   "_Input title",
+   3,
+   "d12c392f",
+   "93337ec3e84d8972a76d7930dc59a9a24be3f56d",
+   "UNPUBLISHED"
+  ],
+  [
+   "122:3294",
+   "_Toggle base",
+   16,
+   "af7d6d14",
+   "40da6cb66753b243e63fbf975a9e54e714ab31cb",
+   "UNPUBLISHED"
+  ],
+  [
+   "1102:4208",
+   "Toggle",
+   16,
+   "2b8d2b89",
+   "771ac27a3ae782b829fb3300f546f55223538a71",
+   "UNPUBLISHED"
+  ],
+  [
+   "1097:63652",
+   "Radio / Checkbox",
+   84,
+   "0f95fd94",
+   "ab2ff73a7ee58114896c35e741f62f527647aa8e",
+   "UNPUBLISHED"
+  ],
+  [
+   "1097:63886",
+   "_Checkbox base",
+   52,
+   "1ae970e8",
+   "054026541a7e39e643df4b2b097ce5db391a2503",
+   "UNPUBLISHED"
+  ],
+  [
+   "124:2838",
+   "Radio group item",
+   96,
+   "7141913d",
+   "92166183c6e56d45f959d67dbff6e6601bc564a0",
+   "UNPUBLISHED"
+  ],
+  [
+   "1142:87213",
+   "Radio group",
+   20,
+   "a2028dfe",
+   "ca1f1c3ec7d3f5790869594d83962e953c5828f6",
+   "UNPUBLISHED"
+  ],
+  [
+   "82:2793",
+   "Avatar label group",
+   4,
+   "8c8de619",
+   "1556a138973993e993c13525c609a9380d591ad0",
+   "UNPUBLISHED"
+  ],
+  [
+   "19:1012",
+   "Avatar",
+   80,
+   "ea97afdd",
+   "5b68e3db201fd0bd1bf811130100c6161535a6ab",
+   "UNPUBLISHED"
+  ],
+  [
+   "1036:4",
+   "_Avatar company icon",
+   6,
+   "d2381514",
+   "c26cbeb52908ba1f5db0d5616a979509bd345c7a",
+   "UNPUBLISHED"
+  ],
+  [
+   "1102:4864",
+   "_Avatar add button",
+   12,
+   "516d1312",
+   "55922199c974760104f677c6434d5382b5913bc8",
+   "UNPUBLISHED"
+  ],
+  [
+   "1274:812",
+   "Avatar group",
+   3,
+   "5b745174",
+   "803fb616319dce6ddc20ae8c681ce21d74c7e9cc",
+   "UNPUBLISHED"
+  ],
+  [
+   "1052:489",
+   "Tooltip",
+   14,
+   "cc8a71d6",
+   "5b8305b13684eb7d234d02df237e534e4cf525c9",
+   "UNPUBLISHED"
+  ],
+  [
+   "1054:13",
+   "Help icon",
+   28,
+   "c0b59aae",
+   "038fd2cb52eed36504d12bf805e9b966514b7a84",
+   "UNPUBLISHED"
+  ],
+  [
+   "1085:57382",
+   "Progress bar",
+   33,
+   "a68eeee9",
+   "ff4aaccb73d137bfef79748cf434102a72b6300f",
+   "UNPUBLISHED"
+  ],
+  [
+   "1084:2717",
+   "Progress circle",
+   5,
+   "81ffa585",
+   "d78b1597b0f9fb5125399ed631476b587936c290",
+   "UNPUBLISHED"
+  ],
+  [
+   "1086:534",
+   "Slider",
+   30,
+   "2d0bbc94",
+   "28e0c0049d017dae17b87fbd8c31c6e429c87418",
+   "UNPUBLISHED"
+  ],
+  [
+   "3287:442783",
+   "_Control handle",
+   9,
+   "95f1ed01",
+   "63a54d9f7e42f821b73e5a1008138fe62318d2a5",
+   "UNPUBLISHED"
+  ],
+  [
+   "21132:1691",
+   "_Indicator",
+   2,
+   "daeeadaa",
+   "3e7344f558b964704a5a1cd96a141b4c65504729",
+   "UNPUBLISHED"
+  ],
+  [
+   "21206:142",
+   "Navigator",
+   5,
+   "352a7f0e",
+   "abb6c3018c701fe6dbbbdca85f51178234aad5b9",
+   "UNPUBLISHED"
+  ],
+  [
+   "1157:90307",
+   "_Nav featured card",
+   6,
+   "ed799547",
+   "9b3a0de04811f208fc3e434675e4e7061ffdad24",
+   "UNPUBLISHED"
+  ],
+  [
+   "7891:71338",
+   "_Nav account card menu item",
+   8,
+   "8b939989",
+   "3af8c71e08c8c1ba91351ea0767e792bd341feef",
+   "UNPUBLISHED"
+  ],
+  [
+   "1207:1678",
+   "Header navigation",
+   2,
+   "91469af1",
+   "6dd98f7f8d912090c20cdf70026636a2f0d763ac",
+   "UNPUBLISHED"
+  ],
+  [
+   "1152:89220",
+   "_Nav item base",
+   6,
+   "77d67611",
+   "688d5c3e130d4fa01dd480a8d45969c345ea02c7",
+   "UNPUBLISHED"
+  ],
+  [
+   "1161:14070",
+   "_Application nav menu button",
+   6,
+   "00155cb6",
+   "7508c22cb1ca6bc4a9a0b37de2e8018d2adaebb7",
+   "UNPUBLISHED"
+  ],
+  [
+   "1165:736",
+   "_Nav item button",
+   12,
+   "7caadd1d",
+   "c72bd7278a7618ce5f04a9b43d96658ce958e689",
+   "UNPUBLISHED"
+  ],
+  [
+   "4057:414352",
+   "_Modal actions",
+   3,
+   "e334051a",
+   "a98bb1aec5490a4525fbdc19f374310ce0af2958",
+   "UNPUBLISHED"
+  ],
+  [
+   "4055:413620",
+   "_Modal header",
+   1,
+   "1da5bfb8",
+   "8ba53ef451a530c57e5eff060760c1c8bc569570",
+   "UNPUBLISHED"
+  ],
+  [
+   "4057:415205",
+   "Modal",
+   1,
+   "ff77e4b7",
+   "3e0e0b6ddc2953d43e9beaed6c558bce1d85788e",
+   "UNPUBLISHED"
+  ],
+  [
+   "1130:81134",
+   "Alert",
+   4,
+   "9826916c",
+   "3b5c60ca03f2103c4dc4c67ad1ca8398fd2688dd",
+   "UNPUBLISHED"
+  ],
+  [
+   "1150:62",
+   "_Date picker list item",
+   6,
+   "4eb2a826",
+   "43811a17f882e76964a0eea38e4fff44d62aa997",
+   "UNPUBLISHED"
+  ],
+  [
+   "1150:1925",
+   "_Date picker menu",
+   4,
+   "44384df3",
+   "56a06cec3169bb8bcab47f332a590f6537b8c4c6",
+   "UNPUBLISHED"
+  ],
+  [
+   "7365:57922",
+   "_Calendar cell",
+   12,
+   "beeebcc4",
+   "7197ebaaa976d2e5308352296b60f0e804a638cd",
+   "UNPUBLISHED"
+  ],
+  [
+   "1150:16803",
+   "Date picker dropdown",
+   16,
+   "dc1de710",
+   "cf954fdf3d6dbea589f9ed06dd1d680a2b89b278",
+   "UNPUBLISHED"
+  ],
+  [
+   "1547:269867",
+   "Date picker modal",
+   4,
+   "c14e3a7a",
+   "aa16cf642364a9654d6d596e7b0115e2b4aa3ca6",
+   "UNPUBLISHED"
+  ],
+  [
+   "1192:610",
+   "Loading indicator",
+   8,
+   "864ef64b",
+   "d8632baa726ce3744c429bfae285733abacce0a0",
+   "UNPUBLISHED"
+  ],
+  [
+   "21565:5486",
+   "Textelement",
+   4,
+   "f0fc10bf",
+   "f622a4bb612415084d5773dcd006e224ca27b93e",
+   "UNPUBLISHED"
+  ],
+  [
+   "21218:355",
+   "Illustration wrapper",
+   8,
+   "cd28591b",
+   "56b0420893506f634587c675cb4eaec75de2e806",
+   "UNPUBLISHED"
+  ],
+  [
+   "21474:482",
+   "Virtual card",
+   3,
+   "7aecd136",
+   "d571024e4f83ed0a086b107ca58249201888e260",
+   "UNPUBLISHED"
+  ],
+  [
+   "21509:15249",
+   "Physical card",
+   4,
+   "b4fc95f8",
+   "21b2d8108a2fde6fddd0a5af356be6595c22b0fa",
+   "UNPUBLISHED"
+  ],
+  [
+   "21131:1230",
+   "Illustration/placeholder",
+   null,
+   "5465b825",
+   "392088b67b3e0c9e86171925cf487662fea599ef",
+   "UNPUBLISHED"
+  ],
+  [
+   "21247:1149",
+   "Illustration/blocker",
+   null,
+   "5465b825",
+   "3722e28b35aa64be3efbf68780d1554a626ac6f8",
+   "UNPUBLISHED"
+  ],
+  [
+   "21258:6196",
+   "Illustration/success",
+   null,
+   "5465b825",
+   "c5681a0dc146e49452e73625c054e3416f4a472b",
+   "UNPUBLISHED"
+  ],
+  [
+   "21240:1493",
+   "Illustration/lego",
+   null,
+   "5465b825",
+   "51139281a90785f8998cf47b9e158ef5ac71f3c7",
+   "UNPUBLISHED"
+  ],
+  [
+   "21243:1572",
+   "Illustration/secure",
+   null,
+   "5465b825",
+   "a987aa44a5ec78bfc42e18f45764346cd6811e9c",
+   "UNPUBLISHED"
+  ],
+  [
+   "21320:1880",
+   "Illustration/QR",
+   null,
+   "5465b825",
+   "90dec2674b176cfe448420cdc046d86050639149",
+   "UNPUBLISHED"
+  ],
+  [
+   "21246:1031",
+   "Illustration/Custom img",
+   null,
+   "5465b825",
+   "1d0a268bc598647a89460914fac4b1d1725ae4fc",
+   "UNPUBLISHED"
+  ],
+  [
+   "21181:107",
+   "Empty card",
+   null,
+   "5465b825",
+   "93a245405b2db4d990c6fb369178a8675c8747db",
+   "UNPUBLISHED"
+  ],
+  [
+   "1624:462461",
+   "Divider",
+   1,
+   "fbe393e8",
+   "478538b81caaab5041cc012a610bb6f10adf8cf9",
+   "UNPUBLISHED"
+  ],
+  [
+   "21139:811",
+   "Background overlay",
+   1,
+   "a64a299d",
+   "39c0178b13e36bcf587f2aa329a0afc4380a2a70",
+   "UNPUBLISHED"
+  ],
+  [
+   "21314:754",
+   "Spacer",
+   6,
+   "81e45ef3",
+   "b85b06e2c4aa47e6f83c64d445a8ce267c38c487",
+   "UNPUBLISHED"
+  ]
+ ]
+}

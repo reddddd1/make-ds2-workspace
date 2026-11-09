@@ -15,7 +15,7 @@
 |---|---|---|---|---|
 | P1-01 | Workspace & environment inspection | **DONE** (report in chat, per Mike: no file) | Git state of both repos, token counts (10 approved / 15 proposal token files), Figma MCP account | — |
 | P1-02 | ADR-0011 in `design-tokens` | **DONE**, pushed | `decisions/ADR-0011-duplicate-library-refactoring.md`, one line on ADR-0005 | `dcee093` (token repo) |
-| P1-03 | Verify the Figma duplicate | **BLOCKED** | Waiting for Mike's URL (D-02) | — |
+| P1-03 | Verify the Figma duplicate | **DONE** (after this report) | `reports/P1-03-duplicate-verification.md` — identical copy, unpublished, Icon library not subscribed | (P1-03 commit) |
 | P1-04 | Component registry | **DONE** | `registry/components.json` (95 owners; 68 sets / 1,169 variants / 12 standalone in base scope = audit) | `6edf894` |
 | P1-05 | Extended binding scan | **DONE** | `reports/P1-05-bindings.md`, `bindingScan` in registry | `cfee6be` |
 | P1-06 | Figma → registry token mapping | **DONE** | `reports/P1-06-token-mapping.{md,json}` (681 variables) | `d952e7b` |
@@ -50,7 +50,7 @@
 
 | # | Issue | Owner | Blocks |
 |---|---|---|---|
-| O-1 | Duplicate file not created / URL not provided | Mike | P1-03, all Phase 2 writes |
+| O-1 | ~~Duplicate not provided~~ — resolved 2026-11-09 (P1-03). Remaining: enable MAKER Icon library in the duplicate | Mike | P2-04 icon swaps |
 | O-2 | Proposal 0006 (spacing 2.5/3.5, border-width, component tokens) undecided | Mike | Binding `md` padding and stroke widths |
 | O-3 | Library analytics: Modal / Alert / Button / Input usage in other team files | Mike | Modal slot migration census; impact estimates |
 | O-4 | `design-tokens` commits authored as `mike@MacBook-Air.local` (no repo `user.email`) | Mike | Nothing (attribution only) |

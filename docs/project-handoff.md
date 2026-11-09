@@ -9,11 +9,11 @@
 |---|---|---|
 | Refactoring audit | Complete (`docs/audit.md`) | VERIFIED evidence |
 | Decisions D-01–D-12 | Reconciled (`docs/decisions.md`) | APPROVED / PLANNING / DEFERRED as listed |
-| Phase 1 | **Complete except P1-03** (P1-01, P1-02, P1-04…P1-13 done; see `reports/PHASE-1-REPORT.md`) | APPROVED · VERIFIED |
+| Phase 1 | **Complete** (P1-01…P1-13 done; see `reports/PHASE-1-REPORT.md`, `reports/P1-03-duplicate-verification.md`) | APPROVED · VERIFIED |
 | Phase 2 | **Proposed** (`reports/PHASE-1-REPORT.md` §7, P2-00…P2-08) — awaiting Mike's approval | PROPOSED |
 | Phases 3–4 | Not approved | — |
-| Figma duplicate | **Not yet created by Mike** | BLOCKED (P1-03) |
-| Duplicate URL / file key | _record here when Mike provides it_ | — |
+| Figma duplicate | **MAKER-DS-v2 (WIP Refactor)** — verified identical copy, not published; not yet subscribed to MAKER Icon library (Mike to enable before Phase 2). Read-only until Phase 2 is approved | VERIFIED (P1-03) |
+| Duplicate URL / file key | https://www.figma.com/design/PpnTy1pkB2FTZFq6i6seSy/MAKER-DS-v2--WIP-Refactor- · `PpnTy1pkB2FTZFq6i6seSy` | VERIFIED (P1-03) |
 | Token repo live state | `main` = `origin/main` at `dcee093` (ADR-0011, P1-02); `tokens/` pushed; 10 approved + 15 proposal token files; validator not runnable (no Node.js) | VERIFIED (P1-01, P1-02) |
 | App repo (GitLab) | No access; Claude GitLab connector needs authorization | BLOCKED |
 | Tokens Studio | Free (operating rule); no paid feature needed in Phase 1; scripted sync needs none | UNVERIFIED plan · Unblocked |
@@ -69,7 +69,8 @@ R-PAPER-01, R-PENPOT-01, R-FIGMA-01, R-SLOT-01 (`docs/regression-checks.md`). Re
 | Local `design-tokens` clone | P1-01, P1-02, P1-06 | VERIFIED (P1-01) |
 | Node.js (token validator `npm run check`) | Token changes | Not installed (O-5) |
 | Library analytics (Modal/Alert/Button/Input usage in team files) | P2-07, impact estimates | Waiting on Mike (O-3) |
-| Figma duplicate URL | P1-03 | Waiting on Mike |
+| Figma duplicate URL | P1-03 | VERIFIED (provided 2026-11-09) |
+| MAKER Icon library enabled in the duplicate | P2-04 icon swaps | Waiting on Mike (Figma UI) |
 | GitLab app repo | Phase 2+ (ADR-0009, Code Connect) | BLOCKED |
 | Legacy login screenshots | Fidelity measurement | Waiting on Mike |
 

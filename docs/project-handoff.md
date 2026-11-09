@@ -1,6 +1,7 @@
 # Project handoff — Phase 1
 
 > **Handoff issued 2026-11-09 for Phase 1 only (D-12).** This file lets Claude Code work without the Cowork conversation.
+> **Status updated 2026-11-09 after P1-13** (Phase 1 milestone report: `reports/PHASE-1-REPORT.md`).
 
 ## Current status
 
@@ -8,13 +9,15 @@
 |---|---|---|
 | Refactoring audit | Complete (`docs/audit.md`) | VERIFIED evidence |
 | Decisions D-01–D-12 | Reconciled (`docs/decisions.md`) | APPROVED / PLANNING / DEFERRED as listed |
-| Phase 1 | Approved; first task P1-01 ready | APPROVED |
-| Phases 2–4 | Not approved | — |
+| Phase 1 | **Complete except P1-03** (P1-01, P1-02, P1-04…P1-13 done; see `reports/PHASE-1-REPORT.md`) | APPROVED · VERIFIED |
+| Phase 2 | **Proposed** (`reports/PHASE-1-REPORT.md` §7, P2-00…P2-08) — awaiting Mike's approval | PROPOSED |
+| Phases 3–4 | Not approved | — |
 | Figma duplicate | **Not yet created by Mike** | BLOCKED (P1-03) |
 | Duplicate URL / file key | _record here when Mike provides it_ | — |
-| Token repo live state | Not inspected since 2026-11-08 | UNVERIFIED (P1-01) |
+| Token repo live state | `main` = `origin/main` at `dcee093` (ADR-0011, P1-02); `tokens/` pushed; 10 approved + 15 proposal token files; validator not runnable (no Node.js) | VERIFIED (P1-01, P1-02) |
 | App repo (GitLab) | No access; Claude GitLab connector needs authorization | BLOCKED |
-| Tokens Studio | Free (operating rule); no paid feature needed | UNVERIFIED plan · Unblocked |
+| Tokens Studio | Free (operating rule); no paid feature needed in Phase 1; scripted sync needs none | UNVERIFIED plan · Unblocked |
+| Original library protection | Fingerprint + 180 pilot-variant hashes unchanged at end of Phase 1 (`reports/P1-13/protection-check.md`) | VERIFIED |
 
 ## Identifiers
 
@@ -25,8 +28,8 @@
 | DS library key | "MAKER DS v2" `lk-38bd95fb4c03f746fc5c0fabb50b49c1513fe964066ac7179f2554d3294cfc72d40b5fa681c5a40f0963369ae17ba33af2b93904edc29f648b4088e43bc9691a` | For scoped `search_design_system` |
 | Figma pilot scratch | "DS2 – Figma Pilot – scratch" `uMQLqPDG5I4rZAAHlhpInJ` | 10 login screens, consumer test bed |
 | Penpot scratch | `3681d377-bc58-8110-8008-ea451983d03c` | Synthetic tokens only |
-| Token repo | `github.com/reddddd1/design-tokens` (private); local `~/Documents/Codex/design-tokens` (confirm) | Canonical tokens |
-| This workspace | `~/Documents/Codex/MAKEDSv2-refactor-plan` → `github.com/reddddd1/make-ds2-workspace` (private) | First commit `025c85b` pushed |
+| Token repo | `github.com/reddddd1/design-tokens` (private); local `~/Documents/Codex/design-tokens` (VERIFIED, P1-01) | Canonical tokens; ADR-0011 added (P1-02) |
+| This workspace | `~/Documents/Codex/MAKEDSv2-refactor-plan` → `github.com/reddddd1/make-ds2-workspace` (private) | One commit per Phase 1 task (`git log`) |
 
 ### Pilot component references (original library)
 
@@ -34,9 +37,9 @@
 |---|---|---|
 | Buttons/Button | `3287:427074` (page `1:1183`) | 118 |
 | Buttons/Button destructive | `17503:16162` | 68 |
-| Input field | page `85:1269` | 53 |
-| Modal / _Modal header / _Modal actions | page `172:4293`; legacy `Slot` component `17540:4885` | 1 / 1 / 3 |
-| Alert | page `176:4256` | 4 |
+| Input field | `17517:11024` (page `85:1269`) | 53 |
+| Modal / _Modal header / _Modal actions | `4057:415205` / `4055:413620` / `4057:414352` (page `172:4293`); legacy `Slot` component `17540:4885` | 1 / 1 / 3 |
+| Alert | `1130:81134` (page `176:4256`) | 4 |
 
 ## Pilot findings carried forward
 
@@ -46,14 +49,26 @@
 
 ## Known regressions to guard against
 
-R-PAPER-01, R-PENPOT-01, R-FIGMA-01, R-SLOT-01 (`docs/regression-checks.md`).
+R-PAPER-01, R-PENPOT-01, R-FIGMA-01, R-SLOT-01 (`docs/regression-checks.md`). Read-only checkers: `scripts/regression/` (P1-08); they must set `figma.skipInvisibleInstanceChildren = false`.
+
+## Phase 1 outputs to start from
+
+| Need | File |
+|---|---|
+| Component inventory | `registry/components.json` (+ `bindingScan`) |
+| Token mapping / sync | `reports/P1-06-token-mapping.md`, `docs/token-sync-spec.md` (APPROVED), `reports/P1-09-dryrun/` |
+| Component colours | `docs/component-colours.md` |
+| Pilot plans | `docs/pilot-button-input.md`, `docs/pilot-modal-slot.md`, `docs/pilot-alert.md` |
+| Open issues and decisions | `reports/PHASE-1-REPORT.md` §4–§5 |
 
 ## Access requirements
 
 | Need | For | Status |
 |---|---|---|
-| Figma MCP in Claude Code Desktop (read access to the library, icon library, scratch file) | P1-03…P1-12 | Check in P1-01 |
-| Local `design-tokens` clone | P1-01, P1-02, P1-06 | Check in P1-01 |
+| Figma MCP in Claude Code Desktop (read access to the library, icon library, scratch file) | P1-03…P1-12 | VERIFIED (P1-01: Full seat, MAKE Design; reads used through P1-13) |
+| Local `design-tokens` clone | P1-01, P1-02, P1-06 | VERIFIED (P1-01) |
+| Node.js (token validator `npm run check`) | Token changes | Not installed (O-5) |
+| Library analytics (Modal/Alert/Button/Input usage in team files) | P2-07, impact estimates | Waiting on Mike (O-3) |
 | Figma duplicate URL | P1-03 | Waiting on Mike |
 | GitLab app repo | Phase 2+ (ADR-0009, Code Connect) | BLOCKED |
 | Legacy login screenshots | Fidelity measurement | Waiting on Mike |

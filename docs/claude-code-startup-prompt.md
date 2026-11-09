@@ -1,5 +1,7 @@
 # Claude Code startup prompt — P1-01 only
 
+> **Historical (2026-11-09).** This is the prompt prepared before Phase 1. When P1-01 ran, Mike's actual instruction was not to modify any files, so the P1-01 findings were reported in chat and `reports/P1-01-environment.md` was not created. Phase 1 is now complete except P1-03; see `reports/PHASE-1-REPORT.md`.
+
 Open `~/Documents/Codex/MAKEDSv2-refactor-plan` in Claude Code Desktop and paste:
 
 ```text

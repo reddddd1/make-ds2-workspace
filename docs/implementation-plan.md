@@ -3,6 +3,7 @@
 > **Phase 1 is APPROVED (D-12, Mike, 2026-11-09). Phases 2–4 are NOT approved.**
 > Phase 1 = safe foundations: inspection, validation, documentation and explicitly approved preparation. **No component refactoring, no token or variable writes, no bulk migration, no publishing.**
 > Work the tasks **one at a time, in order**. Stop and report after each task; start the next only when Mike says so.
+> **Status 2026-11-09:** Phase 1 complete except P1-03 (blocked). Milestone report and Phase 2 proposal: `reports/PHASE-1-REPORT.md`.
 
 ## Global rules for every Phase 1 task
 
@@ -17,19 +18,19 @@
 
 | ID | Task | Priority | Depends on | Status |
 |---|---|---|---|---|
-| **P1-01** | Workspace & environment inspection (read-only) | P0 | — | **READY — first task** |
-| P1-02 | Record ADR-0011 (D-01) in `design-tokens/DECISIONS.md` | P0 | P1-01 | Ready after P1-01 |
-| P1-03 | Verify Mike's Figma duplicate (read-only) | P0 | P1-01, **Mike provides URL** | BLOCKED (waiting on Mike) |
-| P1-04 | Component registry from MAKER-DS-v2 (read-only) | P0 | P1-01 | Ready after P1-01 |
-| P1-05 | Extended binding scan (spacing, radius, effects, text) | P1 | P1-04 | |
-| P1-06 | Figma → registry token mapping report (read-only) | P1 | P1-01 | |
-| P1-07 | Inventory of the 171 component-level colours (D-05) | P1 | P1-06 | |
-| P1-08 | Read-only regression checkers | P0 | P1-04 | |
-| P1-09 | Token-sync validation spec + read-only dry-run (D-03) | P1 | P1-06; **Mike approves spec before dry-run code** | |
-| P1-10 | Button & Input field pilot plan (D-04) | P1 | P1-04, P1-05 | |
-| P1-11 | Modal native-Slot feasibility (D-06) | P1 | P1-04 | |
-| P1-12 | Alert pilot plan (D-07) | P2 | P1-04 | |
-| P1-13 | Phase 1 milestone report + Phase 2 proposal | P0 | all above | |
+| **P1-01** | Workspace & environment inspection (read-only) | P0 | — | **DONE** (report in chat, no file — per Mike) |
+| P1-02 | Record ADR-0011 (D-01) in `design-tokens` (`decisions/ADR-0011-*.md`; the repo has no `DECISIONS.md`) | P0 | P1-01 | **DONE** (`dcee093`, pushed) |
+| P1-03 | Verify Mike's Figma duplicate (read-only) | P0 | P1-01, **Mike provides URL** | **BLOCKED** (waiting on Mike) |
+| P1-04 | Component registry from MAKER-DS-v2 (read-only) | P0 | P1-01 | **DONE** (`6edf894`) |
+| P1-05 | Extended binding scan (spacing, radius, effects, text) | P1 | P1-04 | **DONE** (`cfee6be`) |
+| P1-06 | Figma → registry token mapping report (read-only) | P1 | P1-01 | **DONE** (`d952e7b`) |
+| P1-07 | Inventory of the 171 component-level colours (D-05) | P1 | P1-06 | **DONE** (`68ce0bb`) |
+| P1-08 | Read-only regression checkers | P0 | P1-04 | **DONE** (`a7331e4`) |
+| P1-09 | Token-sync validation spec + read-only dry-run (D-03) | P1 | P1-06; **Mike approves spec before dry-run code** | **DONE** — spec approved by Mike (`328f299`) |
+| P1-10 | Button & Input field pilot plan (D-04) | P1 | P1-04, P1-05 | **DONE** (`1fadbcf`) |
+| P1-11 | Modal native-Slot feasibility (D-06) | P1 | P1-04 | **DONE** (`c9523e9`) |
+| P1-12 | Alert pilot plan (D-07) | P2 | P1-04 | **DONE** (`6205dbd`) |
+| P1-13 | Phase 1 milestone report + Phase 2 proposal | P0 | all above | **DONE** (`039f95e`) |
 
 **Mike-owned (not for Claude Code):** create the duplicate (D-02) · decide Proposal 0006 · confirm MAKE is fine with design data in a personal GitHub account · supply legacy login screenshots · authorise GitLab access.
 
@@ -41,9 +42,9 @@
 |---|---|
 | **Objective** | Confirm Claude Code has everything Phase 1 needs, and record the real state of this workspace and the token repo |
 | **Dependencies** | None |
-| **Affected assets** | Read: this workspace, `~/Documents/Codex/design-tokens` (path per ADR-0002; confirm), Figma MCP connection. Write: `reports/P1-01-environment.md` only |
+| **Affected assets** | Read: this workspace, `~/Documents/Codex/design-tokens` (local clone of the ADR-0010 canonical repo; confirmed in P1-01), Figma MCP connection. Write: `reports/P1-01-environment.md` only |
 | **Required tools** | git, shell (read commands), Node/npm (version check only), Figma MCP (`whoami`, read-only) |
-| **Proposed operations** | 1. Read `CLAUDE.md` and all `docs/`. 2. `git status`, `git log`, `git remote -v` here; list the handoff files that are uncommitted. 3. Locate `design-tokens`; report remote URL, branch, last commits, `git status`, whether `tokens/` is committed and pushed (compare `HEAD` with `origin/main` without fetching changes into the working tree; `git fetch` is allowed), counts of token files in `tokens/` vs `proposals/`. 4. If `node_modules` already exists there, run its validator (`npm run check` or the documented equivalent) and record the result; **if not, don't install — report it**. 5. Check Figma MCP availability (`whoami`); don't open any file yet. 6. Check required docs exist (list in §Handoff checklist). 7. Write the report |
+| **Proposed operations** | 1. Read `CLAUDE.md` and all `docs/`. 2. `git status`, `git log`, `git remote -v` here; list the handoff files that are uncommitted. 3. Locate `design-tokens`; report remote URL, branch, last commits, `git status`, whether `tokens/` is committed and pushed (compare `HEAD` with `origin/main` without fetching changes into the working tree; `git fetch` is allowed), counts of token files in `tokens/` vs `proposals/`. 4. If `node_modules` already exists there, run its validator (`npm run check` or the documented equivalent) and record the result; **if not, don't install — report it**. 5. Check Figma MCP availability (`whoami`); don't open any file yet. 6. Check the docs listed in `CLAUDE.md` → Docs exist. 7. Write the report |
 | **Acceptance criteria** | Report contains: workspace git state; token repo remote/branch/HEAD vs origin; token counts; validator result or "not run (deps missing)"; Figma MCP status and account; list of missing access; subscription status block. **No file outside `reports/` changed; no file in `design-tokens` changed** (`git status` clean before and after) |
 | **Validation** | Show `git status` of both repos before and after; diff of this workspace = only the new report (plus the uncommitted handoff files already present) |
 | **Rollback** | Delete `reports/P1-01-environment.md` |
@@ -56,12 +57,12 @@
 |---|---|
 | **Objective** | Make D-01 part of the canonical decision record |
 | **Dependencies** | P1-01 (repo state known, clean working tree) |
-| **Affected assets** | `design-tokens/DECISIONS.md` only (append ADR-0011 text from `docs/decisions.md` §2; add "Amended by ADR-0011" under ADR-0005 status) |
+| **Affected assets** | `design-tokens/decisions/` only: new `ADR-0011-duplicate-library-refactoring.md` (text from `docs/decisions.md` §2) and an "Amended by: ADR-0011" line under ADR-0005's status. (Originally written as `DECISIONS.md`; the repo keeps one file per ADR — corrected in P1-01/P1-02 with Mike's approval.) |
 | **Required tools** | git, editor |
 | **Proposed operations** | Edit the file; show the diff; on Mike's OK, commit on `main` with message "docs: ADR-0011 duplicate-library refactoring (D-01)"; push only on separate OK after the ADR-0010 push checks |
-| **Acceptance criteria** | Diff touches only `DECISIONS.md`; ADR-0005 text otherwise unchanged; validator still passes (if runnable) |
+| **Acceptance criteria** | Diff touches only the two ADR files in `decisions/`; ADR-0005 text otherwise unchanged; validator still passes (if runnable) |
 | **Validation** | `git diff --stat` = 1 file; re-read the file |
-| **Rollback** | `git restore DECISIONS.md` before commit, or `git revert` after |
+| **Rollback** | `git restore` / delete the ADR files before commit, or `git revert dcee093` after |
 | **Approval** | D-01 approved the content. Commit and push each need Mike's confirmation |
 | **Risks / effort** | Low. ~10 min |
 

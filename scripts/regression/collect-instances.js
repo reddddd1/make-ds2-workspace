@@ -7,6 +7,10 @@
 // node's effective mode (variable.resolveForConsumer) in this call.
 // Mutation review: only getNodeByIdAsync, loadAsync, findAllWithCriteria, getMainComponentAsync,
 // variables getters, resolveForConsumer and property reads. Instances inside component definitions are skipped.
+// E2 (P2-00): per instance, textHash = every text layer's characters (by path, nested instances included) and
+// overrideHash = every nested instance's main component (remote key, or local set > variant name), so a lost
+// text override or a swapped/reset nested component fails the check. propsHash records the instance's own
+// component property values (informational: adding a property changes it by design).
 const PAGE_ID = '__PAGE_ID__', RUN = '__RUN__', FRAME_IDS = null, DETAIL = [], LIMIT = 48000;
 const ICON_SET_KEYS = ['b8295cee7375c7b7216cb412047f771ce86fbf9d'];
 // skipInvisibleInstanceChildren is a plugin-runtime option, not stored in the file: with the default (true) hidden
@@ -47,6 +51,17 @@ function structure(n, path, acc, depth) {
   if (n.type === 'INSTANCE' && depth > 0) return;
   if ('children' in n) n.children.forEach((c, i) => structure(c, path + '.' + i, acc, depth + 1));
 }
+async function overrides(inst) {
+  const texts = [], comps = [];
+  async function walk(n, path) {
+    if (n.type === 'TEXT') texts.push(path + '|' + fnv(n.characters));
+    if (n.type === 'INSTANCE' && path !== '0') { const m = await n.getMainComponentAsync(); const ms = m && m.parent && m.parent.type === 'COMPONENT_SET' ? m.parent : m; comps.push(path + '|' + (!m ? 'null' : m.remote ? 'remote:' + m.key : 'local:' + ms.name + '>' + m.name)); }
+    if ('children' in n) for (let i = 0; i < n.children.length; i++) await walk(n.children[i], path + '.' + i);
+  }
+  await walk(inst, '0');
+  const props = Object.keys(inst.componentProperties || {}).sort().map(k => k.split('#')[0] + '=' + String(inst.componentProperties[k].value));
+  return { texts: texts.length, textHash: fnv(texts.join('\n')), nested: comps.length, overrideHash: fnv(comps.join('\n')), propsHash: fnv(props.join('\n')) };
+}
 function diff(a, b) { const m = new Map(); a.forEach(x => m.set(x, (m.get(x) || 0) + 1)); const out = []; b.forEach(x => { if (m.get(x)) m.set(x, m.get(x) - 1); else out.push(x); }); return out; }
 async function linkState(mc) { if (!mc) return 'detached-or-missing'; if (mc.remote) return 'linked-remote'; return mc.parent ? 'linked-local' : 'orphan'; }
 async function icons(inst, stats) {
@@ -80,7 +95,7 @@ for (const f of frames) {
     const set = mc && mc.parent && mc.parent.type === 'COMPONENT_SET' ? mc.parent : mc;
     const row = { id: inst.id, name: inst.name, main: mc ? (set.name + (set !== mc ? ' › ' + mc.name : '')) : null, mainKey: mc ? mc.key : null,
       link: await linkState(mc), missing: missing.length, extra: extra.length, missingEx: missing.slice(0, 3), extraEx: extra.slice(0, 3),
-      bindings: lines.length, bindHash: fnv(lines.join('\n')), icons: [ic.wrappers, ic.wrappersLib, ic.glyphs, ic.glyphsLib], badIcons: ic.badGlyphs.slice(0, 5) };
+      bindings: lines.length, bindHash: fnv(lines.join('\n')), ...(await overrides(inst)), icons: [ic.wrappers, ic.wrappersLib, ic.glyphs, ic.glyphsLib], badIcons: ic.badGlyphs.slice(0, 5) };
     if (DETAIL.includes(inst.id)) row.lines = lines;
     rows.push(row);
   }
@@ -88,6 +103,6 @@ for (const f of frames) {
   for (const [colId, modeId] of Object.entries(f.explicitVariableModes || {})) { const c = await collection(colId); const m = c && c.modes.find(x => x.modeId === modeId); modes.push((c ? c.name : colId) + '=' + (m ? m.name : modeId)); }
   screens.push({ id: f.id, name: f.name, explicitModes: modes, ownBindings: own.length, ownHash: fnv(own.join('\n')), instances: rows });
 }
-const r = { check: 'instances', run: RUN, fileKey: figma.fileKey, page: page.name, readAt: new Date().toISOString(), iconSetKeys: ICON_SET_KEYS, screens };
+const r = { check: 'instances', version: 'E2', run: RUN, fileKey: figma.fileKey, page: page.name, readAt: new Date().toISOString(), iconSetKeys: ICON_SET_KEYS, screens };
 const size = JSON.stringify(r).length;
 return size > LIMIT ? { oversize: size, perScreen: screens.map(s => [s.name, JSON.stringify(s).length]) } : r;

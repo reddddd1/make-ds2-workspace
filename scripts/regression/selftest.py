@@ -4,7 +4,7 @@
 Takes the real baseline/current snapshots, writes deliberately mismatched JSON copies (one per scenario)
 into <out>/selftest/, runs compare.py on each and asserts the expected verdict and failing check.
 
-Usage: python3 -I scripts/regression/selftest.py reports/P1-08-regression
+Usage: python3 -I scripts/regression/selftest.py reports/P2-00-regression   (P1-08 snapshots: scenarios 1-7 only)
 """
 import copy, json, os, subprocess, sys
 
@@ -81,6 +81,38 @@ results.append(run('icon-source-local', os.path.join(S, ib), write('icons-curren
 sb, sc = 'slots-library-baseline.json', 'slots-library-current.json'
 b = load(sb); b['instances'][0]['slotHash'] = '11111111'; b['instanceCount'] = 2
 results.append(run('r-slot-01-content-and-count', write('r-slot-01-baseline.json', b), os.path.join(S, sc), 'FAIL', 'slot content preserved'))
+
+# --- P2-00 scenarios (only with E1/E2/E3 snapshots) ---
+def run_code(name, base, cur, code, extra=()):
+    out = os.path.join(T, name)
+    p = subprocess.run([sys.executable, '-I', CMP, base, cur, '--out', out, *extra], capture_output=True, text=True)
+    return {'scenario': name, 'expected': f'exit {code}', 'got': f'exit {p.returncode}', 'ok': p.returncode == code, 'failedChecks': [p.stdout.strip()[:200]]}
+
+
+if load(ic).get('version') == 'E2':
+    # 8. E2: a text override lost (button label reset to the main component's text) on one instance.
+    c = load(ic); inst = next(i for s in c['screens'] for i in s['instances'] if i['name'] == 'Buttons/Button'); inst['textHash'] = '00000000'
+    results.append(run('e2-text-override-lost', os.path.join(S, ib), write('e2-text-current.json', c), 'FAIL', 'E2 text content'))
+    # 9. E2: a nested component swapped/reset (e.g. leading icon back to the default glyph).
+    c = load(ic); inst = next(i for s in c['screens'] for i in s['instances'] if i['nested']); inst['overrideHash'] = '00000000'
+    results.append(run('e2-nested-override-lost', os.path.join(S, ib), write('e2-nested-current.json', c), 'FAIL', 'E2 text content'))
+if load(sc).get('version') == 'E3':
+    # 10. E3: after migration, a native slot whose content differs from the baseline.
+    b = load(sb); c = load(sc)
+    b['instances'][0]['slots'] = [{'name': 'Body', 'children': 1, 'hash': 'aaaaaaaa', 'nodes': 3, 'limitViolations': []}]
+    c['instances'][0]['slots'] = [{'name': 'Body', 'children': 1, 'hash': 'bbbbbbbb', 'nodes': 3, 'limitViolations': []}]
+    results.append(run('e3-slot-content-changed', write('e3-base.json', b), write('e3-cur.json', c), 'FAIL', 'native slot content preserved'))
+    # 11. E3: slot content equal but limitViolations non-empty (e.g. minChildren 1, slot emptied).
+    c['instances'][0]['slots'][0]['hash'] = 'aaaaaaaa'; c['instances'][0]['slots'][0]['limitViolations'] = [{'type': 'MIN_CHILDREN'}]
+    results.append(run('e3-limit-violation', write('e3-base.json', b), write('e3-cur-lv.json', c), 'FAIL', 'limitViolations empty'))
+if load(vb).get('version') == 'E1':
+    # 12. Snapshots from different collector versions are refused (exit 2), never silently compared.
+    c = load(vc); c.pop('version')
+    results.append(run_code('version-mismatch-refused', os.path.join(S, vb), write('version-current.json', c), 2))
+    # 13. Cross-file without --cross-file is refused; with it, original vs duplicate pilot sets PASS (P1-03 identity).
+    if os.path.exists(os.path.join(S, 'variants-original-protection.json')):
+        results.append(run_code('cross-file-refused-without-flag', os.path.join(S, 'variants-original-protection.json'), os.path.join(S, vb), 2))
+        results.append(run_code('cross-file-original-vs-duplicate', os.path.join(S, 'variants-original-protection.json'), os.path.join(S, vb), 0, ['--cross-file']))
 
 json.dump(results, open(os.path.join(T, 'selftest-results.json'), 'w'), ensure_ascii=False, indent=1)
 for r in results: print(('OK  ' if r['ok'] else 'BAD ') + f"{r['scenario']}: expected {r['expected']}, got {r['got']}" + (f" — {r['failedChecks'][0][:150]}" if r['failedChecks'] else ''))

@@ -1,0 +1,11 @@
+{
+ "sets": {
+  "Buttons/Button": {
+   "scope": {
+    "Hierarchy": [
+     "Primary"
+    ]
+   }
+  }
+ }
+}

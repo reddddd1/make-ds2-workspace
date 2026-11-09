@@ -6,7 +6,11 @@
 // and a hash of the slot region's structure (what a migration must preserve).
 // Mutation review: only getNodeByIdAsync, loadAsync, findAllWithCriteria, getInstancesAsync,
 // getMainComponentAsync and property reads. Never calls createSlot or any setter.
-const SET_KEY = 'dac269c2f44bb35a05ce44f3b985285788201c98', SET_ID = null, RUN = '__RUN__', LIMIT = 48000;
+// E3 (P2-00): also finds native SLOT nodes inside each instance (after migration) and records per slot its
+// name, child count, children signature hash and SlotNode.limitViolations. The legacy region is found by
+// layer name (Slot / Drawer content / Body). SET_KEY differs per file (keys change in a copy, P1-03):
+// original Modal dac269c2…, duplicate Modal 3e0e0b6d… (see README); in the library file prefer SET_ID.
+const SET_KEY = '__SET_KEY__', SET_ID = null, RUN = '__RUN__', LIMIT = 48000;
 // skipInvisibleInstanceChildren is a plugin-runtime option, not stored in the file: with the default (true) hidden
 // layers inside instances are omitted from reads, which makes instance and main trees incomparable.
 figma.skipInvisibleInstanceChildren = false;
@@ -37,12 +41,18 @@ for (const i of instances) {
     if (v.type === 'INSTANCE_SWAP') { const n = await figma.getNodeByIdAsync(v.value); props[k.split('#')[0]] = 'swap:' + (n ? n.name + '/' + (n.key || '') : v.value); }
     else if (v.type === 'SLOT') props[k.split('#')[0]] = 'slot:' + JSON.stringify(v.value);
   }
-  const region = i.findOne(n => /^(Slot|Drawer content)$/i.test(n.name)) || null;
+  const region = i.findOne(n => n.type !== 'SLOT' && /^(Slot|Drawer content|Body)$/i.test(n.name)) || null;
+  const slots = [];
+  for (const sl of i.findAll(n => n.type === 'SLOT')) {
+    const sa = []; (sl.children || []).forEach((c, k) => sig(c, String(k), sa));
+    slots.push({ name: sl.name, children: (sl.children || []).length, hash: fnv(sa.join('\n')), nodes: sa.length,
+      limitViolations: 'limitViolations' in sl ? sl.limitViolations : 'n/a (API not present)' });
+  }
   const acc = []; if (region) sig(region, '0', acc);
   rows.push({ id: i.id, page: pg ? pg.name : null, linked: !!mc, remote: mc ? mc.remote : null, mainName: mc ? mc.name : null,
-    props, slotRegion: region ? region.name + ' (' + region.type + ')' : null, slotHash: fnv(acc.join('\n')), slotNodes: acc.length,
+    props, slots, slotRegion: region ? region.name + ' (' + region.type + ')' : null, slotHash: fnv(acc.join('\n')), slotNodes: acc.length,
     limitViolations: 'limitViolations' in i ? i.limitViolations : 'n/a (API not present)' });
 }
-const r = { check: 'slots', run: RUN, fileKey: figma.fileKey, readAt: new Date().toISOString(), setKey: SET_KEY, method, instanceCount: rows.length, instances: rows };
+const r = { check: 'slots', version: 'E3', run: RUN, fileKey: figma.fileKey, readAt: new Date().toISOString(), setKey: SET_KEY, method, instanceCount: rows.length, instances: rows };
 const size = JSON.stringify(r).length;
 return size > LIMIT ? { oversize: size, count: rows.length } : r;

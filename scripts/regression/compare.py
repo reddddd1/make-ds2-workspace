@@ -18,6 +18,10 @@ instances (linkage, R-FIGMA-01, R-PENPOT-01, icon source): same screens and inst
           effective values) identical; screen modes identical; every icon wrapper and glyph from the library.
 slots     (R-SLOT-01): same instance count; every instance linked; property values and slot-region hash
           per instance unchanged; limitViolations empty (or API not present).
+          E3: native SLOT nodes per instance (name, children, hash) unchanged unless spec allowSlotChange,
+          and every SlotNode's limitViolations empty.
+E2 (instances): text content hash and nested-component override hash per instance unchanged.
+Snapshots from different collector versions are refused (exit 2); --cross-file compares two files.
 """
 import argparse, json, sys
 
@@ -109,6 +113,9 @@ def cmp_instances(b, c, spec, R):
                 if bb and bb.get('icons') == i['icons']: R.known(f"[{nm}] icons {msg} (already in baseline)")
                 else: icon_bad.append(msg)
             if bb and bb['icons'] != i['icons']: icon_bad.append(f"{i['name']}: icon counts {bb['icons']} → {i['icons']}")
+        ov_bad = [f"{i['name']} ({k}: {bb[k]}→{i[k]})" for iid, i in ci.items() for bb in [bi.get(iid) or {}] for k in ('textHash', 'overrideHash', 'texts', 'nested') if k in bb and k in i and bb[k] != i[k]]
+        if any('textHash' in i for i in ci.values()):
+            R.check(f'[{nm}] E2 text content and nested-component overrides preserved', not ov_bad, '; '.join(ov_bad[:5]))
         R.check(f'[{nm}] linkage: no new orphan/detached instance', not bad_link, '; '.join(bad_link[:5]))
         R.check(f'[{nm}] R-FIGMA-01 instance layer tree = main (no new divergence)', not figma01, '; '.join(figma01[:3]))
         R.check(f'[{nm}] R-PENPOT-01 bindings + Light/Dark/effective values unchanged', not bind_bad, '; '.join(bind_bad[:5]))
@@ -127,10 +134,20 @@ def cmp_slots(b, c, spec, R):
             R.check(f'{tag} present in baseline', False, 'new instance'); continue
         R.check(f'{tag} property values unchanged', bb['props'] == i['props'], f"{bb['props']} → {i['props']}" if bb['props'] != i['props'] else json.dumps(i['props'], ensure_ascii=False))
         R.check(f'{tag} slot content preserved', bb['slotHash'] == i['slotHash'], f"{i['slotRegion']}, {i['slotNodes']} nodes")
+        if 'slots' in bb or 'slots' in i:
+            bsl = [(x['name'], x['hash'], x['children']) for x in bb.get('slots', [])]; csl = [(x['name'], x['hash'], x['children']) for x in i.get('slots', [])]
+            R.check(f'{tag} native slot content preserved (E3)', bsl == csl or (a_allow_slot_change(spec) and bool(csl)), f'{bsl} → {csl}' if bsl != csl else f'{len(csl)} slot(s)')
+            for x in i.get('slots', []):
+                v = x['limitViolations']
+                R.check(f"{tag} slot '{x['name']}' limitViolations empty", v in ([], None) or (isinstance(v, str) and v.startswith('n/a')), str(v))
         lv = i['limitViolations']
         R.check(f'{tag} limitViolations empty', lv in ([], None) or (isinstance(lv, str) and lv.startswith('n/a')), str(lv))
     for k in bi:
         if k not in {i['id'] for i in c['instances']}: R.check(f"[{bi[k]['page']} · {k}] still present", False, 'instance missing')
+
+
+def a_allow_slot_change(spec):
+    return bool(spec and spec.get('allowSlotChange'))
 
 
 class Result:
@@ -142,12 +159,14 @@ class Result:
 
 
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument('baseline'); ap.add_argument('current'); ap.add_argument('--spec'); ap.add_argument('--out')
+    ap = argparse.ArgumentParser(); ap.add_argument('baseline'); ap.add_argument('current'); ap.add_argument('--spec'); ap.add_argument('--out'); ap.add_argument('--cross-file', action='store_true', help='allow baseline and current from different files (e.g. original vs duplicate); needs E1+ snapshots')
     a = ap.parse_args()
     b, c = json.load(open(a.baseline)), json.load(open(a.current))
     spec = json.load(open(a.spec)) if a.spec else None
     if b.get('check') != c.get('check'): print('baseline and current come from different collectors'); sys.exit(2)
-    if b.get('fileKey') != c.get('fileKey'): print('baseline and current come from different files'); sys.exit(2)
+    if b.get('fileKey') != c.get('fileKey') and not a.cross_file: print('baseline and current come from different files (use --cross-file)'); sys.exit(2)
+    if b.get('version') != c.get('version'): print(f"collector versions differ: {b.get('version')} vs {c.get('version')} — re-baseline with the same collector"); sys.exit(2)
+    if a.cross_file and c['check'] == 'variants' and not c.get('version'): print('--cross-file needs E1 (file-independent) variant snapshots'); sys.exit(2)
     R = Result()
     {'variants': cmp_variants, 'instances': cmp_instances, 'slots': cmp_slots}[c['check']](b, c, spec, R)
     fails = [r for r in R.rows if not r['pass']]

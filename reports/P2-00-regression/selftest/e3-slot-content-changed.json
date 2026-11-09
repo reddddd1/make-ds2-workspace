@@ -1,0 +1,46 @@
+{
+ "check": "slots",
+ "verdict": "FAIL",
+ "baseline": "reports/P2-00-regression/selftest/e3-base.json",
+ "current": "reports/P2-00-regression/selftest/e3-cur.json",
+ "spec": null,
+ "rows": [
+  {
+   "check": "instance count unchanged",
+   "pass": true,
+   "detail": "1 → 1 (getInstancesAsync)"
+  },
+  {
+   "check": "[      ↳ Modals · 17546:4435] linked",
+   "pass": true,
+   "detail": "Type=Default slotted"
+  },
+  {
+   "check": "[      ↳ Modals · 17546:4435] property values unchanged",
+   "pass": true,
+   "detail": "{\"Drawer content\": \"swap:Slot/c774dee721bcfe3fb25ec39b9043727a7a6cf0a6\"}"
+  },
+  {
+   "check": "[      ↳ Modals · 17546:4435] slot content preserved",
+   "pass": true,
+   "detail": "Slot (INSTANCE), 1 nodes"
+  },
+  {
+   "check": "[      ↳ Modals · 17546:4435] native slot content preserved (E3)",
+   "pass": false,
+   "detail": "[('Body', 'aaaaaaaa', 1)] → [('Body', 'bbbbbbbb', 1)]"
+  },
+  {
+   "check": "[      ↳ Modals · 17546:4435] slot 'Body' limitViolations empty",
+   "pass": true,
+   "detail": "[]"
+  },
+  {
+   "check": "[      ↳ Modals · 17546:4435] limitViolations empty",
+   "pass": true,
+   "detail": "n/a (API not present)"
+  }
+ ],
+ "totals": null,
+ "knownIssues": []
+}

@@ -1,0 +1,420 @@
+{
+ "check": "instances",
+ "verdict": "FAIL",
+ "baseline": "reports/P2-00-regression/snapshots/instances-scratch-baseline.json",
+ "current": "reports/P2-00-regression/selftest/e2-text-current.json",
+ "spec": null,
+ "rows": [
+  {
+   "check": "same screens",
+   "pass": true,
+   "detail": "baseline 10, current 10"
+  },
+  {
+   "check": "[L3 Sign in — loading (AI generated)] explicit modes unchanged",
+   "pass": true,
+   "detail": "none (inherits default)"
+  },
+  {
+   "check": "[L3 Sign in — loading (AI generated)] screen-level bindings unchanged (R-PENPOT-01)",
+   "pass": true,
+   "detail": "33 → 33"
+  },
+  {
+   "check": "[L3 Sign in — loading (AI generated)] instance count unchanged",
+   "pass": true,
+   "detail": "8 → 8"
+  },
+  {
+   "check": "[L3 Sign in — loading (AI generated)] E2 text content and nested-component overrides preserved",
+   "pass": false,
+   "detail": "Buttons/Button (textHash: 3e81a528→00000000)"
+  },
+  {
+   "check": "[L3 Sign in — loading (AI generated)] linkage: no new orphan/detached instance",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[L3 Sign in — loading (AI generated)] R-FIGMA-01 instance layer tree = main (no new divergence)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[L3 Sign in — loading (AI generated)] R-PENPOT-01 bindings + Light/Dark/effective values unchanged",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[L3 Sign in — loading (AI generated)] icons from library only (no new violation)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[L1 Sign in — default (AI generated)] explicit modes unchanged",
+   "pass": true,
+   "detail": "none (inherits default)"
+  },
+  {
+   "check": "[L1 Sign in — default (AI generated)] screen-level bindings unchanged (R-PENPOT-01)",
+   "pass": true,
+   "detail": "33 → 33"
+  },
+  {
+   "check": "[L1 Sign in — default (AI generated)] instance count unchanged",
+   "pass": true,
+   "detail": "8 → 8"
+  },
+  {
+   "check": "[L1 Sign in — default (AI generated)] E2 text content and nested-component overrides preserved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[L1 Sign in — default (AI generated)] linkage: no new orphan/detached instance",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[L1 Sign in — default (AI generated)] R-FIGMA-01 instance layer tree = main (no new divergence)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[L1 Sign in — default (AI generated)] R-PENPOT-01 bindings + Light/Dark/effective values unchanged",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[L1 Sign in — default (AI generated)] icons from library only (no new violation)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[L4 Forgot password (AI generated)] explicit modes unchanged",
+   "pass": true,
+   "detail": "none (inherits default)"
+  },
+  {
+   "check": "[L4 Forgot password (AI generated)] screen-level bindings unchanged (R-PENPOT-01)",
+   "pass": true,
+   "detail": "25 → 25"
+  },
+  {
+   "check": "[L4 Forgot password (AI generated)] instance count unchanged",
+   "pass": true,
+   "detail": "5 → 5"
+  },
+  {
+   "check": "[L4 Forgot password (AI generated)] E2 text content and nested-component overrides preserved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[L4 Forgot password (AI generated)] linkage: no new orphan/detached instance",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[L4 Forgot password (AI generated)] R-FIGMA-01 instance layer tree = main (no new divergence)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[L4 Forgot password (AI generated)] R-PENPOT-01 bindings + Light/Dark/effective values unchanged",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[L4 Forgot password (AI generated)] icons from library only (no new violation)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[L5 Create account (AI generated)] explicit modes unchanged",
+   "pass": true,
+   "detail": "none (inherits default)"
+  },
+  {
+   "check": "[L5 Create account (AI generated)] screen-level bindings unchanged (R-PENPOT-01)",
+   "pass": true,
+   "detail": "33 → 33"
+  },
+  {
+   "check": "[L5 Create account (AI generated)] instance count unchanged",
+   "pass": true,
+   "detail": "7 → 7"
+  },
+  {
+   "check": "[L5 Create account (AI generated)] E2 text content and nested-component overrides preserved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[L5 Create account (AI generated)] linkage: no new orphan/detached instance",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[L5 Create account (AI generated)] R-FIGMA-01 instance layer tree = main (no new divergence)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[L5 Create account (AI generated)] R-PENPOT-01 bindings + Light/Dark/effective values unchanged",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[L5 Create account (AI generated)] icons from library only (no new violation)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[D1 Sign in — default — dark (AI generate] explicit modes unchanged",
+   "pass": true,
+   "detail": "1. Color modes=Dark mode"
+  },
+  {
+   "check": "[D1 Sign in — default — dark (AI generate] screen-level bindings unchanged (R-PENPOT-01)",
+   "pass": true,
+   "detail": "33 → 33"
+  },
+  {
+   "check": "[D1 Sign in — default — dark (AI generate] instance count unchanged",
+   "pass": true,
+   "detail": "8 → 8"
+  },
+  {
+   "check": "[D1 Sign in — default — dark (AI generate] E2 text content and nested-component overrides preserved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[D1 Sign in — default — dark (AI generate] linkage: no new orphan/detached instance",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[D1 Sign in — default — dark (AI generate] R-FIGMA-01 instance layer tree = main (no new divergence)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[D1 Sign in — default — dark (AI generate] R-PENPOT-01 bindings + Light/Dark/effective values unchanged",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[D1 Sign in — default — dark (AI generate] icons from library only (no new violation)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[D2 Sign in — error — dark (AI generated)] explicit modes unchanged",
+   "pass": true,
+   "detail": "1. Color modes=Dark mode"
+  },
+  {
+   "check": "[D2 Sign in — error — dark (AI generated)] screen-level bindings unchanged (R-PENPOT-01)",
+   "pass": true,
+   "detail": "33 → 33"
+  },
+  {
+   "check": "[D2 Sign in — error — dark (AI generated)] instance count unchanged",
+   "pass": true,
+   "detail": "8 → 8"
+  },
+  {
+   "check": "[D2 Sign in — error — dark (AI generated)] E2 text content and nested-component overrides preserved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[D2 Sign in — error — dark (AI generated)] linkage: no new orphan/detached instance",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[D2 Sign in — error — dark (AI generated)] R-FIGMA-01 instance layer tree = main (no new divergence)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[D2 Sign in — error — dark (AI generated)] R-PENPOT-01 bindings + Light/Dark/effective values unchanged",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[D2 Sign in — error — dark (AI generated)] icons from library only (no new violation)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[D3 Sign in — loading — dark (AI generate] explicit modes unchanged",
+   "pass": true,
+   "detail": "1. Color modes=Dark mode"
+  },
+  {
+   "check": "[D3 Sign in — loading — dark (AI generate] screen-level bindings unchanged (R-PENPOT-01)",
+   "pass": true,
+   "detail": "33 → 33"
+  },
+  {
+   "check": "[D3 Sign in — loading — dark (AI generate] instance count unchanged",
+   "pass": true,
+   "detail": "8 → 8"
+  },
+  {
+   "check": "[D3 Sign in — loading — dark (AI generate] E2 text content and nested-component overrides preserved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[D3 Sign in — loading — dark (AI generate] linkage: no new orphan/detached instance",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[D3 Sign in — loading — dark (AI generate] R-FIGMA-01 instance layer tree = main (no new divergence)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[D3 Sign in — loading — dark (AI generate] R-PENPOT-01 bindings + Light/Dark/effective values unchanged",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[D3 Sign in — loading — dark (AI generate] icons from library only (no new violation)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[D4 Forgot password — dark (AI generated)] explicit modes unchanged",
+   "pass": true,
+   "detail": "1. Color modes=Dark mode"
+  },
+  {
+   "check": "[D4 Forgot password — dark (AI generated)] screen-level bindings unchanged (R-PENPOT-01)",
+   "pass": true,
+   "detail": "25 → 25"
+  },
+  {
+   "check": "[D4 Forgot password — dark (AI generated)] instance count unchanged",
+   "pass": true,
+   "detail": "5 → 5"
+  },
+  {
+   "check": "[D4 Forgot password — dark (AI generated)] E2 text content and nested-component overrides preserved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[D4 Forgot password — dark (AI generated)] linkage: no new orphan/detached instance",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[D4 Forgot password — dark (AI generated)] R-FIGMA-01 instance layer tree = main (no new divergence)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[D4 Forgot password — dark (AI generated)] R-PENPOT-01 bindings + Light/Dark/effective values unchanged",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[D4 Forgot password — dark (AI generated)] icons from library only (no new violation)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[D5 Create account — dark (AI generated)] explicit modes unchanged",
+   "pass": true,
+   "detail": "1. Color modes=Dark mode"
+  },
+  {
+   "check": "[D5 Create account — dark (AI generated)] screen-level bindings unchanged (R-PENPOT-01)",
+   "pass": true,
+   "detail": "33 → 33"
+  },
+  {
+   "check": "[D5 Create account — dark (AI generated)] instance count unchanged",
+   "pass": true,
+   "detail": "7 → 7"
+  },
+  {
+   "check": "[D5 Create account — dark (AI generated)] E2 text content and nested-component overrides preserved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[D5 Create account — dark (AI generated)] linkage: no new orphan/detached instance",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[D5 Create account — dark (AI generated)] R-FIGMA-01 instance layer tree = main (no new divergence)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[D5 Create account — dark (AI generated)] R-PENPOT-01 bindings + Light/Dark/effective values unchanged",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[D5 Create account — dark (AI generated)] icons from library only (no new violation)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[L2 Sign in — error (AI generated)] explicit modes unchanged",
+   "pass": true,
+   "detail": "none (inherits default)"
+  },
+  {
+   "check": "[L2 Sign in — error (AI generated)] screen-level bindings unchanged (R-PENPOT-01)",
+   "pass": true,
+   "detail": "33 → 33"
+  },
+  {
+   "check": "[L2 Sign in — error (AI generated)] instance count unchanged",
+   "pass": true,
+   "detail": "8 → 8"
+  },
+  {
+   "check": "[L2 Sign in — error (AI generated)] E2 text content and nested-component overrides preserved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[L2 Sign in — error (AI generated)] linkage: no new orphan/detached instance",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[L2 Sign in — error (AI generated)] R-FIGMA-01 instance layer tree = main (no new divergence)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[L2 Sign in — error (AI generated)] R-PENPOT-01 bindings + Light/Dark/effective values unchanged",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[L2 Sign in — error (AI generated)] icons from library only (no new violation)",
+   "pass": true,
+   "detail": ""
+  }
+ ],
+ "totals": {
+  "inst": 72,
+  "linked": 72,
+  "bind": 1728
+ },
+ "knownIssues": []
+}

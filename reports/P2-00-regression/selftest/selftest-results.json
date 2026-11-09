@@ -1,0 +1,137 @@
+[
+ {
+  "scenario": "r-paper-01-partial-change",
+  "expected": "FAIL",
+  "got": "FAIL",
+  "ok": true,
+  "failedChecks": [
+   "[Buttons/Button] R-PAPER-01 expected = actual changed variants — expected 35, actual 7; NOT changed: Size=md, Hierarchy=Primary, State=Disabled, Icon only=False, Size=md, Hierarchy=Primary, State=Focused, Icon only=False, Size=md, Hierarchy=Primary, State=Hover, Icon only=False, Size=md, Hierarchy=Primary, State=Loading, Icon only=False, Size=md, Hierarchy=Primary, State=Disabled, Icon only=True, Size=md, Hierarchy=Primary, State=Focused, Icon only=True …"
+  ]
+ },
+ {
+  "scenario": "r-paper-01-full-change",
+  "expected": "PASS",
+  "got": "PASS",
+  "ok": true,
+  "failedChecks": []
+ },
+ {
+  "scenario": "protection-mismatch",
+  "expected": "FAIL",
+  "got": "FAIL",
+  "ok": true,
+  "failedChecks": [
+   "file fingerprint (variables, collections, styles) unchanged — baseline {'collections': [['_Primitives', 309, 'Style'], ['1. Color modes', 292, 'Light mode/Dark mode'], ['5. Containers', 3, 'Value'], ['4. Widths', 12, 'Mode 1'], ['3. Spacing', 17, 'Mode 1'], ['2. Radius', 12, 'Mode 1'], ['6. Typography', 36, 'Value']], 'missingStyles': 0, 'variables': 680, 'paintStyles': 393, 'textStyles': 65, 'effectStyles': 25, 'gridStyles': 8} vs current {'collections': [['_Primitives', 309, 'Style'], ['1. Color modes', 292, 'Light mode/Dark mode'], ['5. Containers', 3, 'Value'], ['4. Widths', 12, 'Mode 1'], ['3. Spacing', 17, 'Mode 1'], ['2. Radius', 12, 'Mode 1'], ['6. Typography', 36, 'Value']], 'missingStyles': 0, 'variables': 681, 'paintStyles': 393, 'textStyles': 65, 'effectStyles': 25, 'gridStyles': 8}",
+   "[Alert] no change outside expected scope (4 variants) — 1 changed: Color=Brand"
+  ]
+ },
+ {
+  "scenario": "r-penpot-01-binding-lost",
+  "expected": "FAIL",
+  "got": "FAIL",
+  "ok": true,
+  "failedChecks": [
+   "[D1 Sign in — default — dark (AI generate] R-PENPOT-01 bindings + Light/Dark/effective values unchanged — Input field (62→62)"
+  ]
+ },
+ {
+  "scenario": "r-figma-01-layer-dropped",
+  "expected": "FAIL",
+  "got": "FAIL",
+  "ok": true,
+  "failedChecks": [
+   "[L1 Sign in — default (AI generated)] R-FIGMA-01 instance layer tree = main (no new divergence) — Input field: missing 1 ['0.1|INSTANCE (Helper text)'], extra 0 []"
+  ]
+ },
+ {
+  "scenario": "linkage-new-orphan",
+  "expected": "FAIL",
+  "got": "FAIL",
+  "ok": true,
+  "failedChecks": [
+   "[Playground do not delete] linkage: no new orphan/detached instance — _Modal header (orphan)"
+  ]
+ },
+ {
+  "scenario": "icon-source-local",
+  "expected": "FAIL",
+  "got": "FAIL",
+  "ok": true,
+  "failedChecks": [
+   "[L3 Sign in — loading (AI generated)] icons from library only (no new violation) — Input field: wrappers 2/2 lib, glyphs 1/2 lib ['arrow-right (local)']; Input field: icon counts [2, 2, 2, 2] → [2, 2, 2, 1]"
+  ]
+ },
+ {
+  "scenario": "r-slot-01-content-and-count",
+  "expected": "FAIL",
+  "got": "FAIL",
+  "ok": true,
+  "failedChecks": [
+   "instance count unchanged — 2 → 1 (getInstancesAsync)",
+   "[      ↳ Modals · 17546:4435] slot content preserved — Slot (INSTANCE), 1 nodes"
+  ]
+ },
+ {
+  "scenario": "e2-text-override-lost",
+  "expected": "FAIL",
+  "got": "FAIL",
+  "ok": true,
+  "failedChecks": [
+   "[L3 Sign in — loading (AI generated)] E2 text content and nested-component overrides preserved — Buttons/Button (textHash: 3e81a528→00000000)"
+  ]
+ },
+ {
+  "scenario": "e2-nested-override-lost",
+  "expected": "FAIL",
+  "got": "FAIL",
+  "ok": true,
+  "failedChecks": [
+   "[L3 Sign in — loading (AI generated)] E2 text content and nested-component overrides preserved — Input field (overrideHash: 5b1ba041→00000000)"
+  ]
+ },
+ {
+  "scenario": "e3-slot-content-changed",
+  "expected": "FAIL",
+  "got": "FAIL",
+  "ok": true,
+  "failedChecks": [
+   "[      ↳ Modals · 17546:4435] native slot content preserved (E3) — [('Body', 'aaaaaaaa', 1)] → [('Body', 'bbbbbbbb', 1)]"
+  ]
+ },
+ {
+  "scenario": "e3-limit-violation",
+  "expected": "FAIL",
+  "got": "FAIL",
+  "ok": true,
+  "failedChecks": [
+   "[      ↳ Modals · 17546:4435] slot 'Body' limitViolations empty — [{'type': 'MIN_CHILDREN'}]"
+  ]
+ },
+ {
+  "scenario": "version-mismatch-refused",
+  "expected": "exit 2",
+  "got": "exit 2",
+  "ok": true,
+  "failedChecks": [
+   "collector versions differ: E1 vs None — re-baseline with the same collector"
+  ]
+ },
+ {
+  "scenario": "cross-file-refused-without-flag",
+  "expected": "exit 2",
+  "got": "exit 2",
+  "ok": true,
+  "failedChecks": [
+   "baseline and current come from different files (use --cross-file)"
+  ]
+ },
+ {
+  "scenario": "cross-file-original-vs-duplicate",
+  "expected": "exit 0",
+  "got": "exit 0",
+  "ok": true,
+  "failedChecks": [
+   "variants: PASS (19 checks, 0 failed)"
+  ]
+ }
+]

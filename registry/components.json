@@ -1,0 +1,8658 @@
+{
+ "schemaVersion": "1.0.0",
+ "source": {
+  "fileKey": "xJoAz66aekAToyhBmfGNt0",
+  "file": "MAKER-DS-v2 (published as \"MAKER DS v2\")",
+  "readAt": {
+   "first": "2026-11-09T12:50:44.802Z",
+   "last": "2026-11-09T12:52:36.763Z"
+  },
+  "extractor": "scripts/figma-registry-extract.js",
+  "extractorSha256": "ca87cc44aee9c55afcb3f2dbae5efbf8ddcf48dc9bfa15e6c423cfb67b046083",
+  "mode": "read-only"
+ },
+ "scopeNote": "scope=base matches the audit §2.3 count; scope=primitives = Colors, Logos, Typography, Effect styles, Design annotations pages.",
+ "bindingsNote": "Raw counts cover solid fills, solid strokes and text-style presence on each component's own layers; nested instances are not descended. Spacing/radius/effect bindings are P1-05.",
+ "totals": {
+  "all": {
+   "componentSets": 77,
+   "variants": 1212,
+   "standaloneComponents": 18,
+   "propertyTypes": {
+    "BOOLEAN": 52,
+    "INSTANCE_SWAP": 8,
+    "TEXT": 2,
+    "VARIANT": 177
+   },
+   "rawFill": 148,
+   "rawStroke": 135,
+   "rawText": 5
+  },
+  "base": {
+   "componentSets": 68,
+   "variants": 1169,
+   "standaloneComponents": 12,
+   "propertyTypes": {
+    "BOOLEAN": 47,
+    "INSTANCE_SWAP": 8,
+    "TEXT": 1,
+    "VARIANT": 164
+   },
+   "rawFill": 146,
+   "rawStroke": 133,
+   "rawText": 4
+  }
+ },
+ "reconciliation": {
+  "componentSets": {
+   "audit": 68,
+   "actual": 68
+  },
+  "variants": {
+   "audit": "~1170",
+   "actual": 1169
+  },
+  "standaloneComponents": {
+   "audit": 12,
+   "actual": 12
+  },
+  "textProperties": {
+   "audit": 1,
+   "actual": 1
+  },
+  "instanceSwapProperties": {
+   "audit": 7,
+   "actual": 8
+  },
+  "spotChecks": {
+   "Buttons/Button": {
+    "expected": {
+     "variants": 118,
+     "props": 7
+    },
+    "actual": {
+     "variants": 118,
+     "props": 7
+    },
+    "match": true
+   },
+   "Input field": {
+    "expected": {
+     "variants": 53
+    },
+    "actual": {
+     "variants": 53,
+     "props": 4
+    },
+    "match": true
+   }
+  }
+ },
+ "instanceSwapProperties": [
+  {
+   "component": "Buttons/Button destructive",
+   "property": "🔀 Icon leading swap",
+   "default": "placeholder",
+   "preferredCount": 0,
+   "scope": "base"
+  },
+  {
+   "component": "Buttons/Button destructive",
+   "property": "🔀 Icon trailing swap",
+   "default": "placeholder",
+   "preferredCount": 0,
+   "scope": "base"
+  },
+  {
+   "component": "_Button group base",
+   "property": "🔀 Icon swap",
+   "default": "placeholder",
+   "preferredCount": 0,
+   "scope": "base"
+  },
+  {
+   "component": "_Nav account card menu item",
+   "property": "🔀 Icon swap",
+   "default": "placeholder",
+   "preferredCount": 0,
+   "scope": "base"
+  },
+  {
+   "component": "_Nav item base",
+   "property": "🔀 Icon swap",
+   "default": "bar-chart-square-02",
+   "preferredCount": 0,
+   "scope": "base"
+  },
+  {
+   "component": "_Nav item button",
+   "property": "🔀 Icon swap",
+   "default": "bell-01",
+   "preferredCount": 0,
+   "scope": "base"
+  },
+  {
+   "component": "Modal",
+   "property": "Drawer content",
+   "default": "Slot",
+   "preferredCount": 1,
+   "scope": "base"
+  },
+  {
+   "component": "Illustration wrapper",
+   "property": "Illustration",
+   "default": "Illustration/placeholder",
+   "preferredCount": 7,
+   "scope": "base"
+  }
+ ],
+ "textProperties": [
+  {
+   "component": "Tooltip",
+   "property": "Text",
+   "scope": "base"
+  },
+  {
+   "component": "Designer area",
+   "property": "Text",
+   "scope": "primitives"
+  }
+ ],
+ "dependencies": [
+  {
+   "name": "Featured icon",
+   "key": "845127259cdd2b2d856077e89081f23457a10305",
+   "isSet": true,
+   "remote": true,
+   "usedBy": [
+    "Alert",
+    "Radio group item"
+   ],
+   "instanceCount": 36,
+   "source": "remote library (library name UNVERIFIED; Plugin API does not expose it)"
+  },
+  {
+   "name": "Home Indicator",
+   "key": "841ca4e3d8ffdb6a788e7d8aa41d5900e0aca7b0",
+   "isSet": true,
+   "remote": true,
+   "usedBy": [
+    "_Modal actions"
+   ],
+   "instanceCount": 1,
+   "source": "remote library (library name UNVERIFIED; Plugin API does not expose it)"
+  },
+  {
+   "name": "Icon wrapper",
+   "key": "b8295cee7375c7b7216cb412047f771ce86fbf9d",
+   "isSet": true,
+   "remote": true,
+   "usedBy": [
+    "Alert",
+    "Avatar",
+    "Badge",
+    "Buttons/Button",
+    "Buttons/Button destructive",
+    "Buttons/Button icon",
+    "Buttons/Button navigation",
+    "Helper text",
+    "Input field",
+    "Select",
+    "Tag",
+    "Textelement",
+    "_Avatar add button",
+    "_Dropdown list item",
+    "_Filter button base",
+    "_Input title",
+    "_Modal header",
+    "_Tab button base"
+   ],
+   "instanceCount": 491,
+   "source": "remote library (library name UNVERIFIED; Plugin API does not expose it)"
+  },
+  {
+   "name": "JP",
+   "key": "07bbe9854c65880dd316b01f050af5e8262400aa",
+   "isSet": false,
+   "remote": true,
+   "usedBy": [
+    "Avatar"
+   ],
+   "instanceCount": 6,
+   "source": "remote library (library name UNVERIFIED; Plugin API does not expose it)"
+  },
+  {
+   "name": "Payment method icon",
+   "key": "b3a7b1ad158b66b1501241caba1352347abcb431",
+   "isSet": true,
+   "remote": true,
+   "usedBy": [
+    "Radio group item"
+   ],
+   "instanceCount": 32,
+   "source": "remote library (library name UNVERIFIED; Plugin API does not expose it)"
+  },
+  {
+   "name": "Avatar",
+   "key": "f4054d4d1e23c1d33497c7891b6ef0062a8a8b86",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Avatar group",
+    "Avatar label group",
+    "Radio group item",
+    "Select",
+    "Tag"
+   ],
+   "instanceCount": 82,
+   "source": "local (this file)"
+  },
+  {
+   "name": "Background overlay",
+   "key": "30a8801b59485174ff95f7550c82e5dba09addd0",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Modal"
+   ],
+   "instanceCount": 1,
+   "source": "local (this file)"
+  },
+  {
+   "name": "Badge",
+   "key": "088d7369747246e206bc0524a708228c9ed7efee",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "DS note",
+    "Flow note",
+    "Physical card",
+    "Virtual card"
+   ],
+   "instanceCount": 11,
+   "source": "local (this file)"
+  },
+  {
+   "name": "Buttons/Button",
+   "key": "4e55cb83a056a6e3ac0225834874a1dcb6580da6",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Alert",
+    "Buttons/Button action",
+    "Date picker dropdown",
+    "Dropdown",
+    "Radio group item",
+    "_Date picker menu",
+    "_Modal actions",
+    "_Nav featured card"
+   ],
+   "instanceCount": 88,
+   "source": "local (this file)"
+  },
+  {
+   "name": "Buttons/Button loading icon",
+   "key": "f9a816edcc033311681d4422335329bdf592b6ce",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Buttons/Button",
+    "Buttons/Button destructive"
+   ],
+   "instanceCount": 43,
+   "source": "local (this file)"
+  },
+  {
+   "name": "Buttons/Button navigation",
+   "key": "188d6d860cb1aeb49aceea2c4135d9b99767732f",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Navigation button group"
+   ],
+   "instanceCount": 5,
+   "source": "local (this file)"
+  },
+  {
+   "name": "Cursor",
+   "key": "59edb3ca8f2a1e71fbb2effa14ad4d444f80c2f6",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Help icon",
+    "_Avatar add button",
+    "_Calendar cell",
+    "_Documentation table cell"
+   ],
+   "instanceCount": 23,
+   "source": "local (this file)"
+  },
+  {
+   "name": "Helper text",
+   "key": "ca182111c2dbfc6ea676907d122546d8e15758e9",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Input field",
+    "Select",
+    "Textarea input field",
+    "Verification code input field"
+   ],
+   "instanceCount": 88,
+   "source": "local (this file)"
+  },
+  {
+   "name": "Illustration wrapper",
+   "key": "8ab788292c33dc1d6170fef422cc854646a4b605",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "_Modal header"
+   ],
+   "instanceCount": 1,
+   "source": "local (this file)"
+  },
+  {
+   "name": "Illustration/placeholder",
+   "key": "c13edda3d61c5be915bf64a8a183d5bab379794e",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Illustration wrapper"
+   ],
+   "instanceCount": 8,
+   "source": "local (this file)"
+  },
+  {
+   "name": "Input field",
+   "key": "cc536ed7c182738d0022e89e030c0f1552d7486a",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "_Date picker menu"
+   ],
+   "instanceCount": 6,
+   "source": "local (this file)"
+  },
+  {
+   "name": "Logo",
+   "key": "5acc4de76dc20c9e50ead1c56c0e497ff26d31a4",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Header navigation"
+   ],
+   "instanceCount": 2,
+   "source": "local (this file)"
+  },
+  {
+   "name": "Progress bar",
+   "key": "7ce0d214a58934f9cc10306f31b8d485f36ba0d1",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "_Nav featured card"
+   ],
+   "instanceCount": 3,
+   "source": "local (this file)"
+  },
+  {
+   "name": "Radio / Checkbox",
+   "key": "9b75804be080e8fcd98a03d9b98bc070c44a0f52",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Input field",
+    "Tag",
+    "_Dropdown list item",
+    "_Modal actions",
+    "_Nav account card menu item"
+   ],
+   "instanceCount": 27,
+   "source": "local (this file)"
+  },
+  {
+   "name": "Radio group item",
+   "key": "19677226e140058b8844765e9ac5a5a20b0bb293",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Radio group"
+   ],
+   "instanceCount": 60,
+   "source": "local (this file)"
+  },
+  {
+   "name": "Slot",
+   "key": "68b13273d1d58919ca51c37ca27ba0a4a033e828",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Modal"
+   ],
+   "instanceCount": 1,
+   "source": "local (this file)"
+  },
+  {
+   "name": "Social button",
+   "key": "e7e319a68ff41a610c204924015c04fc6c1e27b2",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Social button groups"
+   ],
+   "instanceCount": 18,
+   "source": "local (this file)"
+  },
+  {
+   "name": "Spacer",
+   "key": "d130f79f25a2cea24cac0bf7b34a68206b8e8b34",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "_Tab button base"
+   ],
+   "instanceCount": 16,
+   "source": "local (this file)"
+  },
+  {
+   "name": "Tag",
+   "key": "eb1480ff59348721e5d9402fc7fa35dfd6cd96a7",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Input field",
+    "Select",
+    "Textarea input field"
+   ],
+   "instanceCount": 24,
+   "source": "local (this file)"
+  },
+  {
+   "name": "Tag count",
+   "key": "a5983e910461555c43434c0f1b4687459d40b26e",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Tag",
+    "_Tab button base"
+   ],
+   "instanceCount": 18,
+   "source": "local (this file)"
+  },
+  {
+   "name": "Tooltip",
+   "key": "178a9348bfa4ecb31117fceaf4966f647b7d0b55",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Help icon",
+    "_Avatar add button"
+   ],
+   "instanceCount": 17,
+   "source": "local (this file)"
+  },
+  {
+   "name": "_Application nav menu button",
+   "key": "1cac8eb4e33ca2c5b1422f2c9abb68449e0fd651",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Header navigation"
+   ],
+   "instanceCount": 1,
+   "source": "local (this file)"
+  },
+  {
+   "name": "_Avatar add button",
+   "key": "752a52713d0da33355abcb16ec3caa6b740ef9a0",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Avatar group"
+   ],
+   "instanceCount": 3,
+   "source": "local (this file)"
+  },
+  {
+   "name": "_Button group base",
+   "key": "da5616bc54b6b76a71af6dfe16dea2471e6a35c9",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Button group"
+   ],
+   "instanceCount": 27,
+   "source": "local (this file)"
+  },
+  {
+   "name": "_Calendar cell",
+   "key": "c1c78791580ccd4c93cbc732a09ab7a868d64a6c",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "_Date picker menu"
+   ],
+   "instanceCount": 245,
+   "source": "local (this file)"
+  },
+  {
+   "name": "_Checkbox base",
+   "key": "5e76c9f6c4224d514e888f1b1347926d2ccd037a",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Radio / Checkbox",
+    "Radio group item"
+   ],
+   "instanceCount": 180,
+   "source": "local (this file)"
+  },
+  {
+   "name": "_Control handle",
+   "key": "25be621192f0de8224ffb9ada0b212586b1e3904",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Slider"
+   ],
+   "instanceCount": 60,
+   "source": "local (this file)"
+  },
+  {
+   "name": "_Date picker list item",
+   "key": "1030dc8d33dee093fc31f1cddc40cf90990d2ddb",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "_Date picker menu"
+   ],
+   "instanceCount": 9,
+   "source": "local (this file)"
+  },
+  {
+   "name": "_Date picker menu",
+   "key": "d07602fafc5d99b03390fb0c506813ef495ce67c",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Date picker dropdown",
+    "Date picker modal"
+   ],
+   "instanceCount": 12,
+   "source": "local (this file)"
+  },
+  {
+   "name": "_Dropdown list item",
+   "key": "c28ecd38b953410ab8905b1535618292b8246a2a",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Dropdown",
+    "Select"
+   ],
+   "instanceCount": 29,
+   "source": "local (this file)"
+  },
+  {
+   "name": "_Filter button base",
+   "key": "193f59fc05cbdcd8564a560b2e0d60a0fa53caa0",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Filter group"
+   ],
+   "instanceCount": 6,
+   "source": "local (this file)"
+  },
+  {
+   "name": "_Indicator",
+   "key": "4ac091dc468ed4029a7b3cfdcc9729aceda0d979",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Navigator"
+   ],
+   "instanceCount": 25,
+   "source": "local (this file)"
+  },
+  {
+   "name": "_Input title",
+   "key": "134ca52421b354acd021a144e05f0cdefbdc1100",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Select",
+    "Textarea input field",
+    "Verification code input field"
+   ],
+   "instanceCount": 42,
+   "source": "local (this file)"
+  },
+  {
+   "name": "_Mega input field base",
+   "key": "612e7bcb189447e5fdf0f08214398fc50816b218",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Verification code input field"
+   ],
+   "instanceCount": 12,
+   "source": "local (this file)"
+  },
+  {
+   "name": "_Modal actions",
+   "key": "2d3128d676dab3fdd7c62cce1988c7fa615d1932",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Modal"
+   ],
+   "instanceCount": 1,
+   "source": "local (this file)"
+  },
+  {
+   "name": "_Modal header",
+   "key": "e62d42a448ac115114901531d4d33152c454d37e",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Modal"
+   ],
+   "instanceCount": 1,
+   "source": "local (this file)"
+  },
+  {
+   "name": "_Nav item base",
+   "key": "69fef3a795ee1a55f938f9aca502f6995a774a5e",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Header navigation"
+   ],
+   "instanceCount": 6,
+   "source": "local (this file)"
+  },
+  {
+   "name": "_Nav item button",
+   "key": "c0d6c1e3aa576777a363ae3a8e0b93eb29c4f9aa",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Header navigation"
+   ],
+   "instanceCount": 3,
+   "source": "local (this file)"
+  },
+  {
+   "name": "_Scroll bar (control fill with bottom padding)",
+   "key": "75a3030ff915e3cd2d81f4a67e7a6ec1b0a09ccf",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Modal",
+    "Select"
+   ],
+   "instanceCount": 6,
+   "source": "local (this file)"
+  },
+  {
+   "name": "_Tab button base",
+   "key": "6db51e07f3287ff163aefd69fc6d86bd015c2870",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Filter group",
+    "Tab group"
+   ],
+   "instanceCount": 23,
+   "source": "local (this file)"
+  },
+  {
+   "name": "_Toggle base",
+   "key": "cc70522b2b056611b6fd3588545ff8d41b90fe8b",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Toggle"
+   ],
+   "instanceCount": 16,
+   "source": "local (this file)"
+  },
+  {
+   "name": "Avatar label group/md/Online indicator",
+   "key": "1bbe768d38aadc49ae21fbbd97cf212541101eea",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "_Nav account card menu item"
+   ],
+   "instanceCount": 4,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Badge",
+   "key": "eb75b29265fcaddf9e9234c90cacd1d54c76ad84",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "_Nav featured card",
+    "_Nav item base"
+   ],
+   "instanceCount": 7,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Buttons/Button close X",
+   "key": "94aaab4d8249c309588aa3846863336f9797b7e2",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "_Nav featured card"
+   ],
+   "instanceCount": 4,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Buttons/Button utility",
+   "key": "441bf42bf48ea5f2e17080c3174f31f696c76a86",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "_Date picker menu"
+   ],
+   "instanceCount": 10,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Buttons/Button/lg/Link gray/Default/False",
+   "key": "243d11f385456c98272b0bede25e369b3cbaa51d",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "_Modal actions"
+   ],
+   "instanceCount": 1,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Buttons/Button/md/Link gray/Default/False",
+   "key": "3c2d6635aa28c4ec43baa2f5550377befbfff8fc",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Radio group item"
+   ],
+   "instanceCount": 12,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Buttons/Button/md/Link gray/Disabled/False",
+   "key": "5dda7fa1416c780b2767c7da8925fd00e3511359",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Radio group item"
+   ],
+   "instanceCount": 4,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Buttons/Button/sm/Link gray/Default/False",
+   "key": "38be1d7077606b85c9aeb0792f7ec90569907999",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Radio group item"
+   ],
+   "instanceCount": 12,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Buttons/Button/sm/Link gray/Disabled/False",
+   "key": "0c5993f636bf9a1034f8e0522577591458819a87",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Radio group item"
+   ],
+   "instanceCount": 4,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Check icon",
+   "key": "2fb81e9a8b2c2bdf949a4adedc9125d05da260c0",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "_Nav featured card"
+   ],
+   "instanceCount": 4,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Dropdown/Avatar/False",
+   "key": "58cff64f4a2751534351ff5c661e5e63527fc5d9",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Header navigation"
+   ],
+   "instanceCount": 1,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Payment method icon",
+   "key": "01734189d1b7a4e1b0480c61f368f77825e0e380",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Input field"
+   ],
+   "instanceCount": 7,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Radio group item/False/md/Checkbox/Default/Desktop",
+   "key": "cfc2ebd89190786ade2b25ed3cba101f125ffa4c",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Radio group"
+   ],
+   "instanceCount": 4,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Radio group item/False/md/Checkbox/Default/Mobile",
+   "key": "700c8e197a206752ed08962274667e7468be386b",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Radio group"
+   ],
+   "instanceCount": 4,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Radio group item/False/md/Radio button/Default/Desktop",
+   "key": "fc7646252b8ddc55e899bb87e8f0bfce90c4cdba",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Radio group"
+   ],
+   "instanceCount": 4,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Radio group item/False/md/Radio button/Default/Mobile",
+   "key": "14593639e16d17f4d0b4949b278cc944eaea12c9",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Radio group"
+   ],
+   "instanceCount": 4,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Radio group item/False/sm/Checkbox/Default/Desktop",
+   "key": "4e70d5792f72fc808d313ecfd396476ab77f2192",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Radio group"
+   ],
+   "instanceCount": 4,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Radio group item/False/sm/Checkbox/Default/Mobile",
+   "key": "6f9c4989b7c40aa467b1bf033bee5f97126bf364",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Radio group"
+   ],
+   "instanceCount": 4,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Radio group item/False/sm/Radio button/Default/Desktop",
+   "key": "6b833b9c04c5ed78fd580596e0f5f0fead1e0003",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Radio group"
+   ],
+   "instanceCount": 4,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Radio group item/False/sm/Radio button/Default/Mobile",
+   "key": "d326b2ca1790dc7b60c309a38ff40f16ece4afef",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Radio group"
+   ],
+   "instanceCount": 4,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Radio group item/True/md/Checkbox/Default/Desktop",
+   "key": "a823ba66a4f6cb5c120779815d702d3338ef940c",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Radio group"
+   ],
+   "instanceCount": 1,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Radio group item/True/md/Checkbox/Default/Mobile",
+   "key": "f1e8e98b4f12cade70507a611e863799b50a8fce",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Radio group"
+   ],
+   "instanceCount": 1,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Radio group item/True/md/Radio button/Default/Desktop",
+   "key": "3810892422fa27467599daa1b86bd4a384d07f46",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Radio group"
+   ],
+   "instanceCount": 1,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Radio group item/True/md/Radio button/Default/Mobile",
+   "key": "5e4c42575f4f661216acb6ce2e17e6227c995b65",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Radio group"
+   ],
+   "instanceCount": 1,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Radio group item/True/sm/Checkbox/Default/Desktop",
+   "key": "92ddc4089af468d0f9148a7f7dcdb20deed6afed",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Radio group"
+   ],
+   "instanceCount": 1,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Radio group item/True/sm/Checkbox/Default/Mobile",
+   "key": "332b60854920366db819d610c90560d6d3704e0a",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Radio group"
+   ],
+   "instanceCount": 1,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Radio group item/True/sm/Radio button/Default/Desktop",
+   "key": "2d48ea15c7e6f7420e383b0ed9473280d4adde49",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Radio group"
+   ],
+   "instanceCount": 1,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Radio group item/True/sm/Radio button/Default/Mobile",
+   "key": "a0869d28b6c706e0e2978661a321127827cc3413",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Radio group"
+   ],
+   "instanceCount": 1,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Social button/Twitter/False/Brand/Default",
+   "key": "50130659a28e9c801610a865128abcb3b8330075",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Social button groups"
+   ],
+   "instanceCount": 1,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Social button/Twitter/False/Color/Default",
+   "key": "e2d5a98bf84a6e5770af5e980fe2b679d1996ac3",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Social button groups"
+   ],
+   "instanceCount": 1,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Social button/Twitter/False/Gray/Default",
+   "key": "d4f1e6ec8f40c57567f6521b07cc9ba055245764",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Social button groups"
+   ],
+   "instanceCount": 1,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Social button/Twitter/True/Brand/Default",
+   "key": "ce6213f6bbf0089b133bd12dd44fb67742c58961",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Social button groups"
+   ],
+   "instanceCount": 1,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Social button/Twitter/True/Color/Default",
+   "key": "fbe91b9785ff191c926217344ba49e0308edb957",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Social button groups"
+   ],
+   "instanceCount": 1,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Social button/Twitter/True/Gray/Default",
+   "key": "91e02992b6acb8fe170d76e8336cb22c2e42645a",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Social button groups"
+   ],
+   "instanceCount": 1,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "Social icon",
+   "key": "8fc200de717f6a665f606d3259f06f7f50b7bf85",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Social button"
+   ],
+   "instanceCount": 54,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "_Background overlay",
+   "key": "21e828ab11f77f5dc163a13c1df3c070a7b49ad8",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "Date picker modal"
+   ],
+   "instanceCount": 4,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "_Dot",
+   "key": "b922198313da17d22beac75de045c5abfe54a650",
+   "isSet": true,
+   "remote": false,
+   "usedBy": [
+    "_Button group base",
+    "_Nav item base"
+   ],
+   "instanceCount": 14,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "bar-chart-square-02",
+   "key": "cfbd86451496b44242b376244ef099a91f255209",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "_Nav item base"
+   ],
+   "instanceCount": 6,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "bell-01",
+   "key": "64e1e3de1d306c21b0d696c85e8be1589f979390",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "_Nav item button"
+   ],
+   "instanceCount": 12,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "check",
+   "key": "b346671e36cd249b706cbd996b2823c026c76255",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "_Checkbox base"
+   ],
+   "instanceCount": 12,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "chevron-down",
+   "key": "b25ac1bda8312a56e84c35f3842252cda01f98a2",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "_Nav item base"
+   ],
+   "instanceCount": 6,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "help-circle",
+   "key": "7caf8cbda894109a01c2b6d58abb8df7d4b31f6e",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Help icon"
+   ],
+   "instanceCount": 28,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "menu-02",
+   "key": "36d6bc3e3862c43e194fce0f8723519c2e51aef2",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "_Application nav menu button"
+   ],
+   "instanceCount": 3,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "minus",
+   "key": "8b213c428b51298d2cbafd3df9b6c741a5638dba",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "_Checkbox base"
+   ],
+   "instanceCount": 12,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "placeholder",
+   "key": "dcfc3ebd8e0b2b1123a7278b153a77a23e560eef",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "Buttons/Button destructive",
+    "_Button group base",
+    "_Nav account card menu item"
+   ],
+   "instanceCount": 25,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  },
+  {
+   "name": "x-close",
+   "key": "39221bc8846610af747fc21085060f1aec02ee03",
+   "isSet": false,
+   "remote": false,
+   "usedBy": [
+    "_Application nav menu button"
+   ],
+   "instanceCount": 3,
+   "source": "local orphan: main component is on no page (parent=null, removed=false; VERIFIED for 25 sampled 2026-11-09)"
+  }
+ ],
+ "components": [
+  {
+   "kind": "set",
+   "name": "Buttons/Button",
+   "id": "3287:427074",
+   "key": "4e55cb83a056a6e3ac0225834874a1dcb6580da6",
+   "hasDescription": false,
+   "variantCount": 118,
+   "axes": [
+    "Size",
+    "Hierarchy",
+    "State",
+    "Icon only"
+   ],
+   "properties": [
+    {
+     "name": "Loading text",
+     "id": "Loading text#8994:0",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Show L icon",
+     "id": "Show L icon#21269:56",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Show R icon",
+     "id": "Show R icon#21269:175",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "xxs",
+     "options": [
+      "sm",
+      "md",
+      "lg",
+      "xxs"
+     ]
+    },
+    {
+     "name": "Hierarchy",
+     "id": "Hierarchy",
+     "type": "VARIANT",
+     "default": "Primary",
+     "options": [
+      "Primary",
+      "Secondary",
+      "Link brand",
+      "Primary_alt"
+     ]
+    },
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Hover",
+      "Focused",
+      "Disabled",
+      "Loading"
+     ]
+    },
+    {
+     "name": "Icon only",
+     "id": "Icon only",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    }
+   ],
+   "nestedInstances": 178,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Icon wrapper",
+     "key": "b8295cee7375c7b7216cb412047f771ce86fbf9d",
+     "isSet": true,
+     "remote": true,
+     "count": 153,
+     "layers": [
+      "Icon wrapper"
+     ]
+    },
+    {
+     "name": "Buttons/Button loading icon",
+     "key": "f9a816edcc033311681d4422335329bdf592b6ce",
+     "isSet": true,
+     "remote": false,
+     "count": 25,
+     "layers": [
+      "Buttons/Button loading icon"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 174,
+    "boundStroke": 7,
+    "rawFill": 4,
+    "rawStroke": 0,
+    "textLayers": 76,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [
+      "Size=md, Hierarchy=Link brand, State=Focused, Icon only=False > Size=md, Hierarchy=Link brand, State=Focused, Icon only=False",
+      "Size=lg, Hierarchy=Link brand, State=Focused, Icon only=False > Size=lg, Hierarchy=Link brand, State=Focused, Icon only=False",
+      "Size=sm, Hierarchy=Link brand, State=Focused, Icon only=False > Size=sm, Hierarchy=Link brand, State=Focused, Icon only=False"
+     ],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Buttons",
+   "pageId": "1:1183",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Buttons/Button destructive",
+   "id": "17503:16162",
+   "key": "a41a2d714a2ca96df031d453248257af6e1c26bf",
+   "hasDescription": false,
+   "variantCount": 68,
+   "axes": [
+    "Size",
+    "Hierarchy",
+    "State",
+    "Icon only"
+   ],
+   "properties": [
+    {
+     "name": "⬅️ Icon leading",
+     "id": "⬅️ Icon leading#3287:1577",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "➡️ Icon trailing",
+     "id": "➡️ Icon trailing#3287:2338",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "🔀 Icon leading swap",
+     "id": "🔀 Icon leading swap#3466:91",
+     "type": "INSTANCE_SWAP",
+     "default": "3465:410042",
+     "defaultRef": {
+      "name": "placeholder",
+      "variant": null,
+      "key": "dcfc3ebd8e0b2b1123a7278b153a77a23e560eef",
+      "remote": false
+     },
+     "preferredCount": 0,
+     "preferred": []
+    },
+    {
+     "name": "🔀 Icon trailing swap",
+     "id": "🔀 Icon trailing swap#3466:852",
+     "type": "INSTANCE_SWAP",
+     "default": "3465:410042",
+     "defaultRef": {
+      "name": "placeholder",
+      "variant": null,
+      "key": "dcfc3ebd8e0b2b1123a7278b153a77a23e560eef",
+      "remote": false
+     },
+     "preferredCount": 0,
+     "preferred": []
+    },
+    {
+     "name": "Loading text",
+     "id": "Loading text#8994:0",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "xxs",
+     "options": [
+      "sm",
+      "md",
+      "lg",
+      "xxs"
+     ]
+    },
+    {
+     "name": "Hierarchy",
+     "id": "Hierarchy",
+     "type": "VARIANT",
+     "default": "Primary",
+     "options": [
+      "Primary",
+      "Secondary",
+      "Link brand"
+     ]
+    },
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Hover",
+      "Focused",
+      "Loading"
+     ]
+    },
+    {
+     "name": "Icon only",
+     "id": "Icon only",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    }
+   ],
+   "nestedInstances": 100,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Icon wrapper",
+     "key": "b8295cee7375c7b7216cb412047f771ce86fbf9d",
+     "isSet": true,
+     "remote": true,
+     "count": 77,
+     "layers": [
+      "Icon wrapper"
+     ]
+    },
+    {
+     "name": "Buttons/Button loading icon",
+     "key": "f9a816edcc033311681d4422335329bdf592b6ce",
+     "isSet": true,
+     "remote": false,
+     "count": 18,
+     "layers": [
+      "Buttons/Button loading icon"
+     ]
+    },
+    {
+     "name": "placeholder",
+     "key": "dcfc3ebd8e0b2b1123a7278b153a77a23e560eef",
+     "isSet": false,
+     "remote": false,
+     "count": 5,
+     "layers": [
+      "placeholder"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 100,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 44,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Buttons",
+   "pageId": "1:1183",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Social button",
+   "id": "1256:130788",
+   "key": "e7e319a68ff41a610c204924015c04fc6c1e27b2",
+   "hasDescription": false,
+   "variantCount": 54,
+   "axes": [
+    "Social",
+    "Supporting text",
+    "Theme",
+    "State"
+   ],
+   "properties": [
+    {
+     "name": "Social",
+     "id": "Social",
+     "type": "VARIANT",
+     "default": "Google",
+     "options": [
+      "Google",
+      "Facebook",
+      "Apple"
+     ]
+    },
+    {
+     "name": "Supporting text",
+     "id": "Supporting text",
+     "type": "VARIANT",
+     "default": "True",
+     "options": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "name": "Theme",
+     "id": "Theme",
+     "type": "VARIANT",
+     "default": "Brand",
+     "options": [
+      "Brand",
+      "Gray",
+      "Color"
+     ]
+    },
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Hover",
+      "Focused"
+     ]
+    }
+   ],
+   "nestedInstances": 54,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Social icon",
+     "key": "8fc200de717f6a665f606d3259f06f7f50b7bf85",
+     "isSet": true,
+     "remote": false,
+     "count": 54,
+     "layers": [
+      "Social icon"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 75,
+    "boundStroke": 42,
+    "rawFill": 6,
+    "rawStroke": 0,
+    "textLayers": 27,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [
+      "Social=Facebook, Supporting text=True, Theme=Brand, State=Default > Social=Facebook, Supporting text=True, Theme=Brand, State=Default",
+      "Social=Facebook, Supporting text=True, Theme=Brand, State=Hover > Social=Facebook, Supporting text=True, Theme=Brand, State=Hover",
+      "Social=Facebook, Supporting text=True, Theme=Brand, State=Focused > Social=Facebook, Supporting text=True, Theme=Brand, State=Focused"
+     ],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Buttons",
+   "pageId": "1:1183",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Social button groups",
+   "id": "1256:132638",
+   "key": "5191fcb5f04308006ea5ae13a8982b29323f402f",
+   "hasDescription": false,
+   "variantCount": 6,
+   "axes": [
+    "Style",
+    "Theme"
+   ],
+   "properties": [
+    {
+     "name": "Style",
+     "id": "Style",
+     "type": "VARIANT",
+     "default": "Buttons",
+     "options": [
+      "Buttons",
+      "Icons"
+     ]
+    },
+    {
+     "name": "Theme",
+     "id": "Theme",
+     "type": "VARIANT",
+     "default": "Brand",
+     "options": [
+      "Brand",
+      "Color",
+      "Gray"
+     ]
+    }
+   ],
+   "nestedInstances": 24,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Social button",
+     "key": "e7e319a68ff41a610c204924015c04fc6c1e27b2",
+     "isSet": true,
+     "remote": false,
+     "count": 18,
+     "layers": [
+      "Social button"
+     ]
+    },
+    {
+     "name": "Social button/Twitter/True/Color/Default",
+     "key": "fbe91b9785ff191c926217344ba49e0308edb957",
+     "isSet": false,
+     "remote": false,
+     "count": 1,
+     "layers": [
+      "Social button"
+     ]
+    },
+    {
+     "name": "Social button/Twitter/True/Gray/Default",
+     "key": "91e02992b6acb8fe170d76e8336cb22c2e42645a",
+     "isSet": false,
+     "remote": false,
+     "count": 1,
+     "layers": [
+      "Social button"
+     ]
+    },
+    {
+     "name": "Social button/Twitter/True/Brand/Default",
+     "key": "ce6213f6bbf0089b133bd12dd44fb67742c58961",
+     "isSet": false,
+     "remote": false,
+     "count": 1,
+     "layers": [
+      "Social button"
+     ]
+    },
+    {
+     "name": "Social button/Twitter/False/Color/Default",
+     "key": "e2d5a98bf84a6e5770af5e980fe2b679d1996ac3",
+     "isSet": false,
+     "remote": false,
+     "count": 1,
+     "layers": [
+      "Social button"
+     ]
+    },
+    {
+     "name": "Social button/Twitter/False/Gray/Default",
+     "key": "d4f1e6ec8f40c57567f6521b07cc9ba055245764",
+     "isSet": false,
+     "remote": false,
+     "count": 1,
+     "layers": [
+      "Social button"
+     ]
+    },
+    {
+     "name": "Social button/Twitter/False/Brand/Default",
+     "key": "50130659a28e9c801610a865128abcb3b8330075",
+     "isSet": false,
+     "remote": false,
+     "count": 1,
+     "layers": [
+      "Social button"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 0,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Buttons",
+   "pageId": "1:1183",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Mobile app store badge",
+   "id": "1303:2162",
+   "key": "b3f7a349ece67722d7b56df6b15056282e79ffba",
+   "hasDescription": false,
+   "variantCount": 12,
+   "axes": [
+    "Store",
+    "Style",
+    "Size"
+   ],
+   "properties": [
+    {
+     "name": "Store",
+     "id": "Store",
+     "type": "VARIANT",
+     "default": "Google Play",
+     "options": [
+      "Google Play",
+      "App Store",
+      "Mac App Store"
+     ]
+    },
+    {
+     "name": "Style",
+     "id": "Style",
+     "type": "VARIANT",
+     "default": "Brand",
+     "options": [
+      "Brand",
+      "Outline"
+     ]
+    },
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "md",
+     "options": [
+      "md",
+      "lg"
+     ]
+    }
+   ],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 40,
+    "boundStroke": 16,
+    "rawFill": 0,
+    "rawStroke": 2,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [
+      "Store=Google Play, Style=Outline, Size=md > Vector",
+      "Store=Google Play, Style=Outline, Size=lg > Vector"
+     ],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 12,
+   "page": "↳ Buttons",
+   "pageId": "1:1183",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Buttons/Button loading icon",
+   "id": "8993:429278",
+   "key": "f9a816edcc033311681d4422335329bdf592b6ce",
+   "hasDescription": false,
+   "variantCount": 2,
+   "axes": [
+    "Size"
+   ],
+   "properties": [
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "sm",
+     "options": [
+      "sm",
+      "md"
+     ]
+    }
+   ],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 0,
+    "boundStroke": 4,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 2,
+   "page": "↳ Buttons",
+   "pageId": "1:1183",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Buttons/Button icon",
+   "id": "17528:1499",
+   "key": "50987e2f081c4c714550770a6e0ec15e178457ac",
+   "hasDescription": false,
+   "variantCount": 12,
+   "axes": [
+    "Intent",
+    "Size"
+   ],
+   "properties": [
+    {
+     "name": "Intent",
+     "id": "Intent",
+     "type": "VARIANT",
+     "default": "Neutral",
+     "options": [
+      "Neutral",
+      "Strong",
+      "Normal",
+      "Destructive"
+     ]
+    },
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "sm",
+     "options": [
+      "md",
+      "lg",
+      "sm"
+     ]
+    }
+   ],
+   "nestedInstances": 12,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Icon wrapper",
+     "key": "b8295cee7375c7b7216cb412047f771ce86fbf9d",
+     "isSet": true,
+     "remote": true,
+     "count": 12,
+     "layers": [
+      "Icon wrapper"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 12,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Buttons",
+   "pageId": "1:1183",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Buttons/Button action",
+   "id": "21539:9592",
+   "key": "22b539e362aa76d635257f973a781d258abb0d52",
+   "hasDescription": false,
+   "variantCount": 3,
+   "axes": [
+    "State"
+   ],
+   "properties": [
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Disabled",
+      "onTap"
+     ]
+    }
+   ],
+   "nestedInstances": 3,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Buttons/Button",
+     "key": "4e55cb83a056a6e3ac0225834874a1dcb6580da6",
+     "isSet": true,
+     "remote": false,
+     "count": 3,
+     "layers": [
+      "Buttons/Button"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 3,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 3,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Buttons",
+   "pageId": "1:1183",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Buttons/Button navigation",
+   "id": "21543:896",
+   "key": "188d6d860cb1aeb49aceea2c4135d9b99767732f",
+   "hasDescription": false,
+   "variantCount": 3,
+   "axes": [
+    "State"
+   ],
+   "properties": [
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Active",
+      "Disabled"
+     ]
+    }
+   ],
+   "nestedInstances": 3,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Icon wrapper",
+     "key": "b8295cee7375c7b7216cb412047f771ce86fbf9d",
+     "isSet": true,
+     "remote": true,
+     "count": 3,
+     "layers": [
+      "Icon wrapper"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 4,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 3,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Buttons",
+   "pageId": "1:1183",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "_Button group base",
+   "id": "1046:9312",
+   "key": "da5616bc54b6b76a71af6dfe16dea2471e6a35c9",
+   "hasDescription": false,
+   "variantCount": 32,
+   "axes": [
+    "Current",
+    "Icon",
+    "State"
+   ],
+   "properties": [
+    {
+     "name": "🔀 Icon swap",
+     "id": "🔀 Icon swap#3473:0",
+     "type": "INSTANCE_SWAP",
+     "default": "3465:410042",
+     "defaultRef": {
+      "name": "placeholder",
+      "variant": null,
+      "key": "dcfc3ebd8e0b2b1123a7278b153a77a23e560eef",
+      "remote": false
+     },
+     "preferredCount": 0,
+     "preferred": []
+    },
+    {
+     "name": "Current",
+     "id": "Current",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    },
+    {
+     "name": "Icon",
+     "id": "Icon",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "Leading",
+      "Only",
+      "Dot"
+     ]
+    },
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Hover",
+      "Focused",
+      "Disabled"
+     ]
+    }
+   ],
+   "nestedInstances": 24,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "placeholder",
+     "key": "dcfc3ebd8e0b2b1123a7278b153a77a23e560eef",
+     "isSet": false,
+     "remote": false,
+     "count": 16,
+     "layers": [
+      "placeholder"
+     ]
+    },
+    {
+     "name": "_Dot",
+     "key": "b922198313da17d22beac75de045c5abfe54a650",
+     "isSet": true,
+     "remote": false,
+     "count": 8,
+     "layers": [
+      "_Dot"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 56,
+    "boundStroke": 32,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 24,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Button groups",
+   "pageId": "16:399",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Button group",
+   "id": "1046:10171",
+   "key": "31dcc0addbb06b54972ccd09395bb83bf6490eae",
+   "hasDescription": false,
+   "variantCount": 3,
+   "axes": [
+    "Icon"
+   ],
+   "properties": [
+    {
+     "name": "Icon",
+     "id": "Icon",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "Leading",
+      "Only"
+     ]
+    }
+   ],
+   "nestedInstances": 27,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "_Button group base",
+     "key": "da5616bc54b6b76a71af6dfe16dea2471e6a35c9",
+     "isSet": true,
+     "remote": false,
+     "count": 27,
+     "layers": [
+      "_Button group base"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 0,
+    "boundStroke": 3,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Button groups",
+   "pageId": "16:399",
+   "scope": "base"
+  },
+  {
+   "kind": "component",
+   "name": "Navigation button group",
+   "id": "21543:1115",
+   "key": "1ead631eb076a731c9f1d3a053613a5a5ae5af9c",
+   "hasDescription": false,
+   "variantCount": null,
+   "axes": [],
+   "properties": [],
+   "nestedInstances": 5,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Buttons/Button navigation",
+     "key": "188d6d860cb1aeb49aceea2c4135d9b99767732f",
+     "isSet": true,
+     "remote": false,
+     "count": 5,
+     "layers": [
+      "Buttons/Button navigation"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 1,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Button groups",
+   "pageId": "16:399",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "_Tab button base",
+   "id": "21269:11402",
+   "key": "6db51e07f3287ff163aefd69fc6d86bd015c2870",
+   "hasDescription": false,
+   "variantCount": 8,
+   "axes": [
+    "State",
+    "Type",
+    "Size"
+   ],
+   "properties": [
+    {
+     "name": "Show L icon",
+     "id": "Show L icon#21269:294",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Show tag",
+     "id": "Show tag#21282:0",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Add spacer",
+     "id": "Add spacer#21453:5",
+     "type": "BOOLEAN",
+     "default": false
+    },
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Active",
+     "options": [
+      "Inactive",
+      "Active"
+     ]
+    },
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "Pill",
+     "options": [
+      "Pill",
+      "Underlined"
+     ]
+    },
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "sm",
+     "options": [
+      "sm",
+      "md"
+     ]
+    }
+   ],
+   "nestedInstances": 32,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Icon wrapper",
+     "key": "b8295cee7375c7b7216cb412047f771ce86fbf9d",
+     "isSet": true,
+     "remote": true,
+     "count": 8,
+     "layers": [
+      "Icon wrapper"
+     ]
+    },
+    {
+     "name": "Spacer",
+     "key": "d130f79f25a2cea24cac0bf7b34a68206b8e8b34",
+     "isSet": true,
+     "remote": false,
+     "count": 16,
+     "layers": [
+      "Spacer"
+     ]
+    },
+    {
+     "name": "Tag count",
+     "key": "a5983e910461555c43434c0f1b4687459d40b26e",
+     "isSet": true,
+     "remote": false,
+     "count": 8,
+     "layers": [
+      "Tag count"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 12,
+    "boundStroke": 4,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 8,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Tab & filter groups",
+   "pageId": "21269:1860",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "_Filter button base",
+   "id": "21387:5280",
+   "key": "193f59fc05cbdcd8564a560b2e0d60a0fa53caa0",
+   "hasDescription": false,
+   "variantCount": 2,
+   "axes": [
+    "State"
+   ],
+   "properties": [
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Active",
+     "options": [
+      "Active",
+      "Inactive"
+     ]
+    }
+   ],
+   "nestedInstances": 2,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Icon wrapper",
+     "key": "b8295cee7375c7b7216cb412047f771ce86fbf9d",
+     "isSet": true,
+     "remote": true,
+     "count": 2,
+     "layers": [
+      "Icon wrapper"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 4,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 2,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Tab & filter groups",
+   "pageId": "21269:1860",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Tab group",
+   "id": "21453:537",
+   "key": "9a18c88a510028b16cbb77cea282e5e3e353791a",
+   "hasDescription": false,
+   "variantCount": 4,
+   "axes": [
+    "Type",
+    "Size"
+   ],
+   "properties": [
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "Pill",
+     "options": [
+      "Pill",
+      "Underline"
+     ]
+    },
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "sm",
+     "options": [
+      "sm",
+      "md"
+     ]
+    }
+   ],
+   "nestedInstances": 20,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "_Tab button base",
+     "key": "6db51e07f3287ff163aefd69fc6d86bd015c2870",
+     "isSet": true,
+     "remote": false,
+     "count": 20,
+     "layers": [
+      "_Tab button base"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 0,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Tab & filter groups",
+   "pageId": "21269:1860",
+   "scope": "base"
+  },
+  {
+   "kind": "component",
+   "name": "Filter group",
+   "id": "21387:9103",
+   "key": "2e2377d0d5c20b299e4a4d3a6939f627adc4fe36",
+   "hasDescription": false,
+   "variantCount": null,
+   "axes": [],
+   "properties": [],
+   "nestedInstances": 9,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "_Filter button base",
+     "key": "193f59fc05cbdcd8564a560b2e0d60a0fa53caa0",
+     "isSet": true,
+     "remote": false,
+     "count": 6,
+     "layers": [
+      "_Filter button base"
+     ]
+    },
+    {
+     "name": "_Tab button base",
+     "key": "6db51e07f3287ff163aefd69fc6d86bd015c2870",
+     "isSet": true,
+     "remote": false,
+     "count": 3,
+     "layers": [
+      "_Tab button base"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 0,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Tab & filter groups",
+   "pageId": "21269:1860",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Badge",
+   "id": "17528:20237",
+   "key": "088d7369747246e206bc0524a708228c9ed7efee",
+   "hasDescription": false,
+   "variantCount": 27,
+   "axes": [
+    "Type",
+    "Size",
+    "Status"
+   ],
+   "properties": [
+    {
+     "name": "Show L icon",
+     "id": "Show L icon#21360:0",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Show R icon",
+     "id": "Show R icon#21360:28",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "Status",
+     "options": [
+      "Status",
+      "Currency"
+     ]
+    },
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "xs",
+     "options": [
+      "xs",
+      "sm",
+      "md"
+     ]
+    },
+    {
+     "name": "Status",
+     "id": "Status",
+     "type": "VARIANT",
+     "default": "Neutral",
+     "options": [
+      "Expired",
+      "Failed",
+      "Action",
+      "In progress",
+      "Pending",
+      "Completed",
+      "Neutral"
+     ]
+    }
+   ],
+   "nestedInstances": 48,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Icon wrapper",
+     "key": "b8295cee7375c7b7216cb412047f771ce86fbf9d",
+     "isSet": true,
+     "remote": true,
+     "count": 48,
+     "layers": [
+      "Icon wrapper"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 54,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 27,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Badges",
+   "pageId": "12:539",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Tag",
+   "id": "3307:417515",
+   "key": "eb1480ff59348721e5d9402fc7fa35dfd6cd96a7",
+   "hasDescription": false,
+   "variantCount": 30,
+   "axes": [
+    "Size",
+    "Icon",
+    "Action",
+    "Checkbox",
+    "Avatar"
+   ],
+   "properties": [
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "xs",
+     "options": [
+      "xs",
+      "sm",
+      "md",
+      "lg"
+     ]
+    },
+    {
+     "name": "Icon",
+     "id": "Icon",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False"
+     ]
+    },
+    {
+     "name": "Action",
+     "id": "Action",
+     "type": "VARIANT",
+     "default": "Text only",
+     "options": [
+      "X close",
+      "Text only",
+      "Count"
+     ]
+    },
+    {
+     "name": "Checkbox",
+     "id": "Checkbox",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    },
+    {
+     "name": "Avatar",
+     "id": "Avatar",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    }
+   ],
+   "nestedInstances": 44,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Radio / Checkbox",
+     "key": "9b75804be080e8fcd98a03d9b98bc070c44a0f52",
+     "isSet": true,
+     "remote": false,
+     "count": 12,
+     "layers": [
+      "Radio / Checkbox"
+     ]
+    },
+    {
+     "name": "Avatar",
+     "key": "f4054d4d1e23c1d33497c7891b6ef0062a8a8b86",
+     "isSet": true,
+     "remote": false,
+     "count": 12,
+     "layers": [
+      "Avatar"
+     ]
+    },
+    {
+     "name": "Icon wrapper",
+     "key": "b8295cee7375c7b7216cb412047f771ce86fbf9d",
+     "isSet": true,
+     "remote": true,
+     "count": 10,
+     "layers": [
+      "Icon wrapper"
+     ]
+    },
+    {
+     "name": "Tag count",
+     "key": "a5983e910461555c43434c0f1b4687459d40b26e",
+     "isSet": true,
+     "remote": false,
+     "count": 10,
+     "layers": [
+      "Tag count"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 60,
+    "boundStroke": 30,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 30,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Tags",
+   "pageId": "3306:403749",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Tag count",
+   "id": "3307:417827",
+   "key": "a5983e910461555c43434c0f1b4687459d40b26e",
+   "hasDescription": false,
+   "variantCount": 6,
+   "axes": [
+    "Size",
+    "Color"
+   ],
+   "properties": [
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "sm",
+     "options": [
+      "sm",
+      "md",
+      "lg"
+     ]
+    },
+    {
+     "name": "Color",
+     "id": "Color",
+     "type": "VARIANT",
+     "default": "Neutral",
+     "options": [
+      "Neutral",
+      "Brand"
+     ]
+    }
+   ],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 12,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 6,
+    "rawText": 4,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": [
+      "Size=md, Color=Neutral > Text",
+      "Size=lg, Color=Neutral > Text",
+      "Size=md, Color=Brand > Text"
+     ]
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Tags",
+   "pageId": "3306:403749",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "_Dropdown list item",
+   "id": "3281:382793",
+   "key": "c28ecd38b953410ab8905b1535618292b8246a2a",
+   "hasDescription": false,
+   "variantCount": 11,
+   "axes": [
+    "Icon",
+    "Checkbox",
+    "State",
+    "Divider",
+    "Selected"
+   ],
+   "properties": [
+    {
+     "name": "Supporting text",
+     "id": "Supporting text#5414:0",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Icon",
+     "id": "Icon",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    },
+    {
+     "name": "Checkbox",
+     "id": "Checkbox",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    },
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Hover/active",
+      "Disabled"
+     ]
+    },
+    {
+     "name": "Divider",
+     "id": "Divider",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "True",
+      "False"
+     ]
+    },
+    {
+     "name": "Selected",
+     "id": "Selected",
+     "type": "VARIANT",
+     "default": "No",
+     "options": [
+      "No",
+      "Yes"
+     ]
+    }
+   ],
+   "nestedInstances": 7,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Icon wrapper",
+     "key": "b8295cee7375c7b7216cb412047f771ce86fbf9d",
+     "isSet": true,
+     "remote": true,
+     "count": 4,
+     "layers": [
+      "Icon wrapper"
+     ]
+    },
+    {
+     "name": "Radio / Checkbox",
+     "key": "9b75804be080e8fcd98a03d9b98bc070c44a0f52",
+     "isSet": true,
+     "remote": false,
+     "count": 3,
+     "layers": [
+      "Radio / Checkbox"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 15,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 10,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Dropdowns",
+   "pageId": "18:0",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Dropdown",
+   "id": "3281:383083",
+   "key": "13b9a77b24f776cf97e38f15eb37e395ee44c5cc",
+   "hasDescription": false,
+   "variantCount": 2,
+   "axes": [
+    "Type",
+    "Open"
+   ],
+   "properties": [
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "Button",
+     "options": [
+      "Button"
+     ]
+    },
+    {
+     "name": "Open",
+     "id": "Open",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    }
+   ],
+   "nestedInstances": 6,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "_Dropdown list item",
+     "key": "c28ecd38b953410ab8905b1535618292b8246a2a",
+     "isSet": true,
+     "remote": false,
+     "count": 4,
+     "layers": [
+      "_Dropdown list item"
+     ]
+    },
+    {
+     "name": "Buttons/Button",
+     "key": "4e55cb83a056a6e3ac0225834874a1dcb6580da6",
+     "isSet": true,
+     "remote": false,
+     "count": 2,
+     "layers": [
+      "Buttons/Button"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 1,
+    "boundStroke": 1,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Dropdowns",
+   "pageId": "18:0",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Select",
+   "id": "3281:377673",
+   "key": "24a50e9545736330f606fa4a3319226f572537bc",
+   "hasDescription": false,
+   "variantCount": 25,
+   "axes": [
+    "Size",
+    "Type",
+    "State"
+   ],
+   "properties": [
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "lg",
+     "options": [
+      "lg"
+     ]
+    },
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Icon leading",
+      "Avatar leading",
+      "Search",
+      "Tags"
+     ]
+    },
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Placeholder",
+     "options": [
+      "Placeholder",
+      "Default",
+      "Focused",
+      "Open",
+      "Disabled"
+     ]
+    }
+   ],
+   "nestedInstances": 126,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "_Input title",
+     "key": "134ca52421b354acd021a144e05f0cdefbdc1100",
+     "isSet": true,
+     "remote": false,
+     "count": 25,
+     "layers": [
+      "_Input title"
+     ]
+    },
+    {
+     "name": "Icon wrapper",
+     "key": "b8295cee7375c7b7216cb412047f771ce86fbf9d",
+     "isSet": true,
+     "remote": true,
+     "count": 41,
+     "layers": [
+      "Icon wrapper"
+     ]
+    },
+    {
+     "name": "Helper text",
+     "key": "ca182111c2dbfc6ea676907d122546d8e15758e9",
+     "isSet": true,
+     "remote": false,
+     "count": 20,
+     "layers": [
+      "Helper text"
+     ]
+    },
+    {
+     "name": "Tag",
+     "key": "eb1480ff59348721e5d9402fc7fa35dfd6cd96a7",
+     "isSet": true,
+     "remote": false,
+     "count": 6,
+     "layers": [
+      "Tag"
+     ]
+    },
+    {
+     "name": "Avatar",
+     "key": "f4054d4d1e23c1d33497c7891b6ef0062a8a8b86",
+     "isSet": true,
+     "remote": false,
+     "count": 4,
+     "layers": [
+      "Avatar"
+     ]
+    },
+    {
+     "name": "_Dropdown list item",
+     "key": "c28ecd38b953410ab8905b1535618292b8246a2a",
+     "isSet": true,
+     "remote": false,
+     "count": 25,
+     "layers": [
+      "_Dropdown list item"
+     ]
+    },
+    {
+     "name": "_Scroll bar (control fill with bottom padding)",
+     "key": "75a3030ff915e3cd2d81f4a67e7a6ec1b0a09ccf",
+     "isSet": false,
+     "remote": false,
+     "count": 5,
+     "layers": [
+      "_Scroll bar (control fill with bottom padding)"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 96,
+    "boundStroke": 51,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 45,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Dropdowns",
+   "pageId": "18:0",
+   "scope": "base"
+  },
+  {
+   "kind": "component",
+   "name": "_Scroll bar (control fill with bottom padding)",
+   "id": "8003:32901",
+   "key": "75a3030ff915e3cd2d81f4a67e7a6ec1b0a09ccf",
+   "hasDescription": false,
+   "variantCount": null,
+   "axes": [],
+   "properties": [],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 1,
+    "boundStroke": 1,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Dropdowns",
+   "pageId": "18:0",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "_Mega input field base",
+   "id": "1106:66560",
+   "key": "612e7bcb189447e5fdf0f08214398fc50816b218",
+   "hasDescription": false,
+   "variantCount": 12,
+   "axes": [
+    "State",
+    "Size"
+   ],
+   "properties": [
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Placeholder",
+     "options": [
+      "Placeholder",
+      "Focused",
+      "Filled",
+      "Disabled"
+     ]
+    },
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "sm",
+     "options": [
+      "md",
+      "sm",
+      "lg"
+     ]
+    }
+   ],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 24,
+    "boundStroke": 6,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 12,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Inputs",
+   "pageId": "85:1269",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Verification code input field",
+   "id": "1106:66757",
+   "key": "92a57fe594eb63b24c66b8faadbd8aee2dd7372e",
+   "hasDescription": false,
+   "variantCount": 3,
+   "axes": [
+    "Size",
+    "Digits"
+   ],
+   "properties": [
+    {
+     "name": "Label",
+     "id": "Label#3285:1069",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "sm",
+     "options": [
+      "sm",
+      "md",
+      "lg"
+     ]
+    },
+    {
+     "name": "Digits",
+     "id": "Digits",
+     "type": "VARIANT",
+     "default": "4",
+     "options": [
+      "4"
+     ]
+    }
+   ],
+   "nestedInstances": 18,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "_Input title",
+     "key": "134ca52421b354acd021a144e05f0cdefbdc1100",
+     "isSet": true,
+     "remote": false,
+     "count": 3,
+     "layers": [
+      "_Input title"
+     ]
+    },
+    {
+     "name": "_Mega input field base",
+     "key": "612e7bcb189447e5fdf0f08214398fc50816b218",
+     "isSet": true,
+     "remote": false,
+     "count": 12,
+     "layers": [
+      "_Mega input field base"
+     ]
+    },
+    {
+     "name": "Helper text",
+     "key": "ca182111c2dbfc6ea676907d122546d8e15758e9",
+     "isSet": true,
+     "remote": false,
+     "count": 3,
+     "layers": [
+      "Helper text"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 0,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Inputs",
+   "pageId": "85:1269",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Textarea input field",
+   "id": "1238:278",
+   "key": "fbbbbd96f2d83b97ab1179c75681fa9988ed39c4",
+   "hasDescription": false,
+   "variantCount": 14,
+   "axes": [
+    "Type",
+    "Destructive",
+    "State"
+   ],
+   "properties": [
+    {
+     "name": "Hint text",
+     "id": "Hint text#3285:1040",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Resize handle",
+     "id": "Resize handle#7588:0",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Tags"
+     ]
+    },
+    {
+     "name": "Destructive",
+     "id": "Destructive",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    },
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Placeholder",
+     "options": [
+      "Placeholder",
+      "Default",
+      "Focused",
+      "Disabled"
+     ]
+    }
+   ],
+   "nestedInstances": 36,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "_Input title",
+     "key": "134ca52421b354acd021a144e05f0cdefbdc1100",
+     "isSet": true,
+     "remote": false,
+     "count": 14,
+     "layers": [
+      "_Input title"
+     ]
+    },
+    {
+     "name": "Helper text",
+     "key": "ca182111c2dbfc6ea676907d122546d8e15758e9",
+     "isSet": true,
+     "remote": false,
+     "count": 12,
+     "layers": [
+      "Helper text"
+     ]
+    },
+    {
+     "name": "Tag",
+     "key": "eb1480ff59348721e5d9402fc7fa35dfd6cd96a7",
+     "isSet": true,
+     "remote": false,
+     "count": 10,
+     "layers": [
+      "Tag"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 30,
+    "boundStroke": 42,
+    "rawFill": 3,
+    "rawStroke": 0,
+    "textLayers": 16,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [
+      "Type=Tags, Destructive=True, State=Placeholder > Resize handle",
+      "Type=Tags, Destructive=True, State=Default > Resize handle",
+      "Type=Tags, Destructive=True, State=Focused > Resize handle"
+     ],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Inputs",
+   "pageId": "85:1269",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Helper text",
+   "id": "17515:929",
+   "key": "ca182111c2dbfc6ea676907d122546d8e15758e9",
+   "hasDescription": false,
+   "variantCount": 15,
+   "axes": [
+    "Size",
+    "Status"
+   ],
+   "properties": [
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "lg",
+     "options": [
+      "lg",
+      "md",
+      "sm"
+     ]
+    },
+    {
+     "name": "Status",
+     "id": "Status",
+     "type": "VARIANT",
+     "default": "Informative default",
+     "options": [
+      "Informative subtle",
+      "Success",
+      "Error",
+      "Alert",
+      "Informative default"
+     ]
+    }
+   ],
+   "nestedInstances": 15,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Icon wrapper",
+     "key": "b8295cee7375c7b7216cb412047f771ce86fbf9d",
+     "isSet": true,
+     "remote": true,
+     "count": 15,
+     "layers": [
+      "Icon wrapper"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 15,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 15,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Inputs",
+   "pageId": "85:1269",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Input field",
+   "id": "17517:11024",
+   "key": "cc536ed7c182738d0022e89e030c0f1552d7486a",
+   "hasDescription": false,
+   "variantCount": 53,
+   "axes": [
+    "Size",
+    "Type",
+    "Destructive",
+    "State"
+   ],
+   "properties": [
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "lg",
+     "options": [
+      "lg",
+      "sm"
+     ]
+    },
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "Leading icon",
+     "options": [
+      "Default",
+      "Leading drowdown",
+      "Payment",
+      "Leading icon",
+      "Password",
+      "Search",
+      "Search + Tags"
+     ]
+    },
+    {
+     "name": "Destructive",
+     "id": "Destructive",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    },
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Placeholder",
+     "options": [
+      "Placeholder",
+      "Filled",
+      "Focused",
+      "Disabled"
+     ]
+    }
+   ],
+   "nestedInstances": 154,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Icon wrapper",
+     "key": "b8295cee7375c7b7216cb412047f771ce86fbf9d",
+     "isSet": true,
+     "remote": true,
+     "count": 79,
+     "layers": [
+      "Icon wrapper"
+     ]
+    },
+    {
+     "name": "Helper text",
+     "key": "ca182111c2dbfc6ea676907d122546d8e15758e9",
+     "isSet": true,
+     "remote": false,
+     "count": 53,
+     "layers": [
+      "Helper text"
+     ]
+    },
+    {
+     "name": "Tag",
+     "key": "eb1480ff59348721e5d9402fc7fa35dfd6cd96a7",
+     "isSet": true,
+     "remote": false,
+     "count": 8,
+     "layers": [
+      "Tag"
+     ]
+    },
+    {
+     "name": "Payment method icon",
+     "key": "01734189d1b7a4e1b0480c61f368f77825e0e380",
+     "isSet": true,
+     "remote": false,
+     "count": 7,
+     "layers": [
+      "Payment method icon"
+     ]
+    },
+    {
+     "name": "Radio / Checkbox",
+     "key": "9b75804be080e8fcd98a03d9b98bc070c44a0f52",
+     "isSet": true,
+     "remote": false,
+     "count": 7,
+     "layers": [
+      "Radio / Checkbox"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 212,
+    "boundStroke": 93,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 119,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Inputs",
+   "pageId": "85:1269",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "_Input title",
+   "id": "17571:10947",
+   "key": "134ca52421b354acd021a144e05f0cdefbdc1100",
+   "hasDescription": false,
+   "variantCount": 3,
+   "axes": [
+    "Required?",
+    "Tooltip?"
+   ],
+   "properties": [
+    {
+     "name": "Required?",
+     "id": "Required?",
+     "type": "VARIANT",
+     "default": "No",
+     "options": [
+      "Yes",
+      "No"
+     ]
+    },
+    {
+     "name": "Tooltip?",
+     "id": "Tooltip?",
+     "type": "VARIANT",
+     "default": "No",
+     "options": [
+      "Yes",
+      "No"
+     ]
+    }
+   ],
+   "nestedInstances": 2,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Icon wrapper",
+     "key": "b8295cee7375c7b7216cb412047f771ce86fbf9d",
+     "isSet": true,
+     "remote": true,
+     "count": 2,
+     "layers": [
+      "Icon wrapper"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 4,
+    "boundStroke": 1,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 4,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Inputs",
+   "pageId": "85:1269",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "_Toggle base",
+   "id": "122:3294",
+   "key": "cc70522b2b056611b6fd3588545ff8d41b90fe8b",
+   "hasDescription": false,
+   "variantCount": 16,
+   "axes": [
+    "Type",
+    "Pressed",
+    "Size",
+    "State"
+   ],
+   "properties": [
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default"
+     ]
+    },
+    {
+     "name": "Pressed",
+     "id": "Pressed",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    },
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "sm",
+     "options": [
+      "sm",
+      "md"
+     ]
+    },
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Hover",
+      "Focus",
+      "Disabled"
+     ]
+    }
+   ],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 32,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Toggles",
+   "pageId": "1102:4631",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Toggle",
+   "id": "1102:4208",
+   "key": "b02a3b7bcd5adf5819701599690aac4a1ca89601",
+   "hasDescription": false,
+   "variantCount": 16,
+   "axes": [
+    "Type",
+    "Pressed",
+    "Size",
+    "Text",
+    "State"
+   ],
+   "properties": [
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default"
+     ]
+    },
+    {
+     "name": "Pressed",
+     "id": "Pressed",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    },
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "sm",
+     "options": [
+      "sm",
+      "md"
+     ]
+    },
+    {
+     "name": "Text",
+     "id": "Text",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False"
+     ]
+    },
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Hover",
+      "Focus",
+      "Disabled"
+     ]
+    }
+   ],
+   "nestedInstances": 16,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "_Toggle base",
+     "key": "cc70522b2b056611b6fd3588545ff8d41b90fe8b",
+     "isSet": true,
+     "remote": false,
+     "count": 16,
+     "layers": [
+      "_Toggle base"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 0,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Toggles",
+   "pageId": "1102:4631",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Radio / Checkbox",
+   "id": "1097:63652",
+   "key": "9b75804be080e8fcd98a03d9b98bc070c44a0f52",
+   "hasDescription": false,
+   "variantCount": 84,
+   "axes": [
+    "Checked",
+    "Indeterminate",
+    "Size",
+    "Type",
+    "Text",
+    "State"
+   ],
+   "properties": [
+    {
+     "name": "Supporting text",
+     "id": "Supporting text#3281:1085",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Checked",
+     "id": "Checked",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    },
+    {
+     "name": "Indeterminate",
+     "id": "Indeterminate",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    },
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "xs",
+     "options": [
+      "sm",
+      "md",
+      "xs"
+     ]
+    },
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "Checkbox",
+     "options": [
+      "Checkbox",
+      "Radio"
+     ]
+    },
+    {
+     "name": "Text",
+     "id": "Text",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    },
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Hover",
+      "Focused",
+      "Disabled"
+     ]
+    }
+   ],
+   "nestedInstances": 84,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "_Checkbox base",
+     "key": "5e76c9f6c4224d514e888f1b1347926d2ccd037a",
+     "isSet": true,
+     "remote": false,
+     "count": 84,
+     "layers": [
+      "_Checkbox base"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 64,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 64,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Checkboxes",
+   "pageId": "1097:63638",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "_Checkbox base",
+   "id": "1097:63886",
+   "key": "5e76c9f6c4224d514e888f1b1347926d2ccd037a",
+   "hasDescription": false,
+   "variantCount": 52,
+   "axes": [
+    "Checked",
+    "Indeterminate",
+    "Size",
+    "Type",
+    "State"
+   ],
+   "properties": [
+    {
+     "name": "Checked",
+     "id": "Checked",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    },
+    {
+     "name": "Indeterminate",
+     "id": "Indeterminate",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    },
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "xs",
+     "options": [
+      "sm",
+      "md",
+      "xs"
+     ]
+    },
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "Checkbox",
+     "options": [
+      "Checkbox",
+      "Radio"
+     ]
+    },
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Hover",
+      "Focused",
+      "Disabled"
+     ]
+    }
+   ],
+   "nestedInstances": 24,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "check",
+     "key": "b346671e36cd249b706cbd996b2823c026c76255",
+     "isSet": false,
+     "remote": false,
+     "count": 12,
+     "layers": [
+      "check"
+     ]
+    },
+    {
+     "name": "minus",
+     "key": "8b213c428b51298d2cbafd3df9b6c741a5638dba",
+     "isSet": false,
+     "remote": false,
+     "count": 12,
+     "layers": [
+      "minus"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 50,
+    "boundStroke": 28,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 52,
+   "page": "↳ Checkboxes",
+   "pageId": "1097:63638",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Radio group item",
+   "id": "124:2838",
+   "key": "19677226e140058b8844765e9ac5a5a20b0bb293",
+   "hasDescription": false,
+   "variantCount": 96,
+   "axes": [
+    "Selected",
+    "Size",
+    "Type",
+    "State",
+    "Breakpoint"
+   ],
+   "properties": [
+    {
+     "name": "Selected",
+     "id": "Selected",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    },
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "sm",
+     "options": [
+      "sm",
+      "md"
+     ]
+    },
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "Icon simple",
+     "options": [
+      "Icon simple",
+      "Avatar",
+      "Payment icon"
+     ]
+    },
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Hover",
+      "Focused",
+      "Disabled"
+     ]
+    },
+    {
+     "name": "Breakpoint",
+     "id": "Breakpoint",
+     "type": "VARIANT",
+     "default": "Desktop",
+     "options": [
+      "Mobile",
+      "Desktop"
+     ]
+    }
+   ],
+   "nestedInstances": 256,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Featured icon",
+     "key": "845127259cdd2b2d856077e89081f23457a10305",
+     "isSet": true,
+     "remote": true,
+     "count": 32,
+     "layers": [
+      "Featured icon"
+     ]
+    },
+    {
+     "name": "_Checkbox base",
+     "key": "5e76c9f6c4224d514e888f1b1347926d2ccd037a",
+     "isSet": true,
+     "remote": false,
+     "count": 96,
+     "layers": [
+      "_Checkbox base"
+     ]
+    },
+    {
+     "name": "Avatar",
+     "key": "f4054d4d1e23c1d33497c7891b6ef0062a8a8b86",
+     "isSet": true,
+     "remote": false,
+     "count": 32,
+     "layers": [
+      "Avatar"
+     ]
+    },
+    {
+     "name": "Payment method icon",
+     "key": "b3a7b1ad158b66b1501241caba1352347abcb431",
+     "isSet": true,
+     "remote": true,
+     "count": 32,
+     "layers": [
+      "Payment method icon"
+     ]
+    },
+    {
+     "name": "Buttons/Button/sm/Link gray/Default/False",
+     "key": "38be1d7077606b85c9aeb0792f7ec90569907999",
+     "isSet": false,
+     "remote": false,
+     "count": 12,
+     "layers": [
+      "Buttons/Button"
+     ]
+    },
+    {
+     "name": "Buttons/Button",
+     "key": "4e55cb83a056a6e3ac0225834874a1dcb6580da6",
+     "isSet": true,
+     "remote": false,
+     "count": 32,
+     "layers": [
+      "Buttons/Button"
+     ]
+    },
+    {
+     "name": "Buttons/Button/md/Link gray/Default/False",
+     "key": "3c2d6635aa28c4ec43baa2f5550377befbfff8fc",
+     "isSet": false,
+     "remote": false,
+     "count": 12,
+     "layers": [
+      "Buttons/Button"
+     ]
+    },
+    {
+     "name": "Buttons/Button/sm/Link gray/Disabled/False",
+     "key": "0c5993f636bf9a1034f8e0522577591458819a87",
+     "isSet": false,
+     "remote": false,
+     "count": 4,
+     "layers": [
+      "Buttons/Button"
+     ]
+    },
+    {
+     "name": "Buttons/Button/md/Link gray/Disabled/False",
+     "key": "5dda7fa1416c780b2767c7da8925fd00e3511359",
+     "isSet": false,
+     "remote": false,
+     "count": 4,
+     "layers": [
+      "Buttons/Button"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 352,
+    "boundStroke": 96,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 256,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Radio groups",
+   "pageId": "122:3484",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Radio group",
+   "id": "1142:87213",
+   "key": "687b6dd09614c5dde2ede22d5e8efe3a25d3145f",
+   "hasDescription": false,
+   "variantCount": 20,
+   "axes": [
+    "Size",
+    "Type",
+    "Breakpoint"
+   ],
+   "properties": [
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "sm",
+     "options": [
+      "sm",
+      "md"
+     ]
+    },
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "Icon simple",
+     "options": [
+      "Icon simple",
+      "Avatar",
+      "Payment icon",
+      "Radio button",
+      "Checkbox"
+     ]
+    },
+    {
+     "name": "Breakpoint",
+     "id": "Breakpoint",
+     "type": "VARIANT",
+     "default": "Desktop",
+     "options": [
+      "Desktop",
+      "Mobile"
+     ]
+    }
+   ],
+   "nestedInstances": 100,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Radio group item",
+     "key": "19677226e140058b8844765e9ac5a5a20b0bb293",
+     "isSet": true,
+     "remote": false,
+     "count": 60,
+     "layers": [
+      "Radio group item"
+     ]
+    },
+    {
+     "name": "Radio group item/True/sm/Radio button/Default/Desktop",
+     "key": "2d48ea15c7e6f7420e383b0ed9473280d4adde49",
+     "isSet": false,
+     "remote": false,
+     "count": 1,
+     "layers": [
+      "Radio group item"
+     ]
+    },
+    {
+     "name": "Radio group item/False/sm/Radio button/Default/Desktop",
+     "key": "6b833b9c04c5ed78fd580596e0f5f0fead1e0003",
+     "isSet": false,
+     "remote": false,
+     "count": 4,
+     "layers": [
+      "Radio group item"
+     ]
+    },
+    {
+     "name": "Radio group item/True/sm/Checkbox/Default/Desktop",
+     "key": "92ddc4089af468d0f9148a7f7dcdb20deed6afed",
+     "isSet": false,
+     "remote": false,
+     "count": 1,
+     "layers": [
+      "Radio group item"
+     ]
+    },
+    {
+     "name": "Radio group item/False/sm/Checkbox/Default/Desktop",
+     "key": "4e70d5792f72fc808d313ecfd396476ab77f2192",
+     "isSet": false,
+     "remote": false,
+     "count": 4,
+     "layers": [
+      "Radio group item"
+     ]
+    },
+    {
+     "name": "Radio group item/True/sm/Radio button/Default/Mobile",
+     "key": "a0869d28b6c706e0e2978661a321127827cc3413",
+     "isSet": false,
+     "remote": false,
+     "count": 1,
+     "layers": [
+      "Radio group item"
+     ]
+    },
+    {
+     "name": "Radio group item/False/sm/Radio button/Default/Mobile",
+     "key": "d326b2ca1790dc7b60c309a38ff40f16ece4afef",
+     "isSet": false,
+     "remote": false,
+     "count": 4,
+     "layers": [
+      "Radio group item"
+     ]
+    },
+    {
+     "name": "Radio group item/True/sm/Checkbox/Default/Mobile",
+     "key": "332b60854920366db819d610c90560d6d3704e0a",
+     "isSet": false,
+     "remote": false,
+     "count": 1,
+     "layers": [
+      "Radio group item"
+     ]
+    },
+    {
+     "name": "Radio group item/False/sm/Checkbox/Default/Mobile",
+     "key": "6f9c4989b7c40aa467b1bf033bee5f97126bf364",
+     "isSet": false,
+     "remote": false,
+     "count": 4,
+     "layers": [
+      "Radio group item"
+     ]
+    },
+    {
+     "name": "Radio group item/True/md/Radio button/Default/Desktop",
+     "key": "3810892422fa27467599daa1b86bd4a384d07f46",
+     "isSet": false,
+     "remote": false,
+     "count": 1,
+     "layers": [
+      "Radio group item"
+     ]
+    },
+    {
+     "name": "Radio group item/False/md/Radio button/Default/Desktop",
+     "key": "fc7646252b8ddc55e899bb87e8f0bfce90c4cdba",
+     "isSet": false,
+     "remote": false,
+     "count": 4,
+     "layers": [
+      "Radio group item"
+     ]
+    },
+    {
+     "name": "Radio group item/True/md/Checkbox/Default/Desktop",
+     "key": "a823ba66a4f6cb5c120779815d702d3338ef940c",
+     "isSet": false,
+     "remote": false,
+     "count": 1,
+     "layers": [
+      "Radio group item"
+     ]
+    },
+    {
+     "name": "Radio group item/False/md/Checkbox/Default/Desktop",
+     "key": "cfc2ebd89190786ade2b25ed3cba101f125ffa4c",
+     "isSet": false,
+     "remote": false,
+     "count": 4,
+     "layers": [
+      "Radio group item"
+     ]
+    },
+    {
+     "name": "Radio group item/True/md/Radio button/Default/Mobile",
+     "key": "5e4c42575f4f661216acb6ce2e17e6227c995b65",
+     "isSet": false,
+     "remote": false,
+     "count": 1,
+     "layers": [
+      "Radio group item"
+     ]
+    },
+    {
+     "name": "Radio group item/False/md/Radio button/Default/Mobile",
+     "key": "14593639e16d17f4d0b4949b278cc944eaea12c9",
+     "isSet": false,
+     "remote": false,
+     "count": 4,
+     "layers": [
+      "Radio group item"
+     ]
+    },
+    {
+     "name": "Radio group item/True/md/Checkbox/Default/Mobile",
+     "key": "f1e8e98b4f12cade70507a611e863799b50a8fce",
+     "isSet": false,
+     "remote": false,
+     "count": 1,
+     "layers": [
+      "Radio group item"
+     ]
+    },
+    {
+     "name": "Radio group item/False/md/Checkbox/Default/Mobile",
+     "key": "700c8e197a206752ed08962274667e7468be386b",
+     "isSet": false,
+     "remote": false,
+     "count": 4,
+     "layers": [
+      "Radio group item"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 0,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Radio groups",
+   "pageId": "122:3484",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Avatar label group",
+   "id": "82:2793",
+   "key": "a2375acd10bb57c4d36091d8ef4a46dddc8a9feb",
+   "hasDescription": false,
+   "variantCount": 4,
+   "axes": [
+    "Size",
+    "Status icon"
+   ],
+   "properties": [
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "sm",
+     "options": [
+      "sm",
+      "md",
+      "lg",
+      "xl"
+     ]
+    },
+    {
+     "name": "Status icon",
+     "id": "Status icon",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False"
+     ]
+    }
+   ],
+   "nestedInstances": 4,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Avatar",
+     "key": "f4054d4d1e23c1d33497c7891b6ef0062a8a8b86",
+     "isSet": true,
+     "remote": false,
+     "count": 4,
+     "layers": [
+      "Avatar"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 8,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 8,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Avatars",
+   "pageId": "18:1350",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Avatar",
+   "id": "19:1012",
+   "key": "f4054d4d1e23c1d33497c7891b6ef0062a8a8b86",
+   "hasDescription": false,
+   "variantCount": 80,
+   "axes": [
+    "Type",
+    "Size",
+    "Placeholder",
+    "Text",
+    "Status icon",
+    "Color"
+   ],
+   "properties": [
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "User",
+     "options": [
+      "User",
+      "Currency",
+      "Company"
+     ]
+    },
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "xs",
+     "options": [
+      "xs",
+      "sm",
+      "md",
+      "lg",
+      "xl",
+      "2xl",
+      "xxxs",
+      "xxs"
+     ]
+    },
+    {
+     "name": "Placeholder",
+     "id": "Placeholder",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    },
+    {
+     "name": "Text",
+     "id": "Text",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    },
+    {
+     "name": "Status icon",
+     "id": "Status icon",
+     "type": "VARIANT",
+     "default": "None",
+     "options": [
+      "None",
+      "Currency"
+     ]
+    },
+    {
+     "name": "Color",
+     "id": "Color",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Color 1",
+      "Color 2",
+      "Color 3",
+      "Color 4",
+      "Color 5",
+      "Color 6",
+      "Color 7",
+      "Color 8"
+     ]
+    }
+   ],
+   "nestedInstances": 18,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Icon wrapper",
+     "key": "b8295cee7375c7b7216cb412047f771ce86fbf9d",
+     "isSet": true,
+     "remote": true,
+     "count": 12,
+     "layers": [
+      "Icon wrapper"
+     ]
+    },
+    {
+     "name": "JP",
+     "key": "07bbe9854c65880dd316b01f050af5e8262400aa",
+     "isSet": false,
+     "remote": true,
+     "count": 6,
+     "layers": [
+      "JP"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 102,
+    "boundStroke": 80,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 48,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 80,
+   "page": "↳ Avatars",
+   "pageId": "18:1350",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "_Avatar company icon",
+   "id": "1036:4",
+   "key": "b5581f8f4a20d5f9ec743e347e5134bfb45e7b98",
+   "hasDescription": false,
+   "variantCount": 6,
+   "axes": [
+    "Size"
+   ],
+   "properties": [
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "xs",
+     "options": [
+      "xs",
+      "sm",
+      "md",
+      "lg",
+      "xl",
+      "2xl"
+     ]
+    }
+   ],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 0,
+    "boundStroke": 6,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Avatars",
+   "pageId": "18:1350",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "_Avatar add button",
+   "id": "1102:4864",
+   "key": "752a52713d0da33355abcb16ec3caa6b740ef9a0",
+   "hasDescription": false,
+   "variantCount": 12,
+   "axes": [
+    "Size",
+    "State"
+   ],
+   "properties": [
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "xs",
+     "options": [
+      "xs",
+      "sm",
+      "md"
+     ]
+    },
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Hover",
+      "Focus",
+      "Disabled"
+     ]
+    }
+   ],
+   "nestedInstances": 18,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Icon wrapper",
+     "key": "b8295cee7375c7b7216cb412047f771ce86fbf9d",
+     "isSet": true,
+     "remote": true,
+     "count": 12,
+     "layers": [
+      "Icon wrapper"
+     ]
+    },
+    {
+     "name": "Tooltip",
+     "key": "178a9348bfa4ecb31117fceaf4966f647b7d0b55",
+     "isSet": true,
+     "remote": false,
+     "count": 3,
+     "layers": [
+      "Tooltip"
+     ]
+    },
+    {
+     "name": "Cursor",
+     "key": "59edb3ca8f2a1e71fbb2effa14ad4d444f80c2f6",
+     "isSet": true,
+     "remote": false,
+     "count": 3,
+     "layers": [
+      "Cursor"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 12,
+    "boundStroke": 12,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 12,
+   "page": "↳ Avatars",
+   "pageId": "18:1350",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Avatar group",
+   "id": "1274:812",
+   "key": "bebbf371ee5ad480879926597d915f77eb68baa7",
+   "hasDescription": false,
+   "variantCount": 3,
+   "axes": [
+    "Size"
+   ],
+   "properties": [
+    {
+     "name": "More users",
+     "id": "More users#3281:1400",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Add more button",
+     "id": "Add more button#3281:1413",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "xs",
+     "options": [
+      "xs",
+      "sm",
+      "md"
+     ]
+    }
+   ],
+   "nestedInstances": 33,
+   "missingMainComponent": 0,
+   "exposedInstances": [
+    "_Avatar add button"
+   ],
+   "dependencies": [
+    {
+     "name": "Avatar",
+     "key": "f4054d4d1e23c1d33497c7891b6ef0062a8a8b86",
+     "isSet": true,
+     "remote": false,
+     "count": 30,
+     "layers": [
+      "Avatar"
+     ]
+    },
+    {
+     "name": "_Avatar add button",
+     "key": "752a52713d0da33355abcb16ec3caa6b740ef9a0",
+     "isSet": true,
+     "remote": false,
+     "count": 3,
+     "layers": [
+      "_Avatar add button"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 0,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Avatars",
+   "pageId": "18:1350",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Tooltip",
+   "id": "1052:489",
+   "key": "178a9348bfa4ecb31117fceaf4966f647b7d0b55",
+   "hasDescription": false,
+   "variantCount": 14,
+   "axes": [
+    "Supporting text",
+    "Arrow"
+   ],
+   "properties": [
+    {
+     "name": "Text",
+     "id": "Text#7442:0",
+     "type": "TEXT",
+     "default": "This is a tooltip"
+    },
+    {
+     "name": "Supporting text",
+     "id": "Supporting text",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    },
+    {
+     "name": "Arrow",
+     "id": "Arrow",
+     "type": "VARIANT",
+     "default": "None",
+     "options": [
+      "None",
+      "Bottom left",
+      "Bottom right",
+      "Left",
+      "Right",
+      "Bottom center",
+      "Top center"
+     ]
+    }
+   ],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 47,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 21,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Tooltips",
+   "pageId": "1052:485",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Help icon",
+   "id": "1054:13",
+   "key": "d03c851d8df2c198df08194a48d22b68bb768f85",
+   "hasDescription": false,
+   "variantCount": 28,
+   "axes": [
+    "Open",
+    "Supporting text",
+    "Tooltip"
+   ],
+   "properties": [
+    {
+     "name": "Cursor",
+     "id": "Cursor#3313:5115",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Open",
+     "id": "Open",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    },
+    {
+     "name": "Supporting text",
+     "id": "Supporting text",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    },
+    {
+     "name": "Tooltip",
+     "id": "Tooltip",
+     "type": "VARIANT",
+     "default": "Top no arrow",
+     "options": [
+      "Top no arrow",
+      "Top arrow",
+      "Left",
+      "Top left",
+      "Bottom",
+      "Right",
+      "Top right"
+     ]
+    }
+   ],
+   "nestedInstances": 56,
+   "missingMainComponent": 0,
+   "exposedInstances": [
+    "Tooltip"
+   ],
+   "dependencies": [
+    {
+     "name": "help-circle",
+     "key": "7caf8cbda894109a01c2b6d58abb8df7d4b31f6e",
+     "isSet": false,
+     "remote": false,
+     "count": 28,
+     "layers": [
+      "help-circle"
+     ]
+    },
+    {
+     "name": "Tooltip",
+     "key": "178a9348bfa4ecb31117fceaf4966f647b7d0b55",
+     "isSet": true,
+     "remote": false,
+     "count": 14,
+     "layers": [
+      "Tooltip"
+     ]
+    },
+    {
+     "name": "Cursor",
+     "key": "59edb3ca8f2a1e71fbb2effa14ad4d444f80c2f6",
+     "isSet": true,
+     "remote": false,
+     "count": 14,
+     "layers": [
+      "Cursor"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 0,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 28,
+   "page": "↳ Tooltips",
+   "pageId": "1052:485",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Progress bar",
+   "id": "1085:57382",
+   "key": "7ce0d214a58934f9cc10306f31b8d485f36ba0d1",
+   "hasDescription": false,
+   "variantCount": 33,
+   "axes": [
+    "Progress",
+    "Label"
+   ],
+   "properties": [
+    {
+     "name": "Progress",
+     "id": "Progress",
+     "type": "VARIANT",
+     "default": "0%",
+     "options": [
+      "0%",
+      "10%",
+      "20%",
+      "30%",
+      "40%",
+      "50%",
+      "60%",
+      "70%",
+      "80%",
+      "90%",
+      "100%"
+     ]
+    },
+    {
+     "name": "Label",
+     "id": "Label",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "Right",
+      "Bottom"
+     ]
+    }
+   ],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 88,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 22,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Progress indicators",
+   "pageId": "1154:89940",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Progress circle",
+   "id": "1084:2717",
+   "key": "4b958a0b4a49e5999548cdf49a163ec8bd668810",
+   "hasDescription": false,
+   "variantCount": 5,
+   "axes": [
+    "Size",
+    "Shape"
+   ],
+   "properties": [
+    {
+     "name": "Label",
+     "id": "Label#9332:10",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "xxs",
+     "options": [
+      "xxs",
+      "xs",
+      "sm",
+      "md",
+      "lg"
+     ]
+    },
+    {
+     "name": "Shape",
+     "id": "Shape",
+     "type": "VARIANT",
+     "default": "Circle",
+     "options": [
+      "Circle"
+     ]
+    }
+   ],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 10,
+    "boundStroke": 10,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 10,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 4,
+   "page": "↳ Progress indicators",
+   "pageId": "1154:89940",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Slider",
+   "id": "1086:534",
+   "key": "4f407767f873d6917bbf5fc63b681038da375863",
+   "hasDescription": false,
+   "variantCount": 30,
+   "axes": [
+    "Label",
+    "Right control",
+    "Left control"
+   ],
+   "properties": [
+    {
+     "name": "Label",
+     "id": "Label",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "Bottom",
+      "Top floating"
+     ]
+    },
+    {
+     "name": "Right control",
+     "id": "Right control",
+     "type": "VARIANT",
+     "default": "25%",
+     "options": [
+      "25%",
+      "50%",
+      "75%",
+      "100%"
+     ]
+    },
+    {
+     "name": "Left control",
+     "id": "Left control",
+     "type": "VARIANT",
+     "default": "0%",
+     "options": [
+      "0%",
+      "25%",
+      "50%",
+      "75%"
+     ]
+    }
+   ],
+   "nestedInstances": 60,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "_Control handle",
+     "key": "25be621192f0de8224ffb9ada0b212586b1e3904",
+     "isSet": true,
+     "remote": false,
+     "count": 60,
+     "layers": [
+      "_Control handle"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 60,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 30,
+   "page": "↳ Sliders",
+   "pageId": "1086:1423",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "_Control handle",
+   "id": "3287:442783",
+   "key": "25be621192f0de8224ffb9ada0b212586b1e3904",
+   "hasDescription": false,
+   "variantCount": 9,
+   "axes": [
+    "State",
+    "Type"
+   ],
+   "properties": [
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Hover",
+      "Focused"
+     ]
+    },
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "Text",
+      "Tooltip"
+     ]
+    }
+   ],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 18,
+    "boundStroke": 12,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 6,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 9,
+   "page": "↳ Sliders",
+   "pageId": "1086:1423",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "_Indicator",
+   "id": "21132:1691",
+   "key": "4ac091dc468ed4029a7b3cfdcc9729aceda0d979",
+   "hasDescription": false,
+   "variantCount": 2,
+   "axes": [
+    "Status"
+   ],
+   "properties": [
+    {
+     "name": "Status",
+     "id": "Status",
+     "type": "VARIANT",
+     "default": "Active",
+     "options": [
+      "Active",
+      "Inactive"
+     ]
+    }
+   ],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 2,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 2,
+   "page": "↳ Navigators",
+   "pageId": "21132:323",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Navigator",
+   "id": "21206:142",
+   "key": "f412fbfdc4bb49a9aa8f423966e991e50a68b31a",
+   "hasDescription": false,
+   "variantCount": 5,
+   "axes": [
+    "Selected"
+   ],
+   "properties": [
+    {
+     "name": "Selected",
+     "id": "Selected",
+     "type": "VARIANT",
+     "default": "1",
+     "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ]
+    }
+   ],
+   "nestedInstances": 25,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "_Indicator",
+     "key": "4ac091dc468ed4029a7b3cfdcc9729aceda0d979",
+     "isSet": true,
+     "remote": false,
+     "count": 25,
+     "layers": [
+      "_Indicator"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 0,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Navigators",
+   "pageId": "21132:323",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "_Nav featured card",
+   "id": "1157:90307",
+   "key": "9e27d46f01e22f8481aefb9385d4443a6b778f34",
+   "hasDescription": false,
+   "variantCount": 6,
+   "axes": [
+    "Type"
+   ],
+   "properties": [
+    {
+     "name": "X close button",
+     "id": "X close button#3292:87",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "Progress bar",
+     "options": [
+      "Progress bar",
+      "Image",
+      "Onboarding steps",
+      "Support CTA",
+      "Free trial CTA",
+      "QR code"
+     ]
+    }
+   ],
+   "nestedInstances": 20,
+   "missingMainComponent": 0,
+   "exposedInstances": [
+    "Progress bar"
+   ],
+   "dependencies": [
+    {
+     "name": "Buttons/Button close X",
+     "key": "94aaab4d8249c309588aa3846863336f9797b7e2",
+     "isSet": true,
+     "remote": false,
+     "count": 4,
+     "layers": [
+      "Buttons/Button close X"
+     ]
+    },
+    {
+     "name": "Progress bar",
+     "key": "7ce0d214a58934f9cc10306f31b8d485f36ba0d1",
+     "isSet": true,
+     "remote": false,
+     "count": 3,
+     "layers": [
+      "Progress bar"
+     ]
+    },
+    {
+     "name": "Buttons/Button",
+     "key": "4e55cb83a056a6e3ac0225834874a1dcb6580da6",
+     "isSet": true,
+     "remote": false,
+     "count": 8,
+     "layers": [
+      "Buttons/Button"
+     ]
+    },
+    {
+     "name": "Check icon",
+     "key": "2fb81e9a8b2c2bdf949a4adedc9125d05da260c0",
+     "isSet": true,
+     "remote": false,
+     "count": 4,
+     "layers": [
+      "Check icon"
+     ]
+    },
+    {
+     "name": "Badge",
+     "key": "eb75b29265fcaddf9e9234c90cacd1d54c76ad84",
+     "isSet": true,
+     "remote": false,
+     "count": 1,
+     "layers": [
+      "Badge"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 26,
+    "boundStroke": 9,
+    "rawFill": 1,
+    "rawStroke": 1,
+    "textLayers": 16,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [
+      "Type=Image > _Video overlay action"
+     ],
+     "rawStroke": [
+      "Type=Image > Video player 16:9"
+     ],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ App Navigation",
+   "pageId": "82:1862",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "_Nav account card menu item",
+   "id": "7891:71338",
+   "key": "0861b9e00925438faed46466249c5b64bdceecc7",
+   "hasDescription": false,
+   "variantCount": 8,
+   "axes": [
+    "Type",
+    "State",
+    "Current"
+   ],
+   "properties": [
+    {
+     "name": "Shortcut",
+     "id": "Shortcut#3281:732",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "🔀 Icon swap",
+     "id": "🔀 Icon swap#3473:33",
+     "type": "INSTANCE_SWAP",
+     "default": "3465:410042",
+     "defaultRef": {
+      "name": "placeholder",
+      "variant": null,
+      "key": "dcfc3ebd8e0b2b1123a7278b153a77a23e560eef",
+      "remote": false
+     },
+     "preferredCount": 0,
+     "preferred": []
+    },
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "Menu item",
+     "options": [
+      "Menu item",
+      "Account"
+     ]
+    },
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Hover"
+     ]
+    },
+    {
+     "name": "Current",
+     "id": "Current",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    }
+   ],
+   "nestedInstances": 12,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "placeholder",
+     "key": "dcfc3ebd8e0b2b1123a7278b153a77a23e560eef",
+     "isSet": false,
+     "remote": false,
+     "count": 4,
+     "layers": [
+      "placeholder"
+     ]
+    },
+    {
+     "name": "Avatar label group/md/Online indicator",
+     "key": "1bbe768d38aadc49ae21fbbd97cf212541101eea",
+     "isSet": false,
+     "remote": false,
+     "count": 4,
+     "layers": [
+      "Avatar label group"
+     ]
+    },
+    {
+     "name": "Radio / Checkbox",
+     "key": "9b75804be080e8fcd98a03d9b98bc070c44a0f52",
+     "isSet": true,
+     "remote": false,
+     "count": 4,
+     "layers": [
+      "Radio / Checkbox"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 14,
+    "boundStroke": 4,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 8,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ App Navigation",
+   "pageId": "82:1862",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Header navigation",
+   "id": "1207:1678",
+   "key": "c33825b6074c84b0309f77b0f9c1ae8fef0bec5e",
+   "hasDescription": false,
+   "variantCount": 2,
+   "axes": [
+    "Open",
+    "Style",
+    "Breakpoint"
+   ],
+   "properties": [
+    {
+     "name": "Open",
+     "id": "Open",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False"
+     ]
+    },
+    {
+     "name": "Style",
+     "id": "Style",
+     "type": "VARIANT",
+     "default": "Simple",
+     "options": [
+      "Simple"
+     ]
+    },
+    {
+     "name": "Breakpoint",
+     "id": "Breakpoint",
+     "type": "VARIANT",
+     "default": "Desktop",
+     "options": [
+      "Desktop",
+      "Mobile"
+     ]
+    }
+   ],
+   "nestedInstances": 13,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Logo",
+     "key": "5acc4de76dc20c9e50ead1c56c0e497ff26d31a4",
+     "isSet": true,
+     "remote": false,
+     "count": 2,
+     "layers": [
+      "Logo"
+     ]
+    },
+    {
+     "name": "_Nav item base",
+     "key": "69fef3a795ee1a55f938f9aca502f6995a774a5e",
+     "isSet": true,
+     "remote": false,
+     "count": 6,
+     "layers": [
+      "_Nav item base"
+     ]
+    },
+    {
+     "name": "_Nav item button",
+     "key": "c0d6c1e3aa576777a363ae3a8e0b93eb29c4f9aa",
+     "isSet": true,
+     "remote": false,
+     "count": 3,
+     "layers": [
+      "_Nav item button"
+     ]
+    },
+    {
+     "name": "Dropdown/Avatar/False",
+     "key": "58cff64f4a2751534351ff5c661e5e63527fc5d9",
+     "isSet": false,
+     "remote": false,
+     "count": 1,
+     "layers": [
+      "Dropdown"
+     ]
+    },
+    {
+     "name": "_Application nav menu button",
+     "key": "1cac8eb4e33ca2c5b1422f2c9abb68449e0fd651",
+     "isSet": true,
+     "remote": false,
+     "count": 1,
+     "layers": [
+      "_Application nav menu button"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 2,
+    "boundStroke": 2,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ App Navigation",
+   "pageId": "82:1862",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "_Nav item base",
+   "id": "1152:89220",
+   "key": "69fef3a795ee1a55f938f9aca502f6995a774a5e",
+   "hasDescription": false,
+   "variantCount": 6,
+   "axes": [
+    "Current",
+    "State"
+   ],
+   "properties": [
+    {
+     "name": "Badge",
+     "id": "Badge#3292:112",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "➡️ Icon trailing",
+     "id": "➡️ Icon trailing#3292:401",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "⬅️ Icon leading",
+     "id": "⬅️ Icon leading#3292:690",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Dot",
+     "id": "Dot#3292:979",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "🔀 Icon swap",
+     "id": "🔀 Icon swap#3479:0",
+     "type": "INSTANCE_SWAP",
+     "default": "3463:403899",
+     "defaultRef": {
+      "name": "bar-chart-square-02",
+      "variant": null,
+      "key": "cfbd86451496b44242b376244ef099a91f255209",
+      "remote": false
+     },
+     "preferredCount": 0,
+     "preferred": []
+    },
+    {
+     "name": "Current",
+     "id": "Current",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    },
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Hover",
+      "Focused"
+     ]
+    }
+   ],
+   "nestedInstances": 24,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "_Dot",
+     "key": "b922198313da17d22beac75de045c5abfe54a650",
+     "isSet": true,
+     "remote": false,
+     "count": 6,
+     "layers": [
+      "_Dot"
+     ]
+    },
+    {
+     "name": "bar-chart-square-02",
+     "key": "cfbd86451496b44242b376244ef099a91f255209",
+     "isSet": false,
+     "remote": false,
+     "count": 6,
+     "layers": [
+      "bar-chart-square-02"
+     ]
+    },
+    {
+     "name": "Badge",
+     "key": "eb75b29265fcaddf9e9234c90cacd1d54c76ad84",
+     "isSet": true,
+     "remote": false,
+     "count": 6,
+     "layers": [
+      "Badge"
+     ]
+    },
+    {
+     "name": "chevron-down",
+     "key": "b25ac1bda8312a56e84c35f3842252cda01f98a2",
+     "isSet": false,
+     "remote": false,
+     "count": 6,
+     "layers": [
+      "chevron-down"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 12,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 6,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ App Navigation",
+   "pageId": "82:1862",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "_Application nav menu button",
+   "id": "1161:14070",
+   "key": "1cac8eb4e33ca2c5b1422f2c9abb68449e0fd651",
+   "hasDescription": false,
+   "variantCount": 6,
+   "axes": [
+    "Opened",
+    "State"
+   ],
+   "properties": [
+    {
+     "name": "Opened",
+     "id": "Opened",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    },
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Hover",
+      "Focused"
+     ]
+    }
+   ],
+   "nestedInstances": 6,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "menu-02",
+     "key": "36d6bc3e3862c43e194fce0f8723519c2e51aef2",
+     "isSet": false,
+     "remote": false,
+     "count": 3,
+     "layers": [
+      "menu-02"
+     ]
+    },
+    {
+     "name": "x-close",
+     "key": "39221bc8846610af747fc21085060f1aec02ee03",
+     "isSet": false,
+     "remote": false,
+     "count": 3,
+     "layers": [
+      "x-close"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 4,
+    "boundStroke": 0,
+    "rawFill": 1,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [
+      "Opened=True, State=Focused > Opened=True, State=Focused"
+     ],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ App Navigation",
+   "pageId": "82:1862",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "_Nav item button",
+   "id": "1165:736",
+   "key": "c0d6c1e3aa576777a363ae3a8e0b93eb29c4f9aa",
+   "hasDescription": false,
+   "variantCount": 12,
+   "axes": [
+    "Current",
+    "Size",
+    "State"
+   ],
+   "properties": [
+    {
+     "name": "🔀 Icon swap",
+     "id": "🔀 Icon swap#3479:74",
+     "type": "INSTANCE_SWAP",
+     "default": "3463:405503",
+     "defaultRef": {
+      "name": "bell-01",
+      "variant": null,
+      "key": "64e1e3de1d306c21b0d696c85e8be1589f979390",
+      "remote": false
+     },
+     "preferredCount": 0,
+     "preferred": []
+    },
+    {
+     "name": "Current",
+     "id": "Current",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    },
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "md",
+     "options": [
+      "md",
+      "lg"
+     ]
+    },
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Hover",
+      "Focused"
+     ]
+    }
+   ],
+   "nestedInstances": 12,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "bell-01",
+     "key": "64e1e3de1d306c21b0d696c85e8be1589f979390",
+     "isSet": false,
+     "remote": false,
+     "count": 12,
+     "layers": [
+      "bell-01"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 10,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ App Navigation",
+   "pageId": "82:1862",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "_Modal actions",
+   "id": "4057:414352",
+   "key": "2d3128d676dab3fdd7c62cce1988c7fa615d1932",
+   "hasDescription": false,
+   "variantCount": 3,
+   "axes": [
+    "Type",
+    "Destructive",
+    "Breakpoint"
+   ],
+   "properties": [
+    {
+     "name": "Checkbox",
+     "id": "Checkbox#3292:1268",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Tertiary button",
+     "id": "Tertiary button#3292:1289",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Divider",
+     "id": "Divider#4057:0",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "Horizontal fill container",
+     "options": [
+      "Vertical fill container",
+      "Horizontal fill container",
+      "Horizontal right aligned (checkbox)"
+     ]
+    },
+    {
+     "name": "Destructive",
+     "id": "Destructive",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False"
+     ]
+    },
+    {
+     "name": "Breakpoint",
+     "id": "Breakpoint",
+     "type": "VARIANT",
+     "default": "Mobile",
+     "options": [
+      "Mobile"
+     ]
+    }
+   ],
+   "nestedInstances": 9,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Buttons/Button",
+     "key": "4e55cb83a056a6e3ac0225834874a1dcb6580da6",
+     "isSet": true,
+     "remote": false,
+     "count": 6,
+     "layers": [
+      "Buttons/Button"
+     ]
+    },
+    {
+     "name": "Home Indicator",
+     "key": "841ca4e3d8ffdb6a788e7d8aa41d5900e0aca7b0",
+     "isSet": true,
+     "remote": true,
+     "count": 1,
+     "layers": [
+      "Home Indicator"
+     ]
+    },
+    {
+     "name": "Radio / Checkbox",
+     "key": "9b75804be080e8fcd98a03d9b98bc070c44a0f52",
+     "isSet": true,
+     "remote": false,
+     "count": 1,
+     "layers": [
+      "Radio / Checkbox"
+     ]
+    },
+    {
+     "name": "Buttons/Button/lg/Link gray/Default/False",
+     "key": "243d11f385456c98272b0bede25e369b3cbaa51d",
+     "isSet": false,
+     "remote": false,
+     "count": 1,
+     "layers": [
+      "Buttons/Button"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 3,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Modals",
+   "pageId": "172:4293",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "_Modal header",
+   "id": "4055:413620",
+   "key": "e62d42a448ac115114901531d4d33152c454d37e",
+   "hasDescription": false,
+   "variantCount": 1,
+   "axes": [
+    "Type"
+   ],
+   "properties": [
+    {
+     "name": "Show close",
+     "id": "Show close#21368:0",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Show divider",
+     "id": "Show divider#21368:2",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Show bottom p",
+     "id": "Show bottom p#21368:4",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Show img",
+     "id": "Show img#21368:6",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "Left aligned",
+     "options": [
+      "Left aligned"
+     ]
+    }
+   ],
+   "nestedInstances": 2,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Illustration wrapper",
+     "key": "8ab788292c33dc1d6170fef422cc854646a4b605",
+     "isSet": true,
+     "remote": false,
+     "count": 1,
+     "layers": [
+      "Illustration wrapper"
+     ]
+    },
+    {
+     "name": "Icon wrapper",
+     "key": "b8295cee7375c7b7216cb412047f771ce86fbf9d",
+     "isSet": true,
+     "remote": true,
+     "count": 1,
+     "layers": [
+      "Icon wrapper"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 4,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 2,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Modals",
+   "pageId": "172:4293",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Modal",
+   "id": "4057:415205",
+   "key": "dac269c2f44bb35a05ce44f3b985285788201c98",
+   "hasDescription": false,
+   "variantCount": 1,
+   "axes": [
+    "Type"
+   ],
+   "properties": [
+    {
+     "name": "Drawer content",
+     "id": "Drawer content#21214:0",
+     "type": "INSTANCE_SWAP",
+     "default": "17540:4885",
+     "defaultRef": {
+      "name": "Slot",
+      "variant": null,
+      "key": "68b13273d1d58919ca51c37ca27ba0a4a033e828",
+      "remote": false
+     },
+     "preferredCount": 1,
+     "preferred": [
+      {
+       "type": "COMPONENT",
+       "key": "28e7187abb5daa34635cb1753309cca9609e1628"
+      }
+     ]
+    },
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "Default slotted",
+     "options": [
+      "Default slotted"
+     ]
+    }
+   ],
+   "nestedInstances": 5,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Background overlay",
+     "key": "30a8801b59485174ff95f7550c82e5dba09addd0",
+     "isSet": true,
+     "remote": false,
+     "count": 1,
+     "layers": [
+      "Background overlay"
+     ]
+    },
+    {
+     "name": "_Modal header",
+     "key": "e62d42a448ac115114901531d4d33152c454d37e",
+     "isSet": true,
+     "remote": false,
+     "count": 1,
+     "layers": [
+      "_Modal header"
+     ]
+    },
+    {
+     "name": "Slot",
+     "key": "68b13273d1d58919ca51c37ca27ba0a4a033e828",
+     "isSet": false,
+     "remote": false,
+     "count": 1,
+     "layers": [
+      "Slot"
+     ]
+    },
+    {
+     "name": "_Scroll bar (control fill with bottom padding)",
+     "key": "75a3030ff915e3cd2d81f4a67e7a6ec1b0a09ccf",
+     "isSet": false,
+     "remote": false,
+     "count": 1,
+     "layers": [
+      "_Scroll bar (control fill with bottom padding)"
+     ]
+    },
+    {
+     "name": "_Modal actions",
+     "key": "2d3128d676dab3fdd7c62cce1988c7fa615d1932",
+     "isSet": true,
+     "remote": false,
+     "count": 1,
+     "layers": [
+      "_Modal actions"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 1,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 2,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Modals",
+   "pageId": "172:4293",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Alert",
+   "id": "1130:81134",
+   "key": "c27108cb02effe670b7c2c1e8741889f0bc26a5f",
+   "hasDescription": false,
+   "variantCount": 4,
+   "axes": [
+    "Color"
+   ],
+   "properties": [
+    {
+     "name": "Actions",
+     "id": "Actions#3255:383",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Supporting text",
+     "id": "Supporting text#3255:394",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Show icon",
+     "id": "Show icon#21258:12",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Show close?",
+     "id": "Show close?#21258:24",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Color",
+     "id": "Color",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Brand",
+      "Error",
+      "Success"
+     ]
+    }
+   ],
+   "nestedInstances": 16,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Featured icon",
+     "key": "845127259cdd2b2d856077e89081f23457a10305",
+     "isSet": true,
+     "remote": true,
+     "count": 4,
+     "layers": [
+      "Featured icon"
+     ]
+    },
+    {
+     "name": "Buttons/Button",
+     "key": "4e55cb83a056a6e3ac0225834874a1dcb6580da6",
+     "isSet": true,
+     "remote": false,
+     "count": 8,
+     "layers": [
+      "Buttons/Button"
+     ]
+    },
+    {
+     "name": "Icon wrapper",
+     "key": "b8295cee7375c7b7216cb412047f771ce86fbf9d",
+     "isSet": true,
+     "remote": true,
+     "count": 4,
+     "layers": [
+      "Icon wrapper"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 12,
+    "boundStroke": 4,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 8,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Alerts & notifications",
+   "pageId": "176:4256",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "_Date picker list item",
+   "id": "1150:62",
+   "key": "1030dc8d33dee093fc31f1cddc40cf90990d2ddb",
+   "hasDescription": false,
+   "variantCount": 6,
+   "axes": [
+    "Selected",
+    "State"
+   ],
+   "properties": [
+    {
+     "name": "Selected",
+     "id": "Selected",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    },
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Hover",
+      "Focused"
+     ]
+    }
+   ],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 11,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 6,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Date pickers",
+   "pageId": "1143:85678",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "_Date picker menu",
+   "id": "1150:1925",
+   "key": "d07602fafc5d99b03390fb0c506813ef495ce67c",
+   "hasDescription": false,
+   "variantCount": 4,
+   "axes": [
+    "Type",
+    "Breakpoint"
+   ],
+   "properties": [
+    {
+     "name": "Pre-set ranges",
+     "id": "Pre-set ranges#5503:0",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Actions",
+     "id": "Actions#7365:84",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "Dual dates",
+     "options": [
+      "Dual dates",
+      "Single date"
+     ]
+    },
+    {
+     "name": "Breakpoint",
+     "id": "Breakpoint",
+     "type": "VARIANT",
+     "default": "Desktop",
+     "options": [
+      "Desktop",
+      "Mobile"
+     ]
+    }
+   ],
+   "nestedInstances": 283,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "_Date picker list item",
+     "key": "1030dc8d33dee093fc31f1cddc40cf90990d2ddb",
+     "isSet": true,
+     "remote": false,
+     "count": 9,
+     "layers": [
+      "_Date picker list item"
+     ]
+    },
+    {
+     "name": "Buttons/Button utility",
+     "key": "441bf42bf48ea5f2e17080c3174f31f696c76a86",
+     "isSet": true,
+     "remote": false,
+     "count": 10,
+     "layers": [
+      "Buttons/Button utility"
+     ]
+    },
+    {
+     "name": "_Calendar cell",
+     "key": "c1c78791580ccd4c93cbc732a09ab7a868d64a6c",
+     "isSet": true,
+     "remote": false,
+     "count": 245,
+     "layers": [
+      "_Calendar cell"
+     ]
+    },
+    {
+     "name": "Input field",
+     "key": "cc536ed7c182738d0022e89e030c0f1552d7486a",
+     "isSet": true,
+     "remote": false,
+     "count": 6,
+     "layers": [
+      "Input field"
+     ]
+    },
+    {
+     "name": "Buttons/Button",
+     "key": "4e55cb83a056a6e3ac0225834874a1dcb6580da6",
+     "isSet": true,
+     "remote": false,
+     "count": 13,
+     "layers": [
+      "Buttons/Button"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 11,
+    "boundStroke": 5,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 7,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Date pickers",
+   "pageId": "1143:85678",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "_Calendar cell",
+   "id": "7365:57922",
+   "key": "c1c78791580ccd4c93cbc732a09ab7a868d64a6c",
+   "hasDescription": false,
+   "variantCount": 12,
+   "axes": [
+    "Type",
+    "State"
+   ],
+   "properties": [
+    {
+     "name": "Left connector",
+     "id": "Left connector#7365:0",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Right connector",
+     "id": "Right connector#7365:31",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Active dot",
+     "id": "Active dot#7365:62",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Active",
+      "Selected",
+      "Today's date"
+     ]
+    },
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Hover",
+      "Disabled"
+     ]
+    }
+   ],
+   "nestedInstances": 4,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Cursor",
+     "key": "59edb3ca8f2a1e71fbb2effa14ad4d444f80c2f6",
+     "isSet": true,
+     "remote": false,
+     "count": 4,
+     "layers": [
+      "Cursor"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 52,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 12,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 12,
+   "page": "↳ Date pickers",
+   "pageId": "1143:85678",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Date picker dropdown",
+   "id": "1150:16803",
+   "key": "cd762c403872ddeb78aad07b5efb013d15d5bc48",
+   "hasDescription": false,
+   "variantCount": 16,
+   "axes": [
+    "Opened",
+    "Type",
+    "State",
+    "Breakpoint"
+   ],
+   "properties": [
+    {
+     "name": "Opened",
+     "id": "Opened",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    },
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "Dual dates",
+     "options": [
+      "Dual dates",
+      "Single date"
+     ]
+    },
+    {
+     "name": "State",
+     "id": "State",
+     "type": "VARIANT",
+     "default": "Placeholder",
+     "options": [
+      "Placeholder",
+      "Active"
+     ]
+    },
+    {
+     "name": "Breakpoint",
+     "id": "Breakpoint",
+     "type": "VARIANT",
+     "default": "Desktop",
+     "options": [
+      "Desktop",
+      "Mobile"
+     ]
+    }
+   ],
+   "nestedInstances": 24,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Buttons/Button",
+     "key": "4e55cb83a056a6e3ac0225834874a1dcb6580da6",
+     "isSet": true,
+     "remote": false,
+     "count": 16,
+     "layers": [
+      "Buttons/Button"
+     ]
+    },
+    {
+     "name": "_Date picker menu",
+     "key": "d07602fafc5d99b03390fb0c506813ef495ce67c",
+     "isSet": true,
+     "remote": false,
+     "count": 8,
+     "layers": [
+      "_Date picker menu"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 0,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Date pickers",
+   "pageId": "1143:85678",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Date picker modal",
+   "id": "1547:269867",
+   "key": "9b0f5d22b10f4b16bcec4de8aca3a9ea7d6f797b",
+   "hasDescription": false,
+   "variantCount": 4,
+   "axes": [
+    "Type",
+    "Breakpoint"
+   ],
+   "properties": [
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "Dual dates",
+     "options": [
+      "Dual dates",
+      "Single date"
+     ]
+    },
+    {
+     "name": "Breakpoint",
+     "id": "Breakpoint",
+     "type": "VARIANT",
+     "default": "Desktop",
+     "options": [
+      "Desktop",
+      "Mobile"
+     ]
+    }
+   ],
+   "nestedInstances": 8,
+   "missingMainComponent": 0,
+   "exposedInstances": [
+    "Background overlay"
+   ],
+   "dependencies": [
+    {
+     "name": "_Background overlay",
+     "key": "21e828ab11f77f5dc163a13c1df3c070a7b49ad8",
+     "isSet": true,
+     "remote": false,
+     "count": 4,
+     "layers": [
+      "Background overlay"
+     ]
+    },
+    {
+     "name": "_Date picker menu",
+     "key": "d07602fafc5d99b03390fb0c506813ef495ce67c",
+     "isSet": true,
+     "remote": false,
+     "count": 4,
+     "layers": [
+      "_Date picker menu"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 0,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Date pickers",
+   "pageId": "1143:85678",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Loading indicator",
+   "id": "1192:610",
+   "key": "a74a018a624314f0200c5bdb20c70f4f11c4cbf7",
+   "hasDescription": false,
+   "variantCount": 8,
+   "axes": [
+    "Style",
+    "Size"
+   ],
+   "properties": [
+    {
+     "name": "Supporting text",
+     "id": "Supporting text#3293:34",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Style",
+     "id": "Style",
+     "type": "VARIANT",
+     "default": "Line simple",
+     "options": [
+      "Line spinner",
+      "Line simple"
+     ]
+    },
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "sm",
+     "options": [
+      "md",
+      "sm",
+      "lg",
+      "xl"
+     ]
+    }
+   ],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 8,
+    "boundStroke": 16,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 8,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Loading indicators",
+   "pageId": "1172:32",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Textelement",
+   "id": "21565:5486",
+   "key": "9a70d05e46ac6a0efed26c12d43b7c6e06cf9e4c",
+   "hasDescription": false,
+   "variantCount": 4,
+   "axes": [
+    "Size"
+   ],
+   "properties": [
+    {
+     "name": "Leading icon",
+     "id": "Leading icon#21566:0",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Trailing icon",
+     "id": "Trailing icon#21566:5",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "lg",
+     "options": [
+      "lg",
+      "md",
+      "sm",
+      "xs"
+     ]
+    }
+   ],
+   "nestedInstances": 8,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Icon wrapper",
+     "key": "b8295cee7375c7b7216cb412047f771ce86fbf9d",
+     "isSet": true,
+     "remote": true,
+     "count": 8,
+     "layers": [
+      "Icon wrapper"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 4,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 4,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Label",
+   "pageId": "21565:5419",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Illustration wrapper",
+   "id": "21218:355",
+   "key": "8ab788292c33dc1d6170fef422cc854646a4b605",
+   "hasDescription": false,
+   "variantCount": 8,
+   "axes": [
+    "Size"
+   ],
+   "properties": [
+    {
+     "name": "Illustration",
+     "id": "Illustration#21218:7",
+     "type": "INSTANCE_SWAP",
+     "default": "21131:1230",
+     "defaultRef": {
+      "name": "Illustration/placeholder",
+      "variant": null,
+      "key": "c13edda3d61c5be915bf64a8a183d5bab379794e",
+      "remote": false
+     },
+     "preferredCount": 7,
+     "preferred": [
+      {
+       "type": "COMPONENT",
+       "key": "cbde8e42ca2e8c83fd9d47c3e3a4b86997641c2a"
+      },
+      {
+       "type": "COMPONENT",
+       "key": "70c3b7f70219b1304fca0271a0480bf554b4826d"
+      },
+      {
+       "type": "COMPONENT",
+       "key": "bb70f898da8267dd7c17d23081930d15858e18ec"
+      },
+      {
+       "type": "COMPONENT",
+       "key": "e0943f5983494084d931a3ca14c8aa3e9e1a44d5"
+      },
+      {
+       "type": "COMPONENT",
+       "key": "440c0c2512871c9c34fc021d5f35afd3324745f3"
+      },
+      {
+       "type": "COMPONENT",
+       "key": "c627ccea3505836320e7b49d6d980eea4c119ba7"
+      },
+      {
+       "type": "COMPONENT",
+       "key": "eb90786589c6441cd1340e23ac8a573be2ccdaa0"
+      }
+     ]
+    },
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "xxxl",
+     "options": [
+      "xxxl",
+      "xxl",
+      "xl",
+      "lg",
+      "md",
+      "sm",
+      "xs",
+      "xxs"
+     ]
+    }
+   ],
+   "nestedInstances": 8,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Illustration/placeholder",
+     "key": "c13edda3d61c5be915bf64a8a183d5bab379794e",
+     "isSet": false,
+     "remote": false,
+     "count": 8,
+     "layers": [
+      "Illustration/placeholder"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 0,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Illustration and assets",
+   "pageId": "21131:1009",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Virtual card",
+   "id": "21474:482",
+   "key": "5a938209e0825287640f6d7493ca3547eba4b872",
+   "hasDescription": false,
+   "variantCount": 3,
+   "axes": [
+    "Color"
+   ],
+   "properties": [
+    {
+     "name": "Freeze",
+     "id": "Freeze#21474:0",
+     "type": "BOOLEAN",
+     "default": false
+    },
+    {
+     "name": "Color",
+     "id": "Color",
+     "type": "VARIANT",
+     "default": "Black",
+     "options": [
+      "Black",
+      "Electric yellow",
+      "Pink"
+     ]
+    }
+   ],
+   "nestedInstances": 3,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Badge",
+     "key": "088d7369747246e206bc0524a708228c9ed7efee",
+     "isSet": true,
+     "remote": false,
+     "count": 3,
+     "layers": [
+      "Badge"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 1,
+    "boundStroke": 0,
+    "rawFill": 11,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [
+      "Color=Black > Shadow layer",
+      "Color=Black > パス 1",
+      "Color=Black > Freeze layer"
+     ],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 3,
+   "page": "↳ Illustration and assets",
+   "pageId": "21131:1009",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Physical card",
+   "id": "21509:15249",
+   "key": "1f868e4fd4b3afc20bb0357b9fe1dc3232e33ee2",
+   "hasDescription": false,
+   "variantCount": 4,
+   "axes": [
+    "Color"
+   ],
+   "properties": [
+    {
+     "name": "Freeze",
+     "id": "Freeze#21509:0",
+     "type": "BOOLEAN",
+     "default": false
+    },
+    {
+     "name": "Color",
+     "id": "Color",
+     "type": "VARIANT",
+     "default": "Titanium",
+     "options": [
+      "Titanium",
+      "Black",
+      "Pink",
+      "Electric yellow"
+     ]
+    }
+   ],
+   "nestedInstances": 4,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Badge",
+     "key": "088d7369747246e206bc0524a708228c9ed7efee",
+     "isSet": true,
+     "remote": false,
+     "count": 4,
+     "layers": [
+      "Badge"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 0,
+    "boundStroke": 0,
+    "rawFill": 23,
+    "rawStroke": 36,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [
+      "Color=Titanium > Shadow layer",
+      "Color=Titanium > パス 1",
+      "Color=Titanium > Vector"
+     ],
+     "rawStroke": [
+      "Color=Titanium > Vector",
+      "Color=Titanium > Vector",
+      "Color=Titanium > Vector"
+     ],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 4,
+   "page": "↳ Illustration and assets",
+   "pageId": "21131:1009",
+   "scope": "base"
+  },
+  {
+   "kind": "component",
+   "name": "Illustration/placeholder",
+   "id": "21131:1230",
+   "key": "c13edda3d61c5be915bf64a8a183d5bab379794e",
+   "hasDescription": false,
+   "variantCount": null,
+   "axes": [],
+   "properties": [],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 0,
+    "boundStroke": 0,
+    "rawFill": 7,
+    "rawStroke": 9,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [
+      "Illustration/placeholder > Vector",
+      "Illustration/placeholder > Vector",
+      "Illustration/placeholder > Vector"
+     ],
+     "rawStroke": [
+      "Illustration/placeholder > Vector",
+      "Illustration/placeholder > Vector",
+      "Illustration/placeholder > Vector"
+     ],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 1,
+   "page": "↳ Illustration and assets",
+   "pageId": "21131:1009",
+   "scope": "base"
+  },
+  {
+   "kind": "component",
+   "name": "Illustration/blocker",
+   "id": "21247:1149",
+   "key": "63d29c7254b4e51a8dcf944dad14a7924662fb69",
+   "hasDescription": false,
+   "variantCount": null,
+   "axes": [],
+   "properties": [],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 0,
+    "boundStroke": 0,
+    "rawFill": 4,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [
+      "Illustration/blocker > Ellipse 751 (Stroke)",
+      "Illustration/blocker > Vector",
+      "Illustration/blocker > Rectangle 5753"
+     ],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 1,
+   "page": "↳ Illustration and assets",
+   "pageId": "21131:1009",
+   "scope": "base"
+  },
+  {
+   "kind": "component",
+   "name": "Illustration/success",
+   "id": "21258:6196",
+   "key": "4a6d48dff05c9036a5d31234eb8d3cdae93f8d92",
+   "hasDescription": false,
+   "variantCount": null,
+   "axes": [],
+   "properties": [],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 2,
+    "boundStroke": 0,
+    "rawFill": 1,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [
+      "Illustration/success > Rectangle 5753"
+     ],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 1,
+   "page": "↳ Illustration and assets",
+   "pageId": "21131:1009",
+   "scope": "base"
+  },
+  {
+   "kind": "component",
+   "name": "Illustration/lego",
+   "id": "21240:1493",
+   "key": "7e9d87edcedb6109c0377687ed3fc69a07132ab0",
+   "hasDescription": false,
+   "variantCount": null,
+   "axes": [],
+   "properties": [],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 0,
+    "boundStroke": 0,
+    "rawFill": 71,
+    "rawStroke": 71,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [
+      "Illustration/lego > Vector",
+      "Illustration/lego > Vector",
+      "Illustration/lego > Vector"
+     ],
+     "rawStroke": [
+      "Illustration/lego > Vector",
+      "Illustration/lego > Vector",
+      "Illustration/lego > Vector"
+     ],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 1,
+   "page": "↳ Illustration and assets",
+   "pageId": "21131:1009",
+   "scope": "base"
+  },
+  {
+   "kind": "component",
+   "name": "Illustration/secure",
+   "id": "21243:1572",
+   "key": "cd8113a81cb588a4cfa0f2818424dbaa160a11fd",
+   "hasDescription": false,
+   "variantCount": null,
+   "axes": [],
+   "properties": [],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 0,
+    "boundStroke": 0,
+    "rawFill": 11,
+    "rawStroke": 10,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [
+      "Illustration/secure > BG purple layer",
+      "Illustration/secure > Vector",
+      "Illustration/secure > Vector"
+     ],
+     "rawStroke": [
+      "Illustration/secure > Vector",
+      "Illustration/secure > Vector",
+      "Illustration/secure > Vector"
+     ],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 1,
+   "page": "↳ Illustration and assets",
+   "pageId": "21131:1009",
+   "scope": "base"
+  },
+  {
+   "kind": "component",
+   "name": "Illustration/QR",
+   "id": "21320:1880",
+   "key": "dc46d9af4d2767f863a8ef087e8b43c8b3900e3d",
+   "hasDescription": false,
+   "variantCount": null,
+   "axes": [],
+   "properties": [],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 7,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 1,
+   "page": "↳ Illustration and assets",
+   "pageId": "21131:1009",
+   "scope": "base"
+  },
+  {
+   "kind": "component",
+   "name": "Illustration/Custom img",
+   "id": "21246:1031",
+   "key": "3144a6e2175b069e93075d08141de588a7f21b71",
+   "hasDescription": false,
+   "variantCount": null,
+   "axes": [],
+   "properties": [],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 1,
+    "boundStroke": 0,
+    "rawFill": 2,
+    "rawStroke": 4,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [
+      "Illustration/Custom img > Guide - toggle visibility before export",
+      "Illustration/Custom img > Image"
+     ],
+     "rawStroke": [
+      "Illustration/Custom img > Line 1",
+      "Illustration/Custom img > Line 2",
+      "Illustration/Custom img > Line 3"
+     ],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 1,
+   "page": "↳ Illustration and assets",
+   "pageId": "21131:1009",
+   "scope": "base"
+  },
+  {
+   "kind": "component",
+   "name": "Empty card",
+   "id": "21181:107",
+   "key": "c1ba86b9e89445f2cae54043a27137e5ac071668",
+   "hasDescription": false,
+   "variantCount": null,
+   "axes": [],
+   "properties": [],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 0,
+    "boundStroke": 3,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 1,
+   "page": "↳ Illustration and assets",
+   "pageId": "21131:1009",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Divider",
+   "id": "1624:462461",
+   "key": "962e3aeb9127032726d0e214af586426b7bc49f4",
+   "hasDescription": false,
+   "variantCount": 1,
+   "axes": [
+    "Breakpoint"
+   ],
+   "properties": [
+    {
+     "name": "Breakpoint",
+     "id": "Breakpoint",
+     "type": "VARIANT",
+     "default": "Mobile",
+     "options": [
+      "Mobile"
+     ]
+    }
+   ],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 1,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Miscellaneous assets",
+   "pageId": "1291:157819",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Background overlay",
+   "id": "21139:811",
+   "key": "30a8801b59485174ff95f7550c82e5dba09addd0",
+   "hasDescription": false,
+   "variantCount": 1,
+   "axes": [
+    "Type"
+   ],
+   "properties": [
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "Blurred layer",
+     "options": [
+      "Blurred layer"
+     ]
+    }
+   ],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 1,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 1,
+   "page": "↳ Miscellaneous assets",
+   "pageId": "1291:157819",
+   "scope": "base"
+  },
+  {
+   "kind": "set",
+   "name": "Spacer",
+   "id": "21314:754",
+   "key": "d130f79f25a2cea24cac0bf7b34a68206b8e8b34",
+   "hasDescription": false,
+   "variantCount": 6,
+   "axes": [
+    "Spacing"
+   ],
+   "properties": [
+    {
+     "name": "Spacing",
+     "id": "Spacing",
+     "type": "VARIANT",
+     "default": "0px",
+     "options": [
+      "0px",
+      "2px",
+      "4px",
+      "8px",
+      "16px",
+      "24px"
+     ]
+    }
+   ],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 0,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Miscellaneous assets",
+   "pageId": "1291:157819",
+   "scope": "base"
+  },
+  {
+   "kind": "component",
+   "name": "Slot",
+   "id": "17540:4885",
+   "key": "68b13273d1d58919ca51c37ca27ba0a4a033e828",
+   "hasDescription": false,
+   "variantCount": null,
+   "axes": [],
+   "properties": [],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 1,
+    "boundStroke": 1,
+    "rawFill": 1,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [
+      "Slot > Slot"
+     ],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 1,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Slot (temporary - to be deprecated after native figma slots is introduced)",
+   "pageId": "17540:4651",
+   "scope": "base"
+  },
+  {
+   "kind": "component",
+   "name": "_Swatch base",
+   "id": "1029:37647",
+   "key": "55162aa891b2e08ad10da3ccff9de55afaab9a98",
+   "hasDescription": false,
+   "variantCount": null,
+   "axes": [],
+   "properties": [],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 6,
+    "boundStroke": 1,
+    "rawFill": 0,
+    "rawStroke": 2,
+    "textLayers": 3,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [
+      "_Swatch base > Swatch",
+      "_Swatch base > Dot"
+     ],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Colors",
+   "pageId": "1023:36350",
+   "scope": "primitives"
+  },
+  {
+   "kind": "set",
+   "name": "Partner affiliate logos",
+   "id": "7531:71186",
+   "key": "40252cbd00e85e7a12625dc5b7d5f86c8ffe0141",
+   "hasDescription": false,
+   "variantCount": 4,
+   "axes": [
+    "Company",
+    "Style",
+    "Dark mode"
+   ],
+   "properties": [
+    {
+     "name": "Logotext",
+     "id": "Logotext#3035:0",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Company",
+     "id": "Company",
+     "type": "VARIANT",
+     "default": "Acme Corp",
+     "options": [
+      "Acme Corp"
+     ]
+    },
+    {
+     "name": "Style",
+     "id": "Style",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Badge"
+     ]
+    },
+    {
+     "name": "Dark mode",
+     "id": "Dark mode",
+     "type": "VARIANT",
+     "default": "False",
+     "options": [
+      "False",
+      "True"
+     ]
+    }
+   ],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 8,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Logos",
+   "pageId": "1083:118533",
+   "scope": "primitives"
+  },
+  {
+   "kind": "set",
+   "name": "Logo",
+   "id": "21465:11",
+   "key": "5acc4de76dc20c9e50ead1c56c0e497ff26d31a4",
+   "hasDescription": false,
+   "variantCount": 8,
+   "axes": [
+    "Size",
+    "Dark mode"
+   ],
+   "properties": [
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "xl",
+     "options": [
+      "lg",
+      "md",
+      "sm",
+      "xl"
+     ]
+    },
+    {
+     "name": "Dark mode",
+     "id": "Dark mode",
+     "type": "VARIANT",
+     "default": "No",
+     "options": [
+      "No",
+      "Yes"
+     ]
+    }
+   ],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 8,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Logos",
+   "pageId": "1083:118533",
+   "scope": "primitives"
+  },
+  {
+   "kind": "set",
+   "name": "Logomark",
+   "id": "21465:30",
+   "key": "63ee66e4f26f25e4809cd240ec62420dff3ee076",
+   "hasDescription": false,
+   "variantCount": 8,
+   "axes": [
+    "Size",
+    "Dark mode"
+   ],
+   "properties": [
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "xl",
+     "options": [
+      "lg",
+      "md",
+      "sm",
+      "xl"
+     ]
+    },
+    {
+     "name": "Dark mode",
+     "id": "Dark mode",
+     "type": "VARIANT",
+     "default": "No",
+     "options": [
+      "No",
+      "Yes"
+     ]
+    }
+   ],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 8,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Logos",
+   "pageId": "1083:118533",
+   "scope": "primitives"
+  },
+  {
+   "kind": "component",
+   "name": "_Type scale base",
+   "id": "1019:35537",
+   "key": "a660b1cf26dc1c78e735779766ded83531e34b39",
+   "hasDescription": false,
+   "variantCount": null,
+   "axes": [],
+   "properties": [],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 6,
+    "boundStroke": 1,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 6,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Typography",
+   "pageId": "18:1951",
+   "scope": "primitives"
+  },
+  {
+   "kind": "component",
+   "name": "_Shadow card",
+   "id": "5253:373419",
+   "key": "79cf5a6e11f6efb57cf4117e3bc6e1ac7b70f557",
+   "hasDescription": false,
+   "variantCount": null,
+   "axes": [],
+   "properties": [],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 2,
+    "boundStroke": 1,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 1,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Effect styles",
+   "pageId": "1030:33573",
+   "scope": "primitives"
+  },
+  {
+   "kind": "component",
+   "name": "_Focus ring card",
+   "id": "5424:399227",
+   "key": "7680e9b91551821ea2df03d78d235f6b01e9b314",
+   "hasDescription": false,
+   "variantCount": null,
+   "axes": [],
+   "properties": [],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 3,
+    "boundStroke": 1,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 2,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Effect styles",
+   "pageId": "1030:33573",
+   "scope": "primitives"
+  },
+  {
+   "kind": "set",
+   "name": "DS note",
+   "id": "1027:9560",
+   "key": "686d36aa48498ac0061615734b74097c606c0324",
+   "hasDescription": false,
+   "variantCount": 2,
+   "axes": [
+    "Size"
+   ],
+   "properties": [
+    {
+     "name": "Supporting text",
+     "id": "Supporting text#3281:379",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "md",
+     "options": [
+      "sm",
+      "md"
+     ]
+    }
+   ],
+   "nestedInstances": 2,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Badge",
+     "key": "088d7369747246e206bc0524a708228c9ed7efee",
+     "isSet": true,
+     "remote": false,
+     "count": 2,
+     "layers": [
+      "Badge"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 4,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 4,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Design annotations",
+   "pageId": "1054:557",
+   "scope": "primitives"
+  },
+  {
+   "kind": "set",
+   "name": "_Variables icon",
+   "id": "6472:99378",
+   "key": "7ff78c38b59c2fd7e34e4b3bbed3aee6e4c2ec20",
+   "hasDescription": false,
+   "variantCount": 2,
+   "axes": [
+    "Single"
+   ],
+   "properties": [
+    {
+     "name": "Single",
+     "id": "Single",
+     "type": "VARIANT",
+     "default": "True",
+     "options": [
+      "True",
+      "False"
+     ]
+    }
+   ],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 2,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 2,
+   "page": "↳ Design annotations",
+   "pageId": "1054:557",
+   "scope": "primitives"
+  },
+  {
+   "kind": "set",
+   "name": "_Documentation table cell",
+   "id": "6472:98427",
+   "key": "8e9c000a24fc75e2e1be76e2cb354dc402d1aff2",
+   "hasDescription": false,
+   "variantCount": 8,
+   "axes": [
+    "Type"
+   ],
+   "properties": [
+    {
+     "name": "Modifier",
+     "id": "Modifier#6472:5",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Cursor",
+     "id": "Cursor#6487:18",
+     "type": "BOOLEAN",
+     "default": true
+    },
+    {
+     "name": "Follow on",
+     "id": "Follow on#6487:39",
+     "type": "BOOLEAN",
+     "default": false
+    },
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "Header",
+     "options": [
+      "Header",
+      "Lead cell primary",
+      "Lead cell secondary",
+      "Lead cell tertiary",
+      "Cell default",
+      "Cell swatch light",
+      "Cell swatch dark",
+      "Divider"
+     ]
+    }
+   ],
+   "nestedInstances": 2,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Cursor",
+     "key": "59edb3ca8f2a1e71fbb2effa14ad4d444f80c2f6",
+     "isSet": true,
+     "remote": false,
+     "count": 2,
+     "layers": [
+      "Cursor"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 19,
+    "boundStroke": 19,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 9,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Design annotations",
+   "pageId": "1054:557",
+   "scope": "primitives"
+  },
+  {
+   "kind": "set",
+   "name": "Cursor",
+   "id": "9342:257073",
+   "key": "59edb3ca8f2a1e71fbb2effa14ad4d444f80c2f6",
+   "hasDescription": false,
+   "variantCount": 7,
+   "axes": [
+    "Type"
+   ],
+   "properties": [
+    {
+     "name": "Type",
+     "id": "Type",
+     "type": "VARIANT",
+     "default": "Default",
+     "options": [
+      "Default",
+      "Text cursor",
+      "Text cursor custom",
+      "Plus",
+      "Hand point",
+      "Hand grab",
+      "Hand open"
+     ]
+    }
+   ],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 10,
+    "boundStroke": 2,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 0,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 7,
+   "page": "↳ Design annotations",
+   "pageId": "1054:557",
+   "scope": "primitives"
+  },
+  {
+   "kind": "set",
+   "name": "Flow note",
+   "id": "17570:607",
+   "key": "c3d9217b3f41a2143ec6d922532ca719ba6e9548",
+   "hasDescription": false,
+   "variantCount": 2,
+   "axes": [
+    "Size"
+   ],
+   "properties": [
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "md",
+     "options": [
+      "md",
+      "sm"
+     ]
+    }
+   ],
+   "nestedInstances": 2,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [
+    {
+     "name": "Badge",
+     "key": "088d7369747246e206bc0524a708228c9ed7efee",
+     "isSet": true,
+     "remote": false,
+     "count": 2,
+     "layers": [
+      "Badge"
+     ]
+    }
+   ],
+   "bindings": {
+    "boundFill": 4,
+    "boundStroke": 0,
+    "rawFill": 2,
+    "rawStroke": 0,
+    "textLayers": 4,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [
+      "Size=md > Size=md",
+      "Size=sm > Size=sm"
+     ],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Design annotations",
+   "pageId": "1054:557",
+   "scope": "primitives"
+  },
+  {
+   "kind": "set",
+   "name": "Flow heading",
+   "id": "21135:239",
+   "key": "03c9e7f7e467b67c83d05238af597e8be70b955b",
+   "hasDescription": false,
+   "variantCount": 2,
+   "axes": [
+    "Size"
+   ],
+   "properties": [
+    {
+     "name": "Size",
+     "id": "Size",
+     "type": "VARIANT",
+     "default": "xl",
+     "options": [
+      "xl",
+      "lg"
+     ]
+    }
+   ],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 6,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 4,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Design annotations",
+   "pageId": "1054:557",
+   "scope": "primitives"
+  },
+  {
+   "kind": "component",
+   "name": "Design system header",
+   "id": "1518:345435",
+   "key": "d8e820b6bfeb794afe62748ec3626946e4b1d9cb",
+   "hasDescription": false,
+   "variantCount": null,
+   "axes": [],
+   "properties": [],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 4,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 2,
+    "rawText": 0,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": []
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Design annotations",
+   "pageId": "1054:557",
+   "scope": "primitives"
+  },
+  {
+   "kind": "component",
+   "name": "Designer area",
+   "id": "21231:10266",
+   "key": "65ac01f78028f7e71b707184ddf7c6cfdd2ffc51",
+   "hasDescription": false,
+   "variantCount": null,
+   "axes": [],
+   "properties": [
+    {
+     "name": "Text",
+     "id": "Text#21231:0",
+     "type": "TEXT",
+     "default": "DESIGNERS ONLY"
+    }
+   ],
+   "nestedInstances": 0,
+   "missingMainComponent": 0,
+   "exposedInstances": [],
+   "dependencies": [],
+   "bindings": {
+    "boundFill": 3,
+    "boundStroke": 0,
+    "rawFill": 0,
+    "rawStroke": 0,
+    "textLayers": 1,
+    "rawText": 1,
+    "samples": {
+     "rawFill": [],
+     "rawStroke": [],
+     "rawText": [
+      "Designer area > Heading"
+     ]
+    }
+   },
+   "slotNamedLayers": 0,
+   "variantsWithoutAutoLayout": 0,
+   "page": "↳ Design annotations",
+   "pageId": "1054:557",
+   "scope": "primitives"
+  }
+ ]
+}

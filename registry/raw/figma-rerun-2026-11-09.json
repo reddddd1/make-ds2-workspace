@@ -1,0 +1,1150 @@
+{
+ "fileKey": "xJoAz66aekAToyhBmfGNt0",
+ "readAt": "2026-11-09T12:54:38.039Z",
+ "pages": [
+  {
+   "page": "↳ Buttons",
+   "pageId": "1:1183",
+   "sets": 9,
+   "standalone": 0,
+   "items": [
+    {
+     "kind": "set",
+     "name": "Buttons/Button",
+     "id": "3287:427074",
+     "key": "4e55cb83a056a6e3ac0225834874a1dcb6580da6",
+     "hasDescription": false,
+     "variantCount": 118,
+     "axes": [
+      "Size",
+      "Hierarchy",
+      "State",
+      "Icon only"
+     ],
+     "properties": [
+      {
+       "name": "Loading text",
+       "id": "Loading text#8994:0",
+       "type": "BOOLEAN",
+       "default": true
+      },
+      {
+       "name": "Show L icon",
+       "id": "Show L icon#21269:56",
+       "type": "BOOLEAN",
+       "default": true
+      },
+      {
+       "name": "Show R icon",
+       "id": "Show R icon#21269:175",
+       "type": "BOOLEAN",
+       "default": true
+      },
+      {
+       "name": "Size",
+       "id": "Size",
+       "type": "VARIANT",
+       "default": "xxs",
+       "options": [
+        "sm",
+        "md",
+        "lg",
+        "xxs"
+       ]
+      },
+      {
+       "name": "Hierarchy",
+       "id": "Hierarchy",
+       "type": "VARIANT",
+       "default": "Primary",
+       "options": [
+        "Primary",
+        "Secondary",
+        "Link brand",
+        "Primary_alt"
+       ]
+      },
+      {
+       "name": "State",
+       "id": "State",
+       "type": "VARIANT",
+       "default": "Default",
+       "options": [
+        "Default",
+        "Hover",
+        "Focused",
+        "Disabled",
+        "Loading"
+       ]
+      },
+      {
+       "name": "Icon only",
+       "id": "Icon only",
+       "type": "VARIANT",
+       "default": "False",
+       "options": [
+        "False",
+        "True"
+       ]
+      }
+     ],
+     "nestedInstances": 178,
+     "missingMainComponent": 0,
+     "exposedInstances": [],
+     "dependencies": [
+      {
+       "name": "Icon wrapper",
+       "key": "b8295cee7375c7b7216cb412047f771ce86fbf9d",
+       "isSet": true,
+       "remote": true,
+       "count": 153,
+       "layers": [
+        "Icon wrapper"
+       ]
+      },
+      {
+       "name": "Buttons/Button loading icon",
+       "key": "f9a816edcc033311681d4422335329bdf592b6ce",
+       "isSet": true,
+       "remote": false,
+       "count": 25,
+       "layers": [
+        "Buttons/Button loading icon"
+       ]
+      }
+     ],
+     "bindings": {
+      "boundFill": 174,
+      "boundStroke": 7,
+      "rawFill": 4,
+      "rawStroke": 0,
+      "textLayers": 76,
+      "rawText": 0,
+      "samples": {
+       "rawFill": [
+        "Size=md, Hierarchy=Link brand, State=Focused, Icon only=False > Size=md, Hierarchy=Link brand, State=Focused, Icon only=False",
+        "Size=lg, Hierarchy=Link brand, State=Focused, Icon only=False > Size=lg, Hierarchy=Link brand, State=Focused, Icon only=False",
+        "Size=sm, Hierarchy=Link brand, State=Focused, Icon only=False > Size=sm, Hierarchy=Link brand, State=Focused, Icon only=False"
+       ],
+       "rawStroke": [],
+       "rawText": []
+      }
+     },
+     "slotNamedLayers": 0,
+     "variantsWithoutAutoLayout": 0,
+     "page": "↳ Buttons",
+     "pageId": "1:1183"
+    },
+    {
+     "kind": "set",
+     "name": "Buttons/Button destructive",
+     "id": "17503:16162",
+     "key": "a41a2d714a2ca96df031d453248257af6e1c26bf",
+     "hasDescription": false,
+     "variantCount": 68,
+     "axes": [
+      "Size",
+      "Hierarchy",
+      "State",
+      "Icon only"
+     ],
+     "properties": [
+      {
+       "name": "⬅️ Icon leading",
+       "id": "⬅️ Icon leading#3287:1577",
+       "type": "BOOLEAN",
+       "default": true
+      },
+      {
+       "name": "➡️ Icon trailing",
+       "id": "➡️ Icon trailing#3287:2338",
+       "type": "BOOLEAN",
+       "default": true
+      },
+      {
+       "name": "🔀 Icon leading swap",
+       "id": "🔀 Icon leading swap#3466:91",
+       "type": "INSTANCE_SWAP",
+       "default": "3465:410042",
+       "defaultRef": {
+        "name": "placeholder",
+        "variant": null,
+        "key": "dcfc3ebd8e0b2b1123a7278b153a77a23e560eef",
+        "remote": false
+       },
+       "preferredCount": 0,
+       "preferred": []
+      },
+      {
+       "name": "🔀 Icon trailing swap",
+       "id": "🔀 Icon trailing swap#3466:852",
+       "type": "INSTANCE_SWAP",
+       "default": "3465:410042",
+       "defaultRef": {
+        "name": "placeholder",
+        "variant": null,
+        "key": "dcfc3ebd8e0b2b1123a7278b153a77a23e560eef",
+        "remote": false
+       },
+       "preferredCount": 0,
+       "preferred": []
+      },
+      {
+       "name": "Loading text",
+       "id": "Loading text#8994:0",
+       "type": "BOOLEAN",
+       "default": true
+      },
+      {
+       "name": "Size",
+       "id": "Size",
+       "type": "VARIANT",
+       "default": "xxs",
+       "options": [
+        "sm",
+        "md",
+        "lg",
+        "xxs"
+       ]
+      },
+      {
+       "name": "Hierarchy",
+       "id": "Hierarchy",
+       "type": "VARIANT",
+       "default": "Primary",
+       "options": [
+        "Primary",
+        "Secondary",
+        "Link brand"
+       ]
+      },
+      {
+       "name": "State",
+       "id": "State",
+       "type": "VARIANT",
+       "default": "Default",
+       "options": [
+        "Default",
+        "Hover",
+        "Focused",
+        "Loading"
+       ]
+      },
+      {
+       "name": "Icon only",
+       "id": "Icon only",
+       "type": "VARIANT",
+       "default": "False",
+       "options": [
+        "False",
+        "True"
+       ]
+      }
+     ],
+     "nestedInstances": 100,
+     "missingMainComponent": 0,
+     "exposedInstances": [],
+     "dependencies": [
+      {
+       "name": "Icon wrapper",
+       "key": "b8295cee7375c7b7216cb412047f771ce86fbf9d",
+       "isSet": true,
+       "remote": true,
+       "count": 77,
+       "layers": [
+        "Icon wrapper"
+       ]
+      },
+      {
+       "name": "Buttons/Button loading icon",
+       "key": "f9a816edcc033311681d4422335329bdf592b6ce",
+       "isSet": true,
+       "remote": false,
+       "count": 18,
+       "layers": [
+        "Buttons/Button loading icon"
+       ]
+      },
+      {
+       "name": "placeholder",
+       "key": "dcfc3ebd8e0b2b1123a7278b153a77a23e560eef",
+       "isSet": false,
+       "remote": false,
+       "count": 5,
+       "layers": [
+        "placeholder"
+       ]
+      }
+     ],
+     "bindings": {
+      "boundFill": 100,
+      "boundStroke": 0,
+      "rawFill": 0,
+      "rawStroke": 0,
+      "textLayers": 44,
+      "rawText": 0,
+      "samples": {
+       "rawFill": [],
+       "rawStroke": [],
+       "rawText": []
+      }
+     },
+     "slotNamedLayers": 0,
+     "variantsWithoutAutoLayout": 0,
+     "page": "↳ Buttons",
+     "pageId": "1:1183"
+    },
+    {
+     "kind": "set",
+     "name": "Social button",
+     "id": "1256:130788",
+     "key": "e7e319a68ff41a610c204924015c04fc6c1e27b2",
+     "hasDescription": false,
+     "variantCount": 54,
+     "axes": [
+      "Social",
+      "Supporting text",
+      "Theme",
+      "State"
+     ],
+     "properties": [
+      {
+       "name": "Social",
+       "id": "Social",
+       "type": "VARIANT",
+       "default": "Google",
+       "options": [
+        "Google",
+        "Facebook",
+        "Apple"
+       ]
+      },
+      {
+       "name": "Supporting text",
+       "id": "Supporting text",
+       "type": "VARIANT",
+       "default": "True",
+       "options": [
+        "True",
+        "False"
+       ]
+      },
+      {
+       "name": "Theme",
+       "id": "Theme",
+       "type": "VARIANT",
+       "default": "Brand",
+       "options": [
+        "Brand",
+        "Gray",
+        "Color"
+       ]
+      },
+      {
+       "name": "State",
+       "id": "State",
+       "type": "VARIANT",
+       "default": "Default",
+       "options": [
+        "Default",
+        "Hover",
+        "Focused"
+       ]
+      }
+     ],
+     "nestedInstances": 54,
+     "missingMainComponent": 0,
+     "exposedInstances": [],
+     "dependencies": [
+      {
+       "name": "Social icon",
+       "key": "8fc200de717f6a665f606d3259f06f7f50b7bf85",
+       "isSet": true,
+       "remote": false,
+       "count": 54,
+       "layers": [
+        "Social icon"
+       ]
+      }
+     ],
+     "bindings": {
+      "boundFill": 75,
+      "boundStroke": 42,
+      "rawFill": 6,
+      "rawStroke": 0,
+      "textLayers": 27,
+      "rawText": 0,
+      "samples": {
+       "rawFill": [
+        "Social=Facebook, Supporting text=True, Theme=Brand, State=Default > Social=Facebook, Supporting text=True, Theme=Brand, State=Default",
+        "Social=Facebook, Supporting text=True, Theme=Brand, State=Hover > Social=Facebook, Supporting text=True, Theme=Brand, State=Hover",
+        "Social=Facebook, Supporting text=True, Theme=Brand, State=Focused > Social=Facebook, Supporting text=True, Theme=Brand, State=Focused"
+       ],
+       "rawStroke": [],
+       "rawText": []
+      }
+     },
+     "slotNamedLayers": 0,
+     "variantsWithoutAutoLayout": 0,
+     "page": "↳ Buttons",
+     "pageId": "1:1183"
+    },
+    {
+     "kind": "set",
+     "name": "Social button groups",
+     "id": "1256:132638",
+     "key": "5191fcb5f04308006ea5ae13a8982b29323f402f",
+     "hasDescription": false,
+     "variantCount": 6,
+     "axes": [
+      "Style",
+      "Theme"
+     ],
+     "properties": [
+      {
+       "name": "Style",
+       "id": "Style",
+       "type": "VARIANT",
+       "default": "Buttons",
+       "options": [
+        "Buttons",
+        "Icons"
+       ]
+      },
+      {
+       "name": "Theme",
+       "id": "Theme",
+       "type": "VARIANT",
+       "default": "Brand",
+       "options": [
+        "Brand",
+        "Color",
+        "Gray"
+       ]
+      }
+     ],
+     "nestedInstances": 24,
+     "missingMainComponent": 0,
+     "exposedInstances": [],
+     "dependencies": [
+      {
+       "name": "Social button",
+       "key": "e7e319a68ff41a610c204924015c04fc6c1e27b2",
+       "isSet": true,
+       "remote": false,
+       "count": 18,
+       "layers": [
+        "Social button"
+       ]
+      },
+      {
+       "name": "Social button/Twitter/True/Color/Default",
+       "key": "fbe91b9785ff191c926217344ba49e0308edb957",
+       "isSet": false,
+       "remote": false,
+       "count": 1,
+       "layers": [
+        "Social button"
+       ]
+      },
+      {
+       "name": "Social button/Twitter/True/Gray/Default",
+       "key": "91e02992b6acb8fe170d76e8336cb22c2e42645a",
+       "isSet": false,
+       "remote": false,
+       "count": 1,
+       "layers": [
+        "Social button"
+       ]
+      },
+      {
+       "name": "Social button/Twitter/True/Brand/Default",
+       "key": "ce6213f6bbf0089b133bd12dd44fb67742c58961",
+       "isSet": false,
+       "remote": false,
+       "count": 1,
+       "layers": [
+        "Social button"
+       ]
+      },
+      {
+       "name": "Social button/Twitter/False/Color/Default",
+       "key": "e2d5a98bf84a6e5770af5e980fe2b679d1996ac3",
+       "isSet": false,
+       "remote": false,
+       "count": 1,
+       "layers": [
+        "Social button"
+       ]
+      },
+      {
+       "name": "Social button/Twitter/False/Gray/Default",
+       "key": "d4f1e6ec8f40c57567f6521b07cc9ba055245764",
+       "isSet": false,
+       "remote": false,
+       "count": 1,
+       "layers": [
+        "Social button"
+       ]
+      },
+      {
+       "name": "Social button/Twitter/False/Brand/Default",
+       "key": "50130659a28e9c801610a865128abcb3b8330075",
+       "isSet": false,
+       "remote": false,
+       "count": 1,
+       "layers": [
+        "Social button"
+       ]
+      }
+     ],
+     "bindings": {
+      "boundFill": 0,
+      "boundStroke": 0,
+      "rawFill": 0,
+      "rawStroke": 0,
+      "textLayers": 0,
+      "rawText": 0,
+      "samples": {
+       "rawFill": [],
+       "rawStroke": [],
+       "rawText": []
+      }
+     },
+     "slotNamedLayers": 0,
+     "variantsWithoutAutoLayout": 0,
+     "page": "↳ Buttons",
+     "pageId": "1:1183"
+    },
+    {
+     "kind": "set",
+     "name": "Mobile app store badge",
+     "id": "1303:2162",
+     "key": "b3f7a349ece67722d7b56df6b15056282e79ffba",
+     "hasDescription": false,
+     "variantCount": 12,
+     "axes": [
+      "Store",
+      "Style",
+      "Size"
+     ],
+     "properties": [
+      {
+       "name": "Store",
+       "id": "Store",
+       "type": "VARIANT",
+       "default": "Google Play",
+       "options": [
+        "Google Play",
+        "App Store",
+        "Mac App Store"
+       ]
+      },
+      {
+       "name": "Style",
+       "id": "Style",
+       "type": "VARIANT",
+       "default": "Brand",
+       "options": [
+        "Brand",
+        "Outline"
+       ]
+      },
+      {
+       "name": "Size",
+       "id": "Size",
+       "type": "VARIANT",
+       "default": "md",
+       "options": [
+        "md",
+        "lg"
+       ]
+      }
+     ],
+     "nestedInstances": 0,
+     "missingMainComponent": 0,
+     "exposedInstances": [],
+     "dependencies": [],
+     "bindings": {
+      "boundFill": 40,
+      "boundStroke": 16,
+      "rawFill": 0,
+      "rawStroke": 2,
+      "textLayers": 0,
+      "rawText": 0,
+      "samples": {
+       "rawFill": [],
+       "rawStroke": [
+        "Store=Google Play, Style=Outline, Size=md > Vector",
+        "Store=Google Play, Style=Outline, Size=lg > Vector"
+       ],
+       "rawText": []
+      }
+     },
+     "slotNamedLayers": 0,
+     "variantsWithoutAutoLayout": 12,
+     "page": "↳ Buttons",
+     "pageId": "1:1183"
+    },
+    {
+     "kind": "set",
+     "name": "Buttons/Button loading icon",
+     "id": "8993:429278",
+     "key": "f9a816edcc033311681d4422335329bdf592b6ce",
+     "hasDescription": false,
+     "variantCount": 2,
+     "axes": [
+      "Size"
+     ],
+     "properties": [
+      {
+       "name": "Size",
+       "id": "Size",
+       "type": "VARIANT",
+       "default": "sm",
+       "options": [
+        "sm",
+        "md"
+       ]
+      }
+     ],
+     "nestedInstances": 0,
+     "missingMainComponent": 0,
+     "exposedInstances": [],
+     "dependencies": [],
+     "bindings": {
+      "boundFill": 0,
+      "boundStroke": 4,
+      "rawFill": 0,
+      "rawStroke": 0,
+      "textLayers": 0,
+      "rawText": 0,
+      "samples": {
+       "rawFill": [],
+       "rawStroke": [],
+       "rawText": []
+      }
+     },
+     "slotNamedLayers": 0,
+     "variantsWithoutAutoLayout": 2,
+     "page": "↳ Buttons",
+     "pageId": "1:1183"
+    },
+    {
+     "kind": "set",
+     "name": "Buttons/Button icon",
+     "id": "17528:1499",
+     "key": "50987e2f081c4c714550770a6e0ec15e178457ac",
+     "hasDescription": false,
+     "variantCount": 12,
+     "axes": [
+      "Intent",
+      "Size"
+     ],
+     "properties": [
+      {
+       "name": "Intent",
+       "id": "Intent",
+       "type": "VARIANT",
+       "default": "Neutral",
+       "options": [
+        "Neutral",
+        "Strong",
+        "Normal",
+        "Destructive"
+       ]
+      },
+      {
+       "name": "Size",
+       "id": "Size",
+       "type": "VARIANT",
+       "default": "sm",
+       "options": [
+        "md",
+        "lg",
+        "sm"
+       ]
+      }
+     ],
+     "nestedInstances": 12,
+     "missingMainComponent": 0,
+     "exposedInstances": [],
+     "dependencies": [
+      {
+       "name": "Icon wrapper",
+       "key": "b8295cee7375c7b7216cb412047f771ce86fbf9d",
+       "isSet": true,
+       "remote": true,
+       "count": 12,
+       "layers": [
+        "Icon wrapper"
+       ]
+      }
+     ],
+     "bindings": {
+      "boundFill": 12,
+      "boundStroke": 0,
+      "rawFill": 0,
+      "rawStroke": 0,
+      "textLayers": 0,
+      "rawText": 0,
+      "samples": {
+       "rawFill": [],
+       "rawStroke": [],
+       "rawText": []
+      }
+     },
+     "slotNamedLayers": 0,
+     "variantsWithoutAutoLayout": 0,
+     "page": "↳ Buttons",
+     "pageId": "1:1183"
+    },
+    {
+     "kind": "set",
+     "name": "Buttons/Button action",
+     "id": "21539:9592",
+     "key": "22b539e362aa76d635257f973a781d258abb0d52",
+     "hasDescription": false,
+     "variantCount": 3,
+     "axes": [
+      "State"
+     ],
+     "properties": [
+      {
+       "name": "State",
+       "id": "State",
+       "type": "VARIANT",
+       "default": "Default",
+       "options": [
+        "Default",
+        "Disabled",
+        "onTap"
+       ]
+      }
+     ],
+     "nestedInstances": 3,
+     "missingMainComponent": 0,
+     "exposedInstances": [],
+     "dependencies": [
+      {
+       "name": "Buttons/Button",
+       "key": "4e55cb83a056a6e3ac0225834874a1dcb6580da6",
+       "isSet": true,
+       "remote": false,
+       "count": 3,
+       "layers": [
+        "Buttons/Button"
+       ]
+      }
+     ],
+     "bindings": {
+      "boundFill": 3,
+      "boundStroke": 0,
+      "rawFill": 0,
+      "rawStroke": 0,
+      "textLayers": 3,
+      "rawText": 0,
+      "samples": {
+       "rawFill": [],
+       "rawStroke": [],
+       "rawText": []
+      }
+     },
+     "slotNamedLayers": 0,
+     "variantsWithoutAutoLayout": 0,
+     "page": "↳ Buttons",
+     "pageId": "1:1183"
+    },
+    {
+     "kind": "set",
+     "name": "Buttons/Button navigation",
+     "id": "21543:896",
+     "key": "188d6d860cb1aeb49aceea2c4135d9b99767732f",
+     "hasDescription": false,
+     "variantCount": 3,
+     "axes": [
+      "State"
+     ],
+     "properties": [
+      {
+       "name": "State",
+       "id": "State",
+       "type": "VARIANT",
+       "default": "Default",
+       "options": [
+        "Default",
+        "Active",
+        "Disabled"
+       ]
+      }
+     ],
+     "nestedInstances": 3,
+     "missingMainComponent": 0,
+     "exposedInstances": [],
+     "dependencies": [
+      {
+       "name": "Icon wrapper",
+       "key": "b8295cee7375c7b7216cb412047f771ce86fbf9d",
+       "isSet": true,
+       "remote": true,
+       "count": 3,
+       "layers": [
+        "Icon wrapper"
+       ]
+      }
+     ],
+     "bindings": {
+      "boundFill": 4,
+      "boundStroke": 0,
+      "rawFill": 0,
+      "rawStroke": 0,
+      "textLayers": 3,
+      "rawText": 0,
+      "samples": {
+       "rawFill": [],
+       "rawStroke": [],
+       "rawText": []
+      }
+     },
+     "slotNamedLayers": 0,
+     "variantsWithoutAutoLayout": 0,
+     "page": "↳ Buttons",
+     "pageId": "1:1183"
+    }
+   ]
+  },
+  {
+   "page": "↳ Modals",
+   "pageId": "172:4293",
+   "sets": 3,
+   "standalone": 0,
+   "items": [
+    {
+     "kind": "set",
+     "name": "_Modal actions",
+     "id": "4057:414352",
+     "key": "2d3128d676dab3fdd7c62cce1988c7fa615d1932",
+     "hasDescription": false,
+     "variantCount": 3,
+     "axes": [
+      "Type",
+      "Destructive",
+      "Breakpoint"
+     ],
+     "properties": [
+      {
+       "name": "Checkbox",
+       "id": "Checkbox#3292:1268",
+       "type": "BOOLEAN",
+       "default": true
+      },
+      {
+       "name": "Tertiary button",
+       "id": "Tertiary button#3292:1289",
+       "type": "BOOLEAN",
+       "default": true
+      },
+      {
+       "name": "Divider",
+       "id": "Divider#4057:0",
+       "type": "BOOLEAN",
+       "default": true
+      },
+      {
+       "name": "Type",
+       "id": "Type",
+       "type": "VARIANT",
+       "default": "Horizontal fill container",
+       "options": [
+        "Vertical fill container",
+        "Horizontal fill container",
+        "Horizontal right aligned (checkbox)"
+       ]
+      },
+      {
+       "name": "Destructive",
+       "id": "Destructive",
+       "type": "VARIANT",
+       "default": "False",
+       "options": [
+        "False"
+       ]
+      },
+      {
+       "name": "Breakpoint",
+       "id": "Breakpoint",
+       "type": "VARIANT",
+       "default": "Mobile",
+       "options": [
+        "Mobile"
+       ]
+      }
+     ],
+     "nestedInstances": 9,
+     "missingMainComponent": 0,
+     "exposedInstances": [],
+     "dependencies": [
+      {
+       "name": "Buttons/Button",
+       "key": "4e55cb83a056a6e3ac0225834874a1dcb6580da6",
+       "isSet": true,
+       "remote": false,
+       "count": 6,
+       "layers": [
+        "Buttons/Button"
+       ]
+      },
+      {
+       "name": "Home Indicator",
+       "key": "841ca4e3d8ffdb6a788e7d8aa41d5900e0aca7b0",
+       "isSet": true,
+       "remote": true,
+       "count": 1,
+       "layers": [
+        "Home Indicator"
+       ]
+      },
+      {
+       "name": "Radio / Checkbox",
+       "key": "9b75804be080e8fcd98a03d9b98bc070c44a0f52",
+       "isSet": true,
+       "remote": false,
+       "count": 1,
+       "layers": [
+        "Radio / Checkbox"
+       ]
+      },
+      {
+       "name": "Buttons/Button/lg/Link gray/Default/False",
+       "key": "243d11f385456c98272b0bede25e369b3cbaa51d",
+       "isSet": false,
+       "remote": false,
+       "count": 1,
+       "layers": [
+        "Buttons/Button"
+       ]
+      }
+     ],
+     "bindings": {
+      "boundFill": 3,
+      "boundStroke": 0,
+      "rawFill": 0,
+      "rawStroke": 0,
+      "textLayers": 0,
+      "rawText": 0,
+      "samples": {
+       "rawFill": [],
+       "rawStroke": [],
+       "rawText": []
+      }
+     },
+     "slotNamedLayers": 0,
+     "variantsWithoutAutoLayout": 0,
+     "page": "↳ Modals",
+     "pageId": "172:4293"
+    },
+    {
+     "kind": "set",
+     "name": "_Modal header",
+     "id": "4055:413620",
+     "key": "e62d42a448ac115114901531d4d33152c454d37e",
+     "hasDescription": false,
+     "variantCount": 1,
+     "axes": [
+      "Type"
+     ],
+     "properties": [
+      {
+       "name": "Show close",
+       "id": "Show close#21368:0",
+       "type": "BOOLEAN",
+       "default": true
+      },
+      {
+       "name": "Show divider",
+       "id": "Show divider#21368:2",
+       "type": "BOOLEAN",
+       "default": true
+      },
+      {
+       "name": "Show bottom p",
+       "id": "Show bottom p#21368:4",
+       "type": "BOOLEAN",
+       "default": true
+      },
+      {
+       "name": "Show img",
+       "id": "Show img#21368:6",
+       "type": "BOOLEAN",
+       "default": true
+      },
+      {
+       "name": "Type",
+       "id": "Type",
+       "type": "VARIANT",
+       "default": "Left aligned",
+       "options": [
+        "Left aligned"
+       ]
+      }
+     ],
+     "nestedInstances": 2,
+     "missingMainComponent": 0,
+     "exposedInstances": [],
+     "dependencies": [
+      {
+       "name": "Illustration wrapper",
+       "key": "8ab788292c33dc1d6170fef422cc854646a4b605",
+       "isSet": true,
+       "remote": false,
+       "count": 1,
+       "layers": [
+        "Illustration wrapper"
+       ]
+      },
+      {
+       "name": "Icon wrapper",
+       "key": "b8295cee7375c7b7216cb412047f771ce86fbf9d",
+       "isSet": true,
+       "remote": true,
+       "count": 1,
+       "layers": [
+        "Icon wrapper"
+       ]
+      }
+     ],
+     "bindings": {
+      "boundFill": 4,
+      "boundStroke": 0,
+      "rawFill": 0,
+      "rawStroke": 0,
+      "textLayers": 2,
+      "rawText": 0,
+      "samples": {
+       "rawFill": [],
+       "rawStroke": [],
+       "rawText": []
+      }
+     },
+     "slotNamedLayers": 0,
+     "variantsWithoutAutoLayout": 0,
+     "page": "↳ Modals",
+     "pageId": "172:4293"
+    },
+    {
+     "kind": "set",
+     "name": "Modal",
+     "id": "4057:415205",
+     "key": "dac269c2f44bb35a05ce44f3b985285788201c98",
+     "hasDescription": false,
+     "variantCount": 1,
+     "axes": [
+      "Type"
+     ],
+     "properties": [
+      {
+       "name": "Drawer content",
+       "id": "Drawer content#21214:0",
+       "type": "INSTANCE_SWAP",
+       "default": "17540:4885",
+       "defaultRef": {
+        "name": "Slot",
+        "variant": null,
+        "key": "68b13273d1d58919ca51c37ca27ba0a4a033e828",
+        "remote": false
+       },
+       "preferredCount": 1,
+       "preferred": [
+        {
+         "type": "COMPONENT",
+         "key": "28e7187abb5daa34635cb1753309cca9609e1628"
+        }
+       ]
+      },
+      {
+       "name": "Type",
+       "id": "Type",
+       "type": "VARIANT",
+       "default": "Default slotted",
+       "options": [
+        "Default slotted"
+       ]
+      }
+     ],
+     "nestedInstances": 5,
+     "missingMainComponent": 0,
+     "exposedInstances": [],
+     "dependencies": [
+      {
+       "name": "Background overlay",
+       "key": "30a8801b59485174ff95f7550c82e5dba09addd0",
+       "isSet": true,
+       "remote": false,
+       "count": 1,
+       "layers": [
+        "Background overlay"
+       ]
+      },
+      {
+       "name": "_Modal header",
+       "key": "e62d42a448ac115114901531d4d33152c454d37e",
+       "isSet": true,
+       "remote": false,
+       "count": 1,
+       "layers": [
+        "_Modal header"
+       ]
+      },
+      {
+       "name": "Slot",
+       "key": "68b13273d1d58919ca51c37ca27ba0a4a033e828",
+       "isSet": false,
+       "remote": false,
+       "count": 1,
+       "layers": [
+        "Slot"
+       ]
+      },
+      {
+       "name": "_Scroll bar (control fill with bottom padding)",
+       "key": "75a3030ff915e3cd2d81f4a67e7a6ec1b0a09ccf",
+       "isSet": false,
+       "remote": false,
+       "count": 1,
+       "layers": [
+        "_Scroll bar (control fill with bottom padding)"
+       ]
+      },
+      {
+       "name": "_Modal actions",
+       "key": "2d3128d676dab3fdd7c62cce1988c7fa615d1932",
+       "isSet": true,
+       "remote": false,
+       "count": 1,
+       "layers": [
+        "_Modal actions"
+       ]
+      }
+     ],
+     "bindings": {
+      "boundFill": 1,
+      "boundStroke": 0,
+      "rawFill": 0,
+      "rawStroke": 0,
+      "textLayers": 0,
+      "rawText": 0,
+      "samples": {
+       "rawFill": [],
+       "rawStroke": [],
+       "rawText": []
+      }
+     },
+     "slotNamedLayers": 2,
+     "variantsWithoutAutoLayout": 0,
+     "page": "↳ Modals",
+     "pageId": "172:4293"
+    }
+   ]
+  }
+ ]
+}

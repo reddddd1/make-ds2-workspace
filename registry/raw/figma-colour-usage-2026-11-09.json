@@ -1,0 +1,2216 @@
+{
+ "fileKey": "xJoAz66aekAToyhBmfGNt0",
+ "extractor": "scripts/figma-colour-usage-scan.js",
+ "items": [
+  {
+   "name": "Buttons/Button",
+   "id": "3287:427074",
+   "page": "↳ Buttons",
+   "colours": {
+    "Colors/Background/bg-brand-primary": [
+     21,
+     0
+    ],
+    "Colors/Text/text-white": [
+     16,
+     0
+    ],
+    "Colors/Green lime/500": [
+     28,
+     0
+    ],
+    "Colors/Text/text-primary_on-brandsecondary": [
+     16,
+     0
+    ],
+    "Colors/Text/text-brand-primary": [
+     24,
+     0
+    ],
+    "Component colors/Utility/Brand/utility-brand-25": [
+     28,
+     0
+    ],
+    "Colors/Background/bg-disabled": [
+     7,
+     0
+    ],
+    "Colors/Border/border-disabled_subtle": [
+     7,
+     0
+    ],
+    "Colors/Foreground/fg-disabled": [
+     12,
+     0
+    ],
+    "Colors/Background/bg-disabled_subtle": [
+     7,
+     0
+    ],
+    "Colors/Effects/Focus rings/focus-ring-primary": [
+     15,
+     0
+    ],
+    "Colors/Background/bg-primary": [
+     22,
+     0
+    ],
+    "Colors/Effects/Focus rings/focus-ring-alt": [
+     7,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-xs": [
+     15,
+     0
+    ],
+    "Colors/Background/bg-brand-primary_hover": [
+     7,
+     0
+    ],
+    "Colors/Text/text-brand-primary-hover": [
+     7,
+     0
+    ],
+    "Colors/Text/text-brand-secondary_hover": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "Buttons/Button destructive",
+   "id": "17503:16162",
+   "page": "↳ Buttons",
+   "colours": {
+    "Colors/Background/bg-error-solid": [
+     21,
+     0
+    ],
+    "Colors/Text/text-white": [
+     16,
+     0
+    ],
+    "Colors/Text/text-error-primary": [
+     28,
+     0
+    ],
+    "Component colors/Utility/Brand/utility-brand-25": [
+     28,
+     0
+    ],
+    "Colors/Effects/Focus rings/focus-ring-error": [
+     15,
+     0
+    ],
+    "Colors/Background/bg-primary": [
+     15,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-xs": [
+     15,
+     0
+    ],
+    "Colors/Background/bg-error-solid_hover": [
+     7,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "Social button",
+   "id": "1256:130788",
+   "page": "↳ Buttons",
+   "colours": {
+    "Colors/Effects/Shadows/shadow-xs": [
+     54,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-skeumorphic-inner": [
+     54,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-skeumorphic-inner-border": [
+     54,
+     0
+    ],
+    "Colors/Text/text-white": [
+     6,
+     0
+    ],
+    "Colors/Effects/Focus rings/focus-ring-primary": [
+     18,
+     0
+    ],
+    "Colors/Background/bg-primary": [
+     46,
+     0
+    ],
+    "Colors/Border/border-primary": [
+     42,
+     0
+    ],
+    "Colors/Text/text-secondary (700)": [
+     14,
+     0
+    ],
+    "Colors/Background/bg-primary_hover": [
+     14,
+     0
+    ],
+    "Colors/Text/text-secondary_hover": [
+     7,
+     0
+    ],
+    "Colors/Base/black": [
+     6,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "Social button groups",
+   "id": "1256:132638",
+   "page": "↳ Buttons",
+   "colours": {},
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "Mobile app store badge",
+   "id": "1303:2162",
+   "page": "↳ Buttons",
+   "colours": {
+    "Colors/Foreground/fg-primary (900)": [
+     26,
+     0
+    ],
+    "Colors/Base/black": [
+     6,
+     0
+    ],
+    "Component colors/Components/App store badges/app-store-badge-border": [
+     6,
+     0
+    ],
+    "Colors/Base/white": [
+     18,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "Buttons/Button loading icon",
+   "id": "8993:429278",
+   "page": "↳ Buttons",
+   "colours": {
+    "Component colors/Alpha/alpha-black-50": [
+     2,
+     0
+    ],
+    "Component colors/Components/Buttons/button-primary-icon": [
+     2,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "Buttons/Button icon",
+   "id": "17528:1499",
+   "page": "↳ Buttons",
+   "colours": {
+    "Colors/Background/bg-canvas": [
+     6,
+     0
+    ],
+    "Colors/Background/bg-brand-primary": [
+     3,
+     0
+    ],
+    "Colors/Background/bg-error-solid": [
+     3,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "Buttons/Button action",
+   "id": "21539:9592",
+   "page": "↳ Buttons",
+   "colours": {
+    "Colors/Text/text-quaternary (500)": [
+     2,
+     0
+    ],
+    "Colors/Text/text-disabled": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "Buttons/Button navigation",
+   "id": "21543:896",
+   "page": "↳ Buttons",
+   "colours": {
+    "Colors/Text/text-quaternary (500) (remote)": [
+     2,
+     0
+    ],
+    "Component colors/Utility/Gray/utility-gray-200": [
+     1,
+     0
+    ],
+    "Colors/Text/text-secondary (700)": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "_Button group base",
+   "id": "1046:9312",
+   "page": "↳ Button groups",
+   "colours": {
+    "Colors/Background/bg-primary": [
+     20,
+     0
+    ],
+    "Colors/Border/border-primary": [
+     32,
+     0
+    ],
+    "Colors/Text/text-secondary (700)": [
+     6,
+     0
+    ],
+    "Colors/Background/bg-active": [
+     8,
+     0
+    ],
+    "Colors/Text/text-secondary_hover": [
+     12,
+     0
+    ],
+    "Colors/Effects/Focus rings/focus-ring-primary": [
+     8,
+     0
+    ],
+    "Colors/Text/text-disabled": [
+     6,
+     0
+    ],
+    "Colors/Background/bg-disabled_subtle": [
+     4,
+     0
+    ],
+    "Colors/Background/bg-primary_hover": [
+     8,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "Button group",
+   "id": "1046:10171",
+   "page": "↳ Button groups",
+   "colours": {
+    "Colors/Border/border-primary": [
+     3,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-xs": [
+     3,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-skeumorphic-inner": [
+     3,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-skeumorphic-inner-border": [
+     3,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "Navigation button group",
+   "id": "21543:1115",
+   "page": "↳ Button groups",
+   "colours": {
+    "Component colors/Alpha/alpha-white-70": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "_Tab button base",
+   "id": "21269:11402",
+   "page": "↳ Tab & filter groups",
+   "colours": {
+    "Colors/Background/bg-primary": [
+     2,
+     0
+    ],
+    "Colors/Text/text-quaternary (500)": [
+     4,
+     0
+    ],
+    "Colors/Border/border-secondary": [
+     2,
+     0
+    ],
+    "Colors/Text/text-primary (900)": [
+     2,
+     0
+    ],
+    "Colors/Foreground/fg-primary (900)": [
+     2,
+     0
+    ],
+    "Colors/Background/bg-primary-solid": [
+     2,
+     0
+    ],
+    "Colors/Text/text-primary_on-brandprimary": [
+     2,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "_Filter button base",
+   "id": "21387:5280",
+   "page": "↳ Tab & filter groups",
+   "colours": {
+    "Colors/Background/bg-active": [
+     1,
+     0
+    ],
+    "Colors/Text/text-primary (900)": [
+     1,
+     0
+    ],
+    "Colors/Background/bg-disabled": [
+     1,
+     0
+    ],
+    "Colors/Text/text-quaternary (500)": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "Tab group",
+   "id": "21453:537",
+   "page": "↳ Tab & filter groups",
+   "colours": {},
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "Filter group",
+   "id": "21387:9103",
+   "page": "↳ Tab & filter groups",
+   "colours": {},
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "Badge",
+   "id": "17528:20237",
+   "page": "↳ Badges",
+   "colours": {
+    "Colors/Background/bg-tertiary": [
+     27,
+     0
+    ],
+    "Colors/Text/text-tertiary (600)": [
+     6,
+     0
+    ],
+    "Colors/Text/text-success-primary": [
+     3,
+     0
+    ],
+    "Colors/Text/text-warning-primary": [
+     6,
+     0
+    ],
+    "Colors/Text/text-brand-primary": [
+     6,
+     0
+    ],
+    "Colors/Text/text-error-primary": [
+     3,
+     0
+    ],
+    "Colors/Text/text-secondary (700)": [
+     3,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "Tag",
+   "id": "3307:417515",
+   "page": "↳ Tags",
+   "colours": {
+    "Colors/Background/bg-primary": [
+     30,
+     0
+    ],
+    "Colors/Border/border-primary": [
+     30,
+     0
+    ],
+    "Colors/Text/text-tertiary (600)": [
+     30,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "Tag count",
+   "id": "3307:417827",
+   "page": "↳ Tags",
+   "colours": {
+    "Colors/Background/bg-tertiary": [
+     3,
+     0
+    ],
+    "Colors/Text/text-secondary (700)": [
+     3,
+     0
+    ],
+    "Colors/Background/bg-brand-primary": [
+     3,
+     0
+    ],
+    "Colors/Text/text-primary_on-brandprimary": [
+     3,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "_Dropdown list item",
+   "id": "3281:382793",
+   "page": "↳ Dropdowns",
+   "colours": {
+    "Colors/Text/text-disabled": [
+     3,
+     0
+    ],
+    "Colors/Background/bg-primary_hover": [
+     4,
+     0
+    ],
+    "Colors/Text/text-secondary_hover": [
+     4,
+     0
+    ],
+    "Colors/Text/text-primary (900)": [
+     3,
+     0
+    ],
+    "Colors/Border/border-secondary": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "Dropdown",
+   "id": "3281:383083",
+   "page": "↳ Dropdowns",
+   "colours": {
+    "Colors/Background/bg-primary": [
+     1,
+     0
+    ],
+    "Colors/Border/border-secondary": [
+     1,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-lg_03": [
+     1,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-lg_02": [
+     1,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-lg_01": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "Select",
+   "id": "3281:377673",
+   "page": "↳ Dropdowns",
+   "colours": {
+    "Colors/Background/bg-primary": [
+     61,
+     0
+    ],
+    "Colors/Border/border-secondary": [
+     25,
+     0
+    ],
+    "Colors/Text/text-primary (900)": [
+     15,
+     0
+    ],
+    "Colors/Border/border-primary": [
+     21,
+     0
+    ],
+    "Colors/Text/text-quaternary (500)": [
+     21,
+     0
+    ],
+    "Colors/Text/text-placeholder": [
+     5,
+     0
+    ],
+    "Colors/Text/text-disabled": [
+     4,
+     0
+    ],
+    "Colors/Effects/Focus rings/focus-ring-neutral": [
+     10,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-xs": [
+     10,
+     0
+    ],
+    "Colors/Border/border-secondary_alt": [
+     5,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-lg_03": [
+     5,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-lg_02": [
+     5,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-lg_01": [
+     5,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "_Scroll bar (control fill with bottom padding)",
+   "id": "8003:32901",
+   "page": "↳ Dropdowns",
+   "colours": {
+    "Component colors/Alpha/alpha-black-100": [
+     1,
+     0
+    ],
+    "Component colors/Alpha/alpha-white-100": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "_Mega input field base",
+   "id": "1106:66560",
+   "page": "↳ Inputs",
+   "colours": {
+    "Colors/Background/bg-primary": [
+     9,
+     0
+    ],
+    "Colors/Text/text-placeholder_subtle": [
+     3,
+     0
+    ],
+    "Colors/Background/bg-disabled_subtle": [
+     3,
+     0
+    ],
+    "Colors/Foreground/fg-disabled_subtle": [
+     3,
+     0
+    ],
+    "Colors/Border/border-brand": [
+     6,
+     0
+    ],
+    "Colors/Text/text-brand-tertiary_alt": [
+     6,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "Verification code input field",
+   "id": "1106:66757",
+   "page": "↳ Inputs",
+   "colours": {},
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "Textarea input field",
+   "id": "1238:278",
+   "page": "↳ Inputs",
+   "colours": {
+    "Colors/Background/bg-primary": [
+     12,
+     0
+    ],
+    "Colors/Border/border-secondary": [
+     4,
+     0
+    ],
+    "Colors/Text/text-placeholder": [
+     8,
+     0
+    ],
+    "Colors/Border/border-primary": [
+     30,
+     0
+    ],
+    "Colors/Border/border-error_subtle": [
+     4,
+     0
+    ],
+    "Colors/Background/bg-disabled_subtle": [
+     2,
+     0
+    ],
+    "Colors/Border/border-disabled": [
+     2,
+     0
+    ],
+    "Colors/Text/text-disabled": [
+     2,
+     0
+    ],
+    "Colors/Text/text-primary (900)": [
+     4,
+     0
+    ],
+    "Colors/Text/text-tertiary (600)": [
+     2,
+     0
+    ],
+    "Colors/Border/border-error": [
+     2,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "Helper text",
+   "id": "17515:929",
+   "page": "↳ Inputs",
+   "colours": {
+    "Colors/Text/text-secondary (700)": [
+     3,
+     0
+    ],
+    "Colors/Text/text-quaternary (500)": [
+     3,
+     0
+    ],
+    "Colors/Text/text-success-primary": [
+     3,
+     0
+    ],
+    "Colors/Text/text-error-primary": [
+     3,
+     0
+    ],
+    "Colors/Text/text-warning-primary": [
+     3,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "Input field",
+   "id": "17517:11024",
+   "page": "↳ Inputs",
+   "colours": {
+    "Colors/Background/bg-primary": [
+     101,
+     0
+    ],
+    "Colors/Border/border-secondary": [
+     32,
+     0
+    ],
+    "Colors/Text/text-primary (900)": [
+     45,
+     0
+    ],
+    "Colors/Border/border-primary": [
+     40,
+     0
+    ],
+    "Colors/Text/text-quaternary (500)": [
+     40,
+     0
+    ],
+    "Colors/Border/border-error_subtle": [
+     21,
+     0
+    ],
+    "Colors/Effects/Focus rings/focus-ring-neutral": [
+     8,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-xs": [
+     8,
+     0
+    ],
+    "Colors/Text/text-disabled": [
+     17,
+     0
+    ],
+    "Colors/Text/text-placeholder": [
+     17,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "_Input title",
+   "id": "17571:10947",
+   "page": "↳ Inputs",
+   "colours": {
+    "Colors/Text/text-secondary (700)": [
+     3,
+     0
+    ],
+    "Colors/Border/border-primary": [
+     1,
+     0
+    ],
+    "Colors/Text/text-quaternary (500)": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:13:59.172Z"
+  },
+  {
+   "name": "_Toggle base",
+   "id": "122:3294",
+   "page": "↳ Toggles",
+   "colours": {
+    "Colors/Background/bg-brand-primary": [
+     4,
+     0
+    ],
+    "Colors/Effects/Focus rings/focus-ring-primary": [
+     4,
+     0
+    ],
+    "Colors/Background/bg-primary": [
+     4,
+     0
+    ],
+    "Colors/Foreground/fg-white": [
+     12,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-sm_02": [
+     16,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-sm_01": [
+     16,
+     0
+    ],
+    "Colors/Background/bg-brand-primary_hover": [
+     2,
+     0
+    ],
+    "Colors/Background/bg-disabled": [
+     4,
+     0
+    ],
+    "Component colors/Components/Toggles/toggle-button-fg_disabled": [
+     4,
+     0
+    ],
+    "Colors/Background/bg-tertiary": [
+     6,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:01.955Z"
+  },
+  {
+   "name": "Toggle",
+   "id": "1102:4208",
+   "page": "↳ Toggles",
+   "colours": {},
+   "readAt": "2026-11-09T13:14:01.955Z"
+  },
+  {
+   "name": "Radio / Checkbox",
+   "id": "1097:63652",
+   "page": "↳ Checkboxes",
+   "colours": {
+    "Colors/Text/text-secondary (700)": [
+     32,
+     0
+    ],
+    "Colors/Text/text-tertiary (600)": [
+     32,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:01.955Z"
+  },
+  {
+   "name": "_Checkbox base",
+   "id": "1097:63886",
+   "page": "↳ Checkboxes",
+   "colours": {
+    "Colors/Border/border-primary": [
+     15,
+     0
+    ],
+    "Colors/Background/bg-disabled_subtle": [
+     13,
+     0
+    ],
+    "Colors/Border/border-disabled": [
+     13,
+     0
+    ],
+    "Colors/Background/bg-primary": [
+     18,
+     0
+    ],
+    "Colors/Effects/Focus rings/focus-ring-primary": [
+     13,
+     0
+    ],
+    "Colors/Background/bg-brand-primary": [
+     24,
+     0
+    ],
+    "Colors/Foreground/fg-white": [
+     6,
+     0
+    ],
+    "Colors/Foreground/fg-disabled_subtle": [
+     2,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:01.955Z"
+  },
+  {
+   "name": "Radio group item",
+   "id": "124:2838",
+   "page": "↳ Radio groups",
+   "colours": {
+    "Colors/Background/bg-primary": [
+     96,
+     0
+    ],
+    "Colors/Border/border-brand": [
+     36,
+     0
+    ],
+    "Colors/Effects/Focus rings/focus-ring-primary": [
+     24,
+     0
+    ],
+    "Colors/Text/text-secondary (700)": [
+     96,
+     0
+    ],
+    "Colors/Text/text-tertiary (600)": [
+     160,
+     0
+    ],
+    "Colors/Background/bg-disabled_subtle": [
+     24,
+     0
+    ],
+    "Colors/Border/border-disabled": [
+     8,
+     0
+    ],
+    "Colors/Border/border-disabled_subtle": [
+     16,
+     0
+    ],
+    "Colors/Border/border-secondary": [
+     36,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:01.955Z"
+  },
+  {
+   "name": "Radio group",
+   "id": "1142:87213",
+   "page": "↳ Radio groups",
+   "colours": {},
+   "readAt": "2026-11-09T13:14:01.955Z"
+  },
+  {
+   "name": "Avatar label group",
+   "id": "82:2793",
+   "page": "↳ Avatars",
+   "colours": {
+    "Colors/Text/text-primary (900)": [
+     4,
+     0
+    ],
+    "Colors/Text/text-tertiary (600)": [
+     4,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:01.955Z"
+  },
+  {
+   "name": "Avatar",
+   "id": "19:1012",
+   "page": "↳ Avatars",
+   "colours": {
+    "Colors/Background/bg-avatar-color1": [
+     6,
+     0
+    ],
+    "Colors/Border/border-secondary": [
+     54,
+     0
+    ],
+    "Colors/Text/text-primary (900)": [
+     48,
+     0
+    ],
+    "Colors/Background/bg-avatar-color2": [
+     6,
+     0
+    ],
+    "Colors/Background/bg-avatar-color3": [
+     6,
+     0
+    ],
+    "Colors/Background/bg-avatar-color4": [
+     6,
+     0
+    ],
+    "Colors/Background/bg-avatar-color5": [
+     6,
+     0
+    ],
+    "Colors/Background/bg-avatar-color6": [
+     6,
+     0
+    ],
+    "Colors/Background/bg-avatar-color7": [
+     6,
+     0
+    ],
+    "Colors/Background/bg-avatar-color8": [
+     6,
+     0
+    ],
+    "Colors/Background/bg-tertiary": [
+     6,
+     0
+    ],
+    "Component colors/Alpha/alpha-black-10": [
+     26,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:01.955Z"
+  },
+  {
+   "name": "_Avatar company icon",
+   "id": "1036:4",
+   "page": "↳ Avatars",
+   "colours": {
+    "Colors/Background/bg-primary": [
+     6,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:01.955Z"
+  },
+  {
+   "name": "_Avatar add button",
+   "id": "1102:4864",
+   "page": "↳ Avatars",
+   "colours": {
+    "Colors/Background/bg-primary": [
+     9,
+     0
+    ],
+    "Colors/Border/border-brand": [
+     9,
+     0
+    ],
+    "Colors/Effects/Focus rings/focus-ring-primary": [
+     3,
+     0
+    ],
+    "Colors/Background/bg-disabled_subtle": [
+     3,
+     0
+    ],
+    "Colors/Border/border-disabled": [
+     3,
+     0
+    ],
+    "Colors/Background/bg-primary_hover": [
+     3,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:01.955Z"
+  },
+  {
+   "name": "Avatar group",
+   "id": "1274:812",
+   "page": "↳ Avatars",
+   "colours": {},
+   "readAt": "2026-11-09T13:14:01.955Z"
+  },
+  {
+   "name": "Tooltip",
+   "id": "1052:489",
+   "page": "↳ Tooltips",
+   "colours": {
+    "Colors/Effects/Shadows/shadow-lg_03": [
+     14,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-lg_02": [
+     14,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-lg_01": [
+     14,
+     0
+    ],
+    "Colors/Background/bg-primary-solid": [
+     26,
+     0
+    ],
+    "Colors/Text/text-white": [
+     14,
+     0
+    ],
+    "Component colors/Components/Tooltips/tooltip-supporting-text": [
+     7,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:01.955Z"
+  },
+  {
+   "name": "Help icon",
+   "id": "1054:13",
+   "page": "↳ Tooltips",
+   "colours": {},
+   "readAt": "2026-11-09T13:14:01.955Z"
+  },
+  {
+   "name": "Progress bar",
+   "id": "1085:57382",
+   "page": "↳ Progress indicators",
+   "colours": {
+    "Colors/Background/bg-quaternary": [
+     33,
+     0
+    ],
+    "Colors/Foreground/fg-brand-primary (600)": [
+     33,
+     0
+    ],
+    "Colors/Text/text-secondary (700)": [
+     22,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:01.955Z"
+  },
+  {
+   "name": "Progress circle",
+   "id": "1084:2717",
+   "page": "↳ Progress indicators",
+   "colours": {
+    "Colors/Background/bg-quaternary": [
+     5,
+     0
+    ],
+    "Colors/Foreground/fg-brand-primary (600)": [
+     5,
+     0
+    ],
+    "Colors/Text/text-tertiary (600)": [
+     5,
+     0
+    ],
+    "Colors/Text/text-primary (900)": [
+     5,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:01.955Z"
+  },
+  {
+   "name": "Slider",
+   "id": "1086:534",
+   "page": "↳ Sliders",
+   "colours": {
+    "Colors/Background/bg-quaternary": [
+     30,
+     0
+    ],
+    "Colors/Foreground/fg-brand-primary (600)": [
+     30,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:01.955Z"
+  },
+  {
+   "name": "_Control handle",
+   "id": "3287:442783",
+   "page": "↳ Sliders",
+   "colours": {
+    "Component colors/Components/Sliders/slider-handle-bg": [
+     9,
+     0
+    ],
+    "Component colors/Components/Sliders/slider-handle-border": [
+     9,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-md_02": [
+     6,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-md_01": [
+     6,
+     0
+    ],
+    "Colors/Text/text-primary (900)": [
+     3,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-lg_03": [
+     3,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-lg_02": [
+     3,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-lg_01": [
+     3,
+     0
+    ],
+    "Colors/Background/bg-primary_alt": [
+     3,
+     0
+    ],
+    "Colors/Border/border-secondary_alt": [
+     3,
+     0
+    ],
+    "Colors/Text/text-secondary (700)": [
+     3,
+     0
+    ],
+    "Colors/Effects/Focus rings/focus-ring-primary": [
+     3,
+     0
+    ],
+    "Colors/Background/bg-primary": [
+     3,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-sm_02": [
+     3,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-sm_01": [
+     3,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:01.955Z"
+  },
+  {
+   "name": "_Indicator",
+   "id": "21132:1691",
+   "page": "↳ Navigators",
+   "colours": {
+    "Colors/Foreground/fg-primary (900)": [
+     1,
+     0
+    ],
+    "Colors/Foreground/fg-quaternary (400)": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:04.170Z"
+  },
+  {
+   "name": "Navigator",
+   "id": "21206:142",
+   "page": "↳ Navigators",
+   "colours": {},
+   "readAt": "2026-11-09T13:14:04.170Z"
+  },
+  {
+   "name": "_Nav featured card",
+   "id": "1157:90307",
+   "page": "↳ App Navigation",
+   "colours": {
+    "Colors/Background/bg-secondary": [
+     2,
+     0
+    ],
+    "Colors/Text/text-primary (900)": [
+     6,
+     0
+    ],
+    "Colors/Text/text-tertiary (600)": [
+     8,
+     0
+    ],
+    "Colors/Background/bg-brand-secondary": [
+     1,
+     0
+    ],
+    "Colors/Foreground/fg-white": [
+     1,
+     0
+    ],
+    "Colors/Background/bg-primary": [
+     4,
+     0
+    ],
+    "Colors/Border/border-secondary": [
+     4,
+     0
+    ],
+    "Colors/Text/text-quaternary (500)": [
+     2,
+     0
+    ],
+    "Colors/Base/white": [
+     1,
+     0
+    ],
+    "Colors/Border/border-brand_alt": [
+     4,
+     0
+    ],
+    "Colors/Background/bg-brand-tertiary": [
+     1,
+     0
+    ],
+    "Colors/Border/border-brand": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:04.170Z"
+  },
+  {
+   "name": "_Nav account card menu item",
+   "id": "7891:71338",
+   "page": "↳ App Navigation",
+   "colours": {
+    "Colors/Background/bg-primary_hover": [
+     6,
+     0
+    ],
+    "Colors/Text/text-secondary_hover": [
+     3,
+     0
+    ],
+    "Colors/Border/border-secondary": [
+     4,
+     0
+    ],
+    "Colors/Text/text-tertiary (600)": [
+     4,
+     0
+    ],
+    "Colors/Text/text-secondary (700)": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:04.170Z"
+  },
+  {
+   "name": "Header navigation",
+   "id": "1207:1678",
+   "page": "↳ App Navigation",
+   "colours": {
+    "Colors/Background/bg-primary": [
+     2,
+     0
+    ],
+    "Colors/Border/border-secondary": [
+     2,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:04.170Z"
+  },
+  {
+   "name": "_Nav item base",
+   "id": "1152:89220",
+   "page": "↳ App Navigation",
+   "colours": {
+    "Colors/Background/bg-primary": [
+     6,
+     0
+    ],
+    "Colors/Text/text-secondary (700)": [
+     2,
+     0
+    ],
+    "Colors/Background/bg-active": [
+     2,
+     0
+    ],
+    "Colors/Text/text-secondary_hover": [
+     4,
+     0
+    ],
+    "Colors/Effects/Focus rings/focus-ring-primary": [
+     4,
+     0
+    ],
+    "Colors/Background/bg-primary_hover": [
+     1,
+     0
+    ],
+    "Colors/Background/bg-secondary_hover": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:04.170Z"
+  },
+  {
+   "name": "_Application nav menu button",
+   "id": "1161:14070",
+   "page": "↳ App Navigation",
+   "colours": {
+    "Colors/Background/bg-primary": [
+     4,
+     0
+    ],
+    "Colors/Effects/Focus rings/focus-ring-primary": [
+     2,
+     0
+    ],
+    "Colors/Background/bg-primary_hover": [
+     1,
+     0
+    ],
+    "Component colors/Alpha/alpha-white-10": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:04.170Z"
+  },
+  {
+   "name": "_Nav item button",
+   "id": "1165:736",
+   "page": "↳ App Navigation",
+   "colours": {
+    "Colors/Background/bg-active": [
+     4,
+     0
+    ],
+    "Colors/Background/bg-primary": [
+     6,
+     0
+    ],
+    "Colors/Effects/Focus rings/focus-ring-primary": [
+     4,
+     0
+    ],
+    "Colors/Background/bg-primary_hover": [
+     2,
+     0
+    ],
+    "Colors/Background/bg-secondary_hover": [
+     2,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:04.170Z"
+  },
+  {
+   "name": "_Modal actions",
+   "id": "4057:414352",
+   "page": "↳ Modals",
+   "colours": {
+    "Colors/Border/border-secondary": [
+     3,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:04.170Z"
+  },
+  {
+   "name": "_Modal header",
+   "id": "4055:413620",
+   "page": "↳ Modals",
+   "colours": {
+    "Colors/Background/bg-quaternary": [
+     1,
+     0
+    ],
+    "Colors/Text/text-primary (900)": [
+     1,
+     0
+    ],
+    "Colors/Text/text-tertiary (600)": [
+     1,
+     0
+    ],
+    "Colors/Border/border-secondary": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:04.170Z"
+  },
+  {
+   "name": "Modal",
+   "id": "4057:415205",
+   "page": "↳ Modals",
+   "colours": {
+    "Colors/Background/bg-primary": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:04.170Z"
+  },
+  {
+   "name": "Alert",
+   "id": "1130:81134",
+   "page": "↳ Alerts & notifications",
+   "colours": {
+    "Colors/Background/bg-primary_alt": [
+     4,
+     0
+    ],
+    "Colors/Border/border-primary": [
+     4,
+     0
+    ],
+    "Colors/Text/text-primary (900)": [
+     4,
+     0
+    ],
+    "Colors/Text/text-secondary (700)": [
+     4,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:04.170Z"
+  },
+  {
+   "name": "_Date picker list item",
+   "id": "1150:62",
+   "page": "↳ Date pickers",
+   "colours": {
+    "Colors/Background/bg-primary": [
+     3,
+     0
+    ],
+    "Colors/Effects/Focus rings/focus-ring-primary": [
+     2,
+     0
+    ],
+    "Colors/Text/text-secondary (700)": [
+     2,
+     0
+    ],
+    "Colors/Background/bg-active": [
+     2,
+     0
+    ],
+    "Colors/Text/text-secondary_hover": [
+     4,
+     0
+    ],
+    "Colors/Background/bg-primary_hover": [
+     1,
+     0
+    ],
+    "Colors/Background/bg-secondary_hover": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:04.170Z"
+  },
+  {
+   "name": "_Date picker menu",
+   "id": "1150:1925",
+   "page": "↳ Date pickers",
+   "colours": {
+    "Colors/Background/bg-primary": [
+     4,
+     0
+    ],
+    "Colors/Border/border-secondary_alt": [
+     4,
+     0
+    ],
+    "Colors/Border/border-secondary": [
+     1,
+     0
+    ],
+    "Colors/Foreground/fg-secondary (700)": [
+     5,
+     0
+    ],
+    "Colors/Foreground/fg-quaternary (400)": [
+     2,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:04.170Z"
+  },
+  {
+   "name": "_Calendar cell",
+   "id": "7365:57922",
+   "page": "↳ Date pickers",
+   "colours": {
+    "Colors/Text/text-secondary (700)": [
+     3,
+     0
+    ],
+    "Colors/Foreground/fg-brand-primary (600)": [
+     6,
+     0
+    ],
+    "Colors/Background/bg-active": [
+     20,
+     0
+    ],
+    "Colors/Background/bg-brand-primary": [
+     1,
+     0
+    ],
+    "Colors/Text/text-white": [
+     2,
+     0
+    ],
+    "Colors/Foreground/fg-white": [
+     2,
+     0
+    ],
+    "Colors/Background/bg-secondary_hover": [
+     2,
+     0
+    ],
+    "Colors/Text/text-secondary_hover": [
+     3,
+     0
+    ],
+    "Colors/Background/bg-disabled_subtle": [
+     3,
+     0
+    ],
+    "Colors/Text/text-disabled": [
+     4,
+     0
+    ],
+    "Colors/Foreground/fg-disabled": [
+     4,
+     0
+    ],
+    "Colors/Background/bg-primary_hover": [
+     1,
+     0
+    ],
+    "Colors/Background/bg-brand-primary_hover": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:04.170Z"
+  },
+  {
+   "name": "Date picker dropdown",
+   "id": "1150:16803",
+   "page": "↳ Date pickers",
+   "colours": {},
+   "readAt": "2026-11-09T13:14:04.170Z"
+  },
+  {
+   "name": "Date picker modal",
+   "id": "1547:269867",
+   "page": "↳ Date pickers",
+   "colours": {},
+   "readAt": "2026-11-09T13:14:04.170Z"
+  },
+  {
+   "name": "Loading indicator",
+   "id": "1192:610",
+   "page": "↳ Loading indicators",
+   "colours": {
+    "Colors/Background/bg-tertiary": [
+     4,
+     0
+    ],
+    "Colors/Foreground/fg-brand-primary (600)": [
+     8,
+     0
+    ],
+    "Colors/Text/text-secondary (700)": [
+     8,
+     0
+    ],
+    "Colors/Background/bg-primary": [
+     4,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:04.170Z"
+  },
+  {
+   "name": "Textelement",
+   "id": "21565:5486",
+   "page": "↳ Label",
+   "colours": {
+    "Colors/Text/text-primary (900)": [
+     4,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:04.170Z"
+  },
+  {
+   "name": "Illustration wrapper",
+   "id": "21218:355",
+   "page": "↳ Illustration and assets",
+   "colours": {},
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "Virtual card",
+   "id": "21474:482",
+   "page": "↳ Illustration and assets",
+   "colours": {
+    "Colors/Foreground/fg-white (remote)": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "Physical card",
+   "id": "21509:15249",
+   "page": "↳ Illustration and assets",
+   "colours": {},
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "Illustration/placeholder",
+   "id": "21131:1230",
+   "page": "↳ Illustration and assets",
+   "colours": {},
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "Illustration/blocker",
+   "id": "21247:1149",
+   "page": "↳ Illustration and assets",
+   "colours": {},
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "Illustration/success",
+   "id": "21258:6196",
+   "page": "↳ Illustration and assets",
+   "colours": {
+    "Colors/Foreground/fg-success-primary": [
+     2,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "Illustration/lego",
+   "id": "21240:1493",
+   "page": "↳ Illustration and assets",
+   "colours": {},
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "Illustration/secure",
+   "id": "21243:1572",
+   "page": "↳ Illustration and assets",
+   "colours": {},
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "Illustration/QR",
+   "id": "21320:1880",
+   "page": "↳ Illustration and assets",
+   "colours": {
+    "Colors/Foreground/fg-primary (900)": [
+     7,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "Illustration/Custom img",
+   "id": "21246:1031",
+   "page": "↳ Illustration and assets",
+   "colours": {
+    "Colors/Background/bg-canvas": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "Empty card",
+   "id": "21181:107",
+   "page": "↳ Illustration and assets",
+   "colours": {
+    "Colors/Border/border-brand": [
+     3,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "Divider",
+   "id": "1624:462461",
+   "page": "↳ Miscellaneous assets",
+   "colours": {
+    "Colors/Border/border-secondary": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "Background overlay",
+   "id": "21139:811",
+   "page": "↳ Miscellaneous assets",
+   "colours": {
+    "Colors/Background/bg-overlay": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "Spacer",
+   "id": "21314:754",
+   "page": "↳ Miscellaneous assets",
+   "colours": {},
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "Slot",
+   "id": "17540:4885",
+   "page": "↳ Slot (temporary - to be deprecated after native figma slots is introduced)",
+   "colours": {
+    "Component colors/Utility/Pink/utility-pink-500": [
+     1,
+     0
+    ],
+    "Component colors/Utility/Pink/utility-pink-400": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "_Swatch base",
+   "id": "1029:37647",
+   "page": "↳ Colors",
+   "colours": {
+    "Colors/Gray (light mode)/900": [
+     1,
+     0
+    ],
+    "Colors/Base/white": [
+     2,
+     0
+    ],
+    "Colors/Background/bg-primary": [
+     1,
+     0
+    ],
+    "Colors/Border/border-secondary": [
+     1,
+     0
+    ],
+    "Colors/Text/text-primary (900)": [
+     1,
+     0
+    ],
+    "Colors/Text/text-tertiary (600)": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "Partner affiliate logos",
+   "id": "7531:71186",
+   "page": "↳ Logos",
+   "colours": {
+    "Colors/Gray (light mode)/950": [
+     4,
+     0
+    ],
+    "Colors/Base/white": [
+     3,
+     0
+    ],
+    "Colors/Gray (dark mode)/800": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "Logo",
+   "id": "21465:11",
+   "page": "↳ Logos",
+   "colours": {
+    "Colors/Foreground/fg-black (remote)": [
+     4,
+     0
+    ],
+    "Colors/Foreground/fg-white": [
+     1,
+     0
+    ],
+    "Colors/Foreground/fg-white (remote)": [
+     3,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "Logomark",
+   "id": "21465:30",
+   "page": "↳ Logos",
+   "colours": {
+    "Colors/Foreground/fg-black (remote)": [
+     4,
+     0
+    ],
+    "Colors/Foreground/fg-white": [
+     1,
+     0
+    ],
+    "Colors/Foreground/fg-white (remote)": [
+     3,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "_Type scale base",
+   "id": "1019:35537",
+   "page": "↳ Typography",
+   "colours": {
+    "Colors/Border/border-secondary": [
+     1,
+     0
+    ],
+    "Colors/Text/text-tertiary (600)": [
+     2,
+     0
+    ],
+    "Colors/Text/text-primary (900)": [
+     4,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "_Shadow card",
+   "id": "5253:373419",
+   "page": "↳ Effect styles",
+   "colours": {
+    "Colors/Background/bg-primary": [
+     1,
+     0
+    ],
+    "Colors/Border/border-secondary_alt": [
+     1,
+     0
+    ],
+    "Colors/Effects/Shadows/shadow-xs": [
+     1,
+     0
+    ],
+    "Colors/Text/text-primary (900)": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "_Focus ring card",
+   "id": "5424:399227",
+   "page": "↳ Effect styles",
+   "colours": {
+    "Colors/Background/bg-primary": [
+     2,
+     0
+    ],
+    "Colors/Border/border-primary": [
+     1,
+     0
+    ],
+    "Colors/Effects/Focus rings/focus-ring-primary": [
+     1,
+     0
+    ],
+    "Colors/Text/text-primary (900)": [
+     1,
+     0
+    ],
+    "Colors/Text/text-tertiary (600)": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "DS note",
+   "id": "1027:9560",
+   "page": "↳ Design annotations",
+   "colours": {
+    "Colors/Text/text-primary (900)": [
+     4,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "_Variables icon",
+   "id": "6472:99378",
+   "page": "↳ Design annotations",
+   "colours": {
+    "Colors/Foreground/fg-secondary (700)": [
+     2,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "_Documentation table cell",
+   "id": "6472:98427",
+   "page": "↳ Design annotations",
+   "colours": {
+    "Colors/Border/border-secondary": [
+     15,
+     0
+    ],
+    "Colors/Background/bg-primary": [
+     5,
+     0
+    ],
+    "Colors/Text/text-primary (900)": [
+     5,
+     0
+    ],
+    "Colors/Background/bg-secondary": [
+     3,
+     0
+    ],
+    "Colors/Text/text-quaternary (500)": [
+     2,
+     0
+    ],
+    "Colors/Border/border-primary": [
+     4,
+     0
+    ],
+    "Colors/Text/text-tertiary (600)": [
+     2,
+     0
+    ],
+    "Colors/Background/bg-primary-solid": [
+     2,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "Cursor",
+   "id": "9342:257073",
+   "page": "↳ Design annotations",
+   "colours": {
+    "Colors/Base/black": [
+     6,
+     0
+    ],
+    "Colors/Base/white": [
+     5,
+     0
+    ],
+    "Colors/Border/border-brand": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "Flow note",
+   "id": "17570:607",
+   "page": "↳ Design annotations",
+   "colours": {
+    "Colors/Text/text-black": [
+     4,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "Flow heading",
+   "id": "21135:239",
+   "page": "↳ Design annotations",
+   "colours": {
+    "Colors/Background/bg-brand-primary": [
+     1,
+     0
+    ],
+    "Colors/Text/text-primary_on-brandprimary": [
+     2,
+     0
+    ],
+    "Colors/Text/text-tertiary_on-brand": [
+     1,
+     0
+    ],
+    "Component colors/Utility/Brand/utility-brand-600": [
+     1,
+     0
+    ],
+    "Colors/Text/text-secondary_on-brand": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "Design system header",
+   "id": "1518:345435",
+   "page": "↳ Design annotations",
+   "colours": {
+    "Component colors/Alpha/alpha-white-30": [
+     1,
+     0
+    ],
+    "Colors/Background/bg-brand-primary": [
+     1,
+     0
+    ],
+    "Colors/Text/text-primary_on-brandprimary": [
+     1,
+     0
+    ],
+    "Colors/Text/text-quaternary_on-brand": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:09.569Z"
+  },
+  {
+   "name": "Designer area",
+   "id": "21231:10266",
+   "page": "↳ Design annotations",
+   "colours": {
+    "Colors/Yellow/400": [
+     2,
+     0
+    ],
+    "Colors/Base/black": [
+     1,
+     0
+    ]
+   },
+   "readAt": "2026-11-09T13:14:09.569Z"
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "probe": {
+  "apiVersion": "1.0.0",
+  "editorType": "figma",
+  "componentHasCreateSlot": "function",
+  "componentHasAddComponentProperty": "function",
+  "setHasAddComponentProperty": "function",
+  "instanceHasSetProperties": "function",
+  "anySlotNodesInModalPage": 0,
+  "anySlotNodesInFile": 0
+ },
+ "modal": {
+  "id": "4057:415205",
+  "key": "dac269c2f44bb35a05ce44f3b985285788201c98",
+  "variant": "Type=Default slotted",
+  "defs": {
+   "Drawer content#21214:0": {
+    "type": "INSTANCE_SWAP",
+    "default": "17540:4885",
+    "preferred": [
+     "COMPONENT:28e7187abb5daa34635cb1753309cca9609e1628"
+    ]
+   },
+   "Type": {
+    "type": "VARIANT",
+    "default": "Default slotted",
+    "preferred": []
+   }
+  },
+  "preferredResolved": {},
+  "tree": [
+   "0|COMPONENT|Type=Default slotted|layout=VERTICAL|390x844",
+   "0.0|INSTANCE|Background overlay|layout=NONE|390x844",
+   "0.1|FRAME|Modal|layout=VERTICAL|390x308",
+   "0.1.0|INSTANCE|_Modal header|layout=VERTICAL|390x110",
+   "0.1.1|FRAME|[Slot]|layout=VERTICAL|390x40",
+   "0.1.1.0|INSTANCE|Slot|layout=VERTICAL|refs={\"mainComponent\":\"Drawer content#21214:0\"}|358x40",
+   "0.1.1.1|INSTANCE|_Scroll bar (control fill with bottom padding)|hidden|layout=VERTICAL|18x382",
+   "0.1.2|INSTANCE|_Modal actions|layout=VERTICAL|390x158",
+   "0.2|FRAME|Spacer for max-height|layout=NONE|390x84"
+  ]
+ },
+ "legacySlot": {
+  "id": "17540:4885",
+  "key": "68b13273d1d58919ca51c37ca27ba0a4a033e828",
+  "tree": [
+   "0|COMPONENT|Slot|layout=VERTICAL|36x36",
+   "0.0|VECTOR|❖|16x16"
+  ],
+  "instanceCount": 2,
+  "instances": [
+   {
+    "id": "I17546:4435;17540:4889",
+    "page": "↳ Modals",
+    "owner": "(not inside a component)",
+    "parentType": "FRAME",
+    "parentName": "[Slot]"
+   },
+   {
+    "id": "17540:4889",
+    "page": "↳ Modals",
+    "owner": "Modal",
+    "parentType": "FRAME",
+    "parentName": "[Slot]"
+   }
+  ]
+ },
+ "readAt": "2026-11-09",
+ "fileKey": "xJoAz66aekAToyhBmfGNt0"
+}

@@ -1,0 +1,3519 @@
+{
+ "fileKey": "xJoAz66aekAToyhBmfGNt0",
+ "readAt": "2026-11-09",
+ "_Primitives": {
+  "collection": "_Primitives",
+  "id": "VariableCollectionId:5248:377685",
+  "hidden": true,
+  "modes": [
+   "Style"
+  ],
+  "count": 309,
+  "rows": [
+   [
+    "Colors/Base/white",
+    "C",
+    "#ffffff"
+   ],
+   [
+    "Colors/Base/black",
+    "C",
+    "#000000"
+   ],
+   [
+    "Colors/Base/transparent",
+    "C",
+    "#ffffff00"
+   ],
+   [
+    "Colors/Gray (light mode)/25",
+    "C",
+    "#fdfdfd"
+   ],
+   [
+    "Colors/Gray (light mode)/50",
+    "C",
+    "#fafafa"
+   ],
+   [
+    "Colors/Gray (light mode)/100",
+    "C",
+    "#f5f5f5"
+   ],
+   [
+    "Colors/Gray (light mode)/200",
+    "C",
+    "#e9eaeb"
+   ],
+   [
+    "Colors/Gray (light mode)/300",
+    "C",
+    "#d5d7da"
+   ],
+   [
+    "Colors/Gray (light mode)/400",
+    "C",
+    "#a4a7ae"
+   ],
+   [
+    "Colors/Gray (light mode)/500",
+    "C",
+    "#717680"
+   ],
+   [
+    "Colors/Gray (light mode)/600",
+    "C",
+    "#535862"
+   ],
+   [
+    "Colors/Gray (light mode)/700",
+    "C",
+    "#414651"
+   ],
+   [
+    "Colors/Gray (light mode)/800",
+    "C",
+    "#252b37"
+   ],
+   [
+    "Colors/Gray (light mode)/900",
+    "C",
+    "#181d27"
+   ],
+   [
+    "Colors/Gray (light mode)/950",
+    "C",
+    "#0a0d12"
+   ],
+   [
+    "Colors/Gray (dark mode)/25",
+    "C",
+    "#fafafa"
+   ],
+   [
+    "Colors/Gray (dark mode)/50",
+    "C",
+    "#f7f7f7"
+   ],
+   [
+    "Colors/Gray (dark mode)/100",
+    "C",
+    "#f0f0f1"
+   ],
+   [
+    "Colors/Gray (dark mode)/200",
+    "C",
+    "#ececed"
+   ],
+   [
+    "Colors/Gray (dark mode)/300",
+    "C",
+    "#cecfd2"
+   ],
+   [
+    "Colors/Gray (dark mode)/400",
+    "C",
+    "#94979c"
+   ],
+   [
+    "Colors/Gray (dark mode)/500",
+    "C",
+    "#85888e"
+   ],
+   [
+    "Colors/Gray (dark mode)/600",
+    "C",
+    "#61656c"
+   ],
+   [
+    "Colors/Gray (dark mode)/700",
+    "C",
+    "#373a41"
+   ],
+   [
+    "Colors/Gray (dark mode)/800",
+    "C",
+    "#22262f"
+   ],
+   [
+    "Colors/Gray (dark mode)/900",
+    "C",
+    "#13161b"
+   ],
+   [
+    "Colors/Gray (dark mode)/950",
+    "C",
+    "#0c0e12"
+   ],
+   [
+    "Colors/Gray (dark mode alpha)/25",
+    "C",
+    "#fffffffa"
+   ],
+   [
+    "Colors/Gray (dark mode alpha)/50",
+    "C",
+    "#fffffff5"
+   ],
+   [
+    "Colors/Gray (dark mode alpha)/100",
+    "C",
+    "#fffffff0"
+   ],
+   [
+    "Colors/Gray (dark mode alpha)/200",
+    "C",
+    "#ffffffeb"
+   ],
+   [
+    "Colors/Gray (dark mode alpha)/300",
+    "C",
+    "#ffffffcc"
+   ],
+   [
+    "Colors/Gray (dark mode alpha)/400",
+    "C",
+    "#ffffff8f"
+   ],
+   [
+    "Colors/Gray (dark mode alpha)/500",
+    "C",
+    "#ffffff80"
+   ],
+   [
+    "Colors/Gray (dark mode alpha)/600",
+    "C",
+    "#ffffff59"
+   ],
+   [
+    "Colors/Gray (dark mode alpha)/700",
+    "C",
+    "#ffffff29"
+   ],
+   [
+    "Colors/Gray (dark mode alpha)/800",
+    "C",
+    "#ffffff14"
+   ],
+   [
+    "Colors/Gray (dark mode alpha)/900",
+    "C",
+    "#ffffff0a"
+   ],
+   [
+    "Colors/Gray (dark mode alpha)/950",
+    "C",
+    "#ffffff00"
+   ],
+   [
+    "Colors/Brand/25",
+    "C",
+    "#fafaff"
+   ],
+   [
+    "Colors/Brand/50",
+    "C",
+    "#f3f3fe"
+   ],
+   [
+    "Colors/Brand/100",
+    "C",
+    "#e3e3fd"
+   ],
+   [
+    "Colors/Brand/200",
+    "C",
+    "#c7c7fa"
+   ],
+   [
+    "Colors/Brand/300",
+    "C",
+    "#ababf8"
+   ],
+   [
+    "Colors/Brand/400",
+    "C",
+    "#9090f6"
+   ],
+   [
+    "Colors/Brand/500",
+    "C",
+    "#7373f5"
+   ],
+   [
+    "Colors/Brand/600",
+    "C",
+    "#5656f3"
+   ],
+   [
+    "Colors/Brand/700",
+    "C",
+    "#2323f0"
+   ],
+   [
+    "Colors/Brand/800",
+    "C",
+    "#0606b5"
+   ],
+   [
+    "Colors/Brand/900",
+    "C",
+    "#020272"
+   ],
+   [
+    "Colors/Brand/950",
+    "C",
+    "#010151"
+   ],
+   [
+    "Colors/Error/25",
+    "C",
+    "#fff5f7"
+   ],
+   [
+    "Colors/Error/50",
+    "C",
+    "#ffecef"
+   ],
+   [
+    "Colors/Error/100",
+    "C",
+    "#ffdde2"
+   ],
+   [
+    "Colors/Error/200",
+    "C",
+    "#ffbac5"
+   ],
+   [
+    "Colors/Error/300",
+    "C",
+    "#ff94a7"
+   ],
+   [
+    "Colors/Error/400",
+    "C",
+    "#fe6286"
+   ],
+   [
+    "Colors/Error/500",
+    "C",
+    "#ff0466"
+   ],
+   [
+    "Colors/Error/600",
+    "C",
+    "#ca0050"
+   ],
+   [
+    "Colors/Error/700",
+    "C",
+    "#9d003c"
+   ],
+   [
+    "Colors/Error/800",
+    "C",
+    "#6f0028"
+   ],
+   [
+    "Colors/Error/900",
+    "C",
+    "#430016"
+   ],
+   [
+    "Colors/Error/950",
+    "C",
+    "#2b000b"
+   ],
+   [
+    "Colors/Warning/25",
+    "C",
+    "#fffcf5"
+   ],
+   [
+    "Colors/Warning/50",
+    "C",
+    "#fffaeb"
+   ],
+   [
+    "Colors/Warning/100",
+    "C",
+    "#fef0c7"
+   ],
+   [
+    "Colors/Warning/200",
+    "C",
+    "#fedf89"
+   ],
+   [
+    "Colors/Warning/300",
+    "C",
+    "#fec84b"
+   ],
+   [
+    "Colors/Warning/400",
+    "C",
+    "#fdb022"
+   ],
+   [
+    "Colors/Warning/500",
+    "C",
+    "#f79009"
+   ],
+   [
+    "Colors/Warning/600",
+    "C",
+    "#dc6803"
+   ],
+   [
+    "Colors/Warning/700",
+    "C",
+    "#b54708"
+   ],
+   [
+    "Colors/Warning/800",
+    "C",
+    "#93370d"
+   ],
+   [
+    "Colors/Warning/900",
+    "C",
+    "#7a2e0e"
+   ],
+   [
+    "Colors/Warning/950",
+    "C",
+    "#4e1d09"
+   ],
+   [
+    "Colors/Success/25",
+    "C",
+    "#f6fef9"
+   ],
+   [
+    "Colors/Success/50",
+    "C",
+    "#ecfdf3"
+   ],
+   [
+    "Colors/Success/100",
+    "C",
+    "#dcfae6"
+   ],
+   [
+    "Colors/Success/200",
+    "C",
+    "#abefc6"
+   ],
+   [
+    "Colors/Success/300",
+    "C",
+    "#75e0a7"
+   ],
+   [
+    "Colors/Success/400",
+    "C",
+    "#47cd89"
+   ],
+   [
+    "Colors/Success/500",
+    "C",
+    "#17b26a"
+   ],
+   [
+    "Colors/Success/600",
+    "C",
+    "#079455"
+   ],
+   [
+    "Colors/Success/700",
+    "C",
+    "#067647"
+   ],
+   [
+    "Colors/Success/800",
+    "C",
+    "#085d3a"
+   ],
+   [
+    "Colors/Success/900",
+    "C",
+    "#074d31"
+   ],
+   [
+    "Colors/Success/950",
+    "C",
+    "#053321"
+   ],
+   [
+    "Colors/Gray modern/25",
+    "C",
+    "#f9f9fb"
+   ],
+   [
+    "Colors/Gray modern/50",
+    "C",
+    "#f8fafc"
+   ],
+   [
+    "Colors/Gray modern/100",
+    "C",
+    "#eef2f6"
+   ],
+   [
+    "Colors/Gray modern/200",
+    "C",
+    "#e3e8ef"
+   ],
+   [
+    "Colors/Gray modern/300",
+    "C",
+    "#cdd5df"
+   ],
+   [
+    "Colors/Gray modern/400",
+    "C",
+    "#9aa4b2"
+   ],
+   [
+    "Colors/Gray modern/500",
+    "C",
+    "#697586"
+   ],
+   [
+    "Colors/Gray modern/600",
+    "C",
+    "#4b5565"
+   ],
+   [
+    "Colors/Gray modern/700",
+    "C",
+    "#364152"
+   ],
+   [
+    "Colors/Gray modern/800",
+    "C",
+    "#202939"
+   ],
+   [
+    "Colors/Gray modern/900",
+    "C",
+    "#121926"
+   ],
+   [
+    "Colors/Gray modern/950",
+    "C",
+    "#0d121c"
+   ],
+   [
+    "Colors/Gray iron/25",
+    "C",
+    "#fcfcfc"
+   ],
+   [
+    "Colors/Gray iron/50",
+    "C",
+    "#fafafa"
+   ],
+   [
+    "Colors/Gray iron/100",
+    "C",
+    "#f4f4f5"
+   ],
+   [
+    "Colors/Gray iron/200",
+    "C",
+    "#e4e4e7"
+   ],
+   [
+    "Colors/Gray iron/300",
+    "C",
+    "#d1d1d6"
+   ],
+   [
+    "Colors/Gray iron/400",
+    "C",
+    "#a0a0ab"
+   ],
+   [
+    "Colors/Gray iron/500",
+    "C",
+    "#70707b"
+   ],
+   [
+    "Colors/Gray iron/600",
+    "C",
+    "#51525c"
+   ],
+   [
+    "Colors/Gray iron/700",
+    "C",
+    "#3f3f46"
+   ],
+   [
+    "Colors/Gray iron/800",
+    "C",
+    "#26272b"
+   ],
+   [
+    "Colors/Gray iron/900",
+    "C",
+    "#1a1a1e"
+   ],
+   [
+    "Colors/Gray iron/950",
+    "C",
+    "#131316"
+   ],
+   [
+    "Colors/Green lime/50",
+    "C",
+    "#f9ffef"
+   ],
+   [
+    "Colors/Green lime/100",
+    "C",
+    "#f8ffeb"
+   ],
+   [
+    "Colors/Green lime/200",
+    "C",
+    "#f0ffd5"
+   ],
+   [
+    "Colors/Green lime/300",
+    "C",
+    "#e1ff9d"
+   ],
+   [
+    "Colors/Green lime/400",
+    "C",
+    "#d9ff75"
+   ],
+   [
+    "Colors/Green lime/500",
+    "C",
+    "#d0ff00"
+   ],
+   [
+    "Colors/Green lime/600",
+    "C",
+    "#a1c700"
+   ],
+   [
+    "Colors/Green lime/700",
+    "C",
+    "#759100"
+   ],
+   [
+    "Colors/Green lime/800",
+    "C",
+    "#4d6100"
+   ],
+   [
+    "Colors/Green lime/900",
+    "C",
+    "#273200"
+   ],
+   [
+    "Colors/Green lime/950",
+    "C",
+    "#151c00"
+   ],
+   [
+    "Colors/Green light/25",
+    "C",
+    "#fafef5"
+   ],
+   [
+    "Colors/Green light/50",
+    "C",
+    "#f3fee7"
+   ],
+   [
+    "Colors/Green light/100",
+    "C",
+    "#e3fbcc"
+   ],
+   [
+    "Colors/Green light/200",
+    "C",
+    "#d0f8ab"
+   ],
+   [
+    "Colors/Green light/300",
+    "C",
+    "#a6ef67"
+   ],
+   [
+    "Colors/Green light/400",
+    "C",
+    "#85e13a"
+   ],
+   [
+    "Colors/Green light/500",
+    "C",
+    "#66c61c"
+   ],
+   [
+    "Colors/Green light/600",
+    "C",
+    "#4ca30d"
+   ],
+   [
+    "Colors/Green light/700",
+    "C",
+    "#3b7c0f"
+   ],
+   [
+    "Colors/Green light/800",
+    "C",
+    "#326212"
+   ],
+   [
+    "Colors/Green light/900",
+    "C",
+    "#2b5314"
+   ],
+   [
+    "Colors/Green light/950",
+    "C",
+    "#15290a"
+   ],
+   [
+    "Colors/Green/25",
+    "C",
+    "#f6fef9"
+   ],
+   [
+    "Colors/Green/50",
+    "C",
+    "#edfcf2"
+   ],
+   [
+    "Colors/Green/100",
+    "C",
+    "#d3f8df"
+   ],
+   [
+    "Colors/Green/200",
+    "C",
+    "#aaf0c4"
+   ],
+   [
+    "Colors/Green/300",
+    "C",
+    "#73e2a3"
+   ],
+   [
+    "Colors/Green/400",
+    "C",
+    "#3ccb7f"
+   ],
+   [
+    "Colors/Green/500",
+    "C",
+    "#16b364"
+   ],
+   [
+    "Colors/Green/600",
+    "C",
+    "#099250"
+   ],
+   [
+    "Colors/Green/700",
+    "C",
+    "#087443"
+   ],
+   [
+    "Colors/Green/800",
+    "C",
+    "#095c37"
+   ],
+   [
+    "Colors/Green/900",
+    "C",
+    "#084c2e"
+   ],
+   [
+    "Colors/Green/950",
+    "C",
+    "#052e1c"
+   ],
+   [
+    "Colors/Cyan/25",
+    "C",
+    "#f5feff"
+   ],
+   [
+    "Colors/Cyan/50",
+    "C",
+    "#ecfdff"
+   ],
+   [
+    "Colors/Cyan/100",
+    "C",
+    "#cff9fe"
+   ],
+   [
+    "Colors/Cyan/200",
+    "C",
+    "#a5f0fc"
+   ],
+   [
+    "Colors/Cyan/300",
+    "C",
+    "#67e3f9"
+   ],
+   [
+    "Colors/Cyan/400",
+    "C",
+    "#22ccee"
+   ],
+   [
+    "Colors/Cyan/500",
+    "C",
+    "#06aed4"
+   ],
+   [
+    "Colors/Cyan/600",
+    "C",
+    "#088ab2"
+   ],
+   [
+    "Colors/Cyan/700",
+    "C",
+    "#0e7090"
+   ],
+   [
+    "Colors/Cyan/800",
+    "C",
+    "#155b75"
+   ],
+   [
+    "Colors/Cyan/900",
+    "C",
+    "#164c63"
+   ],
+   [
+    "Colors/Cyan/950",
+    "C",
+    "#0d2d3a"
+   ],
+   [
+    "Colors/Blue light/25",
+    "C",
+    "#f5fbff"
+   ],
+   [
+    "Colors/Blue light/50",
+    "C",
+    "#f0f9ff"
+   ],
+   [
+    "Colors/Blue light/100",
+    "C",
+    "#e0f2fe"
+   ],
+   [
+    "Colors/Blue light/200",
+    "C",
+    "#b9e6fe"
+   ],
+   [
+    "Colors/Blue light/300",
+    "C",
+    "#7cd4fd"
+   ],
+   [
+    "Colors/Blue light/400",
+    "C",
+    "#36bffa"
+   ],
+   [
+    "Colors/Blue light/500",
+    "C",
+    "#0ba5ec"
+   ],
+   [
+    "Colors/Blue light/600",
+    "C",
+    "#0086c9"
+   ],
+   [
+    "Colors/Blue light/700",
+    "C",
+    "#026aa2"
+   ],
+   [
+    "Colors/Blue light/800",
+    "C",
+    "#065986"
+   ],
+   [
+    "Colors/Blue light/900",
+    "C",
+    "#0b4a6f"
+   ],
+   [
+    "Colors/Blue light/950",
+    "C",
+    "#062c41"
+   ],
+   [
+    "Colors/Blue/25",
+    "C",
+    "#f5faff"
+   ],
+   [
+    "Colors/Blue/50",
+    "C",
+    "#eff8ff"
+   ],
+   [
+    "Colors/Blue/100",
+    "C",
+    "#d1e9ff"
+   ],
+   [
+    "Colors/Blue/200",
+    "C",
+    "#b2ddff"
+   ],
+   [
+    "Colors/Blue/300",
+    "C",
+    "#84caff"
+   ],
+   [
+    "Colors/Blue/400",
+    "C",
+    "#53b1fd"
+   ],
+   [
+    "Colors/Blue/500",
+    "C",
+    "#2e90fa"
+   ],
+   [
+    "Colors/Blue/600",
+    "C",
+    "#1570ef"
+   ],
+   [
+    "Colors/Blue/700",
+    "C",
+    "#175cd3"
+   ],
+   [
+    "Colors/Blue/800",
+    "C",
+    "#1849a9"
+   ],
+   [
+    "Colors/Blue/900",
+    "C",
+    "#194185"
+   ],
+   [
+    "Colors/Blue/950",
+    "C",
+    "#102a56"
+   ],
+   [
+    "Colors/Blue dark/25",
+    "C",
+    "#f5f8ff"
+   ],
+   [
+    "Colors/Blue dark/50",
+    "C",
+    "#eff4ff"
+   ],
+   [
+    "Colors/Blue dark/100",
+    "C",
+    "#d1e0ff"
+   ],
+   [
+    "Colors/Blue dark/200",
+    "C",
+    "#b2ccff"
+   ],
+   [
+    "Colors/Blue dark/300",
+    "C",
+    "#84adff"
+   ],
+   [
+    "Colors/Blue dark/400",
+    "C",
+    "#528bff"
+   ],
+   [
+    "Colors/Blue dark/500",
+    "C",
+    "#2970ff"
+   ],
+   [
+    "Colors/Blue dark/600",
+    "C",
+    "#155eef"
+   ],
+   [
+    "Colors/Blue dark/700",
+    "C",
+    "#004eeb"
+   ],
+   [
+    "Colors/Blue dark/800",
+    "C",
+    "#0040c1"
+   ],
+   [
+    "Colors/Blue dark/900",
+    "C",
+    "#00359e"
+   ],
+   [
+    "Colors/Blue dark/950",
+    "C",
+    "#002266"
+   ],
+   [
+    "Colors/Purple/25",
+    "C",
+    "#fafaff"
+   ],
+   [
+    "Colors/Purple/50",
+    "C",
+    "#f4f3ff"
+   ],
+   [
+    "Colors/Purple/100",
+    "C",
+    "#ebe9fe"
+   ],
+   [
+    "Colors/Purple/200",
+    "C",
+    "#d9d6fe"
+   ],
+   [
+    "Colors/Purple/300",
+    "C",
+    "#bdb4fe"
+   ],
+   [
+    "Colors/Purple/400",
+    "C",
+    "#9b8afb"
+   ],
+   [
+    "Colors/Purple/500",
+    "C",
+    "#7a5af8"
+   ],
+   [
+    "Colors/Purple/600",
+    "C",
+    "#6938ef"
+   ],
+   [
+    "Colors/Purple/700",
+    "C",
+    "#5925dc"
+   ],
+   [
+    "Colors/Purple/800",
+    "C",
+    "#4a1fb8"
+   ],
+   [
+    "Colors/Purple/900",
+    "C",
+    "#3e1c96"
+   ],
+   [
+    "Colors/Purple/950",
+    "C",
+    "#27115f"
+   ],
+   [
+    "Colors/Magenta/50",
+    "C",
+    "#fdf7ff"
+   ],
+   [
+    "Colors/Magenta/100",
+    "C",
+    "#fcf4ff"
+   ],
+   [
+    "Colors/Magenta/200",
+    "C",
+    "#f8e5ff"
+   ],
+   [
+    "Colors/Magenta/300",
+    "C",
+    "#f5d9ff"
+   ],
+   [
+    "Colors/Magenta/400",
+    "C",
+    "#f2c9ff"
+   ],
+   [
+    "Colors/Magenta/500",
+    "C",
+    "#efbdff"
+   ],
+   [
+    "Colors/Magenta/600",
+    "C",
+    "#e371ff"
+   ],
+   [
+    "Colors/Magenta/700",
+    "C",
+    "#ca00e9"
+   ],
+   [
+    "Colors/Magenta/800",
+    "C",
+    "#87009c"
+   ],
+   [
+    "Colors/Magenta/900",
+    "C",
+    "#4d005a"
+   ],
+   [
+    "Colors/Magenta/950",
+    "C",
+    "#2f0038"
+   ],
+   [
+    "Colors/Pink/25",
+    "C",
+    "#fef6fb"
+   ],
+   [
+    "Colors/Pink/50",
+    "C",
+    "#fdf2fa"
+   ],
+   [
+    "Colors/Pink/100",
+    "C",
+    "#fce7f6"
+   ],
+   [
+    "Colors/Pink/200",
+    "C",
+    "#fcceee"
+   ],
+   [
+    "Colors/Pink/300",
+    "C",
+    "#faa7e0"
+   ],
+   [
+    "Colors/Pink/400",
+    "C",
+    "#f670c7"
+   ],
+   [
+    "Colors/Pink/500",
+    "C",
+    "#ee46bc"
+   ],
+   [
+    "Colors/Pink/600",
+    "C",
+    "#dd2590"
+   ],
+   [
+    "Colors/Pink/700",
+    "C",
+    "#c11574"
+   ],
+   [
+    "Colors/Pink/800",
+    "C",
+    "#9e165f"
+   ],
+   [
+    "Colors/Pink/900",
+    "C",
+    "#851651"
+   ],
+   [
+    "Colors/Pink/950",
+    "C",
+    "#4e0d30"
+   ],
+   [
+    "Colors/Rosé/25",
+    "C",
+    "#fff5f6"
+   ],
+   [
+    "Colors/Rosé/50",
+    "C",
+    "#fff1f3"
+   ],
+   [
+    "Colors/Rosé/100",
+    "C",
+    "#ffe4e8"
+   ],
+   [
+    "Colors/Rosé/200",
+    "C",
+    "#fecdd6"
+   ],
+   [
+    "Colors/Rosé/300",
+    "C",
+    "#fea3b4"
+   ],
+   [
+    "Colors/Rosé/400",
+    "C",
+    "#fd6f8e"
+   ],
+   [
+    "Colors/Rosé/500",
+    "C",
+    "#f63d68"
+   ],
+   [
+    "Colors/Rosé/600",
+    "C",
+    "#e31b54"
+   ],
+   [
+    "Colors/Rosé/700",
+    "C",
+    "#c01048"
+   ],
+   [
+    "Colors/Rosé/800",
+    "C",
+    "#a11043"
+   ],
+   [
+    "Colors/Rosé/900",
+    "C",
+    "#89123e"
+   ],
+   [
+    "Colors/Rosé/950",
+    "C",
+    "#510b24"
+   ],
+   [
+    "Colors/Orange dark/25",
+    "C",
+    "#fff9f5"
+   ],
+   [
+    "Colors/Orange dark/50",
+    "C",
+    "#fff4ed"
+   ],
+   [
+    "Colors/Orange dark/100",
+    "C",
+    "#ffe6d5"
+   ],
+   [
+    "Colors/Orange dark/200",
+    "C",
+    "#ffd6ae"
+   ],
+   [
+    "Colors/Orange dark/300",
+    "C",
+    "#ff9c66"
+   ],
+   [
+    "Colors/Orange dark/400",
+    "C",
+    "#ff692e"
+   ],
+   [
+    "Colors/Orange dark/500",
+    "C",
+    "#ff4405"
+   ],
+   [
+    "Colors/Orange dark/600",
+    "C",
+    "#e62e05"
+   ],
+   [
+    "Colors/Orange dark/700",
+    "C",
+    "#bc1b06"
+   ],
+   [
+    "Colors/Orange dark/800",
+    "C",
+    "#97180c"
+   ],
+   [
+    "Colors/Orange dark/900",
+    "C",
+    "#771a0d"
+   ],
+   [
+    "Colors/Orange dark/950",
+    "C",
+    "#57130a"
+   ],
+   [
+    "Colors/Orange/25",
+    "C",
+    "#fefaf5"
+   ],
+   [
+    "Colors/Orange/50",
+    "C",
+    "#fef6ee"
+   ],
+   [
+    "Colors/Orange/100",
+    "C",
+    "#fdead7"
+   ],
+   [
+    "Colors/Orange/200",
+    "C",
+    "#f9dbaf"
+   ],
+   [
+    "Colors/Orange/300",
+    "C",
+    "#f7b27a"
+   ],
+   [
+    "Colors/Orange/400",
+    "C",
+    "#f38744"
+   ],
+   [
+    "Colors/Orange/500",
+    "C",
+    "#ef6820"
+   ],
+   [
+    "Colors/Orange/600",
+    "C",
+    "#e04f16"
+   ],
+   [
+    "Colors/Orange/700",
+    "C",
+    "#b93815"
+   ],
+   [
+    "Colors/Orange/800",
+    "C",
+    "#932f19"
+   ],
+   [
+    "Colors/Orange/900",
+    "C",
+    "#772917"
+   ],
+   [
+    "Colors/Orange/950",
+    "C",
+    "#511c10"
+   ],
+   [
+    "Colors/Yellow/25",
+    "C",
+    "#fefdf0"
+   ],
+   [
+    "Colors/Yellow/50",
+    "C",
+    "#fefbe8"
+   ],
+   [
+    "Colors/Yellow/100",
+    "C",
+    "#fef7c3"
+   ],
+   [
+    "Colors/Yellow/200",
+    "C",
+    "#feee95"
+   ],
+   [
+    "Colors/Yellow/300",
+    "C",
+    "#fde272"
+   ],
+   [
+    "Colors/Yellow/400",
+    "C",
+    "#fac515"
+   ],
+   [
+    "Colors/Yellow/500",
+    "C",
+    "#eaaa08"
+   ],
+   [
+    "Colors/Yellow/600",
+    "C",
+    "#ca8504"
+   ],
+   [
+    "Colors/Yellow/700",
+    "C",
+    "#a15c07"
+   ],
+   [
+    "Colors/Yellow/800",
+    "C",
+    "#854a0e"
+   ],
+   [
+    "Colors/Yellow/900",
+    "C",
+    "#713b12"
+   ],
+   [
+    "Colors/Yellow/950",
+    "C",
+    "#542c0d"
+   ],
+   [
+    "Spacing/0 (0px)",
+    "F",
+    0
+   ],
+   [
+    "Spacing/0․5 (2px)",
+    "F",
+    2
+   ],
+   [
+    "Spacing/1 (4px)",
+    "F",
+    4
+   ],
+   [
+    "Spacing/1․5 (6px)",
+    "F",
+    6
+   ],
+   [
+    "Spacing/2 (8px)",
+    "F",
+    8
+   ],
+   [
+    "Spacing/3 (12px)",
+    "F",
+    12
+   ],
+   [
+    "Spacing/4 (16px)",
+    "F",
+    16
+   ],
+   [
+    "Spacing/5 (20px)",
+    "F",
+    20
+   ],
+   [
+    "Spacing/6 (24px)",
+    "F",
+    24
+   ],
+   [
+    "Spacing/8 (32px)",
+    "F",
+    32
+   ],
+   [
+    "Spacing/10 (40px)",
+    "F",
+    40
+   ],
+   [
+    "Spacing/12 (48px)",
+    "F",
+    48
+   ],
+   [
+    "Spacing/16 (64px)",
+    "F",
+    64
+   ],
+   [
+    "Spacing/20 (80px)",
+    "F",
+    80
+   ],
+   [
+    "Spacing/24 (96px)",
+    "F",
+    96
+   ],
+   [
+    "Spacing/32 (128px)",
+    "F",
+    128
+   ],
+   [
+    "Spacing/40 (160px)",
+    "F",
+    160
+   ],
+   [
+    "Spacing/48 (192px)",
+    "F",
+    192
+   ],
+   [
+    "Spacing/56 (224px)",
+    "F",
+    224
+   ],
+   [
+    "Spacing/64 (256px)",
+    "F",
+    256
+   ],
+   [
+    "Spacing/80 (320px)",
+    "F",
+    320
+   ],
+   [
+    "Spacing/96 (384px)",
+    "F",
+    384
+   ],
+   [
+    "Spacing/120 (480px)",
+    "F",
+    480
+   ],
+   [
+    "Spacing/140 (560px)",
+    "F",
+    560
+   ],
+   [
+    "Spacing/160 (640px)",
+    "F",
+    640
+   ],
+   [
+    "Spacing/180 (720px)",
+    "F",
+    720
+   ],
+   [
+    "Spacing/192 (768px)",
+    "F",
+    768
+   ],
+   [
+    "Spacing/256 (1,024px)",
+    "F",
+    1024
+   ],
+   [
+    "Spacing/320 (1,280px)",
+    "F",
+    1280
+   ],
+   [
+    "Spacing/360 (1,440px)",
+    "F",
+    1440
+   ],
+   [
+    "Spacing/400 (1,600px)",
+    "F",
+    1600
+   ],
+   [
+    "Spacing/480 (1,920px)",
+    "F",
+    1920
+   ]
+  ]
+ },
+ "1. Color modes": {
+  "collection": "1. Color modes",
+  "modes": [
+   "Light mode",
+   "Dark mode"
+  ],
+  "count": 292,
+  "rows": [
+   [
+    "Colors/Text/text-primary (900)",
+    "P:Colors/Gray (light mode)/950",
+    "P:Colors/Gray (dark mode)/50"
+   ],
+   [
+    "Colors/Text/text-primary_on-brandprimary",
+    "P:Colors/Base/white",
+    "P:Colors/Gray (dark mode)/50"
+   ],
+   [
+    "Colors/Text/text-primary_on-brandsecondary",
+    "P:Colors/Base/black",
+    "P:Colors/Base/black"
+   ],
+   [
+    "Colors/Text/text-primary_on-brandtertiary",
+    "P:Colors/Base/black",
+    "P:Colors/Base/black"
+   ],
+   [
+    "Colors/Text/text-secondary (700)",
+    "P:Colors/Gray (light mode)/700",
+    "P:Colors/Gray (dark mode)/300"
+   ],
+   [
+    "Colors/Text/text-secondary_hover",
+    "P:Colors/Gray (light mode)/800",
+    "P:Colors/Gray (dark mode)/200"
+   ],
+   [
+    "Colors/Text/text-secondary_on-brand",
+    "P:Colors/Brand/200",
+    "P:Colors/Gray (dark mode)/300"
+   ],
+   [
+    "Colors/Text/text-tertiary (600)",
+    "P:Colors/Gray (light mode)/600",
+    "P:Colors/Gray (dark mode)/400"
+   ],
+   [
+    "Colors/Text/text-tertiary_hover",
+    "P:Colors/Gray (light mode)/700",
+    "P:Colors/Gray (dark mode)/300"
+   ],
+   [
+    "Colors/Text/text-tertiary_on-brand",
+    "P:Colors/Brand/200",
+    "P:Colors/Gray (dark mode)/400"
+   ],
+   [
+    "Colors/Text/text-quaternary (500)",
+    "P:Colors/Gray (light mode)/500",
+    "P:Colors/Gray (dark mode)/400"
+   ],
+   [
+    "Colors/Text/text-quaternary_on-brand",
+    "P:Colors/Brand/300",
+    "P:Colors/Gray (dark mode)/400"
+   ],
+   [
+    "Colors/Text/text-white",
+    "P:Colors/Base/white",
+    "P:Colors/Base/white"
+   ],
+   [
+    "Colors/Text/text-black",
+    "P:Colors/Base/black",
+    "P:Colors/Base/black"
+   ],
+   [
+    "Colors/Text/text-disabled",
+    "P:Colors/Gray (light mode)/400",
+    "P:Colors/Gray (dark mode)/400"
+   ],
+   [
+    "Colors/Text/text-placeholder",
+    "P:Colors/Gray (light mode)/400",
+    "P:Colors/Gray (dark mode)/400"
+   ],
+   [
+    "Colors/Text/text-placeholder_subtle",
+    "P:Colors/Gray (light mode)/300",
+    "P:Colors/Gray (dark mode)/700"
+   ],
+   [
+    "Colors/Text/text-brand-primary",
+    "P:Colors/Brand/600",
+    "P:Colors/Brand/600"
+   ],
+   [
+    "Colors/Text/text-brand-primary-hover",
+    "P:Colors/Brand/500",
+    "P:Colors/Brand/500"
+   ],
+   [
+    "Colors/Text/text-brand-secondary (700)",
+    "P:Colors/Brand/700",
+    "P:Colors/Brand/700"
+   ],
+   [
+    "Colors/Text/text-brand-secondary_hover",
+    "P:Colors/Brand/800",
+    "P:Colors/Brand/800"
+   ],
+   [
+    "Colors/Text/text-brand-tertiary (600)",
+    "P:Colors/Brand/600",
+    "P:Colors/Brand/600"
+   ],
+   [
+    "Colors/Text/text-brand-tertiary_alt",
+    "P:Colors/Brand/600",
+    "P:Colors/Brand/600"
+   ],
+   [
+    "Colors/Text/text-error-primary",
+    "P:Colors/Error/500",
+    "P:Colors/Error/400"
+   ],
+   [
+    "Colors/Text/text-error-primary_hover",
+    "P:Colors/Error/400",
+    "P:Colors/Error/300"
+   ],
+   [
+    "Colors/Text/text-warning-primary",
+    "P:Colors/Warning/500",
+    "P:Colors/Warning/400"
+   ],
+   [
+    "Colors/Text/text-success-primary",
+    "P:Colors/Success/500",
+    "P:Colors/Success/400"
+   ],
+   [
+    "Colors/Border/border-primary",
+    "P:Colors/Gray (light mode)/300",
+    "P:Colors/Gray (dark mode)/700"
+   ],
+   [
+    "Colors/Border/border-secondary",
+    "P:Colors/Gray (light mode)/200",
+    "P:Colors/Gray (dark mode)/800"
+   ],
+   [
+    "Colors/Border/border-secondary_alt",
+    "#00000014",
+    "P:Colors/Gray (dark mode)/800"
+   ],
+   [
+    "Colors/Border/border-tertiary",
+    "P:Colors/Gray (light mode)/100",
+    "P:Colors/Gray (dark mode)/800"
+   ],
+   [
+    "Colors/Border/border-disabled",
+    "P:Colors/Gray (light mode)/300",
+    "P:Colors/Gray (dark mode)/700"
+   ],
+   [
+    "Colors/Border/border-disabled_subtle",
+    "P:Colors/Gray (light mode)/200",
+    "P:Colors/Gray (dark mode)/800"
+   ],
+   [
+    "Colors/Border/border-brand",
+    "P:Colors/Brand/500",
+    "P:Colors/Brand/400"
+   ],
+   [
+    "Colors/Border/border-brand_alt",
+    "P:Colors/Brand/600",
+    "P:Colors/Gray (dark mode)/700"
+   ],
+   [
+    "Colors/Border/border-brand subtle",
+    "P:Colors/Brand/100",
+    "P:Colors/Brand/100"
+   ],
+   [
+    "Colors/Border/border-error",
+    "P:Colors/Error/500",
+    "P:Colors/Error/400"
+   ],
+   [
+    "Colors/Border/border-error_subtle",
+    "P:Colors/Error/300",
+    "P:Colors/Error/200"
+   ],
+   [
+    "Colors/Border/border-success",
+    "P:Colors/Success/500",
+    "P:Colors/Success/400"
+   ],
+   [
+    "Colors/Foreground/fg-primary (900)",
+    "P:Colors/Gray (light mode)/950",
+    "P:Colors/Base/white"
+   ],
+   [
+    "Component colors/Alpha/alpha-white-10",
+    "#ffffff1a",
+    "#0c0e121a"
+   ],
+   [
+    "Component colors/Alpha/alpha-white-20",
+    "#ffffff33",
+    "#0c0e1233"
+   ],
+   [
+    "Component colors/Alpha/alpha-white-30",
+    "#ffffff4d",
+    "#0c0e124d"
+   ],
+   [
+    "Component colors/Alpha/alpha-white-40",
+    "#ffffff66",
+    "#0c0e1266"
+   ],
+   [
+    "Component colors/Alpha/alpha-white-50",
+    "#ffffff80",
+    "#0c0e1280"
+   ],
+   [
+    "Component colors/Alpha/alpha-white-60",
+    "#ffffff99",
+    "#0c0e1299"
+   ],
+   [
+    "Component colors/Alpha/alpha-white-70",
+    "#ffffffb2",
+    "#0c0e12b2"
+   ],
+   [
+    "Component colors/Alpha/alpha-white-80",
+    "#ffffffcc",
+    "#0c0e12cc"
+   ],
+   [
+    "Component colors/Alpha/alpha-white-90",
+    "#ffffffe5",
+    "#0c0e12e5"
+   ],
+   [
+    "Component colors/Alpha/alpha-white-100",
+    "#ffffff",
+    "P:Colors/Gray (dark mode)/950"
+   ],
+   [
+    "Component colors/Alpha/alpha-black-10",
+    "#0000001a",
+    "#ffffff1a"
+   ],
+   [
+    "Component colors/Alpha/alpha-black-20",
+    "#00000033",
+    "#ffffff33"
+   ],
+   [
+    "Component colors/Alpha/alpha-black-30",
+    "#0000004d",
+    "#ffffff4d"
+   ],
+   [
+    "Component colors/Alpha/alpha-black-40",
+    "#00000066",
+    "#ffffff66"
+   ],
+   [
+    "Component colors/Alpha/alpha-black-50",
+    "#00000080",
+    "#ffffff80"
+   ],
+   [
+    "Component colors/Alpha/alpha-black-60",
+    "#00000099",
+    "#ffffff99"
+   ],
+   [
+    "Component colors/Alpha/alpha-black-70",
+    "#000000b2",
+    "#ffffffb2"
+   ],
+   [
+    "Component colors/Alpha/alpha-black-80",
+    "#000000cc",
+    "#ffffffcc"
+   ],
+   [
+    "Component colors/Alpha/alpha-black-90",
+    "#000000e5",
+    "#ffffffe5"
+   ],
+   [
+    "Component colors/Alpha/alpha-black-100",
+    "#000000",
+    "#ffffff"
+   ],
+   [
+    "Component colors/Utility/Gray/utility-gray-50",
+    "P:Colors/Gray (light mode)/50",
+    "P:Colors/Gray (dark mode)/900"
+   ],
+   [
+    "Component colors/Components/App store badges/app-store-badge-border",
+    "#a6a6a6",
+    "P:Colors/Base/white"
+   ],
+   [
+    "Component colors/Components/Avatars/avatar-styles-bg-neutral",
+    "#e0e0e0",
+    "#e0e0e0"
+   ],
+   [
+    "Component colors/Components/Buttons/button-primary-icon",
+    "P:Colors/Brand/300",
+    "P:Colors/Brand/300"
+   ],
+   [
+    "Component colors/Components/Buttons/button-primary-icon_hover",
+    "P:Colors/Brand/200",
+    "P:Colors/Brand/200"
+   ],
+   [
+    "Component colors/Components/Buttons/button-destructive-primary-icon",
+    "P:Colors/Error/300",
+    "P:Colors/Error/300"
+   ],
+   [
+    "Component colors/Components/Buttons/button-destructive-primary-icon_hover",
+    "P:Colors/Error/200",
+    "P:Colors/Error/200"
+   ],
+   [
+    "Component colors/Components/Footers/footer-button-fg",
+    "P:Colors/Brand/200",
+    "P:Colors/Gray (dark mode)/300"
+   ],
+   [
+    "Component colors/Components/Footers/footer-button-fg_hover",
+    "P:Colors/Base/white",
+    "P:Colors/Gray (dark mode)/100"
+   ],
+   [
+    "Component colors/Components/Icons/Icons/icon-fg-brand",
+    "P:Colors/Brand/600",
+    "P:Colors/Gray (dark mode)/400"
+   ],
+   [
+    "Component colors/Components/Icons/Icons/icon-fg-brand_on-brand",
+    "P:Colors/Brand/200",
+    "P:Colors/Gray (dark mode)/400"
+   ],
+   [
+    "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-brand",
+    "P:Colors/Brand/600",
+    "P:Colors/Brand/200"
+   ],
+   [
+    "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-gray",
+    "P:Colors/Gray (light mode)/500",
+    "P:Colors/Gray (dark mode)/200"
+   ],
+   [
+    "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-error",
+    "P:Colors/Error/600",
+    "P:Colors/Error/200"
+   ],
+   [
+    "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-warning",
+    "P:Colors/Warning/600",
+    "P:Colors/Warning/200"
+   ],
+   [
+    "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-success",
+    "P:Colors/Success/600",
+    "P:Colors/Success/200"
+   ],
+   [
+    "Component colors/Components/Mockups/screen-mockup-border",
+    "P:Colors/Gray (light mode)/900",
+    "P:Colors/Gray (dark mode)/700"
+   ],
+   [
+    "Component colors/Components/Sliders/slider-handle-bg",
+    "P:Colors/Base/white",
+    "C:Colors/Foreground/fg-brand-primary (600)"
+   ],
+   [
+    "Component colors/Components/Sliders/slider-handle-border",
+    "P:Colors/Brand/600",
+    "C:Colors/Background/bg-primary"
+   ],
+   [
+    "Component colors/Components/Toggles/toggle-button-fg_disabled",
+    "P:Colors/Gray (light mode)/50",
+    "P:Colors/Gray (dark mode)/600"
+   ],
+   [
+    "Component colors/Components/Toggles/toggle-border",
+    "P:Colors/Gray (light mode)/300",
+    "P:Colors/Base/transparent"
+   ],
+   [
+    "Component colors/Components/Toggles/toggle-slim-border_pressed-hover",
+    "C:Colors/Background/bg-brand-primary_hover",
+    "P:Colors/Base/transparent"
+   ],
+   [
+    "Component colors/Components/Tooltips/tooltip-supporting-text",
+    "P:Colors/Gray (light mode)/300",
+    "P:Colors/Gray (dark mode)/300"
+   ],
+   [
+    "Component colors/Components/Text editor/text-editor-icon-fg",
+    "P:Colors/Gray (light mode)/400",
+    "P:Colors/Gray (dark mode)/400"
+   ],
+   [
+    "Component colors/Components/Text editor/text-editor-icon-fg_active",
+    "P:Colors/Gray (light mode)/500",
+    "P:Colors/Base/white"
+   ],
+   [
+    "Component colors/Utility/Gray/utility-gray-100",
+    "P:Colors/Gray (light mode)/100",
+    "P:Colors/Gray (dark mode)/800"
+   ],
+   [
+    "Component colors/Utility/Gray/utility-gray-200",
+    "P:Colors/Gray (light mode)/200",
+    "P:Colors/Gray (dark mode)/700"
+   ],
+   [
+    "Component colors/Utility/Gray/utility-gray-300",
+    "P:Colors/Gray (light mode)/300",
+    "P:Colors/Gray (dark mode)/700"
+   ],
+   [
+    "Component colors/Utility/Gray/utility-gray-400",
+    "P:Colors/Gray (light mode)/400",
+    "P:Colors/Gray (dark mode)/600"
+   ],
+   [
+    "Component colors/Utility/Gray/utility-gray-500",
+    "P:Colors/Gray (light mode)/500",
+    "P:Colors/Gray (dark mode)/500"
+   ],
+   [
+    "Component colors/Utility/Gray/utility-gray-600",
+    "P:Colors/Gray (light mode)/600",
+    "P:Colors/Gray (dark mode)/400"
+   ],
+   [
+    "Component colors/Utility/Gray/utility-gray-700",
+    "P:Colors/Gray (light mode)/700",
+    "P:Colors/Gray (dark mode)/300"
+   ],
+   [
+    "Component colors/Utility/Gray/utility-gray-800",
+    "P:Colors/Gray (light mode)/800",
+    "P:Colors/Gray (dark mode)/200"
+   ],
+   [
+    "Component colors/Utility/Gray/utility-gray-900",
+    "P:Colors/Gray (light mode)/900",
+    "P:Colors/Gray (dark mode)/100"
+   ],
+   [
+    "Component colors/Utility/Brand/utility-brand-25",
+    "P:Colors/Brand/25",
+    "P:Colors/Gray (dark mode)/900"
+   ],
+   [
+    "Component colors/Utility/Brand/utility-brand-50",
+    "P:Colors/Brand/50",
+    "P:Colors/Brand/950"
+   ],
+   [
+    "Component colors/Utility/Brand/utility-brand-50_alt",
+    "P:Colors/Brand/50",
+    "C:Component colors/Utility/Gray/utility-gray-50"
+   ],
+   [
+    "Component colors/Utility/Brand/utility-brand-100",
+    "P:Colors/Brand/100",
+    "P:Colors/Brand/900"
+   ],
+   [
+    "Component colors/Utility/Brand/utility-brand-100_alt",
+    "P:Colors/Brand/100",
+    "C:Component colors/Utility/Gray/utility-gray-100"
+   ],
+   [
+    "Component colors/Utility/Brand/utility-brand-200",
+    "P:Colors/Brand/200",
+    "P:Colors/Brand/800"
+   ],
+   [
+    "Component colors/Utility/Brand/utility-brand-200_alt",
+    "P:Colors/Brand/200",
+    "C:Component colors/Utility/Gray/utility-gray-200"
+   ],
+   [
+    "Component colors/Utility/Brand/utility-brand-300",
+    "P:Colors/Brand/300",
+    "P:Colors/Brand/700"
+   ],
+   [
+    "Component colors/Utility/Brand/utility-brand-300_alt",
+    "P:Colors/Brand/300",
+    "C:Component colors/Utility/Gray/utility-gray-300"
+   ],
+   [
+    "Component colors/Utility/Brand/utility-brand-400",
+    "P:Colors/Brand/400",
+    "P:Colors/Brand/600"
+   ],
+   [
+    "Component colors/Utility/Brand/utility-brand-400_alt",
+    "P:Colors/Brand/400",
+    "C:Component colors/Utility/Gray/utility-gray-400"
+   ],
+   [
+    "Component colors/Utility/Brand/utility-brand-500",
+    "P:Colors/Brand/500",
+    "P:Colors/Brand/500"
+   ],
+   [
+    "Component colors/Utility/Brand/utility-brand-500_alt",
+    "P:Colors/Brand/500",
+    "P:Colors/Brand/500"
+   ],
+   [
+    "Component colors/Utility/Brand/utility-brand-600",
+    "P:Colors/Brand/600",
+    "P:Colors/Brand/400"
+   ],
+   [
+    "Component colors/Utility/Brand/utility-brand-600_alt",
+    "P:Colors/Brand/600",
+    "C:Component colors/Utility/Gray/utility-gray-600"
+   ],
+   [
+    "Component colors/Utility/Brand/utility-brand-700",
+    "P:Colors/Brand/700",
+    "P:Colors/Brand/300"
+   ],
+   [
+    "Component colors/Utility/Brand/utility-brand-700_alt",
+    "P:Colors/Brand/700",
+    "C:Component colors/Utility/Gray/utility-gray-700"
+   ],
+   [
+    "Component colors/Utility/Brand/utility-brand-800",
+    "P:Colors/Brand/800",
+    "P:Colors/Brand/200"
+   ],
+   [
+    "Component colors/Utility/Brand/utility-brand-800_alt",
+    "P:Colors/Brand/800",
+    "C:Component colors/Utility/Gray/utility-gray-800"
+   ],
+   [
+    "Component colors/Utility/Brand/utility-brand-900",
+    "P:Colors/Brand/900",
+    "P:Colors/Brand/100"
+   ],
+   [
+    "Component colors/Utility/Brand/utility-brand-900_alt",
+    "P:Colors/Brand/900",
+    "C:Component colors/Utility/Gray/utility-gray-900"
+   ],
+   [
+    "Component colors/Utility/Error/utility-error-50",
+    "P:Colors/Error/50",
+    "P:Colors/Error/950"
+   ],
+   [
+    "Component colors/Utility/Error/utility-error-100",
+    "P:Colors/Error/100",
+    "P:Colors/Error/900"
+   ],
+   [
+    "Component colors/Utility/Error/utility-error-200",
+    "P:Colors/Error/200",
+    "P:Colors/Error/800"
+   ],
+   [
+    "Component colors/Utility/Error/utility-error-300",
+    "P:Colors/Error/300",
+    "P:Colors/Error/700"
+   ],
+   [
+    "Component colors/Utility/Error/utility-error-400",
+    "P:Colors/Error/400",
+    "P:Colors/Error/600"
+   ],
+   [
+    "Component colors/Utility/Error/utility-error-500",
+    "P:Colors/Error/500",
+    "P:Colors/Error/500"
+   ],
+   [
+    "Component colors/Utility/Error/utility-error-600",
+    "P:Colors/Error/600",
+    "P:Colors/Error/400"
+   ],
+   [
+    "Component colors/Utility/Error/utility-error-700",
+    "P:Colors/Error/700",
+    "P:Colors/Error/300"
+   ],
+   [
+    "Component colors/Utility/Warning/utility-warning-50",
+    "P:Colors/Warning/50",
+    "P:Colors/Warning/950"
+   ],
+   [
+    "Component colors/Utility/Warning/utility-warning-100",
+    "P:Colors/Warning/100",
+    "P:Colors/Warning/900"
+   ],
+   [
+    "Component colors/Utility/Warning/utility-warning-200",
+    "P:Colors/Warning/200",
+    "P:Colors/Warning/800"
+   ],
+   [
+    "Component colors/Utility/Warning/utility-warning-300",
+    "P:Colors/Warning/300",
+    "P:Colors/Warning/700"
+   ],
+   [
+    "Component colors/Utility/Warning/utility-warning-400",
+    "P:Colors/Warning/400",
+    "P:Colors/Warning/600"
+   ],
+   [
+    "Component colors/Utility/Warning/utility-warning-500",
+    "P:Colors/Warning/500",
+    "P:Colors/Warning/500"
+   ],
+   [
+    "Component colors/Utility/Warning/utility-warning-600",
+    "P:Colors/Warning/600",
+    "P:Colors/Warning/400"
+   ],
+   [
+    "Component colors/Utility/Warning/utility-warning-700",
+    "P:Colors/Warning/700",
+    "P:Colors/Warning/300"
+   ],
+   [
+    "Component colors/Utility/Success/utility-success-50",
+    "P:Colors/Success/50",
+    "P:Colors/Success/950"
+   ],
+   [
+    "Component colors/Utility/Success/utility-success-100",
+    "P:Colors/Success/100",
+    "P:Colors/Success/900"
+   ],
+   [
+    "Component colors/Utility/Success/utility-success-200",
+    "P:Colors/Success/200",
+    "P:Colors/Success/800"
+   ],
+   [
+    "Component colors/Utility/Success/utility-success-300",
+    "P:Colors/Success/300",
+    "P:Colors/Success/700"
+   ],
+   [
+    "Component colors/Utility/Success/utility-success-400",
+    "P:Colors/Success/400",
+    "P:Colors/Success/600"
+   ],
+   [
+    "Component colors/Utility/Success/utility-success-500",
+    "P:Colors/Success/500",
+    "P:Colors/Success/500"
+   ],
+   [
+    "Component colors/Utility/Success/utility-success-600",
+    "P:Colors/Success/600",
+    "P:Colors/Success/400"
+   ],
+   [
+    "Component colors/Utility/Success/utility-success-700",
+    "P:Colors/Success/700",
+    "P:Colors/Success/300"
+   ],
+   [
+    "Component colors/Utility/Green/utility-green-50",
+    "P:Colors/Green/50",
+    "P:Colors/Green/950"
+   ],
+   [
+    "Component colors/Utility/Green/utility-green-100",
+    "P:Colors/Green/100",
+    "P:Colors/Green/900"
+   ],
+   [
+    "Component colors/Utility/Green/utility-green-200",
+    "P:Colors/Green/200",
+    "P:Colors/Green/800"
+   ],
+   [
+    "Component colors/Utility/Green/utility-green-300",
+    "P:Colors/Green/300",
+    "P:Colors/Green/700"
+   ],
+   [
+    "Component colors/Utility/Green/utility-green-400",
+    "P:Colors/Green/400",
+    "P:Colors/Green/600"
+   ],
+   [
+    "Component colors/Utility/Green/utility-green-500",
+    "P:Colors/Green/500",
+    "P:Colors/Green/500"
+   ],
+   [
+    "Component colors/Utility/Green/utility-green-600",
+    "P:Colors/Green/600",
+    "P:Colors/Green/400"
+   ],
+   [
+    "Component colors/Utility/Green/utility-green-700",
+    "P:Colors/Green/700",
+    "P:Colors/Green/300"
+   ],
+   [
+    "Component colors/Utility/Blue light/utility-blue-light-50",
+    "P:Colors/Blue light/50",
+    "P:Colors/Blue light/950"
+   ],
+   [
+    "Component colors/Utility/Blue light/utility-blue-light-100",
+    "P:Colors/Blue light/100",
+    "P:Colors/Blue light/900"
+   ],
+   [
+    "Component colors/Utility/Blue light/utility-blue-light-200",
+    "P:Colors/Blue light/200",
+    "P:Colors/Blue light/800"
+   ],
+   [
+    "Component colors/Utility/Blue light/utility-blue-light-300",
+    "P:Colors/Blue light/300",
+    "P:Colors/Blue light/700"
+   ],
+   [
+    "Component colors/Utility/Blue light/utility-blue-light-400",
+    "P:Colors/Blue light/400",
+    "P:Colors/Blue light/600"
+   ],
+   [
+    "Component colors/Utility/Blue light/utility-blue-light-500",
+    "P:Colors/Blue light/500",
+    "P:Colors/Blue light/500"
+   ],
+   [
+    "Component colors/Utility/Blue light/utility-blue-light-600",
+    "P:Colors/Blue light/600",
+    "P:Colors/Blue light/400"
+   ],
+   [
+    "Component colors/Utility/Blue light/utility-blue-light-700",
+    "P:Colors/Blue light/700",
+    "P:Colors/Blue light/300"
+   ],
+   [
+    "Component colors/Utility/Blue/utility-blue-50",
+    "P:Colors/Blue/50",
+    "P:Colors/Blue/950"
+   ],
+   [
+    "Component colors/Utility/Blue/utility-blue-100",
+    "P:Colors/Blue/100",
+    "P:Colors/Blue/900"
+   ],
+   [
+    "Component colors/Utility/Blue/utility-blue-200",
+    "P:Colors/Blue/200",
+    "P:Colors/Blue/800"
+   ],
+   [
+    "Component colors/Utility/Blue/utility-blue-300",
+    "P:Colors/Blue/300",
+    "P:Colors/Blue/700"
+   ],
+   [
+    "Component colors/Utility/Blue/utility-blue-400",
+    "P:Colors/Blue/400",
+    "P:Colors/Blue/600"
+   ],
+   [
+    "Component colors/Utility/Blue/utility-blue-500",
+    "P:Colors/Blue/500",
+    "P:Colors/Blue/500"
+   ],
+   [
+    "Component colors/Utility/Blue/utility-blue-600",
+    "P:Colors/Blue/600",
+    "P:Colors/Blue/400"
+   ],
+   [
+    "Component colors/Utility/Blue/utility-blue-700",
+    "P:Colors/Blue/700",
+    "P:Colors/Blue/300"
+   ],
+   [
+    "Component colors/Utility/Blue dark/utility-blue-dark-50",
+    "P:Colors/Blue dark/50",
+    "P:Colors/Blue dark/950"
+   ],
+   [
+    "Component colors/Utility/Blue dark/utility-blue-dark-100",
+    "P:Colors/Blue dark/100",
+    "P:Colors/Blue dark/900"
+   ],
+   [
+    "Component colors/Utility/Blue dark/utility-blue-dark-200",
+    "P:Colors/Blue dark/200",
+    "P:Colors/Blue dark/800"
+   ],
+   [
+    "Component colors/Utility/Blue dark/utility-blue-dark-300",
+    "P:Colors/Blue dark/300",
+    "P:Colors/Blue dark/700"
+   ],
+   [
+    "Component colors/Utility/Blue dark/utility-blue-dark-400",
+    "P:Colors/Blue dark/400",
+    "P:Colors/Blue dark/600"
+   ],
+   [
+    "Component colors/Utility/Blue dark/utility-blue-dark-500",
+    "P:Colors/Blue dark/500",
+    "P:Colors/Blue dark/500"
+   ],
+   [
+    "Component colors/Utility/Blue dark/utility-blue-dark-600",
+    "P:Colors/Blue dark/600",
+    "P:Colors/Blue dark/400"
+   ],
+   [
+    "Component colors/Utility/Blue dark/utility-blue-dark-700",
+    "P:Colors/Blue dark/700",
+    "P:Colors/Blue dark/300"
+   ],
+   [
+    "Component colors/Utility/Purple/utility-purple-50",
+    "P:Colors/Purple/50",
+    "P:Colors/Purple/950"
+   ],
+   [
+    "Component colors/Utility/Purple/utility-purple-100",
+    "P:Colors/Purple/100",
+    "P:Colors/Purple/900"
+   ],
+   [
+    "Component colors/Utility/Purple/utility-purple-200",
+    "P:Colors/Purple/200",
+    "P:Colors/Purple/800"
+   ],
+   [
+    "Component colors/Utility/Purple/utility-purple-300",
+    "P:Colors/Purple/300",
+    "P:Colors/Purple/700"
+   ],
+   [
+    "Component colors/Utility/Purple/utility-purple-400",
+    "P:Colors/Purple/400",
+    "P:Colors/Purple/600"
+   ],
+   [
+    "Component colors/Utility/Purple/utility-purple-500",
+    "P:Colors/Purple/500",
+    "P:Colors/Purple/500"
+   ],
+   [
+    "Component colors/Utility/Purple/utility-purple-600",
+    "P:Colors/Purple/600",
+    "P:Colors/Purple/400"
+   ],
+   [
+    "Component colors/Utility/Purple/utility-purple-700",
+    "P:Colors/Purple/700",
+    "P:Colors/Purple/300"
+   ],
+   [
+    "Component colors/Utility/Pink/utility-pink-50",
+    "P:Colors/Pink/50",
+    "P:Colors/Pink/950"
+   ],
+   [
+    "Component colors/Utility/Pink/utility-pink-100",
+    "P:Colors/Pink/100",
+    "P:Colors/Pink/900"
+   ],
+   [
+    "Component colors/Utility/Pink/utility-pink-200",
+    "P:Colors/Pink/200",
+    "P:Colors/Pink/800"
+   ],
+   [
+    "Component colors/Utility/Pink/utility-pink-300",
+    "P:Colors/Pink/300",
+    "P:Colors/Pink/700"
+   ],
+   [
+    "Component colors/Utility/Pink/utility-pink-400",
+    "P:Colors/Pink/400",
+    "P:Colors/Pink/600"
+   ],
+   [
+    "Component colors/Utility/Pink/utility-pink-500",
+    "P:Colors/Pink/500",
+    "P:Colors/Pink/500"
+   ],
+   [
+    "Component colors/Utility/Pink/utility-pink-600",
+    "P:Colors/Pink/600",
+    "P:Colors/Pink/400"
+   ],
+   [
+    "Component colors/Utility/Pink/utility-pink-700",
+    "P:Colors/Pink/700",
+    "P:Colors/Pink/300"
+   ],
+   [
+    "Component colors/Utility/Orange dark/utility-orange-dark-50",
+    "P:Colors/Orange dark/50",
+    "P:Colors/Orange dark/950"
+   ],
+   [
+    "Component colors/Utility/Orange dark/utility-orange-dark-100",
+    "P:Colors/Orange dark/100",
+    "P:Colors/Orange dark/900"
+   ],
+   [
+    "Component colors/Utility/Orange dark/utility-orange-dark-200",
+    "P:Colors/Orange dark/200",
+    "P:Colors/Orange dark/800"
+   ],
+   [
+    "Component colors/Utility/Orange dark/utility-orange-dark-300",
+    "P:Colors/Orange dark/300",
+    "P:Colors/Orange dark/700"
+   ],
+   [
+    "Component colors/Utility/Orange dark/utility-orange-dark-400",
+    "P:Colors/Orange dark/400",
+    "P:Colors/Orange dark/600"
+   ],
+   [
+    "Component colors/Utility/Orange dark/utility-orange-dark-500",
+    "P:Colors/Orange dark/500",
+    "P:Colors/Orange dark/500"
+   ],
+   [
+    "Component colors/Utility/Orange dark/utility-orange-dark-600",
+    "P:Colors/Orange dark/600",
+    "P:Colors/Orange dark/400"
+   ],
+   [
+    "Component colors/Utility/Orange dark/utility-orange-dark-700",
+    "P:Colors/Orange dark/700",
+    "P:Colors/Orange dark/300"
+   ],
+   [
+    "Component colors/Utility/Orange/utility-orange-50",
+    "P:Colors/Orange/50",
+    "P:Colors/Orange/950"
+   ],
+   [
+    "Component colors/Utility/Orange/utility-orange-100",
+    "P:Colors/Orange/100",
+    "P:Colors/Orange/900"
+   ],
+   [
+    "Component colors/Utility/Orange/utility-orange-200",
+    "P:Colors/Orange/200",
+    "P:Colors/Orange/800"
+   ],
+   [
+    "Component colors/Utility/Orange/utility-orange-300",
+    "P:Colors/Orange/300",
+    "P:Colors/Orange/700"
+   ],
+   [
+    "Component colors/Utility/Orange/utility-orange-400",
+    "P:Colors/Orange/400",
+    "P:Colors/Orange/600"
+   ],
+   [
+    "Component colors/Utility/Orange/utility-orange-500",
+    "P:Colors/Orange/500",
+    "P:Colors/Orange/500"
+   ],
+   [
+    "Component colors/Utility/Orange/utility-orange-600",
+    "P:Colors/Orange/600",
+    "P:Colors/Orange/400"
+   ],
+   [
+    "Component colors/Utility/Orange/utility-orange-700",
+    "P:Colors/Orange/700",
+    "P:Colors/Orange/300"
+   ],
+   [
+    "Colors/Foreground/fg-secondary (700)",
+    "P:Colors/Gray (light mode)/700",
+    "P:Colors/Gray (dark mode)/300"
+   ],
+   [
+    "Colors/Foreground/fg-secondary_hover",
+    "P:Colors/Gray (light mode)/800",
+    "P:Colors/Gray (dark mode)/200"
+   ],
+   [
+    "Colors/Foreground/fg-tertiary (600)",
+    "P:Colors/Gray (light mode)/600",
+    "P:Colors/Gray (dark mode)/400"
+   ],
+   [
+    "Colors/Foreground/fg-tertiary_hover",
+    "P:Colors/Gray (light mode)/700",
+    "P:Colors/Gray (dark mode)/300"
+   ],
+   [
+    "Colors/Foreground/fg-quaternary (400)",
+    "P:Colors/Gray (light mode)/400",
+    "P:Colors/Gray (dark mode)/600"
+   ],
+   [
+    "Colors/Foreground/fg-quaternary_hover",
+    "P:Colors/Gray (light mode)/500",
+    "P:Colors/Gray (dark mode)/500"
+   ],
+   [
+    "Colors/Foreground/fg-white",
+    "P:Colors/Base/white",
+    "P:Colors/Base/white"
+   ],
+   [
+    "Colors/Foreground/fg-black",
+    "P:Colors/Base/black",
+    "P:Colors/Base/black"
+   ],
+   [
+    "Colors/Foreground/fg-disabled",
+    "P:Colors/Gray (light mode)/400",
+    "P:Colors/Gray (dark mode)/500"
+   ],
+   [
+    "Colors/Foreground/fg-disabled_subtle",
+    "P:Colors/Gray (light mode)/300",
+    "P:Colors/Gray (dark mode)/600"
+   ],
+   [
+    "Colors/Foreground/fg-brand-primary (600)",
+    "P:Colors/Brand/600",
+    "P:Colors/Brand/500"
+   ],
+   [
+    "Colors/Foreground/fg-brand-primary_alt",
+    "C:Colors/Foreground/fg-brand-primary (600)",
+    "P:Colors/Gray (dark mode)/300"
+   ],
+   [
+    "Colors/Foreground/fg-brand-secondary (500)",
+    "P:Colors/Brand/500",
+    "P:Colors/Brand/500"
+   ],
+   [
+    "Colors/Foreground/fg-brand-secondary_alt",
+    "P:Colors/Brand/400",
+    "P:Colors/Brand/400"
+   ],
+   [
+    "Colors/Foreground/fg-brand-secondary_hover",
+    "P:Colors/Brand/400",
+    "P:Colors/Brand/400"
+   ],
+   [
+    "Colors/Foreground/fg-error-primary",
+    "P:Colors/Error/500",
+    "P:Colors/Error/500"
+   ],
+   [
+    "Colors/Foreground/fg-warning-primary",
+    "P:Colors/Warning/500",
+    "P:Colors/Warning/500"
+   ],
+   [
+    "Colors/Foreground/fg-success-primary",
+    "P:Colors/Success/500",
+    "P:Colors/Success/500"
+   ],
+   [
+    "Colors/Background/bg-primary",
+    "P:Colors/Base/white",
+    "P:Colors/Base/black"
+   ],
+   [
+    "Colors/Background/bg-canvas",
+    "P:Colors/Gray modern/25",
+    "P:Colors/Gray iron/950"
+   ],
+   [
+    "Colors/Effects/Focus rings/focus-ring-primary",
+    "P:Colors/Brand/500",
+    "P:Colors/Brand/500"
+   ],
+   [
+    "Colors/Effects/Focus rings/focus-ring-neutral",
+    "P:Colors/Gray modern/300",
+    "P:Colors/Gray modern/800"
+   ],
+   [
+    "Colors/Effects/Focus rings/focus-ring-alt",
+    "P:Colors/Green lime/500",
+    "P:Colors/Green lime/500"
+   ],
+   [
+    "Colors/Effects/Focus rings/focus-ring-error",
+    "P:Colors/Error/500",
+    "P:Colors/Error/500"
+   ],
+   [
+    "Colors/Effects/Shadows/shadow-xs",
+    "#0a0d120d",
+    "P:Colors/Base/transparent"
+   ],
+   [
+    "Colors/Effects/Shadows/shadow-sm_01",
+    "#0a0d121a",
+    "P:Colors/Base/transparent"
+   ],
+   [
+    "Colors/Effects/Shadows/shadow-sm_02",
+    "#0a0d121a",
+    "P:Colors/Base/transparent"
+   ],
+   [
+    "Colors/Effects/Shadows/shadow-md_01",
+    "#0a0d121a",
+    "P:Colors/Base/transparent"
+   ],
+   [
+    "Colors/Effects/Shadows/shadow-md_02",
+    "#0a0d120f",
+    "P:Colors/Base/transparent"
+   ],
+   [
+    "Colors/Effects/Shadows/shadow-lg_01",
+    "#0a0d1214",
+    "P:Colors/Base/transparent"
+   ],
+   [
+    "Colors/Effects/Shadows/shadow-lg_02",
+    "#0a0d1208",
+    "P:Colors/Base/transparent"
+   ],
+   [
+    "Colors/Effects/Shadows/shadow-lg_03",
+    "#0a0d120a",
+    "P:Colors/Base/transparent"
+   ],
+   [
+    "Colors/Effects/Shadows/shadow-xl_01",
+    "#0a0d1214",
+    "P:Colors/Base/transparent"
+   ],
+   [
+    "Colors/Effects/Shadows/shadow-xl_02",
+    "#0a0d1208",
+    "P:Colors/Base/transparent"
+   ],
+   [
+    "Colors/Effects/Shadows/shadow-xl_03",
+    "#0a0d120a",
+    "P:Colors/Base/transparent"
+   ],
+   [
+    "Colors/Effects/Shadows/shadow-2xl_01",
+    "#0a0d122e",
+    "P:Colors/Base/transparent"
+   ],
+   [
+    "Colors/Effects/Shadows/shadow-2xl_02",
+    "#0a0d120a",
+    "P:Colors/Base/transparent"
+   ],
+   [
+    "Colors/Effects/Shadows/shadow-3xl_01",
+    "#0a0d1224",
+    "P:Colors/Base/transparent"
+   ],
+   [
+    "Colors/Effects/Shadows/shadow-3xl_02",
+    "#0a0d120a",
+    "P:Colors/Base/transparent"
+   ],
+   [
+    "Colors/Effects/Shadows/shadow-skeumorphic-inner",
+    "#0a0d120d",
+    "#0c0e120d"
+   ],
+   [
+    "Colors/Effects/Shadows/shadow-skeumorphic-inner-border",
+    "#0a0d122e",
+    "#0c0e122e"
+   ],
+   [
+    "Colors/Background/bg-primary_alt",
+    "P:Colors/Base/white",
+    "C:Colors/Background/bg-secondary"
+   ],
+   [
+    "Colors/Background/bg-primary_hover",
+    "P:Colors/Gray (light mode)/50",
+    "P:Colors/Gray (dark mode)/800"
+   ],
+   [
+    "Colors/Background/bg-primary-solid",
+    "P:Colors/Gray (light mode)/950",
+    "C:Colors/Background/bg-secondary"
+   ],
+   [
+    "Colors/Background/bg-secondary",
+    "P:Colors/Gray (light mode)/50",
+    "P:Colors/Gray (dark mode)/900"
+   ],
+   [
+    "Colors/Background/bg-secondary_alt",
+    "P:Colors/Gray (light mode)/50",
+    "C:Colors/Background/bg-primary"
+   ],
+   [
+    "Colors/Background/bg-secondary_hover",
+    "P:Colors/Gray (light mode)/100",
+    "P:Colors/Gray (dark mode)/800"
+   ],
+   [
+    "Colors/Background/bg-secondary_subtle",
+    "P:Colors/Gray (light mode)/25",
+    "P:Colors/Gray (dark mode)/900"
+   ],
+   [
+    "Colors/Background/bg-secondary-solid",
+    "P:Colors/Gray (light mode)/600",
+    "P:Colors/Gray (dark mode)/600"
+   ],
+   [
+    "Colors/Background/bg-tertiary",
+    "P:Colors/Gray (light mode)/100",
+    "P:Colors/Gray (dark mode)/800"
+   ],
+   [
+    "Colors/Background/bg-quaternary",
+    "P:Colors/Gray (light mode)/200",
+    "P:Colors/Gray (dark mode)/700"
+   ],
+   [
+    "Colors/Background/bg-active",
+    "P:Colors/Brand/50",
+    "P:Colors/Base/black"
+   ],
+   [
+    "Colors/Background/bg-disabled",
+    "P:Colors/Gray (light mode)/100",
+    "P:Colors/Gray (dark mode)/900"
+   ],
+   [
+    "Colors/Background/bg-disabled_subtle",
+    "P:Colors/Gray (light mode)/50",
+    "P:Colors/Gray (dark mode)/900"
+   ],
+   [
+    "Colors/Background/bg-overlay",
+    "C:Component colors/Alpha/alpha-black-40",
+    "C:Component colors/Alpha/alpha-white-10"
+   ],
+   [
+    "Colors/Background/bg-brand-primary",
+    "P:Colors/Brand/600",
+    "P:Colors/Brand/600"
+   ],
+   [
+    "Colors/Background/bg-brand-primary_subtle",
+    "P:Colors/Brand/50",
+    "P:Colors/Brand/50"
+   ],
+   [
+    "Colors/Background/bg-brand-primary_hover",
+    "P:Colors/Brand/500",
+    "P:Colors/Brand/500"
+   ],
+   [
+    "Colors/Background/bg-brand-secondary",
+    "P:Colors/Green lime/500",
+    "P:Colors/Green lime/500"
+   ],
+   [
+    "Colors/Background/bg-brand-secondary_subtle",
+    "P:Colors/Green lime/200",
+    "P:Colors/Green lime/200"
+   ],
+   [
+    "Colors/Background/bg-brand-secondary_hover",
+    "P:Colors/Green lime/400",
+    "P:Colors/Green lime/400"
+   ],
+   [
+    "Colors/Background/bg-brand-tertiary",
+    "P:Colors/Magenta/500",
+    "P:Colors/Magenta/500"
+   ],
+   [
+    "Colors/Background/bg-brand-tertiary_hover",
+    "P:Colors/Magenta/400",
+    "P:Colors/Magenta/400"
+   ],
+   [
+    "Colors/Background/bg-error-primary",
+    "P:Colors/Error/50",
+    "P:Colors/Error/600"
+   ],
+   [
+    "Colors/Background/bg-error-secondary",
+    "P:Colors/Error/100",
+    "P:Colors/Error/600"
+   ],
+   [
+    "Colors/Background/bg-error-solid",
+    "P:Colors/Error/600",
+    "P:Colors/Error/600"
+   ],
+   [
+    "Colors/Background/bg-error-solid_hover",
+    "P:Colors/Error/500",
+    "P:Colors/Error/500"
+   ],
+   [
+    "Colors/Background/bg-warning-primary",
+    "P:Colors/Warning/50",
+    "P:Colors/Warning/900"
+   ],
+   [
+    "Colors/Background/bg-warning-secondary",
+    "P:Colors/Warning/100",
+    "P:Colors/Warning/800"
+   ],
+   [
+    "Colors/Background/bg-warning-solid",
+    "P:Colors/Warning/600",
+    "P:Colors/Warning/600"
+   ],
+   [
+    "Colors/Background/bg-success-primary",
+    "P:Colors/Success/50",
+    "P:Colors/Success/950"
+   ],
+   [
+    "Colors/Background/bg-success-secondary",
+    "P:Colors/Success/100",
+    "P:Colors/Success/600"
+   ],
+   [
+    "Colors/Background/bg-success-solid",
+    "P:Colors/Success/600",
+    "P:Colors/Success/600"
+   ],
+   [
+    "Component colors/Utility/Yellow/utility-yellow-50",
+    "P:Colors/Yellow/50",
+    "P:Colors/Yellow/950"
+   ],
+   [
+    "Component colors/Utility/Yellow/utility-yellow-100",
+    "P:Colors/Yellow/100",
+    "P:Colors/Yellow/900"
+   ],
+   [
+    "Component colors/Utility/Yellow/utility-yellow-200",
+    "P:Colors/Yellow/200",
+    "P:Colors/Yellow/800"
+   ],
+   [
+    "Component colors/Utility/Yellow/utility-yellow-300",
+    "P:Colors/Yellow/300",
+    "P:Colors/Yellow/600"
+   ],
+   [
+    "Component colors/Utility/Yellow/utility-yellow-400",
+    "P:Colors/Yellow/400",
+    "P:Colors/Yellow/600"
+   ],
+   [
+    "Component colors/Utility/Yellow/utility-yellow-500",
+    "P:Colors/Yellow/500",
+    "P:Colors/Yellow/500"
+   ],
+   [
+    "Component colors/Utility/Yellow/utility-yellow-600",
+    "P:Colors/Yellow/600",
+    "P:Colors/Yellow/400"
+   ],
+   [
+    "Component colors/Utility/Yellow/utility-yellow-700",
+    "P:Colors/Yellow/700",
+    "P:Colors/Yellow/300"
+   ],
+   [
+    "Colors/Background/bg-avatar-color1",
+    "P:Colors/Green lime/400",
+    "P:Colors/Green lime/400"
+   ],
+   [
+    "Colors/Background/bg-avatar-color2",
+    "P:Colors/Purple/400",
+    "P:Colors/Purple/400"
+   ],
+   [
+    "Colors/Background/bg-avatar-color3",
+    "P:Colors/Rosé/400",
+    "P:Colors/Pink/400"
+   ],
+   [
+    "Colors/Background/bg-avatar-color4",
+    "P:Colors/Orange dark/400",
+    "P:Colors/Orange dark/400"
+   ],
+   [
+    "Colors/Background/bg-avatar-color5",
+    "P:Colors/Blue/400",
+    "P:Colors/Blue dark/400"
+   ],
+   [
+    "Colors/Background/bg-avatar-color6",
+    "P:Colors/Cyan/400",
+    "P:Colors/Cyan/400"
+   ],
+   [
+    "Colors/Background/bg-avatar-color7",
+    "P:Colors/Green light/400",
+    "P:Colors/Green light/400"
+   ],
+   [
+    "Colors/Background/bg-avatar-color8",
+    "P:Colors/Yellow/400",
+    "P:Colors/Yellow/400"
+   ]
+  ]
+ },
+ "others": {
+  "collections": [
+   [
+    "_Primitives",
+    309,
+    [
+     "Style"
+    ]
+   ],
+   [
+    "1. Color modes",
+    292,
+    [
+     "Light mode",
+     "Dark mode"
+    ]
+   ],
+   [
+    "5. Containers",
+    3,
+    [
+     "Value"
+    ]
+   ],
+   [
+    "4. Widths",
+    12,
+    [
+     "Mode 1"
+    ]
+   ],
+   [
+    "3. Spacing",
+    17,
+    [
+     "Mode 1"
+    ]
+   ],
+   [
+    "2. Radius",
+    12,
+    [
+     "Mode 1"
+    ]
+   ],
+   [
+    "6. Typography",
+    36,
+    [
+     "Value"
+    ]
+   ]
+  ],
+  "5. Containers": {
+   "modes": [
+    "Value"
+   ],
+   "rows": [
+    [
+     "container-padding-mobile",
+     "F",
+     "->_Primitives/Spacing/4 (16px)"
+    ],
+    [
+     "container-padding-desktop",
+     "F",
+     "->_Primitives/Spacing/8 (32px)"
+    ],
+    [
+     "container-max-width-desktop",
+     "F",
+     "->_Primitives/Spacing/320 (1,280px)"
+    ]
+   ]
+  },
+  "4. Widths": {
+   "modes": [
+    "Mode 1"
+   ],
+   "rows": [
+    [
+     "width-xxs",
+     "F",
+     "->_Primitives/Spacing/80 (320px)"
+    ],
+    [
+     "width-xs",
+     "F",
+     "->_Primitives/Spacing/96 (384px)"
+    ],
+    [
+     "width-sm",
+     "F",
+     "->_Primitives/Spacing/120 (480px)"
+    ],
+    [
+     "width-md",
+     "F",
+     "->_Primitives/Spacing/140 (560px)"
+    ],
+    [
+     "width-lg",
+     "F",
+     "->_Primitives/Spacing/160 (640px)"
+    ],
+    [
+     "width-xl",
+     "F",
+     "->_Primitives/Spacing/192 (768px)"
+    ],
+    [
+     "width-2xl",
+     "F",
+     "->_Primitives/Spacing/256 (1,024px)"
+    ],
+    [
+     "width-3xl",
+     "F",
+     "->_Primitives/Spacing/320 (1,280px)"
+    ],
+    [
+     "width-4xl",
+     "F",
+     "->_Primitives/Spacing/360 (1,440px)"
+    ],
+    [
+     "width-5xl",
+     "F",
+     "->_Primitives/Spacing/400 (1,600px)"
+    ],
+    [
+     "width-6xl",
+     "F",
+     "->_Primitives/Spacing/480 (1,920px)"
+    ],
+    [
+     "paragraph-max-width",
+     "F",
+     "->_Primitives/Spacing/180 (720px)"
+    ]
+   ]
+  },
+  "3. Spacing": {
+   "modes": [
+    "Mode 1"
+   ],
+   "rows": [
+    [
+     "spacing-none",
+     "F",
+     "->_Primitives/Spacing/0 (0px)"
+    ],
+    [
+     "spacing-xxs",
+     "F",
+     "->_Primitives/Spacing/0․5 (2px)"
+    ],
+    [
+     "spacing-xs",
+     "F",
+     "->_Primitives/Spacing/1 (4px)"
+    ],
+    [
+     "spacing-sm",
+     "F",
+     "->_Primitives/Spacing/1․5 (6px)"
+    ],
+    [
+     "spacing-md",
+     "F",
+     "->_Primitives/Spacing/2 (8px)"
+    ],
+    [
+     "spacing-lg",
+     "F",
+     "->_Primitives/Spacing/3 (12px)"
+    ],
+    [
+     "spacing-xl",
+     "F",
+     "->_Primitives/Spacing/4 (16px)"
+    ],
+    [
+     "spacing-2xl",
+     "F",
+     "->_Primitives/Spacing/5 (20px)"
+    ],
+    [
+     "spacing-3xl",
+     "F",
+     "->_Primitives/Spacing/6 (24px)"
+    ],
+    [
+     "spacing-4xl",
+     "F",
+     "->_Primitives/Spacing/8 (32px)"
+    ],
+    [
+     "spacing-5xl",
+     "F",
+     "->_Primitives/Spacing/10 (40px)"
+    ],
+    [
+     "spacing-6xl",
+     "F",
+     "->_Primitives/Spacing/12 (48px)"
+    ],
+    [
+     "spacing-7xl",
+     "F",
+     "->_Primitives/Spacing/16 (64px)"
+    ],
+    [
+     "spacing-8xl",
+     "F",
+     "->_Primitives/Spacing/20 (80px)"
+    ],
+    [
+     "spacing-9xl",
+     "F",
+     "->_Primitives/Spacing/24 (96px)"
+    ],
+    [
+     "spacing-10xl",
+     "F",
+     "->_Primitives/Spacing/32 (128px)"
+    ],
+    [
+     "spacing-11xl",
+     "F",
+     "->_Primitives/Spacing/40 (160px)"
+    ]
+   ]
+  },
+  "2. Radius": {
+   "modes": [
+    "Mode 1"
+   ],
+   "rows": [
+    [
+     "radius-none",
+     "F",
+     0
+    ],
+    [
+     "radius-xxs",
+     "F",
+     2
+    ],
+    [
+     "radius-xs",
+     "F",
+     4
+    ],
+    [
+     "radius-sm",
+     "F",
+     6
+    ],
+    [
+     "radius-md",
+     "F",
+     8
+    ],
+    [
+     "radius-lg",
+     "F",
+     10
+    ],
+    [
+     "radius-xl",
+     "F",
+     12
+    ],
+    [
+     "radius-2xl",
+     "F",
+     16
+    ],
+    [
+     "radius-3xl",
+     "F",
+     20
+    ],
+    [
+     "radius-4xl",
+     "F",
+     24
+    ],
+    [
+     "radius-5xl",
+     "F",
+     32
+    ],
+    [
+     "radius-full",
+     "F",
+     9999
+    ]
+   ]
+  },
+  "6. Typography": {
+   "modes": [
+    "Value"
+   ],
+   "rows": [
+    [
+     "Font family/font-family-secondary",
+     "S",
+     "Space Grotesk"
+    ],
+    [
+     "Font family/font-family-primary",
+     "S",
+     "Inter"
+    ],
+    [
+     "Font weight/regular",
+     "S",
+     "Regular"
+    ],
+    [
+     "Font weight/regular-italic",
+     "S",
+     "Regular italic"
+    ],
+    [
+     "Font weight/medium",
+     "S",
+     "Medium"
+    ],
+    [
+     "Font weight/medium-italic",
+     "S",
+     "Medium italic"
+    ],
+    [
+     "Font weight/semibold",
+     "S",
+     "Semibold"
+    ],
+    [
+     "Font weight/semibold-italic",
+     "S",
+     "Semibold italic"
+    ],
+    [
+     "Font size/text-xxxs",
+     "F",
+     8
+    ],
+    [
+     "Font weight/bold",
+     "S",
+     "Bold"
+    ],
+    [
+     "Font weight/bold-italic",
+     "S",
+     "Bold italic"
+    ],
+    [
+     "Font size/text-xxs",
+     "F",
+     10
+    ],
+    [
+     "Font size/text-xs",
+     "F",
+     12
+    ],
+    [
+     "Line height/text-xxs",
+     "F",
+     16
+    ],
+    [
+     "Line height/text-xs",
+     "F",
+     18
+    ],
+    [
+     "Line height/text-sm",
+     "F",
+     20
+    ],
+    [
+     "Line height/text-md",
+     "F",
+     24
+    ],
+    [
+     "Line height/text-lg",
+     "F",
+     28
+    ],
+    [
+     "Line height/text-xl",
+     "F",
+     30
+    ],
+    [
+     "Line height/display-xs",
+     "F",
+     32
+    ],
+    [
+     "Line height/display-sm",
+     "F",
+     38
+    ],
+    [
+     "Line height/display-md",
+     "F",
+     44
+    ],
+    [
+     "Line height/display-lg",
+     "F",
+     60
+    ],
+    [
+     "Line height/display-xl",
+     "F",
+     72
+    ],
+    [
+     "Line height/display-2xl",
+     "F",
+     90
+    ],
+    [
+     "Font size/text-sm",
+     "F",
+     14
+    ],
+    [
+     "Font size/text-md",
+     "F",
+     16
+    ],
+    [
+     "Font size/text-lg",
+     "F",
+     18
+    ],
+    [
+     "Font size/text-xl",
+     "F",
+     20
+    ],
+    [
+     "Font size/display-xxs",
+     "F",
+     24
+    ],
+    [
+     "Font size/display-xs",
+     "F",
+     28
+    ],
+    [
+     "Font size/display-sm",
+     "F",
+     30
+    ],
+    [
+     "Font size/display-md",
+     "F",
+     36
+    ],
+    [
+     "Font size/display-lg",
+     "F",
+     48
+    ],
+    [
+     "Font size/display-xl",
+     "F",
+     60
+    ],
+    [
+     "Font size/display-2xl",
+     "F",
+     72
+    ]
+   ]
+  }
+ }
+}

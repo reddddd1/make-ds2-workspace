@@ -1,7 +1,6 @@
 # Figma Slots strategy
 
-> **Status: PROPOSED — not approved.** Generated from `docs/audit.md` (2026-11-09). Labels: VERIFIED · APPROVED (cites an ADR) · PROPOSED · UNVERIFIED · BLOCKED.
-> Claude Code must not act on anything here until Mike approves the matching decision (see `docs/decisions.md`).
+> **Decision status (2026-11-09):** Modal body is the first native-Slot candidate, **approved for planning only** (D-06). Verify API/MCP support read-only (P1-11). No slot creation in Phase 1. Card rows are superseded: no new Card now (D-07).
 
 ### 5. Figma Slots candidates
 

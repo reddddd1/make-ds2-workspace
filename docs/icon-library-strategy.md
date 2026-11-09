@@ -1,7 +1,6 @@
 # Icon-library strategy
 
-> **Status: PROPOSED — not approved.** Generated from `docs/audit.md` (2026-11-09). Labels: VERIFIED · APPROVED (cites an ADR) · PROPOSED · UNVERIFIED · BLOCKED.
-> Claude Code must not act on anything here until Mike approves the matching decision (see `docs/decisions.md`).
+> **Decision status (2026-11-09):** keep the MAKER Icon library. Parent-level icon swaps for Button/Input are **approved for planning only** (D-04). No component edits in Phase 1.
 
 ### 6. Icon-library strategy
 

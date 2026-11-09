@@ -1,5 +1,7 @@
 # MAKE DS2 — Refactoring Audit & Implementation Plan
 
+> **Snapshot of 2026-11-09, before approval.** Decision statuses here are superseded by `docs/decisions.md`; the Phase 1 backlog in `docs/implementation-plan.md` replaces §11.
+
 - **Date:** 2026-11-09
 - **Prepared by:** Claude (Cowork), audit and planning only
 - **Mode:** AUDIT AND PLANNING ONLY. Nothing in Figma, the token repo or any production code was changed.

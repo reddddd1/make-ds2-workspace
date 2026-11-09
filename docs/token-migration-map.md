@@ -1,7 +1,6 @@
 # Token migration map
 
-> **Status: PROPOSED — not approved.** Generated from `docs/audit.md` (2026-11-09). Labels: VERIFIED · APPROVED (cites an ADR) · PROPOSED · UNVERIFIED · BLOCKED.
-> Claude Code must not act on anything here until Mike approves the matching decision (see `docs/decisions.md`).
+> **Decision status (2026-11-09):** rows marked APPROVED cite existing ADRs/proposals in `design-tokens`. Everything else is PROPOSED. The 171 component colours are **deferred and preserved** (D-05; inventory in P1-07). No token or variable writes in Phase 1; sync is conditional (D-03).
 
 ### 7. Token migration proposal
 

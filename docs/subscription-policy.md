@@ -1,7 +1,6 @@
 # Tokens Studio subscription policy and status
 
-> **Status: PROPOSED — not approved.** Generated from `docs/audit.md` (2026-11-09). Labels: VERIFIED · APPROVED (cites an ADR) · PROPOSED · UNVERIFIED · BLOCKED.
-> Claude Code must not act on anything here until Mike approves the matching decision (see `docs/decisions.md`).
+> **Status (2026-11-09):** policy APPROVED (brief). Operating rule confirmed by Mike: **remain on Tokens Studio Free; notify if a verified paid feature becomes necessary.** Formal D-11 deferred.
 
 ## Policy (from Mike's brief, 2026-11-09)
 

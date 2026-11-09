@@ -1,7 +1,6 @@
 # Component guidelines
 
-> **Status: PROPOSED — not approved.** Generated from `docs/audit.md` (2026-11-09). Labels: VERIFIED · APPROVED (cites an ADR) · PROPOSED · UNVERIFIED · BLOCKED.
-> Claude Code must not act on anything here until Mike approves the matching decision (see `docs/decisions.md`).
+> **Decision status (2026-11-09):** classifications are PROPOSED. Button + Input changes approved for **planning only** (D-04). Alert replaces Card as the 4th pilot (D-07). Single-option axis removal deferred (D-08). Secondary border deferred (D-09). No component edits in Phase 1.
 
 ### 4. Component architecture findings
 

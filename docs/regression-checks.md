@@ -1,7 +1,6 @@
 # Regression checks and acceptance criteria
 
-> **Status: PROPOSED — not approved.** Generated from `docs/audit.md` (2026-11-09). Labels: VERIFIED · APPROVED (cites an ADR) · PROPOSED · UNVERIFIED · BLOCKED.
-> Claude Code must not act on anything here until Mike approves the matching decision (see `docs/decisions.md`).
+> **Status:** APPROVED as requirements for all structural changes (brief §8). In Phase 1 these are built as **read-only checkers** (P1-08); no structural change is made in Phase 1.
 
 ### 13. Acceptance criteria
 

@@ -1,0 +1,14 @@
+{
+ "sets": {
+  "Buttons/Button": {
+   "scope": {
+    "Icon only": [
+     "False"
+    ]
+   }
+  }
+ },
+ "allowPropDefsChange": [
+  "Buttons/Button"
+ ]
+}

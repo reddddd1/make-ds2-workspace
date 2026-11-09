@@ -1,0 +1,675 @@
+{
+ "readAt": "2026-11-09T18:17:23.184Z",
+ "defs": [
+  [
+   "Loading text#8994:0",
+   "BOOLEAN",
+   true
+  ],
+  [
+   "Show L icon#21269:56",
+   "BOOLEAN",
+   true
+  ],
+  [
+   "Show R icon#21269:175",
+   "BOOLEAN",
+   true
+  ],
+  [
+   "Label#23477:0",
+   "TEXT",
+   "Button"
+  ],
+  [
+   "Size",
+   "VARIANT",
+   "xxs"
+  ],
+  [
+   "Hierarchy",
+   "VARIANT",
+   "Primary"
+  ],
+  [
+   "State",
+   "VARIANT",
+   "Default"
+  ],
+  [
+   "Icon only",
+   "VARIANT",
+   "False"
+  ]
+ ],
+ "mainLabels": [
+  "Button"
+ ],
+ "instanceCount": 104,
+ "rows": [
+  [
+   "3292:567168",
+   "Apply",
+   "Apply",
+   "Label#23477:0"
+  ],
+  [
+   "3292:567023",
+   "Apply",
+   "Apply",
+   "Label#23477:0"
+  ],
+  [
+   "3292:566832",
+   "Apply",
+   "Apply",
+   "Label#23477:0"
+  ],
+  [
+   "1150:1015",
+   "Apply",
+   "Apply",
+   "Label#23477:0"
+  ],
+  [
+   "21495:14981",
+   "Main action",
+   "Main action",
+   "Label#23477:0"
+  ],
+  [
+   "21495:14980",
+   "Secondary action",
+   "Secondary action",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86805",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86854",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86676",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86861",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "21258:5649",
+   "Main action",
+   "Main action",
+   "Label#23477:0"
+  ],
+  [
+   "4050:412618",
+   "Secondary action",
+   "Secondary action",
+   "Label#23477:0"
+  ],
+  [
+   "21258:5629",
+   "Main action",
+   "Main action",
+   "Label#23477:0"
+  ],
+  [
+   "21258:5610",
+   "Main action",
+   "Main action",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86662",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "21258:5628",
+   "Secondary action",
+   "Secondary action",
+   "Label#23477:0"
+  ],
+  [
+   "21258:5648",
+   "Secondary action",
+   "Secondary action",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86840",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86819",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86847",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86868",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86833",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86812",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86669",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "21258:5559",
+   "Main action",
+   "Main action",
+   "Label#23477:0"
+  ],
+  [
+   "21258:5609",
+   "Secondary action",
+   "Secondary action",
+   "Label#23477:0"
+  ],
+  [
+   "3531:403416",
+   "Copy",
+   "Copy",
+   "Label#23477:0"
+  ],
+  [
+   "1150:24444",
+   "Jan 10, 2025 – Jan 16, 2025",
+   "Jan 10, 2025 – Jan 16, 2025",
+   "Label#23477:0"
+  ],
+  [
+   "1150:22834",
+   "Jan 10, 2025 – Jan 16, 2025",
+   "Jan 10, 2025 – Jan 16, 2025",
+   "Label#23477:0"
+  ],
+  [
+   "3292:566831",
+   "Cancel",
+   "Cancel",
+   "Label#23477:0"
+  ],
+  [
+   "3531:403407",
+   "Copy",
+   "Copy",
+   "Label#23477:0"
+  ],
+  [
+   "3531:403369",
+   "Copy",
+   "Copy",
+   "Label#23477:0"
+  ],
+  [
+   "3292:569424",
+   "Today",
+   "Today",
+   "Label#23477:0"
+  ],
+  [
+   "3292:567167",
+   "Cancel",
+   "Cancel",
+   "Label#23477:0"
+  ],
+  [
+   "1150:22831",
+   "Jan 10, 2025",
+   "Jan 10, 2025",
+   "Label#23477:0"
+  ],
+  [
+   "3281:383096",
+   "Account",
+   "Account",
+   "Label#23477:0"
+  ],
+  [
+   "3531:403321",
+   "Copy",
+   "Copy",
+   "Label#23477:0"
+  ],
+  [
+   "1150:24450",
+   "Select dates",
+   "Select dates",
+   "Label#23477:0"
+  ],
+  [
+   "3531:403350",
+   "Copy",
+   "Copy",
+   "Label#23477:0"
+  ],
+  [
+   "1150:24441",
+   "Jan 10, 2025",
+   "Jan 10, 2025",
+   "Label#23477:0"
+  ],
+  [
+   "3531:403312",
+   "Copy",
+   "Copy",
+   "Label#23477:0"
+  ],
+  [
+   "1150:1014",
+   "Cancel",
+   "Cancel",
+   "Label#23477:0"
+  ],
+  [
+   "1150:24447",
+   "Select date",
+   "Select date",
+   "Label#23477:0"
+  ],
+  [
+   "3531:403378",
+   "Copy",
+   "Copy",
+   "Label#23477:0"
+  ],
+  [
+   "3292:567022",
+   "Cancel",
+   "Cancel",
+   "Label#23477:0"
+  ],
+  [
+   "3292:569925",
+   "Today",
+   "Today",
+   "Label#23477:0"
+  ],
+  [
+   "1150:22837",
+   "Select date",
+   "Select date",
+   "Label#23477:0"
+  ],
+  [
+   "1150:22840",
+   "Select dates",
+   "Select dates",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86826",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86875",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86882",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86690",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "3287:439970",
+   "Account",
+   "Account",
+   "Label#23477:0"
+  ],
+  [
+   "1150:20591",
+   "Jan 10, 2025",
+   "Jan 10, 2025",
+   "Label#23477:0"
+  ],
+  [
+   "1150:20597",
+   "Select date",
+   "Select date",
+   "Label#23477:0"
+  ],
+  [
+   "1150:18449",
+   "Select date",
+   "Select date",
+   "Label#23477:0"
+  ],
+  [
+   "1150:20594",
+   "Jan 10, 2025 – Jan 16, 2025",
+   "Jan 10, 2025 – Jan 16, 2025",
+   "Label#23477:0"
+  ],
+  [
+   "1150:18446",
+   "Jan 10, 2025",
+   "Jan 10, 2025",
+   "Label#23477:0"
+  ],
+  [
+   "1150:16806",
+   "Jan 10, 2025 – Jan 16, 2025",
+   "Jan 10, 2025 – Jan 16, 2025",
+   "Label#23477:0"
+  ],
+  [
+   "1150:16151",
+   "Select dates",
+   "Select dates",
+   "Label#23477:0"
+  ],
+  [
+   "1150:20600",
+   "Select dates",
+   "Select dates",
+   "Label#23477:0"
+  ],
+  [
+   "4057:414908",
+   "Confirm",
+   "Confirm",
+   "Label#23477:0"
+  ],
+  [
+   "4057:414921",
+   "Confirm",
+   "Confirm",
+   "Label#23477:0"
+  ],
+  [
+   "4057:414640",
+   "Confirm",
+   "Confirm",
+   "Label#23477:0"
+  ],
+  [
+   "3309:409337",
+   "Copy",
+   "Copy",
+   "Label#23477:0"
+  ],
+  [
+   "3309:409563",
+   "Copy",
+   "Copy",
+   "Label#23477:0"
+  ],
+  [
+   "3309:409545",
+   "Copy",
+   "Copy",
+   "Label#23477:0"
+  ],
+  [
+   "4057:414922",
+   "Cancel",
+   "Cancel",
+   "Label#23477:0"
+  ],
+  [
+   "3309:409277",
+   "Copy",
+   "Copy",
+   "Label#23477:0"
+  ],
+  [
+   "4057:414909",
+   "Cancel",
+   "Cancel",
+   "Label#23477:0"
+  ],
+  [
+   "3309:409554",
+   "Copy",
+   "Copy",
+   "Label#23477:0"
+  ],
+  [
+   "3309:409351",
+   "Copy",
+   "Copy",
+   "Label#23477:0"
+  ],
+  [
+   "3309:409325",
+   "Copy",
+   "Copy",
+   "Label#23477:0"
+  ],
+  [
+   "4057:414641",
+   "Cancel",
+   "Cancel",
+   "Label#23477:0"
+  ],
+  [
+   "21539:9600",
+   null,
+   "Button",
+   null
+  ],
+  [
+   "21539:9594",
+   null,
+   "Button",
+   null
+  ],
+  [
+   "21539:9570",
+   null,
+   "Button",
+   null
+  ],
+  [
+   "21495:14720",
+   "Primary",
+   "Primary",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86791",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86784",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86704",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86619",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1150:1946",
+   "Last month",
+   "Last month",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86697",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86749",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86648",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86756",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1150:1945",
+   "Last week",
+   "Last week",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86763",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1150:1947",
+   "Last year",
+   "Last year",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86735",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86530",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86777",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "7891:88096",
+   "Add account",
+   "Add account",
+   "Label#23477:0"
+  ],
+  [
+   "7912:554759",
+   "Verify another way",
+   "Verify another way",
+   "Label#23477:0"
+  ],
+  [
+   "7893:122811",
+   "Add account",
+   "Add account",
+   "Label#23477:0"
+  ],
+  [
+   "7910:530423",
+   "Continue",
+   "Continue",
+   "Label#23477:0"
+  ],
+  [
+   "21495:14721",
+   "Secondary",
+   "Secondary",
+   "Label#23477:0"
+  ],
+  [
+   "7907:529803",
+   "Chat to support",
+   "Chat to support",
+   "Label#23477:0"
+  ],
+  [
+   "7910:530462",
+   "Continue setup",
+   "Continue setup",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86770",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86798",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86655",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ],
+  [
+   "1142:86742",
+   "Edit",
+   "Edit",
+   "Label#23477:0"
+  ]
+ ]
+}

@@ -1,0 +1,579 @@
+{
+ "variantCount": 118,
+ "problems": [],
+ "defs": [
+  [
+   "Loading text#8994:0",
+   "BOOLEAN",
+   true
+  ],
+  [
+   "Show L icon#21269:56",
+   "BOOLEAN",
+   true
+  ],
+  [
+   "Show R icon#21269:175",
+   "BOOLEAN",
+   true
+  ],
+  [
+   "Size",
+   "VARIANT",
+   "xxs"
+  ],
+  [
+   "Hierarchy",
+   "VARIANT",
+   "Primary"
+  ],
+  [
+   "State",
+   "VARIANT",
+   "Default"
+  ],
+  [
+   "Icon only",
+   "VARIANT",
+   "False"
+  ]
+ ],
+ "labelChars": [
+  "{CTA Label}"
+ ],
+ "labelPaths": [
+  "Text padding › Text",
+  "Size=md, Hierarchy=Link brand, State=Default, Icon only=False › Text",
+  "Size=md, Hierarchy=Link brand, State=Disabled, Icon only=False › Text",
+  "Size=md, Hierarchy=Link brand, State=Focused, Icon only=False › Text",
+  "Size=md, Hierarchy=Link brand, State=Hover, Icon only=False › Text",
+  "Size=md, Hierarchy=Link brand, State=Loading, Icon only=False › Text",
+  "Size=lg, Hierarchy=Link brand, State=Default, Icon only=False › Text",
+  "Size=lg, Hierarchy=Link brand, State=Disabled, Icon only=False › Text",
+  "Size=lg, Hierarchy=Link brand, State=Focused, Icon only=False › Text",
+  "Size=lg, Hierarchy=Link brand, State=Hover, Icon only=False › Text",
+  "Size=lg, Hierarchy=Link brand, State=Loading, Icon only=False › Text",
+  "Size=sm, Hierarchy=Link brand, State=Default, Icon only=False › Text",
+  "Size=xxs, Hierarchy=Link brand, State=Default, Icon only=False › Text",
+  "Size=sm, Hierarchy=Link brand, State=Disabled, Icon only=False › Text",
+  "Size=xxs, Hierarchy=Link brand, State=Disabled, Icon only=False › Text",
+  "Size=sm, Hierarchy=Link brand, State=Focused, Icon only=False › Text",
+  "Size=xxs, Hierarchy=Link brand, State=Focused, Icon only=False › Text",
+  "Size=sm, Hierarchy=Link brand, State=Hover, Icon only=False › Text",
+  "Size=xxs, Hierarchy=Link brand, State=Hover, Icon only=False › Text",
+  "Size=sm, Hierarchy=Link brand, State=Loading, Icon only=False › Text",
+  "Size=xxs, Hierarchy=Link brand, State=Loading, Icon only=False › Text"
+ ],
+ "instanceCount": 104,
+ "iconOnlyInstances": 3,
+ "labelCounts": {
+  "override": 101
+ },
+ "overrides": [
+  [
+   "3292:567168",
+   "↳ Date pickers",
+   "Apply"
+  ],
+  [
+   "3292:567023",
+   "↳ Date pickers",
+   "Apply"
+  ],
+  [
+   "3292:566832",
+   "↳ Date pickers",
+   "Apply"
+  ],
+  [
+   "1150:1015",
+   "↳ Date pickers",
+   "Apply"
+  ],
+  [
+   "21495:14981",
+   "↳ App Navigation",
+   "Main action"
+  ],
+  [
+   "21495:14980",
+   "↳ App Navigation",
+   "Secondary action"
+  ],
+  [
+   "1142:86805",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1142:86854",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1142:86676",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1142:86861",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "21258:5649",
+   "↳ Alerts & notifications",
+   "Main action"
+  ],
+  [
+   "4050:412618",
+   "↳ Alerts & notifications",
+   "Secondary action"
+  ],
+  [
+   "21258:5629",
+   "↳ Alerts & notifications",
+   "Main action"
+  ],
+  [
+   "21258:5610",
+   "↳ Alerts & notifications",
+   "Main action"
+  ],
+  [
+   "1142:86662",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "21258:5628",
+   "↳ Alerts & notifications",
+   "Secondary action"
+  ],
+  [
+   "21258:5648",
+   "↳ Alerts & notifications",
+   "Secondary action"
+  ],
+  [
+   "1142:86840",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1142:86819",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1142:86847",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1142:86868",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1142:86833",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1142:86812",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1142:86669",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "21258:5559",
+   "↳ Alerts & notifications",
+   "Main action"
+  ],
+  [
+   "21258:5609",
+   "↳ Alerts & notifications",
+   "Secondary action"
+  ],
+  [
+   "3531:403416",
+   null,
+   "Copy"
+  ],
+  [
+   "1150:24444",
+   "↳ Date pickers",
+   "Jan 10, 2025 – Jan 16, 2025"
+  ],
+  [
+   "1150:22834",
+   "↳ Date pickers",
+   "Jan 10, 2025 – Jan 16, 2025"
+  ],
+  [
+   "3292:566831",
+   "↳ Date pickers",
+   "Cancel"
+  ],
+  [
+   "3531:403407",
+   null,
+   "Copy"
+  ],
+  [
+   "3531:403369",
+   null,
+   "Copy"
+  ],
+  [
+   "3292:569424",
+   "↳ Date pickers",
+   "Today"
+  ],
+  [
+   "3292:567167",
+   "↳ Date pickers",
+   "Cancel"
+  ],
+  [
+   "1150:22831",
+   "↳ Date pickers",
+   "Jan 10, 2025"
+  ],
+  [
+   "3281:383096",
+   "↳ Dropdowns",
+   "Account"
+  ],
+  [
+   "3531:403321",
+   null,
+   "Copy"
+  ],
+  [
+   "1150:24450",
+   "↳ Date pickers",
+   "Select dates"
+  ],
+  [
+   "3531:403350",
+   null,
+   "Copy"
+  ],
+  [
+   "1150:24441",
+   "↳ Date pickers",
+   "Jan 10, 2025"
+  ],
+  [
+   "3531:403312",
+   null,
+   "Copy"
+  ],
+  [
+   "1150:1014",
+   "↳ Date pickers",
+   "Cancel"
+  ],
+  [
+   "1150:24447",
+   "↳ Date pickers",
+   "Select date"
+  ],
+  [
+   "3531:403378",
+   null,
+   "Copy"
+  ],
+  [
+   "3292:567022",
+   "↳ Date pickers",
+   "Cancel"
+  ],
+  [
+   "3292:569925",
+   "↳ Date pickers",
+   "Today"
+  ],
+  [
+   "1150:22837",
+   "↳ Date pickers",
+   "Select date"
+  ],
+  [
+   "1150:22840",
+   "↳ Date pickers",
+   "Select dates"
+  ],
+  [
+   "1142:86826",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1142:86875",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1142:86882",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1142:86690",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "3287:439970",
+   "↳ Dropdowns",
+   "Account"
+  ],
+  [
+   "1150:20591",
+   "↳ Date pickers",
+   "Jan 10, 2025"
+  ],
+  [
+   "1150:20597",
+   "↳ Date pickers",
+   "Select date"
+  ],
+  [
+   "1150:18449",
+   "↳ Date pickers",
+   "Select date"
+  ],
+  [
+   "1150:20594",
+   "↳ Date pickers",
+   "Jan 10, 2025 – Jan 16, 2025"
+  ],
+  [
+   "1150:18446",
+   "↳ Date pickers",
+   "Jan 10, 2025"
+  ],
+  [
+   "1150:16806",
+   "↳ Date pickers",
+   "Jan 10, 2025 – Jan 16, 2025"
+  ],
+  [
+   "1150:16151",
+   "↳ Date pickers",
+   "Select dates"
+  ],
+  [
+   "1150:20600",
+   "↳ Date pickers",
+   "Select dates"
+  ],
+  [
+   "4057:414908",
+   "↳ Modals",
+   "Confirm"
+  ],
+  [
+   "4057:414921",
+   "↳ Modals",
+   "Confirm"
+  ],
+  [
+   "4057:414640",
+   "↳ Modals",
+   "Confirm"
+  ],
+  [
+   "3309:409337",
+   null,
+   "Copy"
+  ],
+  [
+   "3309:409563",
+   null,
+   "Copy"
+  ],
+  [
+   "3309:409545",
+   null,
+   "Copy"
+  ],
+  [
+   "4057:414922",
+   "↳ Modals",
+   "Cancel"
+  ],
+  [
+   "3309:409277",
+   null,
+   "Copy"
+  ],
+  [
+   "4057:414909",
+   "↳ Modals",
+   "Cancel"
+  ],
+  [
+   "3309:409554",
+   null,
+   "Copy"
+  ],
+  [
+   "3309:409351",
+   null,
+   "Copy"
+  ],
+  [
+   "3309:409325",
+   null,
+   "Copy"
+  ],
+  [
+   "4057:414641",
+   "↳ Modals",
+   "Cancel"
+  ],
+  [
+   "21495:14720",
+   "↳ App Navigation",
+   "Primary"
+  ],
+  [
+   "1142:86791",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1142:86784",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1142:86704",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1142:86619",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1150:1946",
+   "↳ Date pickers",
+   "Last month"
+  ],
+  [
+   "1142:86697",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1142:86749",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1142:86648",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1142:86756",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1150:1945",
+   "↳ Date pickers",
+   "Last week"
+  ],
+  [
+   "1142:86763",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1150:1947",
+   "↳ Date pickers",
+   "Last year"
+  ],
+  [
+   "1142:86735",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1142:86530",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1142:86777",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "7891:88096",
+   null,
+   "Add account"
+  ],
+  [
+   "7912:554759",
+   "↳ App Navigation",
+   "Verify another way"
+  ],
+  [
+   "7893:122811",
+   null,
+   "Add account"
+  ],
+  [
+   "7910:530423",
+   "↳ App Navigation",
+   "Continue"
+  ],
+  [
+   "21495:14721",
+   "↳ App Navigation",
+   "Secondary"
+  ],
+  [
+   "7907:529803",
+   "↳ App Navigation",
+   "Chat to support"
+  ],
+  [
+   "7910:530462",
+   "↳ App Navigation",
+   "Continue setup"
+  ],
+  [
+   "1142:86770",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1142:86798",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1142:86655",
+   "↳ Radio groups",
+   "Edit"
+  ],
+  [
+   "1142:86742",
+   "↳ Radio groups",
+   "Edit"
+  ]
+ ]
+}

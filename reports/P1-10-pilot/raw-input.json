@@ -1,0 +1,737 @@
+{
+ "set": "Input field",
+ "defs": [
+  [
+   "Size",
+   "VARIANT"
+  ],
+  [
+   "Type",
+   "VARIANT"
+  ],
+  [
+   "Destructive",
+   "VARIANT"
+  ],
+  [
+   "State",
+   "VARIANT"
+  ]
+ ],
+ "wrapperSetInfo": {
+  "remote": true,
+  "key": "b8295cee7375c7b7216cb412047f771ce86fbf9d",
+  "swapDefs": [
+   {
+    "name": "Icon",
+    "preferred": 1
+   },
+   {
+    "name": "Currency",
+    "preferred": 1
+   },
+   {
+    "name": "Crypto",
+    "preferred": 130
+   }
+  ]
+ },
+ "variants": [
+  {
+   "v": "sm, Default, False, Filled",
+   "texts": [
+    "0.0.0.0.1.0|Text|{Text}|v",
+    "0.0.0.0.1.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.1|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "sm, Search, False, Filled",
+   "texts": [
+    "0.0.1.0|Text|Search|v",
+    "0.0.1.1.0.0|Text|{Search string}|v"
+   ],
+   "inst": [
+    "0.0.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.2|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "sm, Search + Tags, False, Filled",
+   "texts": [
+    "0.0.1.2|Text|Larry|v"
+   ],
+   "inst": [
+    "0.0.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.1.0|Tag|Tag|v|",
+    "0.0.1.1|Tag|Tag|v|",
+    "0.0.2|Icon wrapper|Icon wrapper|h|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "sm, Default, True, Filled",
+   "texts": [
+    "0.0.0.0.1.0|Text|{Text}|v",
+    "0.0.0.0.1.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.1|Icon wrapper|Icon wrapper|h|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "sm, Search, True, Filled",
+   "texts": [
+    "0.0.1.0|Text|Search|v",
+    "0.0.1.1.0.0|Text|{Search string}|v"
+   ],
+   "inst": [
+    "0.0.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.2|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "sm, Search + Tags, True, Filled",
+   "texts": [
+    "0.0.1.2|Text|Larry|v"
+   ],
+   "inst": [
+    "0.0.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.1.0|Tag|Tag|v|",
+    "0.0.1.1|Tag|Tag|v|",
+    "0.0.2|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "sm, Default, False, Focused",
+   "texts": [
+    "0.0.0.1.0|Text|{Text}|v",
+    "0.0.0.1.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.0.2|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "sm, Search, False, Focused",
+   "texts": [
+    "0.0.1.0|Text|Search|v",
+    "0.0.1.1.0.0|Text|{Search string}|v"
+   ],
+   "inst": [
+    "0.0.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.2|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "sm, Search + Tags, False, Focused",
+   "texts": [
+    "0.0.1.2|Text|Larry|v"
+   ],
+   "inst": [
+    "0.0.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.1.0|Tag|Tag|v|",
+    "0.0.1.1|Tag|Tag|v|",
+    "0.0.2|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "sm, Default, False, Disabled",
+   "texts": [
+    "0.0.0.1.0|Text|{Text}|v",
+    "0.0.0.1.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.0.2|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "sm, Search, False, Disabled",
+   "texts": [
+    "0.0.0.1.0|Text|Search|v",
+    "0.0.0.1.1.0|Text|{Search string}|v",
+    "0.0.0.1.2.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.0.2|Icon wrapper|Icon wrapper|h|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "sm, Search + Tags, False, Disabled",
+   "texts": [],
+   "inst": [
+    "0.0.0.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.0.1.0|Tag|Tag|v|",
+    "0.0.0.1.1|Tag|Tag|v|",
+    "0.0.0.2|Icon wrapper|Icon wrapper|h|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "sm, Default, True, Disabled",
+   "texts": [
+    "0.0.0.1.0|Text|{Text}|v",
+    "0.0.0.1.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.0.2|Icon wrapper|Icon wrapper|h|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Default, False, Placeholder",
+   "texts": [
+    "0.0.0.0.0.0|Text|Placeholder text|v",
+    "0.0.0.0.0.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.1|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Password, False, Placeholder",
+   "texts": [
+    "0.0.0.0.0.0|Text|Password|v"
+   ],
+   "inst": [
+    "0.0.0.0.1|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Leading icon, False, Placeholder",
+   "texts": [
+    "0.0.0.0.1.0|Text|Placeholder text|v",
+    "0.0.0.0.1.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.0.0.2|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "sm, Default, False, Placeholder",
+   "texts": [
+    "0.0.0.1.0|Text|Placeholder text|v",
+    "0.0.0.1.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.0.2|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "sm, Search, False, Placeholder",
+   "texts": [
+    "0.0.0.1.0|Text|Search|v",
+    "0.0.0.1.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.0.2|Icon wrapper|Icon wrapper|h|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "sm, Search + Tags, False, Placeholder",
+   "texts": [
+    "0.0.0.1.0|Text|Search|v",
+    "0.0.0.1.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.0.2|Icon wrapper|Icon wrapper|h|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Default, True, Placeholder",
+   "texts": [
+    "0.0.0.0.0.0|Text|Placeholder text|v",
+    "0.0.0.0.0.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.1|Icon wrapper|Icon wrapper|h|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Password, True, Placeholder",
+   "texts": [
+    "0.0.0.0.0.0|Text|Password|v"
+   ],
+   "inst": [
+    "0.0.0.0.1|Icon wrapper|Icon wrapper|h|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Leading icon, True, Placeholder",
+   "texts": [
+    "0.0.0.0.1.0|Text|Placeholder text|v",
+    "0.0.0.0.1.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.0.0.2|Icon wrapper|Icon wrapper|h|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "sm, Default, True, Placeholder",
+   "texts": [
+    "0.0.0.1.0|Text|Placeholder text|v",
+    "0.0.0.1.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.0.2|Icon wrapper|Icon wrapper|h|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "sm, Search, True, Placeholder",
+   "texts": [
+    "0.0.0.1.0|Text|Search|v",
+    "0.0.0.1.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.0.2|Icon wrapper|Icon wrapper|h|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "sm, Search + Tags, True, Placeholder",
+   "texts": [
+    "0.0.0.1.0|Text|Search|v",
+    "0.0.0.1.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.0.2|Icon wrapper|Icon wrapper|h|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Leading drowdown, False, Placeholder",
+   "texts": [
+    "0.0.0.0.0|Text|JP|v",
+    "0.0.0.1.0.0|Text|+34 600 123 456|v",
+    "0.0.0.1.0.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.1|Icon wrapper|Icon wrapper|v|",
+    "0.0.0.1.1|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Payment, False, Placeholder",
+   "texts": [
+    "0.0.0.0.1.0|Text|Card number|v",
+    "0.0.0.0.1.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.0.0|Payment method icon|Payment method icon|v|",
+    "0.0.0.0.2|Radio / Checkbox|Radio / Checkbox|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Payment, True, Placeholder",
+   "texts": [
+    "0.0.0.0.1.0|Text|Card number|v",
+    "0.0.0.0.1.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.0.0|Payment method icon|Payment method icon|v|",
+    "0.0.0.0.2|Radio / Checkbox|Radio / Checkbox|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Payment, False, Disabled",
+   "texts": [
+    "0.0.0.0.1.0|Text|5424 9812 1891 9015|v",
+    "0.0.0.0.1.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.0.0|Payment method icon|Payment method icon|v|",
+    "0.0.0.0.2|Radio / Checkbox|Radio / Checkbox|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Payment, True, Disabled",
+   "texts": [
+    "0.0.0.0.1.0|Text|5424 9812 1891 9015|v",
+    "0.0.0.0.1.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.0.0|Payment method icon|Payment method icon|v|",
+    "0.0.0.0.2|Radio / Checkbox|Radio / Checkbox|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Leading drowdown, True, Placeholder",
+   "texts": [
+    "0.0.0.0.0|Text|JP|v",
+    "0.0.0.1.0.0|Text|+34 600 123 456|v",
+    "0.0.0.1.0.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.1|Icon wrapper|Icon wrapper|v|",
+    "0.0.0.1.1|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Leading drowdown, False, Filled",
+   "texts": [
+    "0.0.0.0.0|Text|JP|v",
+    "0.0.0.1.0|Text|Phone number|v",
+    "0.0.0.1.1.0.0|Text|+34 600 123 456|v",
+    "0.0.0.1.1.0.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.1|Icon wrapper|Icon wrapper|v|",
+    "0.0.0.2|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Payment, False, Filled",
+   "texts": [
+    "0.0.0.1.0|Text|Card number|v",
+    "0.0.0.1.1.0.0|Text|5424 9812 1891 9015|v",
+    "0.0.0.1.1.0.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.0|Payment method icon|Payment method icon|v|",
+    "0.0.0.2|Radio / Checkbox|Radio / Checkbox|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Payment, True, Filled",
+   "texts": [
+    "0.0.0.1.0|Text|Card number|v",
+    "0.0.0.1.1.0.0|Text|5424 9812 1891 9015|v",
+    "0.0.0.1.1.0.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.0|Payment method icon|Payment method icon|v|",
+    "0.0.0.2|Radio / Checkbox|Radio / Checkbox|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Payment, False, Focused",
+   "texts": [
+    "0.0.0.1.0|Text|Card number|v",
+    "0.0.0.1.1.0.0|Text|5424 9812 1891 9015|v",
+    "0.0.0.1.1.0.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.0|Payment method icon|Payment method icon|v|",
+    "0.0.0.2|Radio / Checkbox|Radio / Checkbox|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Leading drowdown, True, Filled",
+   "texts": [
+    "0.0.0.0.0|Text|JP|v",
+    "0.0.0.1.0|Text|Phone number|v",
+    "0.0.0.1.1.0.0|Text|+34 600 123 456|v",
+    "0.0.0.1.1.0.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.1|Icon wrapper|Icon wrapper|v|",
+    "0.0.0.2|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Leading drowdown, False, Focused",
+   "texts": [
+    "0.0.0.0.0|Text|JP|v",
+    "0.0.0.1.0|Text|Phone number|v",
+    "0.0.0.1.1.0.0|Text|+34 600 123 456|v",
+    "0.0.0.1.1.0.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.1|Icon wrapper|Icon wrapper|v|",
+    "0.0.0.2|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Leading drowdown, False, Disabled",
+   "texts": [
+    "0.0.0.0.0|Text|JP|v",
+    "0.0.0.1.0|Text|Phone number|v",
+    "0.0.0.1.1.0.0|Text|+34 600 123 456|v",
+    "0.0.0.1.1.0.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.1|Icon wrapper|Icon wrapper|v|",
+    "0.0.0.2|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Leading drowdown, True, Disabled",
+   "texts": [
+    "0.0.0.0.0|Text|JP|v",
+    "0.0.0.1.0|Text|Phone number|v",
+    "0.0.0.1.1.0.0|Text|+34 600 123 456|v",
+    "0.0.0.1.1.0.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.1|Icon wrapper|Icon wrapper|v|",
+    "0.0.0.2|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Default, False, Filled",
+   "texts": [
+    "0.0.0.0.0|Text|Label|v",
+    "0.0.0.0.1.0.0|Text|{Text}|v",
+    "0.0.0.0.1.0.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.1|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Password, False, Filled",
+   "texts": [
+    "0.0.0.0|Text|Password|v",
+    "0.0.0.1.0.0|Text|●●●●●●●●|v"
+   ],
+   "inst": [
+    "0.0.1|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Leading icon, False, Filled",
+   "texts": [
+    "0.0.0.0.0|Text|Label|v",
+    "0.0.0.0.1.1.0|Text|{Text}|v",
+    "0.0.0.0.1.1.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.1.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.0.1|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Default, True, Filled",
+   "texts": [
+    "0.0.0.0.0|Text|Label|v",
+    "0.0.0.0.1.0.0|Text|{Text}|v",
+    "0.0.0.0.1.0.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.1|Icon wrapper|Icon wrapper|h|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Password, True, Filled",
+   "texts": [
+    "0.0.0.0.0|Text|Password|v",
+    "0.0.0.0.1.0.0|Text|●●●●●●●●|v"
+   ],
+   "inst": [
+    "0.0.0.1|Icon wrapper|Icon wrapper|h|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Leading icon, True, Filled",
+   "texts": [
+    "0.0.0.0.0|Text|Label|v",
+    "0.0.0.0.1.1.0|Text|{Text}|v",
+    "0.0.0.0.1.1.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.1.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.0.1|Icon wrapper|Icon wrapper|h|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Default, False, Focused",
+   "texts": [
+    "0.0.0.0.0.0|Text|{Text}|v",
+    "0.0.0.0.0.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.1|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Password, False, Focused",
+   "texts": [
+    "0.0.0.0.0|Text|Password|v",
+    "0.0.0.0.1.0.0|Text|●●●●●●●●|v"
+   ],
+   "inst": [
+    "0.0.0.1|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Leading icon, False, Focused",
+   "texts": [
+    "0.0.0.0.1.0|Text|{Text}|v",
+    "0.0.0.0.1.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.0.0.2|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Default, False, Disabled",
+   "texts": [
+    "0.0.0.0.0.0|Label|Label|v",
+    "0.0.0.0.0.1|Text|{Text}|v",
+    "0.0.0.0.0.2.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.1|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Password, False, Disabled",
+   "texts": [
+    "0.0.0.0.0.0|Text|●●●●●●●●|v"
+   ],
+   "inst": [
+    "0.0.0.0.1|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Leading icon, False, Disabled",
+   "texts": [
+    "0.0.0.0.1.0|Text|{Text}|v",
+    "0.0.0.0.1.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.0.0.2|Icon wrapper|Icon wrapper|v|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Default, True, Disabled",
+   "texts": [
+    "0.0.0.0.0.0|Text|{Text}|v",
+    "0.0.0.0.0.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.1|Icon wrapper|Icon wrapper|h|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  },
+  {
+   "v": "lg, Leading icon, True, Disabled",
+   "texts": [
+    "0.0.0.0.1.0|Text|{Text}|v",
+    "0.0.0.0.1.1.0|Text|Optional|v"
+   ],
+   "inst": [
+    "0.0.0.0.0|Icon wrapper|Icon wrapper|v|",
+    "0.0.0.0.2|Icon wrapper|Icon wrapper|h|",
+    "0.1|Helper text|Helper text|v|"
+   ],
+   "refs": []
+  }
+ ]
+}

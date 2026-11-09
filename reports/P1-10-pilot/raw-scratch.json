@@ -1,0 +1,649 @@
+{
+ "count": 44,
+ "instances": [
+  {
+   "screen": "L3 Sign in — loading",
+   "set": "Input field",
+   "variant": "lg, Default, False, Filled",
+   "props": {},
+   "texts": [
+    "Email *",
+    "alex@make.test *",
+    "Optional",
+    "{Support text}"
+   ],
+   "glyphs": [
+    "squircle-dashed"
+   ]
+  },
+  {
+   "screen": "L3 Sign in — loading",
+   "set": "Input field",
+   "variant": "lg, Password, False, Filled",
+   "props": {},
+   "texts": [
+    "Password",
+    "●●●●●●●●",
+    "{Support text}"
+   ],
+   "glyphs": [
+    "eye",
+    "squircle-dashed"
+   ]
+  },
+  {
+   "screen": "L3 Sign in — loading",
+   "set": "Buttons/Button",
+   "variant": "md, Link brand, Default, False",
+   "props": {
+    "Loading text": true,
+    "Show R icon": false,
+    "Show L icon": false
+   },
+   "texts": [
+    "Forgot password? *"
+   ],
+   "glyphs": []
+  },
+  {
+   "screen": "L3 Sign in — loading",
+   "set": "Buttons/Button",
+   "variant": "lg, Primary, Loading, False",
+   "props": {
+    "Show L icon": false,
+    "Show R icon": false,
+    "Loading text": true
+   },
+   "texts": [
+    "Signing in… *"
+   ],
+   "glyphs": []
+  },
+  {
+   "screen": "L3 Sign in — loading",
+   "set": "Buttons/Button",
+   "variant": "md, Link brand, Default, False",
+   "props": {
+    "Loading text": true,
+    "Show R icon": false,
+    "Show L icon": false
+   },
+   "texts": [
+    "Create account *"
+   ],
+   "glyphs": []
+  },
+  {
+   "screen": "L1 Sign in — default",
+   "set": "Input field",
+   "variant": "lg, Default, False, Filled",
+   "props": {},
+   "texts": [
+    "Email *",
+    "alex@make.test *",
+    "Optional",
+    "{Support text}"
+   ],
+   "glyphs": [
+    "squircle-dashed"
+   ]
+  },
+  {
+   "screen": "L1 Sign in — default",
+   "set": "Input field",
+   "variant": "lg, Password, False, Filled",
+   "props": {},
+   "texts": [
+    "Password",
+    "●●●●●●●●",
+    "{Support text}"
+   ],
+   "glyphs": [
+    "eye",
+    "squircle-dashed"
+   ]
+  },
+  {
+   "screen": "L1 Sign in — default",
+   "set": "Buttons/Button",
+   "variant": "md, Link brand, Default, False",
+   "props": {
+    "Loading text": true,
+    "Show R icon": false,
+    "Show L icon": false
+   },
+   "texts": [
+    "Forgot password? *"
+   ],
+   "glyphs": []
+  },
+  {
+   "screen": "L1 Sign in — default",
+   "set": "Buttons/Button",
+   "variant": "lg, Primary, Default, False",
+   "props": {
+    "Show R icon": true,
+    "Loading text": true,
+    "Show L icon": false
+   },
+   "texts": [
+    "Sign in *"
+   ],
+   "glyphs": [
+    "arrow-right"
+   ]
+  },
+  {
+   "screen": "L1 Sign in — default",
+   "set": "Buttons/Button",
+   "variant": "md, Link brand, Default, False",
+   "props": {
+    "Loading text": true,
+    "Show R icon": false,
+    "Show L icon": false
+   },
+   "texts": [
+    "Create account *"
+   ],
+   "glyphs": []
+  },
+  {
+   "screen": "L4 Forgot password",
+   "set": "Input field",
+   "variant": "lg, Default, False, Placeholder",
+   "props": {},
+   "texts": [
+    "Email *",
+    "alex@make.test *",
+    "{Support text}"
+   ],
+   "glyphs": [
+    "squircle-dashed"
+   ]
+  },
+  {
+   "screen": "L4 Forgot password",
+   "set": "Buttons/Button",
+   "variant": "lg, Primary, Default, False",
+   "props": {
+    "Show R icon": true,
+    "Loading text": true,
+    "Show L icon": false
+   },
+   "texts": [
+    "Send reset link *"
+   ],
+   "glyphs": [
+    "arrow-right"
+   ]
+  },
+  {
+   "screen": "L4 Forgot password",
+   "set": "Buttons/Button",
+   "variant": "lg, Secondary, Default, False",
+   "props": {
+    "Loading text": true,
+    "Show R icon": false,
+    "Show L icon": false
+   },
+   "texts": [
+    "Back to sign in *"
+   ],
+   "glyphs": []
+  },
+  {
+   "screen": "L5 Create account",
+   "set": "Input field",
+   "variant": "lg, Default, False, Placeholder",
+   "props": {},
+   "texts": [
+    "Email *",
+    "alex@make.test *",
+    "{Support text}"
+   ],
+   "glyphs": [
+    "squircle-dashed"
+   ]
+  },
+  {
+   "screen": "L5 Create account",
+   "set": "Input field",
+   "variant": "lg, Password, False, Placeholder",
+   "props": {},
+   "texts": [
+    "Password",
+    "{Support text}"
+   ],
+   "glyphs": [
+    "info",
+    "squircle-dashed"
+   ]
+  },
+  {
+   "screen": "L5 Create account",
+   "set": "Buttons/Button",
+   "variant": "lg, Primary, Default, False",
+   "props": {
+    "Show R icon": true,
+    "Loading text": true,
+    "Show L icon": false
+   },
+   "texts": [
+    "Create account *"
+   ],
+   "glyphs": [
+    "arrow-right"
+   ]
+  },
+  {
+   "screen": "L5 Create account",
+   "set": "Buttons/Button",
+   "variant": "md, Link brand, Default, False",
+   "props": {
+    "Loading text": true,
+    "Show R icon": false,
+    "Show L icon": false
+   },
+   "texts": [
+    "Sign in *"
+   ],
+   "glyphs": []
+  },
+  {
+   "screen": "D1 Sign in — default — dark",
+   "set": "Input field",
+   "variant": "lg, Default, False, Filled",
+   "props": {},
+   "texts": [
+    "Email *",
+    "alex@make.test *",
+    "Optional",
+    "{Support text}"
+   ],
+   "glyphs": [
+    "squircle-dashed"
+   ]
+  },
+  {
+   "screen": "D1 Sign in — default — dark",
+   "set": "Input field",
+   "variant": "lg, Password, False, Filled",
+   "props": {},
+   "texts": [
+    "Password",
+    "●●●●●●●●",
+    "{Support text}"
+   ],
+   "glyphs": [
+    "eye",
+    "squircle-dashed"
+   ]
+  },
+  {
+   "screen": "D1 Sign in — default — dark",
+   "set": "Buttons/Button",
+   "variant": "md, Link brand, Default, False",
+   "props": {
+    "Loading text": true,
+    "Show R icon": false,
+    "Show L icon": false
+   },
+   "texts": [
+    "Forgot password? *"
+   ],
+   "glyphs": []
+  },
+  {
+   "screen": "D1 Sign in — default — dark",
+   "set": "Buttons/Button",
+   "variant": "lg, Primary, Default, False",
+   "props": {
+    "Show R icon": true,
+    "Loading text": true,
+    "Show L icon": false
+   },
+   "texts": [
+    "Sign in *"
+   ],
+   "glyphs": [
+    "arrow-right"
+   ]
+  },
+  {
+   "screen": "D1 Sign in — default — dark",
+   "set": "Buttons/Button",
+   "variant": "md, Link brand, Default, False",
+   "props": {
+    "Loading text": true,
+    "Show R icon": false,
+    "Show L icon": false
+   },
+   "texts": [
+    "Create account *"
+   ],
+   "glyphs": []
+  },
+  {
+   "screen": "D2 Sign in — error — dark",
+   "set": "Input field",
+   "variant": "lg, Default, True, Filled",
+   "props": {},
+   "texts": [
+    "Email *",
+    "alex@make *",
+    "Optional",
+    "Enter a valid email address. *"
+   ],
+   "glyphs": [
+    "circle-alert"
+   ]
+  },
+  {
+   "screen": "D2 Sign in — error — dark",
+   "set": "Input field",
+   "variant": "lg, Password, False, Filled",
+   "props": {},
+   "texts": [
+    "Password",
+    "●●●●●●●●",
+    "{Support text}"
+   ],
+   "glyphs": [
+    "eye",
+    "squircle-dashed"
+   ]
+  },
+  {
+   "screen": "D2 Sign in — error — dark",
+   "set": "Buttons/Button",
+   "variant": "md, Link brand, Default, False",
+   "props": {
+    "Loading text": true,
+    "Show R icon": false,
+    "Show L icon": false
+   },
+   "texts": [
+    "Forgot password? *"
+   ],
+   "glyphs": []
+  },
+  {
+   "screen": "D2 Sign in — error — dark",
+   "set": "Buttons/Button",
+   "variant": "lg, Primary, Default, False",
+   "props": {
+    "Show R icon": true,
+    "Loading text": true,
+    "Show L icon": false
+   },
+   "texts": [
+    "Sign in *"
+   ],
+   "glyphs": [
+    "arrow-right"
+   ]
+  },
+  {
+   "screen": "D2 Sign in — error — dark",
+   "set": "Buttons/Button",
+   "variant": "md, Link brand, Default, False",
+   "props": {
+    "Loading text": true,
+    "Show R icon": false,
+    "Show L icon": false
+   },
+   "texts": [
+    "Create account *"
+   ],
+   "glyphs": []
+  },
+  {
+   "screen": "D3 Sign in — loading — dark",
+   "set": "Input field",
+   "variant": "lg, Default, False, Filled",
+   "props": {},
+   "texts": [
+    "Email *",
+    "alex@make.test *",
+    "Optional",
+    "{Support text}"
+   ],
+   "glyphs": [
+    "squircle-dashed"
+   ]
+  },
+  {
+   "screen": "D3 Sign in — loading — dark",
+   "set": "Input field",
+   "variant": "lg, Password, False, Filled",
+   "props": {},
+   "texts": [
+    "Password",
+    "●●●●●●●●",
+    "{Support text}"
+   ],
+   "glyphs": [
+    "eye",
+    "squircle-dashed"
+   ]
+  },
+  {
+   "screen": "D3 Sign in — loading — dark",
+   "set": "Buttons/Button",
+   "variant": "md, Link brand, Default, False",
+   "props": {
+    "Loading text": true,
+    "Show R icon": false,
+    "Show L icon": false
+   },
+   "texts": [
+    "Forgot password? *"
+   ],
+   "glyphs": []
+  },
+  {
+   "screen": "D3 Sign in — loading — dark",
+   "set": "Buttons/Button",
+   "variant": "lg, Primary, Loading, False",
+   "props": {
+    "Show L icon": false,
+    "Show R icon": false,
+    "Loading text": true
+   },
+   "texts": [
+    "Signing in… *"
+   ],
+   "glyphs": []
+  },
+  {
+   "screen": "D3 Sign in — loading — dark",
+   "set": "Buttons/Button",
+   "variant": "md, Link brand, Default, False",
+   "props": {
+    "Loading text": true,
+    "Show R icon": false,
+    "Show L icon": false
+   },
+   "texts": [
+    "Create account *"
+   ],
+   "glyphs": []
+  },
+  {
+   "screen": "D4 Forgot password — dark",
+   "set": "Input field",
+   "variant": "lg, Default, False, Placeholder",
+   "props": {},
+   "texts": [
+    "Email *",
+    "alex@make.test *",
+    "{Support text}"
+   ],
+   "glyphs": [
+    "squircle-dashed"
+   ]
+  },
+  {
+   "screen": "D4 Forgot password — dark",
+   "set": "Buttons/Button",
+   "variant": "lg, Primary, Default, False",
+   "props": {
+    "Show R icon": true,
+    "Loading text": true,
+    "Show L icon": false
+   },
+   "texts": [
+    "Send reset link *"
+   ],
+   "glyphs": [
+    "arrow-right"
+   ]
+  },
+  {
+   "screen": "D4 Forgot password — dark",
+   "set": "Buttons/Button",
+   "variant": "lg, Secondary, Default, False",
+   "props": {
+    "Loading text": true,
+    "Show R icon": false,
+    "Show L icon": false
+   },
+   "texts": [
+    "Back to sign in *"
+   ],
+   "glyphs": []
+  },
+  {
+   "screen": "D5 Create account — dark",
+   "set": "Input field",
+   "variant": "lg, Default, False, Placeholder",
+   "props": {},
+   "texts": [
+    "Email *",
+    "alex@make.test *",
+    "{Support text}"
+   ],
+   "glyphs": [
+    "squircle-dashed"
+   ]
+  },
+  {
+   "screen": "D5 Create account — dark",
+   "set": "Input field",
+   "variant": "lg, Password, False, Placeholder",
+   "props": {},
+   "texts": [
+    "Password",
+    "{Support text}"
+   ],
+   "glyphs": [
+    "info",
+    "squircle-dashed"
+   ]
+  },
+  {
+   "screen": "D5 Create account — dark",
+   "set": "Buttons/Button",
+   "variant": "lg, Primary, Default, False",
+   "props": {
+    "Show R icon": true,
+    "Loading text": true,
+    "Show L icon": false
+   },
+   "texts": [
+    "Create account *"
+   ],
+   "glyphs": [
+    "arrow-right"
+   ]
+  },
+  {
+   "screen": "D5 Create account — dark",
+   "set": "Buttons/Button",
+   "variant": "md, Link brand, Default, False",
+   "props": {
+    "Loading text": true,
+    "Show R icon": false,
+    "Show L icon": false
+   },
+   "texts": [
+    "Sign in *"
+   ],
+   "glyphs": []
+  },
+  {
+   "screen": "L2 Sign in — error",
+   "set": "Input field",
+   "variant": "lg, Default, True, Filled",
+   "props": {},
+   "texts": [
+    "Email *",
+    "alex@make *",
+    "Optional",
+    "Enter a valid email address. *"
+   ],
+   "glyphs": [
+    "circle-alert"
+   ]
+  },
+  {
+   "screen": "L2 Sign in — error",
+   "set": "Input field",
+   "variant": "lg, Password, False, Filled",
+   "props": {},
+   "texts": [
+    "Password",
+    "●●●●●●●●",
+    "{Support text}"
+   ],
+   "glyphs": [
+    "eye",
+    "squircle-dashed"
+   ]
+  },
+  {
+   "screen": "L2 Sign in — error",
+   "set": "Buttons/Button",
+   "variant": "md, Link brand, Default, False",
+   "props": {
+    "Loading text": true,
+    "Show R icon": false,
+    "Show L icon": false
+   },
+   "texts": [
+    "Forgot password? *"
+   ],
+   "glyphs": []
+  },
+  {
+   "screen": "L2 Sign in — error",
+   "set": "Buttons/Button",
+   "variant": "lg, Primary, Default, False",
+   "props": {
+    "Show R icon": true,
+    "Loading text": true,
+    "Show L icon": false
+   },
+   "texts": [
+    "Sign in *"
+   ],
+   "glyphs": [
+    "arrow-right"
+   ]
+  },
+  {
+   "screen": "L2 Sign in — error",
+   "set": "Buttons/Button",
+   "variant": "md, Link brand, Default, False",
+   "props": {
+    "Loading text": true,
+    "Show R icon": false,
+    "Show L icon": false
+   },
+   "texts": [
+    "Create account *"
+   ],
+   "glyphs": []
+  }
+ ]
+}

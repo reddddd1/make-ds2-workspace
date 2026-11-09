@@ -1,0 +1,1965 @@
+{
+ "set": "Buttons/Button",
+ "defs": [
+  [
+   "Loading text#8994:0",
+   "BOOLEAN",
+   true
+  ],
+  [
+   "Show L icon#21269:56",
+   "BOOLEAN",
+   true
+  ],
+  [
+   "Show R icon#21269:175",
+   "BOOLEAN",
+   true
+  ],
+  [
+   "Size",
+   "VARIANT",
+   "xxs"
+  ],
+  [
+   "Hierarchy",
+   "VARIANT",
+   "Primary"
+  ],
+  [
+   "State",
+   "VARIANT",
+   "Default"
+  ],
+  [
+   "Icon only",
+   "VARIANT",
+   "False"
+  ]
+ ],
+ "iconDef": {
+  "wrapperVariant": "Size=lg, Type=Icon, Icon pair?=No, Style=-, Intent=Neutral",
+  "wrapperRemote": true,
+  "wrapperProps": {
+   "Crypto": "INSTANCE_SWAP=crypto/bitcoin (BTC)",
+   "Currency": "INSTANCE_SWAP=US",
+   "Icon": "INSTANCE_SWAP=squircle-dashed",
+   "Size": "VARIANT=lg",
+   "Type": "VARIANT=Icon",
+   "Icon pair?": "VARIANT=No",
+   "Style": "VARIANT=-",
+   "Intent": "VARIANT=Neutral"
+  },
+  "glyph": "squircle-dashed",
+  "glyphRemote": true,
+  "glyphKey": "b1a8584cbe68542f820ea6aed7788cea5ed4631f"
+ },
+ "variants": [
+  {
+   "v": "md, Primary, Default, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": {
+    "fill": "bg-brand-primary",
+    "label": "text-white",
+    "stroke": "none",
+    "effectStyle": "no"
+   }
+  },
+  {
+   "v": "md, Primary_alt, Default, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": {
+    "fill": "500",
+    "label": "text-primary_on-brandsecondary",
+    "stroke": "none",
+    "effectStyle": "no"
+   }
+  },
+  {
+   "v": "md, Link brand, Default, False",
+   "texts": [
+    [
+     "0.1",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": {
+    "fill": "none",
+    "label": "text-brand-primary",
+    "stroke": "none",
+    "effectStyle": "no"
+   }
+  },
+  {
+   "v": "md, Secondary, Default, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": {
+    "fill": "utility-brand-25",
+    "label": "text-brand-primary",
+    "stroke": "none",
+    "effectStyle": "no"
+   }
+  },
+  {
+   "v": "md, Primary, Disabled, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "md, Link brand, Disabled, False",
+   "texts": [
+    [
+     "0.1",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "md, Secondary, Disabled, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "md, Primary, Focused, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "md, Primary_alt, Focused, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "md, Link brand, Focused, False",
+   "texts": [
+    [
+     "0.1",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "md, Secondary, Focused, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "md, Primary, Hover, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": {
+    "fill": "bg-brand-primary_hover",
+    "label": "text-white",
+    "stroke": "none",
+    "effectStyle": "no"
+   }
+  },
+  {
+   "v": "md, Primary_alt, Hover, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": {
+    "fill": "500",
+    "label": "text-primary_on-brandsecondary",
+    "stroke": "none",
+    "effectStyle": "no"
+   }
+  },
+  {
+   "v": "md, Primary, Loading, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Buttons/Button loading icon|Buttons/Button loading icon|v"
+   ],
+   "refs": [
+    "0.1:visible→Loading text"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "md, Primary_alt, Loading, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Buttons/Button loading icon|Buttons/Button loading icon|v"
+   ],
+   "refs": [
+    "0.1:visible→Loading text"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "md, Link brand, Hover, False",
+   "texts": [
+    [
+     "0.1",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": {
+    "fill": "none",
+    "label": "text-brand-primary-hover",
+    "stroke": "none",
+    "effectStyle": "no"
+   }
+  },
+  {
+   "v": "md, Link brand, Loading, False",
+   "texts": [
+    [
+     "0.1",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Buttons/Button loading icon|Buttons/Button loading icon|v"
+   ],
+   "refs": [
+    "0.1:visible→Loading text"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "md, Secondary, Hover, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": {
+    "fill": "utility-brand-25",
+    "label": "text-brand-primary-hover",
+    "stroke": "none",
+    "effectStyle": "no"
+   }
+  },
+  {
+   "v": "md, Secondary, Loading, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Buttons/Button loading icon|Buttons/Button loading icon|v"
+   ],
+   "refs": [
+    "0.1:visible→Loading text"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "md, Primary, Default, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "md, Primary_alt, Default, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "md, Secondary, Default, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "md, Primary, Disabled, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "md, Secondary, Disabled, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "md, Primary, Focused, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "md, Primary_alt, Focused, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "md, Secondary, Focused, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "md, Primary, Hover, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "md, Primary_alt, Hover, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "md, Primary, Loading, True",
+   "texts": [],
+   "icons": [
+    "0.0|Buttons/Button loading icon|Buttons/Button loading icon|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "md, Primary_alt, Loading, True",
+   "texts": [],
+   "icons": [
+    "0.0|Buttons/Button loading icon|Buttons/Button loading icon|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "md, Secondary, Hover, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "md, Secondary, Loading, True",
+   "texts": [],
+   "icons": [
+    "0.0|Buttons/Button loading icon|Buttons/Button loading icon|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Primary, Default, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Primary_alt, Default, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Link brand, Default, False",
+   "texts": [
+    [
+     "0.1",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Secondary, Default, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Primary, Disabled, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Link brand, Disabled, False",
+   "texts": [
+    [
+     "0.1",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Secondary, Disabled, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Primary, Focused, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Primary_alt, Focused, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Link brand, Focused, False",
+   "texts": [
+    [
+     "0.1",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Secondary, Focused, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Primary, Hover, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Primary_alt, Hover, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Primary, Loading, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Buttons/Button loading icon|Buttons/Button loading icon|v"
+   ],
+   "refs": [
+    "0.1:visible→Loading text"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Primary_alt, Loading, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Buttons/Button loading icon|Buttons/Button loading icon|v"
+   ],
+   "refs": [
+    "0.1:visible→Loading text"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Link brand, Hover, False",
+   "texts": [
+    [
+     "0.1",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Link brand, Loading, False",
+   "texts": [
+    [
+     "0.1",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Buttons/Button loading icon|Buttons/Button loading icon|v"
+   ],
+   "refs": [
+    "0.1:visible→Loading text"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Secondary, Hover, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Secondary, Loading, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Buttons/Button loading icon|Buttons/Button loading icon|v"
+   ],
+   "refs": [
+    "0.1:visible→Loading text"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Primary, Default, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Primary_alt, Default, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Secondary, Default, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Primary, Disabled, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Secondary, Disabled, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Primary, Focused, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Primary_alt, Focused, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Secondary, Focused, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Primary, Hover, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Primary_alt, Hover, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Primary, Loading, True",
+   "texts": [],
+   "icons": [
+    "0.0|Buttons/Button loading icon|Buttons/Button loading icon|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Primary_alt, Loading, True",
+   "texts": [],
+   "icons": [
+    "0.0|Buttons/Button loading icon|Buttons/Button loading icon|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Secondary, Hover, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "lg, Secondary, Loading, True",
+   "texts": [],
+   "icons": [
+    "0.0|Buttons/Button loading icon|Buttons/Button loading icon|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Primary, Default, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "xxs, Primary, Default, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "xxs, Primary_alt, Default, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Primary_alt, Default, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Link brand, Default, False",
+   "texts": [
+    [
+     "0.1",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "xxs, Link brand, Default, False",
+   "texts": [
+    [
+     "0.1",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Secondary, Default, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "xxs, Secondary, Default, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Primary, Disabled, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "xxs, Primary, Disabled, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Link brand, Disabled, False",
+   "texts": [
+    [
+     "0.1",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "xxs, Link brand, Disabled, False",
+   "texts": [
+    [
+     "0.1",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Secondary, Disabled, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "xxs, Secondary, Disabled, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Primary, Focused, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "xxs, Primary, Focused, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "xxs, Primary_alt, Focused, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Primary_alt, Focused, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Link brand, Focused, False",
+   "texts": [
+    [
+     "0.1",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "xxs, Link brand, Focused, False",
+   "texts": [
+    [
+     "0.1",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Secondary, Focused, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "xxs, Secondary, Focused, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Primary, Hover, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "xxs, Primary, Hover, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "xxs, Primary_alt, Hover, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Primary_alt, Hover, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Primary, Loading, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Buttons/Button loading icon|Buttons/Button loading icon|v"
+   ],
+   "refs": [
+    "0.1:visible→Loading text"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "xxs, Primary, Loading, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Buttons/Button loading icon|Buttons/Button loading icon|v"
+   ],
+   "refs": [
+    "0.1:visible→Loading text"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "xxs, Primary_alt, Loading, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Buttons/Button loading icon|Buttons/Button loading icon|v"
+   ],
+   "refs": [
+    "0.1:visible→Loading text"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Primary_alt, Loading, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Buttons/Button loading icon|Buttons/Button loading icon|v"
+   ],
+   "refs": [
+    "0.1:visible→Loading text"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Link brand, Hover, False",
+   "texts": [
+    [
+     "0.1",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "xxs, Link brand, Hover, False",
+   "texts": [
+    [
+     "0.1",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Link brand, Loading, False",
+   "texts": [
+    [
+     "0.1",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Buttons/Button loading icon|Buttons/Button loading icon|v"
+   ],
+   "refs": [
+    "0.1:visible→Loading text"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "xxs, Link brand, Loading, False",
+   "texts": [
+    [
+     "0.1",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Buttons/Button loading icon|Buttons/Button loading icon|v"
+   ],
+   "refs": [
+    "0.1:visible→Loading text"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Secondary, Hover, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "xxs, Secondary, Hover, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v",
+    "0.2|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [
+    "0.0:visible→Show L icon",
+    "0.2:visible→Show R icon"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Secondary, Loading, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Buttons/Button loading icon|Buttons/Button loading icon|v"
+   ],
+   "refs": [
+    "0.1:visible→Loading text"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "xxs, Secondary, Loading, False",
+   "texts": [
+    [
+     "0.1.0",
+     "Text",
+     "{CTA Label}",
+     true
+    ]
+   ],
+   "icons": [
+    "0.0|Buttons/Button loading icon|Buttons/Button loading icon|v"
+   ],
+   "refs": [
+    "0.1:visible→Loading text"
+   ],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Primary, Default, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Primary_alt, Default, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Secondary, Default, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Primary, Disabled, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Secondary, Disabled, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Primary, Focused, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Primary_alt, Focused, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Secondary, Focused, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Primary, Hover, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Primary_alt, Hover, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Primary, Loading, True",
+   "texts": [],
+   "icons": [
+    "0.0|Buttons/Button loading icon|Buttons/Button loading icon|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Primary_alt, Loading, True",
+   "texts": [],
+   "icons": [
+    "0.0|Buttons/Button loading icon|Buttons/Button loading icon|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Secondary, Hover, True",
+   "texts": [],
+   "icons": [
+    "0.0|Icon wrapper|Icon wrapper|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  },
+  {
+   "v": "sm, Secondary, Loading, True",
+   "texts": [],
+   "icons": [
+    "0.0|Buttons/Button loading icon|Buttons/Button loading icon|v"
+   ],
+   "refs": [],
+   "hoverFill": null
+  }
+ ]
+}

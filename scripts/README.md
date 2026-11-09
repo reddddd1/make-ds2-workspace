@@ -9,6 +9,7 @@
 | `figma-colour-usage-scan.js` | **Read-only** `use_figma` body for P1-07. Set `PAGES`; returns per component the colour variables bound on own layers (fills, strokes, effect colours; direct or via paint style) | VERIFIED (used, P1-07) |
 | `build-component-colours.py` | Local only, P1-07. Builds `docs/component-colours.md` from the variable dump and the usage scan; exits non-zero unless there are exactly 171 rows | VERIFIED (used, P1-07) |
 | `regression/` | **Read-only** regression suite (P1-08): `collect-variants.js`, `collect-instances.js`, `collect-slots.js` (`use_figma` bodies) + local `compare.py` and `selftest.py`. See `scripts/regression/README.md` | VERIFIED (used, P1-08) |
+| `token-sync/` | P1-09 dry-run: `collect-variables.js` (**read-only** `use_figma` body: variables with IDs, per-mode values/alias IDs; `COLLECTIONS`, `PREFIX`, `SLIM`) + local `dryrun.py` (registry vs Figma change set per `docs/token-sync-spec.md`; no write path exists) | VERIFIED (used, P1-09) |
 | `build-registry.py` | Local only. Builds and validates `registry/components.json` from a raw extract. `python3 -I scripts/build-registry.py <raw.json> <out.json> [<bindings.json>]` | VERIFIED (used, P1-04) |
 
 Rules: write scripts are added only after a phase is approved, and must refuse to run against the original library `xJoAz66aekAToyhBmfGNt0`.

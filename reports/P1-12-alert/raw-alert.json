@@ -1,0 +1,557 @@
+{
+ "set": "Alert",
+ "id": "1130:81134",
+ "key": "c27108cb02effe670b7c2c1e8741889f0bc26a5f",
+ "defs": [
+  [
+   "Actions",
+   "BOOLEAN",
+   true,
+   null
+  ],
+  [
+   "Supporting text",
+   "BOOLEAN",
+   true,
+   null
+  ],
+  [
+   "Show icon",
+   "BOOLEAN",
+   true,
+   null
+  ],
+  [
+   "Show close?",
+   "BOOLEAN",
+   true,
+   null
+  ],
+  [
+   "Color",
+   "VARIANT",
+   "Default",
+   [
+    "Default",
+    "Brand",
+    "Error",
+    "Success"
+   ]
+  ]
+ ],
+ "description": "",
+ "variants": [
+  {
+   "name": "Color=Brand",
+   "id": "1130:82796",
+   "size": "358x152",
+   "layout": "VERTICAL",
+   "nodes": [
+    {
+     "p": "0",
+     "t": "COMPONENT",
+     "n": "Color=Brand",
+     "fill": "bg-primary_alt L=#ffffff D=#13161b",
+     "stroke": "border-primary L=#d5d7da D=#373a41 w=1"
+    },
+    {
+     "p": "0.0",
+     "t": "FRAME",
+     "n": "Content"
+    },
+    {
+     "p": "0.0.0",
+     "t": "INSTANCE",
+     "n": "Featured icon",
+     "refs": {
+      "visible": "Show icon"
+     },
+     "fill": "bg-brand-primary_subtle L=#f3f3fe D=#f3f3fe",
+     "main": "Featured icon › Size=lg, Color=Brand, Type=Default",
+     "remote": true,
+     "props": {
+      "Size": "lg",
+      "Color": "Brand",
+      "Type": "Default"
+     }
+    },
+    {
+     "p": "0.0.1",
+     "t": "FRAME",
+     "n": "wrapper"
+    },
+    {
+     "p": "0.0.1.0",
+     "t": "FRAME",
+     "n": "Text and supporting text"
+    },
+    {
+     "p": "0.0.1.0.0",
+     "t": "TEXT",
+     "n": "Text",
+     "fill": "text-primary (900) L=#0a0d12 D=#f7f7f7",
+     "chars": "{Title}",
+     "style": "Text md/Medium"
+    },
+    {
+     "p": "0.0.1.0.1",
+     "t": "TEXT",
+     "n": "Supporting text",
+     "refs": {
+      "visible": "Supporting text"
+     },
+     "fill": "text-secondary (700) L=#414651 D=#cecfd2",
+     "chars": "{Text Lorem ipsum dolor sit amet consectetur adipisicing eli",
+     "style": "Text sm/Regular"
+    },
+    {
+     "p": "0.0.1.1",
+     "t": "FRAME",
+     "n": "Actions",
+     "refs": {
+      "visible": "Actions"
+     }
+    },
+    {
+     "p": "0.0.1.1.0",
+     "t": "INSTANCE",
+     "n": "Buttons/Button",
+     "main": "Buttons/Button › Size=md, Hierarchy=Link brand, State=Default, Icon only=False",
+     "remote": false,
+     "props": {
+      "Loading text": true,
+      "Show R icon": false,
+      "Show L icon": false,
+      "Size": "md",
+      "Hierarchy": "Link brand",
+      "State": "Default",
+      "Icon only": "False"
+     },
+     "label": "Secondary action"
+    },
+    {
+     "p": "0.0.1.1.1",
+     "t": "INSTANCE",
+     "n": "Buttons/Button",
+     "main": "Buttons/Button › Size=md, Hierarchy=Link brand, State=Default, Icon only=False",
+     "remote": false,
+     "props": {
+      "Loading text": true,
+      "Show R icon": false,
+      "Show L icon": false,
+      "Size": "md",
+      "Hierarchy": "Link brand",
+      "State": "Default",
+      "Icon only": "False"
+     },
+     "label": "Main action"
+    },
+    {
+     "p": "0.1",
+     "t": "INSTANCE",
+     "n": "Icon wrapper",
+     "refs": {
+      "visible": "Show close?"
+     },
+     "main": "Icon wrapper › Size=md, Type=Icon, Icon pair?=No, Style=-, Intent=Neutral",
+     "remote": true,
+     "props": {
+      "Crypto": "swap:crypto/bitcoin (BTC)",
+      "Currency": "swap:US",
+      "Icon": "swap:x",
+      "Size": "md",
+      "Type": "Icon",
+      "Icon pair?": "No",
+      "Style": "-",
+      "Intent": "Neutral"
+     }
+    }
+   ],
+   "instances": []
+  },
+  {
+   "name": "Color=Default",
+   "id": "4050:412610",
+   "size": "358x152",
+   "layout": "VERTICAL",
+   "nodes": [
+    {
+     "p": "0",
+     "t": "COMPONENT",
+     "n": "Color=Default",
+     "fill": "bg-primary_alt L=#ffffff D=#13161b",
+     "stroke": "border-primary L=#d5d7da D=#373a41 w=1"
+    },
+    {
+     "p": "0.0",
+     "t": "FRAME",
+     "n": "Content"
+    },
+    {
+     "p": "0.0.0",
+     "t": "INSTANCE",
+     "n": "Featured icon",
+     "refs": {
+      "visible": "Show icon"
+     },
+     "fill": "bg-tertiary L=#f5f5f5 D=#22262f",
+     "main": "Featured icon › Size=lg, Color=Gray, Type=Default",
+     "remote": true,
+     "props": {
+      "Size": "lg",
+      "Color": "Gray",
+      "Type": "Default"
+     }
+    },
+    {
+     "p": "0.0.1",
+     "t": "FRAME",
+     "n": "wrapper"
+    },
+    {
+     "p": "0.0.1.0",
+     "t": "FRAME",
+     "n": "Text and supporting text"
+    },
+    {
+     "p": "0.0.1.0.0",
+     "t": "TEXT",
+     "n": "Text",
+     "fill": "text-primary (900) L=#0a0d12 D=#f7f7f7",
+     "chars": "{Title}",
+     "style": "Text md/Medium"
+    },
+    {
+     "p": "0.0.1.0.1",
+     "t": "TEXT",
+     "n": "Supporting text",
+     "refs": {
+      "visible": "Supporting text"
+     },
+     "fill": "text-secondary (700) L=#414651 D=#cecfd2",
+     "chars": "{Text Lorem ipsum dolor sit amet consectetur adipisicing eli",
+     "style": "Text sm/Regular"
+    },
+    {
+     "p": "0.0.1.1",
+     "t": "FRAME",
+     "n": "Actions",
+     "refs": {
+      "visible": "Actions"
+     }
+    },
+    {
+     "p": "0.0.1.1.0",
+     "t": "INSTANCE",
+     "n": "Buttons/Button",
+     "main": "Buttons/Button › Size=md, Hierarchy=Link brand, State=Default, Icon only=False",
+     "remote": false,
+     "props": {
+      "Loading text": true,
+      "Show R icon": false,
+      "Show L icon": false,
+      "Size": "md",
+      "Hierarchy": "Link brand",
+      "State": "Default",
+      "Icon only": "False"
+     },
+     "label": "Secondary action"
+    },
+    {
+     "p": "0.0.1.1.1",
+     "t": "INSTANCE",
+     "n": "Buttons/Button",
+     "main": "Buttons/Button › Size=md, Hierarchy=Link brand, State=Default, Icon only=False",
+     "remote": false,
+     "props": {
+      "Loading text": true,
+      "Show R icon": false,
+      "Show L icon": false,
+      "Size": "md",
+      "Hierarchy": "Link brand",
+      "State": "Default",
+      "Icon only": "False"
+     },
+     "label": "Main action"
+    },
+    {
+     "p": "0.1",
+     "t": "INSTANCE",
+     "n": "Icon wrapper",
+     "refs": {
+      "visible": "Show close?"
+     },
+     "main": "Icon wrapper › Size=md, Type=Icon, Icon pair?=No, Style=-, Intent=Neutral",
+     "remote": true,
+     "props": {
+      "Crypto": "swap:crypto/bitcoin (BTC)",
+      "Currency": "swap:US",
+      "Icon": "swap:x",
+      "Size": "md",
+      "Type": "Icon",
+      "Icon pair?": "No",
+      "Style": "-",
+      "Intent": "Neutral"
+     }
+    }
+   ],
+   "instances": []
+  },
+  {
+   "name": "Color=Error",
+   "id": "21258:2087",
+   "size": "358x152",
+   "layout": "VERTICAL",
+   "nodes": [
+    {
+     "p": "0",
+     "t": "COMPONENT",
+     "n": "Color=Error",
+     "fill": "bg-primary_alt L=#ffffff D=#13161b",
+     "stroke": "border-primary L=#d5d7da D=#373a41 w=1"
+    },
+    {
+     "p": "0.0",
+     "t": "FRAME",
+     "n": "Content"
+    },
+    {
+     "p": "0.0.0",
+     "t": "INSTANCE",
+     "n": "Featured icon",
+     "refs": {
+      "visible": "Show icon"
+     },
+     "fill": "bg-brand-primary_subtle L=#f3f3fe D=#f3f3fe",
+     "main": "Featured icon › Size=lg, Color=Brand, Type=Default",
+     "remote": true,
+     "props": {
+      "Size": "lg",
+      "Color": "Brand",
+      "Type": "Default"
+     }
+    },
+    {
+     "p": "0.0.1",
+     "t": "FRAME",
+     "n": "wrapper"
+    },
+    {
+     "p": "0.0.1.0",
+     "t": "FRAME",
+     "n": "Text and supporting text"
+    },
+    {
+     "p": "0.0.1.0.0",
+     "t": "TEXT",
+     "n": "Text",
+     "fill": "text-primary (900) L=#0a0d12 D=#f7f7f7",
+     "chars": "{Title}",
+     "style": "Text md/Medium"
+    },
+    {
+     "p": "0.0.1.0.1",
+     "t": "TEXT",
+     "n": "Supporting text",
+     "refs": {
+      "visible": "Supporting text"
+     },
+     "fill": "text-secondary (700) L=#414651 D=#cecfd2",
+     "chars": "{Text Lorem ipsum dolor sit amet consectetur adipisicing eli",
+     "style": "Text sm/Regular"
+    },
+    {
+     "p": "0.0.1.1",
+     "t": "FRAME",
+     "n": "Actions",
+     "refs": {
+      "visible": "Actions"
+     }
+    },
+    {
+     "p": "0.0.1.1.0",
+     "t": "INSTANCE",
+     "n": "Buttons/Button",
+     "main": "Buttons/Button › Size=md, Hierarchy=Link brand, State=Default, Icon only=False",
+     "remote": false,
+     "props": {
+      "Loading text": true,
+      "Show R icon": false,
+      "Show L icon": false,
+      "Size": "md",
+      "Hierarchy": "Link brand",
+      "State": "Default",
+      "Icon only": "False"
+     },
+     "label": "Secondary action"
+    },
+    {
+     "p": "0.0.1.1.1",
+     "t": "INSTANCE",
+     "n": "Buttons/Button",
+     "main": "Buttons/Button › Size=md, Hierarchy=Link brand, State=Default, Icon only=False",
+     "remote": false,
+     "props": {
+      "Loading text": true,
+      "Show R icon": false,
+      "Show L icon": false,
+      "Size": "md",
+      "Hierarchy": "Link brand",
+      "State": "Default",
+      "Icon only": "False"
+     },
+     "label": "Main action"
+    },
+    {
+     "p": "0.1",
+     "t": "INSTANCE",
+     "n": "Icon wrapper",
+     "refs": {
+      "visible": "Show close?"
+     },
+     "main": "Icon wrapper › Size=md, Type=Icon, Icon pair?=No, Style=-, Intent=Neutral",
+     "remote": true,
+     "props": {
+      "Crypto": "swap:crypto/bitcoin (BTC)",
+      "Currency": "swap:US",
+      "Icon": "swap:x",
+      "Size": "md",
+      "Type": "Icon",
+      "Icon pair?": "No",
+      "Style": "-",
+      "Intent": "Neutral"
+     }
+    }
+   ],
+   "instances": []
+  },
+  {
+   "name": "Color=Success",
+   "id": "21258:2125",
+   "size": "358x152",
+   "layout": "VERTICAL",
+   "nodes": [
+    {
+     "p": "0",
+     "t": "COMPONENT",
+     "n": "Color=Success",
+     "fill": "bg-primary_alt L=#ffffff D=#13161b",
+     "stroke": "border-primary L=#d5d7da D=#373a41 w=1"
+    },
+    {
+     "p": "0.0",
+     "t": "FRAME",
+     "n": "Content"
+    },
+    {
+     "p": "0.0.0",
+     "t": "INSTANCE",
+     "n": "Featured icon",
+     "refs": {
+      "visible": "Show icon"
+     },
+     "fill": "bg-success-secondary L=#dcfae6 D=#079455",
+     "main": "Featured icon › Size=lg, Color=Success, Type=Default",
+     "remote": true,
+     "props": {
+      "Size": "lg",
+      "Color": "Success",
+      "Type": "Default"
+     }
+    },
+    {
+     "p": "0.0.1",
+     "t": "FRAME",
+     "n": "wrapper"
+    },
+    {
+     "p": "0.0.1.0",
+     "t": "FRAME",
+     "n": "Text and supporting text"
+    },
+    {
+     "p": "0.0.1.0.0",
+     "t": "TEXT",
+     "n": "Text",
+     "fill": "text-primary (900) L=#0a0d12 D=#f7f7f7",
+     "chars": "{Title}",
+     "style": "Text md/Medium"
+    },
+    {
+     "p": "0.0.1.0.1",
+     "t": "TEXT",
+     "n": "Supporting text",
+     "refs": {
+      "visible": "Supporting text"
+     },
+     "fill": "text-secondary (700) L=#414651 D=#cecfd2",
+     "chars": "{Text Lorem ipsum dolor sit amet consectetur adipisicing eli",
+     "style": "Text sm/Regular"
+    },
+    {
+     "p": "0.0.1.1",
+     "t": "FRAME",
+     "n": "Actions",
+     "refs": {
+      "visible": "Actions"
+     }
+    },
+    {
+     "p": "0.0.1.1.0",
+     "t": "INSTANCE",
+     "n": "Buttons/Button",
+     "main": "Buttons/Button › Size=md, Hierarchy=Link brand, State=Default, Icon only=False",
+     "remote": false,
+     "props": {
+      "Loading text": true,
+      "Show R icon": false,
+      "Show L icon": false,
+      "Size": "md",
+      "Hierarchy": "Link brand",
+      "State": "Default",
+      "Icon only": "False"
+     },
+     "label": "Secondary action"
+    },
+    {
+     "p": "0.0.1.1.1",
+     "t": "INSTANCE",
+     "n": "Buttons/Button",
+     "main": "Buttons/Button › Size=md, Hierarchy=Link brand, State=Default, Icon only=False",
+     "remote": false,
+     "props": {
+      "Loading text": true,
+      "Show R icon": false,
+      "Show L icon": false,
+      "Size": "md",
+      "Hierarchy": "Link brand",
+      "State": "Default",
+      "Icon only": "False"
+     },
+     "label": "Main action"
+    },
+    {
+     "p": "0.1",
+     "t": "INSTANCE",
+     "n": "Icon wrapper",
+     "refs": {
+      "visible": "Show close?"
+     },
+     "main": "Icon wrapper › Size=md, Type=Icon, Icon pair?=No, Style=-, Intent=Neutral",
+     "remote": true,
+     "props": {
+      "Crypto": "swap:crypto/bitcoin (BTC)",
+      "Currency": "swap:US",
+      "Icon": "swap:x",
+      "Size": "md",
+      "Type": "Icon",
+      "Icon pair?": "No",
+      "Style": "-",
+      "Intent": "Neutral"
+     }
+    }
+   ],
+   "instances": []
+  }
+ ]
+}

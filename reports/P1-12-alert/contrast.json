@@ -1,0 +1,68 @@
+[
+ {
+  "pair": "Title (text-primary) on surface",
+  "requirement": "text, 4.5:1",
+  "light": 19.45,
+  "dark": 16.92,
+  "values": "L #0a0d12 on #ffffff \u00b7 D #f7f7f7 on #13161b"
+ },
+ {
+  "pair": "Supporting text (text-secondary) on surface",
+  "requirement": "text, 4.5:1",
+  "light": 9.46,
+  "dark": 11.63,
+  "values": "L #414651 on #ffffff \u00b7 D #cecfd2 on #13161b"
+ },
+ {
+  "pair": "Action label (text-brand-primary, Link brand) on surface",
+  "requirement": "text, 4.5:1",
+  "light": 5.22,
+  "dark": 3.47,
+  "values": "L #5656f3 on #ffffff \u00b7 D #5656f3 on #13161b",
+  "registry": {
+   "light": 5.22,
+   "dark": 6.48,
+   "note": "registry dark = brand.400"
+  }
+ },
+ {
+  "pair": "Border (border-primary) vs surface",
+  "requirement": "non-text 3:1 (only if the border identifies the alert)",
+  "light": 1.44,
+  "dark": 1.59,
+  "values": "L #d5d7da on #ffffff \u00b7 D #373a41 on #13161b",
+  "registry": {
+   "light": 3.28,
+   "dark": 3.09,
+   "note": "registry = gray.450 / gray-dark.600"
+  }
+ },
+ {
+  "pair": "Featured icon Brand: glyph on container",
+  "requirement": "non-text 3:1",
+  "light": 4.74,
+  "dark": 3.46,
+  "values": "L #5656f3 on #f3f3fe \u00b7 D #7373f5 on #f3f3fe"
+ },
+ {
+  "pair": "Featured icon Gray: glyph on container",
+  "requirement": "non-text 3:1",
+  "light": 2.56,
+  "dark": 5.41,
+  "values": "L #9090f6 on #f5f5f5 \u00b7 D #9090f6 on #22262f"
+ },
+ {
+  "pair": "Featured icon Success: glyph on container",
+  "requirement": "non-text 3:1",
+  "light": 2.47,
+  "dark": 1.92,
+  "values": "L #17b26a on #dcfae6 \u00b7 D #47cd89 on #079455"
+ },
+ {
+  "pair": "Featured icon Brand container vs surface (dark)",
+  "requirement": "info",
+  "light": 1.1,
+  "dark": 16.45,
+  "values": "L #f3f3fe on #ffffff \u00b7 D #f3f3fe on #13161b"
+ }
+]

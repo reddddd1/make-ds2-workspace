@@ -1,0 +1,86 @@
+{
+ "Color=Brand": {
+  "featuredIcon": "Size=lg, Color=Brand, Type=Default",
+  "remote": true,
+  "setKey": "845127259cdd2b2d856077e89081f23457a10305",
+  "defs": [
+   "Size:VARIANT(sm|md|lg)",
+   "Color:VARIANT(Brand|Gray|Success|Needs attention|Critical)",
+   "Type:VARIANT(Default|Asset + network)"
+  ],
+  "instanceProps": {
+   "Size": "lg",
+   "Color": "Brand",
+   "Type": "Default"
+  },
+  "layers": [
+   "INSTANCE:Featured icon fill=bg-brand-primary_subtle (remote) L=#f3f3fe D=#f3f3fe",
+   "INSTANCE:Icon wrapper",
+   "INSTANCE:squircle-dashed",
+   "VECTOR:Vector stroke=fg-brand-primary (600) (remote) L=#5656f3 D=#7373f5"
+  ]
+ },
+ "Color=Default": {
+  "featuredIcon": "Size=lg, Color=Gray, Type=Default",
+  "remote": true,
+  "setKey": "845127259cdd2b2d856077e89081f23457a10305",
+  "defs": [
+   "Size:VARIANT(sm|md|lg)",
+   "Color:VARIANT(Brand|Gray|Success|Needs attention|Critical)",
+   "Type:VARIANT(Default|Asset + network)"
+  ],
+  "instanceProps": {
+   "Size": "lg",
+   "Color": "Gray",
+   "Type": "Default"
+  },
+  "layers": [
+   "INSTANCE:Featured icon fill=bg-tertiary (remote) L=#f5f5f5 D=#22262f",
+   "INSTANCE:Icon wrapper",
+   "INSTANCE:squircle-dashed",
+   "VECTOR:Vector stroke=fg-brand-secondary_alt (remote) L=#9090f6 D=#9090f6"
+  ]
+ },
+ "Color=Error": {
+  "featuredIcon": "Size=lg, Color=Brand, Type=Default",
+  "remote": true,
+  "setKey": "845127259cdd2b2d856077e89081f23457a10305",
+  "defs": [
+   "Size:VARIANT(sm|md|lg)",
+   "Color:VARIANT(Brand|Gray|Success|Needs attention|Critical)",
+   "Type:VARIANT(Default|Asset + network)"
+  ],
+  "instanceProps": {
+   "Size": "lg",
+   "Color": "Brand",
+   "Type": "Default"
+  },
+  "layers": [
+   "INSTANCE:Featured icon fill=bg-brand-primary_subtle (remote) L=#f3f3fe D=#f3f3fe",
+   "INSTANCE:Icon wrapper",
+   "INSTANCE:squircle-dashed",
+   "VECTOR:Vector stroke=fg-brand-primary (600) (remote) L=#5656f3 D=#7373f5"
+  ]
+ },
+ "Color=Success": {
+  "featuredIcon": "Size=lg, Color=Success, Type=Default",
+  "remote": true,
+  "setKey": "845127259cdd2b2d856077e89081f23457a10305",
+  "defs": [
+   "Size:VARIANT(sm|md|lg)",
+   "Color:VARIANT(Brand|Gray|Success|Needs attention|Critical)",
+   "Type:VARIANT(Default|Asset + network)"
+  ],
+  "instanceProps": {
+   "Size": "lg",
+   "Color": "Success",
+   "Type": "Default"
+  },
+  "layers": [
+   "INSTANCE:Featured icon fill=bg-success-secondary (remote) L=#dcfae6 D=#079455",
+   "INSTANCE:Icon wrapper",
+   "INSTANCE:squircle-dashed",
+   "VECTOR:Vector stroke=fg-success-secondary (remote) L=#17b26a D=#47cd89"
+  ]
+ }
+}

@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Build registry/components.json from a raw figma-registry-extract.js dump, then validate it.
 
-Usage: python3 -I scripts/build-registry.py registry/raw/<extract>.json registry/components.json
+Usage: python3 -I scripts/build-registry.py registry/raw/<extract>.json registry/components.json [registry/raw/<bindings>.json]
+The optional third argument merges a figma-binding-scan.js dump (P1-05) as `bindingScan` per component.
 Reads only local files. Never talks to Figma.
 """
 import hashlib, json, os, sys
@@ -27,7 +28,51 @@ def sha256(path):
     return hashlib.sha256(open(path, "rb").read()).hexdigest()
 
 
-def build(raw):
+BINDING_CLASSES = ["padding", "gap", "radius", "strokeWidth", "effect", "text"]
+
+
+def clean_classes(classes, full_paths=None):
+    """Drop scan artifacts: per-corner radius read on nodes that have none ('undefined')."""
+    out = {}
+    for c in BINDING_CLASSES:
+        s = dict(classes[c])
+        s.pop("full", None)
+        rv = dict(s.get("rawValues", {}))
+        na = rv.pop("undefined", 0)
+        s["raw"] -= na
+        s["rawValues"] = rv
+        if na:
+            s["notApplicable"] = na
+        paths = full_paths[c].get("paths", []) if full_paths else s.get("paths", [])
+        paths = [x for x in paths if x[1] != "undefined"]
+        s.pop("paths", None)
+        if paths:
+            s["paths" if full_paths else "samplePaths"] = paths
+        out[c] = s
+    return out
+
+
+def merge_bindings(items, bindings):
+    gen = {b["id"]: b for b in bindings["general"]}
+    full = {b["id"]: b for b in bindings["pilotFull"]}
+    for i in items:
+        g = gen.get(i["id"])
+        if not g:
+            continue
+        f = full.get(i["id"])
+        i["bindingScan"] = clean_classes(g["classes"], f["classes"] if f else None)
+        i["bindingScan"]["fullPaths"] = bool(f)
+
+
+def binding_totals(sel):
+    t = {}
+    for c in BINDING_CLASSES:
+        t[c] = {k: sum(i["bindingScan"][c].get(k, 0) for i in sel if "bindingScan" in i)
+                for k in ("bound", "styled", "raw", "zero")}
+    return t
+
+
+def build(raw, bindings=None):
     items = []
     for p in raw["pages"]:
         for it in p["items"]:
@@ -35,6 +80,8 @@ def build(raw):
             it["scope"] = "primitives" if it["page"] in NON_AUDIT_PAGES else "base"
             items.append(it)
     owner_keys = {i["key"]: i for i in items}
+    if bindings:
+        merge_bindings(items, bindings)
 
     # Dependency index
     deps = {}
@@ -91,6 +138,16 @@ def build(raw):
     }
 
     read_times = sorted(p["readAt"] for p in raw["pages"])
+    extra = {}
+    if bindings:
+        bt = sorted(b["readAt"] for b in bindings["general"] + bindings["pilotFull"])
+        extra = {"bindingScan": {
+            "extractor": "scripts/figma-binding-scan.js",
+            "extractorSha256": sha256(os.path.join(os.path.dirname(__file__), "figma-binding-scan.js")),
+            "readAt": {"first": bt[0], "last": bt[-1]},
+            "note": "Own layers only (nested instances not descended). Classes: padding/gap (auto-layout frames), radius, strokeWidth (visible strokes), effect, text. 'zero' = unbound 0 (not counted as raw). 'notApplicable' = per-corner radius read on nodes without corners (scan artifact, removed from raw). Full raw paths only for pilot sets (fullPaths=true); others carry up to 2 sample paths per value.",
+            "totals": {"all": binding_totals(items), "base": binding_totals([i for i in items if i["scope"] == "base"])},
+        }}
     return {
         "schemaVersion": SCHEMA_VERSION,
         "source": {
@@ -100,6 +157,7 @@ def build(raw):
             "extractorSha256": sha256(os.path.join(os.path.dirname(__file__), "figma-registry-extract.js")),
             "mode": "read-only",
         },
+        **extra,
         "scopeNote": "scope=base matches the audit §2.3 count; scope=primitives = Colors, Logos, Typography, Effect styles, Design annotations pages.",
         "bindingsNote": "Raw counts cover solid fills, solid strokes and text-style presence on each component's own layers; nested instances are not descended. Spacing/radius/effect bindings are P1-05.",
         "totals": {"all": t_all, "base": t_base},
@@ -137,7 +195,12 @@ def validate(reg):
 
 if __name__ == "__main__":
     raw_path, out_path = sys.argv[1], sys.argv[2]
-    reg = build(json.load(open(raw_path)))
+    bindings = json.load(open(sys.argv[3])) if len(sys.argv) > 3 else None
+    reg = build(json.load(open(raw_path)), bindings)
+    if bindings:
+        missing = [i["name"] for i in reg["components"] if "bindingScan" not in i]
+        if missing:
+            print("INVALID: no binding scan for", missing); sys.exit(1)
     errs = validate(reg)
     if errs:
         print("INVALID:\n  " + "\n  ".join(errs))

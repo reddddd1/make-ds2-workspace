@@ -11,6 +11,93 @@
   "extractorSha256": "ca87cc44aee9c55afcb3f2dbae5efbf8ddcf48dc9bfa15e6c423cfb67b046083",
   "mode": "read-only"
  },
+ "bindingScan": {
+  "extractor": "scripts/figma-binding-scan.js",
+  "extractorSha256": "1162d53ec4156eb369e61fdc148109793e77c1bf103bb78b978cd2be088d2534",
+  "readAt": {
+   "first": "2026-11-09T13:00:15.715Z",
+   "last": "2026-11-09T13:03:29.952Z"
+  },
+  "note": "Own layers only (nested instances not descended). Classes: padding/gap (auto-layout frames), radius, strokeWidth (visible strokes), effect, text. 'zero' = unbound 0 (not counted as raw). 'notApplicable' = per-corner radius read on nodes without corners (scan artifact, removed from raw). Full raw paths only for pilot sets (fullPaths=true); others carry up to 2 sample paths per value.",
+  "totals": {
+   "all": {
+    "padding": {
+     "bound": 2985,
+     "styled": 0,
+     "raw": 466,
+     "zero": 5181
+    },
+    "gap": {
+     "bound": 1105,
+     "styled": 0,
+     "raw": 26,
+     "zero": 147
+    },
+    "radius": {
+     "bound": 1070,
+     "styled": 0,
+     "raw": 41,
+     "zero": 2065
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 807,
+     "zero": 141
+    },
+    "effect": {
+     "bound": 18,
+     "styled": 210,
+     "raw": 28,
+     "zero": 0
+    },
+    "text": {
+     "bound": 5,
+     "styled": 1014,
+     "raw": 0,
+     "zero": 0
+    }
+   },
+   "base": {
+    "padding": {
+     "bound": 2913,
+     "styled": 0,
+     "raw": 437,
+     "zero": 5046
+    },
+    "gap": {
+     "bound": 1090,
+     "styled": 0,
+     "raw": 21,
+     "zero": 142
+    },
+    "radius": {
+     "bound": 1051,
+     "styled": 0,
+     "raw": 39,
+     "zero": 1926
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 776,
+     "zero": 113
+    },
+    "effect": {
+     "bound": 18,
+     "styled": 208,
+     "raw": 19,
+     "zero": 0
+    },
+    "text": {
+     "bound": 4,
+     "styled": 979,
+     "raw": 0,
+     "zero": 0
+    }
+   }
+  }
+ },
  "scopeNote": "scope=base matches the audit §2.3 count; scope=primitives = Colors, Logos, Typography, Effect styles, Design annotations pages.",
  "bindingsNote": "Raw counts cover solid fills, solid strokes and text-style presence on each component's own layers; nested instances are not descended. Spacing/radius/effect bindings are P1-05.",
  "totals": {
@@ -1357,7 +1444,618 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Buttons",
    "pageId": "1:1183",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 382,
+     "styled": 0,
+     "raw": 122,
+     "zero": 192,
+     "rawValues": {
+      "paddingTop=10": 33,
+      "paddingRight=14": 14,
+      "paddingBottom=10": 33,
+      "paddingLeft=14": 14,
+      "paddingRight=10": 14,
+      "paddingLeft=10": 14
+     },
+     "boundVars": {
+      "3. Spacing/spacing-xxs": 140,
+      "3. Spacing/spacing-lg": 74,
+      "3. Spacing/spacing-xl": 28,
+      "3. Spacing/spacing-sm": 28,
+      "3. Spacing/spacing-md": 84,
+      "3. Spacing/spacing-xs": 28
+     },
+     "paths": [
+      [
+       "Size=md, Hierarchy=Primary, State=Default, Icon only=False [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Default, Icon only=False [paddingRight]",
+       "paddingRight=14"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Default, Icon only=False [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Default, Icon only=False [paddingLeft]",
+       "paddingLeft=14"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Default, Icon only=False [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Default, Icon only=False [paddingRight]",
+       "paddingRight=14"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Default, Icon only=False [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Default, Icon only=False [paddingLeft]",
+       "paddingLeft=14"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Default, Icon only=False [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Default, Icon only=False [paddingRight]",
+       "paddingRight=14"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Default, Icon only=False [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Default, Icon only=False [paddingLeft]",
+       "paddingLeft=14"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Disabled, Icon only=False [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Disabled, Icon only=False [paddingRight]",
+       "paddingRight=14"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Disabled, Icon only=False [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Disabled, Icon only=False [paddingLeft]",
+       "paddingLeft=14"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Disabled, Icon only=False [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Disabled, Icon only=False [paddingRight]",
+       "paddingRight=14"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Disabled, Icon only=False [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Disabled, Icon only=False [paddingLeft]",
+       "paddingLeft=14"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Focused, Icon only=False [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Focused, Icon only=False [paddingRight]",
+       "paddingRight=14"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Focused, Icon only=False [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Focused, Icon only=False [paddingLeft]",
+       "paddingLeft=14"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Focused, Icon only=False [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Focused, Icon only=False [paddingRight]",
+       "paddingRight=14"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Focused, Icon only=False [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Focused, Icon only=False [paddingLeft]",
+       "paddingLeft=14"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Focused, Icon only=False [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Focused, Icon only=False [paddingRight]",
+       "paddingRight=14"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Focused, Icon only=False [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Focused, Icon only=False [paddingLeft]",
+       "paddingLeft=14"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Hover, Icon only=False [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Hover, Icon only=False [paddingRight]",
+       "paddingRight=14"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Hover, Icon only=False [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Hover, Icon only=False [paddingLeft]",
+       "paddingLeft=14"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Hover, Icon only=False [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Hover, Icon only=False [paddingRight]",
+       "paddingRight=14"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Hover, Icon only=False [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Hover, Icon only=False [paddingLeft]",
+       "paddingLeft=14"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Loading, Icon only=False [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Loading, Icon only=False [paddingRight]",
+       "paddingRight=14"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Loading, Icon only=False [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Loading, Icon only=False [paddingLeft]",
+       "paddingLeft=14"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Loading, Icon only=False [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Loading, Icon only=False [paddingRight]",
+       "paddingRight=14"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Loading, Icon only=False [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Loading, Icon only=False [paddingLeft]",
+       "paddingLeft=14"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Hover, Icon only=False [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Hover, Icon only=False [paddingRight]",
+       "paddingRight=14"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Hover, Icon only=False [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Hover, Icon only=False [paddingLeft]",
+       "paddingLeft=14"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Loading, Icon only=False [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Loading, Icon only=False [paddingRight]",
+       "paddingRight=14"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Loading, Icon only=False [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Loading, Icon only=False [paddingLeft]",
+       "paddingLeft=14"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Default, Icon only=True [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Default, Icon only=True [paddingRight]",
+       "paddingRight=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Default, Icon only=True [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Default, Icon only=True [paddingLeft]",
+       "paddingLeft=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Default, Icon only=True [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Default, Icon only=True [paddingRight]",
+       "paddingRight=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Default, Icon only=True [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Default, Icon only=True [paddingLeft]",
+       "paddingLeft=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Default, Icon only=True [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Default, Icon only=True [paddingRight]",
+       "paddingRight=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Default, Icon only=True [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Default, Icon only=True [paddingLeft]",
+       "paddingLeft=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Disabled, Icon only=True [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Disabled, Icon only=True [paddingRight]",
+       "paddingRight=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Disabled, Icon only=True [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Disabled, Icon only=True [paddingLeft]",
+       "paddingLeft=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Disabled, Icon only=True [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Disabled, Icon only=True [paddingRight]",
+       "paddingRight=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Disabled, Icon only=True [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Disabled, Icon only=True [paddingLeft]",
+       "paddingLeft=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Focused, Icon only=True [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Focused, Icon only=True [paddingRight]",
+       "paddingRight=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Focused, Icon only=True [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Focused, Icon only=True [paddingLeft]",
+       "paddingLeft=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Focused, Icon only=True [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Focused, Icon only=True [paddingRight]",
+       "paddingRight=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Focused, Icon only=True [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Focused, Icon only=True [paddingLeft]",
+       "paddingLeft=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Focused, Icon only=True [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Focused, Icon only=True [paddingRight]",
+       "paddingRight=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Focused, Icon only=True [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Focused, Icon only=True [paddingLeft]",
+       "paddingLeft=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Hover, Icon only=True [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Hover, Icon only=True [paddingRight]",
+       "paddingRight=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Hover, Icon only=True [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Hover, Icon only=True [paddingLeft]",
+       "paddingLeft=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Hover, Icon only=True [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Hover, Icon only=True [paddingRight]",
+       "paddingRight=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Hover, Icon only=True [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Hover, Icon only=True [paddingLeft]",
+       "paddingLeft=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Loading, Icon only=True [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Loading, Icon only=True [paddingRight]",
+       "paddingRight=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Loading, Icon only=True [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Loading, Icon only=True [paddingLeft]",
+       "paddingLeft=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Loading, Icon only=True [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Loading, Icon only=True [paddingRight]",
+       "paddingRight=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Loading, Icon only=True [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary_alt, State=Loading, Icon only=True [paddingLeft]",
+       "paddingLeft=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Hover, Icon only=True [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Hover, Icon only=True [paddingRight]",
+       "paddingRight=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Hover, Icon only=True [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Hover, Icon only=True [paddingLeft]",
+       "paddingLeft=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Loading, Icon only=True [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Loading, Icon only=True [paddingRight]",
+       "paddingRight=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Loading, Icon only=True [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Loading, Icon only=True [paddingLeft]",
+       "paddingLeft=10"
+      ],
+      [
+       "Size=lg, Hierarchy=Secondary, State=Default, Icon only=False [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=lg, Hierarchy=Secondary, State=Default, Icon only=False [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=lg, Hierarchy=Secondary, State=Disabled, Icon only=False [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=lg, Hierarchy=Secondary, State=Disabled, Icon only=False [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=lg, Hierarchy=Secondary, State=Focused, Icon only=False [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=lg, Hierarchy=Secondary, State=Focused, Icon only=False [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=lg, Hierarchy=Secondary, State=Hover, Icon only=False [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=lg, Hierarchy=Secondary, State=Hover, Icon only=False [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=lg, Hierarchy=Secondary, State=Loading, Icon only=False [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=lg, Hierarchy=Secondary, State=Loading, Icon only=False [paddingBottom]",
+       "paddingBottom=10"
+      ]
+     ]
+    },
+    "gap": {
+     "bound": 76,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-xs": 43,
+      "3. Spacing/spacing-md": 10,
+      "3. Spacing/spacing-sm": 12,
+      "3. Spacing/spacing-xxs": 11
+     }
+    },
+    "radius": {
+     "bound": 102,
+     "styled": 0,
+     "raw": 0,
+     "zero": 72,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-2xl": 28,
+      "2. Radius/radius-xs": 4,
+      "2. Radius/radius-3xl": 28,
+      "2. Radius/radius-xl": 28,
+      "2. Radius/radius-full": 14
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 10,
+     "zero": 0,
+     "rawValues": {
+      "1": 7,
+      "2": 3
+     },
+     "boundVars": {},
+     "paths": [
+      [
+       "Size=md, Hierarchy=Primary, State=Disabled, Icon only=False",
+       "1"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Disabled, Icon only=True",
+       "1"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Hover, Icon only=True",
+       "2"
+      ],
+      [
+       "Size=lg, Hierarchy=Primary, State=Disabled, Icon only=False",
+       "1"
+      ],
+      [
+       "Size=lg, Hierarchy=Primary, State=Disabled, Icon only=True",
+       "1"
+      ],
+      [
+       "Size=lg, Hierarchy=Primary, State=Hover, Icon only=True",
+       "2"
+      ],
+      [
+       "Size=sm, Hierarchy=Primary, State=Disabled, Icon only=False",
+       "1"
+      ],
+      [
+       "Size=xxs, Hierarchy=Primary, State=Disabled, Icon only=False",
+       "1"
+      ],
+      [
+       "Size=sm, Hierarchy=Primary, State=Disabled, Icon only=True",
+       "1"
+      ],
+      [
+       "Size=sm, Hierarchy=Primary, State=Hover, Icon only=True",
+       "2"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 22,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 76,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": true
+   }
   },
   {
    "kind": "set",
@@ -1517,7 +2215,145 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Buttons",
    "pageId": "1:1183",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 216,
+     "styled": 0,
+     "raw": 72,
+     "zero": 112,
+     "rawValues": {
+      "paddingTop=10": 20,
+      "paddingRight=14": 8,
+      "paddingBottom=10": 20,
+      "paddingLeft=14": 8,
+      "paddingRight=10": 8,
+      "paddingLeft=10": 8
+     },
+     "boundVars": {
+      "3. Spacing/spacing-xxs": 80,
+      "3. Spacing/spacing-lg": 40,
+      "3. Spacing/spacing-xl": 16,
+      "3. Spacing/spacing-sm": 16,
+      "3. Spacing/spacing-md": 48,
+      "3. Spacing/spacing-xs": 16
+     },
+     "samplePaths": [
+      [
+       "Size=md, Hierarchy=Primary, State=Default, Icon only=False [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Default, Icon only=False [paddingRight]",
+       "paddingRight=14"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Default, Icon only=False [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Default, Icon only=False [paddingLeft]",
+       "paddingLeft=14"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Default, Icon only=False [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Default, Icon only=False [paddingRight]",
+       "paddingRight=14"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Default, Icon only=False [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Default, Icon only=False [paddingLeft]",
+       "paddingLeft=14"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Default, Icon only=True [paddingRight]",
+       "paddingRight=10"
+      ],
+      [
+       "Size=md, Hierarchy=Primary, State=Default, Icon only=True [paddingLeft]",
+       "paddingLeft=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Default, Icon only=True [paddingRight]",
+       "paddingRight=10"
+      ],
+      [
+       "Size=md, Hierarchy=Secondary, State=Default, Icon only=True [paddingLeft]",
+       "paddingLeft=10"
+      ]
+     ]
+    },
+    "gap": {
+     "bound": 44,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-xs": 24,
+      "3. Spacing/spacing-md": 7,
+      "3. Spacing/spacing-sm": 7,
+      "3. Spacing/spacing-xxs": 6
+     }
+    },
+    "radius": {
+     "bound": 60,
+     "styled": 0,
+     "raw": 0,
+     "zero": 40,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-2xl": 16,
+      "2. Radius/radius-xs": 4,
+      "2. Radius/radius-3xl": 16,
+      "2. Radius/radius-xl": 16,
+      "2. Radius/radius-full": 8
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 3,
+     "zero": 0,
+     "rawValues": {
+      "2": 3
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Size=md, Hierarchy=Primary, State=Hover, Icon only=True",
+       "2"
+      ],
+      [
+       "Size=lg, Hierarchy=Primary, State=Hover, Icon only=True",
+       "2"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 15,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 44,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -1613,7 +2449,126 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Buttons",
    "pageId": "1:1183",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 54,
+     "styled": 0,
+     "raw": 162,
+     "zero": 0,
+     "rawValues": {
+      "paddingTop=10": 54,
+      "paddingBottom=10": 54,
+      "paddingRight=10": 27,
+      "paddingLeft=10": 27
+     },
+     "boundVars": {
+      "3. Spacing/spacing-xl": 54
+     },
+     "samplePaths": [
+      [
+       "Social=Facebook, Supporting text=True, Theme=Brand, State=Default [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Social=Facebook, Supporting text=True, Theme=Brand, State=Default [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Social=Facebook, Supporting text=True, Theme=Brand, State=Hover [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Social=Facebook, Supporting text=True, Theme=Brand, State=Hover [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Social=Facebook, Supporting text=False, Theme=Brand, State=Default [paddingRight]",
+       "paddingRight=10"
+      ],
+      [
+       "Social=Facebook, Supporting text=False, Theme=Brand, State=Default [paddingLeft]",
+       "paddingLeft=10"
+      ],
+      [
+       "Social=Facebook, Supporting text=False, Theme=Brand, State=Hover [paddingRight]",
+       "paddingRight=10"
+      ],
+      [
+       "Social=Facebook, Supporting text=False, Theme=Brand, State=Hover [paddingLeft]",
+       "paddingLeft=10"
+      ]
+     ]
+    },
+    "gap": {
+     "bound": 27,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-lg": 27
+     }
+    },
+    "radius": {
+     "bound": 54,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-3xl": 54
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 54,
+     "zero": 0,
+     "rawValues": {
+      "1": 42,
+      "2": 12
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Social=Facebook, Supporting text=True, Theme=Brand, State=Default",
+       "2"
+      ],
+      [
+       "Social=Facebook, Supporting text=True, Theme=Brand, State=Hover",
+       "2"
+      ],
+      [
+       "Social=Facebook, Supporting text=True, Theme=Color, State=Default",
+       "1"
+      ],
+      [
+       "Social=Facebook, Supporting text=True, Theme=Color, State=Hover",
+       "1"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 18,
+     "styled": 36,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "1. Color modes/Colors/Effects/Focus rings/focus-ring-primary": 18
+     }
+    },
+    "text": {
+     "bound": 0,
+     "styled": 27,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -1741,7 +2696,60 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Buttons",
    "pageId": "1:1183",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 24,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 6,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-lg": 6
+     }
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 6,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -1812,7 +2820,121 @@
    "variantsWithoutAutoLayout": 12,
    "page": "↳ Buttons",
    "pageId": "1:1183",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 12,
+     "zero": 46,
+     "rawValues": {
+      "7": 8,
+      "8": 4
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Store=Google Play, Style=Outline, Size=md",
+       "7"
+      ],
+      [
+       "Store=Google Play, Style=Outline, Size=lg",
+       "7"
+      ],
+      [
+       "Store=App Store, Style=Outline, Size=lg",
+       "8"
+      ],
+      [
+       "Store=App Store, Style=Brand, Size=lg",
+       "8"
+      ]
+     ]
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 18,
+     "zero": 0,
+     "rawValues": {
+      "1": 12,
+      "0.20000000298023224": 4,
+      "1.100000023841858": 2
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Store=Google Play, Style=Outline, Size=md",
+       "1"
+      ],
+      [
+       "Store=Google Play, Style=Outline, Size=md > Get it on",
+       "0.20000000298023224"
+      ],
+      [
+       "Store=Google Play, Style=Outline, Size=md > Google Play logo > Subtract > Vector",
+       "1"
+      ],
+      [
+       "Store=Google Play, Style=Outline, Size=lg > Get it on",
+       "0.20000000298023224"
+      ],
+      [
+       "Store=Mac App Store, Style=Brand, Size=lg",
+       "1.100000023841858"
+      ],
+      [
+       "Store=Mac App Store, Style=Outline, Size=lg",
+       "1.100000023841858"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 4,
+     "zero": 0,
+     "rawValues": {
+      "INNER_SHADOW r0": 4
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Store=Google Play, Style=Brand, Size=md > Google Play logo",
+       "INNER_SHADOW r0"
+      ],
+      [
+       "Store=Google Play, Style=Brand, Size=md > Google Play logo > Vector",
+       "INNER_SHADOW r0"
+      ]
+     ]
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -1857,7 +2979,70 @@
    "variantsWithoutAutoLayout": 2,
    "page": "↳ Buttons",
    "pageId": "1:1183",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 6,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 4,
+     "zero": 0,
+     "rawValues": {
+      "2": 4
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Size=sm > Background",
+       "2"
+      ],
+      [
+       "Size=sm > Line",
+       "2"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -1927,7 +3112,62 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Buttons",
    "pageId": "1:1183",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 48,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-md": 48
+     }
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 12,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-full": 12
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -1984,7 +3224,60 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Buttons",
    "pageId": "1:1183",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 12,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 3,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-md": 3
+     }
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 3,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 3,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -2041,7 +3334,65 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Buttons",
    "pageId": "1:1183",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 12,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-xs": 6,
+      "3. Spacing/spacing-lg": 6
+     }
+    },
+    "gap": {
+     "bound": 3,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-xxs": 3
+     }
+    },
+    "radius": {
+     "bound": 3,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-2xl": 3
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 3,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -2147,7 +3498,89 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Button groups",
    "pageId": "16:399",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 120,
+     "styled": 0,
+     "raw": 8,
+     "zero": 0,
+     "rawValues": {
+      "paddingLeft=14": 8
+     },
+     "boundVars": {
+      "3. Spacing/spacing-md": 64,
+      "3. Spacing/spacing-xl": 40,
+      "3. Spacing/spacing-lg": 16
+     },
+     "samplePaths": [
+      [
+       "Current=False, Icon=Leading, State=Default [paddingLeft]",
+       "paddingLeft=14"
+      ],
+      [
+       "Current=True, Icon=Leading, State=Default [paddingLeft]",
+       "paddingLeft=14"
+      ]
+     ]
+    },
+    "gap": {
+     "bound": 16,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-sm": 8,
+      "3. Spacing/spacing-md": 8
+     }
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 32,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 32,
+     "zero": 96,
+     "rawValues": {
+      "1": 32
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Current=False, Icon=False, State=Default",
+       "1"
+      ],
+      [
+       "Current=True, Icon=False, State=Default",
+       "1"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 8,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 24,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -2204,7 +3637,72 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Button groups",
    "pageId": "16:399",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 12,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 3,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 3,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-md": 3
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 3,
+     "zero": 0,
+     "rawValues": {
+      "1": 3
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Icon=False",
+       "1"
+      ],
+      [
+       "Icon=Leading",
+       "1"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 3,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "component",
@@ -2247,7 +3745,91 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Button groups",
    "pageId": "16:399",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 2,
+     "styled": 0,
+     "raw": 2,
+     "zero": 0,
+     "rawValues": {
+      "paddingTop=8": 1,
+      "paddingBottom=8": 1
+     },
+     "boundVars": {
+      "3. Spacing/spacing-lg": 2
+     },
+     "samplePaths": [
+      [
+       "Navigation button group [paddingTop]",
+       "paddingTop=8"
+      ],
+      [
+       "Navigation button group [paddingBottom]",
+       "paddingBottom=8"
+      ]
+     ]
+    },
+    "gap": {
+     "bound": 1,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-md": 1
+     }
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 1,
+     "zero": 0,
+     "rawValues": {
+      "999": 1
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Navigation button group",
+       "999"
+      ]
+     ]
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 1,
+     "zero": 0,
+     "rawValues": {
+      "GLASS r4": 1
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Navigation button group",
+       "GLASS r4"
+      ]
+     ]
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -2363,7 +3945,79 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Tab & filter groups",
    "pageId": "21269:1860",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 48,
+     "styled": 0,
+     "raw": 0,
+     "zero": 16,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-sm": 16,
+      "3. Spacing/spacing-md": 16,
+      "3. Spacing/spacing-xxs": 16
+     }
+    },
+    "gap": {
+     "bound": 8,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-xs": 8
+     }
+    },
+    "radius": {
+     "bound": 8,
+     "styled": 0,
+     "raw": 0,
+     "zero": 12,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-full": 4,
+      "2. Radius/radius-none": 4
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 4,
+     "zero": 0,
+     "rawValues": {
+      "2": 4
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "State=Inactive, Type=Underlined, Size=sm > underline",
+       "2"
+      ],
+      [
+       "State=Inactive, Type=Underlined, Size=md > underline",
+       "2"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 8,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -2419,7 +4073,66 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Tab & filter groups",
    "pageId": "21269:1860",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 12,
+     "styled": 0,
+     "raw": 0,
+     "zero": 4,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-sm": 4,
+      "3. Spacing/spacing-md": 4,
+      "3. Spacing/spacing-xxs": 4
+     }
+    },
+    "gap": {
+     "bound": 2,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-md": 2
+     }
+    },
+    "radius": {
+     "bound": 2,
+     "styled": 0,
+     "raw": 0,
+     "zero": 2,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-full": 2
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 2,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -2486,7 +4199,61 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Tab & filter groups",
    "pageId": "21269:1860",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 16,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 4,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-sm": 2,
+      "3. Spacing/spacing-none": 2
+     }
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 4,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "component",
@@ -2539,7 +4306,60 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Tab & filter groups",
    "pageId": "21269:1860",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 4,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 1,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-sm": 1
+     }
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 1,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -2635,7 +4455,70 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Badges",
    "pageId": "12:539",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 108,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-xxs": 36,
+      "3. Spacing/spacing-md": 18,
+      "3. Spacing/spacing-sm": 18,
+      "3. Spacing/spacing-none": 18,
+      "3. Spacing/spacing-xs": 18
+     }
+    },
+    "gap": {
+     "bound": 27,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-xs": 11,
+      "3. Spacing/spacing-xxs": 16
+     }
+    },
+    "radius": {
+     "bound": 27,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-md": 9,
+      "2. Radius/radius-sm": 18
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 27,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -2767,7 +4650,95 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Tags",
    "pageId": "3306:403749",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 120,
+     "styled": 0,
+     "raw": 0,
+     "zero": 136,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-none": 18,
+      "3. Spacing/spacing-xs": 48,
+      "3. Spacing/spacing-sm": 7,
+      "3. Spacing/spacing-xxs": 44,
+      "3. Spacing/spacing-md": 3
+     }
+    },
+    "gap": {
+     "bound": 32,
+     "styled": 0,
+     "raw": 7,
+     "zero": 0,
+     "rawValues": {
+      "5": 7
+     },
+     "boundVars": {
+      "3. Spacing/spacing-xs": 11,
+      "3. Spacing/spacing-xxs": 21
+     },
+     "samplePaths": [
+      [
+       "Size=sm, Icon=False, Action=Text only, Checkbox=True, Avatar=False > Content",
+       "5"
+      ],
+      [
+       "Size=sm, Icon=False, Action=X close, Checkbox=True, Avatar=False > Content",
+       "5"
+      ]
+     ]
+    },
+    "radius": {
+     "bound": 30,
+     "styled": 0,
+     "raw": 0,
+     "zero": 34,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-sm": 18,
+      "2. Radius/radius-md": 9,
+      "2. Radius/radius-2xl": 3
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 30,
+     "zero": 0,
+     "rawValues": {
+      "1": 30
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Size=xs, Icon=False, Action=Text only, Checkbox=False, Avatar=False",
+       "1"
+      ],
+      [
+       "Size=xs, Icon=False, Action=Text only, Checkbox=True, Avatar=False",
+       "1"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 30,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -2828,7 +4799,88 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Tags",
    "pageId": "3306:403749",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 16,
+     "styled": 0,
+     "raw": 4,
+     "zero": 4,
+     "rawValues": {
+      "paddingTop=1": 2,
+      "paddingBottom=1": 2
+     },
+     "boundVars": {
+      "3. Spacing/spacing-xxs": 8,
+      "3. Spacing/spacing-xs": 8
+     },
+     "samplePaths": [
+      [
+       "Size=sm, Color=Neutral [paddingTop]",
+       "paddingTop=1"
+      ],
+      [
+       "Size=sm, Color=Neutral [paddingBottom]",
+       "paddingBottom=1"
+      ],
+      [
+       "Size=sm, Color=Brand [paddingTop]",
+       "paddingTop=1"
+      ],
+      [
+       "Size=sm, Color=Brand [paddingBottom]",
+       "paddingBottom=1"
+      ]
+     ]
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 6,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-xs": 4,
+      "2. Radius/radius-full": 2
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 4,
+     "styled": 2,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "6. Typography/Font size/text-xxs": 2,
+      "6. Typography/Font size/text-sm": 2
+     }
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -2945,7 +4997,105 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Dropdowns",
    "pageId": "18:0",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 42,
+     "styled": 0,
+     "raw": 40,
+     "zero": 26,
+     "rawValues": {
+      "paddingTop=1": 10,
+      "paddingBottom=1": 10,
+      "paddingRight=10": 10,
+      "paddingLeft=10": 10
+     },
+     "boundVars": {
+      "3. Spacing/spacing-sm": 20,
+      "3. Spacing/spacing-md": 20,
+      "3. Spacing/spacing-xs": 2
+     },
+     "samplePaths": [
+      [
+       "Icon=True, Checkbox=False, State=Disabled, Divider=False, Selected=No [paddingTop]",
+       "paddingTop=1"
+      ],
+      [
+       "Icon=True, Checkbox=False, State=Disabled, Divider=False, Selected=No [paddingBottom]",
+       "paddingBottom=1"
+      ],
+      [
+       "Icon=True, Checkbox=False, State=Disabled, Divider=False, Selected=No > Content [paddingRight]",
+       "paddingRight=10"
+      ],
+      [
+       "Icon=True, Checkbox=False, State=Disabled, Divider=False, Selected=No > Content [paddingLeft]",
+       "paddingLeft=10"
+      ],
+      [
+       "Icon=False, Checkbox=True, State=Disabled, Divider=False, Selected=No [paddingTop]",
+       "paddingTop=1"
+      ],
+      [
+       "Icon=False, Checkbox=True, State=Disabled, Divider=False, Selected=No [paddingBottom]",
+       "paddingBottom=1"
+      ],
+      [
+       "Icon=False, Checkbox=True, State=Disabled, Divider=False, Selected=No > Content [paddingRight]",
+       "paddingRight=10"
+      ],
+      [
+       "Icon=False, Checkbox=True, State=Disabled, Divider=False, Selected=No > Content [paddingLeft]",
+       "paddingLeft=10"
+      ]
+     ]
+    },
+    "gap": {
+     "bound": 6,
+     "styled": 0,
+     "raw": 0,
+     "zero": 1,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-md": 6
+     }
+    },
+    "radius": {
+     "bound": 10,
+     "styled": 0,
+     "raw": 0,
+     "zero": 18,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-sm": 10
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 10,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -3021,7 +5171,70 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Dropdowns",
    "pageId": "18:0",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 2,
+     "styled": 0,
+     "raw": 0,
+     "zero": 14,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-xs": 2
+     }
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 2,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 1,
+     "styled": 0,
+     "raw": 0,
+     "zero": 3,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-4xl": 1
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 1,
+     "zero": 0,
+     "rawValues": {
+      "1": 1
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Type=Button, Open=True > Menu",
+       "1"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 1,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -3164,7 +5377,83 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Dropdowns",
    "pageId": "18:0",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 257,
+     "styled": 0,
+     "raw": 0,
+     "zero": 407,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-md": 35,
+      "3. Spacing/spacing-lg": 50,
+      "3. Spacing/spacing-xl": 55,
+      "3. Spacing/spacing-sm": 50,
+      "3. Spacing/spacing-xs": 62,
+      "3. Spacing/spacing-none": 5
+     }
+    },
+    "gap": {
+     "bound": 53,
+     "styled": 0,
+     "raw": 0,
+     "zero": 5,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-sm": 53
+     }
+    },
+    "radius": {
+     "bound": 51,
+     "styled": 0,
+     "raw": 0,
+     "zero": 115,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-3xl": 25,
+      "2. Radius/radius-xs": 21,
+      "2. Radius/radius-4xl": 5
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 51,
+     "zero": 0,
+     "rawValues": {
+      "1": 51
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Size=lg, Type=Default, State=Default > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Default, State=Default > Input > Content > wrapper > optional",
+       "1"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 15,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 45,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "component",
@@ -3196,7 +5485,79 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Dropdowns",
    "pageId": "18:0",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 3,
+     "styled": 0,
+     "raw": 1,
+     "zero": 0,
+     "rawValues": {
+      "paddingBottom=80": 1
+     },
+     "boundVars": {
+      "3. Spacing/spacing-md": 1,
+      "3. Spacing/spacing-sm": 2
+     },
+     "samplePaths": [
+      [
+       "_Scroll bar (control fill with bottom padding) [paddingBottom]",
+       "paddingBottom=80"
+      ]
+     ]
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 1,
+     "styled": 0,
+     "raw": 0,
+     "zero": 1,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-full": 1
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 1,
+     "zero": 0,
+     "rawValues": {
+      "1": 1
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "_Scroll bar (control fill with bottom padding) > Bar",
+       "1"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -3255,7 +5616,77 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Inputs",
    "pageId": "85:1269",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 48,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-md": 32,
+      "3. Spacing/spacing-lg": 8,
+      "3. Spacing/spacing-xxs": 8
+     }
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 12,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-3xl": 8,
+      "2. Radius/radius-4xl": 4
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 6,
+     "zero": 0,
+     "rawValues": {
+      "2": 6
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "State=Focused, Size=md",
+       "2"
+      ],
+      [
+       "State=Focused, Size=lg",
+       "2"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 12,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -3348,7 +5779,62 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Inputs",
    "pageId": "85:1269",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 36,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 9,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-sm": 6,
+      "3. Spacing/spacing-lg": 2,
+      "3. Spacing/spacing-md": 1
+     }
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 9,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -3464,7 +5950,120 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Inputs",
    "pageId": "85:1269",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 43,
+     "styled": 0,
+     "raw": 14,
+     "zero": 155,
+     "rawValues": {
+      "paddingRight=14": 7,
+      "paddingLeft=14": 7
+     },
+     "boundVars": {
+      "3. Spacing/spacing-lg": 42,
+      "3. Spacing/spacing-xl": 1
+     },
+     "samplePaths": [
+      [
+       "Type=Default, Destructive=False, State=Placeholder > Input with label > Input [paddingRight]",
+       "paddingRight=14"
+      ],
+      [
+       "Type=Default, Destructive=False, State=Placeholder > Input with label > Input [paddingLeft]",
+       "paddingLeft=14"
+      ],
+      [
+       "Type=Default, Destructive=True, State=Placeholder > Input with label > Input [paddingRight]",
+       "paddingRight=14"
+      ],
+      [
+       "Type=Default, Destructive=True, State=Placeholder > Input with label > Input [paddingLeft]",
+       "paddingLeft=14"
+      ]
+     ]
+    },
+    "gap": {
+     "bound": 52,
+     "styled": 0,
+     "raw": 5,
+     "zero": 0,
+     "rawValues": {
+      "counter=8": 5
+     },
+     "boundVars": {
+      "3. Spacing/spacing-sm": 33,
+      "3. Spacing/spacing-md": 19
+     },
+     "samplePaths": [
+      [
+       "Type=Tags, Destructive=False, State=Disabled > Input with label > Input > Content",
+       "counter=8"
+      ],
+      [
+       "Type=Tags, Destructive=False, State=Default > Input with label > Input > Content",
+       "counter=8"
+      ]
+     ]
+    },
+    "radius": {
+     "bound": 14,
+     "styled": 0,
+     "raw": 0,
+     "zero": 81,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-3xl": 14
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 42,
+     "zero": 0,
+     "rawValues": {
+      "1": 38,
+      "2": 4
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Type=Default, Destructive=False, State=Placeholder > Input with label > Input",
+       "1"
+      ],
+      [
+       "Type=Default, Destructive=False, State=Placeholder > Input with label > Input > Resize handle > Vector",
+       "1"
+      ],
+      [
+       "Type=Default, Destructive=False, State=Focused > Input with label > Input",
+       "2"
+      ],
+      [
+       "Type=Tags, Destructive=False, State=Focused > Input with label > Input",
+       "2"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 16,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -3535,7 +6134,61 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Inputs",
    "pageId": "85:1269",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 60,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 15,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-sm": 5,
+      "3. Spacing/spacing-xs": 10
+     }
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 15,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 15,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -3671,7 +6324,448 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Inputs",
    "pageId": "85:1269",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 422,
+     "styled": 0,
+     "raw": 0,
+     "zero": 846,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-lg": 78,
+      "3. Spacing/spacing-xl": 106,
+      "3. Spacing/spacing-xs": 90,
+      "3. Spacing/spacing-sm": 92,
+      "3. Spacing/spacing-none": 56
+     }
+    },
+    "gap": {
+     "bound": 118,
+     "styled": 0,
+     "raw": 0,
+     "zero": 18,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-sm": 95,
+      "3. Spacing/spacing-none": 6,
+      "3. Spacing/spacing-md": 10,
+      "3. Spacing/spacing-xs": 7
+     }
+    },
+    "radius": {
+     "bound": 93,
+     "styled": 0,
+     "raw": 0,
+     "zero": 224,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-3xl": 53,
+      "2. Radius/radius-xs": 40
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 93,
+     "zero": 0,
+     "rawValues": {
+      "1": 93
+     },
+     "boundVars": {},
+     "paths": [
+      [
+       "Size=sm, Type=Default, Destructive=False, State=Filled > Input",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Default, Destructive=False, State=Filled > Input > wrapper > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Search, Destructive=False, State=Filled > Input",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Search + Tags, Destructive=False, State=Filled > Input",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Default, Destructive=True, State=Filled > Input",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Default, Destructive=True, State=Filled > Input > wrapper > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Search, Destructive=True, State=Filled > Input",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Search + Tags, Destructive=True, State=Filled > Input",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Default, Destructive=False, State=Focused > Input",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Default, Destructive=False, State=Focused > Input > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Search, Destructive=False, State=Focused > Input",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Search + Tags, Destructive=False, State=Focused > Input",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Default, Destructive=False, State=Disabled > Input",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Default, Destructive=False, State=Disabled > Input > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Search, Destructive=False, State=Disabled > Input",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Search, Destructive=False, State=Disabled > Input > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Search + Tags, Destructive=False, State=Disabled > Input",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Default, Destructive=True, State=Disabled > Input",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Default, Destructive=True, State=Disabled > Input > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Default, Destructive=False, State=Placeholder > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Default, Destructive=False, State=Placeholder > Input > Input > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Password, Destructive=False, State=Placeholder > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading icon, Destructive=False, State=Placeholder > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading icon, Destructive=False, State=Placeholder > Input > Input > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Default, Destructive=False, State=Placeholder > Input",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Default, Destructive=False, State=Placeholder > Input > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Search, Destructive=False, State=Placeholder > Input",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Search, Destructive=False, State=Placeholder > Input > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Search + Tags, Destructive=False, State=Placeholder > Input",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Search + Tags, Destructive=False, State=Placeholder > Input > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Default, Destructive=True, State=Placeholder > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Default, Destructive=True, State=Placeholder > Input > Input > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Password, Destructive=True, State=Placeholder > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading icon, Destructive=True, State=Placeholder > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading icon, Destructive=True, State=Placeholder > Input > Input > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Default, Destructive=True, State=Placeholder > Input",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Default, Destructive=True, State=Placeholder > Input > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Search, Destructive=True, State=Placeholder > Input",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Search, Destructive=True, State=Placeholder > Input > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Search + Tags, Destructive=True, State=Placeholder > Input",
+       "1"
+      ],
+      [
+       "Size=sm, Type=Search + Tags, Destructive=True, State=Placeholder > Input > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading drowdown, Destructive=False, State=Placeholder > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading drowdown, Destructive=False, State=Placeholder > Input > Input > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Payment, Destructive=False, State=Placeholder > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Payment, Destructive=False, State=Placeholder > Input > Input > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Payment, Destructive=True, State=Placeholder > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Payment, Destructive=True, State=Placeholder > Input > Input > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Payment, Destructive=False, State=Disabled > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Payment, Destructive=False, State=Disabled > Input > Input > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Payment, Destructive=True, State=Disabled > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Payment, Destructive=True, State=Disabled > Input > Input > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading drowdown, Destructive=True, State=Placeholder > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading drowdown, Destructive=True, State=Placeholder > Input > Input > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading drowdown, Destructive=False, State=Filled > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading drowdown, Destructive=False, State=Filled > Input > Input > wrapper > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Payment, Destructive=False, State=Filled > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Payment, Destructive=False, State=Filled > Input > Input > wrapper > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Payment, Destructive=True, State=Filled > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Payment, Destructive=True, State=Filled > Input > Input > wrapper > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Payment, Destructive=False, State=Focused > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Payment, Destructive=False, State=Focused > Input > Input > wrapper > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading drowdown, Destructive=True, State=Filled > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading drowdown, Destructive=True, State=Filled > Input > Input > wrapper > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading drowdown, Destructive=False, State=Focused > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading drowdown, Destructive=False, State=Focused > Input > Input > wrapper > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading drowdown, Destructive=False, State=Disabled > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading drowdown, Destructive=False, State=Disabled > Input > Input > wrapper > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading drowdown, Destructive=True, State=Disabled > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading drowdown, Destructive=True, State=Disabled > Input > Input > wrapper > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Default, Destructive=False, State=Filled > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Default, Destructive=False, State=Filled > Input > Input > wrapper > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Password, Destructive=False, State=Filled > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading icon, Destructive=False, State=Filled > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading icon, Destructive=False, State=Filled > Input > Input > wrapper > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Default, Destructive=True, State=Filled > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Default, Destructive=True, State=Filled > Input > Input > wrapper > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Password, Destructive=True, State=Filled > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading icon, Destructive=True, State=Filled > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading icon, Destructive=True, State=Filled > Input > Input > wrapper > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Default, Destructive=False, State=Focused > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Default, Destructive=False, State=Focused > Input > Input > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Password, Destructive=False, State=Focused > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading icon, Destructive=False, State=Focused > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading icon, Destructive=False, State=Focused > Input > Input > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Default, Destructive=False, State=Disabled > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Default, Destructive=False, State=Disabled > Input > Input > wrapper > Content > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Password, Destructive=False, State=Disabled > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading icon, Destructive=False, State=Disabled > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading icon, Destructive=False, State=Disabled > Input > Input > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Default, Destructive=True, State=Disabled > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Default, Destructive=True, State=Disabled > Input > Input > Content > wrapper > optional",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading icon, Destructive=True, State=Disabled > Input > Input",
+       "1"
+      ],
+      [
+       "Size=lg, Type=Leading icon, Destructive=True, State=Disabled > Input > Input > Content > wrapper > optional",
+       "1"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 8,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 119,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": true
+   }
   },
   {
    "kind": "set",
@@ -3738,7 +6832,81 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Inputs",
    "pageId": "85:1269",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 5,
+     "styled": 0,
+     "raw": 0,
+     "zero": 19,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-none": 3,
+      "3. Spacing/spacing-xs": 2
+     }
+    },
+    "gap": {
+     "bound": 2,
+     "styled": 0,
+     "raw": 1,
+     "zero": 0,
+     "rawValues": {
+      "2": 1
+     },
+     "boundVars": {
+      "3. Spacing/spacing-xs": 2
+     },
+     "samplePaths": [
+      [
+       "Required?=Yes, Tooltip?=Yes > wrapper",
+       "2"
+      ]
+     ]
+    },
+    "radius": {
+     "bound": 1,
+     "styled": 0,
+     "raw": 0,
+     "zero": 5,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-xs": 1
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 1,
+     "zero": 0,
+     "rawValues": {
+      "1": 1
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Required?=Yes, Tooltip?=Yes > wrapper > optional",
+       "1"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 4,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -3817,7 +6985,62 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Toggles",
    "pageId": "1102:4631",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 64,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-xxs": 64
+     }
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 32,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-full": 32
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 20,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -3917,7 +7140,58 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Toggles",
    "pageId": "1102:4631",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 64,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 16,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -4037,7 +7311,64 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Checkboxes",
    "pageId": "1097:63638",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 32,
+     "styled": 0,
+     "raw": 0,
+     "zero": 560,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-xxs": 32
+     }
+    },
+    "gap": {
+     "bound": 48,
+     "styled": 0,
+     "raw": 0,
+     "zero": 16,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-md": 16,
+      "3. Spacing/spacing-lg": 16,
+      "3. Spacing/spacing-xxs": 16
+     }
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 148,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 64,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -4150,7 +7481,74 @@
    "variantsWithoutAutoLayout": 52,
    "page": "↳ Checkboxes",
    "pageId": "1097:63638",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 60,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-xs": 24,
+      "2. Radius/radius-full": 24,
+      "2. Radius/radius-sm": 12
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 28,
+     "zero": 0,
+     "rawValues": {
+      "1": 28
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Checked=False, Indeterminate=False, Size=sm, Type=Checkbox, State=Default",
+       "1"
+      ],
+      [
+       "Checked=False, Indeterminate=False, Size=xs, Type=Checkbox, State=Default",
+       "1"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 13,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -4333,7 +7731,90 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Radio groups",
    "pageId": "122:3484",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 384,
+     "styled": 0,
+     "raw": 0,
+     "zero": 1280,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-xl": 384
+     }
+    },
+    "gap": {
+     "bound": 368,
+     "styled": 0,
+     "raw": 0,
+     "zero": 48,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-xs": 128,
+      "3. Spacing/spacing-lg": 130,
+      "3. Spacing/spacing-md": 14,
+      "3. Spacing/spacing-xxs": 48,
+      "3. Spacing/spacing-sm": 32,
+      "3. Spacing/spacing-xl": 16
+     }
+    },
+    "radius": {
+     "bound": 96,
+     "styled": 0,
+     "raw": 0,
+     "zero": 320,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-3xl": 96
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 96,
+     "zero": 0,
+     "rawValues": {
+      "1": 48,
+      "2": 48
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Selected=True, Size=sm, Type=Icon simple, State=Focused, Breakpoint=Desktop",
+       "2"
+      ],
+      [
+       "Selected=True, Size=sm, Type=Avatar, State=Focused, Breakpoint=Desktop",
+       "2"
+      ],
+      [
+       "Selected=False, Size=sm, Type=Icon simple, State=Focused, Breakpoint=Desktop",
+       "1"
+      ],
+      [
+       "Selected=False, Size=sm, Type=Avatar, State=Focused, Breakpoint=Desktop",
+       "1"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 24,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 256,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -4574,7 +8055,60 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Radio groups",
    "pageId": "122:3484",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 80,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 20,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-lg": 20
+     }
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 20,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -4642,7 +8176,62 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Avatars",
    "pageId": "18:1350",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 32,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 4,
+     "styled": 0,
+     "raw": 0,
+     "zero": 4,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-md": 2,
+      "3. Spacing/spacing-lg": 1,
+      "3. Spacing/spacing-xl": 1
+     }
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 8,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 8,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -4777,7 +8366,99 @@
    "variantsWithoutAutoLayout": 80,
    "page": "↳ Avatars",
    "pageId": "18:1350",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 80,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-full": 80
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 80,
+     "zero": 0,
+     "rawValues": {
+      "1": 36,
+      "0.75": 9,
+      "0.5": 9,
+      "1.5": 26
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Type=User, Size=xl, Placeholder=False, Text=True, Status icon=None, Color=Color 1",
+       "1"
+      ],
+      [
+       "Type=User, Size=xl, Placeholder=False, Text=True, Status icon=None, Color=Color 2",
+       "1"
+      ],
+      [
+       "Type=User, Size=sm, Placeholder=False, Text=True, Status icon=None, Color=Color 1",
+       "0.75"
+      ],
+      [
+       "Type=User, Size=sm, Placeholder=False, Text=True, Status icon=None, Color=Color 2",
+       "0.75"
+      ],
+      [
+       "Type=User, Size=xs, Placeholder=False, Text=True, Status icon=None, Color=Color 1",
+       "0.5"
+      ],
+      [
+       "Type=User, Size=xs, Placeholder=False, Text=True, Status icon=None, Color=Color 2",
+       "0.5"
+      ],
+      [
+       "Type=User, Size=xl, Placeholder=False, Text=False, Status icon=Currency, Color=Default",
+       "1.5"
+      ],
+      [
+       "Type=User, Size=2xl, Placeholder=False, Text=False, Status icon=Currency, Color=Default",
+       "1.5"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 48,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -4826,7 +8507,77 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Avatars",
    "pageId": "18:1350",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 24,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 6,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-full": 6
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 6,
+     "zero": 0,
+     "rawValues": {
+      "1.5": 5,
+      "1.666666865348816": 1
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Size=xs",
+       "1.5"
+      ],
+      [
+       "Size=sm",
+       "1.5"
+      ],
+      [
+       "Size=2xl",
+       "1.666666865348816"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -4916,7 +8667,74 @@
    "variantsWithoutAutoLayout": 12,
    "page": "↳ Avatars",
    "pageId": "18:1350",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 60,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-xs": 60
+     }
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 12,
+     "styled": 0,
+     "raw": 0,
+     "zero": 15,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-full": 12
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 12,
+     "zero": 0,
+     "rawValues": {
+      "1.5": 12
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Size=xs, State=Default",
+       "1.5"
+      ],
+      [
+       "Size=sm, State=Default",
+       "1.5"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 3,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -4997,7 +8815,78 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Avatars",
    "pageId": "18:1350",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 24,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 3,
+     "styled": 0,
+     "raw": 3,
+     "zero": 0,
+     "rawValues": {
+      "-4": 1,
+      "-8": 1,
+      "-12": 1
+     },
+     "boundVars": {
+      "3. Spacing/spacing-md": 3
+     },
+     "samplePaths": [
+      [
+       "Size=xs > Avatars",
+       "-4"
+      ],
+      [
+       "Size=sm > Avatars",
+       "-8"
+      ],
+      [
+       "Size=md > Avatars",
+       "-12"
+      ]
+     ]
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 6,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -5064,7 +8953,77 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Tooltips",
    "pageId": "1052:485",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 56,
+     "styled": 0,
+     "raw": 0,
+     "zero": 84,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-lg": 42,
+      "3. Spacing/spacing-md": 14
+     }
+    },
+    "gap": {
+     "bound": 7,
+     "styled": 0,
+     "raw": 0,
+     "zero": 12,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-xxs": 7
+     }
+    },
+    "radius": {
+     "bound": 14,
+     "styled": 0,
+     "raw": 12,
+     "zero": 33,
+     "rawValues": {
+      "1": 12
+     },
+     "boundVars": {
+      "2. Radius/radius-3xl": 14
+     },
+     "samplePaths": [
+      [
+       "Supporting text=True, Arrow=Bottom center > Tooltip > Tooltip shape",
+       "1"
+      ],
+      [
+       "Supporting text=False, Arrow=Bottom center > Tooltip > Tooltip shape",
+       "1"
+      ]
+     ]
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 14,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 21,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -5175,7 +9134,58 @@
    "variantsWithoutAutoLayout": 28,
    "page": "↳ Tooltips",
    "pageId": "1052:485",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 28,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -5241,7 +9251,64 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Progress indicators",
    "pageId": "1154:89940",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 132,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 22,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-lg": 11,
+      "3. Spacing/spacing-md": 11
+     }
+    },
+    "radius": {
+     "bound": 99,
+     "styled": 0,
+     "raw": 0,
+     "zero": 33,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-md": 33,
+      "2. Radius/radius-full": 66
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 22,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -5305,7 +9372,108 @@
    "variantsWithoutAutoLayout": 4,
    "page": "↳ Progress indicators",
    "pageId": "1154:89940",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 20,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 1,
+     "styled": 0,
+     "raw": 0,
+     "zero": 4,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-xs": 1
+     }
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 24,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 10,
+     "zero": 0,
+     "rawValues": {
+      "6": 2,
+      "16": 2,
+      "20": 2,
+      "24": 2,
+      "28": 2
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Size=md, Shape=Circle > Ring > Background",
+       "24"
+      ],
+      [
+       "Size=md, Shape=Circle > Ring > Line",
+       "24"
+      ],
+      [
+       "Size=lg, Shape=Circle > Ring > Background",
+       "28"
+      ],
+      [
+       "Size=lg, Shape=Circle > Ring > Line",
+       "28"
+      ],
+      [
+       "Size=sm, Shape=Circle > Ring > Background",
+       "20"
+      ],
+      [
+       "Size=sm, Shape=Circle > Ring > Line",
+       "20"
+      ],
+      [
+       "Size=xs, Shape=Circle > Ring > Background",
+       "16"
+      ],
+      [
+       "Size=xs, Shape=Circle > Ring > Line",
+       "16"
+      ],
+      [
+       "Size=xxs, Shape=Circle > Ring > Background",
+       "6"
+      ],
+      [
+       "Size=xxs, Shape=Circle > Ring > Line",
+       "6"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 10,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -5388,7 +9556,60 @@
    "variantsWithoutAutoLayout": 30,
    "page": "↳ Sliders",
    "pageId": "1086:1423",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 60,
+     "styled": 0,
+     "raw": 0,
+     "zero": 60,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-full": 60
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -5446,7 +9667,85 @@
    "variantsWithoutAutoLayout": 9,
    "page": "↳ Sliders",
    "pageId": "1086:1423",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 12,
+     "styled": 0,
+     "raw": 0,
+     "zero": 12,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-md": 6,
+      "3. Spacing/spacing-lg": 6
+     }
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 12,
+     "styled": 0,
+     "raw": 0,
+     "zero": 12,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-full": 9,
+      "2. Radius/radius-md": 3
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 12,
+     "zero": 0,
+     "rawValues": {
+      "1": 3,
+      "2": 9
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "State=Default, Type=Text > Handle",
+       "2"
+      ],
+      [
+       "State=Default, Type=False > Handle",
+       "2"
+      ],
+      [
+       "State=Default, Type=Tooltip > Tooltip > Content",
+       "1"
+      ],
+      [
+       "State=Hover, Type=Tooltip > Tooltip > Content",
+       "1"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 12,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 6,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -5491,7 +9790,60 @@
    "variantsWithoutAutoLayout": 2,
    "page": "↳ Navigators",
    "pageId": "21132:323",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 2,
+     "styled": 0,
+     "raw": 0,
+     "zero": 2,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-full": 2
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -5550,7 +9902,60 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Navigators",
    "pageId": "21132:323",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 20,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 5,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-sm": 5
+     }
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 5,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -5662,7 +10067,114 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ App Navigation",
    "pageId": "82:1862",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 31,
+     "styled": 0,
+     "raw": 0,
+     "zero": 85,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-xl": 24,
+      "3. Spacing/spacing-3xl": 3,
+      "3. Spacing/spacing-md": 4
+     }
+    },
+    "gap": {
+     "bound": 22,
+     "styled": 0,
+     "raw": 0,
+     "zero": 2,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-xl": 6,
+      "3. Spacing/spacing-xs": 6,
+      "3. Spacing/spacing-lg": 4,
+      "3. Spacing/spacing-md": 6
+     }
+    },
+    "radius": {
+     "bound": 7,
+     "styled": 0,
+     "raw": 5,
+     "zero": 41,
+     "rawValues": {
+      "4": 4,
+      "12": 1
+     },
+     "boundVars": {
+      "2. Radius/radius-xl": 5,
+      "2. Radius/radius-md": 1,
+      "2. Radius/radius-full": 1
+     },
+     "samplePaths": [
+      [
+       "Type=QR code",
+       "12"
+      ],
+      [
+       "Type=QR code > QR code wrapper > QR code frame > Handle",
+       "4"
+      ],
+      [
+       "Type=QR code > QR code wrapper > QR code frame > Handle",
+       "4"
+      ]
+     ]
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 14,
+     "zero": 8,
+     "rawValues": {
+      "1": 4,
+      "2": 9,
+      "0.5": 1
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Type=Image > Video player 16:9",
+       "0.5"
+      ],
+      [
+       "Type=Onboarding steps",
+       "1"
+      ],
+      [
+       "Type=Support CTA",
+       "1"
+      ],
+      [
+       "Type=QR code > QR code wrapper > QR code frame > Handle",
+       "2"
+      ],
+      [
+       "Type=QR code > QR code wrapper > QR code frame > Handle",
+       "2"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 1,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 16,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -5780,7 +10292,113 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ App Navigation",
    "pageId": "82:1862",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 56,
+     "styled": 0,
+     "raw": 8,
+     "zero": 32,
+     "rawValues": {
+      "paddingTop=1": 4,
+      "paddingBottom=1": 4
+     },
+     "boundVars": {
+      "3. Spacing/spacing-sm": 24,
+      "3. Spacing/spacing-md": 24,
+      "3. Spacing/spacing-xs": 8
+     },
+     "samplePaths": [
+      [
+       "Type=Menu item, State=Hover, Current=False > Content > Shortcut wrapper [paddingTop]",
+       "paddingTop=1"
+      ],
+      [
+       "Type=Menu item, State=Hover, Current=False > Content > Shortcut wrapper [paddingBottom]",
+       "paddingBottom=1"
+      ],
+      [
+       "Type=Menu item, State=Hover, Current=True > Content > Shortcut wrapper [paddingTop]",
+       "paddingTop=1"
+      ],
+      [
+       "Type=Menu item, State=Hover, Current=True > Content > Shortcut wrapper [paddingBottom]",
+       "paddingBottom=1"
+      ]
+     ]
+    },
+    "gap": {
+     "bound": 12,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-lg": 8,
+      "3. Spacing/spacing-md": 4
+     }
+    },
+    "radius": {
+     "bound": 10,
+     "styled": 0,
+     "raw": 2,
+     "zero": 12,
+     "rawValues": {
+      "6": 2
+     },
+     "boundVars": {
+      "2. Radius/radius-sm": 6,
+      "2. Radius/radius-xs": 4
+     },
+     "samplePaths": [
+      [
+       "Type=Account, State=Hover, Current=True > Content",
+       "6"
+      ],
+      [
+       "Type=Menu item, State=Default, Current=True > Content",
+       "6"
+      ]
+     ]
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 4,
+     "zero": 0,
+     "rawValues": {
+      "1": 4
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Type=Menu item, State=Hover, Current=False > Content > Shortcut wrapper",
+       "1"
+      ],
+      [
+       "Type=Menu item, State=Hover, Current=True > Content > Shortcut wrapper",
+       "1"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 8,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -5896,7 +10514,79 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ App Navigation",
    "pageId": "82:1862",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 6,
+     "styled": 0,
+     "raw": 0,
+     "zero": 26,
+     "rawValues": {},
+     "boundVars": {
+      "5. Containers/container-padding-desktop": 2,
+      "3. Spacing/spacing-lg": 2,
+      "3. Spacing/spacing-md": 1,
+      "5. Containers/container-padding-mobile": 1
+     }
+    },
+    "gap": {
+     "bound": 4,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-xl": 1,
+      "3. Spacing/spacing-xxs": 2,
+      "3. Spacing/spacing-lg": 1
+     }
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 8,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 2,
+     "zero": 6,
+     "rawValues": {
+      "1": 2
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Open=False, Style=Simple, Breakpoint=Desktop",
+       "1"
+      ],
+      [
+       "Open=False, Style=Simple, Breakpoint=Mobile",
+       "1"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -6032,7 +10722,67 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ App Navigation",
    "pageId": "82:1862",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 36,
+     "styled": 0,
+     "raw": 0,
+     "zero": 36,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-xxs": 12,
+      "3. Spacing/spacing-md": 12,
+      "3. Spacing/spacing-lg": 12
+     }
+    },
+    "gap": {
+     "bound": 12,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-lg": 6,
+      "3. Spacing/spacing-md": 6
+     }
+    },
+    "radius": {
+     "bound": 6,
+     "styled": 0,
+     "raw": 0,
+     "zero": 12,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-sm": 6
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 4,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 6,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -6112,7 +10862,63 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ App Navigation",
    "pageId": "82:1862",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 24,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-md": 24
+     }
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 6,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-3xl": 3,
+      "2. Radius/radius-full": 3
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 2,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -6205,7 +11011,63 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ App Navigation",
    "pageId": "82:1862",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 48,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-md": 48
+     }
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 12,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-3xl": 6,
+      "2. Radius/radius-full": 6
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 4,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -6330,7 +11192,65 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Modals",
    "pageId": "172:4293",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 18,
+     "styled": 0,
+     "raw": 0,
+     "zero": 22,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-xl": 13,
+      "3. Spacing/spacing-3xl": 2,
+      "3. Spacing/spacing-none": 3
+     }
+    },
+    "gap": {
+     "bound": 4,
+     "styled": 0,
+     "raw": 0,
+     "zero": 3,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-md": 3,
+      "3. Spacing/spacing-lg": 1
+     }
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 13,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": true
+   }
   },
   {
    "kind": "set",
@@ -6419,7 +11339,67 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Modals",
    "pageId": "172:4293",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 3,
+     "styled": 0,
+     "raw": 0,
+     "zero": 21,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-none": 1,
+      "3. Spacing/spacing-xl": 2
+     }
+    },
+    "gap": {
+     "bound": 3,
+     "styled": 0,
+     "raw": 0,
+     "zero": 1,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-xl": 1,
+      "3. Spacing/spacing-none": 1,
+      "3. Spacing/spacing-xxs": 1
+     }
+    },
+    "radius": {
+     "bound": 1,
+     "styled": 0,
+     "raw": 0,
+     "zero": 7,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-full": 1
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 2,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": true
+   }
   },
   {
    "kind": "set",
@@ -6533,7 +11513,65 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Modals",
    "pageId": "172:4293",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 6,
+     "styled": 0,
+     "raw": 0,
+     "zero": 6,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-2xl": 1,
+      "3. Spacing/spacing-none": 3,
+      "3. Spacing/spacing-xl": 2
+     }
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 2,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 4,
+     "styled": 0,
+     "raw": 0,
+     "zero": 3,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-5xl": 2,
+      "2. Radius/radius-none": 2
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": true
+   }
   },
   {
    "kind": "set",
@@ -6635,7 +11673,106 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Alerts & notifications",
    "pageId": "176:4256",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 20,
+     "styled": 0,
+     "raw": 0,
+     "zero": 60,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-xl": 20
+     }
+    },
+    "gap": {
+     "bound": 16,
+     "styled": 0,
+     "raw": 4,
+     "zero": 0,
+     "rawValues": {
+      "12": 4
+     },
+     "boundVars": {
+      "3. Spacing/spacing-xl": 4,
+      "3. Spacing/spacing-lg": 8,
+      "3. Spacing/spacing-xs": 4
+     },
+     "paths": [
+      [
+       "Color=Brand > Content > wrapper",
+       "12"
+      ],
+      [
+       "Color=Default > Content > wrapper",
+       "12"
+      ],
+      [
+       "Color=Error > Content > wrapper",
+       "12"
+      ],
+      [
+       "Color=Success > Content > wrapper",
+       "12"
+      ]
+     ]
+    },
+    "radius": {
+     "bound": 4,
+     "styled": 0,
+     "raw": 0,
+     "zero": 16,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-3xl": 4
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 4,
+     "zero": 0,
+     "rawValues": {
+      "1": 4
+     },
+     "boundVars": {},
+     "paths": [
+      [
+       "Color=Brand",
+       "1"
+      ],
+      [
+       "Color=Default",
+       "1"
+      ],
+      [
+       "Color=Error",
+       "1"
+      ],
+      [
+       "Color=Success",
+       "1"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 8,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": true
+   }
   },
   {
    "kind": "set",
@@ -6692,7 +11829,63 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Date pickers",
    "pageId": "1143:85678",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 24,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-md": 12,
+      "3. Spacing/spacing-lg": 12
+     }
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 6,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-3xl": 6
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 2,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 6,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -6811,7 +12004,91 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Date pickers",
    "pageId": "1143:85678",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 47,
+     "styled": 0,
+     "raw": 0,
+     "zero": 133,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-lg": 4,
+      "3. Spacing/spacing-2xl": 10,
+      "3. Spacing/spacing-3xl": 10,
+      "3. Spacing/spacing-xl": 16,
+      "3. Spacing/spacing-xs": 7
+     }
+    },
+    "gap": {
+     "bound": 20,
+     "styled": 0,
+     "raw": 1,
+     "zero": 11,
+     "rawValues": {
+      "12": 1
+     },
+     "boundVars": {
+      "3. Spacing/spacing-xxs": 1,
+      "3. Spacing/spacing-lg": 11,
+      "3. Spacing/spacing-xs": 5,
+      "3. Spacing/spacing-md": 3
+     },
+     "samplePaths": [
+      [
+       "Type=Dual dates, Breakpoint=Desktop > Trailing content > Bottom panel",
+       "12"
+      ]
+     ]
+    },
+    "radius": {
+     "bound": 4,
+     "styled": 0,
+     "raw": 0,
+     "zero": 41,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-2xl": 4
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 5,
+     "zero": 3,
+     "rawValues": {
+      "1": 5
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Type=Dual dates, Breakpoint=Desktop",
+       "1"
+      ],
+      [
+       "Type=Dual dates, Breakpoint=Desktop > Leading content",
+       "1"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 7,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -6899,7 +12176,60 @@
    "variantsWithoutAutoLayout": 12,
    "page": "↳ Date pickers",
    "pageId": "1143:85678",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 12,
+     "styled": 0,
+     "raw": 0,
+     "zero": 30,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-full": 12
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 12,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -6998,7 +12328,58 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Date pickers",
    "pageId": "1143:85678",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 64,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 8,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 16,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -7077,7 +12458,65 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Date pickers",
    "pageId": "1143:85678",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 12,
+     "styled": 0,
+     "raw": 0,
+     "zero": 4,
+     "rawValues": {},
+     "boundVars": {
+      "5. Containers/container-padding-desktop": 4,
+      "3. Spacing/spacing-xl": 2,
+      "5. Containers/container-padding-mobile": 4,
+      "3. Spacing/spacing-8xl": 2
+     }
+    },
+    "gap": {
+     "bound": 2,
+     "styled": 0,
+     "raw": 0,
+     "zero": 2,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-4xl": 2
+     }
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 4,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -7141,7 +12580,91 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Loading indicators",
    "pageId": "1172:32",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 64,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 8,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-xl": 6,
+      "3. Spacing/spacing-2xl": 2
+     }
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 40,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 16,
+     "zero": 0,
+     "rawValues": {
+      "4": 4,
+      "6": 8,
+      "8": 4
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Style=Line simple, Size=md > Content > Loading circle > Background",
+       "6"
+      ],
+      [
+       "Style=Line simple, Size=md > Content > Loading circle > Line",
+       "6"
+      ],
+      [
+       "Style=Line simple, Size=sm > Content > Loading circle > Background",
+       "4"
+      ],
+      [
+       "Style=Line simple, Size=sm > Content > Loading circle > Line",
+       "4"
+      ],
+      [
+       "Style=Line simple, Size=xl > Content > Loading circle > Background",
+       "8"
+      ],
+      [
+       "Style=Line simple, Size=xl > Content > Loading circle > Line",
+       "8"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 8,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -7211,7 +12734,61 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Label",
    "pageId": "21565:5419",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 16,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 4,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-sm": 2,
+      "3. Spacing/spacing-xs": 2
+     }
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 4,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 4,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -7316,7 +12893,58 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Illustration and assets",
    "pageId": "21131:1009",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 32,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 8,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -7383,7 +13011,94 @@
    "variantsWithoutAutoLayout": 3,
    "page": "↳ Illustration and assets",
    "pageId": "21131:1009",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 6,
+     "styled": 0,
+     "raw": 3,
+     "zero": 12,
+     "rawValues": {
+      "13": 3
+     },
+     "boundVars": {
+      "2. Radius/radius-5xl": 6
+     },
+     "notApplicable": 12,
+     "samplePaths": [
+      [
+       "Color=Black > Container > Freeze layer > Freeze layer",
+       "13"
+      ],
+      [
+       "Color=Electric yellow > Container > Freeze layer > Freeze layer",
+       "13"
+      ]
+     ]
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 6,
+     "zero": 0,
+     "rawValues": {
+      "LAYER_BLUR r34": 3,
+      "BACKGROUND_BLUR r4": 3
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Color=Black > Shadow layer",
+       "LAYER_BLUR r34"
+      ],
+      [
+       "Color=Black > Container > Freeze layer > Freeze layer",
+       "BACKGROUND_BLUR r4"
+      ],
+      [
+       "Color=Electric yellow > Shadow layer",
+       "LAYER_BLUR r34"
+      ],
+      [
+       "Color=Electric yellow > Container > Freeze layer > Freeze layer",
+       "BACKGROUND_BLUR r4"
+      ]
+     ]
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -7455,7 +13170,115 @@
    "variantsWithoutAutoLayout": 4,
    "page": "↳ Illustration and assets",
    "pageId": "21131:1009",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 8,
+     "styled": 0,
+     "raw": 4,
+     "zero": 60,
+     "rawValues": {
+      "13": 4
+     },
+     "boundVars": {
+      "2. Radius/radius-5xl": 8
+     },
+     "notApplicable": 16,
+     "samplePaths": [
+      [
+       "Color=Titanium > Container > Freeze layer > Freeze layer",
+       "13"
+      ],
+      [
+       "Color=Black > Container > Freeze layer > Freeze layer",
+       "13"
+      ]
+     ]
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 36,
+     "zero": 0,
+     "rawValues": {
+      "0.10248365998268127": 4,
+      "0.1317647099494934": 32
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Color=Titanium > Container > Card > ◻️EMV > Group > Vector",
+       "0.10248365998268127"
+      ],
+      [
+       "Color=Titanium > Container > Card > ◻️EMV > Group > Vector",
+       "0.1317647099494934"
+      ],
+      [
+       "Color=Titanium > Container > Card > ◻️EMV > Group > Vector",
+       "0.1317647099494934"
+      ],
+      [
+       "Color=Black > Container > Card > ◻️EMV > Group > Vector",
+       "0.10248365998268127"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 8,
+     "zero": 0,
+     "rawValues": {
+      "LAYER_BLUR r34": 4,
+      "BACKGROUND_BLUR r4": 4
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Color=Titanium > Shadow layer",
+       "LAYER_BLUR r34"
+      ],
+      [
+       "Color=Titanium > Container > Freeze layer > Freeze layer",
+       "BACKGROUND_BLUR r4"
+      ],
+      [
+       "Color=Black > Shadow layer",
+       "LAYER_BLUR r34"
+      ],
+      [
+       "Color=Black > Container > Freeze layer > Freeze layer",
+       "BACKGROUND_BLUR r4"
+      ]
+     ]
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "component",
@@ -7495,7 +13318,70 @@
    "variantsWithoutAutoLayout": 1,
    "page": "↳ Illustration and assets",
    "pageId": "21131:1009",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 14,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 9,
+     "zero": 0,
+     "rawValues": {
+      "1.5": 9
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Illustration/placeholder > Group > Group > Calque_1 > put_your_crypto > Group > Vector",
+       "1.5"
+      ],
+      [
+       "Illustration/placeholder > Group > Group > Calque_1 > put_your_crypto > Group > Vector",
+       "1.5"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "component",
@@ -7531,7 +13417,58 @@
    "variantsWithoutAutoLayout": 1,
    "page": "↳ Illustration and assets",
    "pageId": "21131:1009",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 5,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "component",
@@ -7565,7 +13502,58 @@
    "variantsWithoutAutoLayout": 1,
    "page": "↳ Illustration and assets",
    "pageId": "21131:1009",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 4,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "component",
@@ -7605,7 +13593,70 @@
    "variantsWithoutAutoLayout": 1,
    "page": "↳ Illustration and assets",
    "pageId": "21131:1009",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 72,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 71,
+     "zero": 0,
+     "rawValues": {
+      "1.5": 71
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Illustration/lego > Legos > Group > Group > Vector",
+       "1.5"
+      ],
+      [
+       "Illustration/lego > Legos > Group > Group > Vector",
+       "1.5"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "component",
@@ -7645,7 +13696,70 @@
    "variantsWithoutAutoLayout": 1,
    "page": "↳ Illustration and assets",
    "pageId": "21131:1009",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 12,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 10,
+     "zero": 0,
+     "rawValues": {
+      "1.5": 10
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Illustration/secure > Shield > Inside > Vector",
+       "1.5"
+      ],
+      [
+       "Illustration/secure > Shield > Inside > Vector",
+       "1.5"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "component",
@@ -7677,7 +13791,58 @@
    "variantsWithoutAutoLayout": 1,
    "page": "↳ Illustration and assets",
    "pageId": "21131:1009",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 8,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "component",
@@ -7716,7 +13881,70 @@
    "variantsWithoutAutoLayout": 1,
    "page": "↳ Illustration and assets",
    "pageId": "21131:1009",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 4,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 4,
+     "zero": 0,
+     "rawValues": {
+      "1": 4
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Illustration/Custom img > Container > Guide - toggle visibility before export > Line 1",
+       "1"
+      ],
+      [
+       "Illustration/Custom img > Container > Guide - toggle visibility before export > Line 2",
+       "1"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "component",
@@ -7748,7 +13976,78 @@
    "variantsWithoutAutoLayout": 1,
    "page": "↳ Illustration and assets",
    "pageId": "21131:1009",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 2,
+     "styled": 0,
+     "raw": 0,
+     "zero": 2,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-5xl": 2
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 3,
+     "zero": 0,
+     "rawValues": {
+      "1": 1,
+      "1.5": 1,
+      "1.4664226770401": 1
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Empty card > Background",
+       "1.5"
+      ],
+      [
+       "Empty card > パス 1",
+       "1"
+      ],
+      [
+       "Empty card > Vector",
+       "1.4664226770401"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -7792,7 +14091,60 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Miscellaneous assets",
    "pageId": "1291:157819",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 2,
+     "styled": 0,
+     "raw": 0,
+     "zero": 6,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-none": 2
+     }
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 3,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -7836,7 +14188,58 @@
    "variantsWithoutAutoLayout": 1,
    "page": "↳ Miscellaneous assets",
    "pageId": "1291:157819",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 2,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 1,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -7885,7 +14288,60 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Miscellaneous assets",
    "pageId": "1291:157819",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 12,
+     "styled": 0,
+     "raw": 0,
+     "zero": 12,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-none": 12
+     }
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 12,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "component",
@@ -7919,7 +14375,89 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Slot (temporary - to be deprecated after native figma slots is introduced)",
    "pageId": "17540:4651",
-   "scope": "base"
+   "scope": "base",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 4,
+     "zero": 0,
+     "rawValues": {
+      "paddingTop=10": 1,
+      "paddingRight=10": 1,
+      "paddingBottom=10": 1,
+      "paddingLeft=10": 1
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Slot [paddingTop]",
+       "paddingTop=10"
+      ],
+      [
+       "Slot [paddingRight]",
+       "paddingRight=10"
+      ],
+      [
+       "Slot [paddingBottom]",
+       "paddingBottom=10"
+      ],
+      [
+       "Slot [paddingLeft]",
+       "paddingLeft=10"
+      ]
+     ]
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 2,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 1,
+     "zero": 0,
+     "rawValues": {
+      "1.5": 1
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Slot",
+       "1.5"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "component",
@@ -7954,7 +14492,95 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Colors",
    "pageId": "1023:36350",
-   "scope": "primitives"
+   "scope": "primitives",
+   "bindingScan": {
+    "padding": {
+     "bound": 3,
+     "styled": 0,
+     "raw": 1,
+     "zero": 4,
+     "rawValues": {
+      "paddingTop=92": 1
+     },
+     "boundVars": {
+      "3. Spacing/spacing-lg": 3
+     },
+     "samplePaths": [
+      [
+       "_Swatch base > Content [paddingTop]",
+       "paddingTop=92"
+      ]
+     ]
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 1,
+     "zero": 1,
+     "rawValues": {
+      "-12": 1
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "_Swatch base",
+       "-12"
+      ]
+     ]
+    },
+    "radius": {
+     "bound": 3,
+     "styled": 0,
+     "raw": 0,
+     "zero": 1,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-xl": 3
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 5,
+     "zero": 1,
+     "rawValues": {
+      "1": 4,
+      "2": 1
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "_Swatch base > Swatch",
+       "1"
+      ],
+      [
+       "_Swatch base > Swatch > Dot",
+       "2"
+      ],
+      [
+       "_Swatch base > Content",
+       "1"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 3,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -8026,7 +14652,124 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Logos",
    "pageId": "1083:118533",
-   "scope": "primitives"
+   "scope": "primitives",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 16,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 4,
+     "zero": 0,
+     "rawValues": {
+      "6": 2,
+      "12": 2
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Company=Acme Corp, Style=Default, Dark mode=False",
+       "6"
+      ],
+      [
+       "Company=Acme Corp, Style=Default, Dark mode=True",
+       "6"
+      ],
+      [
+       "Company=Acme Corp, Style=Badge, Dark mode=False",
+       "12"
+      ],
+      [
+       "Company=Acme Corp, Style=Badge, Dark mode=True",
+       "12"
+      ]
+     ]
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 2,
+     "zero": 22,
+     "rawValues": {
+      "12": 2
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Company=Acme Corp, Style=Badge, Dark mode=False > Logomark",
+       "12"
+      ],
+      [
+       "Company=Acme Corp, Style=Badge, Dark mode=True > Logomark",
+       "12"
+      ]
+     ]
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 2,
+     "zero": 0,
+     "rawValues": {
+      "2": 2
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Company=Acme Corp, Style=Badge, Dark mode=False > Logomark",
+       "2"
+      ],
+      [
+       "Company=Acme Corp, Style=Badge, Dark mode=True > Logomark",
+       "2"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 4,
+     "zero": 0,
+     "rawValues": {
+      "DROP_SHADOW r1": 2,
+      "DROP_SHADOW r4.5": 2
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Company=Acme Corp, Style=Badge, Dark mode=False > Logomark",
+       "DROP_SHADOW r1"
+      ],
+      [
+       "Company=Acme Corp, Style=Badge, Dark mode=False > Logomark > Logomark wrapper",
+       "DROP_SHADOW r4.5"
+      ],
+      [
+       "Company=Acme Corp, Style=Badge, Dark mode=True > Logomark",
+       "DROP_SHADOW r1"
+      ],
+      [
+       "Company=Acme Corp, Style=Badge, Dark mode=True > Logomark > Logomark wrapper",
+       "DROP_SHADOW r4.5"
+      ]
+     ]
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -8084,7 +14827,58 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Logos",
    "pageId": "1083:118533",
-   "scope": "primitives"
+   "scope": "primitives",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 32,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 24,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -8142,7 +14936,58 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Logos",
    "pageId": "1083:118533",
-   "scope": "primitives"
+   "scope": "primitives",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 32,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 48,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "component",
@@ -8174,7 +15019,70 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Typography",
    "pageId": "18:1951",
-   "scope": "primitives"
+   "scope": "primitives",
+   "bindingScan": {
+    "padding": {
+     "bound": 1,
+     "styled": 0,
+     "raw": 0,
+     "zero": 11,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-xl": 1
+     }
+    },
+    "gap": {
+     "bound": 2,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-4xl": 2
+     }
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 3,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 1,
+     "zero": 3,
+     "rawValues": {
+      "1": 1
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "_Type scale base > Header",
+       "1"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 6,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "component",
@@ -8206,7 +15114,70 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Effect styles",
    "pageId": "1030:33573",
-   "scope": "primitives"
+   "scope": "primitives",
+   "bindingScan": {
+    "padding": {
+     "bound": 4,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-3xl": 4
+     }
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 1,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-xl": 1
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 1,
+     "zero": 0,
+     "rawValues": {
+      "1": 1
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "_Shadow card",
+       "1"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 1,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 1,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "component",
@@ -8238,7 +15209,70 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Effect styles",
    "pageId": "1030:33573",
-   "scope": "primitives"
+   "scope": "primitives",
+   "bindingScan": {
+    "padding": {
+     "bound": 4,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-3xl": 4
+     }
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 1,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-xl": 1
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 1,
+     "zero": 0,
+     "rawValues": {
+      "1": 1
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "_Focus ring card",
+       "1"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 1,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 2,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -8300,7 +15334,63 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Design annotations",
    "pageId": "1054:557",
-   "scope": "primitives"
+   "scope": "primitives",
+   "bindingScan": {
+    "padding": {
+     "bound": 8,
+     "styled": 0,
+     "raw": 0,
+     "zero": 8,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-none": 8
+     }
+    },
+    "gap": {
+     "bound": 4,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-none": 2,
+      "3. Spacing/spacing-md": 2
+     }
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 4,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 4,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -8345,7 +15435,58 @@
    "variantsWithoutAutoLayout": 2,
    "page": "↳ Design annotations",
    "pageId": "1054:557",
-   "scope": "primitives"
+   "scope": "primitives",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 4,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -8425,7 +15566,132 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Design annotations",
    "pageId": "1054:557",
-   "scope": "primitives"
+   "scope": "primitives",
+   "bindingScan": {
+    "padding": {
+     "bound": 30,
+     "styled": 0,
+     "raw": 20,
+     "zero": 10,
+     "rawValues": {
+      "paddingTop=4": 5,
+      "paddingRight=12": 5,
+      "paddingBottom=4": 5,
+      "paddingLeft=12": 3,
+      "paddingLeft=4": 2
+     },
+     "boundVars": {
+      "3. Spacing/spacing-lg": 12,
+      "3. Spacing/spacing-7xl": 8,
+      "3. Spacing/spacing-10xl": 1,
+      "3. Spacing/spacing-xs": 8,
+      "3. Spacing/spacing-xl": 1
+     },
+     "samplePaths": [
+      [
+       "Type=Lead cell primary > Badge [paddingTop]",
+       "paddingTop=4"
+      ],
+      [
+       "Type=Lead cell primary > Badge [paddingRight]",
+       "paddingRight=12"
+      ],
+      [
+       "Type=Lead cell primary > Badge [paddingBottom]",
+       "paddingBottom=4"
+      ],
+      [
+       "Type=Lead cell primary > Badge [paddingLeft]",
+       "paddingLeft=12"
+      ],
+      [
+       "Type=Lead cell secondary > Badge [paddingTop]",
+       "paddingTop=4"
+      ],
+      [
+       "Type=Lead cell secondary > Badge [paddingRight]",
+       "paddingRight=12"
+      ],
+      [
+       "Type=Lead cell secondary > Badge [paddingBottom]",
+       "paddingBottom=4"
+      ],
+      [
+       "Type=Lead cell secondary > Badge [paddingLeft]",
+       "paddingLeft=12"
+      ],
+      [
+       "Type=Cell swatch light > Badge [paddingLeft]",
+       "paddingLeft=4"
+      ],
+      [
+       "Type=Cell swatch dark > Badge [paddingLeft]",
+       "paddingLeft=4"
+      ]
+     ]
+    },
+    "gap": {
+     "bound": 2,
+     "styled": 0,
+     "raw": 0,
+     "zero": 4,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-sm": 2
+     }
+    },
+    "radius": {
+     "bound": 9,
+     "styled": 0,
+     "raw": 0,
+     "zero": 8,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-sm": 3,
+      "2. Radius/radius-xl": 2,
+      "2. Radius/radius-md": 2,
+      "2. Radius/radius-xs": 2
+     },
+     "notApplicable": 16
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 19,
+     "zero": 24,
+     "rawValues": {
+      "1": 19
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Type=Lead cell primary",
+       "1"
+      ],
+      [
+       "Type=Lead cell primary > Badge",
+       "1"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 9,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -8475,7 +15741,87 @@
    "variantsWithoutAutoLayout": 7,
    "page": "↳ Design annotations",
    "pageId": "1054:557",
-   "scope": "primitives"
+   "scope": "primitives",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 17,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 2,
+     "zero": 0,
+     "rawValues": {
+      "1": 2
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Type=Plus > Vector",
+       "1"
+      ],
+      [
+       "Type=Default > Vector",
+       "1"
+      ]
+     ]
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 5,
+     "zero": 0,
+     "rawValues": {
+      "DROP_SHADOW r2": 4,
+      "DROP_SHADOW r1": 1
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Type=Hand open",
+       "DROP_SHADOW r2"
+      ],
+      [
+       "Type=Hand grab",
+       "DROP_SHADOW r2"
+      ],
+      [
+       "Type=Text cursor > Vector",
+       "DROP_SHADOW r1"
+      ]
+     ]
+    },
+    "text": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -8534,7 +15880,100 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Design annotations",
    "pageId": "1054:557",
-   "scope": "primitives"
+   "scope": "primitives",
+   "bindingScan": {
+    "padding": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 8,
+     "zero": 8,
+     "rawValues": {
+      "paddingTop=16": 2,
+      "paddingRight=16": 2,
+      "paddingBottom=16": 2,
+      "paddingLeft=16": 2
+     },
+     "boundVars": {},
+     "samplePaths": [
+      [
+       "Size=md [paddingTop]",
+       "paddingTop=16"
+      ],
+      [
+       "Size=md [paddingRight]",
+       "paddingRight=16"
+      ],
+      [
+       "Size=md [paddingBottom]",
+       "paddingBottom=16"
+      ],
+      [
+       "Size=md [paddingLeft]",
+       "paddingLeft=16"
+      ],
+      [
+       "Size=sm [paddingTop]",
+       "paddingTop=16"
+      ],
+      [
+       "Size=sm [paddingRight]",
+       "paddingRight=16"
+      ],
+      [
+       "Size=sm [paddingBottom]",
+       "paddingBottom=16"
+      ],
+      [
+       "Size=sm [paddingLeft]",
+       "paddingLeft=16"
+      ]
+     ]
+    },
+    "gap": {
+     "bound": 4,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-none": 2,
+      "3. Spacing/spacing-md": 2
+     }
+    },
+    "radius": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 4,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 4,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "set",
@@ -8579,7 +16018,67 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Design annotations",
    "pageId": "1054:557",
-   "scope": "primitives"
+   "scope": "primitives",
+   "bindingScan": {
+    "padding": {
+     "bound": 8,
+     "styled": 0,
+     "raw": 0,
+     "zero": 8,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-6xl": 4,
+      "3. Spacing/spacing-3xl": 2,
+      "3. Spacing/spacing-5xl": 2
+     }
+    },
+    "gap": {
+     "bound": 2,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-md": 1,
+      "3. Spacing/spacing-xs": 1
+     }
+    },
+    "radius": {
+     "bound": 2,
+     "styled": 0,
+     "raw": 0,
+     "zero": 2,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-4xl": 2
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 4,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "component",
@@ -8611,7 +16110,65 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Design annotations",
    "pageId": "1054:557",
-   "scope": "primitives"
+   "scope": "primitives",
+   "bindingScan": {
+    "padding": {
+     "bound": 8,
+     "styled": 0,
+     "raw": 0,
+     "zero": 4,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-4xl": 4,
+      "3. Spacing/spacing-6xl": 4
+     }
+    },
+    "gap": {
+     "bound": 1,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-md": 1
+     }
+    },
+    "radius": {
+     "bound": 2,
+     "styled": 0,
+     "raw": 0,
+     "zero": 1,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-4xl": 2
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 0,
+     "styled": 2,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "fullPaths": false
+   }
   },
   {
    "kind": "component",
@@ -8652,7 +16209,66 @@
    "variantsWithoutAutoLayout": 0,
    "page": "↳ Design annotations",
    "pageId": "1054:557",
-   "scope": "primitives"
+   "scope": "primitives",
+   "bindingScan": {
+    "padding": {
+     "bound": 6,
+     "styled": 0,
+     "raw": 0,
+     "zero": 2,
+     "rawValues": {},
+     "boundVars": {
+      "3. Spacing/spacing-xl": 2,
+      "3. Spacing/spacing-none": 2,
+      "3. Spacing/spacing-md": 2
+     }
+    },
+    "gap": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "radius": {
+     "bound": 1,
+     "styled": 0,
+     "raw": 0,
+     "zero": 1,
+     "rawValues": {},
+     "boundVars": {
+      "2. Radius/radius-none": 1
+     }
+    },
+    "strokeWidth": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "effect": {
+     "bound": 0,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {}
+    },
+    "text": {
+     "bound": 1,
+     "styled": 0,
+     "raw": 0,
+     "zero": 0,
+     "rawValues": {},
+     "boundVars": {
+      "6. Typography/Font size/display-sm": 1
+     }
+    },
+    "fullPaths": false
+   }
   }
  ]
 }

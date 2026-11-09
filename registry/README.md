@@ -1,6 +1,6 @@
 # registry/
 
-Machine-readable component registry for MAKER-DS-v2 (`xJoAz66aekAToyhBmfGNt0`), built in task **P1-04** (2026-11-09). Agents should read this instead of re-scanning Figma. It is a **snapshot**: re-run the extractor before relying on it after any library change.
+Machine-readable component registry for MAKER-DS-v2 (`xJoAz66aekAToyhBmfGNt0`), built in task **P1-04** and extended with spacing/radius/stroke/effect/text bindings in **P1-05** (2026-11-09). Agents should read this instead of re-scanning Figma. It is a **snapshot**: re-run the extractor before relying on it after any library change.
 
 ## Files
 
@@ -9,8 +9,9 @@ Machine-readable component registry for MAKER-DS-v2 (`xJoAz66aekAToyhBmfGNt0`), 
 | `components.json` | The registry (schema `1.0.0`). Built by `scripts/build-registry.py` |
 | `raw/figma-extract-2026-11-09.json` | Unmodified output of `scripts/figma-registry-extract.js` for all 29 component pages (6 read-only `use_figma` calls) |
 | `raw/figma-rerun-2026-11-09.json` | Second read of Buttons + Modals, used for the stability check |
+| `raw/figma-bindings-2026-11-09.json` | P1-05 output of `scripts/figma-binding-scan.js`: general scan of all 95 owners + full-path scan of the pilot sets |
 
-Rebuild: `python3 -I scripts/build-registry.py registry/raw/figma-extract-2026-11-09.json registry/components.json` (validates before writing).
+Rebuild: `python3 -I scripts/build-registry.py registry/raw/figma-extract-2026-11-09.json registry/components.json registry/raw/figma-bindings-2026-11-09.json` (validates before writing).
 
 ## `components.json` structure
 
@@ -19,11 +20,12 @@ Rebuild: `python3 -I scripts/build-registry.py registry/raw/figma-extract-2026-1
 - `reconciliation`: audit §2.3 expectations vs actual, plus spot checks.
 - `instanceSwapProperties`, `textProperties`: every INSTANCE_SWAP and TEXT property in the file.
 - `dependencies`: every component used as a nested instance, with key, `remote`, `source` classification, `usedBy` and instance count.
-- `components[]`: one entry per component set or standalone component: `kind`, `name`, `id`, `key`, `page`, `scope`, `variantCount`, `axes`, full `properties` (name, id, type, default, variant `options`; for INSTANCE_SWAP the resolved `defaultRef` and `preferred` keys), `nestedInstances`, `exposedInstances`, `dependencies`, `bindings` (bound/raw solid fills and strokes, text layers without a text style, up to 3 sample paths each), `slotNamedLayers`, `variantsWithoutAutoLayout`.
+- `components[]`: one entry per component set or standalone component: `kind`, `name`, `id`, `key`, `page`, `scope`, `variantCount`, `axes`, full `properties` (name, id, type, default, variant `options`; for INSTANCE_SWAP the resolved `defaultRef` and `preferred` keys), `nestedInstances`, `exposedInstances`, `dependencies`, `bindings` (bound/raw solid fills and strokes, text layers without a text style, up to 3 sample paths each), `slotNamedLayers`, `variantsWithoutAutoLayout`, and `bindingScan` (P1-05: per class padding/gap/radius/strokeWidth/effect/text → `bound`, `styled`, `raw`, `zero`, `rawValues`, `boundVars`; full `paths` for pilot sets, `samplePaths` otherwise).
+- `bindingScan` (top level): extractor, read times, method note, per-class totals for `all` and `base`. Report: `reports/P1-05-bindings.md`.
 
 ## Limits (read before using)
 
-- **Binding scan:** solid fills, solid strokes and text-style presence on each component's own layers. Nested instances are not descended. Spacing, radius, effect and text-style IDs are **not** scanned (P1-05).
+- **Binding scan:** solid fills, solid strokes and text-style presence on each component's own layers. Nested instances are not descended. Spacing, radius, stroke width, effects and text are in `bindingScan` (P1-05). Width/height bindings are not scanned.
 - **Variant IDs/names per variant are not stored** (kept out to stay within MCP return limits). Axes and options are. P1-08 checkers read variants live.
 - **Remote library attribution is UNVERIFIED.** The Plugin API gives `remote: true` and the key, not the library name. `Icon wrapper` (`b8295cee…`) is assumed to be the MAKER Icon library; `Home Indicator` is presumably the iOS kit.
 - **Orphans:** 46 local dependencies resolve to main components that are on no page (`parent = null`, `removed = false`). Verified for 25 of them on 2026-11-09.

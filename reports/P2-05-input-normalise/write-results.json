@@ -1,0 +1,246 @@
+[
+ {
+  "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+  "writtenAt": "2026-11-09T19:06:52.632Z",
+  "count": 1,
+  "results": [
+   {
+    "variant": "Size=lg, Type=Default, Destructive=False, State=Placeholder",
+    "label": "Label",
+    "value": "Placeholder text",
+    "height": 102,
+    "order": [
+     "Label row",
+     "Input",
+     "Helper text"
+    ],
+    "exposedIcon": true
+   }
+  ]
+ },
+ {
+  "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+  "writtenAt": "2026-11-09T19:06:52.632Z",
+  "count": 1,
+  "results": [
+   {
+    "variant": "Size=lg, Type=Default, Destructive=False, State=Placeholder",
+    "label": "Label",
+    "value": "Placeholder text",
+    "height": 102,
+    "order": [
+     "Label row",
+     "Input",
+     "Helper text"
+    ],
+    "exposedIcon": true
+   }
+  ]
+ },
+ {
+  "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+  "writtenAt": "2026-11-09T19:19:08.872Z",
+  "count": 12,
+  "results": [
+   {
+    "variant": "Size=lg, Type=Password, Destructive=False, State=Placeholder",
+    "label": "Password",
+    "value": "Password",
+    "height": 102,
+    "order": "Label row / Input / Helper text",
+    "exposedIcon": true
+   },
+   {
+    "variant": "Size=lg, Type=Default, Destructive=True, State=Placeholder",
+    "label": "Label",
+    "value": "Placeholder text",
+    "height": 102,
+    "order": "Label row / Input / Helper text",
+    "exposedIcon": true
+   },
+   {
+    "variant": "Size=lg, Type=Password, Destructive=True, State=Placeholder",
+    "label": "Password",
+    "value": "Password",
+    "height": 102,
+    "order": "Label row / Input / Helper text",
+    "exposedIcon": true
+   },
+   {
+    "variant": "Size=lg, Type=Default, Destructive=False, State=Filled",
+    "label": "Label",
+    "value": "{Text}",
+    "height": 102,
+    "order": "Label row / Input / Helper text",
+    "exposedIcon": true
+   },
+   {
+    "variant": "Size=lg, Type=Password, Destructive=False, State=Filled",
+    "label": "Password",
+    "value": "\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf",
+    "height": 102,
+    "order": "Label row / Input / Helper text",
+    "exposedIcon": true
+   },
+   {
+    "variant": "Size=lg, Type=Default, Destructive=True, State=Filled",
+    "label": "Label",
+    "value": "{Text}",
+    "height": 102,
+    "order": "Label row / Input / Helper text",
+    "exposedIcon": true
+   },
+   {
+    "variant": "Size=lg, Type=Password, Destructive=True, State=Filled",
+    "label": "Password",
+    "value": "\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf",
+    "height": 102,
+    "order": "Label row / Input / Helper text",
+    "exposedIcon": true
+   },
+   {
+    "variant": "Size=lg, Type=Default, Destructive=False, State=Focused",
+    "label": "Label",
+    "value": "{Text}",
+    "height": 102,
+    "order": "Label row / Input / Helper text",
+    "exposedIcon": true
+   },
+   {
+    "variant": "Size=lg, Type=Password, Destructive=False, State=Focused",
+    "label": "Password",
+    "value": "\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf",
+    "height": 102,
+    "order": "Label row / Input / Helper text",
+    "exposedIcon": true
+   },
+   {
+    "variant": "Size=lg, Type=Default, Destructive=False, State=Disabled",
+    "label": "Label",
+    "value": "{Text}",
+    "height": 102,
+    "order": "Label row / Input / Helper text",
+    "exposedIcon": true
+   },
+   {
+    "variant": "Size=lg, Type=Password, Destructive=False, State=Disabled",
+    "label": "Password",
+    "value": "\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf",
+    "height": 102,
+    "order": "Label row / Input / Helper text",
+    "exposedIcon": true
+   },
+   {
+    "variant": "Size=lg, Type=Default, Destructive=True, State=Disabled",
+    "label": "Label",
+    "value": "{Text}",
+    "height": 102,
+    "order": "Label row / Input / Helper text",
+    "exposedIcon": true
+   }
+  ]
+ },
+ {
+  "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+  "writtenAt": "2026-11-09T19:19:08.872Z",
+  "count": 12,
+  "results": [
+   {
+    "variant": "Size=lg, Type=Password, Destructive=False, State=Placeholder",
+    "label": "Password",
+    "value": "Password",
+    "height": 102,
+    "order": "Label row / Input / Helper text",
+    "exposedIcon": true
+   },
+   {
+    "variant": "Size=lg, Type=Default, Destructive=True, State=Placeholder",
+    "label": "Label",
+    "value": "Placeholder text",
+    "height": 102,
+    "order": "Label row / Input / Helper text",
+    "exposedIcon": true
+   },
+   {
+    "variant": "Size=lg, Type=Password, Destructive=True, State=Placeholder",
+    "label": "Password",
+    "value": "Password",
+    "height": 102,
+    "order": "Label row / Input / Helper text",
+    "exposedIcon": true
+   },
+   {
+    "variant": "Size=lg, Type=Default, Destructive=False, State=Filled",
+    "label": "Label",
+    "value": "{Text}",
+    "height": 102,
+    "order": "Label row / Input / Helper text",
+    "exposedIcon": true
+   },
+   {
+    "variant": "Size=lg, Type=Password, Destructive=False, State=Filled",
+    "label": "Password",
+    "value": "\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf",
+    "height": 102,
+    "order": "Label row / Input / Helper text",
+    "exposedIcon": true
+   },
+   {
+    "variant": "Size=lg, Type=Default, Destructive=True, State=Filled",
+    "label": "Label",
+    "value": "{Text}",
+    "height": 102,
+    "order": "Label row / Input / Helper text",
+    "exposedIcon": true
+   },
+   {
+    "variant": "Size=lg, Type=Password, Destructive=True, State=Filled",
+    "label": "Password",
+    "value": "\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf",
+    "height": 102,
+    "order": "Label row / Input / Helper text",
+    "exposedIcon": true
+   },
+   {
+    "variant": "Size=lg, Type=Default, Destructive=False, State=Focused",
+    "label": "Label",
+    "value": "{Text}",
+    "height": 102,
+    "order": "Label row / Input / Helper text",
+    "exposedIcon": true
+   },
+   {
+    "variant": "Size=lg, Type=Password, Destructive=False, State=Focused",
+    "label": "Password",
+    "value": "\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf",
+    "height": 102,
+    "order": "Label row / Input / Helper text",
+    "exposedIcon": true
+   },
+   {
+    "variant": "Size=lg, Type=Default, Destructive=False, State=Disabled",
+    "label": "Label",
+    "value": "{Text}",
+    "height": 102,
+    "order": "Label row / Input / Helper text",
+    "exposedIcon": true
+   },
+   {
+    "variant": "Size=lg, Type=Password, Destructive=False, State=Disabled",
+    "label": "Password",
+    "value": "\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf\u25cf",
+    "height": 102,
+    "order": "Label row / Input / Helper text",
+    "exposedIcon": true
+   },
+   {
+    "variant": "Size=lg, Type=Default, Destructive=True, State=Disabled",
+    "label": "Label",
+    "value": "{Text}",
+    "height": 102,
+    "order": "Label row / Input / Helper text",
+    "exposedIcon": true
+   }
+  ]
+ }
+]

@@ -1,0 +1,166 @@
+{
+ "instances": [
+  [
+   "I1547:268957;17546:19470",
+   "Jan 10, 2025|Optional|{Support text}",
+   44
+  ],
+  [
+   "I1150:18448;17546:19470",
+   "Jan 10, 2025|Optional|{Support text}",
+   44
+  ],
+  [
+   "17546:19470",
+   "Jan 10, 2025|Optional|{Support text}",
+   44
+  ],
+  [
+   "I1547:266831;17546:19053",
+   "Jan 10, 2025|Optional|{Support text}",
+   44
+  ],
+  [
+   "I1150:18445;17546:19470",
+   "Jan 10, 2025|Optional|{Support text}",
+   44
+  ],
+  [
+   "I21214:6370;17546:19288",
+   "Jan 10, 2025|Optional|{Support text}",
+   44
+  ],
+  [
+   "I1150:16156;17546:19226",
+   "Jan 16, 2025|Optional|{Support text}",
+   44
+  ],
+  [
+   "I21214:6370;17546:19290",
+   "Jan 16, 2025|Optional|{Support text}",
+   44
+  ],
+  [
+   "I1150:16805;17546:19053",
+   "Jan 10, 2025|Optional|{Support text}",
+   44
+  ],
+  [
+   "17546:19053",
+   "Jan 10, 2025|Optional|{Support text}",
+   44
+  ],
+  [
+   "I1547:266831;17546:19226",
+   "Jan 16, 2025|Optional|{Support text}",
+   44
+  ],
+  [
+   "I1150:20593;17546:19290",
+   "Jan 16, 2025|Optional|{Support text}",
+   44
+  ],
+  [
+   "I1547:267432;17546:19290",
+   "Jan 16, 2025|Optional|{Support text}",
+   44
+  ],
+  [
+   "I1547:267432;17546:19288",
+   "Jan 10, 2025|Optional|{Support text}",
+   44
+  ],
+  [
+   "I1150:16156;17546:19053",
+   "Jan 10, 2025|Optional|{Support text}",
+   44
+  ],
+  [
+   "I1150:20593;17546:19288",
+   "Jan 10, 2025|Optional|{Support text}",
+   44
+  ],
+  [
+   "I1150:20599;17546:19290",
+   "Jan 16, 2025|Optional|{Support text}",
+   44
+  ],
+  [
+   "I1150:20599;17546:19288",
+   "Jan 10, 2025|Optional|{Support text}",
+   44
+  ],
+  [
+   "I1150:16805;17546:19226",
+   "Jan 16, 2025|Optional|{Support text}",
+   44
+  ],
+  [
+   "I1150:20596;17546:19420",
+   "Jan 10, 2025|Optional|{Support text}",
+   44
+  ],
+  [
+   "I1547:269100;17546:19420",
+   "Jan 10, 2025|Optional|{Support text}",
+   44
+  ],
+  [
+   "17546:19226",
+   "Jan 16, 2025|Optional|{Support text}",
+   44
+  ],
+  [
+   "I1150:20590;17546:19420",
+   "Jan 10, 2025|Optional|{Support text}",
+   44
+  ],
+  [
+   "17546:19290",
+   "Jan 16, 2025|Optional|{Support text}",
+   44
+  ],
+  [
+   "17546:19420",
+   "Jan 10, 2025|Optional|{Support text}",
+   44
+  ],
+  [
+   "17546:19288",
+   "Jan 10, 2025|Optional|{Support text}",
+   44
+  ]
+ ],
+ "inputDefs": [
+  [
+   "Label#23498:0",
+   "TEXT",
+   "Label"
+  ],
+  [
+   "Text#23498:54",
+   "TEXT",
+   "Placeholder text"
+  ],
+  [
+   "Size",
+   "VARIANT",
+   "lg"
+  ],
+  [
+   "Type",
+   "VARIANT",
+   "Leading icon"
+  ],
+  [
+   "Destructive",
+   "VARIANT",
+   "False"
+  ],
+  [
+   "State",
+   "VARIANT",
+   "Placeholder"
+  ]
+ ]
+}

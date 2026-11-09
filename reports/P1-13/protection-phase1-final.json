@@ -1,0 +1,1187 @@
+{
+ "check": "variants",
+ "run": "phase1-final",
+ "fileKey": "xJoAz66aekAToyhBmfGNt0",
+ "readAt": "2026-11-09T17:01:56.924Z",
+ "probe": null,
+ "fingerprint": {
+  "collections": [
+   [
+    "_Primitives",
+    309,
+    "Style"
+   ],
+   [
+    "1. Color modes",
+    292,
+    "Light mode/Dark mode"
+   ],
+   [
+    "5. Containers",
+    3,
+    "Value"
+   ],
+   [
+    "4. Widths",
+    12,
+    "Mode 1"
+   ],
+   [
+    "3. Spacing",
+    17,
+    "Mode 1"
+   ],
+   [
+    "2. Radius",
+    12,
+    "Mode 1"
+   ],
+   [
+    "6. Typography",
+    36,
+    "Value"
+   ]
+  ],
+  "variables": 681,
+  "paintStyles": 393,
+  "textStyles": 65,
+  "effectStyles": 25,
+  "gridStyles": 8
+ },
+ "sets": [
+  {
+   "id": "3287:427074",
+   "name": "Buttons/Button",
+   "key": "4e55cb83a056a6e3ac0225834874a1dcb6580da6",
+   "propDefsHash": "8a5584cf",
+   "variantCount": 118,
+   "variants": [
+    [
+     "3287:427299",
+     "Size=md, Hierarchy=Primary, State=Default, Icon only=False",
+     "49d85447",
+     5
+    ],
+    [
+     "17496:23075",
+     "Size=md, Hierarchy=Primary_alt, State=Default, Icon only=False",
+     "7820ac7d",
+     5
+    ],
+    [
+     "3287:427307",
+     "Size=md, Hierarchy=Link brand, State=Default, Icon only=False",
+     "3881605a",
+     4
+    ],
+    [
+     "3287:427323",
+     "Size=md, Hierarchy=Secondary, State=Default, Icon only=False",
+     "c504d35a",
+     5
+    ],
+    [
+     "3287:427327",
+     "Size=md, Hierarchy=Primary, State=Disabled, Icon only=False",
+     "79f98a2f",
+     5
+    ],
+    [
+     "3287:427335",
+     "Size=md, Hierarchy=Link brand, State=Disabled, Icon only=False",
+     "e8e85bcd",
+     4
+    ],
+    [
+     "3287:427351",
+     "Size=md, Hierarchy=Secondary, State=Disabled, Icon only=False",
+     "1a3d4454",
+     5
+    ],
+    [
+     "3287:427355",
+     "Size=md, Hierarchy=Primary, State=Focused, Icon only=False",
+     "9a5dba51",
+     5
+    ],
+    [
+     "17496:23085",
+     "Size=md, Hierarchy=Primary_alt, State=Focused, Icon only=False",
+     "ef799a0a",
+     5
+    ],
+    [
+     "3287:427363",
+     "Size=md, Hierarchy=Link brand, State=Focused, Icon only=False",
+     "3de40710",
+     4
+    ],
+    [
+     "3287:427379",
+     "Size=md, Hierarchy=Secondary, State=Focused, Icon only=False",
+     "ee1ce5b7",
+     5
+    ],
+    [
+     "3287:427383",
+     "Size=md, Hierarchy=Primary, State=Hover, Icon only=False",
+     "69c65038",
+     5
+    ],
+    [
+     "17496:23090",
+     "Size=md, Hierarchy=Primary_alt, State=Hover, Icon only=False",
+     "7820ac7d",
+     5
+    ],
+    [
+     "8993:329748",
+     "Size=md, Hierarchy=Primary, State=Loading, Icon only=False",
+     "1dce6885",
+     4
+    ],
+    [
+     "17496:23095",
+     "Size=md, Hierarchy=Primary_alt, State=Loading, Icon only=False",
+     "ecf133f5",
+     4
+    ],
+    [
+     "3287:427391",
+     "Size=md, Hierarchy=Link brand, State=Hover, Icon only=False",
+     "da001c11",
+     4
+    ],
+    [
+     "8993:551948",
+     "Size=md, Hierarchy=Link brand, State=Loading, Icon only=False",
+     "b388421d",
+     3
+    ],
+    [
+     "3287:427407",
+     "Size=md, Hierarchy=Secondary, State=Hover, Icon only=False",
+     "66838f11",
+     5
+    ],
+    [
+     "8993:551690",
+     "Size=md, Hierarchy=Secondary, State=Loading, Icon only=False",
+     "7b578b51",
+     4
+    ],
+    [
+     "3287:427415",
+     "Size=md, Hierarchy=Primary, State=Default, Icon only=True",
+     "2ff45a50",
+     2
+    ],
+    [
+     "17498:17593",
+     "Size=md, Hierarchy=Primary_alt, State=Default, Icon only=True",
+     "7c48e0d1",
+     2
+    ],
+    [
+     "3287:427455",
+     "Size=md, Hierarchy=Secondary, State=Default, Icon only=True",
+     "e534c7b6",
+     2
+    ],
+    [
+     "3287:427463",
+     "Size=md, Hierarchy=Primary, State=Disabled, Icon only=True",
+     "10cb8e35",
+     2
+    ],
+    [
+     "3287:427503",
+     "Size=md, Hierarchy=Secondary, State=Disabled, Icon only=True",
+     "7c65a472",
+     2
+    ],
+    [
+     "3287:427511",
+     "Size=md, Hierarchy=Primary, State=Focused, Icon only=True",
+     "2ff45a50",
+     2
+    ],
+    [
+     "17498:17597",
+     "Size=md, Hierarchy=Primary_alt, State=Focused, Icon only=True",
+     "ac434838",
+     2
+    ],
+    [
+     "3287:427551",
+     "Size=md, Hierarchy=Secondary, State=Focused, Icon only=True",
+     "b4d13af5",
+     2
+    ],
+    [
+     "3287:427559",
+     "Size=md, Hierarchy=Primary, State=Hover, Icon only=True",
+     "77c3defd",
+     2
+    ],
+    [
+     "17498:17599",
+     "Size=md, Hierarchy=Primary_alt, State=Hover, Icon only=True",
+     "7c48e0d1",
+     2
+    ],
+    [
+     "8993:329753",
+     "Size=md, Hierarchy=Primary, State=Loading, Icon only=True",
+     "af3324a6",
+     2
+    ],
+    [
+     "17498:17601",
+     "Size=md, Hierarchy=Primary_alt, State=Loading, Icon only=True",
+     "ee648175",
+     2
+    ],
+    [
+     "3287:427599",
+     "Size=md, Hierarchy=Secondary, State=Hover, Icon only=True",
+     "e534c7b6",
+     2
+    ],
+    [
+     "8993:551695",
+     "Size=md, Hierarchy=Secondary, State=Loading, Icon only=True",
+     "759de0bc",
+     2
+    ],
+    [
+     "3287:427827",
+     "Size=lg, Hierarchy=Primary, State=Default, Icon only=False",
+     "eac95190",
+     5
+    ],
+    [
+     "17496:23099",
+     "Size=lg, Hierarchy=Primary_alt, State=Default, Icon only=False",
+     "7fe3fdc8",
+     5
+    ],
+    [
+     "3287:427835",
+     "Size=lg, Hierarchy=Link brand, State=Default, Icon only=False",
+     "a2ba1f94",
+     4
+    ],
+    [
+     "3287:427851",
+     "Size=lg, Hierarchy=Secondary, State=Default, Icon only=False",
+     "2fc249a9",
+     5
+    ],
+    [
+     "3287:427855",
+     "Size=lg, Hierarchy=Primary, State=Disabled, Icon only=False",
+     "632792b2",
+     5
+    ],
+    [
+     "3287:427863",
+     "Size=lg, Hierarchy=Link brand, State=Disabled, Icon only=False",
+     "5e684927",
+     4
+    ],
+    [
+     "3287:427879",
+     "Size=lg, Hierarchy=Secondary, State=Disabled, Icon only=False",
+     "29802b15",
+     5
+    ],
+    [
+     "3287:427883",
+     "Size=lg, Hierarchy=Primary, State=Focused, Icon only=False",
+     "1aa93a0e",
+     5
+    ],
+    [
+     "17496:23109",
+     "Size=lg, Hierarchy=Primary_alt, State=Focused, Icon only=False",
+     "f36ca96d",
+     5
+    ],
+    [
+     "3287:427891",
+     "Size=lg, Hierarchy=Link brand, State=Focused, Icon only=False",
+     "f856faa8",
+     4
+    ],
+    [
+     "3287:427907",
+     "Size=lg, Hierarchy=Secondary, State=Focused, Icon only=False",
+     "6f49a88a",
+     5
+    ],
+    [
+     "3287:427911",
+     "Size=lg, Hierarchy=Primary, State=Hover, Icon only=False",
+     "1cd96f89",
+     5
+    ],
+    [
+     "17496:23114",
+     "Size=lg, Hierarchy=Primary_alt, State=Hover, Icon only=False",
+     "7fe3fdc8",
+     5
+    ],
+    [
+     "8993:329758",
+     "Size=lg, Hierarchy=Primary, State=Loading, Icon only=False",
+     "51124b6b",
+     4
+    ],
+    [
+     "17496:23119",
+     "Size=lg, Hierarchy=Primary_alt, State=Loading, Icon only=False",
+     "dc5cbe03",
+     4
+    ],
+    [
+     "3287:427919",
+     "Size=lg, Hierarchy=Link brand, State=Hover, Icon only=False",
+     "5226ab8e",
+     4
+    ],
+    [
+     "8993:551849",
+     "Size=lg, Hierarchy=Link brand, State=Loading, Icon only=False",
+     "8776957a",
+     3
+    ],
+    [
+     "3287:427935",
+     "Size=lg, Hierarchy=Secondary, State=Hover, Icon only=False",
+     "b61fad52",
+     5
+    ],
+    [
+     "8993:551697",
+     "Size=lg, Hierarchy=Secondary, State=Loading, Icon only=False",
+     "9862aea4",
+     4
+    ],
+    [
+     "3287:427943",
+     "Size=lg, Hierarchy=Primary, State=Default, Icon only=True",
+     "09bf8858",
+     2
+    ],
+    [
+     "17498:17603",
+     "Size=lg, Hierarchy=Primary_alt, State=Default, Icon only=True",
+     "adce4fa7",
+     2
+    ],
+    [
+     "3287:427983",
+     "Size=lg, Hierarchy=Secondary, State=Default, Icon only=True",
+     "18053956",
+     2
+    ],
+    [
+     "3287:427991",
+     "Size=lg, Hierarchy=Primary, State=Disabled, Icon only=True",
+     "f7904383",
+     2
+    ],
+    [
+     "3287:428031",
+     "Size=lg, Hierarchy=Secondary, State=Disabled, Icon only=True",
+     "bf511b02",
+     2
+    ],
+    [
+     "3287:428039",
+     "Size=lg, Hierarchy=Primary, State=Focused, Icon only=True",
+     "09bf8858",
+     2
+    ],
+    [
+     "17498:17607",
+     "Size=lg, Hierarchy=Primary_alt, State=Focused, Icon only=True",
+     "b8153f76",
+     2
+    ],
+    [
+     "3287:428079",
+     "Size=lg, Hierarchy=Secondary, State=Focused, Icon only=True",
+     "c4f6f329",
+     2
+    ],
+    [
+     "3287:428087",
+     "Size=lg, Hierarchy=Primary, State=Hover, Icon only=True",
+     "1f9cfe69",
+     2
+    ],
+    [
+     "17498:17609",
+     "Size=lg, Hierarchy=Primary_alt, State=Hover, Icon only=True",
+     "adce4fa7",
+     2
+    ],
+    [
+     "8993:329763",
+     "Size=lg, Hierarchy=Primary, State=Loading, Icon only=True",
+     "7dda107e",
+     2
+    ],
+    [
+     "17498:17611",
+     "Size=lg, Hierarchy=Primary_alt, State=Loading, Icon only=True",
+     "2838e52b",
+     2
+    ],
+    [
+     "3287:428127",
+     "Size=lg, Hierarchy=Secondary, State=Hover, Icon only=True",
+     "18053956",
+     2
+    ],
+    [
+     "8993:551702",
+     "Size=lg, Hierarchy=Secondary, State=Loading, Icon only=True",
+     "ccb9f8dc",
+     2
+    ],
+    [
+     "3287:429411",
+     "Size=sm, Hierarchy=Primary, State=Default, Icon only=False",
+     "6f91a3c3",
+     5
+    ],
+    [
+     "17496:23283",
+     "Size=xxs, Hierarchy=Primary, State=Default, Icon only=False",
+     "d8a0fc9e",
+     5
+    ],
+    [
+     "17496:23351",
+     "Size=xxs, Hierarchy=Primary_alt, State=Default, Icon only=False",
+     "d5c455eb",
+     5
+    ],
+    [
+     "17496:23123",
+     "Size=sm, Hierarchy=Primary_alt, State=Default, Icon only=False",
+     "5d6bd96b",
+     5
+    ],
+    [
+     "3287:429419",
+     "Size=sm, Hierarchy=Link brand, State=Default, Icon only=False",
+     "66abc907",
+     4
+    ],
+    [
+     "17499:16186",
+     "Size=xxs, Hierarchy=Link brand, State=Default, Icon only=False",
+     "5365a397",
+     4
+    ],
+    [
+     "3287:429435",
+     "Size=sm, Hierarchy=Secondary, State=Default, Icon only=False",
+     "7d51487d",
+     5
+    ],
+    [
+     "17498:17675",
+     "Size=xxs, Hierarchy=Secondary, State=Default, Icon only=False",
+     "9931a21d",
+     5
+    ],
+    [
+     "3287:429439",
+     "Size=sm, Hierarchy=Primary, State=Disabled, Icon only=False",
+     "bdc95899",
+     5
+    ],
+    [
+     "17496:23288",
+     "Size=xxs, Hierarchy=Primary, State=Disabled, Icon only=False",
+     "e5767867",
+     5
+    ],
+    [
+     "3287:429447",
+     "Size=sm, Hierarchy=Link brand, State=Disabled, Icon only=False",
+     "13354197",
+     4
+    ],
+    [
+     "17499:16190",
+     "Size=xxs, Hierarchy=Link brand, State=Disabled, Icon only=False",
+     "ae003f63",
+     4
+    ],
+    [
+     "3287:429463",
+     "Size=sm, Hierarchy=Secondary, State=Disabled, Icon only=False",
+     "9f2cf0e3",
+     5
+    ],
+    [
+     "17498:17680",
+     "Size=xxs, Hierarchy=Secondary, State=Disabled, Icon only=False",
+     "d837cc05",
+     5
+    ],
+    [
+     "3287:429467",
+     "Size=sm, Hierarchy=Primary, State=Focused, Icon only=False",
+     "40eb221b",
+     5
+    ],
+    [
+     "17496:23293",
+     "Size=xxs, Hierarchy=Primary, State=Focused, Icon only=False",
+     "1ccbc49a",
+     5
+    ],
+    [
+     "17496:23361",
+     "Size=xxs, Hierarchy=Primary_alt, State=Focused, Icon only=False",
+     "0b1b9ae4",
+     5
+    ],
+    [
+     "17496:23133",
+     "Size=sm, Hierarchy=Primary_alt, State=Focused, Icon only=False",
+     "1d8f6f26",
+     5
+    ],
+    [
+     "3287:429475",
+     "Size=sm, Hierarchy=Link brand, State=Focused, Icon only=False",
+     "f29bc5a8",
+     4
+    ],
+    [
+     "17499:16194",
+     "Size=xxs, Hierarchy=Link brand, State=Focused, Icon only=False",
+     "77921096",
+     4
+    ],
+    [
+     "3287:429491",
+     "Size=sm, Hierarchy=Secondary, State=Focused, Icon only=False",
+     "a25027fc",
+     5
+    ],
+    [
+     "17498:17685",
+     "Size=xxs, Hierarchy=Secondary, State=Focused, Icon only=False",
+     "6a567cae",
+     5
+    ],
+    [
+     "3287:429495",
+     "Size=sm, Hierarchy=Primary, State=Hover, Icon only=False",
+     "29a7ecc4",
+     5
+    ],
+    [
+     "17496:23298",
+     "Size=xxs, Hierarchy=Primary, State=Hover, Icon only=False",
+     "8ad6bd76",
+     5
+    ],
+    [
+     "17496:23366",
+     "Size=xxs, Hierarchy=Primary_alt, State=Hover, Icon only=False",
+     "d5c455eb",
+     5
+    ],
+    [
+     "17496:23138",
+     "Size=sm, Hierarchy=Primary_alt, State=Hover, Icon only=False",
+     "5d6bd96b",
+     5
+    ],
+    [
+     "8993:329788",
+     "Size=sm, Hierarchy=Primary, State=Loading, Icon only=False",
+     "6da56b2f",
+     4
+    ],
+    [
+     "17496:23303",
+     "Size=xxs, Hierarchy=Primary, State=Loading, Icon only=False",
+     "d0e9eab3",
+     4
+    ],
+    [
+     "17496:23371",
+     "Size=xxs, Hierarchy=Primary_alt, State=Loading, Icon only=False",
+     "b1d01639",
+     4
+    ],
+    [
+     "17496:23143",
+     "Size=sm, Hierarchy=Primary_alt, State=Loading, Icon only=False",
+     "08a516f1",
+     4
+    ],
+    [
+     "3287:429503",
+     "Size=sm, Hierarchy=Link brand, State=Hover, Icon only=False",
+     "31b8f4a0",
+     4
+    ],
+    [
+     "17499:16198",
+     "Size=xxs, Hierarchy=Link brand, State=Hover, Icon only=False",
+     "e410ee70",
+     4
+    ],
+    [
+     "8993:551952",
+     "Size=sm, Hierarchy=Link brand, State=Loading, Icon only=False",
+     "d90e47e1",
+     3
+    ],
+    [
+     "17499:16202",
+     "Size=xxs, Hierarchy=Link brand, State=Loading, Icon only=False",
+     "ac9ab02f",
+     3
+    ],
+    [
+     "3287:429519",
+     "Size=sm, Hierarchy=Secondary, State=Hover, Icon only=False",
+     "177ef222",
+     5
+    ],
+    [
+     "17498:17690",
+     "Size=xxs, Hierarchy=Secondary, State=Hover, Icon only=False",
+     "57cabbba",
+     5
+    ],
+    [
+     "8993:551718",
+     "Size=sm, Hierarchy=Secondary, State=Loading, Icon only=False",
+     "86def37f",
+     4
+    ],
+    [
+     "17498:17695",
+     "Size=xxs, Hierarchy=Secondary, State=Loading, Icon only=False",
+     "fc51b1ef",
+     4
+    ],
+    [
+     "3287:429527",
+     "Size=sm, Hierarchy=Primary, State=Default, Icon only=True",
+     "90621045",
+     2
+    ],
+    [
+     "17498:17613",
+     "Size=sm, Hierarchy=Primary_alt, State=Default, Icon only=True",
+     "660b5906",
+     2
+    ],
+    [
+     "3287:429567",
+     "Size=sm, Hierarchy=Secondary, State=Default, Icon only=True",
+     "a115139d",
+     2
+    ],
+    [
+     "3287:429575",
+     "Size=sm, Hierarchy=Primary, State=Disabled, Icon only=True",
+     "2051d656",
+     2
+    ],
+    [
+     "3287:429615",
+     "Size=sm, Hierarchy=Secondary, State=Disabled, Icon only=True",
+     "ef0f6f07",
+     2
+    ],
+    [
+     "3287:429623",
+     "Size=sm, Hierarchy=Primary, State=Focused, Icon only=True",
+     "90621045",
+     2
+    ],
+    [
+     "17498:17617",
+     "Size=sm, Hierarchy=Primary_alt, State=Focused, Icon only=True",
+     "65bde6dd",
+     2
+    ],
+    [
+     "3287:429663",
+     "Size=sm, Hierarchy=Secondary, State=Focused, Icon only=True",
+     "35b2ccfc",
+     2
+    ],
+    [
+     "3287:429671",
+     "Size=sm, Hierarchy=Primary, State=Hover, Icon only=True",
+     "c8dde004",
+     2
+    ],
+    [
+     "17498:17619",
+     "Size=sm, Hierarchy=Primary_alt, State=Hover, Icon only=True",
+     "660b5906",
+     2
+    ],
+    [
+     "8993:329793",
+     "Size=sm, Hierarchy=Primary, State=Loading, Icon only=True",
+     "309f7419",
+     2
+    ],
+    [
+     "17498:17621",
+     "Size=sm, Hierarchy=Primary_alt, State=Loading, Icon only=True",
+     "845ad32c",
+     2
+    ],
+    [
+     "3287:429711",
+     "Size=sm, Hierarchy=Secondary, State=Hover, Icon only=True",
+     "a115139d",
+     2
+    ],
+    [
+     "8993:551723",
+     "Size=sm, Hierarchy=Secondary, State=Loading, Icon only=True",
+     "50b997c1",
+     2
+    ]
+   ]
+  },
+  {
+   "id": "17517:11024",
+   "name": "Input field",
+   "key": "cc536ed7c182738d0022e89e030c0f1552d7486a",
+   "propDefsHash": "667e45ba",
+   "variantCount": 53,
+   "variants": [
+    [
+     "17546:11497",
+     "Size=sm, Type=Default, Destructive=False, State=Filled",
+     "4f3e8e61",
+     11
+    ],
+    [
+     "17620:8323",
+     "Size=sm, Type=Search, Destructive=False, State=Filled",
+     "18f499e9",
+     10
+    ],
+    [
+     "17627:6063",
+     "Size=sm, Type=Search + Tags, Destructive=False, State=Filled",
+     "47580844",
+     9
+    ],
+    [
+     "17546:11510",
+     "Size=sm, Type=Default, Destructive=True, State=Filled",
+     "d3a7f5a4",
+     11
+    ],
+    [
+     "17620:8334",
+     "Size=sm, Type=Search, Destructive=True, State=Filled",
+     "6c272991",
+     10
+    ],
+    [
+     "17627:6073",
+     "Size=sm, Type=Search + Tags, Destructive=True, State=Filled",
+     "1df3b9a2",
+     9
+    ],
+    [
+     "17546:11523",
+     "Size=sm, Type=Default, Destructive=False, State=Focused",
+     "51547325",
+     10
+    ],
+    [
+     "17620:8345",
+     "Size=sm, Type=Search, Destructive=False, State=Focused",
+     "612d54db",
+     10
+    ],
+    [
+     "17627:6083",
+     "Size=sm, Type=Search + Tags, Destructive=False, State=Focused",
+     "bf9a030a",
+     9
+    ],
+    [
+     "17546:11534",
+     "Size=sm, Type=Default, Destructive=False, State=Disabled",
+     "a5af603a",
+     10
+    ],
+    [
+     "17620:8355",
+     "Size=sm, Type=Search, Destructive=False, State=Disabled",
+     "3d2c9965",
+     12
+    ],
+    [
+     "17627:6093",
+     "Size=sm, Type=Search + Tags, Destructive=False, State=Disabled",
+     "3e6168f8",
+     9
+    ],
+    [
+     "17546:11545",
+     "Size=sm, Type=Default, Destructive=True, State=Disabled",
+     "ca4e71df",
+     10
+    ],
+    [
+     "17517:10998",
+     "Size=lg, Type=Default, Destructive=False, State=Placeholder",
+     "10fe3488",
+     10
+    ],
+    [
+     "17588:6912",
+     "Size=lg, Type=Password, Destructive=False, State=Placeholder",
+     "17018c6b",
+     8
+    ],
+    [
+     "17588:2092",
+     "Size=lg, Type=Leading icon, Destructive=False, State=Placeholder",
+     "73179727",
+     11
+    ],
+    [
+     "17546:11475",
+     "Size=sm, Type=Default, Destructive=False, State=Placeholder",
+     "b0d7c2e1",
+     10
+    ],
+    [
+     "17620:8303",
+     "Size=sm, Type=Search, Destructive=False, State=Placeholder",
+     "a25e2d81",
+     10
+    ],
+    [
+     "17627:6043",
+     "Size=sm, Type=Search + Tags, Destructive=False, State=Placeholder",
+     "a25e2d81",
+     10
+    ],
+    [
+     "17524:15952",
+     "Size=lg, Type=Default, Destructive=True, State=Placeholder",
+     "55b20d13",
+     10
+    ],
+    [
+     "17588:6922",
+     "Size=lg, Type=Password, Destructive=True, State=Placeholder",
+     "9294306e",
+     8
+    ],
+    [
+     "17588:2103",
+     "Size=lg, Type=Leading icon, Destructive=True, State=Placeholder",
+     "0d0d5adb",
+     11
+    ],
+    [
+     "17546:11486",
+     "Size=sm, Type=Default, Destructive=True, State=Placeholder",
+     "e7d50b29",
+     10
+    ],
+    [
+     "17620:8313",
+     "Size=sm, Type=Search, Destructive=True, State=Placeholder",
+     "b07a95c9",
+     10
+    ],
+    [
+     "17627:6053",
+     "Size=sm, Type=Search + Tags, Destructive=True, State=Placeholder",
+     "b07a95c9",
+     10
+    ],
+    [
+     "17524:12460",
+     "Size=lg, Type=Leading drowdown, Destructive=False, State=Placeholder",
+     "304f1046",
+     13
+    ],
+    [
+     "17524:16283",
+     "Size=lg, Type=Payment, Destructive=False, State=Placeholder",
+     "af2ec611",
+     12
+    ],
+    [
+     "17524:19718",
+     "Size=lg, Type=Payment, Destructive=True, State=Placeholder",
+     "375b0265",
+     12
+    ],
+    [
+     "17524:16494",
+     "Size=lg, Type=Payment, Destructive=False, State=Disabled",
+     "17da74d1",
+     12
+    ],
+    [
+     "17524:19730",
+     "Size=lg, Type=Payment, Destructive=True, State=Disabled",
+     "26ec6cd1",
+     12
+    ],
+    [
+     "17524:16113",
+     "Size=lg, Type=Leading drowdown, Destructive=True, State=Placeholder",
+     "bbf62184",
+     13
+    ],
+    [
+     "17524:12618",
+     "Size=lg, Type=Leading drowdown, Destructive=False, State=Filled",
+     "e1d522ed",
+     15
+    ],
+    [
+     "17524:16296",
+     "Size=lg, Type=Payment, Destructive=False, State=Filled",
+     "fbff98b2",
+     14
+    ],
+    [
+     "17524:19742",
+     "Size=lg, Type=Payment, Destructive=True, State=Filled",
+     "8134e928",
+     14
+    ],
+    [
+     "17524:16464",
+     "Size=lg, Type=Payment, Destructive=False, State=Focused",
+     "fe7e0afc",
+     14
+    ],
+    [
+     "17524:16126",
+     "Size=lg, Type=Leading drowdown, Destructive=True, State=Filled",
+     "f15d30e5",
+     15
+    ],
+    [
+     "17524:12654",
+     "Size=lg, Type=Leading drowdown, Destructive=False, State=Focused",
+     "6e167753",
+     15
+    ],
+    [
+     "17524:12677",
+     "Size=lg, Type=Leading drowdown, Destructive=False, State=Disabled",
+     "65a2f4d5",
+     15
+    ],
+    [
+     "17524:16141",
+     "Size=lg, Type=Leading drowdown, Destructive=True, State=Disabled",
+     "7ef4e469",
+     15
+    ],
+    [
+     "17517:11025",
+     "Size=lg, Type=Default, Destructive=False, State=Filled",
+     "aab228c7",
+     12
+    ],
+    [
+     "17588:6932",
+     "Size=lg, Type=Password, Destructive=False, State=Filled",
+     "bbcf7f5e",
+     9
+    ],
+    [
+     "17588:2114",
+     "Size=lg, Type=Leading icon, Destructive=False, State=Filled",
+     "713e26a1",
+     13
+    ],
+    [
+     "17524:15963",
+     "Size=lg, Type=Default, Destructive=True, State=Filled",
+     "ae5a31fa",
+     12
+    ],
+    [
+     "17588:6944",
+     "Size=lg, Type=Password, Destructive=True, State=Filled",
+     "266bf858",
+     10
+    ],
+    [
+     "17588:2127",
+     "Size=lg, Type=Leading icon, Destructive=True, State=Filled",
+     "3fdb1ed2",
+     13
+    ],
+    [
+     "17517:11048",
+     "Size=lg, Type=Default, Destructive=False, State=Focused",
+     "da5bae81",
+     10
+    ],
+    [
+     "17588:6956",
+     "Size=lg, Type=Password, Destructive=False, State=Focused",
+     "5d7067a3",
+     10
+    ],
+    [
+     "17588:2140",
+     "Size=lg, Type=Leading icon, Destructive=False, State=Focused",
+     "8a6f560a",
+     11
+    ],
+    [
+     "17517:11071",
+     "Size=lg, Type=Default, Destructive=False, State=Disabled",
+     "dabb8bea",
+     11
+    ],
+    [
+     "17588:6966",
+     "Size=lg, Type=Password, Destructive=False, State=Disabled",
+     "ac226d5c",
+     8
+    ],
+    [
+     "17588:2151",
+     "Size=lg, Type=Leading icon, Destructive=False, State=Disabled",
+     "213ba62c",
+     11
+    ],
+    [
+     "17524:15987",
+     "Size=lg, Type=Default, Destructive=True, State=Disabled",
+     "627e877d",
+     10
+    ],
+    [
+     "17588:2162",
+     "Size=lg, Type=Leading icon, Destructive=True, State=Disabled",
+     "e5d3ffcf",
+     11
+    ]
+   ]
+  },
+  {
+   "id": "4057:415205",
+   "name": "Modal",
+   "key": "dac269c2f44bb35a05ce44f3b985285788201c98",
+   "propDefsHash": "ff77e4b7",
+   "variantCount": 1,
+   "variants": [
+    [
+     "4057:417149",
+     "Type=Default slotted",
+     "402d4f49",
+     9
+    ]
+   ]
+  },
+  {
+   "id": "4055:413620",
+   "name": "_Modal header",
+   "key": "e62d42a448ac115114901531d4d33152c454d37e",
+   "propDefsHash": "1da5bfb8",
+   "variantCount": 1,
+   "variants": [
+    [
+     "4055:413654",
+     "Type=Left aligned",
+     "3631879e",
+     12
+    ]
+   ]
+  },
+  {
+   "id": "4057:414352",
+   "name": "_Modal actions",
+   "key": "2d3128d676dab3fdd7c62cce1988c7fa615d1932",
+   "propDefsHash": "e334051a",
+   "variantCount": 3,
+   "variants": [
+    [
+     "4057:414637",
+     "Type=Vertical fill container, Destructive=False, Breakpoint=Mobile",
+     "1b5c285f",
+     6
+    ],
+    [
+     "4057:414647",
+     "Type=Horizontal fill container, Destructive=False, Breakpoint=Mobile",
+     "0cc24d7c",
+     7
+    ],
+    [
+     "4057:414657",
+     "Type=Horizontal right aligned (checkbox), Destructive=False, Breakpoint=Mobile",
+     "36d952be",
+     9
+    ]
+   ]
+  },
+  {
+   "id": "1130:81134",
+   "name": "Alert",
+   "key": "c27108cb02effe670b7c2c1e8741889f0bc26a5f",
+   "propDefsHash": "9826916c",
+   "variantCount": 4,
+   "variants": [
+    [
+     "1130:82796",
+     "Color=Brand",
+     "59f95bd1",
+     11
+    ],
+    [
+     "4050:412610",
+     "Color=Default",
+     "ef0b4d59",
+     11
+    ],
+    [
+     "21258:2087",
+     "Color=Error",
+     "59f95bd1",
+     11
+    ],
+    [
+     "21258:2125",
+     "Color=Success",
+     "e9d74a46",
+     11
+    ]
+   ]
+  }
+ ]
+}

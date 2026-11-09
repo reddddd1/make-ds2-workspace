@@ -1,0 +1,36 @@
+{
+ "check": "slots",
+ "verdict": "PASS",
+ "baseline": "reports/P1-08-regression/snapshots/slots-library-baseline.json",
+ "current": "reports/P1-08-regression/snapshots/slots-library-current.json",
+ "spec": null,
+ "rows": [
+  {
+   "check": "instance count unchanged",
+   "pass": true,
+   "detail": "1 → 1 (getInstancesAsync)"
+  },
+  {
+   "check": "[      ↳ Modals · 17546:4435] linked",
+   "pass": true,
+   "detail": "Type=Default slotted"
+  },
+  {
+   "check": "[      ↳ Modals · 17546:4435] property values unchanged",
+   "pass": true,
+   "detail": "{\"Drawer content\": \"swap:Slot/68b13273d1d58919ca51c37ca27ba0a4a033e828\"}"
+  },
+  {
+   "check": "[      ↳ Modals · 17546:4435] slot content preserved",
+   "pass": true,
+   "detail": "Slot (INSTANCE), 1 nodes"
+  },
+  {
+   "check": "[      ↳ Modals · 17546:4435] limitViolations empty",
+   "pass": true,
+   "detail": "n/a (API not present)"
+  }
+ ],
+ "totals": null,
+ "knownIssues": []
+}

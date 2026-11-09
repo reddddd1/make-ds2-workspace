@@ -1,0 +1,430 @@
+{
+ "check": "instances",
+ "run": "baseline",
+ "fileKey": "xJoAz66aekAToyhBmfGNt0",
+ "page": "      ↳ Modals",
+ "readAt": "2026-11-09T14:12:09.741Z",
+ "iconSetKeys": [
+  "b8295cee7375c7b7216cb412047f771ce86fbf9d"
+ ],
+ "screens": [
+  {
+   "id": "21214:6367",
+   "name": "Playground do not delete",
+   "explicitModes": [],
+   "ownBindings": 79,
+   "ownHash": "44c63722",
+   "instances": [
+    {
+     "id": "21214:6387",
+     "name": "Background overlay",
+     "main": "Background overlay › Type=Blurred layer",
+     "mainKey": "a754f17481f2d70d908d8624eeae26ff23471cc5",
+     "link": "linked-local",
+     "missing": 0,
+     "extra": 0,
+     "missingEx": [],
+     "extraEx": [],
+     "bindings": 2,
+     "bindHash": "fe5f927a",
+     "icons": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "badIcons": []
+    },
+    {
+     "id": "21214:6391",
+     "name": "Icon wrapper",
+     "main": "Icon wrapper › Size=md, Type=Icon, Icon pair?=No, Style=-, Intent=Neutral",
+     "mainKey": "3a4e042d33c3c13f9cf3ba961f532410376f6960",
+     "link": "linked-remote",
+     "missing": 0,
+     "extra": 0,
+     "missingEx": [],
+     "extraEx": [],
+     "bindings": 2,
+     "bindHash": "bfe2649a",
+     "icons": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "badIcons": []
+    },
+    {
+     "id": "21214:6394",
+     "name": "_Modal header",
+     "main": "_Modal header/Center aligned/Mobile",
+     "mainKey": "d52b38f85092caaae5b9661d500489f125b84fb3",
+     "link": "linked-local",
+     "missing": 0,
+     "extra": 0,
+     "missingEx": [],
+     "extraEx": [],
+     "bindings": 29,
+     "bindHash": "dd04e6af",
+     "icons": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "badIcons": []
+    },
+    {
+     "id": "21214:6395",
+     "name": "_Modal actions",
+     "main": "_Modal actions › Type=Horizontal fill container, Destructive=False, Breakpoint=Mobile",
+     "mainKey": "0e7f518e57f79a9f8a6decdf8c42a1c541597b3b",
+     "link": "linked-local",
+     "missing": 0,
+     "extra": 0,
+     "missingEx": [],
+     "extraEx": [],
+     "bindings": 59,
+     "bindHash": "01732696",
+     "icons": [
+      4,
+      4,
+      4,
+      4
+     ],
+     "badIcons": []
+    },
+    {
+     "id": "21214:6372",
+     "name": "Background overlay",
+     "main": "Background overlay › Type=Blurred layer",
+     "mainKey": "a754f17481f2d70d908d8624eeae26ff23471cc5",
+     "link": "linked-local",
+     "missing": 0,
+     "extra": 0,
+     "missingEx": [],
+     "extraEx": [],
+     "bindings": 2,
+     "bindHash": "fe5f927a",
+     "icons": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "badIcons": []
+    },
+    {
+     "id": "21214:6376",
+     "name": "_Modal header",
+     "main": "_Modal header/Center aligned/Mobile",
+     "mainKey": "d52b38f85092caaae5b9661d500489f125b84fb3",
+     "link": "orphan",
+     "missing": 0,
+     "extra": 0,
+     "missingEx": [],
+     "extraEx": [],
+     "bindings": 29,
+     "bindHash": "dd04e6af",
+     "icons": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "badIcons": []
+    },
+    {
+     "id": "21214:6377",
+     "name": "Pagination dot group/lg/Dot/Primary light bg/False",
+     "main": "Pagination dot group/lg/Dot/Primary light bg/False",
+     "mainKey": "21c4cc2041043693564c16fafc41c4d53747c28c",
+     "link": "orphan",
+     "missing": 0,
+     "extra": 0,
+     "missingEx": [],
+     "extraEx": [],
+     "bindings": 61,
+     "bindHash": "c5ec8dc6",
+     "icons": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "badIcons": []
+    },
+    {
+     "id": "21214:6378",
+     "name": "_Modal actions",
+     "main": "_Modal actions › Type=Horizontal fill container, Destructive=False, Breakpoint=Mobile",
+     "mainKey": "0e7f518e57f79a9f8a6decdf8c42a1c541597b3b",
+     "link": "linked-local",
+     "missing": 0,
+     "extra": 0,
+     "missingEx": [],
+     "extraEx": [],
+     "bindings": 59,
+     "bindHash": "01732696",
+     "icons": [
+      4,
+      4,
+      4,
+      4
+     ],
+     "badIcons": []
+    },
+    {
+     "id": "21214:6380",
+     "name": "Background overlay",
+     "main": "Background overlay › Type=Blurred layer",
+     "mainKey": "a754f17481f2d70d908d8624eeae26ff23471cc5",
+     "link": "linked-local",
+     "missing": 0,
+     "extra": 0,
+     "missingEx": [],
+     "extraEx": [],
+     "bindings": 2,
+     "bindHash": "fe5f927a",
+     "icons": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "badIcons": []
+    },
+    {
+     "id": "21214:6382",
+     "name": "_Modal header",
+     "main": "_Modal header › Type=Left aligned",
+     "mainKey": "c0636b3c220b4b3cbf799ee36fb3f2c58e4a86fc",
+     "link": "linked-local",
+     "missing": 0,
+     "extra": 0,
+     "missingEx": [],
+     "extraEx": [],
+     "bindings": 30,
+     "bindHash": "d68c38de",
+     "icons": [
+      1,
+      1,
+      1,
+      1
+     ],
+     "badIcons": []
+    },
+    {
+     "id": "21214:6384",
+     "name": "Radio group",
+     "main": "Radio group › Size=sm, Type=Payment icon, Breakpoint=Mobile",
+     "mainKey": "2643997c25fbebfb12e3783682427f1de6a4e6c5",
+     "link": "linked-local",
+     "missing": 0,
+     "extra": 0,
+     "missingEx": [],
+     "extraEx": [],
+     "bindings": 343,
+     "bindHash": "81a8414c",
+     "icons": [
+      10,
+      10,
+      10,
+      10
+     ],
+     "badIcons": []
+    },
+    {
+     "id": "21214:6385",
+     "name": "_Modal actions",
+     "main": "_Modal actions › Type=Horizontal fill container, Destructive=False, Breakpoint=Mobile",
+     "mainKey": "0e7f518e57f79a9f8a6decdf8c42a1c541597b3b",
+     "link": "linked-local",
+     "missing": 0,
+     "extra": 0,
+     "missingEx": [],
+     "extraEx": [],
+     "bindings": 59,
+     "bindHash": "01732696",
+     "icons": [
+      4,
+      4,
+      4,
+      4
+     ],
+     "badIcons": []
+    },
+    {
+     "id": "21214:6369",
+     "name": "Background overlay",
+     "main": "Background overlay › Type=Blurred layer",
+     "mainKey": "a754f17481f2d70d908d8624eeae26ff23471cc5",
+     "link": "linked-local",
+     "missing": 0,
+     "extra": 0,
+     "missingEx": [],
+     "extraEx": [],
+     "bindings": 2,
+     "bindHash": "fe5f927a",
+     "icons": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "badIcons": []
+    },
+    {
+     "id": "21214:6370",
+     "name": "_Date picker menu",
+     "main": "_Date picker menu › Type=Dual dates, Breakpoint=Mobile",
+     "mainKey": "019944b961fd7ed6138edc2007fcefaaf49e17a8",
+     "link": "linked-local",
+     "missing": 0,
+     "extra": 0,
+     "missingEx": [],
+     "extraEx": [],
+     "bindings": 940,
+     "bindHash": "64a26f85",
+     "icons": [
+      16,
+      16,
+      16,
+      16
+     ],
+     "badIcons": []
+    }
+   ]
+  },
+  {
+   "id": "21338:10969",
+   "name": "Modals",
+   "explicitModes": [],
+   "ownBindings": 85,
+   "ownHash": "f2885397",
+   "instances": [
+    {
+     "id": "21338:10970",
+     "name": "Flow heading",
+     "main": "Flow heading › Size=xl",
+     "mainKey": "3abe5f0d35ef5774971a65ac91b35bf9e22ad392",
+     "link": "linked-local",
+     "missing": 0,
+     "extra": 0,
+     "missingEx": [],
+     "extraEx": [],
+     "bindings": 26,
+     "bindHash": "76173717",
+     "icons": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "badIcons": []
+    },
+    {
+     "id": "21338:11526",
+     "name": "Content item",
+     "main": "Content item › Type=Heading, Size=md, Breakpoint=Desktop",
+     "mainKey": "3c174f55aad35e73b6d00dca9d01a3223fc98686",
+     "link": "linked-local",
+     "missing": 0,
+     "extra": 0,
+     "missingEx": [],
+     "extraEx": [],
+     "bindings": 46,
+     "bindHash": "42c130ed",
+     "icons": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "badIcons": []
+    },
+    {
+     "id": "21338:11527",
+     "name": "Content item",
+     "main": "Content item › Type=Paragraph, Size=lg, Breakpoint=Desktop",
+     "mainKey": "4858287cff02a420f8a64fc84943939b96e8f3ec",
+     "link": "linked-local",
+     "missing": 0,
+     "extra": 0,
+     "missingEx": [],
+     "extraEx": [],
+     "bindings": 26,
+     "bindHash": "a471532f",
+     "icons": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "badIcons": []
+    },
+    {
+     "id": "17546:4435",
+     "name": "Modal",
+     "main": "Modal › Type=Default slotted",
+     "mainKey": "9de4fcfcd8bec11961ee8ab11d7583a31c6a41f6",
+     "link": "linked-local",
+     "missing": 0,
+     "extra": 0,
+     "missingEx": [],
+     "extraEx": [],
+     "bindings": 118,
+     "bindHash": "26f8ee42",
+     "icons": [
+      5,
+      5,
+      5,
+      5
+     ],
+     "badIcons": []
+    },
+    {
+     "id": "21338:11624",
+     "name": "Content item",
+     "main": "Content item › Type=Heading, Size=md, Breakpoint=Desktop",
+     "mainKey": "3c174f55aad35e73b6d00dca9d01a3223fc98686",
+     "link": "linked-local",
+     "missing": 0,
+     "extra": 0,
+     "missingEx": [],
+     "extraEx": [],
+     "bindings": 46,
+     "bindHash": "42c130ed",
+     "icons": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "badIcons": []
+    },
+    {
+     "id": "21338:11625",
+     "name": "Content item",
+     "main": "Content item › Type=Paragraph, Size=lg, Breakpoint=Desktop",
+     "mainKey": "4858287cff02a420f8a64fc84943939b96e8f3ec",
+     "link": "linked-local",
+     "missing": 0,
+     "extra": 0,
+     "missingEx": [],
+     "extraEx": [],
+     "bindings": 26,
+     "bindHash": "a471532f",
+     "icons": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "badIcons": []
+    }
+   ]
+  }
+ ]
+}

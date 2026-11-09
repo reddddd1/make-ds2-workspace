@@ -1,0 +1,16 @@
+{
+ "check": "slots",
+ "verdict": "PASS",
+ "baseline": "reports/P1-08-regression/snapshots/slots-scratch-baseline.json",
+ "current": "reports/P1-08-regression/snapshots/slots-scratch-current.json",
+ "spec": null,
+ "rows": [
+  {
+   "check": "instance count unchanged",
+   "pass": true,
+   "detail": "0 → 0 (page scan)"
+  }
+ ],
+ "totals": null,
+ "knownIssues": []
+}

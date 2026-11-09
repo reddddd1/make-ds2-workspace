@@ -1,0 +1,25 @@
+{
+ "check": "slots",
+ "run": "baseline",
+ "fileKey": "xJoAz66aekAToyhBmfGNt0",
+ "readAt": "2026-11-09T14:12:04.937Z",
+ "setKey": "dac269c2f44bb35a05ce44f3b985285788201c98",
+ "method": "getInstancesAsync",
+ "instanceCount": 1,
+ "instances": [
+  {
+   "id": "17546:4435",
+   "page": "      ↳ Modals",
+   "linked": true,
+   "remote": false,
+   "mainName": "Type=Default slotted",
+   "props": {
+    "Drawer content": "swap:Slot/68b13273d1d58919ca51c37ca27ba0a4a033e828"
+   },
+   "slotRegion": "Slot (INSTANCE)",
+   "slotHash": "e5fc7a2c",
+   "slotNodes": 1,
+   "limitViolations": "n/a (API not present)"
+  }
+ ]
+}

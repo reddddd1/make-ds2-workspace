@@ -1,0 +1,43 @@
+{
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "writtenAt": "2026-11-09T18:43:58.325Z",
+ "allOk": true,
+ "results": [
+  {
+   "variant": "Color=Brand",
+   "before": {
+    "fiColor": "Brand"
+   },
+   "fiColor": "Brand",
+   "glyph": "circle-alert",
+   "ok": true
+  },
+  {
+   "variant": "Color=Default",
+   "before": {
+    "fiColor": "Gray"
+   },
+   "fiColor": "Gray",
+   "glyph": "info",
+   "ok": true
+  },
+  {
+   "variant": "Color=Error",
+   "before": {
+    "fiColor": "Brand"
+   },
+   "fiColor": "Critical",
+   "glyph": "octagon-alert",
+   "ok": true
+  },
+  {
+   "variant": "Color=Success",
+   "before": {
+    "fiColor": "Success"
+   },
+   "fiColor": "Success",
+   "glyph": "circle-check",
+   "ok": true
+  }
+ ]
+}

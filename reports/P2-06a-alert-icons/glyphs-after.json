@@ -1,0 +1,26 @@
+[
+ [
+  "Color=Brand",
+  "Brand",
+  "circle-alert",
+  true
+ ],
+ [
+  "Color=Default",
+  "Gray",
+  "info",
+  true
+ ],
+ [
+  "Color=Error",
+  "Critical",
+  "octagon-alert",
+  true
+ ],
+ [
+  "Color=Success",
+  "Success",
+  "circle-check",
+  true
+ ]
+]

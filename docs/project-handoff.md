@@ -10,7 +10,7 @@
 | Refactoring audit | Complete (`docs/audit.md`) | VERIFIED evidence |
 | Decisions D-01–D-12 | Reconciled (`docs/decisions.md`) | APPROVED / PLANNING / DEFERRED as listed |
 | Phase 1 | **Complete** (P1-01…P1-13 done; see `reports/PHASE-1-REPORT.md`, `reports/P1-03-duplicate-verification.md`) | APPROVED · VERIFIED |
-| Phase 2 | **P2-00 done; P2-01 done** (token sync applied to the duplicate: 1 create + 11 alias updates, `reports/P2-01-sync/README.md`); Input field border → `border-primary` on 24 variants and Focused ring → brand on 8 (`reports/P2-01b-input-border/`); **P2-02 done**: Button `Label` TEXT property, default "Button", 76 variants, 101/101 instance labels kept (`reports/P2-02-button-label/`); **P2-03 done**: Button `State=Pressed` (25 variants = Hover, 118 → 143; `reports/P2-03-button-pressed/`). P2-04…P2-08 **not approved**: each needs Mike's approval | P2-00/P2-01 APPROVED · VERIFIED; rest PROPOSED |
+| Phase 2 | **P2-00 done; P2-01 done** (token sync applied to the duplicate: 1 create + 11 alias updates, `reports/P2-01-sync/README.md`); Input field border → `border-primary` on 24 variants and Focused ring → brand on 8 (`reports/P2-01b-input-border/`); **P2-02 done**: Button `Label` TEXT property, default "Button", 76 variants, 101/101 instance labels kept (`reports/P2-02-button-label/`); **P2-03 done**: Button `State=Pressed` (25 variants = Hover, 118 → 143; `reports/P2-03-button-pressed/`); **P2-04 done**: 285 nested instances exposed (Button/Input field icon swaps, Alert Featured icon + action buttons; `reports/P2-04-icon-access/`); **P2-06a done**: Alert icons per colour (info / circle-alert / octagon-alert / circle-check) + Error → Critical (`reports/P2-06a-alert-icons/`). P2-05…P2-08 **not approved**: each needs Mike's approval | P2-00/P2-01 APPROVED · VERIFIED; rest PROPOSED |
 | Phases 3–4 | Not approved | — |
 | Figma duplicate | **MAKER-DS-v2 (WIP Refactor)** — verified identical copy, not published; not yet subscribed to MAKER Icon library (Mike to enable before Phase 2). Read-only until Phase 2 is approved | VERIFIED (P1-03) |
 | Duplicate URL / file key | https://www.figma.com/design/PpnTy1pkB2FTZFq6i6seSy/MAKER-DS-v2--WIP-Refactor- · `PpnTy1pkB2FTZFq6i6seSy` | VERIFIED (P1-03) |
@@ -70,7 +70,7 @@ R-PAPER-01, R-PENPOT-01, R-FIGMA-01, R-SLOT-01 (`docs/regression-checks.md`). Re
 | Node.js (token validator `npm run check`) | Token changes | Not installed (O-5) |
 | Library analytics (Modal/Alert/Button/Input usage in team files) | P2-07, impact estimates | Waiting on Mike (O-3) |
 | Figma duplicate URL | P1-03 | VERIFIED (provided 2026-11-09) |
-| MAKER Icon library enabled in the duplicate | P2-04 icon swaps | Waiting on Mike (Figma UI) |
+| MAKER Icon library enabled in the duplicate | P2-04 icon swaps | VERIFIED enabled (2026-11-09) |
 | GitLab app repo | Phase 2+ (ADR-0009, Code Connect) | BLOCKED |
 | Legacy login screenshots | Fidelity measurement | Waiting on Mike |
 
@@ -82,6 +82,15 @@ R-PAPER-01, R-PENPOT-01, R-FIGMA-01, R-SLOT-01 (`docs/regression-checks.md`). Re
 4. Who publishes library updates, on which plan/seat?
 5. App framework versions and ADR-0009 (devs).
 6. Is "Primary_alt" still used?
+
+## Decide before shipping (Mike asked to be reminded, 2026-11-09)
+
+Raise these with Mike when the duplicate is ready to publish/ship. Do not act on them before then.
+
+| # | Decision | Options | Context |
+|---|---|---|---|
+| S-1 | **Figma variable naming vs Tailwind names.** Figma names are still Untitled UI-style (`Colors/Text/text-brand-primary`, `bg-brand-primary_hover`, `radius-sm` = Tailwind `radius.md`); Tailwind names live only in the token repo and `sync/figma-variable-map.*.json` | (1) **Code syntax** (D-10, recommended first): attach the Tailwind name to each variable, leaving the names as they are; (2) **Rename** the variables to the token paths (visible to everyone; needs a migration note) | Sync spec: "no renames in the sync". D-10 deferred |
+| S-2 | **Re-link the MAKER Icon library to the new DS.** Featured icon colours use the *original* MAKER DS v2 variables (remote, via the Icon library), so duplicate token changes don't reach them | Update the Icon library's DS subscription when the new DS is published; also fix the Gray Featured icon glyph token (`fg-brand-secondary_alt` → gray) there | `reports/P2-06a-alert-icons/` finding 3 |
 
 ## Excluded
 

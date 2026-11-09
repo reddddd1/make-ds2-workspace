@@ -1,0 +1,14 @@
+{
+ "sets": {
+  "Input field": {
+   "scope": {
+    "Destructive": [
+     "False"
+    ],
+    "State": [
+     "Focused"
+    ]
+   }
+  }
+ }
+}

@@ -32,7 +32,7 @@ One `use_figma` call at 17:54:30 UTC: `scripts/token-sync/apply-changeset.js`. I
 
 1. **R4 does not reach the Input field's visible border.** The input box stroke is bound to `border-secondary` (Gray/200 `#e9eaeb`, about 1.2:1 on white). Only an inner `optional` frame uses `border-primary`. The Alert border does use `border-primary` and is now `#8a8e97` (3.28:1).
    - So the registry intent "Input border (default)" for `color.border.primary` doesn't match how Figma binds the inputs.
-   - **DECISION:** either rebind the Input field box stroke to `border-primary` in P2-05 (a component change), or decide that the input border is a different token.
+   - **RESOLVED 2026-11-09:** Mike chose to rebind the box stroke to `border-primary`. Done on 24 variants, with Disabled kept as is (`reports/P2-01b-input-border/`).
 2. **`Size=lg, Link brand, Hover` uses `text-brand-secondary_hover`**, while every other Link-brand Hover uses `text-brand-primary-hover`. That's why it didn't change with R7. This is an existing inconsistency (add it to the Button pilot list).
 3. **Primary Hover used to be *lighter* than Default** (Brand/500 vs 600). After R2 it is darker (Brand/700), as the registry intends.
 4. **Checker limit:** the variant hash records resolved *fill* colours but not resolved *stroke* colours (it does record the bound stroke variable IDs). Border-colour changes show up in `collect-instances` (R-PENPOT-01) and in screenshots, not in R-PAPER-01. Possible E4 (stroke colours), not urgent.

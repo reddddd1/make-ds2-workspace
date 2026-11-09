@@ -1,0 +1,224 @@
+{
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "writtenAt": "2026-11-09T18:05:00.009Z",
+ "count": 24,
+ "allOk": true,
+ "results": [
+  {
+   "variant": "Size=sm, Type=Default, Destructive=False, State=Filled",
+   "id": "17546:11497",
+   "layer": "17546:11499",
+   "before": "VariableID:5263:373123",
+   "after": "VariableID:5270:371435",
+   "ok": true,
+   "weight": 1
+  },
+  {
+   "variant": "Size=sm, Type=Search, Destructive=False, State=Filled",
+   "id": "17620:8323",
+   "layer": "17620:8324",
+   "before": "VariableID:5263:373123",
+   "after": "VariableID:5270:371435",
+   "ok": true,
+   "weight": 1
+  },
+  {
+   "variant": "Size=sm, Type=Search + Tags, Destructive=False, State=Filled",
+   "id": "17627:6063",
+   "layer": "17627:6064",
+   "before": "VariableID:5263:373123",
+   "after": "VariableID:5270:371435",
+   "ok": true,
+   "weight": 1
+  },
+  {
+   "variant": "Size=sm, Type=Default, Destructive=False, State=Focused",
+   "id": "17546:11523",
+   "layer": "17546:11525",
+   "before": "VariableID:5263:373123",
+   "after": "VariableID:5270:371435",
+   "ok": true,
+   "weight": 1
+  },
+  {
+   "variant": "Size=sm, Type=Search, Destructive=False, State=Focused",
+   "id": "17620:8345",
+   "layer": "17620:8473",
+   "before": "VariableID:5263:373123",
+   "after": "VariableID:5270:371435",
+   "ok": true,
+   "weight": 1
+  },
+  {
+   "variant": "Size=sm, Type=Search + Tags, Destructive=False, State=Focused",
+   "id": "17627:6083",
+   "layer": "17627:6084",
+   "before": "VariableID:5263:373123",
+   "after": "VariableID:5270:371435",
+   "ok": true,
+   "weight": 1
+  },
+  {
+   "variant": "Size=lg, Type=Default, Destructive=False, State=Placeholder",
+   "id": "17517:10998",
+   "layer": "17510:28600",
+   "before": "VariableID:5263:373123",
+   "after": "VariableID:5270:371435",
+   "ok": true,
+   "weight": 1
+  },
+  {
+   "variant": "Size=lg, Type=Password, Destructive=False, State=Placeholder",
+   "id": "17588:6912",
+   "layer": "17588:6914",
+   "before": "VariableID:5263:373123",
+   "after": "VariableID:5270:371435",
+   "ok": true,
+   "weight": 1
+  },
+  {
+   "variant": "Size=lg, Type=Leading icon, Destructive=False, State=Placeholder",
+   "id": "17588:2092",
+   "layer": "17588:2094",
+   "before": "VariableID:5263:373123",
+   "after": "VariableID:5270:371435",
+   "ok": true,
+   "weight": 1
+  },
+  {
+   "variant": "Size=sm, Type=Default, Destructive=False, State=Placeholder",
+   "id": "17546:11475",
+   "layer": "17546:11477",
+   "before": "VariableID:5263:373123",
+   "after": "VariableID:5270:371435",
+   "ok": true,
+   "weight": 1
+  },
+  {
+   "variant": "Size=sm, Type=Search, Destructive=False, State=Placeholder",
+   "id": "17620:8303",
+   "layer": "17620:8304",
+   "before": "VariableID:5263:373123",
+   "after": "VariableID:5270:371435",
+   "ok": true,
+   "weight": 1
+  },
+  {
+   "variant": "Size=sm, Type=Search + Tags, Destructive=False, State=Placeholder",
+   "id": "17627:6043",
+   "layer": "17627:6044",
+   "before": "VariableID:5263:373123",
+   "after": "VariableID:5270:371435",
+   "ok": true,
+   "weight": 1
+  },
+  {
+   "variant": "Size=lg, Type=Leading drowdown, Destructive=False, State=Placeholder",
+   "id": "17524:12460",
+   "layer": "17524:12462",
+   "before": "VariableID:5263:373123",
+   "after": "VariableID:5270:371435",
+   "ok": true,
+   "weight": 1
+  },
+  {
+   "variant": "Size=lg, Type=Payment, Destructive=False, State=Placeholder",
+   "id": "17524:16283",
+   "layer": "17524:16285",
+   "before": "VariableID:5263:373123",
+   "after": "VariableID:5270:371435",
+   "ok": true,
+   "weight": 1
+  },
+  {
+   "variant": "Size=lg, Type=Leading drowdown, Destructive=False, State=Filled",
+   "id": "17524:12618",
+   "layer": "17524:12620",
+   "before": "VariableID:5263:373123",
+   "after": "VariableID:5270:371435",
+   "ok": true,
+   "weight": 1
+  },
+  {
+   "variant": "Size=lg, Type=Payment, Destructive=False, State=Filled",
+   "id": "17524:16296",
+   "layer": "17524:16298",
+   "before": "VariableID:5263:373123",
+   "after": "VariableID:5270:371435",
+   "ok": true,
+   "weight": 1
+  },
+  {
+   "variant": "Size=lg, Type=Payment, Destructive=False, State=Focused",
+   "id": "17524:16464",
+   "layer": "17524:16466",
+   "before": "VariableID:5263:373123",
+   "after": "VariableID:5270:371435",
+   "ok": true,
+   "weight": 1
+  },
+  {
+   "variant": "Size=lg, Type=Leading drowdown, Destructive=False, State=Focused",
+   "id": "17524:12654",
+   "layer": "17524:12656",
+   "before": "VariableID:5263:373123",
+   "after": "VariableID:5270:371435",
+   "ok": true,
+   "weight": 1
+  },
+  {
+   "variant": "Size=lg, Type=Default, Destructive=False, State=Filled",
+   "id": "17517:11025",
+   "layer": "17517:11031",
+   "before": "VariableID:5263:373123",
+   "after": "VariableID:5270:371435",
+   "ok": true,
+   "weight": 1
+  },
+  {
+   "variant": "Size=lg, Type=Password, Destructive=False, State=Filled",
+   "id": "17588:6932",
+   "layer": "17588:6934",
+   "before": "VariableID:5263:373123",
+   "after": "VariableID:5270:371435",
+   "ok": true,
+   "weight": 1
+  },
+  {
+   "variant": "Size=lg, Type=Leading icon, Destructive=False, State=Filled",
+   "id": "17588:2114",
+   "layer": "17588:2116",
+   "before": "VariableID:5263:373123",
+   "after": "VariableID:5270:371435",
+   "ok": true,
+   "weight": 1
+  },
+  {
+   "variant": "Size=lg, Type=Default, Destructive=False, State=Focused",
+   "id": "17517:11048",
+   "layer": "17517:11054",
+   "before": "VariableID:5263:373123",
+   "after": "VariableID:5270:371435",
+   "ok": true,
+   "weight": 1
+  },
+  {
+   "variant": "Size=lg, Type=Password, Destructive=False, State=Focused",
+   "id": "17588:6956",
+   "layer": "17588:6958",
+   "before": "VariableID:5263:373123",
+   "after": "VariableID:5270:371435",
+   "ok": true,
+   "weight": 1
+  },
+  {
+   "variant": "Size=lg, Type=Leading icon, Destructive=False, State=Focused",
+   "id": "17588:2140",
+   "layer": "17588:2142",
+   "before": "VariableID:5263:373123",
+   "after": "VariableID:5270:371435",
+   "ok": true,
+   "weight": 1
+  }
+ ]
+}

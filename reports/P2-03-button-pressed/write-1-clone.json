@@ -1,0 +1,188 @@
+{
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "writtenAt": "2026-11-09T18:21:53.315Z",
+ "variants": 118,
+ "stateOptions": [
+  "Default",
+  "Hover",
+  "Focused",
+  "Disabled",
+  "Loading"
+ ],
+ "setSize": [
+  1126,
+  1790
+ ],
+ "section": [
+  3916,
+  3623
+ ],
+ "moved": [
+  [
+   "17503:16162",
+   2229
+  ],
+  [
+   "21539:9592",
+   3183
+  ],
+  [
+   "21543:896",
+   3183
+  ]
+ ],
+ "count": 25,
+ "allParentOk": false,
+ "results": [
+  {
+   "hover": "3287:427383",
+   "pressed": "23481:5",
+   "name": "Size=md, Hierarchy=Primary, State=Pressed, Icon only=False",
+   "parentOk": false
+  },
+  {
+   "hover": "17496:23090",
+   "pressed": "23481:10",
+   "name": "Size=md, Hierarchy=Primary_alt, State=Pressed, Icon only=False",
+   "parentOk": false
+  },
+  {
+   "hover": "3287:427391",
+   "pressed": "23481:15",
+   "name": "Size=md, Hierarchy=Link brand, State=Pressed, Icon only=False",
+   "parentOk": false
+  },
+  {
+   "hover": "3287:427407",
+   "pressed": "23481:19",
+   "name": "Size=md, Hierarchy=Secondary, State=Pressed, Icon only=False",
+   "parentOk": false
+  },
+  {
+   "hover": "3287:427559",
+   "pressed": "23481:24",
+   "name": "Size=md, Hierarchy=Primary, State=Pressed, Icon only=True",
+   "parentOk": false
+  },
+  {
+   "hover": "17498:17599",
+   "pressed": "23481:26",
+   "name": "Size=md, Hierarchy=Primary_alt, State=Pressed, Icon only=True",
+   "parentOk": false
+  },
+  {
+   "hover": "3287:427599",
+   "pressed": "23481:28",
+   "name": "Size=md, Hierarchy=Secondary, State=Pressed, Icon only=True",
+   "parentOk": false
+  },
+  {
+   "hover": "3287:427911",
+   "pressed": "23481:30",
+   "name": "Size=lg, Hierarchy=Primary, State=Pressed, Icon only=False",
+   "parentOk": false
+  },
+  {
+   "hover": "17496:23114",
+   "pressed": "23481:35",
+   "name": "Size=lg, Hierarchy=Primary_alt, State=Pressed, Icon only=False",
+   "parentOk": false
+  },
+  {
+   "hover": "3287:427919",
+   "pressed": "23481:40",
+   "name": "Size=lg, Hierarchy=Link brand, State=Pressed, Icon only=False",
+   "parentOk": false
+  },
+  {
+   "hover": "3287:427935",
+   "pressed": "23481:44",
+   "name": "Size=lg, Hierarchy=Secondary, State=Pressed, Icon only=False",
+   "parentOk": false
+  },
+  {
+   "hover": "3287:428087",
+   "pressed": "23481:49",
+   "name": "Size=lg, Hierarchy=Primary, State=Pressed, Icon only=True",
+   "parentOk": false
+  },
+  {
+   "hover": "17498:17609",
+   "pressed": "23481:51",
+   "name": "Size=lg, Hierarchy=Primary_alt, State=Pressed, Icon only=True",
+   "parentOk": false
+  },
+  {
+   "hover": "3287:428127",
+   "pressed": "23481:53",
+   "name": "Size=lg, Hierarchy=Secondary, State=Pressed, Icon only=True",
+   "parentOk": false
+  },
+  {
+   "hover": "3287:429495",
+   "pressed": "23481:55",
+   "name": "Size=sm, Hierarchy=Primary, State=Pressed, Icon only=False",
+   "parentOk": false
+  },
+  {
+   "hover": "17496:23298",
+   "pressed": "23481:60",
+   "name": "Size=xxs, Hierarchy=Primary, State=Pressed, Icon only=False",
+   "parentOk": false
+  },
+  {
+   "hover": "17496:23366",
+   "pressed": "23481:65",
+   "name": "Size=xxs, Hierarchy=Primary_alt, State=Pressed, Icon only=False",
+   "parentOk": false
+  },
+  {
+   "hover": "17496:23138",
+   "pressed": "23481:70",
+   "name": "Size=sm, Hierarchy=Primary_alt, State=Pressed, Icon only=False",
+   "parentOk": false
+  },
+  {
+   "hover": "3287:429503",
+   "pressed": "23481:75",
+   "name": "Size=sm, Hierarchy=Link brand, State=Pressed, Icon only=False",
+   "parentOk": false
+  },
+  {
+   "hover": "17499:16198",
+   "pressed": "23481:79",
+   "name": "Size=xxs, Hierarchy=Link brand, State=Pressed, Icon only=False",
+   "parentOk": false
+  },
+  {
+   "hover": "3287:429519",
+   "pressed": "23481:83",
+   "name": "Size=sm, Hierarchy=Secondary, State=Pressed, Icon only=False",
+   "parentOk": false
+  },
+  {
+   "hover": "17498:17690",
+   "pressed": "23481:88",
+   "name": "Size=xxs, Hierarchy=Secondary, State=Pressed, Icon only=False",
+   "parentOk": false
+  },
+  {
+   "hover": "3287:429671",
+   "pressed": "23481:93",
+   "name": "Size=sm, Hierarchy=Primary, State=Pressed, Icon only=True",
+   "parentOk": false
+  },
+  {
+   "hover": "17498:17619",
+   "pressed": "23481:95",
+   "name": "Size=sm, Hierarchy=Primary_alt, State=Pressed, Icon only=True",
+   "parentOk": false
+  },
+  {
+   "hover": "3287:429711",
+   "pressed": "23481:97",
+   "name": "Size=sm, Hierarchy=Secondary, State=Pressed, Icon only=True",
+   "parentOk": false
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "variants": 143,
+ "stateOptions": [
+  "Default",
+  "Hover",
+  "Focused",
+  "Disabled",
+  "Loading",
+  "Pressed"
+ ],
+ "inSet": true,
+ "leftoverOnCover": 0,
+ "maxBottom": 1742,
+ "setH": 1790,
+ "labelProp": [
+  "Label#23477:0"
+ ]
+}

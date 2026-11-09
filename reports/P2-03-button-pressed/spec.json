@@ -1,0 +1,15 @@
+{
+ "sets": {
+  "Buttons/Button": {
+   "scope": {
+    "State": [
+     "Pressed"
+    ]
+   },
+   "allowAdded": true
+  }
+ },
+ "allowPropDefsChange": [
+  "Buttons/Button"
+ ]
+}

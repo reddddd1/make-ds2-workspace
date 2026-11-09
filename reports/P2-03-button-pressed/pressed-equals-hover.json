@@ -1,0 +1,102 @@
+[
+ [
+  "Size=md, Hierarchy=Primary, Icon only=False",
+  true
+ ],
+ [
+  "Size=md, Hierarchy=Primary_alt, Icon only=False",
+  true
+ ],
+ [
+  "Size=md, Hierarchy=Link brand, Icon only=False",
+  true
+ ],
+ [
+  "Size=md, Hierarchy=Secondary, Icon only=False",
+  true
+ ],
+ [
+  "Size=md, Hierarchy=Primary, Icon only=True",
+  true
+ ],
+ [
+  "Size=md, Hierarchy=Primary_alt, Icon only=True",
+  true
+ ],
+ [
+  "Size=md, Hierarchy=Secondary, Icon only=True",
+  true
+ ],
+ [
+  "Size=lg, Hierarchy=Primary, Icon only=False",
+  true
+ ],
+ [
+  "Size=lg, Hierarchy=Primary_alt, Icon only=False",
+  true
+ ],
+ [
+  "Size=lg, Hierarchy=Link brand, Icon only=False",
+  true
+ ],
+ [
+  "Size=lg, Hierarchy=Secondary, Icon only=False",
+  true
+ ],
+ [
+  "Size=lg, Hierarchy=Primary, Icon only=True",
+  true
+ ],
+ [
+  "Size=lg, Hierarchy=Primary_alt, Icon only=True",
+  true
+ ],
+ [
+  "Size=lg, Hierarchy=Secondary, Icon only=True",
+  true
+ ],
+ [
+  "Size=sm, Hierarchy=Primary, Icon only=False",
+  true
+ ],
+ [
+  "Size=xxs, Hierarchy=Primary, Icon only=False",
+  true
+ ],
+ [
+  "Size=xxs, Hierarchy=Primary_alt, Icon only=False",
+  true
+ ],
+ [
+  "Size=sm, Hierarchy=Primary_alt, Icon only=False",
+  true
+ ],
+ [
+  "Size=sm, Hierarchy=Link brand, Icon only=False",
+  true
+ ],
+ [
+  "Size=xxs, Hierarchy=Link brand, Icon only=False",
+  true
+ ],
+ [
+  "Size=sm, Hierarchy=Secondary, Icon only=False",
+  true
+ ],
+ [
+  "Size=xxs, Hierarchy=Secondary, Icon only=False",
+  true
+ ],
+ [
+  "Size=sm, Hierarchy=Primary, Icon only=True",
+  true
+ ],
+ [
+  "Size=sm, Hierarchy=Primary_alt, Icon only=True",
+  true
+ ],
+ [
+  "Size=sm, Hierarchy=Secondary, Icon only=True",
+  true
+ ]
+]

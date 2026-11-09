@@ -10,7 +10,7 @@
 | Refactoring audit | Complete (`docs/audit.md`) | VERIFIED evidence |
 | Decisions D-01–D-12 | Reconciled (`docs/decisions.md`) | APPROVED / PLANNING / DEFERRED as listed |
 | Phase 1 | **Complete** (P1-01…P1-13 done; see `reports/PHASE-1-REPORT.md`, `reports/P1-03-duplicate-verification.md`) | APPROVED · VERIFIED |
-| Phase 2 | **P2-00 approved by Mike (2026-11-09) and done** (`reports/P2-00-regression/README.md`). P2-01…P2-08 **not approved** — each needs Mike's approval | P2-00 APPROVED · VERIFIED; rest PROPOSED |
+| Phase 2 | **P2-00 done; P2-01 done** (token sync applied to the duplicate: 1 create + 11 alias updates, `reports/P2-01-sync/README.md`). P2-02…P2-08 **not approved**: each needs Mike's approval | P2-00/P2-01 APPROVED · VERIFIED; rest PROPOSED |
 | Phases 3–4 | Not approved | — |
 | Figma duplicate | **MAKER-DS-v2 (WIP Refactor)** — verified identical copy, not published; not yet subscribed to MAKER Icon library (Mike to enable before Phase 2). Read-only until Phase 2 is approved | VERIFIED (P1-03) |
 | Duplicate URL / file key | https://www.figma.com/design/PpnTy1pkB2FTZFq6i6seSy/MAKER-DS-v2--WIP-Refactor- · `PpnTy1pkB2FTZFq6i6seSy` | VERIFIED (P1-03) |

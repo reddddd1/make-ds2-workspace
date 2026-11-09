@@ -1,0 +1,6107 @@
+{
+ "assertions": {
+  "conflicts": 0,
+  "deletes": 0,
+  "renames": 0,
+  "retypes": 0,
+  "targetIsOriginal": false,
+  "variablesRead": 681,
+  "writePathWouldRefuse": false,
+  "writesPerformed": 0
+ },
+ "conflicts": [],
+ "figmaReads": 4,
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "operations": {
+  "create": 1,
+  "figma-only": 368,
+  "skip-out-of-scope": 195,
+  "unchanged": 127,
+  "update-alias": 11
+ },
+ "rows": [
+  {
+   "after": "#8a8e97",
+   "afterHex": "#8a8e97",
+   "approval": true,
+   "before": null,
+   "collection": "_Primitives",
+   "mode": null,
+   "note": "scopes: copy from sibling variables in the same group (§9.3)",
+   "op": "create",
+   "token": "color.gray.450",
+   "variable": "Colors/Gray (light mode)/450"
+  },
+  {
+   "affected": [
+    "Buttons/Button (7)",
+    "_Toggle base (2)",
+    "_Calendar cell (1)"
+   ],
+   "after": "Colors/Brand/700",
+   "afterHex": "#2323f0",
+   "approval": true,
+   "before": "Colors/Brand/500",
+   "beforeHex": "#7373f5",
+   "collection": "1. Color modes",
+   "deltaE": 21.34,
+   "description": "Primary button hover background",
+   "mode": "dark",
+   "op": "update-alias",
+   "token": "color.bg.brand-primary-hover",
+   "variable": "Colors/Background/bg-brand-primary_hover",
+   "variableId": "VariableID:5353:380427"
+  },
+  {
+   "affected": [
+    "Buttons/Button (7)",
+    "_Toggle base (2)",
+    "_Calendar cell (1)"
+   ],
+   "after": "Colors/Brand/700",
+   "afterHex": "#2323f0",
+   "approval": true,
+   "before": "Colors/Brand/500",
+   "beforeHex": "#7373f5",
+   "collection": "1. Color modes",
+   "deltaE": 21.34,
+   "description": "Primary button hover background",
+   "mode": "light",
+   "op": "update-alias",
+   "token": "color.bg.brand-primary-hover",
+   "variable": "Colors/Background/bg-brand-primary_hover",
+   "variableId": "VariableID:5353:380427"
+  },
+  {
+   "affected": [
+    "Social button (42)",
+    "_Button group base (32)",
+    "Button group (3)",
+    "Tag (30)",
+    "Select (21)",
+    "Textarea input field (30)",
+    "Input field (40)",
+    "_Input title (1)",
+    "_Checkbox base (15)",
+    "Alert (4)",
+    "_Focus ring card (1)",
+    "_Documentation table cell (4)"
+   ],
+   "after": "Colors/Gray (dark mode)/600",
+   "afterHex": "#61656c",
+   "approval": true,
+   "before": "Colors/Gray (dark mode)/700",
+   "beforeHex": "#373a41",
+   "collection": "1. Color modes",
+   "deltaE": 14.77,
+   "description": "Input border (default)",
+   "mode": "dark",
+   "op": "update-alias",
+   "token": "color.border.primary",
+   "variable": "Colors/Border/border-primary",
+   "variableId": "VariableID:5270:371435"
+  },
+  {
+   "affected": [
+    "Social button (42)",
+    "_Button group base (32)",
+    "Button group (3)",
+    "Tag (30)",
+    "Select (21)",
+    "Textarea input field (30)",
+    "Input field (40)",
+    "_Input title (1)",
+    "_Checkbox base (15)",
+    "Alert (4)",
+    "_Focus ring card (1)",
+    "_Documentation table cell (4)"
+   ],
+   "after": "Colors/Gray (light mode)/450",
+   "afterHex": "#8a8e97",
+   "approval": true,
+   "before": "Colors/Gray (light mode)/300",
+   "beforeHex": "#d5d7da",
+   "collection": "1. Color modes",
+   "deltaE": 20.51,
+   "description": "Input border (default)",
+   "mode": "light",
+   "op": "update-alias",
+   "token": "color.border.primary",
+   "variable": "Colors/Border/border-primary",
+   "variableId": "VariableID:5270:371435"
+  },
+  {
+   "affected": [
+    "Buttons/Button (24)",
+    "Badge (6)"
+   ],
+   "after": "Colors/Brand/400",
+   "afterHex": "#9090f6",
+   "approval": true,
+   "before": "Colors/Brand/600",
+   "beforeHex": "#5656f3",
+   "collection": "1. Color modes",
+   "deltaE": 18.59,
+   "description": "Brand text and links",
+   "mode": "dark",
+   "op": "update-alias",
+   "token": "color.text.brand-primary",
+   "variable": "Colors/Text/text-brand-primary",
+   "variableId": "VariableID:6137:268549"
+  },
+  {
+   "affected": [
+    "Buttons/Button (7)"
+   ],
+   "after": "Colors/Brand/300",
+   "afterHex": "#ababf8",
+   "approval": true,
+   "before": "Colors/Brand/500",
+   "beforeHex": "#7373f5",
+   "collection": "1. Color modes",
+   "deltaE": 17.08,
+   "description": "Link / brand text, hover. Moves toward MORE contrast than the default.",
+   "mode": "dark",
+   "op": "update-alias",
+   "token": "color.text.brand-primary-hover",
+   "variable": "Colors/Text/text-brand-primary-hover",
+   "variableId": "VariableID:17499:16144"
+  },
+  {
+   "affected": [
+    "Buttons/Button (7)"
+   ],
+   "after": "Colors/Brand/700",
+   "afterHex": "#2323f0",
+   "approval": true,
+   "before": "Colors/Brand/500",
+   "beforeHex": "#7373f5",
+   "collection": "1. Color modes",
+   "deltaE": 21.34,
+   "description": "Link / brand text, hover. Moves toward MORE contrast than the default.",
+   "mode": "light",
+   "op": "update-alias",
+   "token": "color.text.brand-primary-hover",
+   "variable": "Colors/Text/text-brand-primary-hover",
+   "variableId": "VariableID:17499:16144"
+  },
+  {
+   "affected": [
+    "Buttons/Button destructive (28)",
+    "Badge (3)",
+    "Helper text (3)"
+   ],
+   "after": "Colors/Error/600",
+   "afterHex": "#ca0050",
+   "approval": true,
+   "before": "Colors/Error/500",
+   "beforeHex": "#ff0466",
+   "collection": "1. Color modes",
+   "deltaE": 11.71,
+   "description": "Error text (validation messages)",
+   "mode": "light",
+   "op": "update-alias",
+   "token": "color.text.error-primary",
+   "variable": "Colors/Text/text-error-primary",
+   "variableId": "VariableID:5263:373125"
+  },
+  {
+   "affected": [
+    "_Tab button base (2)",
+    "Tag count (3)",
+    "Flow heading (2)",
+    "Design system header (1)"
+   ],
+   "after": "Colors/Base/white",
+   "afterHex": "#ffffff",
+   "approval": true,
+   "before": "Colors/Gray (dark mode)/50",
+   "beforeHex": "#f7f7f7",
+   "collection": "1. Color modes",
+   "deltaE": 1.6,
+   "description": "Label on primary button",
+   "mode": "dark",
+   "op": "update-alias",
+   "token": "color.text.primary-on-brand",
+   "variable": "Colors/Text/text-primary_on-brandprimary",
+   "variableId": "VariableID:6139:331930"
+  },
+  {
+   "affected": [
+    "Badge (3)",
+    "Helper text (3)"
+   ],
+   "after": "Colors/Success/700",
+   "afterHex": "#067647",
+   "approval": true,
+   "before": "Colors/Success/500",
+   "beforeHex": "#17b26a",
+   "collection": "1. Color modes",
+   "deltaE": 20.63,
+   "description": "Success text",
+   "mode": "light",
+   "op": "update-alias",
+   "token": "color.text.success-primary",
+   "variable": "Colors/Text/text-success-primary",
+   "variableId": "VariableID:5270:371446"
+  },
+  {
+   "affected": [
+    "Badge (6)",
+    "Helper text (3)"
+   ],
+   "after": "Colors/Warning/700",
+   "afterHex": "#b54708",
+   "approval": true,
+   "before": "Colors/Warning/500",
+   "beforeHex": "#f79009",
+   "collection": "1. Color modes",
+   "deltaE": 25.53,
+   "description": "Warning text",
+   "mode": "light",
+   "op": "update-alias",
+   "token": "color.text.warning-primary",
+   "variable": "Colors/Text/text-warning-primary",
+   "variableId": "VariableID:5270:371444"
+  },
+  {
+   "after": "Colors/Brand/600",
+   "afterHex": "#5656f3",
+   "approval": false,
+   "before": "Colors/Brand/600",
+   "beforeHex": "#5656f3",
+   "collection": "1. Color modes",
+   "deltaE": null,
+   "description": "Primary button background",
+   "mode": "dark",
+   "op": "unchanged",
+   "token": "color.bg.brand-primary",
+   "variable": "Colors/Background/bg-brand-primary",
+   "variableId": "VariableID:5270:371419"
+  },
+  {
+   "after": "Colors/Brand/600",
+   "afterHex": "#5656f3",
+   "approval": false,
+   "before": "Colors/Brand/600",
+   "beforeHex": "#5656f3",
+   "collection": "1. Color modes",
+   "deltaE": null,
+   "description": "Primary button background",
+   "mode": "light",
+   "op": "unchanged",
+   "token": "color.bg.brand-primary",
+   "variable": "Colors/Background/bg-brand-primary",
+   "variableId": "VariableID:5270:371419"
+  },
+  {
+   "after": "Colors/Error/400",
+   "afterHex": "#fe6286",
+   "approval": false,
+   "before": "Colors/Error/400",
+   "beforeHex": "#fe6286",
+   "collection": "1. Color modes",
+   "deltaE": null,
+   "description": "Input border (error)",
+   "mode": "dark",
+   "op": "unchanged",
+   "token": "color.border.error",
+   "variable": "Colors/Border/border-error",
+   "variableId": "VariableID:5353:385108"
+  },
+  {
+   "after": "Colors/Error/500",
+   "afterHex": "#ff0466",
+   "approval": false,
+   "before": "Colors/Error/500",
+   "beforeHex": "#ff0466",
+   "collection": "1. Color modes",
+   "deltaE": null,
+   "description": "Input border (error)",
+   "mode": "light",
+   "op": "unchanged",
+   "token": "color.border.error",
+   "variable": "Colors/Border/border-error",
+   "variableId": "VariableID:5353:385108"
+  },
+  {
+   "after": "Colors/Brand/500",
+   "afterHex": "#7373f5",
+   "approval": false,
+   "before": "Colors/Brand/500",
+   "beforeHex": "#7373f5",
+   "collection": "1. Color modes",
+   "deltaE": null,
+   "description": "Focus ring",
+   "mode": "dark",
+   "op": "unchanged",
+   "token": "color.focus-ring.primary",
+   "variable": "Colors/Effects/Focus rings/focus-ring-primary",
+   "variableId": "VariableID:7371:212918"
+  },
+  {
+   "after": "Colors/Brand/500",
+   "afterHex": "#7373f5",
+   "approval": false,
+   "before": "Colors/Brand/500",
+   "beforeHex": "#7373f5",
+   "collection": "1. Color modes",
+   "deltaE": null,
+   "description": "Focus ring",
+   "mode": "light",
+   "op": "unchanged",
+   "token": "color.focus-ring.primary",
+   "variable": "Colors/Effects/Focus rings/focus-ring-primary",
+   "variableId": "VariableID:7371:212918"
+  },
+  {
+   "after": "Colors/Brand/600",
+   "afterHex": "#5656f3",
+   "approval": false,
+   "before": "Colors/Brand/600",
+   "beforeHex": "#5656f3",
+   "collection": "1. Color modes",
+   "deltaE": null,
+   "description": "Brand text and links",
+   "mode": "light",
+   "op": "unchanged",
+   "token": "color.text.brand-primary",
+   "variable": "Colors/Text/text-brand-primary",
+   "variableId": "VariableID:6137:268549"
+  },
+  {
+   "after": "Colors/Error/400",
+   "afterHex": "#fe6286",
+   "approval": false,
+   "before": "Colors/Error/400",
+   "beforeHex": "#fe6286",
+   "collection": "1. Color modes",
+   "deltaE": null,
+   "description": "Error text (validation messages)",
+   "mode": "dark",
+   "op": "unchanged",
+   "token": "color.text.error-primary",
+   "variable": "Colors/Text/text-error-primary",
+   "variableId": "VariableID:5263:373125"
+  },
+  {
+   "after": "Colors/Base/white",
+   "afterHex": "#ffffff",
+   "approval": false,
+   "before": "Colors/Base/white",
+   "beforeHex": "#ffffff",
+   "collection": "1. Color modes",
+   "deltaE": null,
+   "description": "Label on primary button",
+   "mode": "light",
+   "op": "unchanged",
+   "token": "color.text.primary-on-brand",
+   "variable": "Colors/Text/text-primary_on-brandprimary",
+   "variableId": "VariableID:6139:331930"
+  },
+  {
+   "after": "Colors/Success/400",
+   "afterHex": "#47cd89",
+   "approval": false,
+   "before": "Colors/Success/400",
+   "beforeHex": "#47cd89",
+   "collection": "1. Color modes",
+   "deltaE": null,
+   "description": "Success text",
+   "mode": "dark",
+   "op": "unchanged",
+   "token": "color.text.success-primary",
+   "variable": "Colors/Text/text-success-primary",
+   "variableId": "VariableID:5270:371446"
+  },
+  {
+   "after": "Colors/Warning/400",
+   "afterHex": "#fdb022",
+   "approval": false,
+   "before": "Colors/Warning/400",
+   "beforeHex": "#fdb022",
+   "collection": "1. Color modes",
+   "deltaE": null,
+   "description": "Warning text",
+   "mode": "dark",
+   "op": "unchanged",
+   "token": "color.text.warning-primary",
+   "variable": "Colors/Text/text-warning-primary",
+   "variableId": "VariableID:5270:371444"
+  },
+  {
+   "after": 20,
+   "afterHex": null,
+   "approval": false,
+   "before": 20,
+   "beforeHex": null,
+   "collection": "2. Radius",
+   "deltaE": null,
+   "description": "Custom (not in Tailwind). Main radius of buttons and inputs. Approved by Mike 2026-11-08 (proposal 0001, option A).",
+   "mode": null,
+   "op": "unchanged",
+   "token": "radius.2-5xl",
+   "variable": "radius-3xl",
+   "variableId": "VariableID:6306:268582"
+  },
+  {
+   "after": 16,
+   "afterHex": null,
+   "approval": false,
+   "before": 16,
+   "beforeHex": null,
+   "collection": "2. Radius",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "radius.2xl",
+   "variable": "radius-2xl",
+   "variableId": "VariableID:6298:46481"
+  },
+  {
+   "after": 24,
+   "afterHex": null,
+   "approval": false,
+   "before": 24,
+   "beforeHex": null,
+   "collection": "2. Radius",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "radius.3xl",
+   "variable": "radius-4xl",
+   "variableId": "VariableID:6298:46482"
+  },
+  {
+   "after": 32,
+   "afterHex": null,
+   "approval": false,
+   "before": 32,
+   "beforeHex": null,
+   "collection": "2. Radius",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "radius.4xl",
+   "variable": "radius-5xl",
+   "variableId": "VariableID:17490:23426"
+  },
+  {
+   "after": 9999,
+   "afterHex": null,
+   "approval": false,
+   "before": 9999,
+   "beforeHex": null,
+   "collection": "2. Radius",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "radius.full",
+   "variable": "radius-full",
+   "variableId": "VariableID:6298:46485"
+  },
+  {
+   "after": 8,
+   "afterHex": null,
+   "approval": false,
+   "before": 8,
+   "beforeHex": null,
+   "collection": "2. Radius",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "radius.lg",
+   "variable": "radius-md",
+   "variableId": "VariableID:6298:46479"
+  },
+  {
+   "after": 6,
+   "afterHex": null,
+   "approval": false,
+   "before": 6,
+   "beforeHex": null,
+   "collection": "2. Radius",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "radius.md",
+   "variable": "radius-sm",
+   "variableId": "VariableID:6298:46478"
+  },
+  {
+   "after": 0,
+   "afterHex": null,
+   "approval": false,
+   "before": 0,
+   "beforeHex": null,
+   "collection": "2. Radius",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "radius.none",
+   "variable": "radius-none",
+   "variableId": "VariableID:6298:46475"
+  },
+  {
+   "after": 4,
+   "afterHex": null,
+   "approval": false,
+   "before": 4,
+   "beforeHex": null,
+   "collection": "2. Radius",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "radius.sm",
+   "variable": "radius-xs",
+   "variableId": "VariableID:6298:46477"
+  },
+  {
+   "after": 12,
+   "afterHex": null,
+   "approval": false,
+   "before": 12,
+   "beforeHex": null,
+   "collection": "2. Radius",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "radius.xl",
+   "variable": "radius-xl",
+   "variableId": "VariableID:6298:46480"
+  },
+  {
+   "after": 2,
+   "afterHex": null,
+   "approval": false,
+   "before": 2,
+   "beforeHex": null,
+   "collection": "2. Radius",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "radius.xs",
+   "variable": "radius-xxs",
+   "variableId": "VariableID:6298:46476"
+  },
+  {
+   "after": "Inter",
+   "afterHex": null,
+   "approval": false,
+   "before": "Inter",
+   "beforeHex": null,
+   "collection": "6. Typography",
+   "deltaE": null,
+   "description": "Primary UI font. Web uses the full fallback stack; React Native uses the bundled Inter family only.",
+   "mode": null,
+   "op": "unchanged",
+   "token": "font.family.sans",
+   "variable": "Font family/font-family-primary",
+   "variableId": "VariableID:7403:16251"
+  },
+  {
+   "after": 24,
+   "afterHex": null,
+   "approval": false,
+   "before": 24,
+   "beforeHex": null,
+   "collection": "6. Typography",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "font.line-height.base",
+   "variable": "Line height/text-md",
+   "variableId": "VariableID:7407:110582"
+  },
+  {
+   "after": 20,
+   "afterHex": null,
+   "approval": false,
+   "before": 20,
+   "beforeHex": null,
+   "collection": "6. Typography",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "font.line-height.sm",
+   "variable": "Line height/text-sm",
+   "variableId": "VariableID:7407:110581"
+  },
+  {
+   "after": 18,
+   "afterHex": null,
+   "approval": false,
+   "before": 18,
+   "beforeHex": null,
+   "collection": "6. Typography",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "font.line-height.xs",
+   "variable": "Line height/text-xs",
+   "variableId": "VariableID:7407:110580"
+  },
+  {
+   "after": 16,
+   "afterHex": null,
+   "approval": false,
+   "before": 16,
+   "beforeHex": null,
+   "collection": "6. Typography",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "font.size.base",
+   "variable": "Font size/text-md",
+   "variableId": "VariableID:7407:110365"
+  },
+  {
+   "after": 14,
+   "afterHex": null,
+   "approval": false,
+   "before": 14,
+   "beforeHex": null,
+   "collection": "6. Typography",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "font.size.sm",
+   "variable": "Font size/text-sm",
+   "variableId": "VariableID:7407:110364"
+  },
+  {
+   "after": 12,
+   "afterHex": null,
+   "approval": false,
+   "before": 12,
+   "beforeHex": null,
+   "collection": "6. Typography",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "font.size.xs",
+   "variable": "Font size/text-xs",
+   "variableId": "VariableID:7407:110363"
+  },
+  {
+   "after": "Medium",
+   "afterHex": null,
+   "approval": false,
+   "before": "Medium",
+   "beforeHex": null,
+   "collection": "6. Typography",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "font.weight.medium",
+   "variable": "Font weight/medium",
+   "variableId": "VariableID:7405:102285"
+  },
+  {
+   "after": "Regular",
+   "afterHex": null,
+   "approval": false,
+   "before": "Regular",
+   "beforeHex": null,
+   "collection": "6. Typography",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "font.weight.normal",
+   "variable": "Font weight/regular",
+   "variableId": "VariableID:7405:102283"
+  },
+  {
+   "after": "Semibold",
+   "afterHex": null,
+   "approval": false,
+   "before": "Semibold",
+   "beforeHex": null,
+   "collection": "6. Typography",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "font.weight.semibold",
+   "variable": "Font weight/semibold",
+   "variableId": "VariableID:7405:102287"
+  },
+  {
+   "after": "#000000",
+   "afterHex": "#000000",
+   "approval": false,
+   "before": "#000000",
+   "beforeHex": "#000000",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.black",
+   "variable": "Colors/Base/black",
+   "variableId": "VariableID:5248:377687"
+  },
+  {
+   "after": "#e3e3fd",
+   "afterHex": "#e3e3fd",
+   "approval": false,
+   "before": "#e3e3fd",
+   "beforeHex": "#e3e3fd",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.brand.100",
+   "variable": "Colors/Brand/100",
+   "variableId": "VariableID:5248:377710"
+  },
+  {
+   "after": "#c7c7fa",
+   "afterHex": "#c7c7fa",
+   "approval": false,
+   "before": "#c7c7fa",
+   "beforeHex": "#c7c7fa",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.brand.200",
+   "variable": "Colors/Brand/200",
+   "variableId": "VariableID:5248:377711"
+  },
+  {
+   "after": "#ababf8",
+   "afterHex": "#ababf8",
+   "approval": false,
+   "before": "#ababf8",
+   "beforeHex": "#ababf8",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.brand.300",
+   "variable": "Colors/Brand/300",
+   "variableId": "VariableID:5248:377712"
+  },
+  {
+   "after": "#9090f6",
+   "afterHex": "#9090f6",
+   "approval": false,
+   "before": "#9090f6",
+   "beforeHex": "#9090f6",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.brand.400",
+   "variable": "Colors/Brand/400",
+   "variableId": "VariableID:5248:377713"
+  },
+  {
+   "after": "#f3f3fe",
+   "afterHex": "#f3f3fe",
+   "approval": false,
+   "before": "#f3f3fe",
+   "beforeHex": "#f3f3fe",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.brand.50",
+   "variable": "Colors/Brand/50",
+   "variableId": "VariableID:5248:377709"
+  },
+  {
+   "after": "#7373f5",
+   "afterHex": "#7373f5",
+   "approval": false,
+   "before": "#7373f5",
+   "beforeHex": "#7373f5",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.brand.500",
+   "variable": "Colors/Brand/500",
+   "variableId": "VariableID:5248:377714"
+  },
+  {
+   "after": "#5656f3",
+   "afterHex": "#5656f3",
+   "approval": false,
+   "before": "#5656f3",
+   "beforeHex": "#5656f3",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.brand.600",
+   "variable": "Colors/Brand/600",
+   "variableId": "VariableID:5248:377715"
+  },
+  {
+   "after": "#2323f0",
+   "afterHex": "#2323f0",
+   "approval": false,
+   "before": "#2323f0",
+   "beforeHex": "#2323f0",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.brand.700",
+   "variable": "Colors/Brand/700",
+   "variableId": "VariableID:5248:377716"
+  },
+  {
+   "after": "#0606b5",
+   "afterHex": "#0606b5",
+   "approval": false,
+   "before": "#0606b5",
+   "beforeHex": "#0606b5",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.brand.800",
+   "variable": "Colors/Brand/800",
+   "variableId": "VariableID:5248:377717"
+  },
+  {
+   "after": "#ffdde2",
+   "afterHex": "#ffdde2",
+   "approval": false,
+   "before": "#ffdde2",
+   "beforeHex": "#ffdde2",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.error.100",
+   "variable": "Colors/Error/100",
+   "variableId": "VariableID:5248:377722"
+  },
+  {
+   "after": "#ffbac5",
+   "afterHex": "#ffbac5",
+   "approval": false,
+   "before": "#ffbac5",
+   "beforeHex": "#ffbac5",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.error.200",
+   "variable": "Colors/Error/200",
+   "variableId": "VariableID:5248:377723"
+  },
+  {
+   "after": "#ff94a7",
+   "afterHex": "#ff94a7",
+   "approval": false,
+   "before": "#ff94a7",
+   "beforeHex": "#ff94a7",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.error.300",
+   "variable": "Colors/Error/300",
+   "variableId": "VariableID:5248:377724"
+  },
+  {
+   "after": "#fe6286",
+   "afterHex": "#fe6286",
+   "approval": false,
+   "before": "#fe6286",
+   "beforeHex": "#fe6286",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.error.400",
+   "variable": "Colors/Error/400",
+   "variableId": "VariableID:5248:377725"
+  },
+  {
+   "after": "#ffecef",
+   "afterHex": "#ffecef",
+   "approval": false,
+   "before": "#ffecef",
+   "beforeHex": "#ffecef",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.error.50",
+   "variable": "Colors/Error/50",
+   "variableId": "VariableID:5248:377721"
+  },
+  {
+   "after": "#ff0466",
+   "afterHex": "#ff0466",
+   "approval": false,
+   "before": "#ff0466",
+   "beforeHex": "#ff0466",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.error.500",
+   "variable": "Colors/Error/500",
+   "variableId": "VariableID:5248:377726"
+  },
+  {
+   "after": "#ca0050",
+   "afterHex": "#ca0050",
+   "approval": false,
+   "before": "#ca0050",
+   "beforeHex": "#ca0050",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.error.600",
+   "variable": "Colors/Error/600",
+   "variableId": "VariableID:5248:377727"
+  },
+  {
+   "after": "#ececed",
+   "afterHex": "#ececed",
+   "approval": false,
+   "before": "#ececed",
+   "beforeHex": "#ececed",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.gray-dark.200",
+   "variable": "Colors/Gray (dark mode)/200",
+   "variableId": "VariableID:6671:87756"
+  },
+  {
+   "after": "#cecfd2",
+   "afterHex": "#cecfd2",
+   "approval": false,
+   "before": "#cecfd2",
+   "beforeHex": "#cecfd2",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.gray-dark.300",
+   "variable": "Colors/Gray (dark mode)/300",
+   "variableId": "VariableID:6671:87757"
+  },
+  {
+   "after": "#94979c",
+   "afterHex": "#94979c",
+   "approval": false,
+   "before": "#94979c",
+   "beforeHex": "#94979c",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.gray-dark.400",
+   "variable": "Colors/Gray (dark mode)/400",
+   "variableId": "VariableID:6671:87758"
+  },
+  {
+   "after": "#f7f7f7",
+   "afterHex": "#f7f7f7",
+   "approval": false,
+   "before": "#f7f7f7",
+   "beforeHex": "#f7f7f7",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.gray-dark.50",
+   "variable": "Colors/Gray (dark mode)/50",
+   "variableId": "VariableID:6671:87754"
+  },
+  {
+   "after": "#85888e",
+   "afterHex": "#85888e",
+   "approval": false,
+   "before": "#85888e",
+   "beforeHex": "#85888e",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.gray-dark.500",
+   "variable": "Colors/Gray (dark mode)/500",
+   "variableId": "VariableID:6671:87759"
+  },
+  {
+   "after": "#61656c",
+   "afterHex": "#61656c",
+   "approval": false,
+   "before": "#61656c",
+   "beforeHex": "#61656c",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.gray-dark.600",
+   "variable": "Colors/Gray (dark mode)/600",
+   "variableId": "VariableID:6671:87760"
+  },
+  {
+   "after": "#373a41",
+   "afterHex": "#373a41",
+   "approval": false,
+   "before": "#373a41",
+   "beforeHex": "#373a41",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.gray-dark.700",
+   "variable": "Colors/Gray (dark mode)/700",
+   "variableId": "VariableID:6671:87761"
+  },
+  {
+   "after": "#22262f",
+   "afterHex": "#22262f",
+   "approval": false,
+   "before": "#22262f",
+   "beforeHex": "#22262f",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.gray-dark.800",
+   "variable": "Colors/Gray (dark mode)/800",
+   "variableId": "VariableID:6671:87762"
+  },
+  {
+   "after": "#13161b",
+   "afterHex": "#13161b",
+   "approval": false,
+   "before": "#13161b",
+   "beforeHex": "#13161b",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.gray-dark.900",
+   "variable": "Colors/Gray (dark mode)/900",
+   "variableId": "VariableID:6671:87763"
+  },
+  {
+   "after": "#131316",
+   "afterHex": "#131316",
+   "approval": false,
+   "before": "#131316",
+   "beforeHex": "#131316",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.gray-iron.950",
+   "variable": "Colors/Gray iron/950",
+   "variableId": "VariableID:5248:378678"
+  },
+  {
+   "after": "#f9f9fb",
+   "afterHex": "#f9f9fb",
+   "approval": false,
+   "before": "#f9f9fb",
+   "beforeHex": "#f9f9fb",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.gray-modern.25",
+   "variable": "Colors/Gray modern/25",
+   "variableId": "VariableID:5248:377693"
+  },
+  {
+   "after": "#cdd5df",
+   "afterHex": "#cdd5df",
+   "approval": false,
+   "before": "#cdd5df",
+   "beforeHex": "#cdd5df",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.gray-modern.300",
+   "variable": "Colors/Gray modern/300",
+   "variableId": "VariableID:5248:377783"
+  },
+  {
+   "after": "#202939",
+   "afterHex": "#202939",
+   "approval": false,
+   "before": "#202939",
+   "beforeHex": "#202939",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.gray-modern.800",
+   "variable": "Colors/Gray modern/800",
+   "variableId": "VariableID:5248:377788"
+  },
+  {
+   "after": "#f5f5f5",
+   "afterHex": "#f5f5f5",
+   "approval": false,
+   "before": "#f5f5f5",
+   "beforeHex": "#f5f5f5",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.gray.100",
+   "variable": "Colors/Gray (light mode)/100",
+   "variableId": "VariableID:5248:377698"
+  },
+  {
+   "after": "#e9eaeb",
+   "afterHex": "#e9eaeb",
+   "approval": false,
+   "before": "#e9eaeb",
+   "beforeHex": "#e9eaeb",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.gray.200",
+   "variable": "Colors/Gray (light mode)/200",
+   "variableId": "VariableID:5248:377699"
+  },
+  {
+   "after": "#fdfdfd",
+   "afterHex": "#fdfdfd",
+   "approval": false,
+   "before": "#fdfdfd",
+   "beforeHex": "#fdfdfd",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.gray.25",
+   "variable": "Colors/Gray (light mode)/25",
+   "variableId": "VariableID:5248:377690"
+  },
+  {
+   "after": "#d5d7da",
+   "afterHex": "#d5d7da",
+   "approval": false,
+   "before": "#d5d7da",
+   "beforeHex": "#d5d7da",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.gray.300",
+   "variable": "Colors/Gray (light mode)/300",
+   "variableId": "VariableID:5248:377700"
+  },
+  {
+   "after": "#a4a7ae",
+   "afterHex": "#a4a7ae",
+   "approval": false,
+   "before": "#a4a7ae",
+   "beforeHex": "#a4a7ae",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.gray.400",
+   "variable": "Colors/Gray (light mode)/400",
+   "variableId": "VariableID:5248:377701"
+  },
+  {
+   "after": "#fafafa",
+   "afterHex": "#fafafa",
+   "approval": false,
+   "before": "#fafafa",
+   "beforeHex": "#fafafa",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.gray.50",
+   "variable": "Colors/Gray (light mode)/50",
+   "variableId": "VariableID:5248:377696"
+  },
+  {
+   "after": "#717680",
+   "afterHex": "#717680",
+   "approval": false,
+   "before": "#717680",
+   "beforeHex": "#717680",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.gray.500",
+   "variable": "Colors/Gray (light mode)/500",
+   "variableId": "VariableID:5248:377702"
+  },
+  {
+   "after": "#535862",
+   "afterHex": "#535862",
+   "approval": false,
+   "before": "#535862",
+   "beforeHex": "#535862",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.gray.600",
+   "variable": "Colors/Gray (light mode)/600",
+   "variableId": "VariableID:5248:377703"
+  },
+  {
+   "after": "#414651",
+   "afterHex": "#414651",
+   "approval": false,
+   "before": "#414651",
+   "beforeHex": "#414651",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.gray.700",
+   "variable": "Colors/Gray (light mode)/700",
+   "variableId": "VariableID:5248:377704"
+  },
+  {
+   "after": "#252b37",
+   "afterHex": "#252b37",
+   "approval": false,
+   "before": "#252b37",
+   "beforeHex": "#252b37",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.gray.800",
+   "variable": "Colors/Gray (light mode)/800",
+   "variableId": "VariableID:5248:377705"
+  },
+  {
+   "after": "#0a0d12",
+   "afterHex": "#0a0d12",
+   "approval": false,
+   "before": "#0a0d12",
+   "beforeHex": "#0a0d12",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.gray.950",
+   "variable": "Colors/Gray (light mode)/950",
+   "variableId": "VariableID:5248:377707"
+  },
+  {
+   "after": "#f0ffd5",
+   "afterHex": "#f0ffd5",
+   "approval": false,
+   "before": "#f0ffd5",
+   "beforeHex": "#f0ffd5",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.green-lime.200",
+   "variable": "Colors/Green lime/200",
+   "variableId": "VariableID:17489:6178"
+  },
+  {
+   "after": "#d9ff75",
+   "afterHex": "#d9ff75",
+   "approval": false,
+   "before": "#d9ff75",
+   "beforeHex": "#d9ff75",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.green-lime.400",
+   "variable": "Colors/Green lime/400",
+   "variableId": "VariableID:17489:6180"
+  },
+  {
+   "after": "#d0ff00",
+   "afterHex": "#d0ff00",
+   "approval": false,
+   "before": "#d0ff00",
+   "beforeHex": "#d0ff00",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.green-lime.500",
+   "variable": "Colors/Green lime/500",
+   "variableId": "VariableID:17489:6181"
+  },
+  {
+   "after": "#f2c9ff",
+   "afterHex": "#f2c9ff",
+   "approval": false,
+   "before": "#f2c9ff",
+   "beforeHex": "#f2c9ff",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.magenta.400",
+   "variable": "Colors/Magenta/400",
+   "variableId": "VariableID:17490:5440"
+  },
+  {
+   "after": "#efbdff",
+   "afterHex": "#efbdff",
+   "approval": false,
+   "before": "#efbdff",
+   "beforeHex": "#efbdff",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.magenta.500",
+   "variable": "Colors/Magenta/500",
+   "variableId": "VariableID:17490:5441"
+  },
+  {
+   "after": "#dcfae6",
+   "afterHex": "#dcfae6",
+   "approval": false,
+   "before": "#dcfae6",
+   "beforeHex": "#dcfae6",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.success.100",
+   "variable": "Colors/Success/100",
+   "variableId": "VariableID:5248:377748"
+  },
+  {
+   "after": "#47cd89",
+   "afterHex": "#47cd89",
+   "approval": false,
+   "before": "#47cd89",
+   "beforeHex": "#47cd89",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.success.400",
+   "variable": "Colors/Success/400",
+   "variableId": "VariableID:5248:377751"
+  },
+  {
+   "after": "#ecfdf3",
+   "afterHex": "#ecfdf3",
+   "approval": false,
+   "before": "#ecfdf3",
+   "beforeHex": "#ecfdf3",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.success.50",
+   "variable": "Colors/Success/50",
+   "variableId": "VariableID:5248:377747"
+  },
+  {
+   "after": "#17b26a",
+   "afterHex": "#17b26a",
+   "approval": false,
+   "before": "#17b26a",
+   "beforeHex": "#17b26a",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.success.500",
+   "variable": "Colors/Success/500",
+   "variableId": "VariableID:5248:377752"
+  },
+  {
+   "after": "#079455",
+   "afterHex": "#079455",
+   "approval": false,
+   "before": "#079455",
+   "beforeHex": "#079455",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.success.600",
+   "variable": "Colors/Success/600",
+   "variableId": "VariableID:5248:377753"
+  },
+  {
+   "after": "#067647",
+   "afterHex": "#067647",
+   "approval": false,
+   "before": "#067647",
+   "beforeHex": "#067647",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.success.700",
+   "variable": "Colors/Success/700",
+   "variableId": "VariableID:5248:377754"
+  },
+  {
+   "after": "#053321",
+   "afterHex": "#053321",
+   "approval": false,
+   "before": "#053321",
+   "beforeHex": "#053321",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.success.950",
+   "variable": "Colors/Success/950",
+   "variableId": "VariableID:5248:377757"
+  },
+  {
+   "after": "#ffffff00",
+   "afterHex": "#ffffff00",
+   "approval": false,
+   "before": "#ffffff00",
+   "beforeHex": "#ffffff00",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.transparent",
+   "variable": "Colors/Base/transparent",
+   "variableId": "VariableID:5353:380363"
+  },
+  {
+   "after": "#fef0c7",
+   "afterHex": "#fef0c7",
+   "approval": false,
+   "before": "#fef0c7",
+   "beforeHex": "#fef0c7",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.warning.100",
+   "variable": "Colors/Warning/100",
+   "variableId": "VariableID:5248:377734"
+  },
+  {
+   "after": "#fdb022",
+   "afterHex": "#fdb022",
+   "approval": false,
+   "before": "#fdb022",
+   "beforeHex": "#fdb022",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.warning.400",
+   "variable": "Colors/Warning/400",
+   "variableId": "VariableID:5248:377737"
+  },
+  {
+   "after": "#fffaeb",
+   "afterHex": "#fffaeb",
+   "approval": false,
+   "before": "#fffaeb",
+   "beforeHex": "#fffaeb",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.warning.50",
+   "variable": "Colors/Warning/50",
+   "variableId": "VariableID:5248:377733"
+  },
+  {
+   "after": "#f79009",
+   "afterHex": "#f79009",
+   "approval": false,
+   "before": "#f79009",
+   "beforeHex": "#f79009",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.warning.500",
+   "variable": "Colors/Warning/500",
+   "variableId": "VariableID:5248:377738"
+  },
+  {
+   "after": "#dc6803",
+   "afterHex": "#dc6803",
+   "approval": false,
+   "before": "#dc6803",
+   "beforeHex": "#dc6803",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.warning.600",
+   "variable": "Colors/Warning/600",
+   "variableId": "VariableID:5248:377739"
+  },
+  {
+   "after": "#b54708",
+   "afterHex": "#b54708",
+   "approval": false,
+   "before": "#b54708",
+   "beforeHex": "#b54708",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.warning.700",
+   "variable": "Colors/Warning/700",
+   "variableId": "VariableID:5248:377740"
+  },
+  {
+   "after": "#93370d",
+   "afterHex": "#93370d",
+   "approval": false,
+   "before": "#93370d",
+   "beforeHex": "#93370d",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.warning.800",
+   "variable": "Colors/Warning/800",
+   "variableId": "VariableID:5248:377741"
+  },
+  {
+   "after": "#7a2e0e",
+   "afterHex": "#7a2e0e",
+   "approval": false,
+   "before": "#7a2e0e",
+   "beforeHex": "#7a2e0e",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.warning.900",
+   "variable": "Colors/Warning/900",
+   "variableId": "VariableID:5248:377742"
+  },
+  {
+   "after": "#ffffff",
+   "afterHex": "#ffffff",
+   "approval": false,
+   "before": "#ffffff",
+   "beforeHex": "#ffffff",
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "color.white",
+   "variable": "Colors/Base/white",
+   "variableId": "VariableID:5248:377686"
+  },
+  {
+   "after": 0,
+   "afterHex": null,
+   "approval": false,
+   "before": 0,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.0",
+   "variable": "Spacing/0 (0px)",
+   "variableId": "VariableID:5253:372198"
+  },
+  {
+   "after": 2,
+   "afterHex": null,
+   "approval": false,
+   "before": 2,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.0_5",
+   "variable": "Spacing/0․5 (2px)",
+   "variableId": "VariableID:5253:372200"
+  },
+  {
+   "after": 4,
+   "afterHex": null,
+   "approval": false,
+   "before": 4,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.1",
+   "variable": "Spacing/1 (4px)",
+   "variableId": "VariableID:5253:372201"
+  },
+  {
+   "after": 40,
+   "afterHex": null,
+   "approval": false,
+   "before": 40,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.10",
+   "variable": "Spacing/10 (40px)",
+   "variableId": "VariableID:5253:372208"
+  },
+  {
+   "after": 48,
+   "afterHex": null,
+   "approval": false,
+   "before": 48,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.12",
+   "variable": "Spacing/12 (48px)",
+   "variableId": "VariableID:5253:372209"
+  },
+  {
+   "after": 480,
+   "afterHex": null,
+   "approval": false,
+   "before": 480,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.120",
+   "variable": "Spacing/120 (480px)",
+   "variableId": "VariableID:5257:372476"
+  },
+  {
+   "after": 560,
+   "afterHex": null,
+   "approval": false,
+   "before": 560,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.140",
+   "variable": "Spacing/140 (560px)",
+   "variableId": "VariableID:6363:125204"
+  },
+  {
+   "after": 64,
+   "afterHex": null,
+   "approval": false,
+   "before": 64,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.16",
+   "variable": "Spacing/16 (64px)",
+   "variableId": "VariableID:5253:372210"
+  },
+  {
+   "after": 640,
+   "afterHex": null,
+   "approval": false,
+   "before": 640,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.160",
+   "variable": "Spacing/160 (640px)",
+   "variableId": "VariableID:5257:372477"
+  },
+  {
+   "after": 720,
+   "afterHex": null,
+   "approval": false,
+   "before": 720,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.180",
+   "variable": "Spacing/180 (720px)",
+   "variableId": "VariableID:6379:57497"
+  },
+  {
+   "after": 768,
+   "afterHex": null,
+   "approval": false,
+   "before": 768,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.192",
+   "variable": "Spacing/192 (768px)",
+   "variableId": "VariableID:5257:372478"
+  },
+  {
+   "after": 6,
+   "afterHex": null,
+   "approval": false,
+   "before": 6,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.1_5",
+   "variable": "Spacing/1․5 (6px)",
+   "variableId": "VariableID:5263:372520"
+  },
+  {
+   "after": 8,
+   "afterHex": null,
+   "approval": false,
+   "before": 8,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.2",
+   "variable": "Spacing/2 (8px)",
+   "variableId": "VariableID:5253:372202"
+  },
+  {
+   "after": 80,
+   "afterHex": null,
+   "approval": false,
+   "before": 80,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.20",
+   "variable": "Spacing/20 (80px)",
+   "variableId": "VariableID:5253:372211"
+  },
+  {
+   "after": 96,
+   "afterHex": null,
+   "approval": false,
+   "before": 96,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.24",
+   "variable": "Spacing/24 (96px)",
+   "variableId": "VariableID:5253:372212"
+  },
+  {
+   "after": 1024,
+   "afterHex": null,
+   "approval": false,
+   "before": 1024,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.256",
+   "variable": "Spacing/256 (1,024px)",
+   "variableId": "VariableID:5257:372479"
+  },
+  {
+   "after": 12,
+   "afterHex": null,
+   "approval": false,
+   "before": 12,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.3",
+   "variable": "Spacing/3 (12px)",
+   "variableId": "VariableID:5253:372203"
+  },
+  {
+   "after": 128,
+   "afterHex": null,
+   "approval": false,
+   "before": 128,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.32",
+   "variable": "Spacing/32 (128px)",
+   "variableId": "VariableID:5253:372213"
+  },
+  {
+   "after": 1280,
+   "afterHex": null,
+   "approval": false,
+   "before": 1280,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.320",
+   "variable": "Spacing/320 (1,280px)",
+   "variableId": "VariableID:5257:372480"
+  },
+  {
+   "after": 1440,
+   "afterHex": null,
+   "approval": false,
+   "before": 1440,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.360",
+   "variable": "Spacing/360 (1,440px)",
+   "variableId": "VariableID:5257:372481"
+  },
+  {
+   "after": 16,
+   "afterHex": null,
+   "approval": false,
+   "before": 16,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.4",
+   "variable": "Spacing/4 (16px)",
+   "variableId": "VariableID:5253:372204"
+  },
+  {
+   "after": 160,
+   "afterHex": null,
+   "approval": false,
+   "before": 160,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.40",
+   "variable": "Spacing/40 (160px)",
+   "variableId": "VariableID:5253:372214"
+  },
+  {
+   "after": 1600,
+   "afterHex": null,
+   "approval": false,
+   "before": 1600,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.400",
+   "variable": "Spacing/400 (1,600px)",
+   "variableId": "VariableID:5257:372482"
+  },
+  {
+   "after": 192,
+   "afterHex": null,
+   "approval": false,
+   "before": 192,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.48",
+   "variable": "Spacing/48 (192px)",
+   "variableId": "VariableID:5253:372215"
+  },
+  {
+   "after": 1920,
+   "afterHex": null,
+   "approval": false,
+   "before": 1920,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.480",
+   "variable": "Spacing/480 (1,920px)",
+   "variableId": "VariableID:5257:372483"
+  },
+  {
+   "after": 20,
+   "afterHex": null,
+   "approval": false,
+   "before": 20,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.5",
+   "variable": "Spacing/5 (20px)",
+   "variableId": "VariableID:5253:372205"
+  },
+  {
+   "after": 224,
+   "afterHex": null,
+   "approval": false,
+   "before": 224,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.56",
+   "variable": "Spacing/56 (224px)",
+   "variableId": "VariableID:5253:372216"
+  },
+  {
+   "after": 24,
+   "afterHex": null,
+   "approval": false,
+   "before": 24,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.6",
+   "variable": "Spacing/6 (24px)",
+   "variableId": "VariableID:5253:372206"
+  },
+  {
+   "after": 256,
+   "afterHex": null,
+   "approval": false,
+   "before": 256,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.64",
+   "variable": "Spacing/64 (256px)",
+   "variableId": "VariableID:5253:372217"
+  },
+  {
+   "after": 32,
+   "afterHex": null,
+   "approval": false,
+   "before": 32,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.8",
+   "variable": "Spacing/8 (32px)",
+   "variableId": "VariableID:5253:372207"
+  },
+  {
+   "after": 320,
+   "afterHex": null,
+   "approval": false,
+   "before": 320,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.80",
+   "variable": "Spacing/80 (320px)",
+   "variableId": "VariableID:5257:372475"
+  },
+  {
+   "after": 384,
+   "afterHex": null,
+   "approval": false,
+   "before": 384,
+   "beforeHex": null,
+   "collection": "_Primitives",
+   "deltaE": null,
+   "description": null,
+   "mode": null,
+   "op": "unchanged",
+   "token": "spacing.96",
+   "variable": "Spacing/96 (384px)",
+   "variableId": "VariableID:5253:372218"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-active",
+   "variableId": "VariableID:5353:380364"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-avatar-color1",
+   "variableId": "VariableID:17598:19007"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-avatar-color2",
+   "variableId": "VariableID:17598:19008"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-avatar-color3",
+   "variableId": "VariableID:17598:19009"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-avatar-color4",
+   "variableId": "VariableID:17598:19010"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-avatar-color5",
+   "variableId": "VariableID:17598:19011"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-avatar-color6",
+   "variableId": "VariableID:17598:19012"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-avatar-color7",
+   "variableId": "VariableID:17598:19013"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-avatar-color8",
+   "variableId": "VariableID:17598:19014"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-brand-primary_subtle",
+   "variableId": "VariableID:17490:23031"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-brand-secondary",
+   "variableId": "VariableID:5363:390066"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-brand-secondary_hover",
+   "variableId": "VariableID:17490:23029"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-brand-secondary_subtle",
+   "variableId": "VariableID:17490:23032"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-brand-tertiary",
+   "variableId": "VariableID:21485:6459"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-brand-tertiary_hover",
+   "variableId": "VariableID:21485:6460"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-canvas",
+   "variableId": "VariableID:17498:16357"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-disabled",
+   "variableId": "VariableID:5353:380346"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-disabled_subtle",
+   "variableId": "VariableID:5373:441756"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-error-primary",
+   "variableId": "VariableID:5353:386814"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-error-secondary",
+   "variableId": "VariableID:5270:371424"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-error-solid",
+   "variableId": "VariableID:5270:371460"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-error-solid_hover",
+   "variableId": "VariableID:9860:25270"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-overlay",
+   "variableId": "VariableID:5965:435454"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-primary",
+   "variableId": "VariableID:5269:371407"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-primary-solid",
+   "variableId": "VariableID:6188:245678"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-primary_alt",
+   "variableId": "VariableID:5503:400270"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-primary_hover",
+   "variableId": "VariableID:5353:380344"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-quaternary",
+   "variableId": "VariableID:5376:386706"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-secondary",
+   "variableId": "VariableID:5367:383138"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-secondary-solid",
+   "variableId": "VariableID:5270:371458"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-secondary_alt",
+   "variableId": "VariableID:5574:403136"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-secondary_hover",
+   "variableId": "VariableID:5342:374622"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-secondary_subtle",
+   "variableId": "VariableID:6059:440423"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-success-primary",
+   "variableId": "VariableID:5270:371427"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-success-secondary",
+   "variableId": "VariableID:5270:371428"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-success-solid",
+   "variableId": "VariableID:5270:371464"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-tertiary",
+   "variableId": "VariableID:5269:371408"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-warning-primary",
+   "variableId": "VariableID:5270:371425"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-warning-secondary",
+   "variableId": "VariableID:5270:371426"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Background/bg-warning-solid",
+   "variableId": "VariableID:5270:371462"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Border/border-brand",
+   "variableId": "VariableID:5353:381354"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Border/border-brand subtle",
+   "variableId": "VariableID:17596:18682"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Border/border-brand_alt",
+   "variableId": "VariableID:7397:524104"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Border/border-disabled",
+   "variableId": "VariableID:5353:382144"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Border/border-disabled_subtle",
+   "variableId": "VariableID:5419:395627"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Border/border-error_subtle",
+   "variableId": "VariableID:5263:373126"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Border/border-secondary",
+   "variableId": "VariableID:5263:373123"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Border/border-secondary_alt",
+   "variableId": "VariableID:8714:124491"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Border/border-success",
+   "variableId": "VariableID:21259:769"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Border/border-tertiary",
+   "variableId": "VariableID:6132:176485"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Effects/Focus rings/focus-ring-alt",
+   "variableId": "VariableID:17496:23386"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Effects/Focus rings/focus-ring-error",
+   "variableId": "VariableID:7371:212919"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Effects/Focus rings/focus-ring-neutral",
+   "variableId": "VariableID:21372:1655"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Effects/Shadows/shadow-2xl_01",
+   "variableId": "VariableID:7276:18833"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Effects/Shadows/shadow-2xl_02",
+   "variableId": "VariableID:7981:234617"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Effects/Shadows/shadow-3xl_01",
+   "variableId": "VariableID:7276:18832"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Effects/Shadows/shadow-3xl_02",
+   "variableId": "VariableID:7981:234618"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Effects/Shadows/shadow-lg_01",
+   "variableId": "VariableID:7276:18828"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Effects/Shadows/shadow-lg_02",
+   "variableId": "VariableID:7276:18830"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Effects/Shadows/shadow-lg_03",
+   "variableId": "VariableID:7981:234615"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Effects/Shadows/shadow-md_01",
+   "variableId": "VariableID:7371:212903"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Effects/Shadows/shadow-md_02",
+   "variableId": "VariableID:7371:212904"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Effects/Shadows/shadow-skeumorphic-inner",
+   "variableId": "VariableID:7393:383290"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Effects/Shadows/shadow-skeumorphic-inner-border",
+   "variableId": "VariableID:7396:291712"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Effects/Shadows/shadow-sm_01",
+   "variableId": "VariableID:7276:18831"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Effects/Shadows/shadow-sm_02",
+   "variableId": "VariableID:7276:18827"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Effects/Shadows/shadow-xl_01",
+   "variableId": "VariableID:7371:212905"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Effects/Shadows/shadow-xl_02",
+   "variableId": "VariableID:7371:212906"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Effects/Shadows/shadow-xl_03",
+   "variableId": "VariableID:7981:234616"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Effects/Shadows/shadow-xs",
+   "variableId": "VariableID:7271:17030"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Foreground/fg-black",
+   "variableId": "VariableID:17488:21151"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Foreground/fg-brand-primary (600)",
+   "variableId": "VariableID:5366:382188"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Foreground/fg-brand-primary_alt",
+   "variableId": "VariableID:5574:402478"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Foreground/fg-brand-secondary (500)",
+   "variableId": "VariableID:5360:390058"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Foreground/fg-brand-secondary_alt",
+   "variableId": "VariableID:8753:343716"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Foreground/fg-brand-secondary_hover",
+   "variableId": "VariableID:8823:598175"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Foreground/fg-disabled",
+   "variableId": "VariableID:5353:380350"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Foreground/fg-disabled_subtle",
+   "variableId": "VariableID:5394:386250"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Foreground/fg-error-primary",
+   "variableId": "VariableID:5367:383135"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Foreground/fg-primary (900)",
+   "variableId": "VariableID:5353:380348"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Foreground/fg-quaternary (400)",
+   "variableId": "VariableID:5366:382191"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Foreground/fg-quaternary_hover",
+   "variableId": "VariableID:5366:382193"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Foreground/fg-secondary (700)",
+   "variableId": "VariableID:5269:371411"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Foreground/fg-secondary_hover",
+   "variableId": "VariableID:5343:378282"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Foreground/fg-success-primary",
+   "variableId": "VariableID:5270:371434"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Foreground/fg-tertiary (600)",
+   "variableId": "VariableID:5503:400808"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Foreground/fg-tertiary_hover",
+   "variableId": "VariableID:5503:400809"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Foreground/fg-warning-primary",
+   "variableId": "VariableID:5270:371432"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Foreground/fg-white",
+   "variableId": "VariableID:5270:371448"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Text/text-black",
+   "variableId": "VariableID:21169:11975"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Text/text-brand-secondary (700)",
+   "variableId": "VariableID:5373:442648"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Text/text-brand-secondary_hover",
+   "variableId": "VariableID:14761:1747"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Text/text-brand-tertiary (600)",
+   "variableId": "VariableID:5419:395655"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Text/text-brand-tertiary_alt",
+   "variableId": "VariableID:6188:191015"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Text/text-disabled",
+   "variableId": "VariableID:5353:380352"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Text/text-error-primary_hover",
+   "variableId": "VariableID:8753:389622"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Text/text-placeholder",
+   "variableId": "VariableID:5419:395653"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Text/text-placeholder_subtle",
+   "variableId": "VariableID:5419:395654"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Text/text-primary (900)",
+   "variableId": "VariableID:5263:372565"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Text/text-primary_on-brandsecondary",
+   "variableId": "VariableID:17488:32591"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Text/text-primary_on-brandtertiary",
+   "variableId": "VariableID:17488:32592"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Text/text-quaternary (500)",
+   "variableId": "VariableID:5674:411615"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Text/text-quaternary_on-brand",
+   "variableId": "VariableID:6179:410199"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Text/text-secondary (700)",
+   "variableId": "VariableID:5340:371764"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Text/text-secondary_hover",
+   "variableId": "VariableID:5353:380353"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Text/text-secondary_on-brand",
+   "variableId": "VariableID:6139:331957"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Text/text-tertiary (600)",
+   "variableId": "VariableID:5263:372566"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Text/text-tertiary_hover",
+   "variableId": "VariableID:5353:380355"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Text/text-tertiary_on-brand",
+   "variableId": "VariableID:6139:331990"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Text/text-white",
+   "variableId": "VariableID:5270:371453"
+  },
+  {
+   "collection": "2. Radius",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "radius-lg",
+   "variableId": "VariableID:6300:24234"
+  },
+  {
+   "collection": "3. Spacing",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "spacing-10xl",
+   "variableId": "VariableID:6298:45398"
+  },
+  {
+   "collection": "3. Spacing",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "spacing-11xl",
+   "variableId": "VariableID:6298:45399"
+  },
+  {
+   "collection": "3. Spacing",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "spacing-2xl",
+   "variableId": "VariableID:6298:45391"
+  },
+  {
+   "collection": "3. Spacing",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "spacing-3xl",
+   "variableId": "VariableID:6298:45392"
+  },
+  {
+   "collection": "3. Spacing",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "spacing-4xl",
+   "variableId": "VariableID:6298:45393"
+  },
+  {
+   "collection": "3. Spacing",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "spacing-5xl",
+   "variableId": "VariableID:6433:93631"
+  },
+  {
+   "collection": "3. Spacing",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "spacing-6xl",
+   "variableId": "VariableID:6298:45394"
+  },
+  {
+   "collection": "3. Spacing",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "spacing-7xl",
+   "variableId": "VariableID:6298:45395"
+  },
+  {
+   "collection": "3. Spacing",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "spacing-8xl",
+   "variableId": "VariableID:6298:45396"
+  },
+  {
+   "collection": "3. Spacing",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "spacing-9xl",
+   "variableId": "VariableID:6298:45397"
+  },
+  {
+   "collection": "3. Spacing",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "spacing-lg",
+   "variableId": "VariableID:6298:45389"
+  },
+  {
+   "collection": "3. Spacing",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "spacing-md",
+   "variableId": "VariableID:6298:45387"
+  },
+  {
+   "collection": "3. Spacing",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "spacing-none",
+   "variableId": "VariableID:6298:45384"
+  },
+  {
+   "collection": "3. Spacing",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "spacing-sm",
+   "variableId": "VariableID:6425:327765"
+  },
+  {
+   "collection": "3. Spacing",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "spacing-xl",
+   "variableId": "VariableID:6298:45390"
+  },
+  {
+   "collection": "3. Spacing",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "spacing-xs",
+   "variableId": "VariableID:6298:45386"
+  },
+  {
+   "collection": "3. Spacing",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "spacing-xxs",
+   "variableId": "VariableID:6298:45385"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Font family/font-family-secondary",
+   "variableId": "VariableID:7403:16250"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Font size/display-2xl",
+   "variableId": "VariableID:7407:110373"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Font size/display-lg",
+   "variableId": "VariableID:7407:110371"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Font size/display-md",
+   "variableId": "VariableID:7407:110370"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Font size/display-sm",
+   "variableId": "VariableID:7407:110369"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Font size/display-xl",
+   "variableId": "VariableID:7407:110372"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Font size/display-xs",
+   "variableId": "VariableID:21490:3737"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Font size/display-xxs",
+   "variableId": "VariableID:7407:110368"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Font size/text-lg",
+   "variableId": "VariableID:7407:110366"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Font size/text-xl",
+   "variableId": "VariableID:7407:110367"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Font size/text-xxs",
+   "variableId": "VariableID:17488:8405"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Font size/text-xxxs",
+   "variableId": "VariableID:17571:2808"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Font weight/bold",
+   "variableId": "VariableID:7405:102290"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Font weight/bold-italic",
+   "variableId": "VariableID:7405:102291"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Font weight/medium-italic",
+   "variableId": "VariableID:7405:102286"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Font weight/regular-italic",
+   "variableId": "VariableID:7405:102284"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Font weight/semibold-italic",
+   "variableId": "VariableID:7405:102288"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Line height/display-2xl",
+   "variableId": "VariableID:7407:110590"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Line height/display-lg",
+   "variableId": "VariableID:7407:110588"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Line height/display-md",
+   "variableId": "VariableID:7407:110587"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Line height/display-sm",
+   "variableId": "VariableID:7407:110586"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Line height/display-xl",
+   "variableId": "VariableID:7407:110589"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Line height/display-xs",
+   "variableId": "VariableID:7407:110585"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Line height/text-lg",
+   "variableId": "VariableID:7407:110583"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Line height/text-xl",
+   "variableId": "VariableID:7407:110584"
+  },
+  {
+   "collection": "6. Typography",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Line height/text-xxs",
+   "variableId": "VariableID:17488:8409"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue dark/100",
+   "variableId": "VariableID:5248:377927"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue dark/200",
+   "variableId": "VariableID:5248:377928"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue dark/25",
+   "variableId": "VariableID:5248:377924"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue dark/300",
+   "variableId": "VariableID:5248:377929"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue dark/400",
+   "variableId": "VariableID:5248:377930"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue dark/50",
+   "variableId": "VariableID:5248:377926"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue dark/500",
+   "variableId": "VariableID:5248:377931"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue dark/600",
+   "variableId": "VariableID:5248:377932"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue dark/700",
+   "variableId": "VariableID:5248:377933"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue dark/800",
+   "variableId": "VariableID:5248:377934"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue dark/900",
+   "variableId": "VariableID:5248:377935"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue dark/950",
+   "variableId": "VariableID:5253:372192"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue light/100",
+   "variableId": "VariableID:5248:377901"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue light/200",
+   "variableId": "VariableID:5248:377902"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue light/25",
+   "variableId": "VariableID:5248:377899"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue light/300",
+   "variableId": "VariableID:5248:377903"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue light/400",
+   "variableId": "VariableID:5248:377904"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue light/50",
+   "variableId": "VariableID:5248:377900"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue light/500",
+   "variableId": "VariableID:5248:377905"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue light/600",
+   "variableId": "VariableID:5248:377906"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue light/700",
+   "variableId": "VariableID:5248:377907"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue light/800",
+   "variableId": "VariableID:5248:377908"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue light/900",
+   "variableId": "VariableID:5248:377909"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue light/950",
+   "variableId": "VariableID:5248:377910"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue/100",
+   "variableId": "VariableID:5248:377913"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue/200",
+   "variableId": "VariableID:5248:377914"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue/25",
+   "variableId": "VariableID:5248:377911"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue/300",
+   "variableId": "VariableID:5248:377915"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue/400",
+   "variableId": "VariableID:5248:377916"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue/50",
+   "variableId": "VariableID:5248:377912"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue/500",
+   "variableId": "VariableID:5248:377917"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue/600",
+   "variableId": "VariableID:5248:377918"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue/700",
+   "variableId": "VariableID:5248:377919"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue/800",
+   "variableId": "VariableID:5248:377920"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue/900",
+   "variableId": "VariableID:5248:377921"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Blue/950",
+   "variableId": "VariableID:5248:377922"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Brand/25",
+   "variableId": "VariableID:17498:15837"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Brand/900",
+   "variableId": "VariableID:5248:377718"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Brand/950",
+   "variableId": "VariableID:5248:377719"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Cyan/100",
+   "variableId": "VariableID:5248:377889"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Cyan/200",
+   "variableId": "VariableID:5248:377890"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Cyan/25",
+   "variableId": "VariableID:5248:378696"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Cyan/300",
+   "variableId": "VariableID:5248:377891"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Cyan/400",
+   "variableId": "VariableID:5248:377892"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Cyan/50",
+   "variableId": "VariableID:5248:377888"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Cyan/500",
+   "variableId": "VariableID:5248:377893"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Cyan/600",
+   "variableId": "VariableID:5248:377894"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Cyan/700",
+   "variableId": "VariableID:5248:377895"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Cyan/800",
+   "variableId": "VariableID:5248:377896"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Cyan/900",
+   "variableId": "VariableID:5248:377897"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Cyan/950",
+   "variableId": "VariableID:5248:377898"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Error/25",
+   "variableId": "VariableID:5248:377720"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Error/700",
+   "variableId": "VariableID:5248:377728"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Error/800",
+   "variableId": "VariableID:5248:377729"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Error/900",
+   "variableId": "VariableID:5248:377730"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Error/950",
+   "variableId": "VariableID:5248:377731"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray (dark mode alpha)/100",
+   "variableId": "VariableID:6633:127771"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray (dark mode alpha)/200",
+   "variableId": "VariableID:6633:131290"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray (dark mode alpha)/25",
+   "variableId": "VariableID:6633:117833"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray (dark mode alpha)/300",
+   "variableId": "VariableID:6633:132623"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray (dark mode alpha)/400",
+   "variableId": "VariableID:6633:133915"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray (dark mode alpha)/50",
+   "variableId": "VariableID:6633:120616"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray (dark mode alpha)/500",
+   "variableId": "VariableID:6633:135318"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray (dark mode alpha)/600",
+   "variableId": "VariableID:6633:137853"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray (dark mode alpha)/700",
+   "variableId": "VariableID:6633:139373"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray (dark mode alpha)/800",
+   "variableId": "VariableID:6633:142566"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray (dark mode alpha)/900",
+   "variableId": "VariableID:6633:144412"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray (dark mode alpha)/950",
+   "variableId": "VariableID:6633:145422"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray (dark mode)/100",
+   "variableId": "VariableID:6671:87755"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray (dark mode)/25",
+   "variableId": "VariableID:6670:87753"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray (dark mode)/950",
+   "variableId": "VariableID:6671:87764"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray (light mode)/900",
+   "variableId": "VariableID:5248:377706"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray iron/100",
+   "variableId": "VariableID:5248:377808"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray iron/200",
+   "variableId": "VariableID:5248:377809"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray iron/25",
+   "variableId": "VariableID:5248:377803"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray iron/300",
+   "variableId": "VariableID:5248:377810"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray iron/400",
+   "variableId": "VariableID:5248:377811"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray iron/50",
+   "variableId": "VariableID:5248:377806"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray iron/500",
+   "variableId": "VariableID:5248:377812"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray iron/600",
+   "variableId": "VariableID:5248:377813"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray iron/700",
+   "variableId": "VariableID:5248:377814"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray iron/800",
+   "variableId": "VariableID:5248:377815"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray iron/900",
+   "variableId": "VariableID:5248:377816"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray modern/100",
+   "variableId": "VariableID:5248:377781"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray modern/200",
+   "variableId": "VariableID:5248:377782"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray modern/400",
+   "variableId": "VariableID:5248:377784"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray modern/50",
+   "variableId": "VariableID:5248:377780"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray modern/500",
+   "variableId": "VariableID:5248:377785"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray modern/600",
+   "variableId": "VariableID:5248:377786"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray modern/700",
+   "variableId": "VariableID:5248:377787"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray modern/900",
+   "variableId": "VariableID:5248:377789"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Gray modern/950",
+   "variableId": "VariableID:5248:378675"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green light/100",
+   "variableId": "VariableID:5248:377854"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green light/200",
+   "variableId": "VariableID:5248:377855"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green light/25",
+   "variableId": "VariableID:5248:377852"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green light/300",
+   "variableId": "VariableID:5248:377856"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green light/400",
+   "variableId": "VariableID:5248:377857"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green light/50",
+   "variableId": "VariableID:5248:377853"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green light/500",
+   "variableId": "VariableID:5248:377858"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green light/600",
+   "variableId": "VariableID:5248:377859"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green light/700",
+   "variableId": "VariableID:5248:377860"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green light/800",
+   "variableId": "VariableID:5248:377861"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green light/900",
+   "variableId": "VariableID:5248:377862"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green light/950",
+   "variableId": "VariableID:5248:378692"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green lime/100",
+   "variableId": "VariableID:17489:6177"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green lime/300",
+   "variableId": "VariableID:17489:6179"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green lime/50",
+   "variableId": "VariableID:17489:6176"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green lime/600",
+   "variableId": "VariableID:17489:6182"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green lime/700",
+   "variableId": "VariableID:17489:6183"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green lime/800",
+   "variableId": "VariableID:17489:6184"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green lime/900",
+   "variableId": "VariableID:17489:6185"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green lime/950",
+   "variableId": "VariableID:17489:6186"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green/100",
+   "variableId": "VariableID:5248:377865"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green/200",
+   "variableId": "VariableID:5248:377866"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green/25",
+   "variableId": "VariableID:5248:377746"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green/300",
+   "variableId": "VariableID:5248:377867"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green/400",
+   "variableId": "VariableID:5248:377868"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green/50",
+   "variableId": "VariableID:5248:377864"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green/500",
+   "variableId": "VariableID:5248:377869"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green/600",
+   "variableId": "VariableID:5248:377870"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green/700",
+   "variableId": "VariableID:5248:377871"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green/800",
+   "variableId": "VariableID:5248:377872"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green/900",
+   "variableId": "VariableID:5248:377873"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Green/950",
+   "variableId": "VariableID:5248:378693"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Magenta/100",
+   "variableId": "VariableID:17490:5437"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Magenta/200",
+   "variableId": "VariableID:17490:5438"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Magenta/300",
+   "variableId": "VariableID:17490:5439"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Magenta/50",
+   "variableId": "VariableID:17490:5436"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Magenta/600",
+   "variableId": "VariableID:17490:5442"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Magenta/700",
+   "variableId": "VariableID:17490:5443"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Magenta/800",
+   "variableId": "VariableID:17490:5444"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Magenta/900",
+   "variableId": "VariableID:17490:5445"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Magenta/950",
+   "variableId": "VariableID:17490:5446"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Orange dark/100",
+   "variableId": "VariableID:5248:378010"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Orange dark/200",
+   "variableId": "VariableID:5248:378011"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Orange dark/25",
+   "variableId": "VariableID:5248:378008"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Orange dark/300",
+   "variableId": "VariableID:5248:378012"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Orange dark/400",
+   "variableId": "VariableID:5248:378013"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Orange dark/50",
+   "variableId": "VariableID:5248:378009"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Orange dark/500",
+   "variableId": "VariableID:5248:378014"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Orange dark/600",
+   "variableId": "VariableID:5248:378015"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Orange dark/700",
+   "variableId": "VariableID:5248:378016"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Orange dark/800",
+   "variableId": "VariableID:5248:378017"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Orange dark/900",
+   "variableId": "VariableID:5248:378018"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Orange dark/950",
+   "variableId": "VariableID:5248:378019"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Orange/100",
+   "variableId": "VariableID:5248:378022"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Orange/200",
+   "variableId": "VariableID:5248:378023"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Orange/25",
+   "variableId": "VariableID:5248:378020"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Orange/300",
+   "variableId": "VariableID:5248:378024"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Orange/400",
+   "variableId": "VariableID:5248:378025"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Orange/50",
+   "variableId": "VariableID:5248:378021"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Orange/500",
+   "variableId": "VariableID:5248:378026"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Orange/600",
+   "variableId": "VariableID:5248:378027"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Orange/700",
+   "variableId": "VariableID:5248:378028"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Orange/800",
+   "variableId": "VariableID:5248:378029"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Orange/900",
+   "variableId": "VariableID:5248:378030"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Orange/950",
+   "variableId": "VariableID:5248:378031"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Pink/100",
+   "variableId": "VariableID:5248:377986"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Pink/200",
+   "variableId": "VariableID:5248:377987"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Pink/25",
+   "variableId": "VariableID:5248:377984"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Pink/300",
+   "variableId": "VariableID:5248:377988"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Pink/400",
+   "variableId": "VariableID:5248:377989"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Pink/50",
+   "variableId": "VariableID:5248:377985"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Pink/500",
+   "variableId": "VariableID:5248:377990"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Pink/600",
+   "variableId": "VariableID:5248:377991"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Pink/700",
+   "variableId": "VariableID:5248:377992"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Pink/800",
+   "variableId": "VariableID:5248:377993"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Pink/900",
+   "variableId": "VariableID:5248:377994"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Pink/950",
+   "variableId": "VariableID:5248:377995"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Purple/100",
+   "variableId": "VariableID:5248:377962"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Purple/200",
+   "variableId": "VariableID:5248:377963"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Purple/25",
+   "variableId": "VariableID:5248:377960"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Purple/300",
+   "variableId": "VariableID:5248:377964"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Purple/400",
+   "variableId": "VariableID:5248:377965"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Purple/50",
+   "variableId": "VariableID:5248:377961"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Purple/500",
+   "variableId": "VariableID:5248:377966"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Purple/600",
+   "variableId": "VariableID:5248:377967"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Purple/700",
+   "variableId": "VariableID:5248:377968"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Purple/800",
+   "variableId": "VariableID:5248:377969"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Purple/900",
+   "variableId": "VariableID:5248:377970"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Purple/950",
+   "variableId": "VariableID:5248:377971"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Rosé/100",
+   "variableId": "VariableID:5248:377998"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Rosé/200",
+   "variableId": "VariableID:5248:377999"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Rosé/25",
+   "variableId": "VariableID:5248:377996"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Rosé/300",
+   "variableId": "VariableID:5248:378000"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Rosé/400",
+   "variableId": "VariableID:5248:378001"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Rosé/50",
+   "variableId": "VariableID:5248:377997"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Rosé/500",
+   "variableId": "VariableID:5248:378002"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Rosé/600",
+   "variableId": "VariableID:5248:378003"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Rosé/700",
+   "variableId": "VariableID:5248:378004"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Rosé/800",
+   "variableId": "VariableID:5248:378005"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Rosé/900",
+   "variableId": "VariableID:5248:378006"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Rosé/950",
+   "variableId": "VariableID:5248:378007"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Success/200",
+   "variableId": "VariableID:5248:377749"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Success/25",
+   "variableId": "VariableID:5248:377745"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Success/300",
+   "variableId": "VariableID:5248:377750"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Success/800",
+   "variableId": "VariableID:5248:377755"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Success/900",
+   "variableId": "VariableID:5248:377756"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Warning/200",
+   "variableId": "VariableID:5248:377735"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Warning/25",
+   "variableId": "VariableID:5248:377732"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Warning/300",
+   "variableId": "VariableID:5248:377736"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Warning/950",
+   "variableId": "VariableID:5248:377743"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Yellow/100",
+   "variableId": "VariableID:5248:378034"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Yellow/200",
+   "variableId": "VariableID:5253:372196"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Yellow/25",
+   "variableId": "VariableID:5248:378032"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Yellow/300",
+   "variableId": "VariableID:5253:372197"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Yellow/400",
+   "variableId": "VariableID:5248:378037"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Yellow/50",
+   "variableId": "VariableID:5248:378033"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Yellow/500",
+   "variableId": "VariableID:5248:378038"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Yellow/600",
+   "variableId": "VariableID:5248:378039"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Yellow/700",
+   "variableId": "VariableID:5248:378040"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Yellow/800",
+   "variableId": "VariableID:5248:378041"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Yellow/900",
+   "variableId": "VariableID:5248:378042"
+  },
+  {
+   "collection": "_Primitives",
+   "op": "figma-only",
+   "reason": "no registry token; kept, not written",
+   "variable": "Colors/Yellow/950",
+   "variableId": "VariableID:5253:372195"
+  },
+  {
+   "mode": null,
+   "op": "skip-out-of-scope",
+   "reason": "maps to text styles, not variables (§1)",
+   "token": "font.letter-spacing.normal"
+  },
+  {
+   "mode": null,
+   "op": "skip-out-of-scope",
+   "reason": "maps to text styles, not variables (§1)",
+   "token": "typography.text.base.medium"
+  },
+  {
+   "mode": null,
+   "op": "skip-out-of-scope",
+   "reason": "maps to text styles, not variables (§1)",
+   "token": "typography.text.base.normal"
+  },
+  {
+   "mode": null,
+   "op": "skip-out-of-scope",
+   "reason": "maps to text styles, not variables (§1)",
+   "token": "typography.text.base.semibold"
+  },
+  {
+   "mode": null,
+   "op": "skip-out-of-scope",
+   "reason": "maps to text styles, not variables (§1)",
+   "token": "typography.text.sm.medium"
+  },
+  {
+   "mode": null,
+   "op": "skip-out-of-scope",
+   "reason": "maps to text styles, not variables (§1)",
+   "token": "typography.text.sm.normal"
+  },
+  {
+   "mode": null,
+   "op": "skip-out-of-scope",
+   "reason": "maps to text styles, not variables (§1)",
+   "token": "typography.text.xs.medium"
+  },
+  {
+   "mode": null,
+   "op": "skip-out-of-scope",
+   "reason": "maps to text styles, not variables (§1)",
+   "token": "typography.text.xs.normal"
+  },
+  {
+   "mode": null,
+   "op": "skip-out-of-scope",
+   "reason": "maps to text styles, not variables (§1)",
+   "token": "typography.text.xs.semibold"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Alpha/alpha-black-10",
+   "variableId": "VariableID:5574:413592"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Alpha/alpha-black-100",
+   "variableId": "VariableID:6080:479732"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Alpha/alpha-black-20",
+   "variableId": "VariableID:5574:413593"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Alpha/alpha-black-30",
+   "variableId": "VariableID:5574:413594"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Alpha/alpha-black-40",
+   "variableId": "VariableID:5574:413595"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Alpha/alpha-black-50",
+   "variableId": "VariableID:5574:413596"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Alpha/alpha-black-60",
+   "variableId": "VariableID:5574:413597"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Alpha/alpha-black-70",
+   "variableId": "VariableID:5574:413598"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Alpha/alpha-black-80",
+   "variableId": "VariableID:5574:413599"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Alpha/alpha-black-90",
+   "variableId": "VariableID:5574:413600"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Alpha/alpha-white-10",
+   "variableId": "VariableID:5574:413591"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Alpha/alpha-white-100",
+   "variableId": "VariableID:6080:479733"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Alpha/alpha-white-20",
+   "variableId": "VariableID:5574:413590"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Alpha/alpha-white-30",
+   "variableId": "VariableID:5574:413589"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Alpha/alpha-white-40",
+   "variableId": "VariableID:5574:413588"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Alpha/alpha-white-50",
+   "variableId": "VariableID:5574:413587"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Alpha/alpha-white-60",
+   "variableId": "VariableID:5574:413586"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Alpha/alpha-white-70",
+   "variableId": "VariableID:5574:413585"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Alpha/alpha-white-80",
+   "variableId": "VariableID:5574:413584"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Alpha/alpha-white-90",
+   "variableId": "VariableID:5574:413581"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Components/App store badges/app-store-badge-border",
+   "variableId": "VariableID:6179:409999"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Components/Avatars/avatar-styles-bg-neutral",
+   "variableId": "VariableID:7318:479624"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Components/Buttons/button-destructive-primary-icon",
+   "variableId": "VariableID:8818:582703"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Components/Buttons/button-destructive-primary-icon_hover",
+   "variableId": "VariableID:8818:582704"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Components/Buttons/button-primary-icon",
+   "variableId": "VariableID:8818:78315"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Components/Buttons/button-primary-icon_hover",
+   "variableId": "VariableID:8818:112060"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Components/Footers/footer-button-fg",
+   "variableId": "VariableID:6179:408305"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Components/Footers/footer-button-fg_hover",
+   "variableId": "VariableID:6179:408311"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-brand",
+   "variableId": "VariableID:5807:420926"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-error",
+   "variableId": "VariableID:5807:420928"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-gray",
+   "variableId": "VariableID:5807:420927"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-success",
+   "variableId": "VariableID:5807:420930"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-warning",
+   "variableId": "VariableID:5807:420929"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Components/Icons/Icons/icon-fg-brand",
+   "variableId": "VariableID:6169:481087"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Components/Icons/Icons/icon-fg-brand_on-brand",
+   "variableId": "VariableID:6169:489279"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Components/Mockups/screen-mockup-border",
+   "variableId": "VariableID:6132:238837"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Components/Sliders/slider-handle-bg",
+   "variableId": "VariableID:6051:432901"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Components/Sliders/slider-handle-border",
+   "variableId": "VariableID:6051:432900"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Components/Text editor/text-editor-icon-fg",
+   "variableId": "VariableID:5422:397822"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Components/Text editor/text-editor-icon-fg_active",
+   "variableId": "VariableID:5422:397823"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Components/Toggles/toggle-border",
+   "variableId": "VariableID:7923:539396"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Components/Toggles/toggle-button-fg_disabled",
+   "variableId": "VariableID:6305:239517"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Components/Toggles/toggle-slim-border_pressed-hover",
+   "variableId": "VariableID:7923:539867"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Components/Tooltips/tooltip-supporting-text",
+   "variableId": "VariableID:5376:386375"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Blue dark/utility-blue-dark-100",
+   "variableId": "VariableID:5409:398271"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Blue dark/utility-blue-dark-200",
+   "variableId": "VariableID:5400:398241"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Blue dark/utility-blue-dark-300",
+   "variableId": "VariableID:6487:354319"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Blue dark/utility-blue-dark-400",
+   "variableId": "VariableID:5409:398435"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Blue dark/utility-blue-dark-50",
+   "variableId": "VariableID:5400:398256"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Blue dark/utility-blue-dark-500",
+   "variableId": "VariableID:5400:398219"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Blue dark/utility-blue-dark-600",
+   "variableId": "VariableID:5399:389138"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Blue dark/utility-blue-dark-700",
+   "variableId": "VariableID:5400:398190"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Blue light/utility-blue-light-100",
+   "variableId": "VariableID:5409:398269"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Blue light/utility-blue-light-200",
+   "variableId": "VariableID:5400:398239"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Blue light/utility-blue-light-300",
+   "variableId": "VariableID:6487:354317"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Blue light/utility-blue-light-400",
+   "variableId": "VariableID:5409:398433"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Blue light/utility-blue-light-50",
+   "variableId": "VariableID:5400:398254"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Blue light/utility-blue-light-500",
+   "variableId": "VariableID:5400:398215"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Blue light/utility-blue-light-600",
+   "variableId": "VariableID:5400:398182"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Blue light/utility-blue-light-700",
+   "variableId": "VariableID:5400:398198"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Blue/utility-blue-100",
+   "variableId": "VariableID:5409:398270"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Blue/utility-blue-200",
+   "variableId": "VariableID:5400:398240"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Blue/utility-blue-300",
+   "variableId": "VariableID:6487:354318"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Blue/utility-blue-400",
+   "variableId": "VariableID:5409:398434"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Blue/utility-blue-50",
+   "variableId": "VariableID:5400:398255"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Blue/utility-blue-500",
+   "variableId": "VariableID:5400:398217"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Blue/utility-blue-600",
+   "variableId": "VariableID:5374:385385"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Blue/utility-blue-700",
+   "variableId": "VariableID:5400:398197"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Brand/utility-brand-100",
+   "variableId": "VariableID:5409:398264"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Brand/utility-brand-100_alt",
+   "variableId": "VariableID:6049:416909"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Brand/utility-brand-200",
+   "variableId": "VariableID:5400:398234"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Brand/utility-brand-200_alt",
+   "variableId": "VariableID:6049:416910"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Brand/utility-brand-25",
+   "variableId": "VariableID:17498:15836"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Brand/utility-brand-300",
+   "variableId": "VariableID:6053:436906"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Brand/utility-brand-300_alt",
+   "variableId": "VariableID:6487:349940"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Brand/utility-brand-400",
+   "variableId": "VariableID:5409:398426"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Brand/utility-brand-400_alt",
+   "variableId": "VariableID:6049:416911"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Brand/utility-brand-50",
+   "variableId": "VariableID:5400:398249"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Brand/utility-brand-500",
+   "variableId": "VariableID:5400:398205"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Brand/utility-brand-500_alt",
+   "variableId": "VariableID:6049:416912"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Brand/utility-brand-50_alt",
+   "variableId": "VariableID:6049:416908"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Brand/utility-brand-600",
+   "variableId": "VariableID:5399:389132"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Brand/utility-brand-600_alt",
+   "variableId": "VariableID:6049:416913"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Brand/utility-brand-700",
+   "variableId": "VariableID:5400:398186"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Brand/utility-brand-700_alt",
+   "variableId": "VariableID:6049:416914"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Brand/utility-brand-800",
+   "variableId": "VariableID:6124:61597"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Brand/utility-brand-800_alt",
+   "variableId": "VariableID:6487:349941"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Brand/utility-brand-900",
+   "variableId": "VariableID:6123:195662"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Brand/utility-brand-900_alt",
+   "variableId": "VariableID:6487:349942"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Error/utility-error-100",
+   "variableId": "VariableID:5409:398265"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Error/utility-error-200",
+   "variableId": "VariableID:5400:398235"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Error/utility-error-300",
+   "variableId": "VariableID:6487:354313"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Error/utility-error-400",
+   "variableId": "VariableID:5409:398427"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Error/utility-error-50",
+   "variableId": "VariableID:5400:398250"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Error/utility-error-500",
+   "variableId": "VariableID:5400:398207"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Error/utility-error-600",
+   "variableId": "VariableID:5399:389134"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Error/utility-error-700",
+   "variableId": "VariableID:5400:398187"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Gray/utility-gray-100",
+   "variableId": "VariableID:5409:398263"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Gray/utility-gray-200",
+   "variableId": "VariableID:5400:398233"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Gray/utility-gray-300",
+   "variableId": "VariableID:6060:442843"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Gray/utility-gray-400",
+   "variableId": "VariableID:5409:398424"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Gray/utility-gray-50",
+   "variableId": "VariableID:5400:398248"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Gray/utility-gray-500",
+   "variableId": "VariableID:5400:398203"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Gray/utility-gray-600",
+   "variableId": "VariableID:5400:398183"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Gray/utility-gray-700",
+   "variableId": "VariableID:5399:389133"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Gray/utility-gray-800",
+   "variableId": "VariableID:6124:61598"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Gray/utility-gray-900",
+   "variableId": "VariableID:6123:195663"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Green/utility-green-100",
+   "variableId": "VariableID:7999:23183"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Green/utility-green-200",
+   "variableId": "VariableID:7999:23184"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Green/utility-green-300",
+   "variableId": "VariableID:7999:23185"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Green/utility-green-400",
+   "variableId": "VariableID:7999:23186"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Green/utility-green-50",
+   "variableId": "VariableID:7999:23182"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Green/utility-green-500",
+   "variableId": "VariableID:7999:23187"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Green/utility-green-600",
+   "variableId": "VariableID:7999:23188"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Green/utility-green-700",
+   "variableId": "VariableID:7999:23189"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Orange dark/utility-orange-dark-100",
+   "variableId": "VariableID:5409:398276"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Orange dark/utility-orange-dark-200",
+   "variableId": "VariableID:5400:398246"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Orange dark/utility-orange-dark-300",
+   "variableId": "VariableID:6487:354324"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Orange dark/utility-orange-dark-400",
+   "variableId": "VariableID:5409:398440"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Orange dark/utility-orange-dark-50",
+   "variableId": "VariableID:5400:398261"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Orange dark/utility-orange-dark-500",
+   "variableId": "VariableID:5400:398229"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Orange dark/utility-orange-dark-600",
+   "variableId": "VariableID:5399:389143"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Orange dark/utility-orange-dark-700",
+   "variableId": "VariableID:5400:398195"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Orange/utility-orange-100",
+   "variableId": "VariableID:5409:398277"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Orange/utility-orange-200",
+   "variableId": "VariableID:5400:398247"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Orange/utility-orange-300",
+   "variableId": "VariableID:6487:354325"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Orange/utility-orange-400",
+   "variableId": "VariableID:5409:398441"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Orange/utility-orange-50",
+   "variableId": "VariableID:5400:398262"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Orange/utility-orange-500",
+   "variableId": "VariableID:5400:398231"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Orange/utility-orange-600",
+   "variableId": "VariableID:5399:389137"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Orange/utility-orange-700",
+   "variableId": "VariableID:5400:398196"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Pink/utility-pink-100",
+   "variableId": "VariableID:5409:398275"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Pink/utility-pink-200",
+   "variableId": "VariableID:5400:398245"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Pink/utility-pink-300",
+   "variableId": "VariableID:6487:354323"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Pink/utility-pink-400",
+   "variableId": "VariableID:5409:398439"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Pink/utility-pink-50",
+   "variableId": "VariableID:5400:398260"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Pink/utility-pink-500",
+   "variableId": "VariableID:5400:398227"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Pink/utility-pink-600",
+   "variableId": "VariableID:5399:389141"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Pink/utility-pink-700",
+   "variableId": "VariableID:5400:398194"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Purple/utility-purple-100",
+   "variableId": "VariableID:5409:398273"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Purple/utility-purple-200",
+   "variableId": "VariableID:5400:398243"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Purple/utility-purple-300",
+   "variableId": "VariableID:6487:354321"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Purple/utility-purple-400",
+   "variableId": "VariableID:5409:398437"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Purple/utility-purple-50",
+   "variableId": "VariableID:5400:398258"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Purple/utility-purple-500",
+   "variableId": "VariableID:5400:398223"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Purple/utility-purple-600",
+   "variableId": "VariableID:5399:389142"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Purple/utility-purple-700",
+   "variableId": "VariableID:5400:398192"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Success/utility-success-100",
+   "variableId": "VariableID:5409:398267"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Success/utility-success-200",
+   "variableId": "VariableID:5400:398237"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Success/utility-success-300",
+   "variableId": "VariableID:6487:354315"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Success/utility-success-400",
+   "variableId": "VariableID:5409:398431"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Success/utility-success-50",
+   "variableId": "VariableID:5400:398252"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Success/utility-success-500",
+   "variableId": "VariableID:5400:398211"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Success/utility-success-600",
+   "variableId": "VariableID:5399:389136"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Success/utility-success-700",
+   "variableId": "VariableID:5400:398189"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Warning/utility-warning-100",
+   "variableId": "VariableID:5409:398266"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Warning/utility-warning-200",
+   "variableId": "VariableID:5400:398236"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Warning/utility-warning-300",
+   "variableId": "VariableID:6487:354314"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Warning/utility-warning-400",
+   "variableId": "VariableID:5409:398430"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Warning/utility-warning-50",
+   "variableId": "VariableID:5400:398251"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Warning/utility-warning-500",
+   "variableId": "VariableID:5400:398209"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Warning/utility-warning-600",
+   "variableId": "VariableID:5399:389135"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Warning/utility-warning-700",
+   "variableId": "VariableID:5400:398188"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Yellow/utility-yellow-100",
+   "variableId": "VariableID:7999:23191"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Yellow/utility-yellow-200",
+   "variableId": "VariableID:7999:23192"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Yellow/utility-yellow-300",
+   "variableId": "VariableID:7999:23193"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Yellow/utility-yellow-400",
+   "variableId": "VariableID:7999:23194"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Yellow/utility-yellow-50",
+   "variableId": "VariableID:7999:23190"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Yellow/utility-yellow-500",
+   "variableId": "VariableID:7999:23195"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Yellow/utility-yellow-600",
+   "variableId": "VariableID:7999:23196"
+  },
+  {
+   "collection": "1. Color modes",
+   "op": "skip-out-of-scope",
+   "reason": "component colour (D-05)",
+   "variable": "Component colors/Utility/Yellow/utility-yellow-700",
+   "variableId": "VariableID:7999:23197"
+  },
+  {
+   "collection": "4. Widths",
+   "op": "skip-out-of-scope",
+   "reason": "collection not in sync scope (§1)",
+   "variable": "paragraph-max-width",
+   "variableId": "VariableID:6379:57496"
+  },
+  {
+   "collection": "4. Widths",
+   "op": "skip-out-of-scope",
+   "reason": "collection not in sync scope (§1)",
+   "variable": "width-2xl",
+   "variableId": "VariableID:6298:45311"
+  },
+  {
+   "collection": "4. Widths",
+   "op": "skip-out-of-scope",
+   "reason": "collection not in sync scope (§1)",
+   "variable": "width-3xl",
+   "variableId": "VariableID:6298:45312"
+  },
+  {
+   "collection": "4. Widths",
+   "op": "skip-out-of-scope",
+   "reason": "collection not in sync scope (§1)",
+   "variable": "width-4xl",
+   "variableId": "VariableID:6298:45313"
+  },
+  {
+   "collection": "4. Widths",
+   "op": "skip-out-of-scope",
+   "reason": "collection not in sync scope (§1)",
+   "variable": "width-5xl",
+   "variableId": "VariableID:6298:45314"
+  },
+  {
+   "collection": "4. Widths",
+   "op": "skip-out-of-scope",
+   "reason": "collection not in sync scope (§1)",
+   "variable": "width-6xl",
+   "variableId": "VariableID:6298:45315"
+  },
+  {
+   "collection": "4. Widths",
+   "op": "skip-out-of-scope",
+   "reason": "collection not in sync scope (§1)",
+   "variable": "width-lg",
+   "variableId": "VariableID:6298:45309"
+  },
+  {
+   "collection": "4. Widths",
+   "op": "skip-out-of-scope",
+   "reason": "collection not in sync scope (§1)",
+   "variable": "width-md",
+   "variableId": "VariableID:6363:125205"
+  },
+  {
+   "collection": "4. Widths",
+   "op": "skip-out-of-scope",
+   "reason": "collection not in sync scope (§1)",
+   "variable": "width-sm",
+   "variableId": "VariableID:6298:45308"
+  },
+  {
+   "collection": "4. Widths",
+   "op": "skip-out-of-scope",
+   "reason": "collection not in sync scope (§1)",
+   "variable": "width-xl",
+   "variableId": "VariableID:6298:45310"
+  },
+  {
+   "collection": "4. Widths",
+   "op": "skip-out-of-scope",
+   "reason": "collection not in sync scope (§1)",
+   "variable": "width-xs",
+   "variableId": "VariableID:6425:334080"
+  },
+  {
+   "collection": "4. Widths",
+   "op": "skip-out-of-scope",
+   "reason": "collection not in sync scope (§1)",
+   "variable": "width-xxs",
+   "variableId": "VariableID:6298:45305"
+  },
+  {
+   "collection": "5. Containers",
+   "op": "skip-out-of-scope",
+   "reason": "collection not in sync scope (§1)",
+   "variable": "container-max-width-desktop",
+   "variableId": "VariableID:6283:328783"
+  },
+  {
+   "collection": "5. Containers",
+   "op": "skip-out-of-scope",
+   "reason": "collection not in sync scope (§1)",
+   "variable": "container-padding-desktop",
+   "variableId": "VariableID:6283:332005"
+  },
+  {
+   "collection": "5. Containers",
+   "op": "skip-out-of-scope",
+   "reason": "collection not in sync scope (§1)",
+   "variable": "container-padding-mobile",
+   "variableId": "VariableID:6283:332605"
+  }
+ ],
+ "spec": "docs/token-sync-spec.md (APPROVED 2026-11-09)",
+ "tokenRepo": "/Users/mike/Documents/Codex/design-tokens"
+}

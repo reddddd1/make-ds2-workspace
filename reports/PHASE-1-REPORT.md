@@ -79,7 +79,7 @@
 | ID | Task | Depends on | Writes | Acceptance | Approval needed |
 |---|---|---|---|---|---|
 | **P2-00** | Finish P1-03 (verify duplicate) · checker enhancements E1–E3 · re-baseline all collectors on the duplicate · `selftest.py` | O-1 | Workspace only | Duplicate verified; enhanced suite passes self-test and two baseline runs agree | **Approved 2026-11-09 · DONE** (`reports/P2-00-regression/`) |
-| **P2-01** | Token sync on the duplicate: re-run the dry-run there, then apply the approved rows (1 create + 11 alias updates) | P2-00 | Duplicate variables | Post-sync dry-run = 0 operations; deletes/retypes/renames 0; R-PENPOT-01 shows only the approved value changes | B-06 write mode + per-row approval |
+| **P2-01** | Token sync on the duplicate: re-run the dry-run there, then apply the approved rows (1 create + 11 alias updates) | P2-00 | Duplicate variables | Post-sync dry-run = 0 operations; deletes/retypes/renames 0; R-PENPOT-01 shows only the approved value changes | **Approved 2026-11-09 · DONE** (`reports/P2-01-sync/`) |
 | **P2-02** | Button `Label` TEXT property (76 variants) | P2-00 | Duplicate component | R-PAPER-01 76 changed / 42 unchanged; all scratch label overrides preserved (E2) | Change approval |
 | **P2-03** | Button `State=Pressed` (25 variants, 118 → 143) | P2-02 | Duplicate component | Each Pressed hash = its Hover sibling; no existing variant changed | Pressed-scope decision |
 | **P2-04** | Icon access: probe nested-property binding; then Option B (expose `Icon wrapper` / Featured icon / Alert action buttons) | P2-00 | Duplicate components | Glyph overrides unchanged; icons from library only; 0 new divergence | Mechanism decision |

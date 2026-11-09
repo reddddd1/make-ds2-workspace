@@ -1,0 +1,97 @@
+{
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "writtenAt": "2026-11-09T17:54:30.704Z",
+ "created": {
+  "id": "VariableID:23468:2",
+  "name": "Colors/Gray (light mode)/450",
+  "value": "#8a8e97",
+  "scopes": [
+   "ALL_SCOPES"
+  ],
+  "siblingScopes": [
+   "ALL_SCOPES"
+  ],
+  "hiddenFromPublishing": false,
+  "siblingHidden": false
+ },
+ "results": [
+  {
+   "variable": "Colors/Background/bg-brand-primary_hover",
+   "mode": "Dark mode",
+   "before": "VariableID:5248:377714",
+   "after": "VariableID:5248:377716",
+   "ok": true
+  },
+  {
+   "variable": "Colors/Background/bg-brand-primary_hover",
+   "mode": "Light mode",
+   "before": "VariableID:5248:377714",
+   "after": "VariableID:5248:377716",
+   "ok": true
+  },
+  {
+   "variable": "Colors/Border/border-primary",
+   "mode": "Dark mode",
+   "before": "VariableID:6671:87761",
+   "after": "VariableID:6671:87760",
+   "ok": true
+  },
+  {
+   "variable": "Colors/Border/border-primary",
+   "mode": "Light mode",
+   "before": "VariableID:5248:377700",
+   "after": "VariableID:23468:2",
+   "ok": true
+  },
+  {
+   "variable": "Colors/Text/text-brand-primary",
+   "mode": "Dark mode",
+   "before": "VariableID:5248:377715",
+   "after": "VariableID:5248:377713",
+   "ok": true
+  },
+  {
+   "variable": "Colors/Text/text-brand-primary-hover",
+   "mode": "Dark mode",
+   "before": "VariableID:5248:377714",
+   "after": "VariableID:5248:377712",
+   "ok": true
+  },
+  {
+   "variable": "Colors/Text/text-brand-primary-hover",
+   "mode": "Light mode",
+   "before": "VariableID:5248:377714",
+   "after": "VariableID:5248:377716",
+   "ok": true
+  },
+  {
+   "variable": "Colors/Text/text-error-primary",
+   "mode": "Light mode",
+   "before": "VariableID:5248:377726",
+   "after": "VariableID:5248:377727",
+   "ok": true
+  },
+  {
+   "variable": "Colors/Text/text-primary_on-brandprimary",
+   "mode": "Dark mode",
+   "before": "VariableID:6671:87754",
+   "after": "VariableID:5248:377686",
+   "ok": true
+  },
+  {
+   "variable": "Colors/Text/text-success-primary",
+   "mode": "Light mode",
+   "before": "VariableID:5248:377752",
+   "after": "VariableID:5248:377754",
+   "ok": true
+  },
+  {
+   "variable": "Colors/Text/text-warning-primary",
+   "mode": "Light mode",
+   "before": "VariableID:5248:377738",
+   "after": "VariableID:5248:377740",
+   "ok": true
+  }
+ ],
+ "allOk": true
+}

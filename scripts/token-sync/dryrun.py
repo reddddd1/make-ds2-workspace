@@ -2,7 +2,7 @@
 """P1-09 step 2: read-only token-sync dry-run (docs/token-sync-spec.md, APPROVED 2026-11-09).
 
 Usage:
-  python3 -I scripts/token-sync/dryrun.py <figma-variables.json> <design-tokens dir> <out dir> [--usage registry/raw/figma-colour-usage-*.json]
+  python3 -I scripts/token-sync/dryrun.py <figma-variables.json> <design-tokens dir> <out dir> [--usage registry/raw/figma-colour-usage-*.json] [--map sync/figma-variable-map.<fileKey>.json]
 
 Inputs are read only: a variable dump from scripts/token-sync/collect-variables.js and the token repo's tokens/.
 Writes only to <out dir>: dryrun.json, dryrun.md and figma-variable-map.<fileKey>.proposed.json.
@@ -72,7 +72,7 @@ def token_hex(v):
 
 # ---------- main ----------
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument('figma'); ap.add_argument('tokens'); ap.add_argument('out'); ap.add_argument('--usage')
+    ap = argparse.ArgumentParser(); ap.add_argument('figma'); ap.add_argument('tokens'); ap.add_argument('out'); ap.add_argument('--usage'); ap.add_argument('--map', help='approved map file (sync/figma-variable-map.<fileKey>.json): its variable IDs take precedence over name seeding (spec §2.3)')
     a = ap.parse_args()
     F = json.load(open(a.figma)); file_key = F['fileKey']
     byid, bycol = {}, defaultdict(dict)
@@ -108,6 +108,11 @@ def main():
         return '_Primitives'
 
     rows, conflicts, mapping = [], [], {}
+    approved = {}
+    if a.map:
+        M = json.load(open(a.map))
+        if M.get('fileKey') != file_key or not str(M.get('status', '')).startswith('approved'): print('map file is for another file or not approved'); sys.exit(2)
+        approved = M['map']
     def add(**kw): rows.append(kw)
     tok_var = {}                                                            # (token) -> variable id (primitives and themes share one var per token)
     claims = defaultdict(list)
@@ -118,6 +123,8 @@ def main():
             if t['tier'] == 'semantic' or (t['figma'] or '').startswith('All Text styles'):
                 add(op='skip-out-of-scope', token=t['token'], mode=t['mode'], reason='maps to text styles, not variables (§1)'); continue
         cands = []
+        if t['token'] in approved and approved[t['token']].get('variableId') in byid:
+            pending.append((t, col, [byid[approved[t['token']]['variableId']]])); claims[approved[t['token']]['variableId']].append(t['token']); continue
         if t['figma']:
             names = bycol[col]
             key_full, key_short = clean_src(t['figma']), short(clean_src(t['figma']))

@@ -1,0 +1,104 @@
+{
+ "check": "instances",
+ "verdict": "FAIL",
+ "baseline": "reports/P2-00-regression/snapshots/instances-library-modals-baseline.json",
+ "current": "reports/P2-01-sync/after/instances-modals-after.json",
+ "spec": null,
+ "rows": [
+  {
+   "check": "same screens",
+   "pass": true,
+   "detail": "baseline 2, current 2"
+  },
+  {
+   "check": "[Playground do not delete] explicit modes unchanged",
+   "pass": true,
+   "detail": "none (inherits default)"
+  },
+  {
+   "check": "[Playground do not delete] screen-level bindings unchanged (R-PENPOT-01)",
+   "pass": true,
+   "detail": "79 → 79"
+  },
+  {
+   "check": "[Playground do not delete] instance count unchanged",
+   "pass": true,
+   "detail": "14 → 14"
+  },
+  {
+   "check": "[Playground do not delete] E2 text content and nested-component overrides preserved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[Playground do not delete] linkage: no new orphan/detached instance",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[Playground do not delete] R-FIGMA-01 instance layer tree = main (no new divergence)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[Playground do not delete] R-PENPOT-01 bindings + Light/Dark/effective values unchanged",
+   "pass": false,
+   "detail": "_Modal actions (59→59); _Modal actions (59→59); Radio group (343→343); _Modal actions (59→59); _Date picker menu (940→940)"
+  },
+  {
+   "check": "[Playground do not delete] icons from library only (no new violation)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[Modals] explicit modes unchanged",
+   "pass": true,
+   "detail": "none (inherits default)"
+  },
+  {
+   "check": "[Modals] screen-level bindings unchanged (R-PENPOT-01)",
+   "pass": true,
+   "detail": "85 → 85"
+  },
+  {
+   "check": "[Modals] instance count unchanged",
+   "pass": true,
+   "detail": "6 → 6"
+  },
+  {
+   "check": "[Modals] E2 text content and nested-component overrides preserved",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[Modals] linkage: no new orphan/detached instance",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[Modals] R-FIGMA-01 instance layer tree = main (no new divergence)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[Modals] R-PENPOT-01 bindings + Light/Dark/effective values unchanged",
+   "pass": false,
+   "detail": "Flow heading (26→26); Content item (46→46); Content item (26→26); Modal (118→118); Content item (46→46)"
+  },
+  {
+   "check": "[Modals] icons from library only (no new violation)",
+   "pass": true,
+   "detail": ""
+  }
+ ],
+ "totals": {
+  "inst": 20,
+  "linked": 17,
+  "bind": 1907
+ },
+ "knownIssues": [
+  "[Playground do not delete] _Modal header: orphan (already in baseline)",
+  "[Playground do not delete] _Modal header: orphan (already in baseline)",
+  "[Playground do not delete] Pagination dot group/lg/Dot/Primary light bg/False: orphan (already in baseline)"
+ ]
+}

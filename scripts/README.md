@@ -28,6 +28,7 @@
 | `components/button-primary-alt-states.js` | `use_figma` **WRITE** (duplicate only): Button Primary_alt fills → `bg-brand-secondary` / `_hover`; 7 Primary_alt Disabled variants (clones of Primary Disabled); +72 px band | VERIFIED (used once, approved, task C1) |
 | `components/input-field-usability.js` | `use_figma` **WRITE** (duplicate only): Helper text `Text` property; nested Helper text exposed in Input field + `Show helper`; `Show optional`. In-call guard rolls back if any existing instance or main changes | VERIFIED (used once, approved, task C2) |
 | `components/alert-content-properties.js` | `use_figma` **WRITE** (duplicate only): Alert `Title` / `Description` TEXT properties + Content/wrapper gap → `spacing-lg`. In-call guard on texts, visibility, gap, sizes | VERIFIED (used once, approved, task C3) |
+| `components/radio-checkbox-text-properties.js` | `use_figma` **WRITE** (duplicate only): Radio / Checkbox `Label` / `Description` TEXT properties on the 32 Text=True variants. In-call guard on all variants and 27 instances | VERIFIED (used once, approved, task C4) |
 | `build-registry.py` | Local only. Builds and validates `registry/components.json` from a raw extract. `python3 -I scripts/build-registry.py <raw.json> <out.json> [<bindings.json>]` | VERIFIED (used, P1-04) |
 
 Rules: write scripts are added only after a phase is approved, and must refuse to run against the original library `xJoAz66aekAToyhBmfGNt0`.

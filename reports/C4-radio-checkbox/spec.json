@@ -1,0 +1,4 @@
+{
+ "sets": {"Radio / Checkbox": {"scope": {"Text": ["True"]}}},
+ "allowPropDefsChange": ["Radio / Checkbox"]
+}

@@ -1,0 +1,22 @@
+{
+ "instances": {
+  "Input field | Text=False | []": 7,
+  "Tag | Text=False | []": 12,
+  "_Dropdown list item | Text=False | []": 3,
+  "_Modal actions | Text=True | [\"Don’t show again\",\"{Text secondary}(h)\"]": 1,
+  "_Nav account card menu item | Text=False | []": 4
+ },
+ "props": [
+  "Supporting text#3281:1085",
+  "Checked",
+  "Indeterminate",
+  "Size",
+  "Type",
+  "Text",
+  "State"
+ ],
+ "shapes": {
+  "Text=False :: ": 52,
+  "Text=True :: Text and supporting text/Text=\"{Text main}\" | Text and supporting text/Supporting text=\"{Text secondary}\"{\"visible\":\"Supporting text#3281:1085\"}": 32
+ }
+}

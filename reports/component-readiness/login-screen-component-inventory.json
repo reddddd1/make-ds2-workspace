@@ -1,0 +1,92 @@
+{
+ "nested": {},
+ "perScreen": {
+  "D1 Sign in — default — dark (AI generated)": [
+   "Status Bar - iPhone",
+   "Input field",
+   "Radio / Checkbox",
+   "Buttons/Button",
+   "Home Indicator"
+  ],
+  "D2 Sign in — error — dark (AI generated)": [
+   "Status Bar - iPhone",
+   "Input field",
+   "Radio / Checkbox",
+   "Buttons/Button",
+   "Home Indicator"
+  ],
+  "D3 Sign in — loading — dark (AI generated)": [
+   "Status Bar - iPhone",
+   "Input field",
+   "Radio / Checkbox",
+   "Buttons/Button",
+   "Home Indicator"
+  ],
+  "D4 Forgot password — dark (AI generated)": [
+   "Status Bar - iPhone",
+   "Input field",
+   "Buttons/Button",
+   "Home Indicator"
+  ],
+  "D5 Create account — dark (AI generated)": [
+   "Status Bar - iPhone",
+   "Input field",
+   "Radio / Checkbox",
+   "Buttons/Button",
+   "Home Indicator"
+  ],
+  "L1 Sign in — default (AI generated)": [
+   "Status Bar - iPhone",
+   "Input field",
+   "Radio / Checkbox",
+   "Buttons/Button",
+   "Home Indicator"
+  ],
+  "L2 Sign in — error (AI generated)": [
+   "Status Bar - iPhone",
+   "Input field",
+   "Radio / Checkbox",
+   "Buttons/Button",
+   "Home Indicator"
+  ],
+  "L3 Sign in — loading (AI generated)": [
+   "Status Bar - iPhone",
+   "Input field",
+   "Radio / Checkbox",
+   "Buttons/Button",
+   "Home Indicator"
+  ],
+  "L4 Forgot password (AI generated)": [
+   "Status Bar - iPhone",
+   "Input field",
+   "Buttons/Button",
+   "Home Indicator"
+  ],
+  "L5 Create account (AI generated)": [
+   "Status Bar - iPhone",
+   "Input field",
+   "Radio / Checkbox",
+   "Buttons/Button",
+   "Home Indicator"
+  ]
+ },
+ "screens": [
+  "L3 Sign in — loading (AI generated)",
+  "L1 Sign in — default (AI generated)",
+  "L4 Forgot password (AI generated)",
+  "L5 Create account (AI generated)",
+  "D1 Sign in — default — dark (AI generated)",
+  "D2 Sign in — error — dark (AI generated)",
+  "D3 Sign in — loading — dark (AI generated)",
+  "D4 Forgot password — dark (AI generated)",
+  "D5 Create account — dark (AI generated)",
+  "L2 Sign in — error (AI generated)"
+ ],
+ "topLevel": {
+  "Buttons/Button": 26,
+  "Home Indicator": 10,
+  "Input field": 18,
+  "Radio / Checkbox": 8,
+  "Status Bar - iPhone": 10
+ }
+}

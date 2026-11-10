@@ -1,0 +1,4 @@
+{
+ "Text=False | Description={Text secondary}, Label={Text main} | []": 26,
+ "Text=True | Description={Text secondary}, Label=Don’t show again | [\"Don’t show again\",\"{Text secondary}(h)\"]": 1
+}

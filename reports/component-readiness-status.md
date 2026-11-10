@@ -58,6 +58,26 @@
 
 Per task, validation stays targeted: E1 for the changed set only, binding and instance checks for that component, and one screenshot. There is no full-library audit per change.
 
+## 5. Update 2026-11-10 — after C1–C3
+
+- **Re-audit of the pilot sets** (`component-readiness/audit-pilot-sets-after-c3.json`):
+  - Button primitive-bound colours 35 → **0**;
+  - Input field hidden layers without a toggle 58 → **18** (all intentional error-state icons);
+  - Alert unbound gap 4 → **0**;
+  - icon swap Button 205/205, Input field 79/79.
+  - Remaining items are nonblocking. Most are 10 px paddings and gaps (Button root, Input inner) that **cannot be linked: 10 px is not on the spacing scale**. That is a design or token decision, not a defect.
+- **What the 10 login screens use** (scratch file, `login-screen-component-inventory.json`): Button (26), Input field (18), **Radio / Checkbox (8)**, plus device chrome (Status Bar, Home Indicator; not DS components).
+- **Radio / Checkbox audit** (`audit-radio-checkbox.json`):
+  - tokens clean, and `_Checkbox base` clean;
+  - **gap:** the label (`{Text main}`) and supporting text (`{Text secondary}`) in the 32 `Text=True` variants have **no TEXT properties** (64 layers), so the login "Remember me" checkbox needs layer edits;
+  - 27 existing instances.
+
+### Next tasks (each needs approval)
+
+1. ✅ **RESOLVED 2026-11-10** (`reports/C4-radio-checkbox/`). **C4 Radio / Checkbox text properties.** `Label` + `Description` TEXT properties with defaults equal to the current text, using the same guarded, pixel-checked pattern as C3. This completes readiness of every DS component the login screens use.
+2. **Spacing decision for 10 px.** Either add a 10 px spacing token (a token change, approval needed) or accept unlinked 10 px paddings in Button and Input. Nonblocking.
+3. **Modal (P2-07):** native Slot migration, still pending Library analytics; `_Modal header` close icon not swappable (minor).
+
 ## Subscription status
 
 Tokens Studio Free (not used) · unblocked · no paid features · no upgrade.

@@ -1,0 +1,110 @@
+{
+ "readAt": "2026-11-10T06:01:32.593Z",
+ "sets": [
+  {
+   "icons": [
+    0,
+    0
+   ],
+   "id": "1097:63652",
+   "instances": 27,
+   "issues": {
+    "textNoProp": {
+     "ex": [
+      "True,False,sm,Checkbox,True,Focused › Checked=True/Text and supporting text/Text \"{Text main}\"",
+      "True,False,sm,Checkbox,True,Focused › Checked=True/Text and supporting text/Supporting text \"{Text secondary}\"",
+      "True,False,sm,Radio,True,Focused › Checked=True/Text and supporting text/Text \"{Text main}\"",
+      "True,False,sm,Radio,True,Focused › Checked=True/Text and supporting text/Supporting text \"{Text secondary}\""
+     ],
+     "n": 64
+    }
+   },
+   "page": "      ↳ Checkboxes",
+   "props": [
+    [
+     "Supporting text",
+     "BOOLEAN",
+     "true"
+    ],
+    [
+     "Checked",
+     "VARIANT",
+     "False|True"
+    ],
+    [
+     "Indeterminate",
+     "VARIANT",
+     "False|True"
+    ],
+    [
+     "Size",
+     "VARIANT",
+     "sm|md|xs"
+    ],
+    [
+     "Type",
+     "VARIANT",
+     "Checkbox|Radio"
+    ],
+    [
+     "Text",
+     "VARIANT",
+     "False|True"
+    ],
+    [
+     "State",
+     "VARIANT",
+     "Default|Hover|Focused|Disabled"
+    ]
+   ],
+   "rootSizing": {
+    "FIXED/HUG": 44,
+    "HUG/HUG": 40
+   },
+   "set": "Radio / Checkbox",
+   "variants": 84
+  },
+  {
+   "icons": [
+    0,
+    0
+   ],
+   "id": "1097:63886",
+   "instances": 312,
+   "issues": {},
+   "page": "      ↳ Checkboxes",
+   "props": [
+    [
+     "Checked",
+     "VARIANT",
+     "False|True"
+    ],
+    [
+     "Indeterminate",
+     "VARIANT",
+     "False|True"
+    ],
+    [
+     "Size",
+     "VARIANT",
+     "sm|md|xs"
+    ],
+    [
+     "Type",
+     "VARIANT",
+     "Checkbox|Radio"
+    ],
+    [
+     "State",
+     "VARIANT",
+     "Default|Hover|Focused|Disabled"
+    ]
+   ],
+   "rootSizing": {
+    "FIXED/FIXED": 52
+   },
+   "set": "_Checkbox base",
+   "variants": 52
+  }
+ ]
+}

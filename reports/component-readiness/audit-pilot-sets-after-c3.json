@@ -1,0 +1,386 @@
+{
+ "readAt": "2026-11-10T06:00:12.174Z",
+ "sets": [
+  {
+   "icons": [
+    205,
+    205
+   ],
+   "id": "3287:427074",
+   "issues": {
+    "unboundPaint": {
+     "ex": [
+      "md, Link brand, Focused, False › Size=md fills",
+      "md, Primary, Hover, True › Size=md strokes",
+      "lg, Link brand, Focused, False › Size=lg fills"
+     ],
+     "n": 10
+    },
+    "unboundSpacing": {
+     "ex": [
+      "md, Primary, Default, False › Size=md paddingTop=10",
+      "md, Primary_alt, Default, False › Size=md paddingTop=10",
+      "md, Secondary, Default, False › Size=md paddingTop=10"
+     ],
+     "n": 42
+    }
+   },
+   "props": [
+    [
+     "Loading text",
+     "BOOLEAN",
+     "true"
+    ],
+    [
+     "Show L icon",
+     "BOOLEAN",
+     "true"
+    ],
+    [
+     "Show R icon",
+     "BOOLEAN",
+     "true"
+    ],
+    [
+     "Label",
+     "TEXT",
+     "Button"
+    ],
+    [
+     "Size",
+     "VARIANT",
+     4
+    ],
+    [
+     "Hierarchy",
+     "VARIANT",
+     4
+    ],
+    [
+     "State",
+     "VARIANT",
+     6
+    ],
+    [
+     "Icon only",
+     "VARIANT",
+     2
+    ]
+   ],
+   "rootSizing": {
+    "FIXED/FIXED": 36,
+    "HUG/FIXED": 6,
+    "HUG/HUG": 108
+   },
+   "set": "Buttons/Button",
+   "variants": 150
+  },
+  {
+   "icons": [
+    79,
+    79
+   ],
+   "id": "17517:11024",
+   "issues": {
+    "absoluteChild": {
+     "ex": [
+      "lg, Payment, False, Placeholder › Size=lg/Input/Input/Content/wrapper › optional",
+      "lg, Payment, True, Placeholder › Size=lg/Input/Input/Content/wrapper › optional",
+      "lg, Payment, False, Disabled › Size=lg/Input/Input/Content/wrapper › optional"
+     ],
+     "n": 4
+    },
+    "hiddenNoProp": {
+     "ex": [
+      "sm, Search + Tags, False, Filled › Size=sm/Input/Icon wrapper",
+      "sm, Default, True, Filled › Size=sm/Input/Icon wrapper",
+      "sm, Search, False, Disabled › Size=sm/Input/Content/Icon wrapper"
+     ],
+     "n": 18
+    },
+    "primitiveColour": {
+     "ex": [
+      "lg, Payment, False, Placeholder › Size=lg/Input/Input/Content/Frame 1597879694/Payment method icon fills Colors/Base/white",
+      "lg, Payment, True, Placeholder › Size=lg/Input/Input/Content/Frame 1597879694/Payment method icon fills Colors/Base/white",
+      "lg, Payment, False, Disabled › Size=lg/Input/Input/Content/Frame 1597879694/Payment method icon fills Colors/Base/white"
+     ],
+     "n": 7
+    },
+    "unboundSpacing": {
+     "ex": [
+      "sm, Default, False, Filled › Size=sm/Input/wrapper/Content/wrapper/optional itemSpacing=10",
+      "sm, Default, True, Filled › Size=sm/Input/wrapper/Content/wrapper/optional itemSpacing=10",
+      "sm, Default, False, Focused › Size=sm/Input/Content/wrapper/optional itemSpacing=10"
+     ],
+     "n": 46
+    }
+   },
+   "props": [
+    [
+     "Label",
+     "TEXT",
+     "Label"
+    ],
+    [
+     "Text",
+     "TEXT",
+     "Placeholder text"
+    ],
+    [
+     "Show helper",
+     "BOOLEAN",
+     "true"
+    ],
+    [
+     "Show optional",
+     "BOOLEAN",
+     "false"
+    ],
+    [
+     "Size",
+     "VARIANT",
+     2
+    ],
+    [
+     "Type",
+     "VARIANT",
+     7
+    ],
+    [
+     "Destructive",
+     "VARIANT",
+     2
+    ],
+    [
+     "State",
+     "VARIANT",
+     4
+    ]
+   ],
+   "rootSizing": {
+    "FIXED/HUG": 53
+   },
+   "set": "Input field",
+   "variants": 53
+  },
+  {
+   "icons": [
+    0,
+    0
+   ],
+   "id": "4057:415205",
+   "issues": {
+    "absoluteChild": {
+     "ex": [
+      "Default slotted › Type=Default slotted › Background overlay",
+      "Default slotted › Type=Default slotted › Spacer for max-height",
+      "Default slotted › Type=Default slotted/Modal/[Slot] › _Scroll bar (control fill with bottom padding)"
+     ],
+     "n": 3
+    },
+    "hiddenNoProp": {
+     "ex": [
+      "Default slotted › Type=Default slotted/Modal/[Slot]/_Scroll bar (control fill with bottom padding)"
+     ],
+     "n": 1
+    }
+   },
+   "props": [
+    [
+     "Drawer content",
+     "INSTANCE_SWAP",
+     "preferred:1"
+    ],
+    [
+     "Type",
+     "VARIANT",
+     1
+    ]
+   ],
+   "rootSizing": {
+    "FIXED/FIXED": 1
+   },
+   "set": "Modal",
+   "variants": 1
+  },
+  {
+   "icons": [
+    1,
+    0
+   ],
+   "id": "4055:413620",
+   "issues": {
+    "absoluteChild": {
+     "ex": [
+      "Left aligned › Type=Left aligned › Icon wrapper"
+     ],
+     "n": 1
+    },
+    "iconNotSwappable": {
+     "ex": [
+      "Left aligned › Type=Left aligned/Icon wrapper"
+     ],
+     "n": 1
+    },
+    "unboundSpacing": {
+     "ex": [
+      "Left aligned › Type=Left aligned/Content/wrapper itemSpacing=10"
+     ],
+     "n": 1
+    }
+   },
+   "props": [
+    [
+     "Show close",
+     "BOOLEAN",
+     "true"
+    ],
+    [
+     "Show divider",
+     "BOOLEAN",
+     "true"
+    ],
+    [
+     "Show bottom p",
+     "BOOLEAN",
+     "true"
+    ],
+    [
+     "Show img",
+     "BOOLEAN",
+     "true"
+    ],
+    [
+     "Type",
+     "VARIANT",
+     1
+    ]
+   ],
+   "rootSizing": {
+    "FIXED/HUG": 1
+   },
+   "set": "_Modal header",
+   "variants": 1
+  },
+  {
+   "icons": [
+    0,
+    0
+   ],
+   "id": "4057:414352",
+   "issues": {},
+   "props": [
+    [
+     "Checkbox",
+     "BOOLEAN",
+     "true"
+    ],
+    [
+     "Tertiary button",
+     "BOOLEAN",
+     "true"
+    ],
+    [
+     "Divider",
+     "BOOLEAN",
+     "true"
+    ],
+    [
+     "Type",
+     "VARIANT",
+     3
+    ],
+    [
+     "Destructive",
+     "VARIANT",
+     1
+    ],
+    [
+     "Breakpoint",
+     "VARIANT",
+     1
+    ]
+   ],
+   "rootSizing": {
+    "FIXED/HUG": 3
+   },
+   "set": "_Modal actions",
+   "variants": 3
+  },
+  {
+   "icons": [
+    4,
+    0
+   ],
+   "id": "1130:81134",
+   "issues": {
+    "absoluteChild": {
+     "ex": [
+      "Brand › Color=Brand › Icon wrapper",
+      "Default › Color=Default › Icon wrapper",
+      "Error › Color=Error › Icon wrapper"
+     ],
+     "n": 4
+    },
+    "iconNotSwappable": {
+     "ex": [
+      "Brand › Color=Brand/Icon wrapper",
+      "Default › Color=Default/Icon wrapper",
+      "Error › Color=Error/Icon wrapper"
+     ],
+     "n": 4
+    },
+    "remoteVar": {
+     "ex": [
+      "Brand › Color=Brand/Content/Featured icon topLeftRadius radius-full",
+      "Brand › Color=Brand/Content/Featured icon topRightRadius radius-full",
+      "Brand › Color=Brand/Content/Featured icon bottomLeftRadius radius-full"
+     ],
+     "n": 20
+    }
+   },
+   "props": [
+    [
+     "Actions",
+     "BOOLEAN",
+     "true"
+    ],
+    [
+     "Supporting text",
+     "BOOLEAN",
+     "true"
+    ],
+    [
+     "Show icon",
+     "BOOLEAN",
+     "true"
+    ],
+    [
+     "Show close?",
+     "BOOLEAN",
+     "true"
+    ],
+    [
+     "Title",
+     "TEXT",
+     "{Title}"
+    ],
+    [
+     "Description",
+     "TEXT",
+     "{Text Lorem ipsum do"
+    ],
+    [
+     "Color",
+     "VARIANT",
+     4
+    ]
+   ],
+   "rootSizing": {
+    "FIXED/HUG": 4
+   },
+   "set": "Alert",
+   "variants": 4
+  }
+ ]
+}

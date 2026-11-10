@@ -3,8 +3,8 @@
   "node": "v26.13.0",
   "nodeLts": "Lithium",
   "tailwindcss": "4.3.5",
-  "total": 60,
-  "passed": 60,
+  "total": 69,
+  "passed": 69,
   "defaultsObserved": {
    "color-gray-100": "oklch(96.7% 0.003 264.542)",
    "radius-lg": "0.5rem",
@@ -590,6 +590,96 @@
    "got": "padding: calc(var(--spacing) * 2.5);",
    "pass": true,
    "note": "no per-step --spacing-* variable is emitted"
+  },
+  {
+   "scenario": "S6",
+   "class": "bg-brand-secondary",
+   "expect": [
+    "background-color: var(--background-color-brand-secondary)"
+   ],
+   "got": "background-color: var(--background-color-brand-secondary);",
+   "pass": true,
+   "note": "new role → plain class (#d0ff00)"
+  },
+  {
+   "scenario": "S6",
+   "class": "bg-brand-secondary-hover",
+   "expect": [
+    "background-color: var(--background-color-brand-secondary-hover)"
+   ],
+   "got": "background-color: var(--background-color-brand-secondary-hover);",
+   "pass": true,
+   "note": "new role (#d9ff75)"
+  },
+  {
+   "scenario": "S6",
+   "class": "hover:bg-brand-secondary-hover",
+   "expect": [
+    "background-color: var(--background-color-brand-secondary-hover)"
+   ],
+   "got": "background-color: var(--background-color-brand-secondary-hover);",
+   "pass": true,
+   "note": "hover variant"
+  },
+  {
+   "scenario": "S6",
+   "class": "bg-brand-primary",
+   "expect": [
+    "background-color: var(--background-color-brand-primary);"
+   ],
+   "got": "background-color: var(--background-color-brand-primary);",
+   "pass": true,
+   "note": "unchanged vs S1"
+  },
+  {
+   "scenario": "S6",
+   "class": "bg-brand-primary-hover",
+   "expect": [
+    "background-color: var(--background-color-brand-primary-hover);"
+   ],
+   "got": "background-color: var(--background-color-brand-primary-hover);",
+   "pass": true,
+   "note": "unchanged vs S1"
+  },
+  {
+   "scenario": "S6",
+   "class": "text-brand-primary",
+   "expect": [
+    "color: var(--text-color-brand-primary);"
+   ],
+   "got": "color: var(--text-color-brand-primary);",
+   "pass": true,
+   "note": "unchanged vs S1"
+  },
+  {
+   "scenario": "S6",
+   "class": "bg-gray-100",
+   "expect": [
+    "background-color: var(--color-gray-100);"
+   ],
+   "got": "background-color: var(--color-gray-100);",
+   "pass": true,
+   "note": "unchanged vs S1"
+  },
+  {
+   "scenario": "S6",
+   "class": "p-3",
+   "expect": [
+    "padding: calc(var(--spacing) * 3);"
+   ],
+   "got": "padding: calc(var(--spacing) * 3);",
+   "pass": true,
+   "note": "unchanged vs S1"
+  },
+  {
+   "scenario": "S6",
+   "class": "bg-brand-secondary",
+   "expect": [
+    "background-color"
+   ],
+   "got": "background-color: var(--background-color-brand-secondary);",
+   "pass": true,
+   "note": "no --color-* palette key emitted (no global override)"
   }
  ]
 }

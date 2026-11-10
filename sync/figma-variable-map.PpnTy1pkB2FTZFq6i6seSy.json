@@ -17,6 +17,20 @@
    "status": "proposed",
    "lastSynced": null
   },
+  "color.bg.brand-secondary": {
+   "collection": "1. Color modes",
+   "variableId": "VariableID:5363:390066",
+   "figmaName": "Colors/Background/bg-brand-secondary",
+   "status": "proposed",
+   "lastSynced": null
+  },
+  "color.bg.brand-secondary-hover": {
+   "collection": "1. Color modes",
+   "variableId": "VariableID:17490:23029",
+   "figmaName": "Colors/Background/bg-brand-secondary_hover",
+   "status": "proposed",
+   "lastSynced": null
+  },
   "color.black": {
    "collection": "_Primitives",
    "variableId": "VariableID:5248:377687",
@@ -923,6 +937,10 @@
   {
    "at": "2026-11-10T06:48:14.559Z",
    "change": "D-G1 write: created spacing.2_5 -> VariableID:23540:2, spacing.3_5 -> VariableID:23540:4 (_Primitives); 3. Spacing aliases spacing-2_5 (VariableID:23540:3), spacing-3_5 (VariableID:23540:5) (reports/D-G1-spacing/create-result.json)"
+  },
+  {
+   "at": "2026-11-10",
+   "change": "Proposal 0008: mapped color.bg.brand-secondary -> VariableID:5363:390066, color.bg.brand-secondary-hover -> VariableID:17490:23029 (existing variables; dry-run unchanged, no Figma write)"
   }
  ]
 }

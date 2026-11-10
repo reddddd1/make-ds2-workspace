@@ -135,6 +135,19 @@ for (const [cls, prop, n] of [['p-2', 'padding', '2'], ['p-3', 'padding', '3'], 
   check('S5', cls, s5, [n === '1' ? `${prop}: var(--spacing);` : `${prop}: calc(var(--spacing) * ${n})`], 'existing step unchanged');
 check('S5', 'p-2.5', s5.includes('--spacing-2') ? '' : s5, ['padding'], 'no per-step --spacing-* variable is emitted');
 
+// ---------------- S6: proposal 0008 — color.bg.brand-secondary(-hover), option A roles (Primary_alt button) ----------------
+// Same shape as S1 plus the two new roles; Light = Dark (ADR-0007), so no `.dark` override. S1's existing roles must compile
+// identically in the same build, and no Tailwind default variable may share the new names.
+const S6 = S1.replace('@theme {', '@theme {\n  --background-color-brand-secondary: var(--make-color-green-lime-500);\n  --background-color-brand-secondary-hover: var(--make-color-green-lime-400);')
+  .replace(':root {', ':root {\n  --make-color-green-lime-400: #d9ff75; --make-color-green-lime-500: #d0ff00;');
+const s6 = await build('S6-bg-brand-secondary', S6, [...s1c, 'bg-brand-secondary', 'bg-brand-secondary-hover', 'hover:bg-brand-secondary-hover']);
+check('S6', 'bg-brand-secondary', s6, ['background-color: var(--background-color-brand-secondary)'], 'new role → plain class (#d0ff00)');
+check('S6', 'bg-brand-secondary-hover', s6, ['background-color: var(--background-color-brand-secondary-hover)'], 'new role (#d9ff75)');
+check('S6', 'hover:bg-brand-secondary-hover', s6, ['background-color: var(--background-color-brand-secondary-hover)'], 'hover variant');
+for (const c of ['bg-brand-primary', 'bg-brand-primary-hover', 'text-brand-primary', 'bg-gray-100', 'p-3'])
+  check('S6', c, s6, [rule(s1, c)], 'unchanged vs S1');
+check('S6', 'bg-brand-secondary', s6.includes('--color-brand-secondary') ? '' : s6, ['background-color'], 'no --color-* palette key emitted (no global override)');
+
 // ---------------- Tailwind default theme variables (authoritative list for the collision check) ----------------
 const themeCss = fs.readFileSync(path.join(twPkgDir, 'theme.css'), 'utf8');
 const vars = {};

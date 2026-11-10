@@ -1,0 +1,422 @@
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 9261642..e111619 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -4,6 +4,8 @@ Token changes only. Each entry links to its proposal. No releases yet (see ADR-0
+ 
+ ## Unreleased
+ 
++- Added `color.bg.brand-secondary` (`{color.green-lime.500}`) and `color.bg.brand-secondary-hover` (`{color.green-lime.400}`) to `tokens/themes/{light,dark}/color.tokens.json` (Primary_alt button; Light = Dark per ADR-0007; existing Figma variables, no Figma change). No other token changed. Proposal 0008; approved with conditions by Mike 2026-11-10 ("2. Primary_alt semantic tokens — CONDITIONALLY APPROVED"), conditions verified in the proposal.
++
+ - Added `spacing.2_5` (10px) and `spacing.3_5` (14px) to `tokens/primitives/spacing.tokens.json` (Tailwind `p-2.5` / `px-3.5`; previously hardcoded in Button md padding, Input field optional-tag gap and Modal header gap). No other token changed. Proposal 0007; approved by Mike 2026-11-10 ("MAKE DS2 — D-G1 Approved: Spacing Coverage. I approve Option A for D-G1.").
+ 
+ - Metadata only (no token key, value, alias or type change): `$extensions["com.make.source"]` of the 11 tokens renamed in the Figma naming pilot gets `figma` = current name in the refactor duplicate, `figmaLegacy` = previous name, and `figmaVariableId` (stable ID, TOKEN-CONTRACT §5); `color.gray.450` gets `figma` + `figmaVariableId`. 17 entries in 6 files; preflight: keys/values/aliases unchanged, `dist/` identical except `builtAt`, `npm run check` 29/29. Evidence: make-ds2-workspace `reports/token-naming-stale-names.md`. Approved by Mike 2026-11-09 ("Apply the 17 registry metadata-only updates after automated preflight confirms no token keys, values, aliases, or generated outputs change").
+diff --git a/tokens/themes/dark/color.tokens.json b/tokens/themes/dark/color.tokens.json
+index 42b9f8f..0938f18 100644
+--- a/tokens/themes/dark/color.tokens.json
++++ b/tokens/themes/dark/color.tokens.json
+@@ -74,6 +74,26 @@
+             "figmaVariableId": "VariableID:5353:380427"
+           }
+         }
++      },
++      "brand-secondary": {
++        "$value": "{color.green-lime.500}",
++        "$description": "Primary_alt button background (secondary brand, lime). Same value in Light and Dark (ADR-0007). Text on it: black.",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "Colors/Background/bg-brand-secondary",
++            "figmaVariableId": "VariableID:5363:390066"
++          }
++        }
++      },
++      "brand-secondary-hover": {
++        "$value": "{color.green-lime.400}",
++        "$description": "Primary_alt button hover and pressed background. Same value in Light and Dark (ADR-0007).",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "Colors/Background/bg-brand-secondary_hover",
++            "figmaVariableId": "VariableID:17490:23029"
++          }
++        }
+       }
+     },
+     "border": {
+diff --git a/tokens/themes/light/color.tokens.json b/tokens/themes/light/color.tokens.json
+index e99e2c7..a1b6717 100644
+--- a/tokens/themes/light/color.tokens.json
++++ b/tokens/themes/light/color.tokens.json
+@@ -74,6 +74,26 @@
+             "figmaVariableId": "VariableID:5353:380427"
+           }
+         }
++      },
++      "brand-secondary": {
++        "$value": "{color.green-lime.500}",
++        "$description": "Primary_alt button background (secondary brand, lime). Same value in Light and Dark (ADR-0007). Text on it: black.",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "Colors/Background/bg-brand-secondary",
++            "figmaVariableId": "VariableID:5363:390066"
++          }
++        }
++      },
++      "brand-secondary-hover": {
++        "$value": "{color.green-lime.400}",
++        "$description": "Primary_alt button hover and pressed background. Same value in Light and Dark (ADR-0007).",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "Colors/Background/bg-brand-secondary_hover",
++            "figmaVariableId": "VariableID:17490:23029"
++          }
++        }
+       }
+     },
+     "border": {
+diff --git a/proposals/0008-bg-brand-secondary/PROPOSAL.md b/proposals/0008-bg-brand-secondary/PROPOSAL.md
+new file mode 100644
+index 0000000..3af91a6
+--- /dev/null
++++ b/proposals/0008-bg-brand-secondary/PROPOSAL.md
+@@ -0,0 +1,37 @@
++# Proposal 0008: `color.bg.brand-secondary` and `color.bg.brand-secondary-hover` (Primary_alt button)
++
++- **Status:** ✅ Approved with conditions and merged (2026-11-10). All conditions verified below
++- **Files:** `tokens/themes/light/color.tokens.json`, `tokens/themes/dark/color.tokens.json`. 2 entries added to `color.bg` in each, after `brand-primary-hover`. No other key, value, alias or type changes.
++
++## Why
++
++Button `Hierarchy=Primary_alt` is the secondary-brand (lime) button used in the login flow. Task C1 (2026-11-09) rebound its fills from the primitive `Colors/Green lime/500` to the existing Figma semantic variables below. The registry had no matching role, so code could only use the primitive.
++
++## Tokens
++
++| Token | Light | Dark | Figma variable (unchanged) | Tailwind (option A roles) | Use |
++|---|---|---|---|---|---|
++| `color.bg.brand-secondary` | `{color.green-lime.500}` #d0ff00 | same | `Colors/Background/bg-brand-secondary` `VariableID:5363:390066` | `bg-brand-secondary` | Primary_alt Default, Focused, Loading, Disabled base (21 fills) |
++| `color.bg.brand-secondary-hover` | `{color.green-lime.400}` #d9ff75 | same | `Colors/Background/bg-brand-secondary_hover` `VariableID:17490:23029` | `bg-brand-secondary-hover` | Primary_alt Hover and Pressed (14 fills) |
++
++- Text on these backgrounds: black (`Colors/Text/text-primary_on-brandsecondary`, not in the registry yet).
++- Dark = Light: dark mode is flat in the pilot (ADR-0007).
++
++## Condition checks (2026-11-10)
++
++| Condition | Result | Evidence (make-ds2-workspace) |
++|---|---|---|
++| Both exist as Figma semantic variables | ✅ `1. Color modes`, scopes `FRAME_FILL` + `SHAPE_FILL`, published | `reports/auth-readiness/figma-brand-secondary.json` |
++| Light/Dark values and aliases preserved | ✅ Each registry alias equals the Figma alias in both modes. Sync dry-run: 4 rows `unchanged` (matched by `figmaVariableId`), 0 create / update / conflict, so no Figma write is needed | `reports/auth-readiness/dryrun/` |
++| No duplicate of an existing token with the same role | ✅ No `color.bg.*` or other registry token resolves to #d0ff00 / #d9ff75. In Figma the same values are also used by `focus-ring-alt` and `bg-avatar-color1`, which are different roles and not in the registry. Note: Figma `text-brand-secondary` / `fg-brand-secondary` are **blue** (Brand 500–800); names are compared only within a namespace (convention §10), so this is not a duplicate | same JSON |
++| Intended use documented | ✅ `$description` + this proposal | — |
++| Tailwind / NativeWind compatible | ✅ **Tailwind 4.3.5** compile (workspace `compile-check.mjs` S6, 69/69): `bg-brand-secondary` → `background-color: var(--background-color-brand-secondary)`, `-hover` and `hover:` likewise; `bg-brand-primary`, `bg-brand-primary-hover`, `text-brand-primary`, `bg-gray-100` and `p-3` identical to S1; no `--color-*` key emitted. Tailwind's own `lime` palette does not collide (registry primitive is `green-lime`, kept in `:root`). **NativeWind:** static check only, not compiled: the same class names, the values are static sRGB hex, and there is no key collision with the Tailwind v3 default palette | `reports/token-naming/compile-check/` |
++| Existing tokens and appearance unchanged | ✅ `dist/` (`build:paper-kit`): only the 2 tokens added per mode (+12 resolved entries each), 0 removed / changed; `paper-kit/kit.json` identical. No Figma change (bindings were already in place since C1) | — |
++
++## Validation
++
++- `npm run check`: ✔ themes 11 → 13 per mode (primitives 120, semantic 8 unchanged); tests 29/29.
++
++## Approval
++
++Mike, 2026-11-10: "MAKE DS2 — Authentication Component Final Readiness … 2. Primary_alt semantic tokens — CONDITIONALLY APPROVED. Add `color.bg.brand-secondary` and `color.bg.brand-secondary-hover` to the canonical `design-tokens` registry after verifying" the conditions above.
+diff --git a/proposals/0008-bg-brand-secondary/pairs.json b/proposals/0008-bg-brand-secondary/pairs.json
+new file mode 100644
+index 0000000..18f818e
+--- /dev/null
++++ b/proposals/0008-bg-brand-secondary/pairs.json
+@@ -0,0 +1,4 @@
++[
++ { "fg": "color.black", "bg": "color.bg.brand-secondary", "kind": "text", "label": "Primary_alt label (black) on bg-brand-secondary" },
++ { "fg": "color.black", "bg": "color.bg.brand-secondary-hover", "kind": "text", "label": "Primary_alt label (black) on bg-brand-secondary-hover" }
++]
+diff --git a/proposals/0008-bg-brand-secondary/contrast-report.md b/proposals/0008-bg-brand-secondary/contrast-report.md
+new file mode 100644
+index 0000000..2f1ee13
+--- /dev/null
++++ b/proposals/0008-bg-brand-secondary/contrast-report.md
+@@ -0,0 +1,6 @@
++| Mode | Use | Token → primitive | Value | Background | Ratio | Min | Result |
++|---|---|---|---|---|---|---|---|
++| dark | Primary_alt label (black) on bg-brand-secondary | `color.black` → raw | `#000000` | color.bg.brand-secondary `#d0ff00` | **17.99** | 4.5 | ✅ |
++| dark | Primary_alt label (black) on bg-brand-secondary-hover | `color.black` → raw | `#000000` | color.bg.brand-secondary-hover `#d9ff75` | **18.51** | 4.5 | ✅ |
++| light | Primary_alt label (black) on bg-brand-secondary | `color.black` → raw | `#000000` | color.bg.brand-secondary `#d0ff00` | **17.99** | 4.5 | ✅ |
++| light | Primary_alt label (black) on bg-brand-secondary-hover | `color.black` → raw | `#000000` | color.bg.brand-secondary-hover `#d9ff75` | **18.51** | 4.5 | ✅ |
+diff --git a/proposals/0008-bg-brand-secondary/tokens/themes/light/color.tokens.json b/proposals/0008-bg-brand-secondary/tokens/themes/light/color.tokens.json
+new file mode 100644
+index 0000000..a1b6717
+--- /dev/null
++++ b/proposals/0008-bg-brand-secondary/tokens/themes/light/color.tokens.json
+@@ -0,0 +1,135 @@
++{
++  "color": {
++    "$type": "color",
++    "text": {
++      "error-primary": {
++        "$value": "{color.error.600}",
++        "$description": "Error text (validation messages)",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "color/text/error-primary",
++            "figmaLegacy": "text-error-primary",
++            "figmaVariableId": "VariableID:5263:373125"
++          }
++        }
++      },
++      "success-primary": {
++        "$value": "{color.success.700}",
++        "$description": "Success text",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "text-success-primary"
++          }
++        }
++      },
++      "warning-primary": {
++        "$value": "{color.warning.700}",
++        "$description": "Warning text",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "text-warning-primary"
++          }
++        }
++      },
++      "brand-primary": {
++        "$value": "{color.brand.600}",
++        "$description": "Brand text and links",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "color/text/brand-primary",
++            "figmaLegacy": "text-brand-primary",
++            "figmaVariableId": "VariableID:6137:268549"
++          }
++        }
++      },
++      "primary-on-brand": {
++        "$value": "{color.white}",
++        "$description": "Label on primary button",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "text-primary_on-brandprimary"
++          }
++        }
++      }
++    },
++    "bg": {
++      "brand-primary": {
++        "$value": "{color.brand.600}",
++        "$description": "Primary button background",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "color/bg/brand-primary",
++            "figmaLegacy": "bg-brand-primary",
++            "figmaVariableId": "VariableID:5270:371419"
++          }
++        }
++      },
++      "brand-primary-hover": {
++        "$value": "{color.brand.700}",
++        "$description": "Primary button hover background",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "color/bg/brand-primary-hover",
++            "figmaLegacy": "bg-brand-primary_hover",
++            "figmaVariableId": "VariableID:5353:380427"
++          }
++        }
++      },
++      "brand-secondary": {
++        "$value": "{color.green-lime.500}",
++        "$description": "Primary_alt button background (secondary brand, lime). Same value in Light and Dark (ADR-0007). Text on it: black.",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "Colors/Background/bg-brand-secondary",
++            "figmaVariableId": "VariableID:5363:390066"
++          }
++        }
++      },
++      "brand-secondary-hover": {
++        "$value": "{color.green-lime.400}",
++        "$description": "Primary_alt button hover and pressed background. Same value in Light and Dark (ADR-0007).",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "Colors/Background/bg-brand-secondary_hover",
++            "figmaVariableId": "VariableID:17490:23029"
++          }
++        }
++      }
++    },
++    "border": {
++      "primary": {
++        "$value": "{color.gray.450}",
++        "$description": "Input border (default)",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "color/border/primary",
++            "figmaLegacy": "border-primary",
++            "figmaVariableId": "VariableID:5270:371435"
++          }
++        }
++      },
++      "error": {
++        "$value": "{color.error.500}",
++        "$description": "Input border (error)",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "border-error"
++          }
++        }
++      }
++    },
++    "focus-ring": {
++      "primary": {
++        "$value": "{color.brand.500}",
++        "$description": "Focus ring",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "color/focus-ring/primary",
++            "figmaLegacy": "focus-ring-primary",
++            "figmaVariableId": "VariableID:7371:212918"
++          }
++        }
++      }
++    }
++  }
++}
+diff --git a/proposals/0008-bg-brand-secondary/tokens/themes/dark/color.tokens.json b/proposals/0008-bg-brand-secondary/tokens/themes/dark/color.tokens.json
+new file mode 100644
+index 0000000..0938f18
+--- /dev/null
++++ b/proposals/0008-bg-brand-secondary/tokens/themes/dark/color.tokens.json
+@@ -0,0 +1,135 @@
++{
++  "color": {
++    "$type": "color",
++    "text": {
++      "error-primary": {
++        "$value": "{color.error.400}",
++        "$description": "Error text (validation messages)",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "color/text/error-primary",
++            "figmaLegacy": "text-error-primary",
++            "figmaVariableId": "VariableID:5263:373125"
++          }
++        }
++      },
++      "success-primary": {
++        "$value": "{color.success.400}",
++        "$description": "Success text",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "text-success-primary"
++          }
++        }
++      },
++      "warning-primary": {
++        "$value": "{color.warning.400}",
++        "$description": "Warning text",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "text-warning-primary"
++          }
++        }
++      },
++      "brand-primary": {
++        "$value": "{color.brand.400}",
++        "$description": "Brand text and links",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "color/text/brand-primary",
++            "figmaLegacy": "text-brand-primary",
++            "figmaVariableId": "VariableID:6137:268549"
++          }
++        }
++      },
++      "primary-on-brand": {
++        "$value": "{color.white}",
++        "$description": "Label on primary button",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "text-primary_on-brandprimary"
++          }
++        }
++      }
++    },
++    "bg": {
++      "brand-primary": {
++        "$value": "{color.brand.600}",
++        "$description": "Primary button background",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "color/bg/brand-primary",
++            "figmaLegacy": "bg-brand-primary",
++            "figmaVariableId": "VariableID:5270:371419"
++          }
++        }
++      },
++      "brand-primary-hover": {
++        "$value": "{color.brand.700}",
++        "$description": "Primary button hover background",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "color/bg/brand-primary-hover",
++            "figmaLegacy": "bg-brand-primary_hover",
++            "figmaVariableId": "VariableID:5353:380427"
++          }
++        }
++      },
++      "brand-secondary": {
++        "$value": "{color.green-lime.500}",
++        "$description": "Primary_alt button background (secondary brand, lime). Same value in Light and Dark (ADR-0007). Text on it: black.",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "Colors/Background/bg-brand-secondary",
++            "figmaVariableId": "VariableID:5363:390066"
++          }
++        }
++      },
++      "brand-secondary-hover": {
++        "$value": "{color.green-lime.400}",
++        "$description": "Primary_alt button hover and pressed background. Same value in Light and Dark (ADR-0007).",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "Colors/Background/bg-brand-secondary_hover",
++            "figmaVariableId": "VariableID:17490:23029"
++          }
++        }
++      }
++    },
++    "border": {
++      "primary": {
++        "$value": "{color.gray-dark.600}",
++        "$description": "Input border (default)",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "color/border/primary",
++            "figmaLegacy": "border-primary",
++            "figmaVariableId": "VariableID:5270:371435"
++          }
++        }
++      },
++      "error": {
++        "$value": "{color.error.400}",
++        "$description": "Input border (error)",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "border-error"
++          }
++        }
++      }
++    },
++    "focus-ring": {
++      "primary": {
++        "$value": "{color.brand.500}",
++        "$description": "Focus ring",
++        "$extensions": {
++          "com.make.source": {
++            "figma": "color/focus-ring/primary",
++            "figmaLegacy": "focus-ring-primary",
++            "figmaVariableId": "VariableID:7371:212918"
++          }
++        }
++      }
++    }
++  }
++}

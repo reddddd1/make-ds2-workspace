@@ -1,0 +1,102 @@
+{
+ "check": "gap-audit-rc",
+ "readAt": "2026-11-10T07:01:15.944Z",
+ "sets": [
+  {
+   "agg": {
+    "gap": {
+     "semantic": 48,
+     "zero": 100
+    },
+    "padding": {
+     "semantic": 32,
+     "zero": 560
+    }
+   },
+   "autoLayoutFrames": 148,
+   "examples": {},
+   "set": "Radio / Checkbox",
+   "vals": {
+    "gap": {
+     "semantic|3. Spacing › spacing-lg|12": 16,
+     "semantic|3. Spacing › spacing-md|8": 16,
+     "semantic|3. Spacing › spacing-xxs|2": 16,
+     "zero||0": 100
+    },
+    "padding": {
+     "semantic|3. Spacing › spacing-xxs|2": 32,
+     "zero||0": 560
+    }
+   },
+   "variantProps": {
+    "Checked": {
+     "False": 36,
+     "True": 48
+    },
+    "Indeterminate": {
+     "False": 72,
+     "True": 12
+    },
+    "Size": {
+     "md": 36,
+     "sm": 36,
+     "xs": 12
+    },
+    "State": {
+     "Default": 21,
+     "Disabled": 21,
+     "Focused": 21,
+     "Hover": 21
+    },
+    "Text": {
+     "False": 52,
+     "True": 32
+    },
+    "Type": {
+     "Checkbox": 52,
+     "Radio": 32
+    }
+   },
+   "variants": 84
+  },
+  {
+   "agg": {
+    "gap": {},
+    "padding": {}
+   },
+   "autoLayoutFrames": 0,
+   "examples": {},
+   "set": "_Checkbox base",
+   "vals": {
+    "gap": {},
+    "padding": {}
+   },
+   "variantProps": {
+    "Checked": {
+     "False": 20,
+     "True": 32
+    },
+    "Indeterminate": {
+     "False": 40,
+     "True": 12
+    },
+    "Size": {
+     "md": 20,
+     "sm": 20,
+     "xs": 12
+    },
+    "State": {
+     "Default": 13,
+     "Disabled": 13,
+     "Focused": 13,
+     "Hover": 13
+    },
+    "Type": {
+     "Checkbox": 36,
+     "Radio": 16
+    }
+   },
+   "variants": 52
+  }
+ ]
+}

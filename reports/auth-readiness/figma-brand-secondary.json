@@ -1,0 +1,134 @@
+{
+ "buttonUse": {
+  "VariableID:17490:23029 COMPONENT fills": 14,
+  "VariableID:5363:390066 COMPONENT fills": 21
+ },
+ "check": "brand-secondary",
+ "modes": [
+  "Light mode",
+  "Dark mode"
+ ],
+ "sameValueOrName": [
+  [
+   "Colors/Text/text-primary_on-brandsecondary",
+   {
+    "Dark mode": "#000000 ← Colors/Base/black",
+    "Light mode": "#000000 ← Colors/Base/black"
+   }
+  ],
+  [
+   "Colors/Text/text-brand-secondary (700)",
+   {
+    "Dark mode": "#2323f0 ← Colors/Brand/700",
+    "Light mode": "#2323f0 ← Colors/Brand/700"
+   }
+  ],
+  [
+   "Colors/Text/text-brand-secondary_hover",
+   {
+    "Dark mode": "#0606b5 ← Colors/Brand/800",
+    "Light mode": "#0606b5 ← Colors/Brand/800"
+   }
+  ],
+  [
+   "Colors/Foreground/fg-brand-secondary (500)",
+   {
+    "Dark mode": "#7373f5 ← Colors/Brand/500",
+    "Light mode": "#7373f5 ← Colors/Brand/500"
+   }
+  ],
+  [
+   "Colors/Foreground/fg-brand-secondary_alt",
+   {
+    "Dark mode": "#9090f6 ← Colors/Brand/400",
+    "Light mode": "#9090f6 ← Colors/Brand/400"
+   }
+  ],
+  [
+   "Colors/Foreground/fg-brand-secondary_hover",
+   {
+    "Dark mode": "#9090f6 ← Colors/Brand/400",
+    "Light mode": "#9090f6 ← Colors/Brand/400"
+   }
+  ],
+  [
+   "Colors/Effects/Focus rings/focus-ring-alt",
+   {
+    "Dark mode": "#d0ff00 ← Colors/Green lime/500",
+    "Light mode": "#d0ff00 ← Colors/Green lime/500"
+   }
+  ],
+  [
+   "Colors/Background/bg-brand-secondary_subtle",
+   {
+    "Dark mode": "#f0ffd5 ← Colors/Green lime/200",
+    "Light mode": "#f0ffd5 ← Colors/Green lime/200"
+   }
+  ],
+  [
+   "Colors/Background/bg-avatar-color1",
+   {
+    "Dark mode": "#d9ff75 ← Colors/Green lime/400",
+    "Light mode": "#d9ff75 ← Colors/Green lime/400"
+   }
+  ]
+ ],
+ "target": [
+  {
+   "codeSyntax": {},
+   "collection": "1. Color modes",
+   "description": "",
+   "hidden": false,
+   "id": "VariableID:5363:390066",
+   "modes": {
+    "Dark mode": {
+     "aliasId": "VariableID:17489:6181",
+     "chain": [
+      "Colors/Green lime/500"
+     ],
+     "hex": "#d0ff00"
+    },
+    "Light mode": {
+     "aliasId": "VariableID:17489:6181",
+     "chain": [
+      "Colors/Green lime/500"
+     ],
+     "hex": "#d0ff00"
+    }
+   },
+   "name": "Colors/Background/bg-brand-secondary",
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ]
+  },
+  {
+   "codeSyntax": {},
+   "collection": "1. Color modes",
+   "description": "",
+   "hidden": false,
+   "id": "VariableID:17490:23029",
+   "modes": {
+    "Dark mode": {
+     "aliasId": "VariableID:17489:6180",
+     "chain": [
+      "Colors/Green lime/400"
+     ],
+     "hex": "#d9ff75"
+    },
+    "Light mode": {
+     "aliasId": "VariableID:17489:6180",
+     "chain": [
+      "Colors/Green lime/400"
+     ],
+     "hex": "#d9ff75"
+    }
+   },
+   "name": "Colors/Background/bg-brand-secondary_hover",
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ]
+  }
+ ]
+}

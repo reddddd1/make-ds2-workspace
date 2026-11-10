@@ -32,7 +32,7 @@
 | Limitation | Why nonblocking |
 |---|---|
 | **S-2:** Alert Featured-icon circles stay Light in Dark mode (5 remote bindings) | Known; correct in Light; fix belongs to the deferred Icon-library re-link |
-| Unbound spacing: Button root padding (40), Input inner gaps (46), Alert/Modal header gaps (5) | Values are correct; only token linkage is missing. Fix opportunistically inside the tasks below |
+| ~~Unbound spacing: Button root padding, Input inner gaps, Alert/Modal header gaps~~ | **Resolved 2026-11-10** (C3 + D-G1): 0 hardcoded gaps/paddings in all login components |
 | Primary icon-only Hover/Pressed: unbound gradient border (6 variants) | Skeuomorphic detail inherited from Untitled UI; no Light/Dark impact on the fill |
 | `Link brand` Focused root fill: white at 0.1 % opacity | Invisible hit area, not a Dark defect |
 | Fixed root widths (Input field, Alert, Modal parts) | Instances can be set to Fill in auto layout; responsive sizing is a per-screen choice |
@@ -97,7 +97,8 @@ A login component (Button, Input field, Alert, Modal with `_Modal header` / `_Mo
 **Status against G1–G4** (`component-readiness/gap-spacing-coverage.md`), updated after D-G1 (2026-11-10, `D-G1-spacing/README.md`):
 - **PASS:** Button, Input field, Alert, Modal, `_Modal header`, `_Modal actions`. Hardcoded gaps went 47 → 0 and paddings 156 → 0; bound coverage is 100 %; pixel-identical.
 - **D-G1 done:** `spacing.2_5` (10px) and `spacing.3_5` (14px) were added to the registry and to Figma (`spacing/2_5`, `spacing/3_5` + `3. Spacing` aliases `spacing-2_5`, `spacing-3_5`). 198 values are bound to them, and the 5 × 6px gaps to `spacing-sm`. Nothing is committed yet.
-- **Not yet audited for G1–G4:** Radio / Checkbox. Its readiness audit found no unbound spacing.
+- **Radio / Checkbox: PASS** (2026-11-10, `auth-readiness/gap-audit-radio-checkbox.json`): all 84 variants (Checkbox and Radio; xs, sm, md; Default, Hover, Focused, Disabled; checked, unchecked, indeterminate; with and without text) have 148 Auto Layout frames. Gaps: 48 bound (`spacing-xxs` 2, `spacing-md` 8, `spacing-lg` 12) and 100 zero. Paddings: 32 bound (`spacing-xxs` 2) and 560 zero. 0 hardcoded, primitive or remote. `_Checkbox base` (52) has no Auto Layout (fixed-size boxes), so G1–G4 don't apply.
+- **All seven login component sets PASS G1–G4.** Summary: `auth-readiness/README.md`.
 
 ## Subscription status
 

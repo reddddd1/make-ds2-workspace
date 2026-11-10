@@ -1,0 +1,21 @@
+{
+ "bound": 203,
+ "byVariable": {
+  "spacing-2_5": 162,
+  "spacing-3_5": 36,
+  "spacing-sm": 5
+ },
+ "check": "dg1-bind",
+ "counts": {
+  "Buttons/Button|padding|10": 120,
+  "Buttons/Button|padding|14": 36,
+  "Input field|gap|10": 41,
+  "Input field|gap|6": 5,
+  "_Modal header|gap|10": 1
+ },
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "framesChecked": 541,
+ "instancesChecked": 196,
+ "variantsChecked": 204,
+ "writtenAt": "2026-11-10T06:51:29.957Z"
+}

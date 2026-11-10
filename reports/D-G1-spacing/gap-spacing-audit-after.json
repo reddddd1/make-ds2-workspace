@@ -1,0 +1,186 @@
+{
+ "readAt": "2026-11-10T06:51:51.625Z",
+ "sets": [
+  {
+   "agg": {
+    "gap": {
+     "semantic": 96,
+     "zero": 126
+    },
+    "padding": {
+     "semantic": 648,
+     "zero": 240
+    }
+   },
+   "autoLayoutFrames": 222,
+   "examples": {},
+   "set": "Buttons/Button",
+   "vals": {
+    "gap": {
+     "semantic|3. Spacing › spacing-md|8": 11,
+     "semantic|3. Spacing › spacing-sm|6": 16,
+     "semantic|3. Spacing › spacing-xs|4": 54,
+     "semantic|3. Spacing › spacing-xxs|2": 15,
+     "zero||0": 126
+    },
+    "padding": {
+     "semantic|3. Spacing › spacing-2_5|10": 120,
+     "semantic|3. Spacing › spacing-3_5|14": 36,
+     "semantic|3. Spacing › spacing-lg|12": 96,
+     "semantic|3. Spacing › spacing-md|8": 108,
+     "semantic|3. Spacing › spacing-sm|6": 36,
+     "semantic|3. Spacing › spacing-xl|16": 36,
+     "semantic|3. Spacing › spacing-xs|4": 36,
+     "semantic|3. Spacing › spacing-xxs|2": 180,
+     "zero||0": 240
+    }
+   },
+   "variants": 150
+  },
+  {
+   "agg": {
+    "gap": {
+     "semantic": 298,
+     "zero": 15
+    },
+    "padding": {
+     "semantic": 418,
+     "zero": 834
+    }
+   },
+   "autoLayoutFrames": 313,
+   "examples": {},
+   "set": "Input field",
+   "vals": {
+    "gap": {
+     "semantic|3. Spacing › spacing-2_5|10": 41,
+     "semantic|3. Spacing › spacing-md|8": 39,
+     "semantic|3. Spacing › spacing-none|0": 5,
+     "semantic|3. Spacing › spacing-sm|6": 186,
+     "semantic|3. Spacing › spacing-xs|4": 27,
+     "zero||0": 15
+    },
+    "padding": {
+     "semantic|3. Spacing › spacing-lg|12": 78,
+     "semantic|3. Spacing › spacing-none|0": 56,
+     "semantic|3. Spacing › spacing-sm|6": 92,
+     "semantic|3. Spacing › spacing-xl|16": 106,
+     "semantic|3. Spacing › spacing-xs|4": 86,
+     "zero||0": 834
+    }
+   },
+   "variants": 53
+  },
+  {
+   "agg": {
+    "gap": {
+     "semantic": 20
+    },
+    "padding": {
+     "semantic": 20,
+     "zero": 60
+    }
+   },
+   "autoLayoutFrames": 20,
+   "examples": {},
+   "set": "Alert",
+   "vals": {
+    "gap": {
+     "semantic|3. Spacing › spacing-lg|12": 12,
+     "semantic|3. Spacing › spacing-xl|16": 4,
+     "semantic|3. Spacing › spacing-xs|4": 4
+    },
+    "padding": {
+     "semantic|3. Spacing › spacing-xl|16": 20,
+     "zero||0": 60
+    }
+   },
+   "variants": 4
+  },
+  {
+   "agg": {
+    "gap": {
+     "zero": 3
+    },
+    "padding": {
+     "semantic": 6,
+     "zero": 6
+    }
+   },
+   "autoLayoutFrames": 3,
+   "examples": {},
+   "set": "Modal",
+   "vals": {
+    "gap": {
+     "zero||0": 3
+    },
+    "padding": {
+     "semantic|3. Spacing › spacing-2xl|20": 1,
+     "semantic|3. Spacing › spacing-none|0": 3,
+     "semantic|3. Spacing › spacing-xl|16": 2,
+     "zero||0": 6
+    }
+   },
+   "variants": 1
+  },
+  {
+   "agg": {
+    "gap": {
+     "semantic": 4,
+     "zero": 2
+    },
+    "padding": {
+     "semantic": 3,
+     "zero": 21
+    }
+   },
+   "autoLayoutFrames": 6,
+   "examples": {},
+   "set": "_Modal header",
+   "vals": {
+    "gap": {
+     "semantic|3. Spacing › spacing-2_5|10": 1,
+     "semantic|3. Spacing › spacing-none|0": 1,
+     "semantic|3. Spacing › spacing-xl|16": 1,
+     "semantic|3. Spacing › spacing-xxs|2": 1,
+     "zero||0": 2
+    },
+    "padding": {
+     "semantic|3. Spacing › spacing-none|0": 1,
+     "semantic|3. Spacing › spacing-xl|16": 2,
+     "zero||0": 21
+    }
+   },
+   "variants": 1
+  },
+  {
+   "agg": {
+    "gap": {
+     "semantic": 4,
+     "zero": 6
+    },
+    "padding": {
+     "semantic": 18,
+     "zero": 22
+    }
+   },
+   "autoLayoutFrames": 10,
+   "examples": {},
+   "set": "_Modal actions",
+   "vals": {
+    "gap": {
+     "semantic|3. Spacing › spacing-lg|12": 1,
+     "semantic|3. Spacing › spacing-md|8": 3,
+     "zero||0": 6
+    },
+    "padding": {
+     "semantic|3. Spacing › spacing-3xl|24": 2,
+     "semantic|3. Spacing › spacing-none|0": 3,
+     "semantic|3. Spacing › spacing-xl|16": 13,
+     "zero||0": 22
+    }
+   },
+   "variants": 3
+  }
+ ]
+}

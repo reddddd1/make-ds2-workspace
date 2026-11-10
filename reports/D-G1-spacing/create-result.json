@@ -1,0 +1,71 @@
+{
+ "after": {
+  "prim": 312,
+  "sem": 19
+ },
+ "before": {
+  "prim": 310,
+  "sem": 17
+ },
+ "check": "dg1-create",
+ "created": [
+  {
+   "primitive": {
+    "hidden": true,
+    "id": "VariableID:23540:2",
+    "name": "spacing/2_5",
+    "scopes": [],
+    "value": 10
+   },
+   "semantic": {
+    "alias": {
+     "id": "VariableID:23540:2",
+     "type": "VARIABLE_ALIAS"
+    },
+    "hidden": false,
+    "id": "VariableID:23540:3",
+    "name": "spacing-2_5",
+    "scopes": [
+     "GAP"
+    ]
+   }
+  },
+  {
+   "primitive": {
+    "hidden": true,
+    "id": "VariableID:23540:4",
+    "name": "spacing/3_5",
+    "scopes": [],
+    "value": 14
+   },
+   "semantic": {
+    "alias": {
+     "id": "VariableID:23540:4",
+     "type": "VARIABLE_ALIAS"
+    },
+    "hidden": false,
+    "id": "VariableID:23540:5",
+    "name": "spacing-3_5",
+    "scopes": [
+     "GAP"
+    ]
+   }
+  }
+ ],
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "siblings": {
+  "prim": {
+   "codeSyntax": {},
+   "hidden": true,
+   "scopes": []
+  },
+  "sem": {
+   "codeSyntax": {},
+   "hidden": false,
+   "scopes": [
+    "GAP"
+   ]
+  }
+ },
+ "writtenAt": "2026-11-10T06:48:14.559Z"
+}

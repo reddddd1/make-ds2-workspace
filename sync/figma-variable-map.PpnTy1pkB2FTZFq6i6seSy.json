@@ -787,6 +787,13 @@
    "status": "proposed",
    "lastSynced": null
   },
+  "spacing.2_5": {
+   "collection": "_Primitives",
+   "variableId": "VariableID:23540:2",
+   "figmaName": "spacing/2_5",
+   "status": "proposed",
+   "lastSynced": null
+  },
   "spacing.3": {
    "collection": "_Primitives",
    "variableId": "VariableID:5253:372203",
@@ -812,6 +819,13 @@
    "collection": "_Primitives",
    "variableId": "VariableID:5257:372481",
    "figmaName": "Spacing/360 (1,440px)",
+   "status": "proposed",
+   "lastSynced": null
+  },
+  "spacing.3_5": {
+   "collection": "_Primitives",
+   "variableId": "VariableID:23540:4",
+   "figmaName": "spacing/3_5",
    "status": "proposed",
    "lastSynced": null
   },
@@ -905,6 +919,10 @@
   {
    "at": "2026-11-09T17:54:30.704Z",
    "change": "P2-01 write: created color.gray.450 -> VariableID:23468:2; 11 alias updates (reports/P2-01-sync/write-result.json)"
+  },
+  {
+   "at": "2026-11-10T06:48:14.559Z",
+   "change": "D-G1 write: created spacing.2_5 -> VariableID:23540:2, spacing.3_5 -> VariableID:23540:4 (_Primitives); 3. Spacing aliases spacing-2_5 (VariableID:23540:3), spacing-3_5 (VariableID:23540:5) (reports/D-G1-spacing/create-result.json)"
   }
  ]
 }

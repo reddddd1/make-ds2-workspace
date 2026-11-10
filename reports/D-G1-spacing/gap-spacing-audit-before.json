@@ -1,0 +1,216 @@
+{
+ "readAt": "2026-11-10T06:37:55.155Z",
+ "sets": [
+  {
+   "agg": {
+    "gap": {
+     "semantic": 96,
+     "zero": 126
+    },
+    "padding": {
+     "hardcoded": 156,
+     "semantic": 492,
+     "zero": 240
+    }
+   },
+   "autoLayoutFrames": 222,
+   "examples": {
+    "padding|hardcoded||10": [
+     "md,Primary,Default,False › ROOT .paddingTop",
+     "md,Primary,Default,False › ROOT .paddingBottom",
+     "md,Primary_alt,Default,False › ROOT .paddingTop"
+    ],
+    "padding|hardcoded||14": [
+     "md,Primary,Default,False › ROOT .paddingRight",
+     "md,Primary,Default,False › ROOT .paddingLeft",
+     "md,Primary_alt,Default,False › ROOT .paddingRight"
+    ]
+   },
+   "set": "Buttons/Button",
+   "vals": {
+    "gap": {
+     "semantic|3. Spacing › spacing-md|8": 11,
+     "semantic|3. Spacing › spacing-sm|6": 16,
+     "semantic|3. Spacing › spacing-xs|4": 54,
+     "semantic|3. Spacing › spacing-xxs|2": 15,
+     "zero||0": 126
+    },
+    "padding": {
+     "hardcoded||10": 120,
+     "hardcoded||14": 36,
+     "semantic|3. Spacing › spacing-lg|12": 96,
+     "semantic|3. Spacing › spacing-md|8": 108,
+     "semantic|3. Spacing › spacing-sm|6": 36,
+     "semantic|3. Spacing › spacing-xl|16": 36,
+     "semantic|3. Spacing › spacing-xs|4": 36,
+     "semantic|3. Spacing › spacing-xxs|2": 180,
+     "zero||0": 240
+    }
+   },
+   "variants": 150
+  },
+  {
+   "agg": {
+    "gap": {
+     "hardcoded": 46,
+     "semantic": 252,
+     "zero": 15
+    },
+    "padding": {
+     "semantic": 418,
+     "zero": 834
+    }
+   },
+   "autoLayoutFrames": 313,
+   "examples": {
+    "gap|hardcoded||10": [
+     "sm,Default,False,Filled › ROOT/Input/wrapper/Content/wrapper/optional .itemSpacing",
+     "sm,Default,True,Filled › ROOT/Input/wrapper/Content/wrapper/optional .itemSpacing",
+     "sm,Default,False,Focused › ROOT/Input/Content/wrapper/optional .itemSpacing"
+    ],
+    "gap|hardcoded||6": [
+     "lg,Leading icon,True,Placeholder › ROOT/Input/Input/Content/wrapper .itemSpacing",
+     "sm,Default,True,Placeholder › ROOT/Input/Content/wrapper .itemSpacing",
+     "lg,Payment,False,Filled › ROOT/Input/Input/wrapper/Content/wrapper .itemSpacing"
+    ]
+   },
+   "set": "Input field",
+   "vals": {
+    "gap": {
+     "hardcoded||10": 41,
+     "hardcoded||6": 5,
+     "semantic|3. Spacing › spacing-md|8": 39,
+     "semantic|3. Spacing › spacing-none|0": 5,
+     "semantic|3. Spacing › spacing-sm|6": 181,
+     "semantic|3. Spacing › spacing-xs|4": 27,
+     "zero||0": 15
+    },
+    "padding": {
+     "semantic|3. Spacing › spacing-lg|12": 78,
+     "semantic|3. Spacing › spacing-none|0": 56,
+     "semantic|3. Spacing › spacing-sm|6": 92,
+     "semantic|3. Spacing › spacing-xl|16": 106,
+     "semantic|3. Spacing › spacing-xs|4": 86,
+     "zero||0": 834
+    }
+   },
+   "variants": 53
+  },
+  {
+   "agg": {
+    "gap": {
+     "semantic": 20
+    },
+    "padding": {
+     "semantic": 20,
+     "zero": 60
+    }
+   },
+   "autoLayoutFrames": 20,
+   "examples": {},
+   "set": "Alert",
+   "vals": {
+    "gap": {
+     "semantic|3. Spacing › spacing-lg|12": 12,
+     "semantic|3. Spacing › spacing-xl|16": 4,
+     "semantic|3. Spacing › spacing-xs|4": 4
+    },
+    "padding": {
+     "semantic|3. Spacing › spacing-xl|16": 20,
+     "zero||0": 60
+    }
+   },
+   "variants": 4
+  },
+  {
+   "agg": {
+    "gap": {
+     "zero": 3
+    },
+    "padding": {
+     "semantic": 6,
+     "zero": 6
+    }
+   },
+   "autoLayoutFrames": 3,
+   "examples": {},
+   "set": "Modal",
+   "vals": {
+    "gap": {
+     "zero||0": 3
+    },
+    "padding": {
+     "semantic|3. Spacing › spacing-2xl|20": 1,
+     "semantic|3. Spacing › spacing-none|0": 3,
+     "semantic|3. Spacing › spacing-xl|16": 2,
+     "zero||0": 6
+    }
+   },
+   "variants": 1
+  },
+  {
+   "agg": {
+    "gap": {
+     "hardcoded": 1,
+     "semantic": 3,
+     "zero": 2
+    },
+    "padding": {
+     "semantic": 3,
+     "zero": 21
+    }
+   },
+   "autoLayoutFrames": 6,
+   "examples": {
+    "gap|hardcoded||10": [
+     "Left aligned › ROOT/Content/wrapper .itemSpacing"
+    ]
+   },
+   "set": "_Modal header",
+   "vals": {
+    "gap": {
+     "hardcoded||10": 1,
+     "semantic|3. Spacing › spacing-none|0": 1,
+     "semantic|3. Spacing › spacing-xl|16": 1,
+     "semantic|3. Spacing › spacing-xxs|2": 1,
+     "zero||0": 2
+    },
+    "padding": {
+     "semantic|3. Spacing › spacing-none|0": 1,
+     "semantic|3. Spacing › spacing-xl|16": 2,
+     "zero||0": 21
+    }
+   },
+   "variants": 1
+  },
+  {
+   "agg": {
+    "gap": {
+     "semantic": 4,
+     "zero": 6
+    },
+    "padding": {
+     "semantic": 18,
+     "zero": 22
+    }
+   },
+   "autoLayoutFrames": 10,
+   "examples": {},
+   "set": "_Modal actions",
+   "vals": {
+    "gap": {
+     "semantic|3. Spacing › spacing-lg|12": 1,
+     "semantic|3. Spacing › spacing-md|8": 3,
+     "zero||0": 6
+    },
+    "padding": {
+     "semantic|3. Spacing › spacing-3xl|24": 2,
+     "semantic|3. Spacing › spacing-none|0": 3,
+     "semantic|3. Spacing › spacing-xl|16": 13,
+     "zero||0": 22
+    }
+   },
+   "variants": 3
+  }
+ ]
+}

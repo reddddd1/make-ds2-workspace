@@ -3,8 +3,8 @@
   "node": "v26.13.0",
   "nodeLts": "Lithium",
   "tailwindcss": "4.3.5",
-  "total": 48,
-  "passed": 48,
+  "total": 60,
+  "passed": 60,
   "defaultsObserved": {
    "color-gray-100": "oklch(96.7% 0.003 264.542)",
    "radius-lg": "0.5rem",
@@ -470,6 +470,126 @@
    "got": "oklch(96.7% 0.003 264.542) → #f5f5f5",
    "pass": true,
    "note": "any app screen using bg-gray-100 would change: why C4 is blocked"
+  },
+  {
+   "scenario": "S5",
+   "class": "p-2.5",
+   "expect": [
+    "padding: calc(var(--spacing) * 2.5)"
+   ],
+   "got": "padding: calc(var(--spacing) * 2.5);",
+   "pass": true,
+   "note": "2.5 × 0.25rem = 10px at 16px root"
+  },
+  {
+   "scenario": "S5",
+   "class": "px-3.5",
+   "expect": [
+    "padding-inline: calc(var(--spacing) * 3.5)"
+   ],
+   "got": "padding-inline: calc(var(--spacing) * 3.5);",
+   "pass": true,
+   "note": "3.5 × 0.25rem = 14px at 16px root"
+  },
+  {
+   "scenario": "S5",
+   "class": "py-2.5",
+   "expect": [
+    "padding-block: calc(var(--spacing) * 2.5)"
+   ],
+   "got": "padding-block: calc(var(--spacing) * 2.5);",
+   "pass": true,
+   "note": "2.5 × 0.25rem = 10px at 16px root"
+  },
+  {
+   "scenario": "S5",
+   "class": "gap-2.5",
+   "expect": [
+    "gap: calc(var(--spacing) * 2.5)"
+   ],
+   "got": "gap: calc(var(--spacing) * 2.5);",
+   "pass": true,
+   "note": "2.5 × 0.25rem = 10px at 16px root"
+  },
+  {
+   "scenario": "S5",
+   "class": "gap-3.5",
+   "expect": [
+    "gap: calc(var(--spacing) * 3.5)"
+   ],
+   "got": "gap: calc(var(--spacing) * 3.5);",
+   "pass": true,
+   "note": "3.5 × 0.25rem = 14px at 16px root"
+  },
+  {
+   "scenario": "S5",
+   "class": "p-2",
+   "expect": [
+    "padding: calc(var(--spacing) * 2)"
+   ],
+   "got": "padding: calc(var(--spacing) * 2);",
+   "pass": true,
+   "note": "existing step unchanged"
+  },
+  {
+   "scenario": "S5",
+   "class": "p-3",
+   "expect": [
+    "padding: calc(var(--spacing) * 3)"
+   ],
+   "got": "padding: calc(var(--spacing) * 3);",
+   "pass": true,
+   "note": "existing step unchanged"
+  },
+  {
+   "scenario": "S5",
+   "class": "p-0.5",
+   "expect": [
+    "padding: calc(var(--spacing) * 0.5)"
+   ],
+   "got": "padding: calc(var(--spacing) * 0.5);",
+   "pass": true,
+   "note": "existing step unchanged"
+  },
+  {
+   "scenario": "S5",
+   "class": "p-1.5",
+   "expect": [
+    "padding: calc(var(--spacing) * 1.5)"
+   ],
+   "got": "padding: calc(var(--spacing) * 1.5);",
+   "pass": true,
+   "note": "existing step unchanged"
+  },
+  {
+   "scenario": "S5",
+   "class": "px-4",
+   "expect": [
+    "padding-inline: calc(var(--spacing) * 4)"
+   ],
+   "got": "padding-inline: calc(var(--spacing) * 4);",
+   "pass": true,
+   "note": "existing step unchanged"
+  },
+  {
+   "scenario": "S5",
+   "class": "gap-1",
+   "expect": [
+    "gap: var(--spacing);"
+   ],
+   "got": "gap: var(--spacing);",
+   "pass": true,
+   "note": "existing step unchanged"
+  },
+  {
+   "scenario": "S5",
+   "class": "p-2.5",
+   "expect": [
+    "padding"
+   ],
+   "got": "padding: calc(var(--spacing) * 2.5);",
+   "pass": true,
+   "note": "no per-step --spacing-* variable is emitted"
   }
  ]
 }

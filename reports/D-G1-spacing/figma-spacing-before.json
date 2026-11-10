@@ -1,0 +1,720 @@
+{
+ "check": "variables",
+ "collections": [
+  {
+   "count": 32,
+   "id": "VariableCollectionId:5248:377685",
+   "modes": [
+    "Style"
+   ],
+   "name": "_Primitives",
+   "variables": [
+    {
+     "hidden": true,
+     "id": "VariableID:5253:372198",
+     "name": "Spacing/0 (0px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 0
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5253:372200",
+     "name": "Spacing/0․5 (2px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 2
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5253:372201",
+     "name": "Spacing/1 (4px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 4
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5263:372520",
+     "name": "Spacing/1․5 (6px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 6
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5253:372202",
+     "name": "Spacing/2 (8px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 8
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5253:372203",
+     "name": "spacing/3",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 12
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5253:372204",
+     "name": "Spacing/4 (16px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 16
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5253:372205",
+     "name": "Spacing/5 (20px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 20
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5253:372206",
+     "name": "Spacing/6 (24px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 24
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5253:372207",
+     "name": "Spacing/8 (32px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 32
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5253:372208",
+     "name": "Spacing/10 (40px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 40
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5253:372209",
+     "name": "Spacing/12 (48px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 48
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5253:372210",
+     "name": "Spacing/16 (64px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 64
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5253:372211",
+     "name": "Spacing/20 (80px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 80
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5253:372212",
+     "name": "Spacing/24 (96px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 96
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5253:372213",
+     "name": "Spacing/32 (128px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 128
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5253:372214",
+     "name": "Spacing/40 (160px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 160
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5253:372215",
+     "name": "Spacing/48 (192px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 192
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5253:372216",
+     "name": "Spacing/56 (224px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 224
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5253:372217",
+     "name": "Spacing/64 (256px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 256
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5257:372475",
+     "name": "Spacing/80 (320px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 320
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5253:372218",
+     "name": "Spacing/96 (384px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 384
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5257:372476",
+     "name": "Spacing/120 (480px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 480
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:6363:125204",
+     "name": "Spacing/140 (560px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 560
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5257:372477",
+     "name": "Spacing/160 (640px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 640
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:6379:57497",
+     "name": "Spacing/180 (720px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 720
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5257:372478",
+     "name": "Spacing/192 (768px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 768
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5257:372479",
+     "name": "Spacing/256 (1,024px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 1024
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5257:372480",
+     "name": "Spacing/320 (1,280px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 1280
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5257:372481",
+     "name": "Spacing/360 (1,440px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 1440
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5257:372482",
+     "name": "Spacing/400 (1,600px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 1600
+     }
+    },
+    {
+     "hidden": true,
+     "id": "VariableID:5257:372483",
+     "name": "Spacing/480 (1,920px)",
+     "remote": false,
+     "scopeList": [],
+     "scopes": 0,
+     "type": "FLOAT",
+     "values": {
+      "Style": 1920
+     }
+    }
+   ]
+  },
+  {
+   "count": 17,
+   "id": "VariableCollectionId:6298:45383",
+   "modes": [
+    "Mode 1"
+   ],
+   "name": "3. Spacing",
+   "variables": [
+    {
+     "hidden": false,
+     "id": "VariableID:6298:45384",
+     "name": "spacing-none",
+     "remote": false,
+     "scopeList": [
+      "GAP"
+     ],
+     "scopes": 1,
+     "type": "FLOAT",
+     "values": {
+      "Mode 1": {
+       "alias": "VariableID:5253:372198",
+       "collection": "_Primitives",
+       "name": "Spacing/0 (0px)"
+      }
+     }
+    },
+    {
+     "hidden": false,
+     "id": "VariableID:6298:45385",
+     "name": "spacing-xxs",
+     "remote": false,
+     "scopeList": [
+      "GAP"
+     ],
+     "scopes": 1,
+     "type": "FLOAT",
+     "values": {
+      "Mode 1": {
+       "alias": "VariableID:5253:372200",
+       "collection": "_Primitives",
+       "name": "Spacing/0․5 (2px)"
+      }
+     }
+    },
+    {
+     "hidden": false,
+     "id": "VariableID:6298:45386",
+     "name": "spacing-xs",
+     "remote": false,
+     "scopeList": [
+      "GAP"
+     ],
+     "scopes": 1,
+     "type": "FLOAT",
+     "values": {
+      "Mode 1": {
+       "alias": "VariableID:5253:372201",
+       "collection": "_Primitives",
+       "name": "Spacing/1 (4px)"
+      }
+     }
+    },
+    {
+     "hidden": false,
+     "id": "VariableID:6425:327765",
+     "name": "spacing-sm",
+     "remote": false,
+     "scopeList": [
+      "GAP"
+     ],
+     "scopes": 1,
+     "type": "FLOAT",
+     "values": {
+      "Mode 1": {
+       "alias": "VariableID:5263:372520",
+       "collection": "_Primitives",
+       "name": "Spacing/1․5 (6px)"
+      }
+     }
+    },
+    {
+     "hidden": false,
+     "id": "VariableID:6298:45387",
+     "name": "spacing-md",
+     "remote": false,
+     "scopeList": [
+      "GAP"
+     ],
+     "scopes": 1,
+     "type": "FLOAT",
+     "values": {
+      "Mode 1": {
+       "alias": "VariableID:5253:372202",
+       "collection": "_Primitives",
+       "name": "Spacing/2 (8px)"
+      }
+     }
+    },
+    {
+     "hidden": false,
+     "id": "VariableID:6298:45389",
+     "name": "spacing-lg",
+     "remote": false,
+     "scopeList": [
+      "GAP"
+     ],
+     "scopes": 1,
+     "type": "FLOAT",
+     "values": {
+      "Mode 1": {
+       "alias": "VariableID:5253:372203",
+       "collection": "_Primitives",
+       "name": "spacing/3"
+      }
+     }
+    },
+    {
+     "hidden": false,
+     "id": "VariableID:6298:45390",
+     "name": "spacing-xl",
+     "remote": false,
+     "scopeList": [
+      "GAP"
+     ],
+     "scopes": 1,
+     "type": "FLOAT",
+     "values": {
+      "Mode 1": {
+       "alias": "VariableID:5253:372204",
+       "collection": "_Primitives",
+       "name": "Spacing/4 (16px)"
+      }
+     }
+    },
+    {
+     "hidden": false,
+     "id": "VariableID:6298:45391",
+     "name": "spacing-2xl",
+     "remote": false,
+     "scopeList": [
+      "GAP"
+     ],
+     "scopes": 1,
+     "type": "FLOAT",
+     "values": {
+      "Mode 1": {
+       "alias": "VariableID:5253:372205",
+       "collection": "_Primitives",
+       "name": "Spacing/5 (20px)"
+      }
+     }
+    },
+    {
+     "hidden": false,
+     "id": "VariableID:6298:45392",
+     "name": "spacing-3xl",
+     "remote": false,
+     "scopeList": [
+      "GAP"
+     ],
+     "scopes": 1,
+     "type": "FLOAT",
+     "values": {
+      "Mode 1": {
+       "alias": "VariableID:5253:372206",
+       "collection": "_Primitives",
+       "name": "Spacing/6 (24px)"
+      }
+     }
+    },
+    {
+     "hidden": false,
+     "id": "VariableID:6298:45393",
+     "name": "spacing-4xl",
+     "remote": false,
+     "scopeList": [
+      "GAP"
+     ],
+     "scopes": 1,
+     "type": "FLOAT",
+     "values": {
+      "Mode 1": {
+       "alias": "VariableID:5253:372207",
+       "collection": "_Primitives",
+       "name": "Spacing/8 (32px)"
+      }
+     }
+    },
+    {
+     "hidden": false,
+     "id": "VariableID:6433:93631",
+     "name": "spacing-5xl",
+     "remote": false,
+     "scopeList": [
+      "GAP"
+     ],
+     "scopes": 1,
+     "type": "FLOAT",
+     "values": {
+      "Mode 1": {
+       "alias": "VariableID:5253:372208",
+       "collection": "_Primitives",
+       "name": "Spacing/10 (40px)"
+      }
+     }
+    },
+    {
+     "hidden": false,
+     "id": "VariableID:6298:45394",
+     "name": "spacing-6xl",
+     "remote": false,
+     "scopeList": [
+      "GAP"
+     ],
+     "scopes": 1,
+     "type": "FLOAT",
+     "values": {
+      "Mode 1": {
+       "alias": "VariableID:5253:372209",
+       "collection": "_Primitives",
+       "name": "Spacing/12 (48px)"
+      }
+     }
+    },
+    {
+     "hidden": false,
+     "id": "VariableID:6298:45395",
+     "name": "spacing-7xl",
+     "remote": false,
+     "scopeList": [
+      "GAP"
+     ],
+     "scopes": 1,
+     "type": "FLOAT",
+     "values": {
+      "Mode 1": {
+       "alias": "VariableID:5253:372210",
+       "collection": "_Primitives",
+       "name": "Spacing/16 (64px)"
+      }
+     }
+    },
+    {
+     "hidden": false,
+     "id": "VariableID:6298:45396",
+     "name": "spacing-8xl",
+     "remote": false,
+     "scopeList": [
+      "GAP"
+     ],
+     "scopes": 1,
+     "type": "FLOAT",
+     "values": {
+      "Mode 1": {
+       "alias": "VariableID:5253:372211",
+       "collection": "_Primitives",
+       "name": "Spacing/20 (80px)"
+      }
+     }
+    },
+    {
+     "hidden": false,
+     "id": "VariableID:6298:45397",
+     "name": "spacing-9xl",
+     "remote": false,
+     "scopeList": [
+      "GAP"
+     ],
+     "scopes": 1,
+     "type": "FLOAT",
+     "values": {
+      "Mode 1": {
+       "alias": "VariableID:5253:372212",
+       "collection": "_Primitives",
+       "name": "Spacing/24 (96px)"
+      }
+     }
+    },
+    {
+     "hidden": false,
+     "id": "VariableID:6298:45398",
+     "name": "spacing-10xl",
+     "remote": false,
+     "scopeList": [
+      "GAP"
+     ],
+     "scopes": 1,
+     "type": "FLOAT",
+     "values": {
+      "Mode 1": {
+       "alias": "VariableID:5253:372213",
+       "collection": "_Primitives",
+       "name": "Spacing/32 (128px)"
+      }
+     }
+    },
+    {
+     "hidden": false,
+     "id": "VariableID:6298:45399",
+     "name": "spacing-11xl",
+     "remote": false,
+     "scopeList": [
+      "GAP"
+     ],
+     "scopes": 1,
+     "type": "FLOAT",
+     "values": {
+      "Mode 1": {
+       "alias": "VariableID:5253:372214",
+       "collection": "_Primitives",
+       "name": "Spacing/40 (160px)"
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "prefix": "",
+ "readAt": "2026-11-10T06:47:16.251Z",
+ "run": "dg1-before",
+ "slim": false
+}

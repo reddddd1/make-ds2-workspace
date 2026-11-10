@@ -78,6 +78,27 @@ Per task, validation stays targeted: E1 for the changed set only, binding and in
 2. **Spacing decision for 10 px.** Either add a 10 px spacing token (a token change, approval needed) or accept unlinked 10 px paddings in Button and Input. Nonblocking.
 3. **Modal (P2-07):** native Slot migration, still pending Library analytics; `_Modal header` close icon not swappable (minor).
 
+## 6. Login-component readiness criteria (incl. gap coverage, added 2026-11-10)
+
+A login component (Button, Input field, Alert, Modal with `_Modal header` / `_Modal actions`, Radio / Checkbox) is **ready** when all of the following hold on its main components:
+
+| # | Criterion | Check |
+|---|---|---|
+| R1 | Variants and states needed by the screens exist (incl. Disabled, Pressed where applicable) | Variant inventory |
+| R2 | User-editable content is available as component properties (TEXT / BOOLEAN / exposed nested instances) | Readiness audit `textNoProp`, `hiddenNoProp` |
+| R3 | Icons swappable (exposed or INSTANCE_SWAP) and from the MAKER Icon library | `iconNotSwappable` = 0 (close icons excepted, documented) |
+| R4 | Colours bound to semantic Light/Dark variables (no primitive-bound colour, no unbound visible paint except documented ones) | `primitiveColour`, `unboundPaint` |
+| R5 | Light and Dark verified (values; visual where a frame test exists) | Dark-mode frame test / binding check |
+| **G1** | **Every Auto Layout gap and padding > 0 is bound to a spacing variable** (`3. Spacing` semantic, or a registry-backed `spacing.*` primitive) | `gap-spacing-audit.js` hardcoded = 0 |
+| **G2** | **No remote spacing bindings; primitive spacing bindings only where no semantic step exists** | `gap-spacing-audit.js` |
+| **G3** | **Unbound 0 and `SPACE_BETWEEN` gaps are allowed** | — |
+| **G4** | **Binding changes preserve values and layout** (pixel-identical) | Pixel diff + E1 scoped regression |
+
+**Status against G1–G4** (`component-readiness/gap-spacing-coverage.md`), updated after D-G1 (2026-11-10, `D-G1-spacing/README.md`):
+- **PASS:** Button, Input field, Alert, Modal, `_Modal header`, `_Modal actions`. Hardcoded gaps went 47 → 0 and paddings 156 → 0; bound coverage is 100 %; pixel-identical.
+- **D-G1 done:** `spacing.2_5` (10px) and `spacing.3_5` (14px) were added to the registry and to Figma (`spacing/2_5`, `spacing/3_5` + `3. Spacing` aliases `spacing-2_5`, `spacing-3_5`). 198 values are bound to them, and the 5 × 6px gaps to `spacing-sm`. Nothing is committed yet.
+- **Not yet audited for G1–G4:** Radio / Checkbox. Its readiness audit found no unbound spacing.
+
 ## Subscription status
 
 Tokens Studio Free (not used) · unblocked · no paid features · no upgrade.

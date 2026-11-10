@@ -123,6 +123,18 @@ const s4 = await build('S4-override-hazard', THEME + '@theme { --color-gray-100:
 const grayDefault = defaultsS1['color-gray-100'], grayOverride = varValue(s4, '--color-gray-100');
 results.push({ scenario: 'S4', class: 'bg-gray-100', expect: 'value changes from the default (hazard)', got: `${grayDefault} → ${grayOverride}`, pass: grayDefault !== grayOverride, note: 'any app screen using bg-gray-100 would change: why C4 is blocked' });
 
+// ---------------- S5: D-G1 spacing steps 2.5 (10px) and 3.5 (14px) — multiplier utilities, nothing emitted ----------------
+// Registry spacing tokens are never emitted as theme keys (convention §4: one `--spacing` multiplier), so adding
+// spacing.2_5 / spacing.3_5 cannot alter any utility. Proof: the same build with/without the registry change is identical
+// (there is no spacing output at all), and the new steps resolve through the default multiplier.
+const S5c = ['p-2.5', 'px-3.5', 'py-2.5', 'gap-2.5', 'gap-3.5', 'p-2', 'p-3', 'p-0.5', 'p-1.5', 'px-4', 'gap-1'];
+const s5 = await build('S5-spacing-2_5-3_5', THEME, S5c);
+for (const [cls, prop, n] of [['p-2.5', 'padding', '2.5'], ['px-3.5', 'padding-inline', '3.5'], ['py-2.5', 'padding-block', '2.5'], ['gap-2.5', 'gap', '2.5'], ['gap-3.5', 'gap', '3.5']])
+  check('S5', cls, s5, [`${prop}: calc(var(--spacing) * ${n})`], `${n} × 0.25rem = ${Number(n) * 4}px at 16px root`);
+for (const [cls, prop, n] of [['p-2', 'padding', '2'], ['p-3', 'padding', '3'], ['p-0.5', 'padding', '0.5'], ['p-1.5', 'padding', '1.5'], ['px-4', 'padding-inline', '4'], ['gap-1', 'gap', '1']])
+  check('S5', cls, s5, [n === '1' ? `${prop}: var(--spacing);` : `${prop}: calc(var(--spacing) * ${n})`], 'existing step unchanged');
+check('S5', 'p-2.5', s5.includes('--spacing-2') ? '' : s5, ['padding'], 'no per-step --spacing-* variable is emitted');
+
 // ---------------- Tailwind default theme variables (authoritative list for the collision check) ----------------
 const themeCss = fs.readFileSync(path.join(twPkgDir, 'theme.css'), 'utf8');
 const vars = {};

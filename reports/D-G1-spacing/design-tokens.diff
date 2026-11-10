@@ -1,0 +1,536 @@
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 84e4fa1..9261642 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -4,6 +4,8 @@ Token changes only. Each entry links to its proposal. No releases yet (see ADR-0
+ 
+ ## Unreleased
+ 
++- Added `spacing.2_5` (10px) and `spacing.3_5` (14px) to `tokens/primitives/spacing.tokens.json` (Tailwind `p-2.5` / `px-3.5`; previously hardcoded in Button md padding, Input field optional-tag gap and Modal header gap). No other token changed. Proposal 0007; approved by Mike 2026-11-10 ("MAKE DS2 — D-G1 Approved: Spacing Coverage. I approve Option A for D-G1.").
++
+ - Metadata only (no token key, value, alias or type change): `$extensions["com.make.source"]` of the 11 tokens renamed in the Figma naming pilot gets `figma` = current name in the refactor duplicate, `figmaLegacy` = previous name, and `figmaVariableId` (stable ID, TOKEN-CONTRACT §5); `color.gray.450` gets `figma` + `figmaVariableId`. 17 entries in 6 files; preflight: keys/values/aliases unchanged, `dist/` identical except `builtAt`, `npm run check` 29/29. Evidence: make-ds2-workspace `reports/token-naming-stale-names.md`. Approved by Mike 2026-11-09 ("Apply the 17 registry metadata-only updates after automated preflight confirms no token keys, values, aliases, or generated outputs change").
+ 
+ - Repository created. No approved tokens yet.
+diff --git a/tokens/primitives/spacing.tokens.json b/tokens/primitives/spacing.tokens.json
+index 24a6108..ff830ef 100644
+--- a/tokens/primitives/spacing.tokens.json
++++ b/tokens/primitives/spacing.tokens.json
+@@ -36,6 +36,20 @@
+         }
+       }
+     },
++    "2_5": {
++      "$value": {
++        "value": 10,
++        "unit": "px"
++      },
++      "$description": "Added for D-G1 (2026-11-10): Button md vertical padding, Input field optional-tag gap and Modal header text gap (previously hardcoded 10px).",
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 2.5",
++          "figma": "spacing/2_5",
++          "figmaVariableId": "VariableID:23540:2"
++        }
++      }
++    },
+     "3": {
+       "$value": {
+         "value": 12,
+@@ -50,6 +64,20 @@
+         }
+       }
+     },
++    "3_5": {
++      "$value": {
++        "value": 14,
++        "unit": "px"
++      },
++      "$description": "Added for D-G1 (2026-11-10): Button md horizontal padding (previously hardcoded 14px).",
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 3.5",
++          "figma": "spacing/3_5",
++          "figmaVariableId": "VariableID:23540:4"
++        }
++      }
++    },
+     "4": {
+       "$value": {
+         "value": 16,
+diff --git a/proposals/0007-spacing-2-5-3-5/PROPOSAL.md b/proposals/0007-spacing-2-5-3-5/PROPOSAL.md
+new file mode 100644
+index 0000000..d3d6c9f
+--- /dev/null
++++ b/proposals/0007-spacing-2-5-3-5/PROPOSAL.md
+@@ -0,0 +1,45 @@
++# Proposal 0007: Spacing steps 2.5 (10px) and 3.5 (14px)
++
++- **Status:** ✅ Approved and merged (2026-11-10), decision D-G1 Option A
++- **Method:** read-only gap/padding audit of the login components in the refactor duplicate `PpnTy1pkB2FTZFq6i6seSy` (make-ds2-workspace `scripts/components/gap-spacing-audit.js`, report `reports/component-readiness/gap-spacing-coverage.md`).
++- **Files:** `tokens/primitives/spacing.tokens.json`: 2 entries added (`spacing.2_5`, `spacing.3_5`). No other key, value, alias or type changes.
++
++## Why
++
++198 Auto Layout values in the login components are hardcoded at 10px or 14px, values that exist nowhere in the registry or in Figma:
++
++| Where | Field | Value | Count |
++|---|---|---|---|
++| Button root, md | padding top/bottom | 10 | 120 |
++| Button root, md | padding left/right | 14 | 36 |
++| Input field `optional` tag | gap | 10 | 41 |
++| `_Modal header` `Content/wrapper` | gap | 10 | 1 |
++
++They are inherited Untitled UI values (button md = 10 × 14). Option A keeps them unchanged and makes them tokens.
++
++## Tokens
++
++| Token | Value | Tailwind | Figma primitive | Figma semantic alias (`3. Spacing`) |
++|---|---|---|---|---|
++| `spacing.2_5` | 10px | `--spacing × 2.5` (`p-2.5`, `gap-2.5`) | `spacing/2_5` | `spacing-2_5` |
++| `spacing.3_5` | 14px | `--spacing × 3.5` (`px-3.5`) | `spacing/3_5` | `spacing-3_5` |
++
++Key style follows the existing fractional steps (`0_5`, `1_5`): `_` in the key, `.` in the Tailwind class.
++
++## Alternatives
++
++- **B:** document 10/14 as exceptions (no token). Rejected: leaves 198 unbound values.
++- **C:** snap to 8/12/16. Rejected: changes Button and Input layout.
++- Role names (`gap-tight` / `gap-default` / `gap-loose`): not added (explicitly excluded by D-G1).
++
++## Validation
++
++- `npm run validate`: ✔ primitives 118 → 120, semantic and themes unchanged (8 / 11 / 11)
++- `npm run check`: 29/29 tests pass before and after
++- `dist/` diff (`build:paper-kit`, light and dark): only `spacing.2_5` and `spacing.3_5` added; 137 → 139 resolved tokens; none removed or changed (apart from `builtAt`)
++- Naming collision checks C1–C13: unchanged
++- Tailwind 4.3.5 compile (workspace `scripts/naming/compile-check.mjs`, scenario S5): `p-2.5` → `padding: calc(var(--spacing) * 2.5)`, `px-3.5` → `padding-inline: calc(var(--spacing) * 3.5)`, `gap-2.5`, `gap-3.5`, `py-2.5` likewise; existing `p-0.5`, `p-1.5`, `p-2`, `p-3`, `px-4`, `gap-1` unchanged; no per-step variable emitted. 60/60.
++
++## Approval
++
++Mike, 2026-11-10: "MAKE DS2 — D-G1 Approved: Spacing Coverage. I approve Option A for D-G1." Alias names `spacing-2_5` / `spacing-3_5` chosen by Mike the same day.
+diff --git a/proposals/0007-spacing-2-5-3-5/tokens/primitives/spacing.tokens.json b/proposals/0007-spacing-2-5-3-5/tokens/primitives/spacing.tokens.json
+new file mode 100644
+index 0000000..ff830ef
+--- /dev/null
++++ b/proposals/0007-spacing-2-5-3-5/tokens/primitives/spacing.tokens.json
+@@ -0,0 +1,420 @@
++{
++  "spacing": {
++    "0": {
++      "$value": {
++        "value": 0,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 0",
++          "figma": "Spacing/0 (0px)"
++        }
++      }
++    },
++    "1": {
++      "$value": {
++        "value": 4,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 1",
++          "figma": "Spacing/1 (4px)"
++        }
++      }
++    },
++    "2": {
++      "$value": {
++        "value": 8,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 2",
++          "figma": "Spacing/2 (8px)"
++        }
++      }
++    },
++    "2_5": {
++      "$value": {
++        "value": 10,
++        "unit": "px"
++      },
++      "$description": "Added for D-G1 (2026-11-10): Button md vertical padding, Input field optional-tag gap and Modal header text gap (previously hardcoded 10px).",
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 2.5",
++          "figma": "spacing/2_5",
++          "figmaVariableId": "VariableID:23540:2"
++        }
++      }
++    },
++    "3": {
++      "$value": {
++        "value": 12,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 3",
++          "figma": "spacing/3",
++          "figmaLegacy": "Spacing/3 (12px)",
++          "figmaVariableId": "VariableID:5253:372203"
++        }
++      }
++    },
++    "3_5": {
++      "$value": {
++        "value": 14,
++        "unit": "px"
++      },
++      "$description": "Added for D-G1 (2026-11-10): Button md horizontal padding (previously hardcoded 14px).",
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 3.5",
++          "figma": "spacing/3_5",
++          "figmaVariableId": "VariableID:23540:4"
++        }
++      }
++    },
++    "4": {
++      "$value": {
++        "value": 16,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 4",
++          "figma": "Spacing/4 (16px)"
++        }
++      }
++    },
++    "5": {
++      "$value": {
++        "value": 20,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 5",
++          "figma": "Spacing/5 (20px)"
++        }
++      }
++    },
++    "6": {
++      "$value": {
++        "value": 24,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 6",
++          "figma": "Spacing/6 (24px)"
++        }
++      }
++    },
++    "8": {
++      "$value": {
++        "value": 32,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 8",
++          "figma": "Spacing/8 (32px)"
++        }
++      }
++    },
++    "10": {
++      "$value": {
++        "value": 40,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 10",
++          "figma": "Spacing/10 (40px)"
++        }
++      }
++    },
++    "12": {
++      "$value": {
++        "value": 48,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 12",
++          "figma": "Spacing/12 (48px)"
++        }
++      }
++    },
++    "16": {
++      "$value": {
++        "value": 64,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 16",
++          "figma": "Spacing/16 (64px)"
++        }
++      }
++    },
++    "20": {
++      "$value": {
++        "value": 80,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 20",
++          "figma": "Spacing/20 (80px)"
++        }
++      }
++    },
++    "24": {
++      "$value": {
++        "value": 96,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 24",
++          "figma": "Spacing/24 (96px)"
++        }
++      }
++    },
++    "32": {
++      "$value": {
++        "value": 128,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 32",
++          "figma": "Spacing/32 (128px)"
++        }
++      }
++    },
++    "40": {
++      "$value": {
++        "value": 160,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 40",
++          "figma": "Spacing/40 (160px)"
++        }
++      }
++    },
++    "48": {
++      "$value": {
++        "value": 192,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 48",
++          "figma": "Spacing/48 (192px)"
++        }
++      }
++    },
++    "56": {
++      "$value": {
++        "value": 224,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 56",
++          "figma": "Spacing/56 (224px)"
++        }
++      }
++    },
++    "64": {
++      "$value": {
++        "value": 256,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 64",
++          "figma": "Spacing/64 (256px)"
++        }
++      }
++    },
++    "80": {
++      "$value": {
++        "value": 320,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 80",
++          "figma": "Spacing/80 (320px)"
++        }
++      }
++    },
++    "96": {
++      "$value": {
++        "value": 384,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 96",
++          "figma": "Spacing/96 (384px)"
++        }
++      }
++    },
++    "120": {
++      "$value": {
++        "value": 480,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 120",
++          "figma": "Spacing/120 (480px)"
++        }
++      }
++    },
++    "140": {
++      "$value": {
++        "value": 560,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 140",
++          "figma": "Spacing/140 (560px)"
++        }
++      }
++    },
++    "160": {
++      "$value": {
++        "value": 640,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 160",
++          "figma": "Spacing/160 (640px)"
++        }
++      }
++    },
++    "180": {
++      "$value": {
++        "value": 720,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 180",
++          "figma": "Spacing/180 (720px)"
++        }
++      }
++    },
++    "192": {
++      "$value": {
++        "value": 768,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 192",
++          "figma": "Spacing/192 (768px)"
++        }
++      }
++    },
++    "256": {
++      "$value": {
++        "value": 1024,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 256",
++          "figma": "Spacing/256 (1,024px)"
++        }
++      }
++    },
++    "320": {
++      "$value": {
++        "value": 1280,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 320",
++          "figma": "Spacing/320 (1,280px)"
++        }
++      }
++    },
++    "360": {
++      "$value": {
++        "value": 1440,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 360",
++          "figma": "Spacing/360 (1,440px)"
++        }
++      }
++    },
++    "400": {
++      "$value": {
++        "value": 1600,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 400",
++          "figma": "Spacing/400 (1,600px)"
++        }
++      }
++    },
++    "480": {
++      "$value": {
++        "value": 1920,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 480",
++          "figma": "Spacing/480 (1,920px)"
++        }
++      }
++    },
++    "$type": "dimension",
++    "$description": "Tailwind v4 spacing scale (n × 4px). Every step matches a Figma _Primitives Spacing variable exactly.",
++    "0_5": {
++      "$value": {
++        "value": 2,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 0.5",
++          "figma": "Spacing/0․5 (2px)"
++        }
++      }
++    },
++    "1_5": {
++      "$value": {
++        "value": 6,
++        "unit": "px"
++      },
++      "$extensions": {
++        "com.make.source": {
++          "tailwind": "--spacing × 1.5",
++          "figma": "Spacing/1․5 (6px)"
++        }
++      }
++    }
++  }
++}

@@ -1,0 +1,103 @@
+{
+ "check": "button-spinner-colours",
+ "out": {
+  "Link brand / text": {
+   "dark": {
+    "arc": "fg-brand-secondary_alt=#9090f6",
+    "button": null,
+    "track": "fg-brand-secondary_alt=#9090f6"
+   },
+   "light": {
+    "arc": "fg-brand-secondary_alt=#9090f6",
+    "button": null,
+    "track": "fg-brand-secondary_alt=#9090f6"
+   },
+   "spinnerVisible": true,
+   "variant": "Size=md, Hierarchy=Link brand, State=Loading, Icon only=False"
+  },
+  "Primary / icon": {
+   "dark": {
+    "arc": "button-primary-icon=#ababf8",
+    "button": "brand-primary=#5656f3",
+    "track": "button-primary-icon=#ababf8"
+   },
+   "light": {
+    "arc": "button-primary-icon=#ababf8",
+    "button": "brand-primary=#5656f3",
+    "track": "button-primary-icon=#ababf8"
+   },
+   "spinnerVisible": true,
+   "variant": "Size=md, Hierarchy=Primary, State=Loading, Icon only=True"
+  },
+  "Primary / text": {
+   "dark": {
+    "arc": "button-primary-icon=#ababf8",
+    "button": "brand-primary=#5656f3",
+    "track": "button-primary-icon=#ababf8"
+   },
+   "light": {
+    "arc": "button-primary-icon=#ababf8",
+    "button": "brand-primary=#5656f3",
+    "track": "button-primary-icon=#ababf8"
+   },
+   "spinnerVisible": true,
+   "variant": "Size=md, Hierarchy=Primary, State=Loading, Icon only=False"
+  },
+  "Primary_alt / icon": {
+   "dark": {
+    "arc": "fg-primary (900)=#ffffff",
+    "button": "bg-brand-secondary=#d0ff00",
+    "track": "button-primary-icon=#ababf8"
+   },
+   "light": {
+    "arc": "fg-primary (900)=#0a0d12",
+    "button": "bg-brand-secondary=#d0ff00",
+    "track": "button-primary-icon=#ababf8"
+   },
+   "spinnerVisible": true,
+   "variant": "Size=md, Hierarchy=Primary_alt, State=Loading, Icon only=True"
+  },
+  "Primary_alt / text": {
+   "dark": {
+    "arc": "fg-primary (900)=#ffffff",
+    "button": "bg-brand-secondary=#d0ff00",
+    "track": "alpha-black-50=#ffffff80"
+   },
+   "light": {
+    "arc": "fg-primary (900)=#0a0d12",
+    "button": "bg-brand-secondary=#d0ff00",
+    "track": "alpha-black-50=#00000080"
+   },
+   "spinnerVisible": true,
+   "variant": "Size=md, Hierarchy=Primary_alt, State=Loading, Icon only=False"
+  },
+  "Secondary / icon": {
+   "dark": {
+    "arc": "fg-brand-secondary_alt=#9090f6",
+    "button": "utility-brand-25=#13161b",
+    "track": "fg-brand-secondary_alt=#9090f6"
+   },
+   "light": {
+    "arc": "fg-brand-secondary_alt=#9090f6",
+    "button": "utility-brand-25=#fafaff",
+    "track": "fg-brand-secondary_alt=#9090f6"
+   },
+   "spinnerVisible": true,
+   "variant": "Size=md, Hierarchy=Secondary, State=Loading, Icon only=True"
+  },
+  "Secondary / text": {
+   "dark": {
+    "arc": "fg-brand-secondary_alt=#9090f6",
+    "button": "utility-brand-25=#13161b",
+    "track": "fg-brand-secondary_alt=#9090f6"
+   },
+   "light": {
+    "arc": "fg-brand-secondary_alt=#9090f6",
+    "button": "utility-brand-25=#fafaff",
+    "track": "fg-brand-secondary_alt=#9090f6"
+   },
+   "spinnerVisible": true,
+   "variant": "Size=md, Hierarchy=Secondary, State=Loading, Icon only=False"
+  }
+ }
+}

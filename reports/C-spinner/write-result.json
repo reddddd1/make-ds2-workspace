@@ -1,0 +1,53 @@
+{
+ "check": "loading-indicator-hug",
+ "variants": [
+  [
+   "Style=Line simple, Size=md",
+   66,
+   84,
+   783
+  ],
+  [
+   "Style=Line simple, Size=sm",
+   66,
+   68,
+   239
+  ],
+  [
+   "Style=Line spinner, Size=md",
+   66,
+   84,
+   783
+  ],
+  [
+   "Style=Line spinner, Size=sm",
+   66,
+   68,
+   239
+  ],
+  [
+   "Style=Line simple, Size=lg",
+   85,
+   96,
+   1318
+  ],
+  [
+   "Style=Line spinner, Size=lg",
+   85,
+   96,
+   1318
+  ],
+  [
+   "Style=Line simple, Size=xl",
+   85,
+   108,
+   1862
+  ],
+  [
+   "Style=Line spinner, Size=xl",
+   85,
+   108,
+   1862
+  ]
+ ]
+}

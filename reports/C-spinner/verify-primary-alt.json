@@ -1,0 +1,48 @@
+{
+ "check": "primary-alt-spinner-verify",
+ "consumersInFile": 0,
+ "rows": [
+  [
+   "Size=md, Icon only=False",
+   "Colors/Text/text-primary_on-brandsecondary",
+   "#000000",
+   "#000000"
+  ],
+  [
+   "Size=md, Icon only=True",
+   "Colors/Text/text-primary_on-brandsecondary",
+   "#000000",
+   "#000000"
+  ],
+  [
+   "Size=lg, Icon only=False",
+   "Colors/Text/text-primary_on-brandsecondary",
+   "#000000",
+   "#000000"
+  ],
+  [
+   "Size=lg, Icon only=True",
+   "Colors/Text/text-primary_on-brandsecondary",
+   "#000000",
+   "#000000"
+  ],
+  [
+   "Size=xxs, Icon only=False",
+   "Colors/Text/text-primary_on-brandsecondary",
+   "#000000",
+   "#000000"
+  ],
+  [
+   "Size=sm, Icon only=False",
+   "Colors/Text/text-primary_on-brandsecondary",
+   "#000000",
+   "#000000"
+  ],
+  [
+   "Size=sm, Icon only=True",
+   "Colors/Text/text-primary_on-brandsecondary",
+   "#000000",
+   "#000000"
+  ]
+ ]
+}

@@ -38,6 +38,8 @@
 | `components/otp-placeholder-border.js` | `use_figma` **WRITE** (duplicate only): shows the existing `color/border/primary` stroke on the 4 Placeholder OTP cells; guard on the other 20 | VERIFIED (used once, approved, task A) |
 | `components/input-field-validation.js` | `use_figma` **WRITE** (duplicate only): Task B — eye kept in Password error/Filled; `Password` TEXT property; `Show required` + "Required" tag in every Label row; 8 × `Destructive=True, State=Focused` (border-error + error focus ring). Guard on all existing variants and 26 instances | VERIFIED (used once, approved, task B) |
 | `components/input-required-tag-gap.js` | `use_figma` **WRITE** (duplicate only): binds the 15 Required-tag gaps (10px) to `spacing-2_5`, value-preserving | VERIFIED (used once, task B) |
+| `components/loading-indicator-hug.js` | `use_figma` **WRITE** (duplicate only): Task C — `Loading indicator` root FIXED 512 → HUG, variants moved so the spinner stays in place; guard on content and position; no instances exist | VERIFIED (used once, task C) |
+| `components/button-primary-alt-spinner.js` | `use_figma` **WRITE** (duplicate only): Task C follow-up — Primary_alt Loading spinner arc `fg-primary` → `text-primary_on-brandsecondary` (7 variants); guard on all other Button layers | VERIFIED (used once, approved, task C) |
 | `build-registry.py` | Local only. Builds and validates `registry/components.json` from a raw extract. `python3 -I scripts/build-registry.py <raw.json> <out.json> [<bindings.json>]` | VERIFIED (used, P1-04) |
 
 Rules: write scripts are added only after a phase is approved, and must refuse to run against the original library `xJoAz66aekAToyhBmfGNt0`.

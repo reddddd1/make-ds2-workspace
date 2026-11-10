@@ -1,0 +1,12 @@
+{
+ "check": "primary-alt-spinner",
+ "rebound": [
+  "Size=md, Hierarchy=Primary_alt, State=Loading, Icon only=False",
+  "Size=md, Hierarchy=Primary_alt, State=Loading, Icon only=True",
+  "Size=lg, Hierarchy=Primary_alt, State=Loading, Icon only=False",
+  "Size=lg, Hierarchy=Primary_alt, State=Loading, Icon only=True",
+  "Size=xxs, Hierarchy=Primary_alt, State=Loading, Icon only=False",
+  "Size=sm, Hierarchy=Primary_alt, State=Loading, Icon only=False",
+  "Size=sm, Hierarchy=Primary_alt, State=Loading, Icon only=True"
+ ]
+}

@@ -1,0 +1,590 @@
+{
+ "blV": [
+  {
+   "al": [
+    "NONE",
+    0,
+    "FIXED",
+    "FIXED",
+    "MIN",
+    "MIN"
+   ],
+   "c": [
+    {
+     "h": 18,
+     "n": "Background",
+     "strokes": [
+      "Component colors/Alpha/alpha-black-50 L#00000080 D#ffffff80"
+     ],
+     "sw": 2,
+     "sz": [
+      "FIXED",
+      "FIXED"
+     ],
+     "t": "ELLIPSE",
+     "w": 18
+    },
+    {
+     "h": 18,
+     "n": "Line",
+     "strokes": [
+      "Component colors/Components/Buttons/button-primary-icon L#ababf8 D#ababf8"
+     ],
+     "sw": 2,
+     "sz": [
+      "FIXED",
+      "FIXED"
+     ],
+     "t": "ELLIPSE",
+     "w": 18
+    }
+   ],
+   "h": 20,
+   "n": "Size=sm",
+   "t": "COMPONENT",
+   "w": 20
+  },
+  {
+   "al": [
+    "NONE",
+    0,
+    "FIXED",
+    "FIXED",
+    "MIN",
+    "MIN"
+   ],
+   "c": [
+    {
+     "h": 20,
+     "n": "Background",
+     "strokes": [
+      "Component colors/Alpha/alpha-black-50 L#00000080 D#ffffff80"
+     ],
+     "sw": 2,
+     "sz": [
+      "FIXED",
+      "FIXED"
+     ],
+     "t": "ELLIPSE",
+     "w": 20
+    },
+    {
+     "h": 20,
+     "n": "Line",
+     "strokes": [
+      "Component colors/Components/Buttons/button-primary-icon L#ababf8 D#ababf8"
+     ],
+     "sw": 2,
+     "sz": [
+      "FIXED",
+      "FIXED"
+     ],
+     "t": "ELLIPSE",
+     "w": 20
+    }
+   ],
+   "h": 24,
+   "n": "Size=md",
+   "t": "COMPONENT",
+   "w": 24
+  }
+ ],
+ "check": "spinner-inspect",
+ "liAll": [
+  [
+   "Style=Line simple, Size=md",
+   512,
+   84,
+   "FIXED",
+   560,
+   16
+  ],
+  [
+   "Style=Line simple, Size=sm",
+   512,
+   68,
+   "FIXED",
+   16,
+   16
+  ],
+  [
+   "Style=Line spinner, Size=md",
+   512,
+   84,
+   "FIXED",
+   560,
+   192
+  ],
+  [
+   "Style=Line spinner, Size=sm",
+   512,
+   68,
+   "FIXED",
+   16,
+   192
+  ],
+  [
+   "Style=Line simple, Size=lg",
+   512,
+   96,
+   "FIXED",
+   1104,
+   16
+  ],
+  [
+   "Style=Line spinner, Size=lg",
+   512,
+   96,
+   "FIXED",
+   1104,
+   192
+  ],
+  [
+   "Style=Line simple, Size=xl",
+   512,
+   108,
+   "FIXED",
+   1648,
+   16
+  ],
+  [
+   "Style=Line spinner, Size=xl",
+   512,
+   108,
+   "FIXED",
+   1648,
+   192
+  ]
+ ],
+ "liProps": [
+  "Supporting text#3293:34",
+  "Style",
+  "Size"
+ ],
+ "liSet": [
+  2176,
+  358
+ ],
+ "liV": [
+  {
+   "al": [
+    "HORIZONTAL",
+    0,
+    "FIXED",
+    "HUG",
+    "CENTER",
+    "CENTER"
+   ],
+   "c": [
+    {
+     "al": [
+      "VERTICAL",
+      16,
+      "HUG",
+      "HUG",
+      "MIN",
+      "CENTER"
+     ],
+     "b": {
+      "itemSpacing": "spacing-xl"
+     },
+     "c": [
+      {
+       "al": [
+        "NONE",
+        0,
+        "FIXED",
+        "FIXED",
+        "MIN",
+        "MIN"
+       ],
+       "c": [
+        {
+         "h": 42,
+         "n": "Background",
+         "strokes": [
+          "Colors/Background/bg-tertiary L#f5f5f5 D#22262f"
+         ],
+         "sw": 6,
+         "sz": [
+          "FIXED",
+          "FIXED"
+         ],
+         "t": "ELLIPSE",
+         "w": 42
+        },
+        {
+         "h": 42,
+         "n": "Line",
+         "strokes": [
+          "Colors/Foreground/fg-brand-primary (600) L#5656f3 D#7373f5"
+         ],
+         "sw": 6,
+         "sz": [
+          "FIXED",
+          "FIXED"
+         ],
+         "t": "ELLIPSE",
+         "w": 42
+        }
+       ],
+       "h": 48,
+       "n": "Loading circle",
+       "t": "FRAME",
+       "w": 48
+      },
+      {
+       "b": {
+        "fontFamily": "Font family/font-family-primary",
+        "fontSize": "Font size/text-sm",
+        "fontStyle": "Font weight/medium",
+        "lineHeight": "Line height/text-sm",
+        "paragraphSpacing": "Font size/text-sm"
+       },
+       "ch": "Loading...",
+       "fills": [
+        "Colors/Text/text-secondary (700) L#414651 D#cecfd2"
+       ],
+       "h": 20,
+       "n": "Text",
+       "pr": {
+        "visible": "Supporting text#3293:34"
+       },
+       "st": "Text sm/Medium",
+       "sz": [
+        "HUG",
+        "HUG"
+       ],
+       "t": "TEXT",
+       "w": 66
+      }
+     ],
+     "h": 84,
+     "n": "Content",
+     "t": "FRAME",
+     "w": 66
+    }
+   ],
+   "h": 84,
+   "n": "Style=Line simple, Size=md",
+   "t": "COMPONENT",
+   "w": 512
+  },
+  {
+   "al": [
+    "HORIZONTAL",
+    0,
+    "FIXED",
+    "HUG",
+    "CENTER",
+    "CENTER"
+   ],
+   "c": [
+    {
+     "al": [
+      "VERTICAL",
+      16,
+      "HUG",
+      "HUG",
+      "MIN",
+      "CENTER"
+     ],
+     "b": {
+      "itemSpacing": "spacing-xl"
+     },
+     "c": [
+      {
+       "al": [
+        "NONE",
+        0,
+        "FIXED",
+        "FIXED",
+        "MIN",
+        "MIN"
+       ],
+       "c": [
+        {
+         "h": 28,
+         "n": "Background",
+         "strokes": [
+          "Colors/Background/bg-tertiary L#f5f5f5 D#22262f"
+         ],
+         "sw": 4,
+         "sz": [
+          "FIXED",
+          "FIXED"
+         ],
+         "t": "ELLIPSE",
+         "w": 28
+        },
+        {
+         "h": 28,
+         "n": "Line",
+         "strokes": [
+          "Colors/Foreground/fg-brand-primary (600) L#5656f3 D#7373f5"
+         ],
+         "sw": 4,
+         "sz": [
+          "FIXED",
+          "FIXED"
+         ],
+         "t": "ELLIPSE",
+         "w": 28
+        }
+       ],
+       "h": 32,
+       "n": "Loading circle",
+       "t": "FRAME",
+       "w": 32
+      },
+      {
+       "b": {
+        "fontFamily": "Font family/font-family-primary",
+        "fontSize": "Font size/text-sm",
+        "fontStyle": "Font weight/medium",
+        "lineHeight": "Line height/text-sm",
+        "paragraphSpacing": "Font size/text-sm"
+       },
+       "ch": "Loading...",
+       "fills": [
+        "Colors/Text/text-secondary (700) L#414651 D#cecfd2"
+       ],
+       "h": 20,
+       "n": "Text",
+       "pr": {
+        "visible": "Supporting text#3293:34"
+       },
+       "st": "Text sm/Medium",
+       "sz": [
+        "HUG",
+        "HUG"
+       ],
+       "t": "TEXT",
+       "w": 66
+      }
+     ],
+     "h": 68,
+     "n": "Content",
+     "t": "FRAME",
+     "w": 66
+    }
+   ],
+   "h": 68,
+   "n": "Style=Line simple, Size=sm",
+   "t": "COMPONENT",
+   "w": 512
+  },
+  {
+   "al": [
+    "HORIZONTAL",
+    0,
+    "FIXED",
+    "HUG",
+    "CENTER",
+    "CENTER"
+   ],
+   "c": [
+    {
+     "al": [
+      "VERTICAL",
+      16,
+      "HUG",
+      "HUG",
+      "MIN",
+      "CENTER"
+     ],
+     "b": {
+      "itemSpacing": "spacing-xl"
+     },
+     "c": [
+      {
+       "al": [
+        "NONE",
+        0,
+        "FIXED",
+        "FIXED",
+        "MIN",
+        "MIN"
+       ],
+       "c": [
+        {
+         "h": 42,
+         "n": "Background",
+         "strokes": [
+          "Colors/Background/bg-primary L#ffffff D#000000"
+         ],
+         "sw": 6,
+         "sz": [
+          "FIXED",
+          "FIXED"
+         ],
+         "t": "ELLIPSE",
+         "w": 42
+        },
+        {
+         "h": 42,
+         "n": "Line",
+         "strokes": [
+          "Colors/Foreground/fg-brand-primary (600) L#5656f3 D#7373f5"
+         ],
+         "sw": 6,
+         "sz": [
+          "FIXED",
+          "FIXED"
+         ],
+         "t": "ELLIPSE",
+         "w": 42
+        }
+       ],
+       "h": 48,
+       "n": "Loading circle",
+       "t": "FRAME",
+       "w": 48
+      },
+      {
+       "b": {
+        "fontFamily": "Font family/font-family-primary",
+        "fontSize": "Font size/text-sm",
+        "fontStyle": "Font weight/medium",
+        "lineHeight": "Line height/text-sm",
+        "paragraphSpacing": "Font size/text-sm"
+       },
+       "ch": "Loading...",
+       "fills": [
+        "Colors/Text/text-secondary (700) L#414651 D#cecfd2"
+       ],
+       "h": 20,
+       "n": "Text",
+       "pr": {
+        "visible": "Supporting text#3293:34"
+       },
+       "st": "Text sm/Medium",
+       "sz": [
+        "HUG",
+        "HUG"
+       ],
+       "t": "TEXT",
+       "w": 66
+      }
+     ],
+     "h": 84,
+     "n": "Content",
+     "t": "FRAME",
+     "w": 66
+    }
+   ],
+   "h": 84,
+   "n": "Style=Line spinner, Size=md",
+   "t": "COMPONENT",
+   "w": 512
+  },
+  {
+   "al": [
+    "HORIZONTAL",
+    0,
+    "FIXED",
+    "HUG",
+    "CENTER",
+    "CENTER"
+   ],
+   "c": [
+    {
+     "al": [
+      "VERTICAL",
+      16,
+      "HUG",
+      "HUG",
+      "MIN",
+      "CENTER"
+     ],
+     "b": {
+      "itemSpacing": "spacing-xl"
+     },
+     "c": [
+      {
+       "al": [
+        "NONE",
+        0,
+        "FIXED",
+        "FIXED",
+        "MIN",
+        "MIN"
+       ],
+       "c": [
+        {
+         "h": 28,
+         "n": "Background",
+         "strokes": [
+          "Colors/Background/bg-primary L#ffffff D#000000"
+         ],
+         "sw": 4,
+         "sz": [
+          "FIXED",
+          "FIXED"
+         ],
+         "t": "ELLIPSE",
+         "w": 28
+        },
+        {
+         "h": 28,
+         "n": "Line",
+         "strokes": [
+          "Colors/Foreground/fg-brand-primary (600) L#5656f3 D#7373f5"
+         ],
+         "sw": 4,
+         "sz": [
+          "FIXED",
+          "FIXED"
+         ],
+         "t": "ELLIPSE",
+         "w": 28
+        }
+       ],
+       "h": 32,
+       "n": "Loading circle",
+       "t": "FRAME",
+       "w": 32
+      },
+      {
+       "b": {
+        "fontFamily": "Font family/font-family-primary",
+        "fontSize": "Font size/text-sm",
+        "fontStyle": "Font weight/medium",
+        "lineHeight": "Line height/text-sm",
+        "paragraphSpacing": "Font size/text-sm"
+       },
+       "ch": "Loading...",
+       "fills": [
+        "Colors/Text/text-secondary (700) L#414651 D#cecfd2"
+       ],
+       "h": 20,
+       "n": "Text",
+       "pr": {
+        "visible": "Supporting text#3293:34"
+       },
+       "st": "Text sm/Medium",
+       "sz": [
+        "HUG",
+        "HUG"
+       ],
+       "t": "TEXT",
+       "w": 66
+      }
+     ],
+     "h": 68,
+     "n": "Content",
+     "t": "FRAME",
+     "w": 66
+    }
+   ],
+   "h": 68,
+   "n": "Style=Line spinner, Size=sm",
+   "t": "COMPONENT",
+   "w": 512
+  }
+ ],
+ "usage": {
+  "Buttons/Button loading icon ← set:Buttons/Button": 25,
+  "Buttons/Button loading icon ← set:Buttons/Button destructive": 18
+ }
+}

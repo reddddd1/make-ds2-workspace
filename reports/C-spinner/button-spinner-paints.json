@@ -1,0 +1,52 @@
+{
+ "candidates": [
+  [
+   "VariableID:5263:372565",
+   "Colors/Text/text-primary (900)"
+  ],
+  [
+   "VariableID:5353:380348",
+   "Colors/Foreground/fg-primary (900)"
+  ],
+  [
+   "VariableID:6139:331930",
+   "Colors/Text/text-primary_on-brandprimary"
+  ],
+  [
+   "VariableID:6139:331957",
+   "Colors/Text/text-secondary_on-brand"
+  ],
+  [
+   "VariableID:6139:331990",
+   "Colors/Text/text-tertiary_on-brand"
+  ],
+  [
+   "VariableID:6169:489279",
+   "Component colors/Components/Icons/Icons/icon-fg-brand_on-brand"
+  ],
+  [
+   "VariableID:6179:410199",
+   "Colors/Text/text-quaternary_on-brand"
+  ],
+  [
+   "VariableID:17488:32591",
+   "Colors/Text/text-primary_on-brandsecondary"
+  ],
+  [
+   "VariableID:17488:32592",
+   "Colors/Text/text-primary_on-brandtertiary"
+  ]
+ ],
+ "check": "spinner-paints",
+ "groups": {
+  "Link brand | arc Colors/Foreground/fg-brand-secondary_alt @1 | track Colors/Foreground/fg-brand-secondary_alt @1 | label color/text/brand-primary": 4,
+  "Primary | arc Component colors/Components/Buttons/button-primary-icon @1 | track Component colors/Components/Buttons/button-primary-icon @1 | label -": 3,
+  "Primary | arc Component colors/Components/Buttons/button-primary-icon @1 | track Component colors/Components/Buttons/button-primary-icon @1 | label Colors/Text/text-white": 4,
+  "Primary_alt | arc Colors/Foreground/fg-primary (900) @1 | track Component colors/Alpha/alpha-black-50 @0.5 | label Colors/Text/text-primary_on-brandsecondary": 1,
+  "Primary_alt | arc Colors/Foreground/fg-primary (900) @1 | track Component colors/Components/Buttons/button-primary-icon @1 | label -": 3,
+  "Primary_alt | arc Colors/Foreground/fg-primary (900) @1 | track Component colors/Components/Buttons/button-primary-icon @1 | label Colors/Text/text-primary_on-brandsecondary": 3,
+  "Secondary | arc Colors/Foreground/fg-brand-secondary_alt @1 | track Colors/Foreground/fg-brand-secondary_alt @1 | label -": 3,
+  "Secondary | arc Colors/Foreground/fg-brand-secondary_alt @1 | track Colors/Foreground/fg-brand-secondary_alt @1 | label color/text/brand-primary": 4
+ },
+ "loadingVariants": 25
+}

@@ -1,0 +1,162 @@
+{
+ "check": "variants",
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "fingerprint": {
+  "collections": [
+   [
+    "_Primitives",
+    312,
+    "Style"
+   ],
+   [
+    "1. Color modes",
+    292,
+    "Light mode/Dark mode"
+   ],
+   [
+    "5. Containers",
+    3,
+    "Value"
+   ],
+   [
+    "4. Widths",
+    12,
+    "Mode 1"
+   ],
+   [
+    "3. Spacing",
+    19,
+    "Mode 1"
+   ],
+   [
+    "2. Radius",
+    12,
+    "Mode 1"
+   ],
+   [
+    "6. Typography",
+    36,
+    "Value"
+   ]
+  ],
+  "effectStyles": 25,
+  "gridStyles": 8,
+  "paintStyles": 393,
+  "textStyles": 65,
+  "variables": 686
+ },
+ "probe": null,
+ "readAt": "2026-11-10T07:47:19.128Z",
+ "run": "otp-before",
+ "sets": [
+  {
+   "id": "1106:66560",
+   "key": "cd61fd2b6233e74556013791a20b14264d84f554",
+   "name": "_Mega input field base",
+   "propDefsHash": "38baf488",
+   "variantCount": 12,
+   "variants": [
+    [
+     "1106:66591",
+     "State=Placeholder, Size=md",
+     "096b2b36",
+     2
+    ],
+    [
+     "1106:66639",
+     "State=Placeholder, Size=lg",
+     "0b8093c8",
+     2
+    ],
+    [
+     "1106:66615",
+     "State=Placeholder, Size=sm",
+     "809cca9d",
+     2
+    ],
+    [
+     "1106:66588",
+     "State=Disabled, Size=md",
+     "ff14c27b",
+     2
+    ],
+    [
+     "1106:66636",
+     "State=Disabled, Size=lg",
+     "128c9185",
+     2
+    ],
+    [
+     "1106:66612",
+     "State=Disabled, Size=sm",
+     "e240e846",
+     2
+    ],
+    [
+     "1106:66582",
+     "State=Focused, Size=md",
+     "a4fe9998",
+     2
+    ],
+    [
+     "1106:66630",
+     "State=Focused, Size=lg",
+     "e7c03d9e",
+     2
+    ],
+    [
+     "1106:66609",
+     "State=Focused, Size=sm",
+     "2b04d883",
+     2
+    ],
+    [
+     "1106:66585",
+     "State=Filled, Size=md",
+     "56e9ca57",
+     2
+    ],
+    [
+     "1106:66633",
+     "State=Filled, Size=lg",
+     "09f7fce9",
+     2
+    ],
+    [
+     "1106:66606",
+     "State=Filled, Size=sm",
+     "ad93db10",
+     2
+    ]
+   ]
+  },
+  {
+   "id": "1106:66757",
+   "key": "cbfc4b7ace343e8f52ca5e8a3bd7442c799aeb70",
+   "name": "Verification code input field",
+   "propDefsHash": "b1e7cd21",
+   "variantCount": 3,
+   "variants": [
+    [
+     "1106:66810",
+     "Size=md, Digits=4",
+     "dbd2d3a7",
+     9
+    ],
+    [
+     "1106:67067",
+     "Size=lg, Digits=4",
+     "84761d6f",
+     9
+    ],
+    [
+     "1106:66907",
+     "Size=sm, Digits=4",
+     "e7eb6025",
+     9
+    ]
+   ]
+  }
+ ],
+ "version": "E1"
+}

@@ -1,0 +1,195 @@
+{
+ "check": "inventory",
+ "count": 27,
+ "rows": [
+  [
+   "      ↳ Logos",
+   "SET",
+   "7531:71186",
+   "Partner affiliate logos",
+   4
+  ],
+  [
+   "      ↳ Logos",
+   "SET",
+   "21465:11",
+   "Logo",
+   8
+  ],
+  [
+   "      ↳ Logos",
+   "SET",
+   "21465:30",
+   "Logomark",
+   8
+  ],
+  [
+   "      ↳ Design annotations",
+   "C",
+   "1518:345435",
+   "Design system header",
+   1
+  ],
+  [
+   "      ↳ Buttons",
+   "SET",
+   "1256:130788",
+   "Social button",
+   54
+  ],
+  [
+   "      ↳ Buttons",
+   "SET",
+   "1256:132638",
+   "Social button groups",
+   6
+  ],
+  [
+   "      ↳ Buttons",
+   "SET",
+   "8993:429278",
+   "Buttons/Button loading icon",
+   2
+  ],
+  [
+   "      ↳ Buttons",
+   "SET",
+   "21543:896",
+   "Buttons/Button navigation",
+   3
+  ],
+  [
+   "      ↳ Button groups",
+   "C",
+   "21543:1115",
+   "Navigation button group",
+   1
+  ],
+  [
+   "      ↳ Dropdowns",
+   "SET",
+   "3281:382793",
+   "_Dropdown list item",
+   11
+  ],
+  [
+   "      ↳ Inputs",
+   "SET",
+   "1106:66560",
+   "_Mega input field base",
+   12
+  ],
+  [
+   "      ↳ Inputs",
+   "SET",
+   "1106:66757",
+   "Verification code input field",
+   3
+  ],
+  [
+   "      ↳ Inputs",
+   "SET",
+   "17515:929",
+   "Helper text",
+   15
+  ],
+  [
+   "      ↳ Toggles",
+   "SET",
+   "122:3294",
+   "_Toggle base",
+   16
+  ],
+  [
+   "      ↳ Toggles",
+   "SET",
+   "1102:4208",
+   "Toggle",
+   16
+  ],
+  [
+   "      ↳ Checkboxes",
+   "SET",
+   "1097:63652",
+   "Radio / Checkbox",
+   84
+  ],
+  [
+   "     ↳ Radio groups",
+   "SET",
+   "124:2838",
+   "Radio group item",
+   96
+  ],
+  [
+   "     ↳ Radio groups",
+   "SET",
+   "1142:87213",
+   "Radio group",
+   20
+  ],
+  [
+   "      ↳ Progress indicators",
+   "SET",
+   "1085:57382",
+   "Progress bar",
+   33
+  ],
+  [
+   "      ↳ Progress indicators",
+   "SET",
+   "1084:2717",
+   "Progress circle",
+   5
+  ],
+  [
+   "      ↳ App Navigation",
+   "SET",
+   "1207:1678",
+   "Header navigation",
+   2
+  ],
+  [
+   "      ↳ Modals",
+   "SET",
+   "4057:414352",
+   "_Modal actions",
+   3
+  ],
+  [
+   "      ↳ Modals",
+   "SET",
+   "4055:413620",
+   "_Modal header",
+   1
+  ],
+  [
+   "      ↳ Modals",
+   "SET",
+   "4057:415205",
+   "Modal",
+   1
+  ],
+  [
+   "      ↳ Date pickers",
+   "SET",
+   "1150:62",
+   "_Date picker list item",
+   6
+  ],
+  [
+   "      ↳ Date pickers",
+   "SET",
+   "1547:269867",
+   "Date picker modal",
+   4
+  ],
+  [
+   "      ↳ Loading indicators",
+   "SET",
+   "1192:610",
+   "Loading indicator",
+   8
+  ]
+ ]
+}

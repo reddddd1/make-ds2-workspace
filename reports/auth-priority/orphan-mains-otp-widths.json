@@ -1,0 +1,109 @@
+{
+ "modalActions": [
+  {
+   "instVisible": true,
+   "name": "Buttons/Button/lg/Link gray/Default/False",
+   "parentChain": [],
+   "remote": false,
+   "removed": false
+  }
+ ],
+ "otp": [
+  {
+   "cells": [
+    80,
+    80,
+    80,
+    80
+   ],
+   "gap": 12,
+   "sep": [],
+   "v": "Size=md, Digits=4",
+   "w": 356
+  },
+  {
+   "cells": [
+    96,
+    96,
+    96,
+    96
+   ],
+   "gap": 12,
+   "sep": [],
+   "v": "Size=lg, Digits=4",
+   "w": 420
+  },
+  {
+   "cells": [
+    64,
+    64,
+    64,
+    64
+   ],
+   "gap": 8,
+   "sep": [],
+   "v": "Size=sm, Digits=4",
+   "w": 280
+  }
+ ],
+ "radioGroup": [
+  {
+   "instVisible": true,
+   "name": "Radio group item/True/sm/Radio button/Default/Desktop",
+   "parentChain": [],
+   "remote": false,
+   "removed": false
+  },
+  {
+   "instVisible": true,
+   "name": "Radio group item/False/sm/Radio button/Default/Desktop",
+   "parentChain": [],
+   "remote": false,
+   "removed": false
+  },
+  {
+   "instVisible": true,
+   "name": "Radio group item/True/sm/Checkbox/Default/Desktop",
+   "parentChain": [],
+   "remote": false,
+   "removed": false
+  },
+  {
+   "instVisible": true,
+   "name": "Radio group item/False/sm/Checkbox/Default/Desktop",
+   "parentChain": [],
+   "remote": false,
+   "removed": false
+  }
+ ],
+ "radioGroupItem": [
+  {
+   "instVisible": true,
+   "name": "Buttons/Button/sm/Link gray/Default/False",
+   "parentChain": [],
+   "remote": false,
+   "removed": false
+  },
+  {
+   "instVisible": true,
+   "name": "Buttons/Button/md/Link gray/Default/False",
+   "parentChain": [],
+   "remote": false,
+   "removed": false
+  },
+  {
+   "instVisible": true,
+   "name": "Buttons/Button/sm/Link gray/Disabled/False",
+   "parentChain": [],
+   "remote": false,
+   "removed": false
+  },
+  {
+   "instVisible": true,
+   "name": "Buttons/Button/md/Link gray/Disabled/False",
+   "parentChain": [],
+   "remote": false,
+   "removed": false
+  }
+ ]
+}

@@ -1,0 +1,167 @@
+{
+ "base": {
+  "axes": {
+   "Size": [
+    "md",
+    "sm",
+    "lg",
+    "xs"
+   ],
+   "State": [
+    "Placeholder",
+    "Focused",
+    "Filled",
+    "Disabled",
+    "Error",
+    "Verified"
+   ]
+  },
+  "newCells": [
+   [
+    "23554:17303",
+    "State=Error, Size=sm",
+    64,
+    64
+   ],
+   [
+    "23554:17305",
+    "State=Verified, Size=sm",
+    64,
+    64
+   ],
+   [
+    "23554:17307",
+    "State=Error, Size=md",
+    80,
+    80
+   ],
+   [
+    "23554:17309",
+    "State=Verified, Size=md",
+    80,
+    80
+   ],
+   [
+    "23554:17311",
+    "State=Error, Size=lg",
+    96,
+    96
+   ],
+   [
+    "23554:17313",
+    "State=Verified, Size=lg",
+    96,
+    96
+   ],
+   [
+    "23554:17315",
+    "State=Placeholder, Size=xs",
+    48,
+    48
+   ],
+   [
+    "23554:17317",
+    "State=Focused, Size=xs",
+    48,
+    48
+   ],
+   [
+    "23554:17319",
+    "State=Filled, Size=xs",
+    48,
+    48
+   ],
+   [
+    "23554:17321",
+    "State=Disabled, Size=xs",
+    48,
+    48
+   ],
+   [
+    "23554:17323",
+    "State=Error, Size=xs",
+    48,
+    48
+   ],
+   [
+    "23554:17325",
+    "State=Verified, Size=xs",
+    48,
+    48
+   ]
+  ],
+  "variants": 24
+ },
+ "check": "otp-write",
+ "existingChecked": 15,
+ "field": {
+  "axes": {
+   "Digits": [
+    "4",
+    "6"
+   ],
+   "Label#3285:1069": "BOOLEAN",
+   "Show resend#23554:0": "BOOLEAN",
+   "Size": [
+    "sm",
+    "md",
+    "lg",
+    "xs"
+   ],
+   "State": [
+    "Default",
+    "Focused",
+    "Filled",
+    "Error",
+    "Verified",
+    "Disabled"
+   ]
+  },
+  "newFields": [
+   [
+    "23554:17327",
+    "Size=xs, Digits=6, State=Default",
+    328,
+    124
+   ],
+   [
+    "23554:17371",
+    "Size=xs, Digits=6, State=Focused",
+    328,
+    124
+   ],
+   [
+    "23554:17415",
+    "Size=xs, Digits=6, State=Filled",
+    328,
+    124
+   ],
+   [
+    "23554:17459",
+    "Size=xs, Digits=6, State=Error",
+    328,
+    124
+   ],
+   [
+    "23554:17507",
+    "Size=xs, Digits=6, State=Verified",
+    328,
+    124
+   ],
+   [
+    "23554:17555",
+    "Size=xs, Digits=6, State=Disabled",
+    328,
+    124
+   ]
+  ],
+  "renamed": [
+   "Size=md, Digits=4, State=Default",
+   "Size=lg, Digits=4, State=Default",
+   "Size=sm, Digits=4, State=Default"
+  ],
+  "variants": 9
+ },
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "writtenAt": "2026-11-10T07:50:13.191Z"
+}

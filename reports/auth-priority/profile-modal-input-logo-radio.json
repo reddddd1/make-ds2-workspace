@@ -1,0 +1,573 @@
+{
+ "check": "set-profile",
+ "readAt": "2026-11-10T07:39:31.004Z",
+ "run": "modal-input-logo-radio",
+ "sets": [
+  {
+   "axes": {
+    "Type": {
+     "Default slotted": 1
+    }
+   },
+   "extra": {
+    "children": [
+     [
+      "INSTANCE",
+      "Background overlay",
+      390,
+      844,
+      true,
+      "FIXED"
+     ],
+     [
+      "FRAME",
+      "Modal",
+      390,
+      308,
+      true,
+      "FILL"
+     ],
+     [
+      "FRAME",
+      "Spacer for max-height",
+      390,
+      84,
+      true,
+      "FIXED"
+     ]
+    ],
+    "root": {
+     "clips": true,
+     "h": 844,
+     "layout": "VERTICAL",
+     "maxW": null,
+     "minW": null,
+     "radius": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "radiusBound": [],
+     "sizing": [
+      "FIXED",
+      "FIXED"
+     ],
+     "w": 390
+    }
+   },
+   "fonts": {},
+   "id": "4057:415205",
+   "layers": {
+    "FRAME:Modal": 1,
+    "FRAME:Spacer for max-height": 1,
+    "INSTANCE:Background overlay": 1
+   },
+   "name": "Modal",
+   "nested": {
+    "local:Background overlay": 1,
+    "local:Slot": 1,
+    "local:_Modal actions": 1,
+    "local:_Modal header": 1,
+    "local:_Scroll bar (control fill with bottom padding)": 1
+   },
+   "nonSemantic": {},
+   "paints": {
+    "semantic": 1
+   },
+   "props": [
+    "Drawer content:INSTANCE_SWAP"
+   ],
+   "size": {
+    "h": [
+     844,
+     844
+    ],
+    "w": [
+     390,
+     390
+    ]
+   },
+   "texts": [],
+   "variants": 1
+  },
+  {
+   "axes": {
+    "Type": {
+     "Left aligned": 1
+    }
+   },
+   "extra": {},
+   "fonts": {},
+   "id": "4055:413620",
+   "layers": {
+    "FRAME:Content": 1,
+    "FRAME:Padding bottom": 1,
+    "INSTANCE:Icon wrapper": 1,
+    "VECTOR:Divider": 1
+   },
+   "name": "_Modal header",
+   "nested": {
+    "local:Illustration wrapper": 1,
+    "remote:Icon wrapper": 1
+   },
+   "nonSemantic": {},
+   "paints": {
+    "semantic": 4
+   },
+   "props": [
+    "Show close:BOOLEAN",
+    "Show divider:BOOLEAN",
+    "Show bottom p:BOOLEAN",
+    "Show img:BOOLEAN"
+   ],
+   "size": {
+    "h": [
+     227,
+     227
+    ],
+    "w": [
+     400,
+     400
+    ]
+   },
+   "texts": [
+    "{Title}",
+    "{Text content - Lorem ipsum dolo"
+   ],
+   "variants": 1
+  },
+  {
+   "axes": {
+    "Breakpoint": {
+     "Mobile": 3
+    },
+    "Destructive": {
+     "False": 3
+    },
+    "Type": {
+     "Horizontal fill container": 1,
+     "Horizontal right aligned (checkbox)": 1,
+     "Vertical fill container": 1
+    }
+   },
+   "extra": {},
+   "fonts": {},
+   "id": "4057:414352",
+   "layers": {
+    "FRAME:Content": 3,
+    "FRAME:Divider-wrap": 3
+   },
+   "name": "_Modal actions",
+   "nested": {
+    "local:Buttons/Button": 6,
+    "local:Buttons/Button/lg/Link gray/Default/False": 1,
+    "local:Radio / Checkbox": 1,
+    "remote:Home Indicator": 1
+   },
+   "nonSemantic": {},
+   "paints": {
+    "semantic": 3
+   },
+   "props": [
+    "Checkbox:BOOLEAN",
+    "Tertiary button:BOOLEAN",
+    "Divider:BOOLEAN"
+   ],
+   "size": {
+    "h": [
+     159,
+     205
+    ],
+    "w": [
+     343,
+     343
+    ]
+   },
+   "texts": [],
+   "variants": 3
+  },
+  {
+   "axes": {
+    "Destructive": {
+     "False": 32,
+     "True": 21
+    },
+    "Size": {
+     "lg": 34,
+     "sm": 19
+    },
+    "State": {
+     "Disabled": 13,
+     "Filled": 16,
+     "Focused": 8,
+     "Placeholder": 16
+    },
+    "Type": {
+     "Default": 14,
+     "Leading drowdown": 7,
+     "Leading icon": 7,
+     "Password": 6,
+     "Payment": 7,
+     "Search": 6,
+     "Search + Tags": 6
+    }
+   },
+   "extra": {},
+   "fonts": {
+    "Inter": 58
+   },
+   "id": "17517:11024",
+   "layers": {
+    "FRAME:Input": 53,
+    "FRAME:Label row": 13,
+    "INSTANCE:Helper text": 53
+   },
+   "name": "Input field",
+   "nested": {
+    "local:Helper text": 53,
+    "local:Payment method icon": 7,
+    "local:Radio / Checkbox": 7,
+    "local:Tag": 8,
+    "remote:Icon wrapper": 79
+   },
+   "nonSemantic": {},
+   "paints": {
+    "semantic": 312
+   },
+   "props": [
+    "Label:TEXT",
+    "Text:TEXT",
+    "Show helper:BOOLEAN",
+    "Show optional:BOOLEAN"
+   ],
+   "size": {
+    "h": [
+     68,
+     102
+    ],
+    "w": [
+     358,
+     358
+    ]
+   },
+   "texts": [
+    "{Text}",
+    "Optional",
+    "Search",
+    "{Search string}",
+    "Larry",
+    "Label",
+    "Placeholder text",
+    "Password",
+    "JP",
+    "+34 600 123 456"
+   ],
+   "variants": 53
+  },
+  {
+   "axes": {
+    "Size": {
+     "lg": 5,
+     "md": 5,
+     "sm": 5
+    },
+    "Status": {
+     "Alert": 3,
+     "Error": 3,
+     "Informative default": 3,
+     "Informative subtle": 3,
+     "Success": 3
+    }
+   },
+   "extra": {},
+   "fonts": {
+    "Inter": 5
+   },
+   "id": "17515:929",
+   "layers": {
+    "INSTANCE:Icon wrapper": 15,
+    "TEXT:Text": 15
+   },
+   "name": "Helper text",
+   "nested": {
+    "remote:Icon wrapper": 15
+   },
+   "nonSemantic": {},
+   "paints": {
+    "semantic": 15
+   },
+   "props": [
+    "Text:TEXT"
+   ],
+   "size": {
+    "h": [
+     16,
+     20
+    ],
+    "w": [
+     85,
+     115
+    ]
+   },
+   "texts": [
+    "{Support text}"
+   ],
+   "variants": 15
+  },
+  {
+   "axes": {
+    "Dark mode": {
+     "No": 4,
+     "Yes": 4
+    },
+    "Size": {
+     "lg": 2,
+     "md": 2,
+     "sm": 2,
+     "xl": 2
+    }
+   },
+   "extra": {},
+   "fonts": {},
+   "id": "21465:11",
+   "layers": {
+    "FRAME:Logo wrap": 8
+   },
+   "name": "Logo",
+   "nested": {},
+   "nonSemantic": {
+    "remote Colors/Foreground/fg-black": 4,
+    "remote Colors/Foreground/fg-white": 3
+   },
+   "paints": {
+    "remote": 7,
+    "semantic": 1
+   },
+   "props": [],
+   "size": {
+    "h": [
+     16,
+     58
+    ],
+    "w": [
+     56,
+     200
+    ]
+   },
+   "texts": [],
+   "variants": 8
+  },
+  {
+   "axes": {
+    "Dark mode": {
+     "No": 4,
+     "Yes": 4
+    },
+    "Size": {
+     "lg": 2,
+     "md": 2,
+     "sm": 2,
+     "xl": 2
+    }
+   },
+   "extra": {},
+   "fonts": {},
+   "id": "21465:30",
+   "layers": {
+    "FRAME:Logo wrap": 8
+   },
+   "name": "Logomark",
+   "nested": {},
+   "nonSemantic": {
+    "remote Colors/Foreground/fg-black": 4,
+    "remote Colors/Foreground/fg-white": 3
+   },
+   "paints": {
+    "remote": 7,
+    "semantic": 1,
+    "unbound-solid": 24
+   },
+   "props": [],
+   "size": {
+    "h": [
+     16,
+     58
+    ],
+    "w": [
+     24,
+     85
+    ]
+   },
+   "texts": [],
+   "variants": 8
+  },
+  {
+   "axes": {
+    "Breakpoint": {
+     "Desktop": 48,
+     "Mobile": 48
+    },
+    "Selected": {
+     "False": 48,
+     "True": 48
+    },
+    "Size": {
+     "md": 48,
+     "sm": 48
+    },
+    "State": {
+     "Default": 24,
+     "Disabled": 24,
+     "Focused": 24,
+     "Hover": 24
+    },
+    "Type": {
+     "Avatar": 32,
+     "Icon simple": 32,
+     "Payment icon": 32
+    }
+   },
+   "extra": {},
+   "fonts": {},
+   "id": "124:2838",
+   "layers": {
+    "FRAME:Content": 96,
+    "INSTANCE:_Checkbox base": 96
+   },
+   "name": "Radio group item",
+   "nested": {
+    "local:Avatar": 32,
+    "local:Buttons/Button": 32,
+    "local:Buttons/Button/md/Link gray/Default/False": 12,
+    "local:Buttons/Button/md/Link gray/Disabled/False": 4,
+    "local:Buttons/Button/sm/Link gray/Default/False": 12,
+    "local:Buttons/Button/sm/Link gray/Disabled/False": 4,
+    "local:_Checkbox base": 96,
+    "remote:Featured icon": 32,
+    "remote:Payment method icon": 32
+   },
+   "nonSemantic": {},
+   "paints": {
+    "semantic": 448
+   },
+   "props": [],
+   "size": {
+    "h": [
+     72,
+     114
+    ],
+    "w": [
+     343,
+     768
+    ]
+   },
+   "texts": [
+    "{Label}",
+    "{Secondary text}",
+    "{Description}",
+    "Visa ending in 1234",
+    "Expiry 06/2025"
+   ],
+   "variants": 96
+  },
+  {
+   "axes": {
+    "Breakpoint": {
+     "Desktop": 10,
+     "Mobile": 10
+    },
+    "Size": {
+     "md": 10,
+     "sm": 10
+    },
+    "Type": {
+     "Avatar": 4,
+     "Checkbox": 4,
+     "Icon simple": 4,
+     "Payment icon": 4,
+     "Radio button": 4
+    }
+   },
+   "extra": {},
+   "fonts": {},
+   "id": "1142:87213",
+   "layers": {
+    "INSTANCE:Radio group item": 100
+   },
+   "name": "Radio group",
+   "nested": {
+    "local:Radio group item": 60,
+    "local:Radio group item/False/md/Checkbox/Default/Desktop": 4,
+    "local:Radio group item/False/md/Checkbox/Default/Mobile": 4,
+    "local:Radio group item/False/md/Radio button/Default/Desktop": 4,
+    "local:Radio group item/False/md/Radio button/Default/Mobile": 4,
+    "local:Radio group item/False/sm/Checkbox/Default/Desktop": 4,
+    "local:Radio group item/False/sm/Checkbox/Default/Mobile": 4,
+    "local:Radio group item/False/sm/Radio button/Default/Desktop": 4,
+    "local:Radio group item/False/sm/Radio button/Default/Mobile": 4,
+    "local:Radio group item/True/sm/Radio button/Default/Desktop": 1
+   },
+   "nonSemantic": {},
+   "paints": {},
+   "props": [],
+   "size": {
+    "h": [
+     408,
+     618
+    ],
+    "w": [
+     343,
+     768
+    ]
+   },
+   "texts": [],
+   "variants": 20
+  },
+  {
+   "axes": {
+    "Breakpoint": {
+     "Desktop": 1,
+     "Mobile": 1
+    },
+    "Open": {
+     "False": 2
+    },
+    "Style": {
+     "Simple": 2
+    }
+   },
+   "extra": {},
+   "fonts": {},
+   "id": "1207:1678",
+   "layers": {
+    "FRAME:Container": 2
+   },
+   "name": "Header navigation",
+   "nested": {
+    "local:Dropdown/Avatar/False": 1,
+    "local:Logo": 2,
+    "local:_Application nav menu button": 1,
+    "local:_Nav item base": 6,
+    "local:_Nav item button": 3
+   },
+   "nonSemantic": {},
+   "paints": {
+    "semantic": 4
+   },
+   "props": [],
+   "size": {
+    "h": [
+     64,
+     72
+    ],
+    "w": [
+     375,
+     1440
+    ]
+   },
+   "texts": [],
+   "variants": 2
+  }
+ ]
+}

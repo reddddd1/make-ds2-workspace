@@ -1,0 +1,258 @@
+{
+ "check": "set-profile",
+ "readAt": "2026-11-10T07:39:04.863Z",
+ "run": "otp-spinner",
+ "sets": [
+  {
+   "axes": {
+    "Digits": {
+     "4": 3
+    },
+    "Size": {
+     "lg": 1,
+     "md": 1,
+     "sm": 1
+    }
+   },
+   "colVars": {},
+   "description": "",
+   "fonts": {},
+   "id": "1106:66757",
+   "name": "Verification code input field",
+   "nested": {
+    "local:Helper text": 3,
+    "local:_Input title": 3,
+    "local:_Mega input field base": 12
+   },
+   "paints": {},
+   "props": [
+    "Label:BOOLEAN"
+   ],
+   "size": {
+    "h": [
+     114,
+     146
+    ],
+    "w": [
+     280,
+     420
+    ]
+   },
+   "spacing": {
+    "bound": 9,
+    "zero": 36
+   },
+   "styles": {},
+   "texts": [],
+   "variants": 3
+  },
+  {
+   "axes": {
+    "Size": {
+     "lg": 4,
+     "md": 4,
+     "sm": 4
+    },
+    "State": {
+     "Disabled": 3,
+     "Filled": 3,
+     "Focused": 3,
+     "Placeholder": 3
+    }
+   },
+   "colVars": {
+    "semantic Colors/Background/bg-disabled_subtle": 3,
+    "semantic Colors/Background/bg-primary": 9,
+    "semantic Colors/Border/border-brand": 6,
+    "semantic Colors/Foreground/fg-disabled_subtle": 3,
+    "semantic Colors/Text/text-brand-tertiary_alt": 6,
+    "semantic Colors/Text/text-placeholder_subtle": 3
+   },
+   "description": "",
+   "fonts": {
+    "Space Grotesk Medium 30": 8,
+    "Space Grotesk Medium 36": 4
+   },
+   "id": "1106:66560",
+   "name": "_Mega input field base",
+   "nested": {},
+   "paints": {
+    "semantic": 30
+   },
+   "props": [],
+   "size": {
+    "h": [
+     64,
+     96
+    ],
+    "w": [
+     64,
+     96
+    ]
+   },
+   "spacing": {
+    "bound": 60
+   },
+   "styles": {
+    "Display md/Medium": 4,
+    "Display sm/Medium": 8
+   },
+   "texts": [
+    "0"
+   ],
+   "variants": 12
+  },
+  {
+   "axes": {
+    "Size": {
+     "lg": 2,
+     "md": 2,
+     "sm": 2,
+     "xl": 2
+    },
+    "Style": {
+     "Line simple": 4,
+     "Line spinner": 4
+    }
+   },
+   "colVars": {
+    "semantic Colors/Background/bg-primary": 4,
+    "semantic Colors/Background/bg-tertiary": 4,
+    "semantic Colors/Foreground/fg-brand-primary (600)": 8,
+    "semantic Colors/Text/text-secondary (700)": 8
+   },
+   "description": "",
+   "fonts": {},
+   "id": "1192:610",
+   "name": "Loading indicator",
+   "nested": {},
+   "paints": {
+    "semantic": 24
+   },
+   "props": [
+    "Supporting text:BOOLEAN"
+   ],
+   "size": {
+    "h": [
+     68,
+     108
+    ],
+    "w": [
+     512,
+     512
+    ]
+   },
+   "spacing": {
+    "bound": 8,
+    "zero": 72
+   },
+   "styles": {
+    "Text lg/Medium": 4,
+    "Text sm/Medium": 4
+   },
+   "texts": [
+    "Loading..."
+   ],
+   "variants": 8
+  },
+  {
+   "axes": {
+    "Size": {
+     "md": 1,
+     "sm": 1
+    }
+   },
+   "colVars": {
+    "semantic Component colors/Alpha/alpha-black-50": 2,
+    "semantic Component colors/Components/Buttons/button-primary-icon": 2
+   },
+   "description": "",
+   "fonts": {},
+   "id": "8993:429278",
+   "name": "Buttons/Button loading icon",
+   "nested": {},
+   "paints": {
+    "semantic": 4
+   },
+   "props": [],
+   "size": {
+    "h": [
+     20,
+     24
+    ],
+    "w": [
+     20,
+     24
+    ]
+   },
+   "spacing": {},
+   "styles": {},
+   "texts": [],
+   "variants": 2
+  },
+  {
+   "axes": {
+    "Shape": {
+     "Circle": 5
+    },
+    "Size": {
+     "lg": 1,
+     "md": 1,
+     "sm": 1,
+     "xs": 1,
+     "xxs": 1
+    }
+   },
+   "colVars": {
+    "semantic Colors/Background/bg-quaternary": 5,
+    "semantic Colors/Foreground/fg-brand-primary (600)": 5,
+    "semantic Colors/Text/text-primary (900)": 5,
+    "semantic Colors/Text/text-tertiary (600)": 5
+   },
+   "description": "",
+   "fonts": {
+    "Space Grotesk Regular 12": 1,
+    "Space Grotesk Regular 30": 1,
+    "Space Grotesk Regular 36": 1,
+    "Space Grotesk Regular 48": 1
+   },
+   "id": "1084:2717",
+   "name": "Progress circle",
+   "nested": {},
+   "paints": {
+    "semantic": 20
+   },
+   "props": [
+    "Label:BOOLEAN"
+   ],
+   "size": {
+    "h": [
+     86,
+     280
+    ],
+    "w": [
+     64,
+     280
+    ]
+   },
+   "spacing": {
+    "bound": 1,
+    "zero": 24
+   },
+   "styles": {
+    "Display lg/Semibold": 1,
+    "Display md/Semibold": 1,
+    "Display sm/Semibold": 1,
+    "Display xxs/Semibold": 1,
+    "Text sm/Medium": 2,
+    "Text sm/Semibold": 1,
+    "Text xs/Medium": 3
+   },
+   "texts": [
+    "{Label}",
+    "40%"
+   ],
+   "variants": 5
+  }
+ ]
+}

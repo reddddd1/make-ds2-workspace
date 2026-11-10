@@ -1,0 +1,1076 @@
+{
+ "basePos": [
+  [
+   "State=Placeholder, Size=md",
+   112,
+   16
+  ],
+  [
+   "State=Placeholder, Size=lg",
+   224,
+   16
+  ],
+  [
+   "State=Placeholder, Size=sm",
+   16,
+   16
+  ],
+  [
+   "State=Disabled, Size=md",
+   112,
+   392
+  ],
+  [
+   "State=Disabled, Size=lg",
+   224,
+   384
+  ],
+  [
+   "State=Disabled, Size=sm",
+   16,
+   400
+  ],
+  [
+   "State=Focused, Size=md",
+   112,
+   268
+  ],
+  [
+   "State=Focused, Size=lg",
+   224,
+   260
+  ],
+  [
+   "State=Focused, Size=sm",
+   16,
+   276
+  ],
+  [
+   "State=Filled, Size=md",
+   112,
+   136
+  ],
+  [
+   "State=Filled, Size=lg",
+   224,
+   128
+  ],
+  [
+   "State=Filled, Size=sm",
+   16,
+   144
+  ]
+ ],
+ "baseProps": {
+  "Size": {
+   "defaultValue": "sm",
+   "type": "VARIANT",
+   "variantOptions": [
+    "md",
+    "sm",
+    "lg"
+   ]
+  },
+  "State": {
+   "defaultValue": "Placeholder",
+   "type": "VARIANT",
+   "variantOptions": [
+    "Placeholder",
+    "Focused",
+    "Filled",
+    "Disabled"
+   ]
+  }
+ },
+ "baseV": [
+  {
+   "al": [
+    "VERTICAL",
+    8,
+    2,
+    8,
+    2,
+    8,
+    "CENTER",
+    "CENTER",
+    "FIXED",
+    "HUG"
+   ],
+   "b": {
+    "bottomLeftRadius": "radius-3xl",
+    "bottomRightRadius": "radius-3xl",
+    "itemSpacing": "spacing-md",
+    "paddingBottom": "spacing-xxs",
+    "paddingLeft": "spacing-md",
+    "paddingRight": "spacing-md",
+    "paddingTop": "spacing-xxs",
+    "topLeftRadius": "radius-3xl",
+    "topRightRadius": "radius-3xl"
+   },
+   "c": [
+    {
+     "b": {
+      "fontFamily": [
+       "Font family/font-family-secondary"
+      ],
+      "fontSize": [
+       "Font size/display-sm"
+      ],
+      "fontStyle": [
+       "Font weight/medium"
+      ],
+      "lineHeight": [
+       "Line height/display-xs"
+      ],
+      "paragraphSpacing": [
+       "Font size/display-sm"
+      ]
+     },
+     "ch": "0",
+     "f": "Space Grotesk Medium 30",
+     "fills": [
+      "Colors/Text/text-placeholder_subtle"
+     ],
+     "h": 32,
+     "n": "Text",
+     "pr": {},
+     "st": "Display sm/Medium",
+     "sz": [
+      "FILL",
+      "HUG"
+     ],
+     "t": "TEXT",
+     "ta": "CENTER",
+     "w": 48
+    }
+   ],
+   "fills": [
+    "Colors/Background/bg-primary"
+   ],
+   "h": 64,
+   "n": "State=Placeholder, Size=sm",
+   "pr": {},
+   "r": 20,
+   "strokes": [
+    "color/border/primary(h)"
+   ],
+   "sw": 1,
+   "t": "COMPONENT",
+   "w": 64
+  },
+  {
+   "al": [
+    "VERTICAL",
+    8,
+    2,
+    8,
+    2,
+    8,
+    "CENTER",
+    "CENTER",
+    "FIXED",
+    "HUG"
+   ],
+   "b": {
+    "bottomLeftRadius": "radius-3xl",
+    "bottomRightRadius": "radius-3xl",
+    "itemSpacing": "spacing-md",
+    "paddingBottom": "spacing-xxs",
+    "paddingLeft": "spacing-md",
+    "paddingRight": "spacing-md",
+    "paddingTop": "spacing-xxs",
+    "topLeftRadius": "radius-3xl",
+    "topRightRadius": "radius-3xl"
+   },
+   "c": [
+    {
+     "b": {
+      "fontFamily": [
+       "Font family/font-family-secondary"
+      ],
+      "fontSize": [
+       "Font size/display-sm"
+      ],
+      "fontStyle": [
+       "Font weight/medium"
+      ],
+      "lineHeight": [
+       "Line height/display-xs"
+      ],
+      "paragraphSpacing": [
+       "Font size/display-sm"
+      ]
+     },
+     "ch": "0",
+     "f": "Space Grotesk Medium 30",
+     "fills": [
+      "Colors/Foreground/fg-disabled_subtle"
+     ],
+     "h": 32,
+     "n": "Text",
+     "pr": {},
+     "st": "Display sm/Medium",
+     "sz": [
+      "FILL",
+      "HUG"
+     ],
+     "t": "TEXT",
+     "ta": "CENTER",
+     "w": 48
+    }
+   ],
+   "fills": [
+    "Colors/Background/bg-disabled_subtle"
+   ],
+   "h": 64,
+   "n": "State=Disabled, Size=sm",
+   "pr": {},
+   "r": 20,
+   "strokes": [
+    "Colors/Border/border-disabled(h)"
+   ],
+   "sw": 1,
+   "t": "COMPONENT",
+   "w": 64
+  },
+  {
+   "al": [
+    "VERTICAL",
+    8,
+    2,
+    8,
+    2,
+    8,
+    "CENTER",
+    "CENTER",
+    "FIXED",
+    "HUG"
+   ],
+   "b": {
+    "bottomLeftRadius": "radius-3xl",
+    "bottomRightRadius": "radius-3xl",
+    "itemSpacing": "spacing-md",
+    "paddingBottom": "spacing-xxs",
+    "paddingLeft": "spacing-md",
+    "paddingRight": "spacing-md",
+    "paddingTop": "spacing-xxs",
+    "topLeftRadius": "radius-3xl",
+    "topRightRadius": "radius-3xl"
+   },
+   "c": [
+    {
+     "b": {
+      "fontFamily": [
+       "Font family/font-family-secondary"
+      ],
+      "fontSize": [
+       "Font size/display-sm"
+      ],
+      "fontStyle": [
+       "Font weight/medium"
+      ],
+      "lineHeight": [
+       "Line height/display-xs"
+      ],
+      "paragraphSpacing": [
+       "Font size/display-sm"
+      ]
+     },
+     "ch": "0",
+     "f": "Space Grotesk Medium 30",
+     "fills": [
+      "Colors/Text/text-brand-tertiary_alt"
+     ],
+     "h": 32,
+     "n": "Text",
+     "pr": {},
+     "st": "Display sm/Medium",
+     "sz": [
+      "FILL",
+      "HUG"
+     ],
+     "t": "TEXT",
+     "ta": "CENTER",
+     "w": 48
+    }
+   ],
+   "fills": [
+    "Colors/Background/bg-primary"
+   ],
+   "h": 64,
+   "n": "State=Focused, Size=sm",
+   "pr": {},
+   "r": 20,
+   "strokes": [
+    "Colors/Border/border-brand"
+   ],
+   "sw": 2,
+   "t": "COMPONENT",
+   "w": 64
+  },
+  {
+   "al": [
+    "VERTICAL",
+    8,
+    2,
+    8,
+    2,
+    8,
+    "CENTER",
+    "CENTER",
+    "FIXED",
+    "HUG"
+   ],
+   "b": {
+    "bottomLeftRadius": "radius-3xl",
+    "bottomRightRadius": "radius-3xl",
+    "itemSpacing": "spacing-md",
+    "paddingBottom": "spacing-xxs",
+    "paddingLeft": "spacing-md",
+    "paddingRight": "spacing-md",
+    "paddingTop": "spacing-xxs",
+    "topLeftRadius": "radius-3xl",
+    "topRightRadius": "radius-3xl"
+   },
+   "c": [
+    {
+     "b": {
+      "fontFamily": [
+       "Font family/font-family-secondary"
+      ],
+      "fontSize": [
+       "Font size/display-sm"
+      ],
+      "fontStyle": [
+       "Font weight/medium"
+      ],
+      "lineHeight": [
+       "Line height/display-xs"
+      ],
+      "paragraphSpacing": [
+       "Font size/display-sm"
+      ]
+     },
+     "ch": "0",
+     "f": "Space Grotesk Medium 30",
+     "fills": [
+      "Colors/Text/text-brand-tertiary_alt"
+     ],
+     "h": 32,
+     "n": "Text",
+     "pr": {},
+     "st": "Display sm/Medium",
+     "sz": [
+      "FILL",
+      "HUG"
+     ],
+     "t": "TEXT",
+     "ta": "CENTER",
+     "w": 48
+    }
+   ],
+   "fills": [
+    "Colors/Background/bg-primary"
+   ],
+   "h": 64,
+   "n": "State=Filled, Size=sm",
+   "pr": {},
+   "r": 20,
+   "strokes": [
+    "Colors/Border/border-brand"
+   ],
+   "sw": 2,
+   "t": "COMPONENT",
+   "w": 64
+  }
+ ],
+ "btnProps": [
+  "Loading text#8994:0:BOOLEAN",
+  "Show L icon#21269:56:BOOLEAN",
+  "Show R icon#21269:175:BOOLEAN",
+  "Label#23477:0:TEXT",
+  "Size:VARIANT=sm/md/lg/xxs",
+  "Hierarchy:VARIANT=Primary/Secondary/Link brand/Primary_alt",
+  "State:VARIANT=Default/Hover/Focused/Disabled/Loading/Pressed",
+  "Icon only:VARIANT=False/True"
+ ],
+ "check": "otp-inspect",
+ "displayStyles": [
+  [
+   "Display 2xl/Regular",
+   "Space Grotesk",
+   72,
+   90
+  ],
+  [
+   "Display 2xl/Medium",
+   "Space Grotesk",
+   72,
+   90
+  ],
+  [
+   "Display 2xl/Semibold",
+   "Space Grotesk",
+   72,
+   90
+  ],
+  [
+   "Display 2xl/Bold",
+   "Space Grotesk",
+   72,
+   90
+  ],
+  [
+   "Display xl/Regular",
+   "Space Grotesk",
+   60,
+   72
+  ],
+  [
+   "Display xl/Medium",
+   "Space Grotesk",
+   60,
+   72
+  ],
+  [
+   "Display xl/Semibold",
+   "Space Grotesk",
+   60,
+   72
+  ],
+  [
+   "Display xl/Bold",
+   "Space Grotesk",
+   60,
+   72
+  ],
+  [
+   "Display lg/Regular",
+   "Space Grotesk",
+   48,
+   60
+  ],
+  [
+   "Display lg/Medium",
+   "Space Grotesk",
+   48,
+   60
+  ],
+  [
+   "Display lg/Semibold",
+   "Space Grotesk",
+   48,
+   60
+  ],
+  [
+   "Display lg/Bold",
+   "Space Grotesk",
+   48,
+   60
+  ],
+  [
+   "Display md/Regular",
+   "Space Grotesk",
+   36,
+   44
+  ],
+  [
+   "Display md/Medium",
+   "Space Grotesk",
+   36,
+   44
+  ],
+  [
+   "Display md/Semibold",
+   "Space Grotesk",
+   36,
+   44
+  ],
+  [
+   "Display md/Bold",
+   "Space Grotesk",
+   36,
+   44
+  ],
+  [
+   "Display sm/Regular",
+   "Space Grotesk",
+   30,
+   32
+  ],
+  [
+   "Display sm/Medium",
+   "Space Grotesk",
+   30,
+   32
+  ],
+  [
+   "Display sm/Semibold",
+   "Space Grotesk",
+   30,
+   32
+  ],
+  [
+   "Display sm/Bold",
+   "Space Grotesk",
+   30,
+   32
+  ],
+  [
+   "Display xs/Regular",
+   "Space Grotesk",
+   18,
+   24
+  ],
+  [
+   "Display xs/Medium",
+   "Space Grotesk",
+   18,
+   24
+  ],
+  [
+   "Display xs/Semibold",
+   "Space Grotesk",
+   18,
+   24
+  ],
+  [
+   "Display xs/Bold",
+   "Space Grotesk",
+   18,
+   24
+  ],
+  [
+   "Display xxs/Regular",
+   "Space Grotesk",
+   12,
+   16
+  ],
+  [
+   "Display xxs/Medium",
+   "Space Grotesk",
+   12,
+   16
+  ],
+  [
+   "Display xxs/Semibold",
+   "Space Grotesk",
+   12,
+   16
+  ],
+  [
+   "Display xxs/Bold",
+   "Space Grotesk",
+   12,
+   16
+  ],
+  [
+   "Display xxxs/Regular",
+   "Space Grotesk",
+   10,
+   16
+  ],
+  [
+   "Display xxxs/Medium",
+   "Space Grotesk",
+   10,
+   16
+  ],
+  [
+   "Display xxxs/Semibold",
+   "Space Grotesk",
+   10,
+   16
+  ],
+  [
+   "Display xxxs/Bold",
+   "Space Grotesk",
+   10,
+   16
+  ]
+ ],
+ "effectStyles": [
+  [
+   "S:a9a150168b5a4da7ba16a030a3e7f84e8e87854c,",
+   "Shadows/shadow-xs"
+  ],
+  [
+   "S:b23d1453e3a5cd87af3e34edc1f60e95ec99b9e5,",
+   "Shadows/shadow-xs-skeuomorphic"
+  ],
+  [
+   "S:d41ecf5cada6db28823b4b24381db22cc44c8a43,",
+   "Focus rings/focus-ring"
+  ],
+  [
+   "S:658dc292457e6d7aa9a26b827c1dea502d807bbe,",
+   "Focus rings/focus-ring-shadow-primaryalt-xs"
+  ],
+  [
+   "S:bce122670128f38950690f386f9d3d3e818ad4f4,",
+   "Focus rings/focus-ring-shadow-primary-xs"
+  ],
+  [
+   "S:079ecb2c319f01db7b40aaf44c296c2911fbd404,",
+   "Focus rings/focus-ring-shadow-secondary-xs"
+  ],
+  [
+   "S:1b515022cdb8c18325830171512e190cbda931c4,",
+   "Focus rings/focus-ring-shadow-sm"
+  ],
+  [
+   "S:014aba29f14c9f43b24fae52793085bee2fbd3a8,",
+   "Focus rings/focus-ring-error"
+  ],
+  [
+   "S:5a02afc49d3953c6a7daaac92718ed2dabc0fba6,",
+   "Focus rings/focus-ring-error-shadow-xs"
+  ],
+  [
+   "S:7cf4c3b3e3d929cf8310fc155fd2e035993c5ca5,",
+   "Focus rings/focus-ring-error-shadow-xs-skeuomorphic"
+  ]
+ ],
+ "fieldProps": {
+  "Digits": {
+   "defaultValue": "4",
+   "type": "VARIANT",
+   "variantOptions": [
+    "4"
+   ]
+  },
+  "Label#3285:1069": {
+   "defaultValue": true,
+   "type": "BOOLEAN"
+  },
+  "Size": {
+   "defaultValue": "sm",
+   "type": "VARIANT",
+   "variantOptions": [
+    "sm",
+    "md",
+    "lg"
+   ]
+  }
+ },
+ "fieldV": {
+  "al": [
+   "VERTICAL",
+   6,
+   0,
+   0,
+   0,
+   0,
+   "MIN",
+   "MIN",
+   "HUG",
+   "HUG"
+  ],
+  "b": {
+   "itemSpacing": "spacing-sm"
+  },
+  "c": [
+   {
+    "al": [
+     "VERTICAL",
+     6,
+     0,
+     0,
+     0,
+     0,
+     "MIN",
+     "MIN",
+     "FILL",
+     "HUG"
+    ],
+    "b": {
+     "itemSpacing": "spacing-sm"
+    },
+    "c": [
+     {
+      "al": [
+       "HORIZONTAL",
+       4,
+       0,
+       0,
+       0,
+       0,
+       "MIN",
+       "CENTER",
+       "HUG",
+       "HUG"
+      ],
+      "b": {
+       "itemSpacing": "spacing-xs",
+       "paddingLeft": "spacing-none"
+      },
+      "h": 20,
+      "main": "_Input title › Required?=Yes, Tooltip?=Yes",
+      "n": "_Input title",
+      "pr": {},
+      "t": "INSTANCE",
+      "w": 118
+     },
+     {
+      "al": [
+       "HORIZONTAL",
+       8,
+       0,
+       0,
+       0,
+       0,
+       "MIN",
+       "MIN",
+       "HUG",
+       "HUG"
+      ],
+      "b": {
+       "itemSpacing": "spacing-md"
+      },
+      "c": [
+       {
+        "al": [
+         "VERTICAL",
+         8,
+         2,
+         8,
+         2,
+         8,
+         "CENTER",
+         "CENTER",
+         "FIXED",
+         "HUG"
+        ],
+        "b": {
+         "bottomLeftRadius": "radius-3xl",
+         "bottomRightRadius": "radius-3xl",
+         "itemSpacing": "spacing-md",
+         "paddingBottom": "spacing-xxs",
+         "paddingLeft": "spacing-md",
+         "paddingRight": "spacing-md",
+         "paddingTop": "spacing-xxs",
+         "topLeftRadius": "radius-3xl",
+         "topRightRadius": "radius-3xl"
+        },
+        "fills": [
+         "Colors/Background/bg-primary"
+        ],
+        "h": 64,
+        "main": "_Mega input field base › State=Placeholder, Size=sm",
+        "n": "_Mega input field base",
+        "pr": {},
+        "r": 20,
+        "strokes": [
+         "color/border/primary(h)"
+        ],
+        "sw": 1,
+        "t": "INSTANCE",
+        "w": 64
+       },
+       {
+        "al": [
+         "VERTICAL",
+         8,
+         2,
+         8,
+         2,
+         8,
+         "CENTER",
+         "CENTER",
+         "FIXED",
+         "HUG"
+        ],
+        "b": {
+         "bottomLeftRadius": "radius-3xl",
+         "bottomRightRadius": "radius-3xl",
+         "itemSpacing": "spacing-md",
+         "paddingBottom": "spacing-xxs",
+         "paddingLeft": "spacing-md",
+         "paddingRight": "spacing-md",
+         "paddingTop": "spacing-xxs",
+         "topLeftRadius": "radius-3xl",
+         "topRightRadius": "radius-3xl"
+        },
+        "fills": [
+         "Colors/Background/bg-primary"
+        ],
+        "h": 64,
+        "main": "_Mega input field base › State=Placeholder, Size=sm",
+        "n": "_Mega input field base",
+        "pr": {},
+        "r": 20,
+        "strokes": [
+         "color/border/primary(h)"
+        ],
+        "sw": 1,
+        "t": "INSTANCE",
+        "w": 64
+       },
+       {
+        "al": [
+         "VERTICAL",
+         8,
+         2,
+         8,
+         2,
+         8,
+         "CENTER",
+         "CENTER",
+         "FIXED",
+         "HUG"
+        ],
+        "b": {
+         "bottomLeftRadius": "radius-3xl",
+         "bottomRightRadius": "radius-3xl",
+         "itemSpacing": "spacing-md",
+         "paddingBottom": "spacing-xxs",
+         "paddingLeft": "spacing-md",
+         "paddingRight": "spacing-md",
+         "paddingTop": "spacing-xxs",
+         "topLeftRadius": "radius-3xl",
+         "topRightRadius": "radius-3xl"
+        },
+        "fills": [
+         "Colors/Background/bg-primary"
+        ],
+        "h": 64,
+        "main": "_Mega input field base › State=Placeholder, Size=sm",
+        "n": "_Mega input field base",
+        "pr": {},
+        "r": 20,
+        "strokes": [
+         "color/border/primary(h)"
+        ],
+        "sw": 1,
+        "t": "INSTANCE",
+        "w": 64
+       },
+       {
+        "al": [
+         "VERTICAL",
+         8,
+         2,
+         8,
+         2,
+         8,
+         "CENTER",
+         "CENTER",
+         "FIXED",
+         "HUG"
+        ],
+        "b": {
+         "bottomLeftRadius": "radius-3xl",
+         "bottomRightRadius": "radius-3xl",
+         "itemSpacing": "spacing-md",
+         "paddingBottom": "spacing-xxs",
+         "paddingLeft": "spacing-md",
+         "paddingRight": "spacing-md",
+         "paddingTop": "spacing-xxs",
+         "topLeftRadius": "radius-3xl",
+         "topRightRadius": "radius-3xl"
+        },
+        "fills": [
+         "Colors/Background/bg-primary"
+        ],
+        "h": 64,
+        "main": "_Mega input field base › State=Placeholder, Size=sm",
+        "n": "_Mega input field base",
+        "pr": {},
+        "r": 20,
+        "strokes": [
+         "color/border/primary(h)"
+        ],
+        "sw": 1,
+        "t": "INSTANCE",
+        "w": 64
+       }
+      ],
+      "h": 64,
+      "n": "Input",
+      "pr": {},
+      "t": "FRAME",
+      "w": 280
+     }
+    ],
+    "h": 90,
+    "n": "Input with label",
+    "pr": {},
+    "t": "FRAME",
+    "w": 280
+   },
+   {
+    "al": [
+     "HORIZONTAL",
+     4,
+     0,
+     0,
+     0,
+     0,
+     "MIN",
+     "MIN",
+     "HUG",
+     "HUG"
+    ],
+    "b": {
+     "itemSpacing": "spacing-xs",
+     "paddingLeft": "spacing-none"
+    },
+    "h": 18,
+    "main": "Helper text › Size=md, Status=Informative default",
+    "n": "Helper text",
+    "pr": {},
+    "t": "INSTANCE",
+    "w": 98
+   }
+  ],
+  "h": 114,
+  "n": "Size=sm, Digits=4",
+  "pr": {},
+  "t": "COMPONENT",
+  "w": 280
+ },
+ "helperProps": [
+  "Text#23530:0",
+  "Size",
+  "Status"
+ ],
+ "insts": {
+  "_Mega input field base (inside sets)": 12
+ },
+ "setSize": [
+  336,
+  564,
+  1812,
+  209
+ ],
+ "vars": [
+  [
+   "VariableID:5419:395653",
+   "Colors/Text/text-placeholder"
+  ],
+  [
+   "VariableID:5419:395654",
+   "Colors/Text/text-placeholder_subtle"
+  ],
+  [
+   "VariableID:5419:395655",
+   "Colors/Text/text-brand-tertiary (600)"
+  ],
+  [
+   "VariableID:6188:191015",
+   "Colors/Text/text-brand-tertiary_alt"
+  ],
+  [
+   "VariableID:8753:389622",
+   "Colors/Text/text-error-primary_hover"
+  ],
+  [
+   "VariableID:5270:371446",
+   "Colors/Text/text-success-primary"
+  ],
+  [
+   "VariableID:5353:382144",
+   "Colors/Border/border-disabled"
+  ],
+  [
+   "VariableID:5419:395627",
+   "Colors/Border/border-disabled_subtle"
+  ],
+  [
+   "VariableID:5353:381354",
+   "Colors/Border/border-brand"
+  ],
+  [
+   "VariableID:7397:524104",
+   "Colors/Border/border-brand_alt"
+  ],
+  [
+   "VariableID:17596:18682",
+   "Colors/Border/border-brand subtle"
+  ],
+  [
+   "VariableID:5353:385108",
+   "Colors/Border/border-error"
+  ],
+  [
+   "VariableID:5263:373126",
+   "Colors/Border/border-error_subtle"
+  ],
+  [
+   "VariableID:21259:769",
+   "Colors/Border/border-success"
+  ],
+  [
+   "VariableID:5367:383135",
+   "Colors/Foreground/fg-error-primary"
+  ],
+  [
+   "VariableID:5270:371434",
+   "Colors/Foreground/fg-success-primary"
+  ],
+  [
+   "VariableID:5269:371407",
+   "Colors/Background/bg-primary"
+  ],
+  [
+   "VariableID:21372:1655",
+   "Colors/Effects/Focus rings/focus-ring-neutral"
+  ],
+  [
+   "VariableID:17496:23386",
+   "Colors/Effects/Focus rings/focus-ring-alt"
+  ],
+  [
+   "VariableID:7371:212919",
+   "Colors/Effects/Focus rings/focus-ring-error"
+  ],
+  [
+   "VariableID:5503:400270",
+   "Colors/Background/bg-primary_alt"
+  ],
+  [
+   "VariableID:5353:380344",
+   "Colors/Background/bg-primary_hover"
+  ],
+  [
+   "VariableID:6188:245678",
+   "Colors/Background/bg-primary-solid"
+  ],
+  [
+   "VariableID:5353:380346",
+   "Colors/Background/bg-disabled"
+  ],
+  [
+   "VariableID:5373:441756",
+   "Colors/Background/bg-disabled_subtle"
+  ],
+  [
+   "VariableID:5353:386814",
+   "Colors/Background/bg-error-primary"
+  ],
+  [
+   "VariableID:5270:371424",
+   "Colors/Background/bg-error-secondary"
+  ],
+  [
+   "VariableID:5270:371460",
+   "Colors/Background/bg-error-solid"
+  ],
+  [
+   "VariableID:9860:25270",
+   "Colors/Background/bg-error-solid_hover"
+  ],
+  [
+   "VariableID:5270:371427",
+   "Colors/Background/bg-success-primary"
+  ],
+  [
+   "VariableID:5270:371428",
+   "Colors/Background/bg-success-secondary"
+  ],
+  [
+   "VariableID:5270:371464",
+   "Colors/Background/bg-success-solid"
+  ]
+ ]
+}

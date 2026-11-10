@@ -1,0 +1,29 @@
+{
+ "changed": [
+  [
+   "1106:66591",
+   "State=Placeholder, Size=md",
+   1,
+   true
+  ],
+  [
+   "1106:66639",
+   "State=Placeholder, Size=lg",
+   1,
+   true
+  ],
+  [
+   "1106:66615",
+   "State=Placeholder, Size=sm",
+   1,
+   true
+  ],
+  [
+   "23554:17315",
+   "State=Placeholder, Size=xs",
+   1,
+   true
+  ]
+ ],
+ "check": "otp-placeholder-border"
+}

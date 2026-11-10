@@ -1,0 +1,394 @@
+{
+ "buttonHierarchies": [
+  "Primary",
+  "Primary_alt",
+  "Link brand",
+  "Secondary"
+ ],
+ "check": "detail",
+ "footer": [
+  [
+   "↳ Miscellaneous assets",
+   "COMPONENT_SET",
+   "Divider",
+   "1624:462461"
+  ]
+ ],
+ "legacy": [],
+ "legacyCount": 0,
+ "matrix": {
+  "lg Default": [
+   "Placeholder",
+   "Placeholder!",
+   "Filled",
+   "Filled!",
+   "Focused",
+   "Disabled",
+   "Disabled!"
+  ],
+  "lg Leading drowdown": [
+   "Placeholder",
+   "Placeholder!",
+   "Filled",
+   "Filled!",
+   "Focused",
+   "Disabled",
+   "Disabled!"
+  ],
+  "lg Leading icon": [
+   "Placeholder",
+   "Placeholder!",
+   "Filled",
+   "Filled!",
+   "Focused",
+   "Disabled",
+   "Disabled!"
+  ],
+  "lg Password": [
+   "Placeholder",
+   "Placeholder!",
+   "Filled",
+   "Filled!",
+   "Focused",
+   "Disabled"
+  ],
+  "lg Payment": [
+   "Placeholder",
+   "Placeholder!",
+   "Disabled",
+   "Disabled!",
+   "Filled",
+   "Filled!",
+   "Focused"
+  ],
+  "sm Default": [
+   "Filled",
+   "Filled!",
+   "Focused",
+   "Disabled",
+   "Disabled!",
+   "Placeholder",
+   "Placeholder!"
+  ],
+  "sm Search": [
+   "Filled",
+   "Filled!",
+   "Focused",
+   "Disabled",
+   "Placeholder",
+   "Placeholder!"
+  ],
+  "sm Search + Tags": [
+   "Filled",
+   "Filled!",
+   "Focused",
+   "Disabled",
+   "Placeholder",
+   "Placeholder!"
+  ]
+ },
+ "modal": {
+  "handle": [],
+  "kids": [
+   {
+    "align": "MIN",
+    "h": 844,
+    "kids": [
+     {
+      "align": "MIN",
+      "h": 844,
+      "name": "Background overlay",
+      "pad": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "pos": "AUTO",
+      "r": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "rb": [],
+      "type": "FRAME",
+      "vis": true,
+      "w": 390,
+      "x": 0,
+      "y": 0
+     }
+    ],
+    "name": "Background overlay",
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "pos": "ABSOLUTE",
+    "r": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "rb": [],
+    "type": "INSTANCE",
+    "vis": true,
+    "w": 390,
+    "x": 0,
+    "y": 0
+   },
+   {
+    "align": "MIN",
+    "h": 308,
+    "kids": [
+     {
+      "align": "MIN",
+      "h": 110,
+      "name": "_Modal header",
+      "pad": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "pos": "AUTO",
+      "r": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "rb": [],
+      "type": "INSTANCE",
+      "vis": true,
+      "w": 390,
+      "x": 0,
+      "y": 0
+     },
+     {
+      "align": "MIN",
+      "h": 40,
+      "name": "[Slot]",
+      "pad": [
+       0,
+       16,
+       0,
+       16
+      ],
+      "pos": "AUTO",
+      "r": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "rb": [],
+      "type": "FRAME",
+      "vis": true,
+      "w": 390,
+      "x": 0,
+      "y": 110
+     },
+     {
+      "align": "MIN",
+      "h": 158,
+      "name": "_Modal actions",
+      "pad": [
+       16,
+       0,
+       0,
+       0
+      ],
+      "pos": "AUTO",
+      "r": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "rb": [],
+      "type": "INSTANCE",
+      "vis": true,
+      "w": 390,
+      "x": 0,
+      "y": 150
+     }
+    ],
+    "name": "Modal",
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "pos": "AUTO",
+    "r": [
+     32,
+     32,
+     0,
+     0
+    ],
+    "rb": [
+     "topLeftRadius",
+     "topRightRadius",
+     "bottomLeftRadius",
+     "bottomRightRadius"
+    ],
+    "type": "FRAME",
+    "vis": true,
+    "w": 390,
+    "x": 0,
+    "y": 536
+   },
+   {
+    "align": "MIN",
+    "h": 84,
+    "kids": [],
+    "name": "Spacer for max-height",
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "pos": "ABSOLUTE",
+    "r": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "rb": [],
+    "type": "FRAME",
+    "vis": true,
+    "w": 390,
+    "x": 0,
+    "y": 0
+   }
+  ],
+  "root": {
+   "align": "MAX",
+   "h": 844,
+   "name": "Type=Default slotted",
+   "pad": [
+    20,
+    0,
+    0,
+    0
+   ],
+   "pos": "AUTO",
+   "r": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "rb": [],
+   "type": "COMPONENT",
+   "vis": true,
+   "w": 390,
+   "x": 56,
+   "y": 40
+  },
+  "slot": {
+   "h": 40,
+   "main": "Slot",
+   "parent": "Slot",
+   "w": 358
+  },
+  "swap": {
+   "def": "17540:4885",
+   "preferred": 1
+  }
+ },
+ "pw": [
+  {
+   "icons": [
+    "Icon wrapper",
+    "info",
+    "Icon wrapper",
+    "info"
+   ],
+   "texts": [
+    "Label",
+    "Password",
+    "{Support text}"
+   ],
+   "v": "Placeholder/False"
+  },
+  {
+   "icons": [
+    "Icon wrapper(h)",
+    "info",
+    "Icon wrapper",
+    "circle-alert"
+   ],
+   "texts": [
+    "Label",
+    "Password",
+    "{Error}"
+   ],
+   "v": "Placeholder/True"
+  },
+  {
+   "icons": [
+    "Icon wrapper",
+    "eye",
+    "Icon wrapper",
+    "info"
+   ],
+   "texts": [
+    "Label",
+    "●●●●●●●●",
+    "{Support text}"
+   ],
+   "v": "Filled/False"
+  },
+  {
+   "icons": [
+    "Icon wrapper(h)",
+    "info",
+    "Icon wrapper",
+    "circle-alert"
+   ],
+   "texts": [
+    "Label",
+    "●●●●●●●●",
+    "{Error}"
+   ],
+   "v": "Filled/True"
+  },
+  {
+   "icons": [
+    "Icon wrapper",
+    "eye",
+    "Icon wrapper",
+    "info"
+   ],
+   "texts": [
+    "Label",
+    "●●●●●●●●",
+    "{Support text}"
+   ],
+   "v": "Focused/False"
+  },
+  {
+   "icons": [
+    "Icon wrapper",
+    "info",
+    "Icon wrapper",
+    "info"
+   ],
+   "texts": [
+    "Label",
+    "●●●●●●●●",
+    "{Support text}"
+   ],
+   "v": "Disabled/False"
+  }
+ ],
+ "requiredAsterisk": false
+}

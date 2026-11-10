@@ -1,0 +1,239 @@
+{
+ "check": "otp-validate",
+ "colours": {
+  "Colors/Background/bg-disabled_subtle": {
+   "dark": "#13161b",
+   "light": "#fafafa",
+   "uses": 7
+  },
+  "Colors/Background/bg-primary": {
+   "dark": "#000000",
+   "light": "#ffffff",
+   "uses": 41
+  },
+  "Colors/Border/border-brand": {
+   "dark": "#9090f6",
+   "light": "#7373f5",
+   "uses": 9
+  },
+  "Colors/Border/border-error": {
+   "dark": "#fe6286",
+   "light": "#ff0466",
+   "uses": 10
+  },
+  "Colors/Border/border-success": {
+   "dark": "#47cd89",
+   "light": "#17b26a",
+   "uses": 10
+  },
+  "Colors/Foreground/fg-disabled_subtle": {
+   "dark": "#61656c",
+   "light": "#d5d7da",
+   "uses": 1
+  },
+  "Colors/Text/text-brand-tertiary_alt": {
+   "dark": "#5656f3",
+   "light": "#5656f3",
+   "uses": 2
+  },
+  "Colors/Text/text-placeholder_subtle": {
+   "dark": "#373a41",
+   "light": "#d5d7da",
+   "uses": 1
+  },
+  "Colors/Text/text-success-primary": {
+   "dark": "#47cd89",
+   "light": "#067647",
+   "uses": 4
+  },
+  "Colors/Text/text-tertiary (600)": {
+   "dark": "#94979c",
+   "light": "#535862",
+   "uses": 6
+  },
+  "color/text/error-primary": {
+   "dark": "#fe6286",
+   "light": "#ca0050",
+   "uses": 4
+  }
+ },
+ "defaultVariant": "Size=sm, Digits=4, State=Default",
+ "fieldProps": [
+  "Label#3285:1069",
+  "Show resend#23554:0",
+  "Size",
+  "Digits",
+  "State"
+ ],
+ "newVariants": 18,
+ "remoteColourBindings": 0,
+ "six": [
+  {
+   "btn": [
+    "Default",
+    "Resend"
+   ],
+   "btnExposed": true,
+   "cells": 6,
+   "helper": [
+    "Informative default",
+    "{Support text}"
+   ],
+   "helperExposed": true,
+   "radius": "bound",
+   "resendRef": {
+    "visible": "Show resend#23554:0"
+   },
+   "titleRef": {
+    "visible": "Label#3285:1069"
+   },
+   "v": "State=Default"
+  },
+  {
+   "btn": [
+    "Default",
+    "Resend"
+   ],
+   "btnExposed": true,
+   "cells": 6,
+   "helper": [
+    "Informative default",
+    "{Support text}"
+   ],
+   "helperExposed": true,
+   "radius": "bound",
+   "resendRef": {
+    "visible": "Show resend#23554:0"
+   },
+   "titleRef": {
+    "visible": "Label#3285:1069"
+   },
+   "v": "State=Focused"
+  },
+  {
+   "btn": [
+    "Default",
+    "Resend"
+   ],
+   "btnExposed": true,
+   "cells": 6,
+   "helper": [
+    "Informative default",
+    "{Support text}"
+   ],
+   "helperExposed": true,
+   "radius": "bound",
+   "resendRef": {
+    "visible": "Show resend#23554:0"
+   },
+   "titleRef": {
+    "visible": "Label#3285:1069"
+   },
+   "v": "State=Filled"
+  },
+  {
+   "btn": [
+    "Default",
+    "Resend"
+   ],
+   "btnExposed": true,
+   "cells": 6,
+   "helper": [
+    "Error",
+    "{Error}"
+   ],
+   "helperExposed": true,
+   "radius": "bound",
+   "resendRef": {
+    "visible": "Show resend#23554:0"
+   },
+   "titleRef": {
+    "visible": "Label#3285:1069"
+   },
+   "v": "State=Error"
+  },
+  {
+   "btn": [
+    "Default",
+    "Resend"
+   ],
+   "btnExposed": true,
+   "cells": 6,
+   "helper": [
+    "Success",
+    "{Success}"
+   ],
+   "helperExposed": true,
+   "radius": "bound",
+   "resendRef": {
+    "visible": "Show resend#23554:0"
+   },
+   "titleRef": {
+    "visible": "Label#3285:1069"
+   },
+   "v": "State=Verified"
+  },
+  {
+   "btn": [
+    "Disabled",
+    "Resend in 0:30"
+   ],
+   "btnExposed": true,
+   "cells": 6,
+   "helper": [
+    "Informative default",
+    "{Support text}"
+   ],
+   "helperExposed": true,
+   "radius": "bound",
+   "resendRef": {
+    "visible": "Show resend#23554:0"
+   },
+   "titleRef": {
+    "visible": "Label#3285:1069"
+   },
+   "v": "State=Disabled"
+  }
+ ],
+ "unboundExamples": [],
+ "unboundPaints": 0,
+ "unboundSpacing": 0,
+ "xsRadius": [
+  [
+   "State=Placeholder, Size=xs",
+   48,
+   48,
+   16
+  ],
+  [
+   "State=Focused, Size=xs",
+   48,
+   48,
+   16
+  ],
+  [
+   "State=Filled, Size=xs",
+   48,
+   48,
+   16
+  ],
+  [
+   "State=Disabled, Size=xs",
+   48,
+   48,
+   16
+  ],
+  [
+   "State=Error, Size=xs",
+   48,
+   48,
+   16
+  ],
+  [
+   "State=Verified, Size=xs",
+   48,
+   48,
+   16
+  ]
+ ]
+}

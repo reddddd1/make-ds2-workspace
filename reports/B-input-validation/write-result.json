@@ -1,0 +1,65 @@
+{
+ "added": [
+  [
+   "23561:17476",
+   "Size=sm, Type=Default, Destructive=True, State=Focused"
+  ],
+  [
+   "23561:17495",
+   "Size=sm, Type=Search, Destructive=True, State=Focused"
+  ],
+  [
+   "23561:17513",
+   "Size=sm, Type=Search + Tags, Destructive=True, State=Focused"
+  ],
+  [
+   "23561:17542",
+   "Size=lg, Type=Default, Destructive=True, State=Focused"
+  ],
+  [
+   "23561:17561",
+   "Size=lg, Type=Password, Destructive=True, State=Focused"
+  ],
+  [
+   "23561:17578",
+   "Size=lg, Type=Leading icon, Destructive=True, State=Focused"
+  ],
+  [
+   "23561:17599",
+   "Size=lg, Type=Leading drowdown, Destructive=True, State=Focused"
+  ],
+  [
+   "23561:17622",
+   "Size=lg, Type=Payment, Destructive=True, State=Focused"
+  ]
+ ],
+ "check": "input-validation-write",
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "instancesChecked": 26,
+ "labelRowsTagged": 13,
+ "passwordTextsBound": 4,
+ "props": [
+  "Label#23498:0:TEXT",
+  "Text#23498:54:TEXT",
+  "Show helper#23530:16:BOOLEAN",
+  "Show optional#23530:70:BOOLEAN",
+  "Password#23561:0:TEXT",
+  "Show required#23561:54:BOOLEAN",
+  "Size:VARIANT=lg/sm",
+  "Type:VARIANT=Default/Leading drowdown/Payment/Leading icon/Password/Search/Search + Tags",
+  "Destructive:VARIANT=False/True",
+  "State:VARIANT=Placeholder/Filled/Focused/Disabled"
+ ],
+ "refsOnClones": [
+  6,
+  5,
+  7,
+  8,
+  7,
+  6,
+  6,
+  4
+ ],
+ "variants": 61,
+ "writtenAt": "2026-11-10T08:50:15.397Z"
+}

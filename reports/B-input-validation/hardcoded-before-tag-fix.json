@@ -1,0 +1,96 @@
+{
+ "check": "inputB-hardcoded",
+ "count": 15,
+ "hits": [
+  [
+   "Size=lg, Type=Default, Destructive=False, State=Placeholder",
+   "ROOT/Label row/Required tag",
+   "itemSpacing",
+   10
+  ],
+  [
+   "Size=lg, Type=Password, Destructive=False, State=Placeholder",
+   "ROOT/Label row/Required tag",
+   "itemSpacing",
+   10
+  ],
+  [
+   "Size=lg, Type=Default, Destructive=True, State=Placeholder",
+   "ROOT/Label row/Required tag",
+   "itemSpacing",
+   10
+  ],
+  [
+   "Size=lg, Type=Password, Destructive=True, State=Placeholder",
+   "ROOT/Label row/Required tag",
+   "itemSpacing",
+   10
+  ],
+  [
+   "Size=lg, Type=Default, Destructive=False, State=Filled",
+   "ROOT/Label row/Required tag",
+   "itemSpacing",
+   10
+  ],
+  [
+   "Size=lg, Type=Password, Destructive=False, State=Filled",
+   "ROOT/Label row/Required tag",
+   "itemSpacing",
+   10
+  ],
+  [
+   "Size=lg, Type=Default, Destructive=True, State=Filled",
+   "ROOT/Label row/Required tag",
+   "itemSpacing",
+   10
+  ],
+  [
+   "Size=lg, Type=Password, Destructive=True, State=Filled",
+   "ROOT/Label row/Required tag",
+   "itemSpacing",
+   10
+  ],
+  [
+   "Size=lg, Type=Default, Destructive=False, State=Focused",
+   "ROOT/Label row/Required tag",
+   "itemSpacing",
+   10
+  ],
+  [
+   "Size=lg, Type=Password, Destructive=False, State=Focused",
+   "ROOT/Label row/Required tag",
+   "itemSpacing",
+   10
+  ],
+  [
+   "Size=lg, Type=Default, Destructive=False, State=Disabled",
+   "ROOT/Label row/Required tag",
+   "itemSpacing",
+   10
+  ],
+  [
+   "Size=lg, Type=Password, Destructive=False, State=Disabled",
+   "ROOT/Label row/Required tag",
+   "itemSpacing",
+   10
+  ],
+  [
+   "Size=lg, Type=Default, Destructive=True, State=Disabled",
+   "ROOT/Label row/Required tag",
+   "itemSpacing",
+   10
+  ],
+  [
+   "Size=lg, Type=Default, Destructive=True, State=Focused",
+   "ROOT/Label row/Required tag",
+   "itemSpacing",
+   10
+  ],
+  [
+   "Size=lg, Type=Password, Destructive=True, State=Focused",
+   "ROOT/Label row/Required tag",
+   "itemSpacing",
+   10
+  ]
+ ]
+}

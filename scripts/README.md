@@ -36,6 +36,8 @@
 | `components/otp-six-digit.js` | `use_figma` **WRITE** (duplicate only): Task A — `_Mega input field base` + Error/Verified and xs (48px); `Verification code input field` + State axis and 6 × `Size=xs, Digits=6` variants with helper status, resend row, `Show resend`. Preconditions, structural guard on all existing variants | VERIFIED (used once, approved, task A) |
 | `components/otp-resend-icons-off.js` | `use_figma` **WRITE** (duplicate only): hides Show L/R icon on the 6 OTP resend buttons; guard on all other layers | VERIFIED (used once, task A) |
 | `components/otp-placeholder-border.js` | `use_figma` **WRITE** (duplicate only): shows the existing `color/border/primary` stroke on the 4 Placeholder OTP cells; guard on the other 20 | VERIFIED (used once, approved, task A) |
+| `components/input-field-validation.js` | `use_figma` **WRITE** (duplicate only): Task B — eye kept in Password error/Filled; `Password` TEXT property; `Show required` + "Required" tag in every Label row; 8 × `Destructive=True, State=Focused` (border-error + error focus ring). Guard on all existing variants and 26 instances | VERIFIED (used once, approved, task B) |
+| `components/input-required-tag-gap.js` | `use_figma` **WRITE** (duplicate only): binds the 15 Required-tag gaps (10px) to `spacing-2_5`, value-preserving | VERIFIED (used once, task B) |
 | `build-registry.py` | Local only. Builds and validates `registry/components.json` from a raw extract. `python3 -I scripts/build-registry.py <raw.json> <out.json> [<bindings.json>]` | VERIFIED (used, P1-04) |
 
 Rules: write scripts are added only after a phase is approved, and must refuse to run against the original library `xJoAz66aekAToyhBmfGNt0`.

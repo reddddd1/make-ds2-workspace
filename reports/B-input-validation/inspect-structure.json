@@ -1,0 +1,605 @@
+{
+ "check": "input-inspect",
+ "defs": [
+  [
+   "Label#23498:0",
+   "TEXT",
+   "Label"
+  ],
+  [
+   "Text#23498:54",
+   "TEXT",
+   "Placeholder text"
+  ],
+  [
+   "Show helper#23530:16",
+   "BOOLEAN",
+   true
+  ],
+  [
+   "Show optional#23530:70",
+   "BOOLEAN",
+   false
+  ],
+  [
+   "Size",
+   "VARIANT",
+   [
+    "lg",
+    "sm"
+   ]
+  ],
+  [
+   "Type",
+   "VARIANT",
+   [
+    "Default",
+    "Leading drowdown",
+    "Payment",
+    "Leading icon",
+    "Password",
+    "Search",
+    "Search + Tags"
+   ]
+  ],
+  [
+   "Destructive",
+   "VARIANT",
+   [
+    "False",
+    "True"
+   ]
+  ],
+  [
+   "State",
+   "VARIANT",
+   [
+    "Placeholder",
+    "Filled",
+    "Focused",
+    "Disabled"
+   ]
+  ]
+ ],
+ "positions": [
+  [
+   "Size=lg, Type=Default, Destructive=False, State=Placeholder",
+   486,
+   54
+  ],
+  [
+   "Size=lg, Type=Password, Destructive=False, State=Placeholder",
+   2312,
+   52
+  ],
+  [
+   "Size=lg, Type=Default, Destructive=True, State=Placeholder",
+   486,
+   550
+  ],
+  [
+   "Size=lg, Type=Password, Destructive=True, State=Placeholder",
+   2312,
+   548
+  ],
+  [
+   "Size=lg, Type=Default, Destructive=False, State=Filled",
+   486,
+   178
+  ],
+  [
+   "Size=lg, Type=Password, Destructive=False, State=Filled",
+   2312,
+   176
+  ],
+  [
+   "Size=lg, Type=Default, Destructive=True, State=Filled",
+   486,
+   674
+  ],
+  [
+   "Size=lg, Type=Password, Destructive=True, State=Filled",
+   2312,
+   672
+  ],
+  [
+   "Size=lg, Type=Default, Destructive=False, State=Focused",
+   486,
+   302
+  ],
+  [
+   "Size=lg, Type=Password, Destructive=False, State=Focused",
+   2312,
+   300
+  ],
+  [
+   "Size=lg, Type=Default, Destructive=False, State=Disabled",
+   486,
+   426
+  ],
+  [
+   "Size=lg, Type=Password, Destructive=False, State=Disabled",
+   2312,
+   424
+  ],
+  [
+   "Size=lg, Type=Default, Destructive=True, State=Disabled",
+   486,
+   778
+  ]
+ ],
+ "setSize": [
+  3578,
+  920
+ ],
+ "usage": {
+  "component:Date picker dropdown": 12,
+  "component:Date picker modal": 6,
+  "component:_Date picker menu": 6,
+  "page:↳ Modals": 2
+ },
+ "variants": [
+  {
+   "al": [
+    "VERTICAL",
+    6,
+    "FIXED",
+    "HUG"
+   ],
+   "c": [
+    {
+     "al": [
+      "HORIZONTAL",
+      4,
+      "HUG",
+      "HUG"
+     ],
+     "c": [
+      {
+       "ch": "Label",
+       "fills": [
+        "Colors/Text/text-secondary (700)"
+       ],
+       "h": 20,
+       "n": "Label",
+       "pr": {
+        "characters": "Label#23498:0"
+       },
+       "st": "Text sm/Medium",
+       "t": "TEXT",
+       "w": 37
+      }
+     ],
+     "h": 20,
+     "n": "Label row",
+     "t": "FRAME",
+     "w": 37
+    },
+    {
+     "al": [
+      "HORIZONTAL",
+      6,
+      "FILL",
+      "FIXED"
+     ],
+     "c": [
+      {
+       "al": [
+        "HORIZONTAL",
+        6,
+        "FILL",
+        "FILL"
+       ],
+       "c": [
+        {
+         "al": [
+          "HORIZONTAL",
+          6,
+          "FILL",
+          "HUG"
+         ],
+         "c": [
+          {
+           "ch": "Placeholder text",
+           "fills": [
+            "Colors/Text/text-primary (900)"
+           ],
+           "h": 24,
+           "n": "Text",
+           "pr": {
+            "characters": "Text#23498:54"
+           },
+           "st": "Text md/Regular",
+           "t": "TEXT",
+           "w": 123
+          },
+          {
+           "al": [
+            "HORIZONTAL",
+            10,
+            "HUG",
+            "HUG"
+           ],
+           "c": [
+            {
+             "ch": "Optional",
+             "fills": [
+              "Colors/Text/text-quaternary (500)"
+             ],
+             "h": 16,
+             "n": "Text",
+             "st": "Text xxs/Regular",
+             "t": "TEXT",
+             "w": 40
+            }
+           ],
+           "fills": [
+            "Colors/Background/bg-primary"
+           ],
+           "h": 16,
+           "hidden": 1,
+           "n": "optional",
+           "pr": {
+            "visible": "Show optional#23530:70"
+           },
+           "strokes": [
+            "color/border/primary"
+           ],
+           "sw": 1,
+           "t": "FRAME",
+           "w": 48
+          }
+         ],
+         "h": 24,
+         "n": "wrapper",
+         "t": "FRAME",
+         "w": 326
+        },
+        {
+         "al": [
+          "HORIZONTAL",
+          0,
+          "HUG",
+          "HUG"
+         ],
+         "ex": 1,
+         "h": 16,
+         "hidden": 1,
+         "icon": "info",
+         "iconKey": "ed8a6ca4c198381e4e42396ebd1710c46b2c97fb",
+         "key": "3a4e042d33c3c13f9cf3ba961f532410376f6960",
+         "main": "remote:Icon wrapper › Size=md, Type=Icon, Icon pair?=No, Style=-, Intent=Neutral",
+         "n": "Icon wrapper",
+         "t": "INSTANCE",
+         "w": 16
+        }
+       ],
+       "h": 28,
+       "n": "Content",
+       "t": "FRAME",
+       "w": 326
+      }
+     ],
+     "fills": [
+      "Colors/Background/bg-primary"
+     ],
+     "h": 52,
+     "n": "Input",
+     "strokes": [
+      "Colors/Border/border-error_subtle"
+     ],
+     "sw": 1,
+     "t": "FRAME",
+     "w": 358
+    },
+    {
+     "al": [
+      "HORIZONTAL",
+      4,
+      "HUG",
+      "HUG"
+     ],
+     "ex": 1,
+     "h": 18,
+     "key": "6de11ee662410cecb6ac2083807fe30832bc0c9f",
+     "main": "Helper text › Size=md, Status=Error",
+     "n": "Helper text",
+     "pr": {
+      "visible": "Show helper#23530:16"
+     },
+     "t": "INSTANCE",
+     "w": 71
+    }
+   ],
+   "fills": [
+    "SOLID(h)"
+   ],
+   "h": 102,
+   "n": "Size=lg, Type=Default, Destructive=True, State=Filled",
+   "t": "COMPONENT",
+   "w": 358
+  },
+  {
+   "al": [
+    "VERTICAL",
+    6,
+    "FIXED",
+    "HUG"
+   ],
+   "c": [
+    {
+     "al": [
+      "HORIZONTAL",
+      4,
+      "HUG",
+      "HUG"
+     ],
+     "c": [
+      {
+       "ch": "Label",
+       "fills": [
+        "Colors/Text/text-secondary (700)"
+       ],
+       "h": 20,
+       "n": "Label",
+       "pr": {
+        "characters": "Label#23498:0"
+       },
+       "st": "Text sm/Medium",
+       "t": "TEXT",
+       "w": 37
+      }
+     ],
+     "h": 20,
+     "n": "Label row",
+     "t": "FRAME",
+     "w": 37
+    },
+    {
+     "al": [
+      "HORIZONTAL",
+      6,
+      "FILL",
+      "FIXED"
+     ],
+     "c": [
+      {
+       "al": [
+        "HORIZONTAL",
+        6,
+        "FILL",
+        "FILL"
+       ],
+       "c": [
+        {
+         "al": [
+          "HORIZONTAL",
+          6,
+          "FILL",
+          "HUG"
+         ],
+         "c": [
+          {
+           "ch": "●●●●●●●●",
+           "fills": [
+            "Colors/Text/text-primary (900)"
+           ],
+           "h": 16,
+           "n": "Text",
+           "st": "Text xxs/Regular",
+           "t": "TEXT",
+           "w": 74
+          }
+         ],
+         "h": 16,
+         "n": "wrapper",
+         "t": "FRAME",
+         "w": 326
+        },
+        {
+         "al": [
+          "HORIZONTAL",
+          0,
+          "HUG",
+          "HUG"
+         ],
+         "ex": 1,
+         "h": 16,
+         "hidden": 1,
+         "icon": "info",
+         "iconKey": "ed8a6ca4c198381e4e42396ebd1710c46b2c97fb",
+         "key": "3a4e042d33c3c13f9cf3ba961f532410376f6960",
+         "main": "remote:Icon wrapper › Size=md, Type=Icon, Icon pair?=No, Style=-, Intent=Neutral",
+         "n": "Icon wrapper",
+         "t": "INSTANCE",
+         "w": 16
+        }
+       ],
+       "h": 28,
+       "n": "Content",
+       "t": "FRAME",
+       "w": 326
+      }
+     ],
+     "fills": [
+      "Colors/Background/bg-primary"
+     ],
+     "h": 52,
+     "n": "Input",
+     "strokes": [
+      "Colors/Border/border-error_subtle"
+     ],
+     "sw": 1,
+     "t": "FRAME",
+     "w": 358
+    },
+    {
+     "al": [
+      "HORIZONTAL",
+      4,
+      "HUG",
+      "HUG"
+     ],
+     "ex": 1,
+     "h": 18,
+     "key": "6de11ee662410cecb6ac2083807fe30832bc0c9f",
+     "main": "Helper text › Size=md, Status=Error",
+     "n": "Helper text",
+     "pr": {
+      "visible": "Show helper#23530:16"
+     },
+     "t": "INSTANCE",
+     "w": 71
+    }
+   ],
+   "fills": [
+    "SOLID(h)"
+   ],
+   "h": 102,
+   "n": "Size=lg, Type=Password, Destructive=True, State=Filled",
+   "t": "COMPONENT",
+   "w": 358
+  },
+  {
+   "al": [
+    "VERTICAL",
+    6,
+    "FIXED",
+    "HUG"
+   ],
+   "c": [
+    {
+     "al": [
+      "HORIZONTAL",
+      4,
+      "HUG",
+      "HUG"
+     ],
+     "c": [
+      {
+       "ch": "Label",
+       "fills": [
+        "Colors/Text/text-secondary (700)"
+       ],
+       "h": 20,
+       "n": "Label",
+       "pr": {
+        "characters": "Label#23498:0"
+       },
+       "st": "Text sm/Medium",
+       "t": "TEXT",
+       "w": 37
+      }
+     ],
+     "h": 20,
+     "n": "Label row",
+     "t": "FRAME",
+     "w": 37
+    },
+    {
+     "al": [
+      "HORIZONTAL",
+      6,
+      "FILL",
+      "FIXED"
+     ],
+     "c": [
+      {
+       "al": [
+        "HORIZONTAL",
+        6,
+        "FILL",
+        "FILL"
+       ],
+       "c": [
+        {
+         "al": [
+          "HORIZONTAL",
+          6,
+          "FILL",
+          "HUG"
+         ],
+         "c": [
+          {
+           "ch": "●●●●●●●●",
+           "fills": [
+            "Colors/Text/text-primary (900)"
+           ],
+           "h": 16,
+           "n": "Text",
+           "st": "Text xxs/Regular",
+           "t": "TEXT",
+           "w": 74
+          }
+         ],
+         "h": 16,
+         "n": "wrapper",
+         "t": "FRAME",
+         "w": 300
+        },
+        {
+         "al": [
+          "HORIZONTAL",
+          0,
+          "FIXED",
+          "FIXED"
+         ],
+         "ex": 1,
+         "h": 20,
+         "icon": "eye",
+         "iconKey": "8ca69f315fcce393ae54eadca88886b706debf89",
+         "key": "cbd0f73ffee42eea334bd1de1395fde36b1b55aa",
+         "main": "remote:Icon wrapper › Size=lg, Type=Icon, Icon pair?=No, Style=-, Intent=Neutral",
+         "n": "Icon wrapper",
+         "t": "INSTANCE",
+         "w": 20
+        }
+       ],
+       "h": 28,
+       "n": "Content",
+       "t": "FRAME",
+       "w": 326
+      }
+     ],
+     "fills": [
+      "Colors/Background/bg-primary"
+     ],
+     "fx": "Focus rings/focus-ring-shadow-primary-xs",
+     "h": 52,
+     "n": "Input",
+     "strokes": [
+      "color/border/primary"
+     ],
+     "sw": 1,
+     "t": "FRAME",
+     "w": 358
+    },
+    {
+     "al": [
+      "HORIZONTAL",
+      4,
+      "HUG",
+      "HUG"
+     ],
+     "ex": 1,
+     "h": 18,
+     "key": "2bf6e2f323ed9ea82b648ad5607209412798ce53",
+     "main": "Helper text › Size=md, Status=Informative default",
+     "n": "Helper text",
+     "pr": {
+      "visible": "Show helper#23530:16"
+     },
+     "t": "INSTANCE",
+     "w": 114
+    }
+   ],
+   "fills": [
+    "SOLID(h)"
+   ],
+   "h": 102,
+   "n": "Size=lg, Type=Password, Destructive=False, State=Focused",
+   "t": "COMPONENT",
+   "w": 358
+  }
+ ]
+}

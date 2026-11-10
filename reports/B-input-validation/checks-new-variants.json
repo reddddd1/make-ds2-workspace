@@ -1,0 +1,193 @@
+{
+ "changedVariantBox": [
+  2312,
+  672,
+  358,
+  102
+ ],
+ "check": "inputB-validate",
+ "colours": {
+  "Colors/Background/bg-primary": {
+   "dark": "#000000",
+   "light": "#ffffff"
+  },
+  "Colors/Base/white": {
+   "dark": "#ffffff",
+   "light": "#ffffff"
+  },
+  "Colors/Border/border-error": {
+   "dark": "#fe6286",
+   "light": "#ff0466"
+  },
+  "Colors/Border/border-secondary": {
+   "dark": "#22262f",
+   "light": "#e9eaeb"
+  },
+  "Colors/Text/text-primary (900)": {
+   "dark": "#f7f7f7",
+   "light": "#0a0d12"
+  },
+  "Colors/Text/text-quaternary (500)": {
+   "dark": "#94979c",
+   "light": "#717680"
+  },
+  "Colors/Text/text-secondary (700)": {
+   "dark": "#cecfd2",
+   "light": "#414651"
+  },
+  "color/border/primary": {
+   "dark": "#61656c",
+   "light": "#8a8e97"
+  }
+ },
+ "eyeErrFilled": [
+  [
+   true,
+   "eye",
+   20
+  ]
+ ],
+ "eyeErrFocused": [
+  [
+   true,
+   "eye",
+   20
+  ]
+ ],
+ "hardSpacing": 2,
+ "newBoxes": [
+  [
+   "Size=sm, Type=Default, Destructive=True, State=Focused",
+   16,
+   920
+  ],
+  [
+   "Size=sm, Type=Search, Destructive=True, State=Focused",
+   456,
+   920
+  ],
+  [
+   "Size=sm, Type=Search + Tags, Destructive=True, State=Focused",
+   896,
+   920
+  ],
+  [
+   "Size=lg, Type=Default, Destructive=True, State=Focused",
+   1336,
+   920
+  ],
+  [
+   "Size=lg, Type=Password, Destructive=True, State=Focused",
+   1776,
+   920
+  ],
+  [
+   "Size=lg, Type=Leading icon, Destructive=True, State=Focused",
+   2216,
+   920
+  ],
+  [
+   "Size=lg, Type=Leading drowdown, Destructive=True, State=Focused",
+   2656,
+   920
+  ],
+  [
+   "Size=lg, Type=Payment, Destructive=True, State=Focused",
+   3096,
+   920
+  ]
+ ],
+ "pwBound": [
+  [
+   "Destructive=False, State=Placeholder",
+   "Password",
+   null
+  ],
+  [
+   "Destructive=True, State=Placeholder",
+   "Password",
+   null
+  ],
+  [
+   "Destructive=False, State=Filled",
+   "●●●●●●●●",
+   "Password#23561:0"
+  ],
+  [
+   "Destructive=True, State=Filled",
+   "●●●●●●●●",
+   "Password#23561:0"
+  ],
+  [
+   "Destructive=False, State=Focused",
+   "●●●●●●●●",
+   "Password#23561:0"
+  ],
+  [
+   "Destructive=False, State=Disabled",
+   "●●●●●●●●",
+   "Password#23561:0"
+  ],
+  [
+   "Destructive=True, State=Focused",
+   "●●●●●●●●",
+   "Password#23561:0"
+  ]
+ ],
+ "remote": 0,
+ "ring": [
+  {
+   "alpha": 1,
+   "color": "#ff0466",
+   "dark": "#ff0466",
+   "light": "#ff0466",
+   "radius": 0,
+   "spread": 4,
+   "type": "DROP_SHADOW",
+   "var": "Colors/Effects/Focus rings/focus-ring-error"
+  },
+  {
+   "alpha": 1,
+   "color": "#ffffff",
+   "dark": "#000000",
+   "light": "#ffffff",
+   "radius": 0,
+   "spread": 2,
+   "type": "DROP_SHADOW",
+   "var": "Colors/Background/bg-primary"
+  },
+  {
+   "alpha": 0.05,
+   "color": "#0a0d120d",
+   "dark": "#ffffff00",
+   "light": "#0a0d120d",
+   "radius": 2,
+   "spread": 0,
+   "type": "DROP_SHADOW",
+   "var": "Colors/Effects/Shadows/shadow-xs"
+  }
+ ],
+ "setSize": [
+  3578,
+  1038
+ ],
+ "tagSample": [
+  [
+   "Type=Default, Destructive=False, State=Placeholder",
+   false,
+   "Show required#23561:54"
+  ],
+  [
+   "Type=Password, Destructive=False, State=Placeholder",
+   false,
+   "Show required#23561:54"
+  ],
+  [
+   "Type=Default, Destructive=True, State=Placeholder",
+   false,
+   "Show required#23561:54"
+  ]
+ ],
+ "tags": 15,
+ "unbound": 0
+}

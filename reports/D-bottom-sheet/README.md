@@ -61,6 +61,28 @@ Tokens Studio Free (not used) · unblocked · no paid features · no upgrade.
 | Pixel diff, Playground | 1,572 px differ: the placeholder icons disappeared from the CTA / Next / Skip / Confirm / Cancel buttons (they inherited the default). Intended |
 | Light / Dark | No colour changed. The new body text uses `text-tertiary`, the same as the header's supporting text (7.14 / 7.16) |
 
-**Still open: D4.** The Dark sheet has no visible edge. This is a design/token decision; nothing was changed.
+## D4 applied (2026-11-10, Mike chose "Lighter surface")
+
+> **Script:** `scripts/components/modal-d4-surface.js`. Duplicate only. No token or variable was created or changed.
+
+The Modal panel fill went from `bg-primary` to the existing **`bg-primary_alt`** (`VariableID:5503:400270`).
+
+| Option considered | Dark result | Why |
+|---|---|---|
+| **Lighter surface (chosen)** | Sheet #13161b on #000000 page: **1.15:1** | The usual dark-mode elevation. Light is unchanged |
+| + 1px top border `border-secondary` | 1.38 vs page / 1.19 vs sheet | Would add a hairline in Light too |
+| Stronger overlay | No effect | An overlay can only darken, and the Dark page is already black |
+
+None reaches 3:1. That's acceptable: WCAG 1.4.11 doesn't require the sheet boundary, because the content, the grab handle and the overlay already identify the sheet.
+
+| Check | Result |
+|---|---|
+| Only the panel uses `bg-primary` | Confirmed: header, actions and slot have no `bg-primary` fills |
+| In-call guard | Every other layer of the Modal is unchanged (fills, visibility, sizes); panel geometry and radii are unchanged |
+| Re-read | The binding persists on the main component and on the Modal instance (inherited, no override) |
+| Light pixel diff (Modals section) | **Pixel-identical** (0 / 5,592,000 px) |
+| Dark text on the new surface | Title #f7f7f7 **16.92**, supporting text #94979c **6.18**, notch #373a41 1.59 (decorative) |
+
+**Side effect (Dark):** the Secondary button's fill (`utility-brand-25`, #13161b) now matches the sheet, so the button's shape disappears in Dark and only its brand label shows. Its label still identifies it. It's the deferred component-colour tier, so it isn't changed here.
 
 Subscription: Tokens Studio Free (not used) · unblocked · no upgrade.

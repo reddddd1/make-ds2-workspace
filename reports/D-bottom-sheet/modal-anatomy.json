@@ -1,0 +1,631 @@
+{
+ "actionsProps": [
+  [
+   "Checkbox#3292:1268",
+   "BOOLEAN",
+   true
+  ],
+  [
+   "Tertiary button#3292:1289",
+   "BOOLEAN",
+   true
+  ],
+  [
+   "Divider#4057:0",
+   "BOOLEAN",
+   true
+  ],
+  [
+   "Type",
+   "VARIANT",
+   [
+    "Vertical fill container",
+    "Horizontal fill container",
+    "Horizontal right aligned (checkbox)"
+   ]
+  ],
+  [
+   "Destructive",
+   "VARIANT",
+   [
+    "False"
+   ]
+  ],
+  [
+   "Breakpoint",
+   "VARIANT",
+   [
+    "Mobile"
+   ]
+  ]
+ ],
+ "actionsVertical": {
+  "c": [
+   {
+    "c": [
+     {
+      "fills": [
+       "border-secondary L#e9eaeb D#22262f"
+      ],
+      "h": 1,
+      "n": "Divider",
+      "t": "VECTOR",
+      "w": 343
+     }
+    ],
+    "h": 17,
+    "n": "Divider-wrap",
+    "pr": {
+     "visible": "Divider#4057:0"
+    },
+    "t": "FRAME",
+    "w": 343
+   },
+   {
+    "c": [
+     {
+      "c": [
+       {
+        "ex": 1,
+        "h": 20,
+        "main": "remote:Icon wrapper › Size=lg, Type=Icon, Icon pair?=No, Style=-, Intent=Neutral",
+        "n": "Icon wrapper",
+        "pr": {
+         "visible": "Show L icon#21269:56"
+        },
+        "props": {
+         "Crypto": "21485:6680",
+         "Currency": "21465:361",
+         "Icon": "21539:2024",
+         "Icon pair?": "No",
+         "Intent": "Neutral",
+         "Size": "lg",
+         "Style": "-",
+         "Type": "Icon"
+        },
+        "t": "INSTANCE",
+        "w": 20
+       },
+       {
+        "h": 24,
+        "n": "Text padding",
+        "t": "FRAME",
+        "w": 66
+       },
+       {
+        "ex": 1,
+        "h": 20,
+        "main": "remote:Icon wrapper › Size=lg, Type=Icon, Icon pair?=No, Style=-, Intent=Neutral",
+        "n": "Icon wrapper",
+        "pr": {
+         "visible": "Show R icon#21269:175"
+        },
+        "props": {
+         "Crypto": "21485:6680",
+         "Currency": "21465:361",
+         "Icon": "21539:2024",
+         "Icon pair?": "No",
+         "Intent": "Neutral",
+         "Size": "lg",
+         "Style": "-",
+         "Type": "Icon"
+        },
+        "t": "INSTANCE",
+        "w": 20
+       }
+      ],
+      "fills": [
+       "brand-primary L#5656f3 D#5656f3"
+      ],
+      "h": 48,
+      "main": "Buttons/Button › Size=lg, Hierarchy=Primary, State=Default, Icon only=False",
+      "n": "Buttons/Button",
+      "props": {
+       "Hierarchy": "Primary",
+       "Icon only": "False",
+       "Label": "Confirm",
+       "Loading text": true,
+       "Show L icon": true,
+       "Show R icon": true,
+       "Size": "lg",
+       "State": "Default"
+      },
+      "t": "INSTANCE",
+      "w": 311
+     },
+     {
+      "c": [
+       {
+        "ex": 1,
+        "h": 20,
+        "main": "remote:Icon wrapper › Size=lg, Type=Icon, Icon pair?=No, Style=-, Intent=Neutral",
+        "n": "Icon wrapper",
+        "pr": {
+         "visible": "Show L icon#21269:56"
+        },
+        "props": {
+         "Crypto": "21485:6680",
+         "Currency": "21465:361",
+         "Icon": "21539:2024",
+         "Icon pair?": "No",
+         "Intent": "Neutral",
+         "Size": "lg",
+         "Style": "-",
+         "Type": "Icon"
+        },
+        "t": "INSTANCE",
+        "w": 20
+       },
+       {
+        "h": 24,
+        "n": "Text padding",
+        "t": "FRAME",
+        "w": 57
+       },
+       {
+        "ex": 1,
+        "h": 20,
+        "main": "remote:Icon wrapper › Size=lg, Type=Icon, Icon pair?=No, Style=-, Intent=Neutral",
+        "n": "Icon wrapper",
+        "pr": {
+         "visible": "Show R icon#21269:175"
+        },
+        "props": {
+         "Crypto": "21485:6680",
+         "Currency": "21465:361",
+         "Icon": "21539:2024",
+         "Icon pair?": "No",
+         "Intent": "Neutral",
+         "Size": "lg",
+         "Style": "-",
+         "Type": "Icon"
+        },
+        "t": "INSTANCE",
+        "w": 20
+       }
+      ],
+      "fills": [
+       "utility-brand-25 L#fafaff D#13161b"
+      ],
+      "h": 44,
+      "main": "Buttons/Button › Size=lg, Hierarchy=Secondary, State=Default, Icon only=False",
+      "n": "Buttons/Button",
+      "props": {
+       "Hierarchy": "Secondary",
+       "Icon only": "False",
+       "Label": "Cancel",
+       "Loading text": true,
+       "Show L icon": true,
+       "Show R icon": true,
+       "Size": "lg",
+       "State": "Default"
+      },
+      "t": "INSTANCE",
+      "w": 311
+     }
+    ],
+    "h": 116,
+    "n": "Content",
+    "t": "FRAME",
+    "w": 343
+   }
+  ],
+  "h": 173,
+  "n": "Type=Vertical fill container, Destructive=False, Breakpoint=Mobile",
+  "t": "COMPONENT",
+  "w": 343
+ },
+ "check": "modal-anatomy",
+ "header": {
+  "c": [
+   {
+    "c": [
+     {
+      "c": [
+       {
+        "fills": [
+         "bg-quaternary L#e9eaeb D#373a41"
+        ],
+        "h": 4,
+        "n": "Notch",
+        "t": "RECTANGLE",
+        "w": 48
+       }
+      ],
+      "h": 20,
+      "n": "wrapper",
+      "t": "FRAME",
+      "w": 368
+     },
+     {
+      "c": [
+       {
+        "c": [
+         {
+          "h": 120,
+          "main": "Illustration/placeholder",
+          "n": "Illustration/placeholder",
+          "pr": {
+           "mainComponent": "Illustration#21218:7"
+          },
+          "props": {},
+          "t": "INSTANCE",
+          "w": 120
+         }
+        ],
+        "h": 120,
+        "main": "Illustration wrapper › Size=md",
+        "n": "Illustration wrapper",
+        "pr": {
+         "visible": "Show img#21368:6"
+        },
+        "props": {
+         "Illustration": "21131:1230",
+         "Size": "md"
+        },
+        "t": "INSTANCE",
+        "w": 120
+       },
+       {
+        "c": [
+         {
+          "ch": "{Title}",
+          "fills": [
+           "text-primary (900) L#0a0d12 D#f7f7f7"
+          ],
+          "h": 24,
+          "n": "Text",
+          "st": "Text md/Semibold",
+          "t": "TEXT",
+          "w": 368
+         },
+         {
+          "ch": "{Text content - Lorem ipsum dolor sit amet}",
+          "fills": [
+           "text-tertiary (600) L#535862 D#94979c"
+          ],
+          "h": 20,
+          "n": "Supporting text",
+          "st": "Text sm/Regular",
+          "t": "TEXT",
+          "w": 368
+         }
+        ],
+        "h": 46,
+        "n": "Text and supporting text",
+        "t": "FRAME",
+        "w": 368
+       }
+      ],
+      "h": 166,
+      "n": "wrapper",
+      "t": "FRAME",
+      "w": 368
+     }
+    ],
+    "h": 202,
+    "n": "Content",
+    "t": "FRAME",
+    "w": 400
+   },
+   {
+    "c": [],
+    "h": 24,
+    "n": "Padding bottom",
+    "pr": {
+     "visible": "Show bottom p#21368:4"
+    },
+    "t": "FRAME",
+    "w": 400
+   },
+   {
+    "fills": [
+     "border-secondary L#e9eaeb D#22262f"
+    ],
+    "h": 1,
+    "n": "Divider",
+    "pr": {
+     "visible": "Show divider#21368:2"
+    },
+    "t": "VECTOR",
+    "w": 400
+   },
+   {
+    "c": [
+     {
+      "c": [
+       {
+        "h": 8,
+        "n": "Vector",
+        "strokes": [
+         "fg-quaternary (400) L#a4a7ae D#61656c"
+        ],
+        "t": "VECTOR",
+        "w": 8
+       }
+      ],
+      "h": 16,
+      "main": "remote:x",
+      "n": "x",
+      "pr": {
+       "mainComponent": "Icon#2112:0"
+      },
+      "props": {},
+      "t": "INSTANCE",
+      "w": 16
+     }
+    ],
+    "h": 16,
+    "main": "remote:Icon wrapper › Size=md, Type=Icon, Icon pair?=No, Style=-, Intent=Neutral",
+    "n": "Icon wrapper",
+    "pr": {
+     "visible": "Show close#21368:0"
+    },
+    "props": {
+     "Crypto": "21485:6680",
+     "Currency": "21465:361",
+     "Icon": "21539:2020",
+     "Icon pair?": "No",
+     "Intent": "Neutral",
+     "Size": "md",
+     "Style": "-",
+     "Type": "Icon"
+    },
+    "t": "INSTANCE",
+    "w": 16
+   }
+  ],
+  "h": 227,
+  "n": "Type=Left aligned",
+  "t": "COMPONENT",
+  "w": 400
+ },
+ "headerProps": [
+  [
+   "Show close#21368:0",
+   "BOOLEAN",
+   true
+  ],
+  [
+   "Show divider#21368:2",
+   "BOOLEAN",
+   true
+  ],
+  [
+   "Show bottom p#21368:4",
+   "BOOLEAN",
+   true
+  ],
+  [
+   "Show img#21368:6",
+   "BOOLEAN",
+   true
+  ],
+  [
+   "Type",
+   "VARIANT",
+   "Left aligned"
+  ]
+ ],
+ "modal": {
+  "c": [
+   {
+    "c": [
+     {
+      "c": [],
+      "fills": [
+       "bg-overlay L#00000066 D#0c0e121a@0.4"
+      ],
+      "h": 844,
+      "n": "Background overlay",
+      "t": "FRAME",
+      "w": 390
+     }
+    ],
+    "h": 844,
+    "main": "Background overlay › Type=Blurred layer",
+    "n": "Background overlay",
+    "props": {
+     "Type": "Blurred layer"
+    },
+    "t": "INSTANCE",
+    "w": 390
+   },
+   {
+    "c": [
+     {
+      "c": [
+       {
+        "h": 86,
+        "n": "Content",
+        "t": "FRAME",
+        "w": 390
+       },
+       {
+        "h": 24,
+        "n": "Padding bottom",
+        "pr": {
+         "visible": "Show bottom p#21368:4"
+        },
+        "t": "FRAME",
+        "w": 390
+       },
+       {
+        "fills": [
+         "border-secondary L#e9eaeb D#22262f"
+        ],
+        "h": 1,
+        "hidden": 1,
+        "n": "Divider",
+        "pr": {
+         "visible": "Show divider#21368:2"
+        },
+        "t": "VECTOR",
+        "w": 400
+       },
+       {
+        "h": 16,
+        "main": "remote:Icon wrapper › Size=md, Type=Icon, Icon pair?=No, Style=-, Intent=Neutral",
+        "n": "Icon wrapper",
+        "pr": {
+         "visible": "Show close#21368:0"
+        },
+        "props": {
+         "Crypto": "21485:6680",
+         "Currency": "21465:361",
+         "Icon": "21539:2020",
+         "Icon pair?": "No",
+         "Intent": "Neutral",
+         "Size": "md",
+         "Style": "-",
+         "Type": "Icon"
+        },
+        "t": "INSTANCE",
+        "w": 16
+       }
+      ],
+      "h": 110,
+      "main": "_Modal header › Type=Left aligned",
+      "n": "_Modal header",
+      "props": {
+       "Show bottom p": true,
+       "Show close": true,
+       "Show divider": false,
+       "Show img": false,
+       "Type": "Left aligned"
+      },
+      "t": "INSTANCE",
+      "w": 390
+     },
+     {
+      "c": [
+       {
+        "fills": [
+         "SOLID#efbdff"
+        ],
+        "h": 40,
+        "main": "Slot",
+        "n": "Slot",
+        "pr": {
+         "mainComponent": "Drawer content#21214:0"
+        },
+        "props": {},
+        "strokes": [
+         "utility-pink-500 L#ee46bc D#ee46bc"
+        ],
+        "t": "INSTANCE",
+        "w": 358
+       },
+       {
+        "h": 382,
+        "hidden": 1,
+        "main": "_Scroll bar (control fill with bottom padding)",
+        "n": "_Scroll bar (control fill with bottom padding)",
+        "props": {},
+        "t": "INSTANCE",
+        "w": 18
+       }
+      ],
+      "h": 40,
+      "n": "[Slot]",
+      "t": "FRAME",
+      "w": 390
+     },
+     {
+      "c": [
+       {
+        "h": 17,
+        "hidden": 1,
+        "n": "Divider-wrap",
+        "pr": {
+         "visible": "Divider#4057:0"
+        },
+        "t": "FRAME",
+        "w": 343
+       },
+       {
+        "h": 142,
+        "n": "Content",
+        "t": "FRAME",
+        "w": 390
+       }
+      ],
+      "h": 158,
+      "main": "_Modal actions › Type=Horizontal fill container, Destructive=False, Breakpoint=Mobile",
+      "n": "_Modal actions",
+      "props": {
+       "Breakpoint": "Mobile",
+       "Checkbox": true,
+       "Destructive": "False",
+       "Divider": false,
+       "Tertiary button": true,
+       "Type": "Horizontal fill container"
+      },
+      "t": "INSTANCE",
+      "w": 390
+     }
+    ],
+    "fills": [
+     "bg-primary L#ffffff D#000000"
+    ],
+    "h": 308,
+    "n": "Modal",
+    "t": "FRAME",
+    "w": 390
+   },
+   {
+    "c": [],
+    "h": 84,
+    "n": "Spacer for max-height",
+    "t": "FRAME",
+    "w": 390
+   }
+  ],
+  "h": 844,
+  "n": "Type=Default slotted",
+  "t": "COMPONENT",
+  "w": 390
+ },
+ "modalProps": [
+  [
+   "Drawer content#21214:0",
+   "INSTANCE_SWAP",
+   "17540:4885"
+  ],
+  [
+   "Type",
+   "VARIANT",
+   "Default slotted"
+  ]
+ ],
+ "preferred": [
+  [
+   "COMPONENT",
+   "28e7187abb5daa34635cb1753309cca9609e1628",
+   null
+  ]
+ ],
+ "slotDefault": {
+  "c": [
+   {
+    "fills": [
+     "utility-pink-400 L#f670c7 D#dd2590"
+    ],
+    "h": 16,
+    "n": "❖",
+    "t": "VECTOR",
+    "w": 16
+   }
+  ],
+  "fills": [
+   "SOLID#efbdff"
+  ],
+  "h": 36,
+  "n": "Slot",
+  "strokes": [
+   "utility-pink-500 L#ee46bc D#ee46bc"
+  ],
+  "t": "COMPONENT",
+  "w": 36
+ }
+}

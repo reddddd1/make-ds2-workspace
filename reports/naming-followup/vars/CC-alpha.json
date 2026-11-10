@@ -1,0 +1,245 @@
+{
+ "check": "variables",
+ "collections": [
+  {
+   "count": 20,
+   "id": "VariableCollectionId:5256:372339",
+   "modes": [
+    "Light mode",
+    "Dark mode"
+   ],
+   "name": "1. Color modes",
+   "variables": [
+    {
+     "id": "VariableID:5574:413591",
+     "name": "Component colors/Alpha/alpha-white-10",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": "#0c0e121a",
+      "Light mode": "#ffffff1a"
+     }
+    },
+    {
+     "id": "VariableID:5574:413590",
+     "name": "Component colors/Alpha/alpha-white-20",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": "#0c0e1233",
+      "Light mode": "#ffffff33"
+     }
+    },
+    {
+     "id": "VariableID:5574:413589",
+     "name": "Component colors/Alpha/alpha-white-30",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": "#0c0e124d",
+      "Light mode": "#ffffff4d"
+     }
+    },
+    {
+     "id": "VariableID:5574:413588",
+     "name": "Component colors/Alpha/alpha-white-40",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": "#0c0e1266",
+      "Light mode": "#ffffff66"
+     }
+    },
+    {
+     "id": "VariableID:5574:413587",
+     "name": "Component colors/Alpha/alpha-white-50",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": "#0c0e1280",
+      "Light mode": "#ffffff80"
+     }
+    },
+    {
+     "id": "VariableID:5574:413586",
+     "name": "Component colors/Alpha/alpha-white-60",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": "#0c0e1299",
+      "Light mode": "#ffffff99"
+     }
+    },
+    {
+     "id": "VariableID:5574:413585",
+     "name": "Component colors/Alpha/alpha-white-70",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": "#0c0e12b2",
+      "Light mode": "#ffffffb2"
+     }
+    },
+    {
+     "id": "VariableID:5574:413584",
+     "name": "Component colors/Alpha/alpha-white-80",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": "#0c0e12cc",
+      "Light mode": "#ffffffcc"
+     }
+    },
+    {
+     "id": "VariableID:5574:413581",
+     "name": "Component colors/Alpha/alpha-white-90",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": "#0c0e12e5",
+      "Light mode": "#ffffffe5"
+     }
+    },
+    {
+     "id": "VariableID:6080:479733",
+     "name": "Component colors/Alpha/alpha-white-100",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87764",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/950"
+      },
+      "Light mode": "#ffffff"
+     }
+    },
+    {
+     "id": "VariableID:5574:413592",
+     "name": "Component colors/Alpha/alpha-black-10",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": "#ffffff1a",
+      "Light mode": "#0000001a"
+     }
+    },
+    {
+     "id": "VariableID:5574:413593",
+     "name": "Component colors/Alpha/alpha-black-20",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": "#ffffff33",
+      "Light mode": "#00000033"
+     }
+    },
+    {
+     "id": "VariableID:5574:413594",
+     "name": "Component colors/Alpha/alpha-black-30",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": "#ffffff4d",
+      "Light mode": "#0000004d"
+     }
+    },
+    {
+     "id": "VariableID:5574:413595",
+     "name": "Component colors/Alpha/alpha-black-40",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": "#ffffff66",
+      "Light mode": "#00000066"
+     }
+    },
+    {
+     "id": "VariableID:5574:413596",
+     "name": "Component colors/Alpha/alpha-black-50",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": "#ffffff80",
+      "Light mode": "#00000080"
+     }
+    },
+    {
+     "id": "VariableID:5574:413597",
+     "name": "Component colors/Alpha/alpha-black-60",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": "#ffffff99",
+      "Light mode": "#00000099"
+     }
+    },
+    {
+     "id": "VariableID:5574:413598",
+     "name": "Component colors/Alpha/alpha-black-70",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": "#ffffffb2",
+      "Light mode": "#000000b2"
+     }
+    },
+    {
+     "id": "VariableID:5574:413599",
+     "name": "Component colors/Alpha/alpha-black-80",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": "#ffffffcc",
+      "Light mode": "#000000cc"
+     }
+    },
+    {
+     "id": "VariableID:5574:413600",
+     "name": "Component colors/Alpha/alpha-black-90",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": "#ffffffe5",
+      "Light mode": "#000000e5"
+     }
+    },
+    {
+     "id": "VariableID:6080:479732",
+     "name": "Component colors/Alpha/alpha-black-100",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": "#ffffff",
+      "Light mode": "#000000"
+     }
+    }
+   ]
+  }
+ ],
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "prefix": "Component colors/Alpha/",
+ "readAt": "2026-11-09T20:53:31.139Z",
+ "run": "group-audit",
+ "slim": false
+}

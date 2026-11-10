@@ -1,0 +1,63 @@
+{
+ "after": [
+  {
+   "id": "VariableID:5248:377715",
+   "name": "color/brand/600",
+   "ok": true
+  },
+  {
+   "id": "VariableID:23468:2",
+   "name": "color/gray/450",
+   "ok": true
+  },
+  {
+   "id": "VariableID:5270:371419",
+   "name": "color/bg/brand-primary",
+   "ok": true
+  },
+  {
+   "id": "VariableID:5353:380427",
+   "name": "color/bg/brand-primary-hover",
+   "ok": true
+  },
+  {
+   "id": "VariableID:6137:268549",
+   "name": "color/text/brand-primary",
+   "ok": true
+  },
+  {
+   "id": "VariableID:5263:373125",
+   "name": "color/text/error-primary",
+   "ok": true
+  },
+  {
+   "id": "VariableID:5270:371435",
+   "name": "color/border/primary",
+   "ok": true
+  },
+  {
+   "id": "VariableID:7371:212918",
+   "name": "color/focus-ring/primary",
+   "ok": true
+  },
+  {
+   "id": "VariableID:5253:372203",
+   "name": "spacing/3",
+   "ok": true
+  },
+  {
+   "id": "VariableID:7407:110365",
+   "name": "font/size/base",
+   "ok": true
+  },
+  {
+   "id": "VariableID:7405:102287",
+   "name": "font/weight/semibold",
+   "ok": true
+  }
+ ],
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "mode": "APPLIED",
+ "rollback": false,
+ "writtenAt": "2026-11-09T20:21:15.748Z"
+}

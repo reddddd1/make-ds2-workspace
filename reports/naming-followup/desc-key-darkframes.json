@@ -1,0 +1,95 @@
+{
+ "darkCount": 1,
+ "darkFrames": [
+  {
+   "h": 40,
+   "id": "6483:313901",
+   "name": "Badge",
+   "page": "      ↳ Design annotations",
+   "parent": "Type=Cell swatch dark",
+   "type": "FRAME",
+   "w": 128
+  }
+ ],
+ "darkModeId": "5353:0",
+ "lightExplicit": 0,
+ "vars": [
+  {
+   "description": "",
+   "id": "VariableID:5248:377715",
+   "key": "1c26773fc64decdfbfa267f76805d3a0c4f57e5c",
+   "name": "color/brand/600",
+   "remote": false
+  },
+  {
+   "description": "",
+   "id": "VariableID:23468:2",
+   "key": "a98aec83a092e0f06f991a05b173cb52ff559112",
+   "name": "color/gray/450",
+   "remote": false
+  },
+  {
+   "description": "",
+   "id": "VariableID:5270:371419",
+   "key": "4e0f7f0d7d9767480780777f9f7e0d285b82305d",
+   "name": "color/bg/brand-primary",
+   "remote": false
+  },
+  {
+   "description": "",
+   "id": "VariableID:5353:380427",
+   "key": "7887adbd14d374b68b74d7176baf2d9aca7fbdbc",
+   "name": "color/bg/brand-primary-hover",
+   "remote": false
+  },
+  {
+   "description": "",
+   "id": "VariableID:6137:268549",
+   "key": "775ed851d211e03bb07221953f0b0c01ffea1bcc",
+   "name": "color/text/brand-primary",
+   "remote": false
+  },
+  {
+   "description": "",
+   "id": "VariableID:5263:373125",
+   "key": "f23bdbe244ec5a4810c65e19bf621c31c6dbfc92",
+   "name": "color/text/error-primary",
+   "remote": false
+  },
+  {
+   "description": "",
+   "id": "VariableID:5270:371435",
+   "key": "92fdb372b5be4f4a47db0627d93c7615feb0aae7",
+   "name": "color/border/primary",
+   "remote": false
+  },
+  {
+   "description": "",
+   "id": "VariableID:7371:212918",
+   "key": "47d1f08462df47144feaa4981b11ebbd26882907",
+   "name": "color/focus-ring/primary",
+   "remote": false
+  },
+  {
+   "description": "",
+   "id": "VariableID:5253:372203",
+   "key": "402feebfa58428c3f84a073884185c6a5d606a32",
+   "name": "spacing/3",
+   "remote": false
+  },
+  {
+   "description": "",
+   "id": "VariableID:7407:110365",
+   "key": "42fe3b4f9782295a79cf9c1201ec38a1b9131a3c",
+   "name": "font/size/base",
+   "remote": false
+  },
+  {
+   "description": "",
+   "id": "VariableID:7405:102287",
+   "key": "8adb8f5c5c6cdf73260933027fb698ddf86a640b",
+   "name": "font/weight/semibold",
+   "remote": false
+  }
+ ]
+}

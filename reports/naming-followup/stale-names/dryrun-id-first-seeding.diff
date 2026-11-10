@@ -1,0 +1,22 @@
+--- a/scripts/token-sync/dryrun.py	2026-11-09 17:55:57
++++ b/scripts/token-sync/dryrun.py	2026-11-09 20:51:56
+@@ -125,11 +125,16 @@
+         cands = []
+         if t['token'] in approved and approved[t['token']].get('variableId') in byid:
+             pending.append((t, col, [byid[approved[t['token']]['variableId']]])); claims[approved[t['token']]['variableId']].append(t['token']); continue
+-        if t['figma']:
++        fid = t['src'].get('figmaVariableId')                                  # stable identifier (naming follow-up D-2)
++        if fid and fid in byid and byid[fid].get('collection', col) == col:
++            cands = [byid[fid]]
++        elif t['figma']:
+             names = bycol[col]
+             key_full, key_short = clean_src(t['figma']), short(clean_src(t['figma']))
+-            cands = [v for n, v in names.items() if not v['slim'] and (n == t['figma'] or n == key_full or (t['tier'] == 'theme' and short(n) == key_short))]
+-            if col == '1. Color modes': cands = [v for v in cands if v['name'].startswith('Colors/')]
++            cands = [v for n, v in names.items() if not v['slim'] and (n == t['figma'] or n == key_full)]       # exact name first
++            if not cands and t['tier'] == 'theme':                                                          # legacy short-name fallback
++                cands = [v for n, v in names.items() if not v['slim'] and short(n) == key_short]
++            if col == '1. Color modes': cands = [v for v in cands if v['name'].startswith(('Colors/', 'color/'))]
+         pending.append((t, col, cands))
+         for v in cands: claims[v['id']].append(t['token'])
+ 

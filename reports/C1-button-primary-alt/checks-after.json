@@ -1,0 +1,89 @@
+{
+ "coverChildren": [
+  "FRAME:cover"
+ ],
+ "disabledEqualsPrimaryDisabled": [
+  [
+   "Size=md, Icon only=False",
+   true,
+   5
+  ],
+  [
+   "Size=md, Icon only=True",
+   true,
+   2
+  ],
+  [
+   "Size=lg, Icon only=False",
+   true,
+   5
+  ],
+  [
+   "Size=lg, Icon only=True",
+   true,
+   2
+  ],
+  [
+   "Size=sm, Icon only=False",
+   true,
+   5
+  ],
+  [
+   "Size=xxs, Icon only=False",
+   true,
+   5
+  ],
+  [
+   "Size=sm, Icon only=True",
+   true,
+   2
+  ]
+ ],
+ "hierarchyOptions": [
+  "Primary",
+  "Secondary",
+  "Link brand",
+  "Primary_alt"
+ ],
+ "mdPrimaryAltFills": {
+  "Default": [
+   "Colors/Background/bg-brand-secondary",
+   "L #d0ff00",
+   "D #d0ff00"
+  ],
+  "Disabled": [
+   "Colors/Background/bg-disabled",
+   "L #f5f5f5",
+   "D #13161b"
+  ],
+  "Focused": [
+   "Colors/Background/bg-brand-secondary",
+   "L #d0ff00",
+   "D #d0ff00"
+  ],
+  "Hover": [
+   "Colors/Background/bg-brand-secondary_hover",
+   "L #d9ff75",
+   "D #d9ff75"
+  ],
+  "Loading": [
+   "Colors/Background/bg-brand-secondary",
+   "L #d0ff00",
+   "D #d0ff00"
+  ],
+  "Pressed": [
+   "Colors/Background/bg-brand-secondary_hover",
+   "L #d9ff75",
+   "D #d9ff75"
+  ]
+ },
+ "stateOptions": [
+  "Default",
+  "Hover",
+  "Focused",
+  "Disabled",
+  "Loading",
+  "Pressed"
+ ],
+ "variants": 150
+}

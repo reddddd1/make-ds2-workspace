@@ -1,0 +1,475 @@
+{
+ "summary": {
+  "node": "v26.13.0",
+  "nodeLts": "Lithium",
+  "tailwindcss": "4.3.5",
+  "total": 48,
+  "passed": 48,
+  "defaultsObserved": {
+   "color-gray-100": "oklch(96.7% 0.003 264.542)",
+   "radius-lg": "0.5rem",
+   "text-base": "1rem",
+   "text-base--line-height": "calc(1.5 / 1)",
+   "font-weight-semibold": "600",
+   "spacing": "0.25rem"
+  }
+ },
+ "results": [
+  {
+   "scenario": "S1",
+   "class": "bg-brand-primary",
+   "expect": [
+    "background-color: var(--background-color-brand-primary)"
+   ],
+   "got": "background-color: var(--background-color-brand-primary);",
+   "pass": true,
+   "note": "role → plain class"
+  },
+  {
+   "scenario": "S1",
+   "class": "bg-brand-primary-hover",
+   "expect": [
+    "background-color: var(--background-color-brand-primary-hover)"
+   ],
+   "got": "background-color: var(--background-color-brand-primary-hover);",
+   "pass": true
+  },
+  {
+   "scenario": "S1",
+   "class": "text-brand-primary",
+   "expect": [
+    "color: var(--text-color-brand-primary)"
+   ],
+   "got": "color: var(--text-color-brand-primary);",
+   "pass": true
+  },
+  {
+   "scenario": "S1",
+   "class": "text-error-primary",
+   "expect": [
+    "color: var(--text-color-error-primary)"
+   ],
+   "got": "color: var(--text-color-error-primary);",
+   "pass": true
+  },
+  {
+   "scenario": "S1",
+   "class": "border-primary",
+   "expect": [
+    "border-color: var(--border-color-primary)"
+   ],
+   "got": "border-color: var(--border-color-primary);",
+   "pass": true
+  },
+  {
+   "scenario": "S1",
+   "class": "ring-primary",
+   "expect": [
+    "--tw-ring-color: var(--ring-color-primary)"
+   ],
+   "got": "--tw-ring-color: var(--ring-color-primary);",
+   "pass": true
+  },
+  {
+   "scenario": "S1",
+   "class": "p-3",
+   "expect": [
+    "padding: calc(var(--spacing) * 3)"
+   ],
+   "got": "padding: calc(var(--spacing) * 3);",
+   "pass": true,
+   "note": "Tailwind default multiplier 0.25rem × 3 = 12px at 16px root = registry spacing.3; nothing emitted"
+  },
+  {
+   "scenario": "S1",
+   "class": "gap-3",
+   "expect": [
+    "gap: calc(var(--spacing) * 3)"
+   ],
+   "got": "gap: calc(var(--spacing) * 3);",
+   "pass": true
+  },
+  {
+   "scenario": "S1",
+   "class": "text-base",
+   "expect": [
+    "font-size: var(--text-base)",
+    "line-height: var(--tw-leading, var(--text-base--line-height))"
+   ],
+   "got": "font-size: var(--text-base); line-height: var(--tw-leading, var(--text-base--line-height));",
+   "pass": true,
+   "note": "Tailwind default 1rem / 1.5 = registry 16px / 1.5; nothing emitted"
+  },
+  {
+   "scenario": "S1",
+   "class": "font-semibold",
+   "expect": [
+    "font-weight: var(--font-weight-semibold)"
+   ],
+   "got": "--tw-font-weight: var(--font-weight-semibold); font-weight: var(--font-weight-semibold);",
+   "pass": true,
+   "note": "Tailwind default 600 = registry 600; nothing emitted"
+  },
+  {
+   "scenario": "S1",
+   "class": "bg-gray-100",
+   "expect": [
+    "background-color: var(--color-gray-100)"
+   ],
+   "got": "background-color: var(--color-gray-100);",
+   "pass": true,
+   "note": "stays Tailwind default (not overridden)"
+  },
+  {
+   "scenario": "S1",
+   "class": "rounded-lg",
+   "expect": [
+    "border-radius: var(--radius-lg)"
+   ],
+   "got": "border-radius: var(--radius-lg);",
+   "pass": true,
+   "note": "stays Tailwind default 0.5rem"
+  },
+  {
+   "scenario": "S1",
+   "class": "font-sans",
+   "expect": [
+    "font-family: var(--font-sans)"
+   ],
+   "got": "font-family: var(--font-sans);",
+   "pass": true,
+   "note": "stays Tailwind default stack"
+  },
+  {
+   "scenario": "S1",
+   "class": "bg-brand-600",
+   "expect": "no rule generated",
+   "got": null,
+   "pass": true,
+   "note": "option A exposes no palette utilities"
+  },
+  {
+   "scenario": "S1",
+   "class": "bg-bg-brand-primary",
+   "expect": "no rule generated",
+   "got": null,
+   "pass": true,
+   "note": "no doubled prefix"
+  },
+  {
+   "scenario": "S2",
+   "class": "type-base-normal",
+   "expect": [
+    "font-size: var(--text-base)",
+    "font-weight: var(--font-weight-normal)",
+    "font-family: var(--make-font-family-sans)"
+   ],
+   "got": "font-family: var(--make-font-family-sans); font-size: var(--text-base); line-height: var(--text-base--line-height); font-weight: var(--font-weight-normal); letter-spacing: 0px;",
+   "pass": true
+  },
+  {
+   "scenario": "S2",
+   "class": "type-base-medium",
+   "expect": [
+    "font-size: var(--text-base)",
+    "font-weight: var(--font-weight-medium)",
+    "font-family: var(--make-font-family-sans)"
+   ],
+   "got": "font-family: var(--make-font-family-sans); font-size: var(--text-base); line-height: var(--text-base--line-height); font-weight: var(--font-weight-medium); letter-spacing: 0px;",
+   "pass": true
+  },
+  {
+   "scenario": "S2",
+   "class": "type-base-semibold",
+   "expect": [
+    "font-size: var(--text-base)",
+    "font-weight: var(--font-weight-semibold)",
+    "font-family: var(--make-font-family-sans)"
+   ],
+   "got": "font-family: var(--make-font-family-sans); font-size: var(--text-base); line-height: var(--text-base--line-height); font-weight: var(--font-weight-semibold); letter-spacing: 0px;",
+   "pass": true
+  },
+  {
+   "scenario": "S2",
+   "class": "type-sm-normal",
+   "expect": [
+    "font-size: var(--text-sm)",
+    "font-weight: var(--font-weight-normal)",
+    "font-family: var(--make-font-family-sans)"
+   ],
+   "got": "font-family: var(--make-font-family-sans); font-size: var(--text-sm); line-height: var(--text-sm--line-height); font-weight: var(--font-weight-normal); letter-spacing: 0px;",
+   "pass": true
+  },
+  {
+   "scenario": "S2",
+   "class": "type-sm-medium",
+   "expect": [
+    "font-size: var(--text-sm)",
+    "font-weight: var(--font-weight-medium)",
+    "font-family: var(--make-font-family-sans)"
+   ],
+   "got": "font-family: var(--make-font-family-sans); font-size: var(--text-sm); line-height: var(--text-sm--line-height); font-weight: var(--font-weight-medium); letter-spacing: 0px;",
+   "pass": true
+  },
+  {
+   "scenario": "S2",
+   "class": "type-xs-normal",
+   "expect": [
+    "font-size: var(--text-xs)",
+    "font-weight: var(--font-weight-normal)",
+    "font-family: var(--make-font-family-sans)"
+   ],
+   "got": "font-family: var(--make-font-family-sans); font-size: var(--text-xs); line-height: var(--text-xs--line-height); font-weight: var(--font-weight-normal); letter-spacing: 0px;",
+   "pass": true
+  },
+  {
+   "scenario": "S2",
+   "class": "type-xs-medium",
+   "expect": [
+    "font-size: var(--text-xs)",
+    "font-weight: var(--font-weight-medium)",
+    "font-family: var(--make-font-family-sans)"
+   ],
+   "got": "font-family: var(--make-font-family-sans); font-size: var(--text-xs); line-height: var(--text-xs--line-height); font-weight: var(--font-weight-medium); letter-spacing: 0px;",
+   "pass": true
+  },
+  {
+   "scenario": "S2",
+   "class": "type-xs-semibold",
+   "expect": [
+    "font-size: var(--text-xs)",
+    "font-weight: var(--font-weight-semibold)",
+    "font-family: var(--make-font-family-sans)"
+   ],
+   "got": "font-family: var(--make-font-family-sans); font-size: var(--text-xs); line-height: var(--text-xs--line-height); font-weight: var(--font-weight-semibold); letter-spacing: 0px;",
+   "pass": true
+  },
+  {
+   "scenario": "S2",
+   "class": "md:type-sm-medium",
+   "expect": [
+    "font-size: var(--text-sm)"
+   ],
+   "got": "font-family: var(--make-font-family-sans); font-size: var(--text-sm); line-height: var(--text-sm--line-height); font-weight: var(--font-weight-medium); letter-spacing: 0px;",
+   "pass": true,
+   "note": "variants work on custom utilities"
+  },
+  {
+   "scenario": "S2",
+   "class": "hover:type-base-semibold",
+   "expect": [
+    "font-weight: var(--font-weight-semibold)"
+   ],
+   "got": "font-family: var(--make-font-family-sans); font-size: var(--text-base); line-height: var(--text-base--line-height); font-weight: var(--font-weight-semibold); letter-spacing: 0px;",
+   "pass": true
+  },
+  {
+   "scenario": "S2",
+   "class": "type-base",
+   "expect": "no rule generated",
+   "got": null,
+   "pass": true,
+   "note": "no core Tailwind utility uses the type-* prefix"
+  },
+  {
+   "scenario": "S2",
+   "class": "type-lg-medium",
+   "expect": "no rule generated",
+   "got": null,
+   "pass": true,
+   "note": "only registry composites exist"
+  },
+  {
+   "scenario": "S2",
+   "class": "text-base",
+   "expect": [
+    "font-size: var(--text-base)"
+   ],
+   "got": "font-size: var(--text-base); line-height: var(--tw-leading, var(--text-base--line-height));",
+   "pass": true,
+   "note": "font-size utility unaffected"
+  },
+  {
+   "scenario": "S2",
+   "class": "text-text-base-medium",
+   "expect": "no rule generated",
+   "got": null,
+   "pass": true,
+   "note": "awkward name not generated"
+  },
+  {
+   "scenario": "S3",
+   "class": "rounded-2",
+   "expect": [
+    "border-radius: var(--radius-2)"
+   ],
+   "got": "border-radius: var(--radius-2);",
+   "pass": true
+  },
+  {
+   "scenario": "S3",
+   "class": "rounded-4",
+   "expect": [
+    "border-radius: var(--radius-4)"
+   ],
+   "got": "border-radius: var(--radius-4);",
+   "pass": true
+  },
+  {
+   "scenario": "S3",
+   "class": "rounded-6",
+   "expect": [
+    "border-radius: var(--radius-6)"
+   ],
+   "got": "border-radius: var(--radius-6);",
+   "pass": true
+  },
+  {
+   "scenario": "S3",
+   "class": "rounded-8",
+   "expect": [
+    "border-radius: var(--radius-8)"
+   ],
+   "got": "border-radius: var(--radius-8);",
+   "pass": true
+  },
+  {
+   "scenario": "S3",
+   "class": "rounded-10",
+   "expect": [
+    "border-radius: var(--radius-10)"
+   ],
+   "got": "border-radius: var(--radius-10);",
+   "pass": true
+  },
+  {
+   "scenario": "S3",
+   "class": "rounded-12",
+   "expect": [
+    "border-radius: var(--radius-12)"
+   ],
+   "got": "border-radius: var(--radius-12);",
+   "pass": true
+  },
+  {
+   "scenario": "S3",
+   "class": "rounded-16",
+   "expect": [
+    "border-radius: var(--radius-16)"
+   ],
+   "got": "border-radius: var(--radius-16);",
+   "pass": true
+  },
+  {
+   "scenario": "S3",
+   "class": "rounded-20",
+   "expect": [
+    "border-radius: var(--radius-20)"
+   ],
+   "got": "border-radius: var(--radius-20);",
+   "pass": true
+  },
+  {
+   "scenario": "S3",
+   "class": "rounded-24",
+   "expect": [
+    "border-radius: var(--radius-24)"
+   ],
+   "got": "border-radius: var(--radius-24);",
+   "pass": true
+  },
+  {
+   "scenario": "S3",
+   "class": "rounded-32",
+   "expect": [
+    "border-radius: var(--radius-32)"
+   ],
+   "got": "border-radius: var(--radius-32);",
+   "pass": true
+  },
+  {
+   "scenario": "S3",
+   "class": "rounded-t-10",
+   "expect": [
+    "border-top-left-radius: var(--radius-10)"
+   ],
+   "got": "border-top-left-radius: var(--radius-10); border-top-right-radius: var(--radius-10);",
+   "pass": true,
+   "note": "side variants derive automatically"
+  },
+  {
+   "scenario": "S3",
+   "class": "rounded-lg",
+   "expect": [
+    "border-radius: var(--radius-lg)"
+   ],
+   "got": "border-radius: var(--radius-lg);",
+   "pass": true,
+   "note": "Tailwind default untouched"
+  },
+  {
+   "scenario": "S3",
+   "class": "rounded-sm",
+   "expect": [
+    "border-radius: var(--radius-sm)"
+   ],
+   "got": "border-radius: var(--radius-sm);",
+   "pass": true,
+   "note": "Tailwind default untouched"
+  },
+  {
+   "scenario": "S3",
+   "class": "rounded-none",
+   "expect": [
+    "border-radius: 0"
+   ],
+   "got": "border-radius: 0;",
+   "pass": true,
+   "note": "built-in static"
+  },
+  {
+   "scenario": "S3",
+   "class": "rounded-full",
+   "expect": [
+    "border-radius: calc(infinity * 1px)"
+   ],
+   "got": "border-radius: calc(infinity * 1px);",
+   "pass": true,
+   "note": "built-in static"
+  },
+  {
+   "scenario": "S3",
+   "class": "rounded-5",
+   "expect": "no rule generated",
+   "got": null,
+   "pass": true,
+   "note": "no bare-value radius in Tailwind: only registered values exist"
+  },
+  {
+   "scenario": "S3",
+   "class": "p-6",
+   "expect": [
+    "padding: calc(var(--spacing) * 6)"
+   ],
+   "got": "padding: calc(var(--spacing) * 6);",
+   "pass": true,
+   "note": "spacing unaffected (p-6 = 24px; rounded-6 = 6px: documented)"
+  },
+  {
+   "scenario": "S3b",
+   "class": "rounded-6",
+   "expect": "no rule generated",
+   "got": null,
+   "pass": true,
+   "note": "proves rounded-<n> does not exist without a registered key"
+  },
+  {
+   "scenario": "S4",
+   "class": "bg-gray-100",
+   "expect": "value changes from the default (hazard)",
+   "got": "oklch(96.7% 0.003 264.542) → #f5f5f5",
+   "pass": true,
+   "note": "any app screen using bg-gray-100 would change: why C4 is blocked"
+  }
+ ]
+}

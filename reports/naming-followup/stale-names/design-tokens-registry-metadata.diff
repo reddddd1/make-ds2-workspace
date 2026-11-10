@@ -1,0 +1,211 @@
+diff --git a/tokens/primitives/color-a11y.tokens.json b/tokens/primitives/color-a11y.tokens.json
+index 433c5f1..0670992 100644
+--- a/tokens/primitives/color-a11y.tokens.json
++++ b/tokens/primitives/color-a11y.tokens.json
+@@ -15,7 +15,9 @@
+         "$description": "New (not in Figma). OKLCH midpoint of gray.400 and gray.500; lightest gray meeting 3:1 non-text contrast on white. Proposal 0002.",
+         "$extensions": {
+           "com.make.source": {
+-            "custom": true
++            "custom": true,
++            "figma": "color/gray/450",
++            "figmaVariableId": "VariableID:23468:2"
+           }
+         }
+       }
+diff --git a/tokens/primitives/color.tokens.json b/tokens/primitives/color.tokens.json
+index 3d26b89..e9adb5f 100644
+--- a/tokens/primitives/color.tokens.json
++++ b/tokens/primitives/color.tokens.json
+@@ -484,7 +484,9 @@
+         },
+         "$extensions": {
+           "com.make.source": {
+-            "figma": "Colors/Brand/600"
++            "figma": "color/brand/600",
++            "figmaLegacy": "Colors/Brand/600",
++            "figmaVariableId": "VariableID:5248:377715"
+           }
+         }
+       },
+diff --git a/tokens/primitives/spacing.tokens.json b/tokens/primitives/spacing.tokens.json
+index cda99ac..24a6108 100644
+--- a/tokens/primitives/spacing.tokens.json
++++ b/tokens/primitives/spacing.tokens.json
+@@ -44,7 +44,9 @@
+       "$extensions": {
+         "com.make.source": {
+           "tailwind": "--spacing × 3",
+-          "figma": "Spacing/3 (12px)"
++          "figma": "spacing/3",
++          "figmaLegacy": "Spacing/3 (12px)",
++          "figmaVariableId": "VariableID:5253:372203"
+         }
+       }
+     },
+diff --git a/tokens/primitives/typography.tokens.json b/tokens/primitives/typography.tokens.json
+index 2eb6a93..908eea5 100644
+--- a/tokens/primitives/typography.tokens.json
++++ b/tokens/primitives/typography.tokens.json
+@@ -55,7 +55,9 @@
+         },
+         "$extensions": {
+           "com.make.source": {
+-            "figma": "Font size/text-md",
++            "figma": "font/size/base",
++            "figmaLegacy": "Font size/text-md",
++            "figmaVariableId": "VariableID:7407:110365",
+             "tailwind": "--text-base (same value)"
+           }
+         }
+@@ -118,7 +120,9 @@
+         "$value": 600,
+         "$extensions": {
+           "com.make.source": {
+-            "figma": "Font weight/semibold",
++            "figma": "font/weight/semibold",
++            "figmaLegacy": "Font weight/semibold",
++            "figmaVariableId": "VariableID:7405:102287",
+             "tailwind": "--font-weight-semibold"
+           }
+         }
+diff --git a/tokens/themes/dark/color.tokens.json b/tokens/themes/dark/color.tokens.json
+index 1a2715a..42b9f8f 100644
+--- a/tokens/themes/dark/color.tokens.json
++++ b/tokens/themes/dark/color.tokens.json
+@@ -7,7 +7,9 @@
+         "$description": "Error text (validation messages)",
+         "$extensions": {
+           "com.make.source": {
+-            "figma": "text-error-primary"
++            "figma": "color/text/error-primary",
++            "figmaLegacy": "text-error-primary",
++            "figmaVariableId": "VariableID:5263:373125"
+           }
+         }
+       },
+@@ -34,7 +36,9 @@
+         "$description": "Brand text and links",
+         "$extensions": {
+           "com.make.source": {
+-            "figma": "text-brand-primary"
++            "figma": "color/text/brand-primary",
++            "figmaLegacy": "text-brand-primary",
++            "figmaVariableId": "VariableID:6137:268549"
+           }
+         }
+       },
+@@ -54,7 +58,9 @@
+         "$description": "Primary button background",
+         "$extensions": {
+           "com.make.source": {
+-            "figma": "bg-brand-primary"
++            "figma": "color/bg/brand-primary",
++            "figmaLegacy": "bg-brand-primary",
++            "figmaVariableId": "VariableID:5270:371419"
+           }
+         }
+       },
+@@ -63,7 +69,9 @@
+         "$description": "Primary button hover background",
+         "$extensions": {
+           "com.make.source": {
+-            "figma": "bg-brand-primary_hover"
++            "figma": "color/bg/brand-primary-hover",
++            "figmaLegacy": "bg-brand-primary_hover",
++            "figmaVariableId": "VariableID:5353:380427"
+           }
+         }
+       }
+@@ -74,7 +82,9 @@
+         "$description": "Input border (default)",
+         "$extensions": {
+           "com.make.source": {
+-            "figma": "border-primary"
++            "figma": "color/border/primary",
++            "figmaLegacy": "border-primary",
++            "figmaVariableId": "VariableID:5270:371435"
+           }
+         }
+       },
+@@ -94,7 +104,9 @@
+         "$description": "Focus ring",
+         "$extensions": {
+           "com.make.source": {
+-            "figma": "focus-ring-primary"
++            "figma": "color/focus-ring/primary",
++            "figmaLegacy": "focus-ring-primary",
++            "figmaVariableId": "VariableID:7371:212918"
+           }
+         }
+       }
+diff --git a/tokens/themes/light/color.tokens.json b/tokens/themes/light/color.tokens.json
+index 323bb12..e99e2c7 100644
+--- a/tokens/themes/light/color.tokens.json
++++ b/tokens/themes/light/color.tokens.json
+@@ -7,7 +7,9 @@
+         "$description": "Error text (validation messages)",
+         "$extensions": {
+           "com.make.source": {
+-            "figma": "text-error-primary"
++            "figma": "color/text/error-primary",
++            "figmaLegacy": "text-error-primary",
++            "figmaVariableId": "VariableID:5263:373125"
+           }
+         }
+       },
+@@ -34,7 +36,9 @@
+         "$description": "Brand text and links",
+         "$extensions": {
+           "com.make.source": {
+-            "figma": "text-brand-primary"
++            "figma": "color/text/brand-primary",
++            "figmaLegacy": "text-brand-primary",
++            "figmaVariableId": "VariableID:6137:268549"
+           }
+         }
+       },
+@@ -54,7 +58,9 @@
+         "$description": "Primary button background",
+         "$extensions": {
+           "com.make.source": {
+-            "figma": "bg-brand-primary"
++            "figma": "color/bg/brand-primary",
++            "figmaLegacy": "bg-brand-primary",
++            "figmaVariableId": "VariableID:5270:371419"
+           }
+         }
+       },
+@@ -63,7 +69,9 @@
+         "$description": "Primary button hover background",
+         "$extensions": {
+           "com.make.source": {
+-            "figma": "bg-brand-primary_hover"
++            "figma": "color/bg/brand-primary-hover",
++            "figmaLegacy": "bg-brand-primary_hover",
++            "figmaVariableId": "VariableID:5353:380427"
+           }
+         }
+       }
+@@ -74,7 +82,9 @@
+         "$description": "Input border (default)",
+         "$extensions": {
+           "com.make.source": {
+-            "figma": "border-primary"
++            "figma": "color/border/primary",
++            "figmaLegacy": "border-primary",
++            "figmaVariableId": "VariableID:5270:371435"
+           }
+         }
+       },
+@@ -94,7 +104,9 @@
+         "$description": "Focus ring",
+         "$extensions": {
+           "com.make.source": {
+-            "figma": "focus-ring-primary"
++            "figma": "color/focus-ring/primary",
++            "figmaLegacy": "focus-ring-primary",
++            "figmaVariableId": "VariableID:7371:212918"
+           }
+         }
+       }

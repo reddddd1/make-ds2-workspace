@@ -1,0 +1,6520 @@
+{
+ "byClass": {
+  "Existing alias or equivalent": 3,
+  "Legacy but still used": 60,
+  "Required canonical token": 20,
+  "Requires design decision": 23,
+  "Unused or intentionally excluded": 69
+ },
+ "figmaOnlyMembers": 175,
+ "groups": 18,
+ "rows": [
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Base/black",
+    "Colors/Brand/50"
+   ],
+   "bindings": 53,
+   "class": "Legacy but still used",
+   "components": 8,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:5353:380364",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-active",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/active",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "_Calendar cell",
+     20
+    ],
+    [
+     "_Date picker menu",
+     15
+    ],
+    [
+     "_Button group base",
+     8
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Base/black",
+    "Light mode": "→ Colors/Brand/50"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Green lime/400"
+   ],
+   "bindings": 6,
+   "class": "Legacy but still used",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:17598:19007",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-avatar-color1",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/avatar-color1",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Avatar",
+     6
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Green lime/400",
+    "Light mode": "→ Colors/Green lime/400"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Purple/400"
+   ],
+   "bindings": 6,
+   "class": "Legacy but still used",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:17598:19008",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-avatar-color2",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/avatar-color2",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Avatar",
+     6
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Purple/400",
+    "Light mode": "→ Colors/Purple/400"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Pink/400",
+    "Colors/Rosé/400"
+   ],
+   "bindings": 6,
+   "class": "Legacy but still used",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:17598:19009",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-avatar-color3",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/avatar-color3",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Avatar",
+     6
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Pink/400",
+    "Light mode": "→ Colors/Rosé/400"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Orange dark/400"
+   ],
+   "bindings": 6,
+   "class": "Legacy but still used",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:17598:19010",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-avatar-color4",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/avatar-color4",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Avatar",
+     6
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Orange dark/400",
+    "Light mode": "→ Colors/Orange dark/400"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Blue dark/400",
+    "Colors/Blue/400"
+   ],
+   "bindings": 6,
+   "class": "Legacy but still used",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:17598:19011",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-avatar-color5",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/avatar-color5",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Avatar",
+     6
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Blue dark/400",
+    "Light mode": "→ Colors/Blue/400"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Cyan/400"
+   ],
+   "bindings": 6,
+   "class": "Legacy but still used",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:17598:19012",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-avatar-color6",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/avatar-color6",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Avatar",
+     6
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Cyan/400",
+    "Light mode": "→ Colors/Cyan/400"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Green light/400"
+   ],
+   "bindings": 6,
+   "class": "Legacy but still used",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:17598:19013",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-avatar-color7",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/avatar-color7",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Avatar",
+     6
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Green light/400",
+    "Light mode": "→ Colors/Green light/400"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Yellow/400"
+   ],
+   "bindings": 6,
+   "class": "Legacy but still used",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:17598:19014",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-avatar-color8",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/avatar-color8",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Avatar",
+     6
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Yellow/400",
+    "Light mode": "→ Colors/Yellow/400"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Brand/50"
+   ],
+   "bindings": 0,
+   "class": "Legacy but still used",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:17490:23031",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-brand-primary_subtle",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/brand-primary-subtle",
+   "risk": "medium",
+   "styleEx": [
+    "paint: Icon background/My wallet",
+    "paint: Icon background/My card"
+   ],
+   "styleRefs": 2,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Brand/50",
+    "Light mode": "→ Colors/Brand/50"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Green lime/500"
+   ],
+   "bindings": 1,
+   "class": "Legacy but still used",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:5363:390066",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-brand-secondary",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/brand-secondary",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "_Nav featured card",
+     1
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Green lime/500",
+    "Light mode": "→ Colors/Green lime/500"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Green lime/400"
+   ],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:17490:23029",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-brand-secondary_hover",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/brand-secondary-hover",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Green lime/400",
+    "Light mode": "→ Colors/Green lime/400"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Green lime/200"
+   ],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:17490:23032",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-brand-secondary_subtle",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/brand-secondary-subtle",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Green lime/200",
+    "Light mode": "→ Colors/Green lime/200"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Magenta/500"
+   ],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:21485:6459",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-brand-tertiary",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/brand-tertiary",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Magenta/500",
+    "Light mode": "→ Colors/Magenta/500"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Magenta/400"
+   ],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:21485:6460",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-brand-tertiary_hover",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/brand-tertiary-hover",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Magenta/400",
+    "Light mode": "→ Colors/Magenta/400"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Gray iron/950",
+    "Colors/Gray modern/25"
+   ],
+   "bindings": 7,
+   "class": "Legacy but still used",
+   "components": 2,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:17498:16357",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-canvas",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/canvas",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Buttons/Button icon",
+     6
+    ],
+    [
+     "Illustration/Custom img",
+     1
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray iron/950",
+    "Light mode": "→ Colors/Gray modern/25"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Gray (dark mode)/900",
+    "Colors/Gray (light mode)/100"
+   ],
+   "bindings": 25,
+   "class": "Required canonical token",
+   "components": 7,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:5353:380346",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-disabled",
+   "nameNote": "",
+   "neededByPilot": true,
+   "pilotBindings": {
+    "Buttons/Button": 7,
+    "Input field": 2
+   },
+   "proposed": "color/bg/disabled",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Buttons/Button",
+     7
+    ],
+    [
+     "Filter group",
+     6
+    ],
+    [
+     "Toggle",
+     4
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/900",
+    "Light mode": "→ Colors/Gray (light mode)/100"
+   },
+   "why": "bound in a pilot component"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Gray (dark mode)/900",
+    "Colors/Gray (light mode)/50"
+   ],
+   "bindings": 104,
+   "class": "Required canonical token",
+   "components": 9,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:5373:441756",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-disabled_subtle",
+   "nameNote": "",
+   "neededByPilot": true,
+   "pilotBindings": {
+    "Buttons/Button": 7
+   },
+   "proposed": "color/bg/disabled-subtle",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Radio group item",
+     48
+    ],
+    [
+     "Radio / Checkbox",
+     21
+    ],
+    [
+     "_Checkbox base",
+     13
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/900",
+    "Light mode": "→ Colors/Gray (light mode)/50"
+   },
+   "why": "bound in a pilot component"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Error/50",
+    "Colors/Error/600"
+   ],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:5353:386814",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-error-primary",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/error-primary",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Error/600",
+    "Light mode": "→ Colors/Error/50"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Error/100",
+    "Colors/Error/600"
+   ],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:5270:371424",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-error-secondary",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/error-secondary",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Error/600",
+    "Light mode": "→ Colors/Error/100"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Error/600"
+   ],
+   "bindings": 24,
+   "class": "Legacy but still used",
+   "components": 2,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:5270:371460",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-error-solid",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/error-solid",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Buttons/Button destructive",
+     21
+    ],
+    [
+     "Buttons/Button icon",
+     3
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Error/600",
+    "Light mode": "→ Colors/Error/600"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Error/500"
+   ],
+   "bindings": 7,
+   "class": "Legacy but still used",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:9860:25270",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-error-solid_hover",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/error-solid-hover",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Buttons/Button destructive",
+     7
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Error/500",
+    "Light mode": "→ Colors/Error/500"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Component colors/Alpha/alpha-black-40",
+    "Component colors/Alpha/alpha-white-10"
+   ],
+   "bindings": 1,
+   "class": "Legacy but still used",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:5965:435454",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-overlay",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/overlay",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Background overlay",
+     1
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Component colors/Alpha/alpha-white-10",
+    "Light mode": "→ Component colors/Alpha/alpha-black-40"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 2,
+   "aliasedByEx": [
+    "Colors/Background/bg-secondary_alt",
+    "Component colors/Components/Sliders/slider-handle-border"
+   ],
+   "aliasedByKinds": {
+    "Figma-only": 1,
+    "component colour": 1
+   },
+   "aliasesOut": [
+    "Colors/Base/black",
+    "Colors/Base/white"
+   ],
+   "bindings": 838,
+   "class": "Required canonical token",
+   "components": 63,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:5269:371407",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-primary",
+   "nameNote": "",
+   "neededByPilot": true,
+   "pilotBindings": {
+    "Alert": 1,
+    "Buttons/Button": 23,
+    "Input field": 108,
+    "Modal": 1
+   },
+   "proposed": "color/bg/primary",
+   "risk": "high",
+   "styleEx": [
+    "effect: Focus rings/focus-ring",
+    "effect: Focus rings/focus-ring-shadow-primaryalt-xs"
+   ],
+   "styleRefs": 8,
+   "topComponents": [
+    [
+     "Radio group item",
+     133
+    ],
+    [
+     "Input field",
+     108
+    ],
+    [
+     "Radio group",
+     101
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Base/black",
+    "Light mode": "→ Colors/Base/white"
+   },
+   "why": "bound in a pilot component"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Background/bg-secondary",
+    "Colors/Gray (light mode)/950"
+   ],
+   "bindings": 32,
+   "class": "Legacy but still used",
+   "components": 4,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:6188:245678",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-primary-solid",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/primary-solid",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Tooltip",
+     26
+    ],
+    [
+     "Tab group",
+     2
+    ],
+    [
+     "_Documentation table cell",
+     2
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Background/bg-secondary",
+    "Light mode": "→ Colors/Gray (light mode)/950"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Background/bg-secondary",
+    "Colors/Base/white"
+   ],
+   "bindings": 7,
+   "class": "Required canonical token",
+   "components": 2,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:5503:400270",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-primary_alt",
+   "nameNote": "",
+   "neededByPilot": true,
+   "pilotBindings": {
+    "Alert": 4
+   },
+   "proposed": "color/bg/primary-alt",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Alert",
+     4
+    ],
+    [
+     "_Control handle",
+     3
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Background/bg-secondary",
+    "Light mode": "→ Colors/Base/white"
+   },
+   "why": "bound in a pilot component"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Gray (dark mode)/800",
+    "Colors/Gray (light mode)/50"
+   ],
+   "bindings": 43,
+   "class": "Legacy but still used",
+   "components": 11,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:5353:380344",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-primary_hover",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/primary-hover",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Social button",
+     14
+    ],
+    [
+     "_Button group base",
+     8
+    ],
+    [
+     "_Nav account card menu item",
+     6
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/800",
+    "Light mode": "→ Colors/Gray (light mode)/50"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Gray (dark mode)/700",
+    "Colors/Gray (light mode)/200"
+   ],
+   "bindings": 69,
+   "class": "Required canonical token",
+   "components": 4,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:5376:386706",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-quaternary",
+   "nameNote": "",
+   "neededByPilot": true,
+   "pilotBindings": {
+    "_Modal header": 1
+   },
+   "proposed": "color/bg/quaternary",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Progress bar",
+     33
+    ],
+    [
+     "Slider",
+     30
+    ],
+    [
+     "Progress circle",
+     5
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/700",
+    "Light mode": "→ Colors/Gray (light mode)/200"
+   },
+   "why": "bound in a pilot component"
+  },
+  {
+   "aliasedBy": 2,
+   "aliasedByEx": [
+    "Colors/Background/bg-primary_alt",
+    "Colors/Background/bg-primary-solid"
+   ],
+   "aliasedByKinds": {
+    "Figma-only": 2
+   },
+   "aliasesOut": [
+    "Colors/Gray (dark mode)/900",
+    "Colors/Gray (light mode)/50"
+   ],
+   "bindings": 5,
+   "class": "Required canonical token",
+   "components": 2,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:5367:383138",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-secondary",
+   "nameNote": "",
+   "neededByPilot": true,
+   "pilotBindings": {},
+   "proposed": "color/bg/secondary",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "_Documentation table cell",
+     3
+    ],
+    [
+     "_Nav featured card",
+     2
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/900",
+    "Light mode": "→ Colors/Gray (light mode)/50"
+   },
+   "why": "alias target of a variable the pilot components use"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Gray (dark mode)/600",
+    "Colors/Gray (light mode)/600"
+   ],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:5270:371458",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-secondary-solid",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/secondary-solid",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/600",
+    "Light mode": "→ Colors/Gray (light mode)/600"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Background/bg-primary",
+    "Colors/Gray (light mode)/50"
+   ],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:5574:403136",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-secondary_alt",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/secondary-alt",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Background/bg-primary",
+    "Light mode": "→ Colors/Gray (light mode)/50"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Gray (dark mode)/800",
+    "Colors/Gray (light mode)/100"
+   ],
+   "bindings": 6,
+   "class": "Legacy but still used",
+   "components": 4,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:5342:374622",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-secondary_hover",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/secondary-hover",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "_Calendar cell",
+     2
+    ],
+    [
+     "_Nav item button",
+     2
+    ],
+    [
+     "_Date picker list item",
+     1
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/800",
+    "Light mode": "→ Colors/Gray (light mode)/100"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Gray (dark mode)/900",
+    "Colors/Gray (light mode)/25"
+   ],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:6059:440423",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-secondary_subtle",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/secondary-subtle",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/900",
+    "Light mode": "→ Colors/Gray (light mode)/25"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Success/50",
+    "Colors/Success/950"
+   ],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:5270:371427",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-success-primary",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/success-primary",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Success/950",
+    "Light mode": "→ Colors/Success/50"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Success/100",
+    "Colors/Success/600"
+   ],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:5270:371428",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-success-secondary",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/success-secondary",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Success/600",
+    "Light mode": "→ Colors/Success/100"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Success/600"
+   ],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:5270:371464",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-success-solid",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/success-solid",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Success/600",
+    "Light mode": "→ Colors/Success/600"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Gray (dark mode)/800",
+    "Colors/Gray (light mode)/100"
+   ],
+   "bindings": 70,
+   "class": "Legacy but still used",
+   "components": 8,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:5269:371408",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-tertiary",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/tertiary",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Badge",
+     27
+    ],
+    [
+     "Tag",
+     10
+    ],
+    [
+     "_Tab button base",
+     8
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/800",
+    "Light mode": "→ Colors/Gray (light mode)/100"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Warning/50",
+    "Colors/Warning/900"
+   ],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:5270:371425",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-warning-primary",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/warning-primary",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Warning/900",
+    "Light mode": "→ Colors/Warning/50"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Warning/100",
+    "Colors/Warning/800"
+   ],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:5270:371426",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-warning-secondary",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/warning-secondary",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Warning/800",
+    "Light mode": "→ Colors/Warning/100"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Warning/600"
+   ],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Background",
+   "id": "VariableID:5270:371462",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Background/bg-warning-solid",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/bg/warning-solid",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Warning/600",
+    "Light mode": "→ Colors/Warning/600"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Brand/400",
+    "Colors/Brand/500"
+   ],
+   "bindings": 136,
+   "class": "Required canonical token",
+   "components": 17,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Border",
+   "id": "VariableID:5353:381354",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Border/border-brand",
+   "nameNote": "",
+   "neededByPilot": true,
+   "pilotBindings": {
+    "Buttons/Button": 12,
+    "_Modal actions": 3
+   },
+   "proposed": "color/border/brand",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Radio group item",
+     36
+    ],
+    [
+     "Radio group",
+     20
+    ],
+    [
+     "Buttons/Button",
+     12
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Brand/400",
+    "Light mode": "→ Colors/Brand/500"
+   },
+   "why": "bound in a pilot component"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Brand/100"
+   ],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Border",
+   "id": "VariableID:17596:18682",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Border/border-brand subtle",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/border/brand-subtle",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Brand/100",
+    "Light mode": "→ Colors/Brand/100"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Gray (dark mode)/700",
+    "color/brand/600"
+   ],
+   "bindings": 4,
+   "class": "Legacy but still used",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Border",
+   "id": "VariableID:7397:524104",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Border/border-brand_alt",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/border/brand-alt",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "_Nav featured card",
+     4
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/700",
+    "Light mode": "→ color/brand/600"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Gray (dark mode)/700",
+    "Colors/Gray (light mode)/300"
+   ],
+   "bindings": 74,
+   "class": "Legacy but still used",
+   "components": 6,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Border",
+   "id": "VariableID:5353:382144",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Border/border-disabled",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/border/disabled",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Radio group item",
+     32
+    ],
+    [
+     "Radio / Checkbox",
+     21
+    ],
+    [
+     "_Checkbox base",
+     13
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/700",
+    "Light mode": "→ Colors/Gray (light mode)/300"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Gray (dark mode)/800",
+    "Colors/Gray (light mode)/200"
+   ],
+   "bindings": 27,
+   "class": "Required canonical token",
+   "components": 2,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Border",
+   "id": "VariableID:5419:395627",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Border/border-disabled_subtle",
+   "nameNote": "",
+   "neededByPilot": true,
+   "pilotBindings": {
+    "Buttons/Button": 11
+   },
+   "proposed": "color/border/disabled-subtle",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Radio group item",
+     16
+    ],
+    [
+     "Buttons/Button",
+     11
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/800",
+    "Light mode": "→ Colors/Gray (light mode)/200"
+   },
+   "why": "bound in a pilot component"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Error/200",
+    "Colors/Error/300"
+   ],
+   "bindings": 25,
+   "class": "Required canonical token",
+   "components": 2,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Border",
+   "id": "VariableID:5263:373126",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Border/border-error_subtle",
+   "nameNote": "",
+   "neededByPilot": true,
+   "pilotBindings": {
+    "Input field": 21
+   },
+   "proposed": "color/border/error-subtle",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Input field",
+     21
+    ],
+    [
+     "Textarea input field",
+     4
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Error/200",
+    "Light mode": "→ Colors/Error/300"
+   },
+   "why": "bound in a pilot component"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Gray (dark mode)/800",
+    "Colors/Gray (light mode)/200"
+   ],
+   "bindings": 259,
+   "class": "Required canonical token",
+   "components": 20,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Border",
+   "id": "VariableID:5263:373123",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Border/border-secondary",
+   "nameNote": "",
+   "neededByPilot": true,
+   "pilotBindings": {
+    "Input field": 15,
+    "_Modal actions": 3,
+    "_Modal header": 1
+   },
+   "proposed": "color/border/secondary",
+   "risk": "high",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Radio group",
+     80
+    ],
+    [
+     "Avatar",
+     54
+    ],
+    [
+     "Radio group item",
+     36
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/800",
+    "Light mode": "→ Colors/Gray (light mode)/200"
+   },
+   "why": "bound in a pilot component"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Gray (dark mode)/800"
+   ],
+   "bindings": 21,
+   "class": "Legacy but still used",
+   "components": 5,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Border",
+   "id": "VariableID:8714:124491",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Border/border-secondary_alt",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/border/secondary-alt",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Date picker dropdown",
+     8
+    ],
+    [
+     "Select",
+     5
+    ],
+    [
+     "_Date picker menu",
+     4
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/800",
+    "Light mode": "#00000014"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Success/400",
+    "Colors/Success/500"
+   ],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Border",
+   "id": "VariableID:21259:769",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Border/border-success",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/border/success",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Success/400",
+    "Light mode": "→ Colors/Success/500"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Gray (dark mode)/800",
+    "Colors/Gray (light mode)/100"
+   ],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Border",
+   "id": "VariableID:6132:176485",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Border/border-tertiary",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/border/tertiary",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/800",
+    "Light mode": "→ Colors/Gray (light mode)/100"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Green lime/500"
+   ],
+   "bindings": 7,
+   "class": "Required canonical token",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Effects",
+   "id": "VariableID:17496:23386",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Effects/Focus rings/focus-ring-alt",
+   "nameNote": "",
+   "neededByPilot": true,
+   "pilotBindings": {
+    "Buttons/Button": 7
+   },
+   "proposed": "color/focus-ring/alt",
+   "risk": "medium",
+   "styleEx": [
+    "effect: Focus rings/focus-ring-shadow-primaryalt-xs"
+   ],
+   "styleRefs": 1,
+   "topComponents": [
+    [
+     "Buttons/Button",
+     7
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Green lime/500",
+    "Light mode": "→ Colors/Green lime/500"
+   },
+   "why": "bound in a pilot component"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Error/500"
+   ],
+   "bindings": 15,
+   "class": "Legacy but still used",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Effects",
+   "id": "VariableID:7371:212919",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Effects/Focus rings/focus-ring-error",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/focus-ring/error",
+   "risk": "medium",
+   "styleEx": [
+    "effect: Focus rings/focus-ring-error-shadow-xs",
+    "effect: Focus rings/focus-ring-error-shadow-xs-skeuomorphic"
+   ],
+   "styleRefs": 2,
+   "topComponents": [
+    [
+     "Buttons/Button destructive",
+     15
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Error/500",
+    "Light mode": "→ Colors/Error/500"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Gray modern/300",
+    "Colors/Gray modern/800"
+   ],
+   "bindings": 10,
+   "class": "Legacy but still used",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Effects",
+   "id": "VariableID:21372:1655",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Effects/Focus rings/focus-ring-neutral",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/focus-ring/neutral",
+   "risk": "medium",
+   "styleEx": [
+    "effect: Focus rings/focus-ring-shadow-secondary-xs"
+   ],
+   "styleRefs": 1,
+   "topComponents": [
+    [
+     "Select",
+     10
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray modern/800",
+    "Light mode": "→ Colors/Gray modern/300"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Base/transparent"
+   ],
+   "bindings": 0,
+   "class": "Requires design decision",
+   "components": 0,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Effects",
+   "id": "VariableID:7276:18833",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Effects/Shadows/shadow-2xl_01",
+   "nameNote": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/shadow/2xl-01",
+   "risk": "low",
+   "styleEx": [
+    "effect: Shadows/shadow-2xl"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Base/transparent",
+    "Light mode": "#0a0d122e"
+   },
+   "why": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Base/transparent"
+   ],
+   "bindings": 0,
+   "class": "Requires design decision",
+   "components": 0,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Effects",
+   "id": "VariableID:7981:234617",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Effects/Shadows/shadow-2xl_02",
+   "nameNote": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/shadow/2xl-02",
+   "risk": "low",
+   "styleEx": [
+    "effect: Shadows/shadow-2xl"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Base/transparent",
+    "Light mode": "#0a0d120a"
+   },
+   "why": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Base/transparent"
+   ],
+   "bindings": 0,
+   "class": "Requires design decision",
+   "components": 0,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Effects",
+   "id": "VariableID:7276:18832",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Effects/Shadows/shadow-3xl_01",
+   "nameNote": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/shadow/3xl-01",
+   "risk": "low",
+   "styleEx": [
+    "effect: Shadows/shadow-3xl"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Base/transparent",
+    "Light mode": "#0a0d1224"
+   },
+   "why": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Base/transparent"
+   ],
+   "bindings": 0,
+   "class": "Requires design decision",
+   "components": 0,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Effects",
+   "id": "VariableID:7981:234618",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Effects/Shadows/shadow-3xl_02",
+   "nameNote": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/shadow/3xl-02",
+   "risk": "low",
+   "styleEx": [
+    "effect: Shadows/shadow-3xl"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Base/transparent",
+    "Light mode": "#0a0d120a"
+   },
+   "why": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Base/transparent"
+   ],
+   "bindings": 40,
+   "class": "Requires design decision",
+   "components": 6,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Effects",
+   "id": "VariableID:7276:18828",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Effects/Shadows/shadow-lg_01",
+   "nameNote": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/shadow/lg-01",
+   "risk": "medium",
+   "styleEx": [
+    "effect: Shadows/shadow-lg"
+   ],
+   "styleRefs": 1,
+   "topComponents": [
+    [
+     "Help icon",
+     14
+    ],
+    [
+     "Tooltip",
+     14
+    ],
+    [
+     "Select",
+     5
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Base/transparent",
+    "Light mode": "#0a0d1214"
+   },
+   "why": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Base/transparent"
+   ],
+   "bindings": 40,
+   "class": "Requires design decision",
+   "components": 6,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Effects",
+   "id": "VariableID:7276:18830",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Effects/Shadows/shadow-lg_02",
+   "nameNote": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/shadow/lg-02",
+   "risk": "medium",
+   "styleEx": [
+    "effect: Shadows/shadow-lg"
+   ],
+   "styleRefs": 1,
+   "topComponents": [
+    [
+     "Help icon",
+     14
+    ],
+    [
+     "Tooltip",
+     14
+    ],
+    [
+     "Select",
+     5
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Base/transparent",
+    "Light mode": "#0a0d1208"
+   },
+   "why": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Base/transparent"
+   ],
+   "bindings": 40,
+   "class": "Requires design decision",
+   "components": 6,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Effects",
+   "id": "VariableID:7981:234615",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Effects/Shadows/shadow-lg_03",
+   "nameNote": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/shadow/lg-03",
+   "risk": "medium",
+   "styleEx": [
+    "effect: Shadows/shadow-lg"
+   ],
+   "styleRefs": 1,
+   "topComponents": [
+    [
+     "Help icon",
+     14
+    ],
+    [
+     "Tooltip",
+     14
+    ],
+    [
+     "Select",
+     5
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Base/transparent",
+    "Light mode": "#0a0d120a"
+   },
+   "why": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Base/transparent"
+   ],
+   "bindings": 6,
+   "class": "Requires design decision",
+   "components": 1,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Effects",
+   "id": "VariableID:7371:212903",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Effects/Shadows/shadow-md_01",
+   "nameNote": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/shadow/md-01",
+   "risk": "medium",
+   "styleEx": [
+    "effect: Shadows/shadow-md"
+   ],
+   "styleRefs": 1,
+   "topComponents": [
+    [
+     "_Control handle",
+     6
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Base/transparent",
+    "Light mode": "#0a0d121a"
+   },
+   "why": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Base/transparent"
+   ],
+   "bindings": 6,
+   "class": "Requires design decision",
+   "components": 1,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Effects",
+   "id": "VariableID:7371:212904",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Effects/Shadows/shadow-md_02",
+   "nameNote": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/shadow/md-02",
+   "risk": "medium",
+   "styleEx": [
+    "effect: Shadows/shadow-md"
+   ],
+   "styleRefs": 1,
+   "topComponents": [
+    [
+     "_Control handle",
+     6
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Base/transparent",
+    "Light mode": "#0a0d120f"
+   },
+   "why": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 81,
+   "class": "Requires design decision",
+   "components": 3,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Effects",
+   "id": "VariableID:7393:383290",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Effects/Shadows/shadow-skeumorphic-inner",
+   "nameNote": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/shadow/skeumorphic-inner",
+   "risk": "medium",
+   "styleEx": [
+    "effect: Shadows/shadow-xs-skeuomorphic",
+    "effect: Focus rings/focus-ring-error-shadow-xs-skeuomorphic"
+   ],
+   "styleRefs": 2,
+   "topComponents": [
+    [
+     "Social button",
+     54
+    ],
+    [
+     "Social button groups",
+     24
+    ],
+    [
+     "Button group",
+     3
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "#0c0e120d",
+    "Light mode": "#0a0d120d"
+   },
+   "why": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 81,
+   "class": "Requires design decision",
+   "components": 3,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Effects",
+   "id": "VariableID:7396:291712",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Effects/Shadows/shadow-skeumorphic-inner-border",
+   "nameNote": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/shadow/skeumorphic-inner-border",
+   "risk": "medium",
+   "styleEx": [
+    "effect: Shadows/shadow-xs-skeuomorphic",
+    "effect: Focus rings/focus-ring-error-shadow-xs-skeuomorphic"
+   ],
+   "styleRefs": 2,
+   "topComponents": [
+    [
+     "Social button",
+     54
+    ],
+    [
+     "Social button groups",
+     24
+    ],
+    [
+     "Button group",
+     3
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "#0c0e122e",
+    "Light mode": "#0a0d122e"
+   },
+   "why": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Base/transparent"
+   ],
+   "bindings": 19,
+   "class": "Requires design decision",
+   "components": 2,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Effects",
+   "id": "VariableID:7276:18831",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Effects/Shadows/shadow-sm_01",
+   "nameNote": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/shadow/sm-01",
+   "risk": "medium",
+   "styleEx": [
+    "effect: Shadows/shadow-sm",
+    "effect: Focus rings/focus-ring-shadow-sm"
+   ],
+   "styleRefs": 2,
+   "topComponents": [
+    [
+     "_Toggle base",
+     16
+    ],
+    [
+     "_Control handle",
+     3
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Base/transparent",
+    "Light mode": "#0a0d121a"
+   },
+   "why": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Base/transparent"
+   ],
+   "bindings": 19,
+   "class": "Requires design decision",
+   "components": 2,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Effects",
+   "id": "VariableID:7276:18827",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Effects/Shadows/shadow-sm_02",
+   "nameNote": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/shadow/sm-02",
+   "risk": "medium",
+   "styleEx": [
+    "effect: Shadows/shadow-sm",
+    "effect: Focus rings/focus-ring-shadow-sm"
+   ],
+   "styleRefs": 2,
+   "topComponents": [
+    [
+     "_Toggle base",
+     16
+    ],
+    [
+     "_Control handle",
+     3
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Base/transparent",
+    "Light mode": "#0a0d121a"
+   },
+   "why": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Base/transparent"
+   ],
+   "bindings": 0,
+   "class": "Requires design decision",
+   "components": 0,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Effects",
+   "id": "VariableID:7371:212905",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Effects/Shadows/shadow-xl_01",
+   "nameNote": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/shadow/xl-01",
+   "risk": "low",
+   "styleEx": [
+    "effect: Shadows/shadow-xl"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Base/transparent",
+    "Light mode": "#0a0d1214"
+   },
+   "why": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Base/transparent"
+   ],
+   "bindings": 0,
+   "class": "Requires design decision",
+   "components": 0,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Effects",
+   "id": "VariableID:7371:212906",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Effects/Shadows/shadow-xl_02",
+   "nameNote": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/shadow/xl-02",
+   "risk": "low",
+   "styleEx": [
+    "effect: Shadows/shadow-xl"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Base/transparent",
+    "Light mode": "#0a0d1208"
+   },
+   "why": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Base/transparent"
+   ],
+   "bindings": 0,
+   "class": "Requires design decision",
+   "components": 0,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Effects",
+   "id": "VariableID:7981:234616",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Effects/Shadows/shadow-xl_03",
+   "nameNote": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/shadow/xl-03",
+   "risk": "low",
+   "styleEx": [
+    "effect: Shadows/shadow-xl"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Base/transparent",
+    "Light mode": "#0a0d120a"
+   },
+   "why": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Base/transparent"
+   ],
+   "bindings": 140,
+   "class": "Requires design decision",
+   "components": 11,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Effects",
+   "id": "VariableID:7271:17030",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Effects/Shadows/shadow-xs",
+   "nameNote": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)",
+   "neededByPilot": true,
+   "pilotBindings": {
+    "Buttons/Button": 15,
+    "Input field": 8
+   },
+   "proposed": "color/shadow/xs",
+   "risk": "medium",
+   "styleEx": [
+    "effect: Shadows/shadow-xs",
+    "effect: Shadows/shadow-xs-skeuomorphic"
+   ],
+   "styleRefs": 7,
+   "topComponents": [
+    [
+     "Social button",
+     54
+    ],
+    [
+     "Social button groups",
+     24
+    ],
+    [
+     "Buttons/Button",
+     15
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Base/transparent",
+    "Light mode": "#0a0d120d"
+   },
+   "why": "no `color.shadow.*` namespace in the convention yet (shadows are effect styles in code)"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Base/black"
+   ],
+   "bindings": 4,
+   "class": "Legacy but still used",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Text",
+   "id": "VariableID:21169:11975",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Text/text-black",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/text/black",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Flow note",
+     4
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Base/black",
+    "Light mode": "→ Colors/Base/black"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Brand/700"
+   ],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Text",
+   "id": "VariableID:5373:442648",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Text/text-brand-secondary (700)",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/text/brand-secondary",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Brand/700",
+    "Light mode": "→ Colors/Brand/700"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Brand/800"
+   ],
+   "bindings": 2,
+   "class": "Required canonical token",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Text",
+   "id": "VariableID:14761:1747",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Text/text-brand-secondary_hover",
+   "nameNote": "",
+   "neededByPilot": true,
+   "pilotBindings": {
+    "Buttons/Button": 2
+   },
+   "proposed": "color/text/brand-secondary-hover",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Buttons/Button",
+     2
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Brand/800",
+    "Light mode": "→ Colors/Brand/800"
+   },
+   "why": "bound in a pilot component"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "color/brand/600"
+   ],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Text",
+   "id": "VariableID:5419:395655",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Text/text-brand-tertiary (600)",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/text/brand-tertiary",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ color/brand/600",
+    "Light mode": "→ color/brand/600"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "color/brand/600"
+   ],
+   "bindings": 6,
+   "class": "Legacy but still used",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Text",
+   "id": "VariableID:6188:191015",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Text/text-brand-tertiary_alt",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/text/brand-tertiary-alt",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "_Mega input field base",
+     6
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ color/brand/600",
+    "Light mode": "→ color/brand/600"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Gray (dark mode)/400",
+    "Colors/Gray (light mode)/400"
+   ],
+   "bindings": 36,
+   "class": "Required canonical token",
+   "components": 7,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Text",
+   "id": "VariableID:5353:380352",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Text/text-disabled",
+   "nameNote": "",
+   "neededByPilot": true,
+   "pilotBindings": {
+    "Input field": 16
+   },
+   "proposed": "color/text/disabled",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Input field",
+     16
+    ],
+    [
+     "_Button group base",
+     6
+    ],
+    [
+     "Select",
+     4
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/400",
+    "Light mode": "→ Colors/Gray (light mode)/400"
+   },
+   "why": "bound in a pilot component"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Error/300",
+    "Colors/Error/400"
+   ],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Text",
+   "id": "VariableID:8753:389622",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Text/text-error-primary_hover",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/text/error-primary-hover",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Error/300",
+    "Light mode": "→ Colors/Error/400"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Gray (dark mode)/400",
+    "Colors/Gray (light mode)/400"
+   ],
+   "bindings": 30,
+   "class": "Required canonical token",
+   "components": 3,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Text",
+   "id": "VariableID:5419:395653",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Text/text-placeholder",
+   "nameNote": "",
+   "neededByPilot": true,
+   "pilotBindings": {
+    "Input field": 17
+   },
+   "proposed": "color/text/placeholder",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Input field",
+     17
+    ],
+    [
+     "Textarea input field",
+     8
+    ],
+    [
+     "Select",
+     5
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/400",
+    "Light mode": "→ Colors/Gray (light mode)/400"
+   },
+   "why": "bound in a pilot component"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Gray (dark mode)/700",
+    "Colors/Gray (light mode)/300"
+   ],
+   "bindings": 3,
+   "class": "Legacy but still used",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Text",
+   "id": "VariableID:5419:395654",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Text/text-placeholder_subtle",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/text/placeholder-subtle",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "_Mega input field base",
+     3
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/700",
+    "Light mode": "→ Colors/Gray (light mode)/300"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Gray (dark mode)/50",
+    "Colors/Gray (light mode)/950"
+   ],
+   "bindings": 156,
+   "class": "Required canonical token",
+   "components": 20,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Text",
+   "id": "VariableID:5263:372565",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Text/text-primary (900)",
+   "nameNote": "",
+   "neededByPilot": true,
+   "pilotBindings": {
+    "Alert": 4,
+    "Input field": 40,
+    "_Modal header": 1
+   },
+   "proposed": "color/text/primary",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Avatar",
+     48
+    ],
+    [
+     "Input field",
+     40
+    ],
+    [
+     "Select",
+     15
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/50",
+    "Light mode": "→ Colors/Gray (light mode)/950"
+   },
+   "why": "bound in a pilot component"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Base/black"
+   ],
+   "bindings": 20,
+   "class": "Requires design decision",
+   "components": 1,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Text",
+   "id": "VariableID:17488:32591",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Text/text-primary_on-brandsecondary",
+   "nameNote": "run-together `on-brand…` word: split needs a naming decision",
+   "neededByPilot": true,
+   "pilotBindings": {
+    "Buttons/Button": 20
+   },
+   "proposed": "color/text/primary-on-brandsecondary",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Buttons/Button",
+     20
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Base/black",
+    "Light mode": "→ Colors/Base/black"
+   },
+   "why": "run-together `on-brand…` word: split needs a naming decision"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Base/black"
+   ],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Text",
+   "id": "VariableID:17488:32592",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Text/text-primary_on-brandtertiary",
+   "nameNote": "run-together `on-brand…` word: split needs a naming decision",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/text/primary-on-brandtertiary",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Base/black",
+    "Light mode": "→ Colors/Base/black"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Gray (dark mode)/400",
+    "Colors/Gray (light mode)/500"
+   ],
+   "bindings": 76,
+   "class": "Required canonical token",
+   "components": 9,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Text",
+   "id": "VariableID:5674:411615",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Text/text-quaternary (500)",
+   "nameNote": "",
+   "neededByPilot": true,
+   "pilotBindings": {
+    "Input field": 40
+   },
+   "proposed": "color/text/quaternary",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Input field",
+     40
+    ],
+    [
+     "Select",
+     21
+    ],
+    [
+     "_Tab button base",
+     4
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/400",
+    "Light mode": "→ Colors/Gray (light mode)/500"
+   },
+   "why": "bound in a pilot component"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Brand/300",
+    "Colors/Gray (dark mode)/400"
+   ],
+   "bindings": 1,
+   "class": "Legacy but still used",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Text",
+   "id": "VariableID:6179:410199",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Text/text-quaternary_on-brand",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/text/quaternary-on-brand",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Design system header",
+     1
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/400",
+    "Light mode": "→ Colors/Brand/300"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Gray (dark mode)/300",
+    "Colors/Gray (light mode)/700"
+   ],
+   "bindings": 219,
+   "class": "Required canonical token",
+   "components": 18,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Text",
+   "id": "VariableID:5340:371764",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Text/text-secondary (700)",
+   "nameNote": "",
+   "neededByPilot": true,
+   "pilotBindings": {
+    "Alert": 4,
+    "Input field": 13
+   },
+   "proposed": "color/text/secondary",
+   "risk": "high",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Radio group item",
+     96
+    ],
+    [
+     "Radio / Checkbox",
+     32
+    ],
+    [
+     "Progress bar",
+     22
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/300",
+    "Light mode": "→ Colors/Gray (light mode)/700"
+   },
+   "why": "bound in a pilot component"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Gray (dark mode)/200",
+    "Colors/Gray (light mode)/800"
+   ],
+   "bindings": 37,
+   "class": "Legacy but still used",
+   "components": 7,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Text",
+   "id": "VariableID:5353:380353",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Text/text-secondary_hover",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/text/secondary-hover",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "_Button group base",
+     12
+    ],
+    [
+     "Social button",
+     7
+    ],
+    [
+     "_Date picker list item",
+     4
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/200",
+    "Light mode": "→ Colors/Gray (light mode)/800"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Brand/200",
+    "Colors/Gray (dark mode)/300"
+   ],
+   "bindings": 1,
+   "class": "Legacy but still used",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Text",
+   "id": "VariableID:6139:331957",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Text/text-secondary_on-brand",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/text/secondary-on-brand",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Flow heading",
+     1
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/300",
+    "Light mode": "→ Colors/Brand/200"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Gray (dark mode)/400",
+    "Colors/Gray (light mode)/600"
+   ],
+   "bindings": 258,
+   "class": "Required canonical token",
+   "components": 14,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Text",
+   "id": "VariableID:5263:372566",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Text/text-tertiary (600)",
+   "nameNote": "",
+   "neededByPilot": true,
+   "pilotBindings": {
+    "_Modal header": 1
+   },
+   "proposed": "color/text/tertiary",
+   "risk": "high",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Radio group item",
+     160
+    ],
+    [
+     "Radio / Checkbox",
+     32
+    ],
+    [
+     "Tag",
+     30
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/400",
+    "Light mode": "→ Colors/Gray (light mode)/600"
+   },
+   "why": "bound in a pilot component"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Gray (dark mode)/300",
+    "Colors/Gray (light mode)/700"
+   ],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Text",
+   "id": "VariableID:5353:380355",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Text/text-tertiary_hover",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/text/tertiary-hover",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/300",
+    "Light mode": "→ Colors/Gray (light mode)/700"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Brand/200",
+    "Colors/Gray (dark mode)/400"
+   ],
+   "bindings": 1,
+   "class": "Legacy but still used",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "1. Color modes › Colors/Text",
+   "id": "VariableID:6139:331990",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Text/text-tertiary_on-brand",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/text/tertiary-on-brand",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Flow heading",
+     1
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Gray (dark mode)/400",
+    "Light mode": "→ Colors/Brand/200"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [
+    "Colors/Base/white"
+   ],
+   "bindings": 58,
+   "class": "Existing alias or equivalent",
+   "components": 5,
+   "deterministic": true,
+   "equivalent": [
+    "color.text.primary-on-brand"
+   ],
+   "group": "1. Color modes › Colors/Text",
+   "id": "VariableID:5270:371453",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Text/text-white",
+   "nameNote": "",
+   "neededByPilot": true,
+   "pilotBindings": {
+    "Buttons/Button": 20
+   },
+   "proposed": "color/text/white",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [
+    [
+     "Buttons/Button",
+     20
+    ],
+    [
+     "Buttons/Button destructive",
+     16
+    ],
+    [
+     "Tooltip",
+     14
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Dark mode": "→ Colors/Base/white",
+    "Light mode": "→ Colors/Base/white"
+   },
+   "why": "same value as registry `color.text.primary-on-brand`"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 29,
+   "class": "Requires design decision",
+   "components": 7,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "6. Typography › Font family",
+   "id": "VariableID:7403:16250",
+   "mirrorStyleOnly": false,
+   "name": "Font family/font-family-secondary",
+   "nameNote": "no Tailwind family slot for a secondary/display font (e.g. `font/family/display`?)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "font/family/secondary",
+   "risk": "high",
+   "styleEx": [
+    "text: Display 2xl/Regular",
+    "text: Display 2xl/Medium"
+   ],
+   "styleRefs": 32,
+   "topComponents": [
+    [
+     "_Mega input field base",
+     12
+    ],
+    [
+     "Progress circle",
+     4
+    ],
+    [
+     "_Type scale base",
+     4
+    ]
+   ],
+   "type": "STRING",
+   "values": {
+    "Value": "Space Grotesk"
+   },
+   "why": "no Tailwind family slot for a secondary/display font (e.g. `font/family/display`?)"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 2,
+   "class": "Legacy but still used",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "6. Typography › Font size",
+   "id": "VariableID:7407:110373",
+   "mirrorStyleOnly": false,
+   "name": "Font size/display-2xl",
+   "nameNote": "72px = Tailwind `7xl` (name by value)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "font/size/7xl",
+   "risk": "medium",
+   "styleEx": [
+    "text: Display 2xl/Regular",
+    "text: Display 2xl/Medium"
+   ],
+   "styleRefs": 4,
+   "topComponents": [
+    [
+     "Design system header",
+     2
+    ]
+   ],
+   "type": "FLOAT",
+   "values": {
+    "Value": 72
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 2,
+   "class": "Legacy but still used",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "6. Typography › Font size",
+   "id": "VariableID:7407:110371",
+   "mirrorStyleOnly": false,
+   "name": "Font size/display-lg",
+   "nameNote": "48px = Tailwind `5xl` (name by value)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "font/size/5xl",
+   "risk": "medium",
+   "styleEx": [
+    "text: Display lg/Regular",
+    "text: Display lg/Medium"
+   ],
+   "styleRefs": 4,
+   "topComponents": [
+    [
+     "Progress circle",
+     2
+    ]
+   ],
+   "type": "FLOAT",
+   "values": {
+    "Value": 48
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 12,
+   "class": "Legacy but still used",
+   "components": 3,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "6. Typography › Font size",
+   "id": "VariableID:7407:110370",
+   "mirrorStyleOnly": false,
+   "name": "Font size/display-md",
+   "nameNote": "36px = Tailwind `4xl` (name by value)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "font/size/4xl",
+   "risk": "medium",
+   "styleEx": [
+    "text: Display md/Regular",
+    "text: Display md/Medium"
+   ],
+   "styleRefs": 4,
+   "topComponents": [
+    [
+     "_Mega input field base",
+     8
+    ],
+    [
+     "Flow heading",
+     2
+    ],
+    [
+     "Progress circle",
+     2
+    ]
+   ],
+   "type": "FLOAT",
+   "values": {
+    "Value": 36
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 20,
+   "class": "Legacy but still used",
+   "components": 3,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "6. Typography › Font size",
+   "id": "VariableID:7407:110369",
+   "mirrorStyleOnly": false,
+   "name": "Font size/display-sm",
+   "nameNote": "30px = Tailwind `3xl` (name by value)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "font/size/3xl",
+   "risk": "medium",
+   "styleEx": [
+    "text: Display sm/Regular",
+    "text: Display sm/Medium"
+   ],
+   "styleRefs": 8,
+   "topComponents": [
+    [
+     "_Mega input field base",
+     16
+    ],
+    [
+     "Designer area",
+     2
+    ],
+    [
+     "Progress circle",
+     2
+    ]
+   ],
+   "type": "FLOAT",
+   "values": {
+    "Value": 30
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 10,
+   "class": "Legacy but still used",
+   "components": 2,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "6. Typography › Font size",
+   "id": "VariableID:7407:110372",
+   "mirrorStyleOnly": false,
+   "name": "Font size/display-xl",
+   "nameNote": "60px = Tailwind `6xl` (name by value)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "font/size/6xl",
+   "risk": "medium",
+   "styleEx": [
+    "text: Display xl/Regular",
+    "text: Display xl/Medium"
+   ],
+   "styleRefs": 4,
+   "topComponents": [
+    [
+     "_Type scale base",
+     8
+    ],
+    [
+     "Flow heading",
+     2
+    ]
+   ],
+   "type": "FLOAT",
+   "values": {
+    "Value": 60
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Requires design decision",
+   "components": 0,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "6. Typography › Font size",
+   "id": "VariableID:21490:3737",
+   "mirrorStyleOnly": false,
+   "name": "Font size/display-xs",
+   "nameNote": "28px has no Tailwind size name",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "font/size/display-xs",
+   "risk": "medium",
+   "styleEx": [
+    "text: Text xxl/Regular",
+    "text: Text xxl/Medium"
+   ],
+   "styleRefs": 4,
+   "topComponents": [],
+   "type": "FLOAT",
+   "values": {
+    "Value": 28
+   },
+   "why": "28px has no Tailwind size name"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 7,
+   "class": "Legacy but still used",
+   "components": 3,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "6. Typography › Font size",
+   "id": "VariableID:7407:110368",
+   "mirrorStyleOnly": false,
+   "name": "Font size/display-xxs",
+   "nameNote": "24px = Tailwind `2xl` (name by value)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "font/size/2xl",
+   "risk": "medium",
+   "styleEx": [
+    "text: Display xxs/Regular",
+    "text: Display xxs/Medium"
+   ],
+   "styleRefs": 4,
+   "topComponents": [
+    [
+     "Buttons/Button action",
+     3
+    ],
+    [
+     "Buttons/Button navigation",
+     3
+    ],
+    [
+     "Progress circle",
+     1
+    ]
+   ],
+   "type": "FLOAT",
+   "values": {
+    "Value": 24
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 46,
+   "class": "Legacy but still used",
+   "components": 9,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "6. Typography › Font size",
+   "id": "VariableID:7407:110366",
+   "mirrorStyleOnly": false,
+   "name": "Font size/text-lg",
+   "nameNote": "18px = Tailwind `lg` (name by value)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "font/size/lg",
+   "risk": "medium",
+   "styleEx": [
+    "text: Display xs/Regular",
+    "text: Display xs/Medium"
+   ],
+   "styleRefs": 8,
+   "topComponents": [
+    [
+     "Avatar",
+     16
+    ],
+    [
+     "Loading indicator",
+     8
+    ],
+    [
+     "DS note",
+     4
+    ]
+   ],
+   "type": "FLOAT",
+   "values": {
+    "Value": 18
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 42,
+   "class": "Legacy but still used",
+   "components": 5,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "6. Typography › Font size",
+   "id": "VariableID:7407:110367",
+   "mirrorStyleOnly": false,
+   "name": "Font size/text-xl",
+   "nameNote": "20px = Tailwind `xl` (name by value)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "font/size/xl",
+   "risk": "medium",
+   "styleEx": [
+    "text: Text xl/Regular",
+    "text: Text xl/Medium"
+   ],
+   "styleRefs": 4,
+   "topComponents": [
+    [
+     "Avatar",
+     32
+    ],
+    [
+     "Flow heading",
+     4
+    ],
+    [
+     "DS note",
+     2
+    ]
+   ],
+   "type": "FLOAT",
+   "values": {
+    "Value": 20
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 157,
+   "class": "Requires design decision",
+   "components": 9,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "6. Typography › Font size",
+   "id": "VariableID:17488:8405",
+   "mirrorStyleOnly": false,
+   "name": "Font size/text-xxs",
+   "nameNote": "10px has no Tailwind size name",
+   "neededByPilot": true,
+   "pilotBindings": {
+    "Buttons/Button": 23,
+    "Input field": 58
+   },
+   "proposed": "font/size/text-xxs",
+   "risk": "medium",
+   "styleEx": [
+    "text: Text xxs/Regular",
+    "text: Text xxs/Medium"
+   ],
+   "styleRefs": 4,
+   "topComponents": [
+    [
+     "Input field",
+     58
+    ],
+    [
+     "Buttons/Button",
+     23
+    ],
+    [
+     "Select",
+     21
+    ]
+   ],
+   "type": "FLOAT",
+   "values": {
+    "Value": 10
+   },
+   "why": "10px has no Tailwind size name"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "6. Typography › Font size",
+   "id": "VariableID:17571:2808",
+   "mirrorStyleOnly": false,
+   "name": "Font size/text-xxxs",
+   "nameNote": "8px has no Tailwind size name",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "font/size/text-xxxs",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "FLOAT",
+   "values": {
+    "Value": 8
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 10,
+   "class": "Required canonical token",
+   "components": 5,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "6. Typography › Font weight",
+   "id": "VariableID:7405:102290",
+   "mirrorStyleOnly": false,
+   "name": "Font weight/bold",
+   "nameNote": "",
+   "neededByPilot": true,
+   "pilotBindings": {
+    "Buttons/Button": 6
+   },
+   "proposed": "font/weight/bold",
+   "risk": "high",
+   "styleEx": [
+    "text: Display 2xl/Bold",
+    "text: Display xl/Bold"
+   ],
+   "styleRefs": 16,
+   "topComponents": [
+    [
+     "Buttons/Button",
+     6
+    ],
+    [
+     "Design system header",
+     1
+    ],
+    [
+     "Designer area",
+     1
+    ]
+   ],
+   "type": "STRING",
+   "values": {
+    "Value": "Bold"
+   },
+   "why": "bound in a pilot component"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "6. Typography › Font weight",
+   "id": "VariableID:7405:102291",
+   "mirrorStyleOnly": false,
+   "name": "Font weight/bold-italic",
+   "nameNote": "italic is a style, not a weight, in Tailwind (`italic` utility)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "font/weight/bold-italic",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "STRING",
+   "values": {
+    "Value": "Bold italic"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "6. Typography › Font weight",
+   "id": "VariableID:7405:102286",
+   "mirrorStyleOnly": false,
+   "name": "Font weight/medium-italic",
+   "nameNote": "italic is a style, not a weight, in Tailwind (`italic` utility)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "font/weight/medium-italic",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "STRING",
+   "values": {
+    "Value": "Medium italic"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "6. Typography › Font weight",
+   "id": "VariableID:7405:102284",
+   "mirrorStyleOnly": false,
+   "name": "Font weight/regular-italic",
+   "nameNote": "italic is a style, not a weight, in Tailwind (`italic` utility)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "font/weight/regular-italic",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "STRING",
+   "values": {
+    "Value": "Regular italic"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "6. Typography › Font weight",
+   "id": "VariableID:7405:102288",
+   "mirrorStyleOnly": false,
+   "name": "Font weight/semibold-italic",
+   "nameNote": "italic is a style, not a weight, in Tailwind (`italic` utility)",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "font/weight/semibold-italic",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "STRING",
+   "values": {
+    "Value": "Semibold italic"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 1,
+   "class": "Legacy but still used",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "6. Typography › Line height",
+   "id": "VariableID:7407:110590",
+   "mirrorStyleOnly": false,
+   "name": "Line height/display-2xl",
+   "nameNote": "pairs with font size 72px",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "font/line-height/7xl",
+   "risk": "medium",
+   "styleEx": [
+    "text: Display 2xl/Regular",
+    "text: Display 2xl/Medium"
+   ],
+   "styleRefs": 4,
+   "topComponents": [
+    [
+     "Design system header",
+     1
+    ]
+   ],
+   "type": "FLOAT",
+   "values": {
+    "Value": 90
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 1,
+   "class": "Legacy but still used",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "6. Typography › Line height",
+   "id": "VariableID:7407:110588",
+   "mirrorStyleOnly": false,
+   "name": "Line height/display-lg",
+   "nameNote": "pairs with font size 48px",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "font/line-height/5xl",
+   "risk": "medium",
+   "styleEx": [
+    "text: Display lg/Regular",
+    "text: Display lg/Medium"
+   ],
+   "styleRefs": 4,
+   "topComponents": [
+    [
+     "Progress circle",
+     1
+    ]
+   ],
+   "type": "FLOAT",
+   "values": {
+    "Value": 60
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 6,
+   "class": "Legacy but still used",
+   "components": 3,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "6. Typography › Line height",
+   "id": "VariableID:7407:110587",
+   "mirrorStyleOnly": false,
+   "name": "Line height/display-md",
+   "nameNote": "pairs with font size 36px",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "font/line-height/4xl",
+   "risk": "medium",
+   "styleEx": [
+    "text: Display md/Regular",
+    "text: Display md/Medium"
+   ],
+   "styleRefs": 4,
+   "topComponents": [
+    [
+     "_Mega input field base",
+     4
+    ],
+    [
+     "Flow heading",
+     1
+    ],
+    [
+     "Progress circle",
+     1
+    ]
+   ],
+   "type": "FLOAT",
+   "values": {
+    "Value": 44
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "6. Typography › Line height",
+   "id": "VariableID:7407:110586",
+   "mirrorStyleOnly": false,
+   "name": "Line height/display-sm",
+   "nameNote": "pairs with font size 30px",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "font/line-height/3xl",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "FLOAT",
+   "values": {
+    "Value": 38
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 5,
+   "class": "Legacy but still used",
+   "components": 2,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "6. Typography › Line height",
+   "id": "VariableID:7407:110589",
+   "mirrorStyleOnly": false,
+   "name": "Line height/display-xl",
+   "nameNote": "pairs with font size 60px",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "font/line-height/6xl",
+   "risk": "medium",
+   "styleEx": [
+    "text: Display xl/Regular",
+    "text: Display xl/Medium"
+   ],
+   "styleRefs": 4,
+   "topComponents": [
+    [
+     "_Type scale base",
+     4
+    ],
+    [
+     "Flow heading",
+     1
+    ]
+   ],
+   "type": "FLOAT",
+   "values": {
+    "Value": 72
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 10,
+   "class": "Requires design decision",
+   "components": 3,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "6. Typography › Line height",
+   "id": "VariableID:7407:110585",
+   "mirrorStyleOnly": false,
+   "name": "Line height/display-xs",
+   "nameNote": "paired font size has no Tailwind name",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "font/line-height/display-xs",
+   "risk": "medium",
+   "styleEx": [
+    "text: Display sm/Regular",
+    "text: Display sm/Medium"
+   ],
+   "styleRefs": 8,
+   "topComponents": [
+    [
+     "_Mega input field base",
+     8
+    ],
+    [
+     "Designer area",
+     1
+    ],
+    [
+     "Progress circle",
+     1
+    ]
+   ],
+   "type": "FLOAT",
+   "values": {
+    "Value": 32
+   },
+   "why": "paired font size has no Tailwind name"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "6. Typography › Line height",
+   "id": "VariableID:7407:110583",
+   "mirrorStyleOnly": false,
+   "name": "Line height/text-lg",
+   "nameNote": "pairs with font size 18px",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "font/line-height/lg",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "FLOAT",
+   "values": {
+    "Value": 28
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 21,
+   "class": "Legacy but still used",
+   "components": 5,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "6. Typography › Line height",
+   "id": "VariableID:7407:110584",
+   "mirrorStyleOnly": false,
+   "name": "Line height/text-xl",
+   "nameNote": "pairs with font size 20px",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "font/line-height/xl",
+   "risk": "medium",
+   "styleEx": [
+    "text: Text xxl/Regular",
+    "text: Text xxl/Medium"
+   ],
+   "styleRefs": 8,
+   "topComponents": [
+    [
+     "Avatar",
+     16
+    ],
+    [
+     "Flow heading",
+     2
+    ],
+    [
+     "DS note",
+     1
+    ]
+   ],
+   "type": "FLOAT",
+   "values": {
+    "Value": 30
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 166,
+   "class": "Requires design decision",
+   "components": 12,
+   "deterministic": false,
+   "equivalent": [],
+   "group": "6. Typography › Line height",
+   "id": "VariableID:17488:8409",
+   "mirrorStyleOnly": false,
+   "name": "Line height/text-xxs",
+   "nameNote": "paired font size has no Tailwind name",
+   "neededByPilot": true,
+   "pilotBindings": {
+    "Buttons/Button": 23,
+    "Input field": 58
+   },
+   "proposed": "font/line-height/text-xxs",
+   "risk": "high",
+   "styleEx": [
+    "text: Display xxs/Regular",
+    "text: Display xxs/Medium"
+   ],
+   "styleRefs": 12,
+   "topComponents": [
+    [
+     "Input field",
+     58
+    ],
+    [
+     "Buttons/Button",
+     23
+    ],
+    [
+     "Select",
+     21
+    ]
+   ],
+   "type": "FLOAT",
+   "values": {
+    "Value": 16
+   },
+   "why": "paired font size has no Tailwind name"
+  },
+  {
+   "aliasedBy": 1,
+   "aliasedByEx": [
+    "Component colors/Utility/Brand/utility-brand-25"
+   ],
+   "aliasedByKinds": {
+    "component colour": 1
+   },
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Required canonical token",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Brand",
+   "id": "VariableID:17498:15837",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Brand/25",
+   "nameNote": "",
+   "neededByPilot": true,
+   "pilotBindings": {},
+   "proposed": "color/brand/25",
+   "risk": "medium",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#fafaff"
+   },
+   "why": "alias target of a variable the pilot components use"
+  },
+  {
+   "aliasedBy": 3,
+   "aliasedByEx": [
+    "Component colors/Utility/Brand/utility-brand-100",
+    "Component colors/Utility/Brand/utility-brand-900",
+    "Component colors/Utility/Brand/utility-brand-900_alt"
+   ],
+   "aliasedByKinds": {
+    "component colour": 3
+   },
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Legacy but still used",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Brand",
+   "id": "VariableID:5248:377718",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Brand/900",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/brand/900",
+   "risk": "medium",
+   "styleEx": [
+    "paint: Brand/900"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#020272"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 1,
+   "aliasedByEx": [
+    "Component colors/Utility/Brand/utility-brand-50"
+   ],
+   "aliasedByKinds": {
+    "component colour": 1
+   },
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Legacy but still used",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Brand",
+   "id": "VariableID:5248:377719",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Brand/950",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/brand/950",
+   "risk": "medium",
+   "styleEx": [
+    "paint: Brand/950"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#010151"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Error",
+   "id": "VariableID:5248:377720",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Error/25",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/error/25",
+   "risk": "low",
+   "styleEx": [
+    "paint: Error/25"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#fff5f7"
+   },
+   "why": "no bindings, no aliases, only its mirror paint style"
+  },
+  {
+   "aliasedBy": 2,
+   "aliasedByEx": [
+    "Component colors/Utility/Error/utility-error-700",
+    "Component colors/Utility/Error/utility-error-300"
+   ],
+   "aliasedByKinds": {
+    "component colour": 2
+   },
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Legacy but still used",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Error",
+   "id": "VariableID:5248:377728",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Error/700",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/error/700",
+   "risk": "medium",
+   "styleEx": [
+    "paint: Error/700"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#9d003c"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 1,
+   "aliasedByEx": [
+    "Component colors/Utility/Error/utility-error-200"
+   ],
+   "aliasedByKinds": {
+    "component colour": 1
+   },
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Legacy but still used",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Error",
+   "id": "VariableID:5248:377729",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Error/800",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/error/800",
+   "risk": "medium",
+   "styleEx": [
+    "paint: Error/800"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#6f0028"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 1,
+   "aliasedByEx": [
+    "Component colors/Utility/Error/utility-error-100"
+   ],
+   "aliasedByKinds": {
+    "component colour": 1
+   },
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Legacy but still used",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Error",
+   "id": "VariableID:5248:377730",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Error/900",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/error/900",
+   "risk": "medium",
+   "styleEx": [
+    "paint: Error/900"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#430016"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 1,
+   "aliasedByEx": [
+    "Component colors/Utility/Error/utility-error-50"
+   ],
+   "aliasedByKinds": {
+    "component colour": 1
+   },
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Legacy but still used",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Error",
+   "id": "VariableID:5248:377731",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Error/950",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/error/950",
+   "risk": "medium",
+   "styleEx": [
+    "paint: Error/950"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#2b000b"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 2,
+   "aliasedByEx": [
+    "Component colors/Utility/Gray/utility-gray-900",
+    "Component colors/Components/Footers/footer-button-fg_hover"
+   ],
+   "aliasedByKinds": {
+    "component colour": 2
+   },
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Legacy but still used",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Gray (dark mode)",
+   "id": "VariableID:6671:87755",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Gray (dark mode)/100",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/gray-dark/100",
+   "risk": "medium",
+   "styleEx": [
+    "paint: Gray (dark mode)/100"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#f0f0f1"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Existing alias or equivalent",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [
+    "color.gray.50"
+   ],
+   "group": "_Primitives › Colors/Gray (dark mode)",
+   "id": "VariableID:6670:87753",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Gray (dark mode)/25",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/gray-dark/25",
+   "risk": "low",
+   "styleEx": [
+    "paint: Gray (dark mode)/25"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#fafafa"
+   },
+   "why": "same value as registry `color.gray.50`"
+  },
+  {
+   "aliasedBy": 1,
+   "aliasedByEx": [
+    "Component colors/Alpha/alpha-white-100"
+   ],
+   "aliasedByKinds": {
+    "component colour": 1
+   },
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Legacy but still used",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Gray (dark mode)",
+   "id": "VariableID:6671:87764",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Gray (dark mode)/950",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/gray-dark/950",
+   "risk": "medium",
+   "styleEx": [
+    "paint: Gray (dark mode)/950"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#0c0e12"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 2,
+   "aliasedByEx": [
+    "Component colors/Utility/Gray/utility-gray-900",
+    "Component colors/Components/Mockups/screen-mockup-border"
+   ],
+   "aliasedByKinds": {
+    "component colour": 2
+   },
+   "aliasesOut": [],
+   "bindings": 1,
+   "class": "Legacy but still used",
+   "components": 1,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Gray (light mode)",
+   "id": "VariableID:5248:377706",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Gray (light mode)/900",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/gray/900",
+   "risk": "medium",
+   "styleEx": [
+    "paint: Gray (light mode)/900"
+   ],
+   "styleRefs": 1,
+   "topComponents": [
+    [
+     "_Swatch base",
+     1
+    ]
+   ],
+   "type": "COLOR",
+   "values": {
+    "Style": "#181d27"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Gray iron",
+   "id": "VariableID:5248:377808",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Gray iron/100",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/gray-iron/100",
+   "risk": "low",
+   "styleEx": [
+    "paint: Gray iron/100"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#f4f4f5"
+   },
+   "why": "no bindings, no aliases, only its mirror paint style"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Gray iron",
+   "id": "VariableID:5248:377809",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Gray iron/200",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/gray-iron/200",
+   "risk": "low",
+   "styleEx": [
+    "paint: Gray iron/200"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#e4e4e7"
+   },
+   "why": "no bindings, no aliases, only its mirror paint style"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Gray iron",
+   "id": "VariableID:5248:377803",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Gray iron/25",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/gray-iron/25",
+   "risk": "low",
+   "styleEx": [
+    "paint: Gray iron/25"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#fcfcfc"
+   },
+   "why": "no bindings, no aliases, only its mirror paint style"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Gray iron",
+   "id": "VariableID:5248:377810",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Gray iron/300",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/gray-iron/300",
+   "risk": "low",
+   "styleEx": [
+    "paint: Gray iron/300"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#d1d1d6"
+   },
+   "why": "no bindings, no aliases, only its mirror paint style"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Gray iron",
+   "id": "VariableID:5248:377811",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Gray iron/400",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/gray-iron/400",
+   "risk": "low",
+   "styleEx": [
+    "paint: Gray iron/400"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#a0a0ab"
+   },
+   "why": "no bindings, no aliases, only its mirror paint style"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Existing alias or equivalent",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [
+    "color.gray.50"
+   ],
+   "group": "_Primitives › Colors/Gray iron",
+   "id": "VariableID:5248:377806",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Gray iron/50",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/gray-iron/50",
+   "risk": "low",
+   "styleEx": [
+    "paint: Gray iron/50"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#fafafa"
+   },
+   "why": "same value as registry `color.gray.50`"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Gray iron",
+   "id": "VariableID:5248:377812",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Gray iron/500",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/gray-iron/500",
+   "risk": "low",
+   "styleEx": [
+    "paint: Gray iron/500"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#70707b"
+   },
+   "why": "no bindings, no aliases, only its mirror paint style"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Gray iron",
+   "id": "VariableID:5248:377813",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Gray iron/600",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/gray-iron/600",
+   "risk": "low",
+   "styleEx": [
+    "paint: Gray iron/600"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#51525c"
+   },
+   "why": "no bindings, no aliases, only its mirror paint style"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Gray iron",
+   "id": "VariableID:5248:377814",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Gray iron/700",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/gray-iron/700",
+   "risk": "low",
+   "styleEx": [
+    "paint: Gray iron/700"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#3f3f46"
+   },
+   "why": "no bindings, no aliases, only its mirror paint style"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Gray iron",
+   "id": "VariableID:5248:377815",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Gray iron/800",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/gray-iron/800",
+   "risk": "low",
+   "styleEx": [
+    "paint: Gray iron/800"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#26272b"
+   },
+   "why": "no bindings, no aliases, only its mirror paint style"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Gray iron",
+   "id": "VariableID:5248:377816",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Gray iron/900",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/gray-iron/900",
+   "risk": "low",
+   "styleEx": [
+    "paint: Gray iron/900"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#1a1a1e"
+   },
+   "why": "no bindings, no aliases, only its mirror paint style"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Gray modern",
+   "id": "VariableID:5248:377781",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Gray modern/100",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/gray-modern/100",
+   "risk": "low",
+   "styleEx": [
+    "paint: Gray modern/100"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#eef2f6"
+   },
+   "why": "no bindings, no aliases, only its mirror paint style"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Gray modern",
+   "id": "VariableID:5248:377782",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Gray modern/200",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/gray-modern/200",
+   "risk": "low",
+   "styleEx": [
+    "paint: Gray modern/200"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#e3e8ef"
+   },
+   "why": "no bindings, no aliases, only its mirror paint style"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Gray modern",
+   "id": "VariableID:5248:377784",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Gray modern/400",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/gray-modern/400",
+   "risk": "low",
+   "styleEx": [
+    "paint: Gray modern/400"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#9aa4b2"
+   },
+   "why": "no bindings, no aliases, only its mirror paint style"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Gray modern",
+   "id": "VariableID:5248:377780",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Gray modern/50",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/gray-modern/50",
+   "risk": "low",
+   "styleEx": [
+    "paint: Gray modern/50"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#f8fafc"
+   },
+   "why": "no bindings, no aliases, only its mirror paint style"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Gray modern",
+   "id": "VariableID:5248:377785",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Gray modern/500",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/gray-modern/500",
+   "risk": "low",
+   "styleEx": [
+    "paint: Gray modern/500"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#697586"
+   },
+   "why": "no bindings, no aliases, only its mirror paint style"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Gray modern",
+   "id": "VariableID:5248:377786",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Gray modern/600",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/gray-modern/600",
+   "risk": "low",
+   "styleEx": [
+    "paint: Gray modern/600"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#4b5565"
+   },
+   "why": "no bindings, no aliases, only its mirror paint style"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Gray modern",
+   "id": "VariableID:5248:377787",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Gray modern/700",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/gray-modern/700",
+   "risk": "low",
+   "styleEx": [
+    "paint: Gray modern/700"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#364152"
+   },
+   "why": "no bindings, no aliases, only its mirror paint style"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Gray modern",
+   "id": "VariableID:5248:377789",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Gray modern/900",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/gray-modern/900",
+   "risk": "low",
+   "styleEx": [
+    "paint: Gray modern/900"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#121926"
+   },
+   "why": "no bindings, no aliases, only its mirror paint style"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Gray modern",
+   "id": "VariableID:5248:378675",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Gray modern/950",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/gray-modern/950",
+   "risk": "low",
+   "styleEx": [
+    "paint: Gray modern/950"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#0d121c"
+   },
+   "why": "no bindings, no aliases, only its mirror paint style"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Green lime",
+   "id": "VariableID:17489:6177",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Green lime/100",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/green-lime/100",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#f8ffeb"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Green lime",
+   "id": "VariableID:17489:6179",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Green lime/300",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/green-lime/300",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#e1ff9d"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Green lime",
+   "id": "VariableID:17489:6176",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Green lime/50",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/green-lime/50",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#f9ffef"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Green lime",
+   "id": "VariableID:17489:6182",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Green lime/600",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/green-lime/600",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#a1c700"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Green lime",
+   "id": "VariableID:17489:6183",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Green lime/700",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/green-lime/700",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#759100"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Green lime",
+   "id": "VariableID:17489:6184",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Green lime/800",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/green-lime/800",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#4d6100"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Green lime",
+   "id": "VariableID:17489:6185",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Green lime/900",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/green-lime/900",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#273200"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Green lime",
+   "id": "VariableID:17489:6186",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Green lime/950",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/green-lime/950",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#151c00"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Magenta",
+   "id": "VariableID:17490:5437",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Magenta/100",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/magenta/100",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#fcf4ff"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Magenta",
+   "id": "VariableID:17490:5438",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Magenta/200",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/magenta/200",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#f8e5ff"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Magenta",
+   "id": "VariableID:17490:5439",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Magenta/300",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/magenta/300",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#f5d9ff"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Magenta",
+   "id": "VariableID:17490:5436",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Magenta/50",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/magenta/50",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#fdf7ff"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Magenta",
+   "id": "VariableID:17490:5442",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Magenta/600",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/magenta/600",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#e371ff"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Magenta",
+   "id": "VariableID:17490:5443",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Magenta/700",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/magenta/700",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#ca00e9"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Magenta",
+   "id": "VariableID:17490:5444",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Magenta/800",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/magenta/800",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#87009c"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Magenta",
+   "id": "VariableID:17490:5445",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Magenta/900",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/magenta/900",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#4d005a"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Magenta",
+   "id": "VariableID:17490:5446",
+   "mirrorStyleOnly": false,
+   "name": "Colors/Magenta/950",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/magenta/950",
+   "risk": "low",
+   "styleEx": [],
+   "styleRefs": 0,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#2f0038"
+   },
+   "why": "no bindings, no aliases"
+  },
+  {
+   "aliasedBy": 2,
+   "aliasedByEx": [
+    "Component colors/Utility/Success/utility-success-200",
+    "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-success"
+   ],
+   "aliasedByKinds": {
+    "component colour": 2
+   },
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Legacy but still used",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Success",
+   "id": "VariableID:5248:377749",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Success/200",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/success/200",
+   "risk": "medium",
+   "styleEx": [
+    "paint: Success/200"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#abefc6"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Success",
+   "id": "VariableID:5248:377745",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Success/25",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/success/25",
+   "risk": "low",
+   "styleEx": [
+    "paint: Success/25"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#f6fef9"
+   },
+   "why": "no bindings, no aliases, only its mirror paint style"
+  },
+  {
+   "aliasedBy": 2,
+   "aliasedByEx": [
+    "Component colors/Utility/Success/utility-success-700",
+    "Component colors/Utility/Success/utility-success-300"
+   ],
+   "aliasedByKinds": {
+    "component colour": 2
+   },
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Legacy but still used",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Success",
+   "id": "VariableID:5248:377750",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Success/300",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/success/300",
+   "risk": "medium",
+   "styleEx": [
+    "paint: Success/300"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#75e0a7"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 1,
+   "aliasedByEx": [
+    "Component colors/Utility/Success/utility-success-200"
+   ],
+   "aliasedByKinds": {
+    "component colour": 1
+   },
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Legacy but still used",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Success",
+   "id": "VariableID:5248:377755",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Success/800",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/success/800",
+   "risk": "medium",
+   "styleEx": [
+    "paint: Success/800"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#085d3a"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 1,
+   "aliasedByEx": [
+    "Component colors/Utility/Success/utility-success-100"
+   ],
+   "aliasedByKinds": {
+    "component colour": 1
+   },
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Legacy but still used",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Success",
+   "id": "VariableID:5248:377756",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Success/900",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/success/900",
+   "risk": "medium",
+   "styleEx": [
+    "paint: Success/900"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#074d31"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 2,
+   "aliasedByEx": [
+    "Component colors/Utility/Warning/utility-warning-200",
+    "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-warning"
+   ],
+   "aliasedByKinds": {
+    "component colour": 2
+   },
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Legacy but still used",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Warning",
+   "id": "VariableID:5248:377735",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Warning/200",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/warning/200",
+   "risk": "medium",
+   "styleEx": [
+    "paint: Warning/200"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#fedf89"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 0,
+   "aliasedByEx": [],
+   "aliasedByKinds": {},
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Unused or intentionally excluded",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Warning",
+   "id": "VariableID:5248:377732",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Warning/25",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/warning/25",
+   "risk": "low",
+   "styleEx": [
+    "paint: Warning/25"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#fffcf5"
+   },
+   "why": "no bindings, no aliases, only its mirror paint style"
+  },
+  {
+   "aliasedBy": 2,
+   "aliasedByEx": [
+    "Component colors/Utility/Warning/utility-warning-700",
+    "Component colors/Utility/Warning/utility-warning-300"
+   ],
+   "aliasedByKinds": {
+    "component colour": 2
+   },
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Legacy but still used",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Warning",
+   "id": "VariableID:5248:377736",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Warning/300",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/warning/300",
+   "risk": "medium",
+   "styleEx": [
+    "paint: Warning/300"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#fec84b"
+   },
+   "why": "used outside the pilot components"
+  },
+  {
+   "aliasedBy": 1,
+   "aliasedByEx": [
+    "Component colors/Utility/Warning/utility-warning-50"
+   ],
+   "aliasedByKinds": {
+    "component colour": 1
+   },
+   "aliasesOut": [],
+   "bindings": 0,
+   "class": "Legacy but still used",
+   "components": 0,
+   "deterministic": true,
+   "equivalent": [],
+   "group": "_Primitives › Colors/Warning",
+   "id": "VariableID:5248:377743",
+   "mirrorStyleOnly": true,
+   "name": "Colors/Warning/950",
+   "nameNote": "",
+   "neededByPilot": false,
+   "pilotBindings": {},
+   "proposed": "color/warning/950",
+   "risk": "medium",
+   "styleEx": [
+    "paint: Warning/950"
+   ],
+   "styleRefs": 1,
+   "topComponents": [],
+   "type": "COLOR",
+   "values": {
+    "Style": "#4e1d09"
+   },
+   "why": "used outside the pilot components"
+  }
+ ],
+ "summary": [
+  {
+   "bindings": 1340,
+   "classes": {
+    "Legacy but still used": 19,
+    "Required canonical token": 6,
+    "Unused or intentionally excluded": 15
+   },
+   "figmaOnly": 40,
+   "group": "1. Color modes › Colors/Background",
+   "registryBacked": 2,
+   "styleRefs": 10
+  },
+  {
+   "bindings": 546,
+   "classes": {
+    "Legacy but still used": 3,
+    "Required canonical token": 4,
+    "Unused or intentionally excluded": 3
+   },
+   "figmaOnly": 10,
+   "group": "1. Color modes › Colors/Border",
+   "registryBacked": 2,
+   "styleRefs": 0
+  },
+  {
+   "bindings": 504,
+   "classes": {
+    "Legacy but still used": 2,
+    "Required canonical token": 1,
+    "Requires design decision": 17
+   },
+   "figmaOnly": 20,
+   "group": "1. Color modes › Colors/Effects",
+   "registryBacked": 1,
+   "styleRefs": 31
+  },
+  {
+   "bindings": 908,
+   "classes": {
+    "Existing alias or equivalent": 1,
+    "Legacy but still used": 7,
+    "Required canonical token": 7,
+    "Requires design decision": 1,
+    "Unused or intentionally excluded": 5
+   },
+   "figmaOnly": 21,
+   "group": "1. Color modes › Colors/Text",
+   "registryBacked": 6,
+   "styleRefs": 0
+  },
+  {
+   "bindings": 29,
+   "classes": {
+    "Requires design decision": 1
+   },
+   "figmaOnly": 1,
+   "group": "6. Typography › Font family",
+   "registryBacked": 1,
+   "styleRefs": 32
+  },
+  {
+   "bindings": 298,
+   "classes": {
+    "Legacy but still used": 8,
+    "Requires design decision": 2,
+    "Unused or intentionally excluded": 1
+   },
+   "figmaOnly": 11,
+   "group": "6. Typography › Font size",
+   "registryBacked": 3,
+   "styleRefs": 48
+  },
+  {
+   "bindings": 10,
+   "classes": {
+    "Required canonical token": 1,
+    "Unused or intentionally excluded": 4
+   },
+   "figmaOnly": 5,
+   "group": "6. Typography › Font weight",
+   "registryBacked": 3,
+   "styleRefs": 16
+  },
+  {
+   "bindings": 210,
+   "classes": {
+    "Legacy but still used": 5,
+    "Requires design decision": 2,
+    "Unused or intentionally excluded": 2
+   },
+   "figmaOnly": 9,
+   "group": "6. Typography › Line height",
+   "registryBacked": 3,
+   "styleRefs": 44
+  },
+  {
+   "bindings": 0,
+   "classes": {
+    "Legacy but still used": 2,
+    "Required canonical token": 1
+   },
+   "figmaOnly": 3,
+   "group": "_Primitives › Colors/Brand",
+   "registryBacked": 9,
+   "styleRefs": 2
+  },
+  {
+   "bindings": 0,
+   "classes": {
+    "Legacy but still used": 4,
+    "Unused or intentionally excluded": 1
+   },
+   "figmaOnly": 5,
+   "group": "_Primitives › Colors/Error",
+   "registryBacked": 7,
+   "styleRefs": 5
+  },
+  {
+   "bindings": 0,
+   "classes": {
+    "Existing alias or equivalent": 1,
+    "Legacy but still used": 2
+   },
+   "figmaOnly": 3,
+   "group": "_Primitives › Colors/Gray (dark mode)",
+   "registryBacked": 9,
+   "styleRefs": 3
+  },
+  {
+   "bindings": 1,
+   "classes": {
+    "Legacy but still used": 1
+   },
+   "figmaOnly": 1,
+   "group": "_Primitives › Colors/Gray (light mode)",
+   "registryBacked": 12,
+   "styleRefs": 1
+  },
+  {
+   "bindings": 0,
+   "classes": {
+    "Existing alias or equivalent": 1,
+    "Unused or intentionally excluded": 10
+   },
+   "figmaOnly": 11,
+   "group": "_Primitives › Colors/Gray iron",
+   "registryBacked": 1,
+   "styleRefs": 11
+  },
+  {
+   "bindings": 0,
+   "classes": {
+    "Unused or intentionally excluded": 9
+   },
+   "figmaOnly": 9,
+   "group": "_Primitives › Colors/Gray modern",
+   "registryBacked": 3,
+   "styleRefs": 9
+  },
+  {
+   "bindings": 0,
+   "classes": {
+    "Unused or intentionally excluded": 8
+   },
+   "figmaOnly": 8,
+   "group": "_Primitives › Colors/Green lime",
+   "registryBacked": 3,
+   "styleRefs": 0
+  },
+  {
+   "bindings": 0,
+   "classes": {
+    "Unused or intentionally excluded": 9
+   },
+   "figmaOnly": 9,
+   "group": "_Primitives › Colors/Magenta",
+   "registryBacked": 2,
+   "styleRefs": 0
+  },
+  {
+   "bindings": 0,
+   "classes": {
+    "Legacy but still used": 4,
+    "Unused or intentionally excluded": 1
+   },
+   "figmaOnly": 5,
+   "group": "_Primitives › Colors/Success",
+   "registryBacked": 7,
+   "styleRefs": 5
+  },
+  {
+   "bindings": 0,
+   "classes": {
+    "Legacy but still used": 3,
+    "Unused or intentionally excluded": 1
+   },
+   "figmaOnly": 4,
+   "group": "_Primitives › Colors/Warning",
+   "registryBacked": 8,
+   "styleRefs": 4
+  }
+ ]
+}

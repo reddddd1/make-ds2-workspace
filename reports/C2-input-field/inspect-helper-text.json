@@ -1,0 +1,162 @@
+{
+ "helperInInputVariants": {
+  "Size=md, Status=Error | \"{Error}\"": 21,
+  "Size=md, Status=Informative default | \"{Support text}\"": 32
+ },
+ "helperVariants": [
+  [
+   "Size=lg, Status=Informative default",
+   [
+    "Text=\"{Support text}\""
+   ],
+   [
+    "Icon wrapper",
+    "info"
+   ]
+  ],
+  [
+   "Size=lg, Status=Informative subtle",
+   [
+    "Text=\"{Support text}\""
+   ],
+   [
+    "Icon wrapper",
+    "info"
+   ]
+  ],
+  [
+   "Size=lg, Status=Success",
+   [
+    "Text=\"{Support text}\""
+   ],
+   [
+    "Icon wrapper",
+    "check"
+   ]
+  ],
+  [
+   "Size=lg, Status=Error",
+   [
+    "Text=\"{Support text}\""
+   ],
+   [
+    "Icon wrapper",
+    "circle-alert"
+   ]
+  ],
+  [
+   "Size=lg, Status=Alert",
+   [
+    "Text=\"{Support text}\""
+   ],
+   [
+    "Icon wrapper",
+    "circle-alert"
+   ]
+  ],
+  [
+   "Size=md, Status=Informative default",
+   [
+    "Text=\"{Support text}\""
+   ],
+   [
+    "Icon wrapper",
+    "info"
+   ]
+  ],
+  [
+   "Size=md, Status=Informative subtle",
+   [
+    "Text=\"{Support text}\""
+   ],
+   [
+    "Icon wrapper",
+    "info"
+   ]
+  ],
+  [
+   "Size=md, Status=Success",
+   [
+    "Text=\"{Support text}\""
+   ],
+   [
+    "Icon wrapper",
+    "check"
+   ]
+  ],
+  [
+   "Size=md, Status=Error",
+   [
+    "Text=\"{Support text}\""
+   ],
+   [
+    "Icon wrapper",
+    "circle-alert"
+   ]
+  ],
+  [
+   "Size=md, Status=Alert",
+   [
+    "Text=\"{Support text}\""
+   ],
+   [
+    "Icon wrapper",
+    "circle-alert"
+   ]
+  ],
+  [
+   "Size=sm, Status=Informative default",
+   [
+    "Text=\"{Support text}\""
+   ],
+   [
+    "Icon wrapper",
+    "info"
+   ]
+  ],
+  [
+   "Size=sm, Status=Informative subtle",
+   [
+    "Text=\"{Support text}\""
+   ],
+   [
+    "Icon wrapper",
+    "info"
+   ]
+  ],
+  [
+   "Size=sm, Status=Success",
+   [
+    "Text=\"{Support text}\""
+   ],
+   [
+    "Icon wrapper",
+    "check"
+   ]
+  ],
+  [
+   "Size=sm, Status=Error",
+   [
+    "Text=\"{Support text}\""
+   ],
+   [
+    "Icon wrapper",
+    "circle-alert"
+   ]
+  ],
+  [
+   "Size=sm, Status=Alert",
+   [
+    "Text=\"{Support text}\""
+   ],
+   [
+    "Icon wrapper",
+    "circle-alert"
+   ]
+  ]
+ ],
+ "inputInstances": {
+  "helper hidden | value \"Jan 10, 2025\"": 17,
+  "helper hidden | value \"Jan 16, 2025\"": 9
+ }
+}

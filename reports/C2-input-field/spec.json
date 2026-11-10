@@ -1,0 +1,4 @@
+{
+ "sets": {"Input field": {"scope": {}}, "Helper text": {"scope": {}}},
+ "allowPropDefsChange": ["Input field", "Helper text"]
+}

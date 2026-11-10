@@ -1,0 +1,2434 @@
+{
+ "check": "variables",
+ "collections": [
+  {
+   "count": 127,
+   "id": "VariableCollectionId:5256:372339",
+   "modes": [
+    "Light mode",
+    "Dark mode"
+   ],
+   "name": "1. Color modes",
+   "variables": [
+    {
+     "id": "VariableID:5400:398248",
+     "name": "Component colors/Utility/Gray/utility-gray-50",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87763",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/900"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377696",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/50"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5409:398263",
+     "name": "Component colors/Utility/Gray/utility-gray-100",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87762",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/800"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377698",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/100"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398233",
+     "name": "Component colors/Utility/Gray/utility-gray-200",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87761",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/700"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377699",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/200"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6060:442843",
+     "name": "Component colors/Utility/Gray/utility-gray-300",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87761",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/700"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377700",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/300"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5409:398424",
+     "name": "Component colors/Utility/Gray/utility-gray-400",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87760",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377701",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398203",
+     "name": "Component colors/Utility/Gray/utility-gray-500",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87759",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377702",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398183",
+     "name": "Component colors/Utility/Gray/utility-gray-600",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87758",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377703",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5399:389133",
+     "name": "Component colors/Utility/Gray/utility-gray-700",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87757",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377704",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/700"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6124:61598",
+     "name": "Component colors/Utility/Gray/utility-gray-800",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87756",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/200"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377705",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/800"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6123:195663",
+     "name": "Component colors/Utility/Gray/utility-gray-900",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87755",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/100"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377706",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/900"
+      }
+     }
+    },
+    {
+     "id": "VariableID:17498:15836",
+     "name": "Component colors/Utility/Brand/utility-brand-25",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87763",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/900"
+      },
+      "Light mode": {
+       "alias": "VariableID:17498:15837",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/25"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398249",
+     "name": "Component colors/Utility/Brand/utility-brand-50",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377719",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/950"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377709",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/50"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6049:416908",
+     "name": "Component colors/Utility/Brand/utility-brand-50_alt",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5400:398248",
+       "collection": "1. Color modes",
+       "name": "Component colors/Utility/Gray/utility-gray-50"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377709",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/50"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5409:398264",
+     "name": "Component colors/Utility/Brand/utility-brand-100",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377718",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/900"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377710",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/100"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6049:416909",
+     "name": "Component colors/Utility/Brand/utility-brand-100_alt",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5409:398263",
+       "collection": "1. Color modes",
+       "name": "Component colors/Utility/Gray/utility-gray-100"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377710",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/100"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398234",
+     "name": "Component colors/Utility/Brand/utility-brand-200",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377717",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/800"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377711",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/200"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6049:416910",
+     "name": "Component colors/Utility/Brand/utility-brand-200_alt",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5400:398233",
+       "collection": "1. Color modes",
+       "name": "Component colors/Utility/Gray/utility-gray-200"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377711",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/200"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6053:436906",
+     "name": "Component colors/Utility/Brand/utility-brand-300",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377716",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/700"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377712",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/300"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6487:349940",
+     "name": "Component colors/Utility/Brand/utility-brand-300_alt",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6060:442843",
+       "collection": "1. Color modes",
+       "name": "Component colors/Utility/Gray/utility-gray-300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377712",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/300"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5409:398426",
+     "name": "Component colors/Utility/Brand/utility-brand-400",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377715",
+       "collection": "_Primitives",
+       "name": "color/brand/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377713",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6049:416911",
+     "name": "Component colors/Utility/Brand/utility-brand-400_alt",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5409:398424",
+       "collection": "1. Color modes",
+       "name": "Component colors/Utility/Gray/utility-gray-400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377713",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398205",
+     "name": "Component colors/Utility/Brand/utility-brand-500",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377714",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377714",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6049:416912",
+     "name": "Component colors/Utility/Brand/utility-brand-500_alt",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377714",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377714",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5399:389132",
+     "name": "Component colors/Utility/Brand/utility-brand-600",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377713",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377715",
+       "collection": "_Primitives",
+       "name": "color/brand/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6049:416913",
+     "name": "Component colors/Utility/Brand/utility-brand-600_alt",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5400:398183",
+       "collection": "1. Color modes",
+       "name": "Component colors/Utility/Gray/utility-gray-600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377715",
+       "collection": "_Primitives",
+       "name": "color/brand/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398186",
+     "name": "Component colors/Utility/Brand/utility-brand-700",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377712",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377716",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/700"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6049:416914",
+     "name": "Component colors/Utility/Brand/utility-brand-700_alt",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5399:389133",
+       "collection": "1. Color modes",
+       "name": "Component colors/Utility/Gray/utility-gray-700"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377716",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/700"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6124:61597",
+     "name": "Component colors/Utility/Brand/utility-brand-800",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377711",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/200"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377717",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/800"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6487:349941",
+     "name": "Component colors/Utility/Brand/utility-brand-800_alt",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6124:61598",
+       "collection": "1. Color modes",
+       "name": "Component colors/Utility/Gray/utility-gray-800"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377717",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/800"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6123:195662",
+     "name": "Component colors/Utility/Brand/utility-brand-900",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377710",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/100"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377718",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/900"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6487:349942",
+     "name": "Component colors/Utility/Brand/utility-brand-900_alt",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6123:195663",
+       "collection": "1. Color modes",
+       "name": "Component colors/Utility/Gray/utility-gray-900"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377718",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/900"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398250",
+     "name": "Component colors/Utility/Error/utility-error-50",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377731",
+       "collection": "_Primitives",
+       "name": "Colors/Error/950"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377721",
+       "collection": "_Primitives",
+       "name": "Colors/Error/50"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5409:398265",
+     "name": "Component colors/Utility/Error/utility-error-100",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377730",
+       "collection": "_Primitives",
+       "name": "Colors/Error/900"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377722",
+       "collection": "_Primitives",
+       "name": "Colors/Error/100"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398235",
+     "name": "Component colors/Utility/Error/utility-error-200",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377729",
+       "collection": "_Primitives",
+       "name": "Colors/Error/800"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377723",
+       "collection": "_Primitives",
+       "name": "Colors/Error/200"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6487:354313",
+     "name": "Component colors/Utility/Error/utility-error-300",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377728",
+       "collection": "_Primitives",
+       "name": "Colors/Error/700"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377724",
+       "collection": "_Primitives",
+       "name": "Colors/Error/300"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5409:398427",
+     "name": "Component colors/Utility/Error/utility-error-400",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377727",
+       "collection": "_Primitives",
+       "name": "Colors/Error/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377725",
+       "collection": "_Primitives",
+       "name": "Colors/Error/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398207",
+     "name": "Component colors/Utility/Error/utility-error-500",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377726",
+       "collection": "_Primitives",
+       "name": "Colors/Error/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377726",
+       "collection": "_Primitives",
+       "name": "Colors/Error/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5399:389134",
+     "name": "Component colors/Utility/Error/utility-error-600",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377725",
+       "collection": "_Primitives",
+       "name": "Colors/Error/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377727",
+       "collection": "_Primitives",
+       "name": "Colors/Error/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398187",
+     "name": "Component colors/Utility/Error/utility-error-700",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377724",
+       "collection": "_Primitives",
+       "name": "Colors/Error/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377728",
+       "collection": "_Primitives",
+       "name": "Colors/Error/700"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398251",
+     "name": "Component colors/Utility/Warning/utility-warning-50",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377743",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/950"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377733",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/50"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5409:398266",
+     "name": "Component colors/Utility/Warning/utility-warning-100",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377742",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/900"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377734",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/100"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398236",
+     "name": "Component colors/Utility/Warning/utility-warning-200",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377741",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/800"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377735",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/200"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6487:354314",
+     "name": "Component colors/Utility/Warning/utility-warning-300",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377740",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/700"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377736",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/300"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5409:398430",
+     "name": "Component colors/Utility/Warning/utility-warning-400",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377739",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377737",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398209",
+     "name": "Component colors/Utility/Warning/utility-warning-500",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377738",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377738",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5399:389135",
+     "name": "Component colors/Utility/Warning/utility-warning-600",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377737",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377739",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398188",
+     "name": "Component colors/Utility/Warning/utility-warning-700",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377736",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377740",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/700"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398252",
+     "name": "Component colors/Utility/Success/utility-success-50",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377757",
+       "collection": "_Primitives",
+       "name": "Colors/Success/950"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377747",
+       "collection": "_Primitives",
+       "name": "Colors/Success/50"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5409:398267",
+     "name": "Component colors/Utility/Success/utility-success-100",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377756",
+       "collection": "_Primitives",
+       "name": "Colors/Success/900"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377748",
+       "collection": "_Primitives",
+       "name": "Colors/Success/100"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398237",
+     "name": "Component colors/Utility/Success/utility-success-200",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377755",
+       "collection": "_Primitives",
+       "name": "Colors/Success/800"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377749",
+       "collection": "_Primitives",
+       "name": "Colors/Success/200"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6487:354315",
+     "name": "Component colors/Utility/Success/utility-success-300",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377754",
+       "collection": "_Primitives",
+       "name": "Colors/Success/700"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377750",
+       "collection": "_Primitives",
+       "name": "Colors/Success/300"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5409:398431",
+     "name": "Component colors/Utility/Success/utility-success-400",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377753",
+       "collection": "_Primitives",
+       "name": "Colors/Success/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377751",
+       "collection": "_Primitives",
+       "name": "Colors/Success/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398211",
+     "name": "Component colors/Utility/Success/utility-success-500",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377752",
+       "collection": "_Primitives",
+       "name": "Colors/Success/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377752",
+       "collection": "_Primitives",
+       "name": "Colors/Success/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5399:389136",
+     "name": "Component colors/Utility/Success/utility-success-600",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377751",
+       "collection": "_Primitives",
+       "name": "Colors/Success/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377753",
+       "collection": "_Primitives",
+       "name": "Colors/Success/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398189",
+     "name": "Component colors/Utility/Success/utility-success-700",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377750",
+       "collection": "_Primitives",
+       "name": "Colors/Success/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377754",
+       "collection": "_Primitives",
+       "name": "Colors/Success/700"
+      }
+     }
+    },
+    {
+     "id": "VariableID:7999:23182",
+     "name": "Component colors/Utility/Green/utility-green-50",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378693",
+       "collection": "_Primitives",
+       "name": "Colors/Green/950"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377864",
+       "collection": "_Primitives",
+       "name": "Colors/Green/50"
+      }
+     }
+    },
+    {
+     "id": "VariableID:7999:23183",
+     "name": "Component colors/Utility/Green/utility-green-100",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377873",
+       "collection": "_Primitives",
+       "name": "Colors/Green/900"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377865",
+       "collection": "_Primitives",
+       "name": "Colors/Green/100"
+      }
+     }
+    },
+    {
+     "id": "VariableID:7999:23184",
+     "name": "Component colors/Utility/Green/utility-green-200",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377872",
+       "collection": "_Primitives",
+       "name": "Colors/Green/800"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377866",
+       "collection": "_Primitives",
+       "name": "Colors/Green/200"
+      }
+     }
+    },
+    {
+     "id": "VariableID:7999:23185",
+     "name": "Component colors/Utility/Green/utility-green-300",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377871",
+       "collection": "_Primitives",
+       "name": "Colors/Green/700"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377867",
+       "collection": "_Primitives",
+       "name": "Colors/Green/300"
+      }
+     }
+    },
+    {
+     "id": "VariableID:7999:23186",
+     "name": "Component colors/Utility/Green/utility-green-400",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377870",
+       "collection": "_Primitives",
+       "name": "Colors/Green/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377868",
+       "collection": "_Primitives",
+       "name": "Colors/Green/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:7999:23187",
+     "name": "Component colors/Utility/Green/utility-green-500",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377869",
+       "collection": "_Primitives",
+       "name": "Colors/Green/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377869",
+       "collection": "_Primitives",
+       "name": "Colors/Green/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:7999:23188",
+     "name": "Component colors/Utility/Green/utility-green-600",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377868",
+       "collection": "_Primitives",
+       "name": "Colors/Green/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377870",
+       "collection": "_Primitives",
+       "name": "Colors/Green/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:7999:23189",
+     "name": "Component colors/Utility/Green/utility-green-700",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377867",
+       "collection": "_Primitives",
+       "name": "Colors/Green/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377871",
+       "collection": "_Primitives",
+       "name": "Colors/Green/700"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398254",
+     "name": "Component colors/Utility/Blue light/utility-blue-light-50",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377910",
+       "collection": "_Primitives",
+       "name": "Colors/Blue light/950"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377900",
+       "collection": "_Primitives",
+       "name": "Colors/Blue light/50"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5409:398269",
+     "name": "Component colors/Utility/Blue light/utility-blue-light-100",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377909",
+       "collection": "_Primitives",
+       "name": "Colors/Blue light/900"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377901",
+       "collection": "_Primitives",
+       "name": "Colors/Blue light/100"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398239",
+     "name": "Component colors/Utility/Blue light/utility-blue-light-200",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377908",
+       "collection": "_Primitives",
+       "name": "Colors/Blue light/800"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377902",
+       "collection": "_Primitives",
+       "name": "Colors/Blue light/200"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6487:354317",
+     "name": "Component colors/Utility/Blue light/utility-blue-light-300",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377907",
+       "collection": "_Primitives",
+       "name": "Colors/Blue light/700"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377903",
+       "collection": "_Primitives",
+       "name": "Colors/Blue light/300"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5409:398433",
+     "name": "Component colors/Utility/Blue light/utility-blue-light-400",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377906",
+       "collection": "_Primitives",
+       "name": "Colors/Blue light/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377904",
+       "collection": "_Primitives",
+       "name": "Colors/Blue light/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398215",
+     "name": "Component colors/Utility/Blue light/utility-blue-light-500",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377905",
+       "collection": "_Primitives",
+       "name": "Colors/Blue light/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377905",
+       "collection": "_Primitives",
+       "name": "Colors/Blue light/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398182",
+     "name": "Component colors/Utility/Blue light/utility-blue-light-600",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377904",
+       "collection": "_Primitives",
+       "name": "Colors/Blue light/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377906",
+       "collection": "_Primitives",
+       "name": "Colors/Blue light/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398198",
+     "name": "Component colors/Utility/Blue light/utility-blue-light-700",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377903",
+       "collection": "_Primitives",
+       "name": "Colors/Blue light/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377907",
+       "collection": "_Primitives",
+       "name": "Colors/Blue light/700"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398255",
+     "name": "Component colors/Utility/Blue/utility-blue-50",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377922",
+       "collection": "_Primitives",
+       "name": "Colors/Blue/950"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377912",
+       "collection": "_Primitives",
+       "name": "Colors/Blue/50"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5409:398270",
+     "name": "Component colors/Utility/Blue/utility-blue-100",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377921",
+       "collection": "_Primitives",
+       "name": "Colors/Blue/900"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377913",
+       "collection": "_Primitives",
+       "name": "Colors/Blue/100"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398240",
+     "name": "Component colors/Utility/Blue/utility-blue-200",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377920",
+       "collection": "_Primitives",
+       "name": "Colors/Blue/800"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377914",
+       "collection": "_Primitives",
+       "name": "Colors/Blue/200"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6487:354318",
+     "name": "Component colors/Utility/Blue/utility-blue-300",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377919",
+       "collection": "_Primitives",
+       "name": "Colors/Blue/700"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377915",
+       "collection": "_Primitives",
+       "name": "Colors/Blue/300"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5409:398434",
+     "name": "Component colors/Utility/Blue/utility-blue-400",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377918",
+       "collection": "_Primitives",
+       "name": "Colors/Blue/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377916",
+       "collection": "_Primitives",
+       "name": "Colors/Blue/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398217",
+     "name": "Component colors/Utility/Blue/utility-blue-500",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377917",
+       "collection": "_Primitives",
+       "name": "Colors/Blue/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377917",
+       "collection": "_Primitives",
+       "name": "Colors/Blue/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5374:385385",
+     "name": "Component colors/Utility/Blue/utility-blue-600",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377916",
+       "collection": "_Primitives",
+       "name": "Colors/Blue/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377918",
+       "collection": "_Primitives",
+       "name": "Colors/Blue/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398197",
+     "name": "Component colors/Utility/Blue/utility-blue-700",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377915",
+       "collection": "_Primitives",
+       "name": "Colors/Blue/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377919",
+       "collection": "_Primitives",
+       "name": "Colors/Blue/700"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398256",
+     "name": "Component colors/Utility/Blue dark/utility-blue-dark-50",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5253:372192",
+       "collection": "_Primitives",
+       "name": "Colors/Blue dark/950"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377926",
+       "collection": "_Primitives",
+       "name": "Colors/Blue dark/50"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5409:398271",
+     "name": "Component colors/Utility/Blue dark/utility-blue-dark-100",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377935",
+       "collection": "_Primitives",
+       "name": "Colors/Blue dark/900"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377927",
+       "collection": "_Primitives",
+       "name": "Colors/Blue dark/100"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398241",
+     "name": "Component colors/Utility/Blue dark/utility-blue-dark-200",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377934",
+       "collection": "_Primitives",
+       "name": "Colors/Blue dark/800"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377928",
+       "collection": "_Primitives",
+       "name": "Colors/Blue dark/200"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6487:354319",
+     "name": "Component colors/Utility/Blue dark/utility-blue-dark-300",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377933",
+       "collection": "_Primitives",
+       "name": "Colors/Blue dark/700"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377929",
+       "collection": "_Primitives",
+       "name": "Colors/Blue dark/300"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5409:398435",
+     "name": "Component colors/Utility/Blue dark/utility-blue-dark-400",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377932",
+       "collection": "_Primitives",
+       "name": "Colors/Blue dark/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377930",
+       "collection": "_Primitives",
+       "name": "Colors/Blue dark/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398219",
+     "name": "Component colors/Utility/Blue dark/utility-blue-dark-500",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377931",
+       "collection": "_Primitives",
+       "name": "Colors/Blue dark/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377931",
+       "collection": "_Primitives",
+       "name": "Colors/Blue dark/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5399:389138",
+     "name": "Component colors/Utility/Blue dark/utility-blue-dark-600",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377930",
+       "collection": "_Primitives",
+       "name": "Colors/Blue dark/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377932",
+       "collection": "_Primitives",
+       "name": "Colors/Blue dark/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398190",
+     "name": "Component colors/Utility/Blue dark/utility-blue-dark-700",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377929",
+       "collection": "_Primitives",
+       "name": "Colors/Blue dark/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377933",
+       "collection": "_Primitives",
+       "name": "Colors/Blue dark/700"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398258",
+     "name": "Component colors/Utility/Purple/utility-purple-50",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377971",
+       "collection": "_Primitives",
+       "name": "Colors/Purple/950"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377961",
+       "collection": "_Primitives",
+       "name": "Colors/Purple/50"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5409:398273",
+     "name": "Component colors/Utility/Purple/utility-purple-100",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377970",
+       "collection": "_Primitives",
+       "name": "Colors/Purple/900"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377962",
+       "collection": "_Primitives",
+       "name": "Colors/Purple/100"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398243",
+     "name": "Component colors/Utility/Purple/utility-purple-200",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377969",
+       "collection": "_Primitives",
+       "name": "Colors/Purple/800"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377963",
+       "collection": "_Primitives",
+       "name": "Colors/Purple/200"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6487:354321",
+     "name": "Component colors/Utility/Purple/utility-purple-300",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377968",
+       "collection": "_Primitives",
+       "name": "Colors/Purple/700"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377964",
+       "collection": "_Primitives",
+       "name": "Colors/Purple/300"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5409:398437",
+     "name": "Component colors/Utility/Purple/utility-purple-400",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377967",
+       "collection": "_Primitives",
+       "name": "Colors/Purple/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377965",
+       "collection": "_Primitives",
+       "name": "Colors/Purple/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398223",
+     "name": "Component colors/Utility/Purple/utility-purple-500",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377966",
+       "collection": "_Primitives",
+       "name": "Colors/Purple/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377966",
+       "collection": "_Primitives",
+       "name": "Colors/Purple/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5399:389142",
+     "name": "Component colors/Utility/Purple/utility-purple-600",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377965",
+       "collection": "_Primitives",
+       "name": "Colors/Purple/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377967",
+       "collection": "_Primitives",
+       "name": "Colors/Purple/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398192",
+     "name": "Component colors/Utility/Purple/utility-purple-700",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377964",
+       "collection": "_Primitives",
+       "name": "Colors/Purple/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377968",
+       "collection": "_Primitives",
+       "name": "Colors/Purple/700"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398260",
+     "name": "Component colors/Utility/Pink/utility-pink-50",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377995",
+       "collection": "_Primitives",
+       "name": "Colors/Pink/950"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377985",
+       "collection": "_Primitives",
+       "name": "Colors/Pink/50"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5409:398275",
+     "name": "Component colors/Utility/Pink/utility-pink-100",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377994",
+       "collection": "_Primitives",
+       "name": "Colors/Pink/900"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377986",
+       "collection": "_Primitives",
+       "name": "Colors/Pink/100"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398245",
+     "name": "Component colors/Utility/Pink/utility-pink-200",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377993",
+       "collection": "_Primitives",
+       "name": "Colors/Pink/800"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377987",
+       "collection": "_Primitives",
+       "name": "Colors/Pink/200"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6487:354323",
+     "name": "Component colors/Utility/Pink/utility-pink-300",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377992",
+       "collection": "_Primitives",
+       "name": "Colors/Pink/700"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377988",
+       "collection": "_Primitives",
+       "name": "Colors/Pink/300"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5409:398439",
+     "name": "Component colors/Utility/Pink/utility-pink-400",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377991",
+       "collection": "_Primitives",
+       "name": "Colors/Pink/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377989",
+       "collection": "_Primitives",
+       "name": "Colors/Pink/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398227",
+     "name": "Component colors/Utility/Pink/utility-pink-500",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377990",
+       "collection": "_Primitives",
+       "name": "Colors/Pink/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377990",
+       "collection": "_Primitives",
+       "name": "Colors/Pink/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5399:389141",
+     "name": "Component colors/Utility/Pink/utility-pink-600",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377989",
+       "collection": "_Primitives",
+       "name": "Colors/Pink/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377991",
+       "collection": "_Primitives",
+       "name": "Colors/Pink/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398194",
+     "name": "Component colors/Utility/Pink/utility-pink-700",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377988",
+       "collection": "_Primitives",
+       "name": "Colors/Pink/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377992",
+       "collection": "_Primitives",
+       "name": "Colors/Pink/700"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398261",
+     "name": "Component colors/Utility/Orange dark/utility-orange-dark-50",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378019",
+       "collection": "_Primitives",
+       "name": "Colors/Orange dark/950"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:378009",
+       "collection": "_Primitives",
+       "name": "Colors/Orange dark/50"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5409:398276",
+     "name": "Component colors/Utility/Orange dark/utility-orange-dark-100",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378018",
+       "collection": "_Primitives",
+       "name": "Colors/Orange dark/900"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:378010",
+       "collection": "_Primitives",
+       "name": "Colors/Orange dark/100"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398246",
+     "name": "Component colors/Utility/Orange dark/utility-orange-dark-200",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378017",
+       "collection": "_Primitives",
+       "name": "Colors/Orange dark/800"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:378011",
+       "collection": "_Primitives",
+       "name": "Colors/Orange dark/200"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6487:354324",
+     "name": "Component colors/Utility/Orange dark/utility-orange-dark-300",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378016",
+       "collection": "_Primitives",
+       "name": "Colors/Orange dark/700"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:378012",
+       "collection": "_Primitives",
+       "name": "Colors/Orange dark/300"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5409:398440",
+     "name": "Component colors/Utility/Orange dark/utility-orange-dark-400",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378015",
+       "collection": "_Primitives",
+       "name": "Colors/Orange dark/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:378013",
+       "collection": "_Primitives",
+       "name": "Colors/Orange dark/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398229",
+     "name": "Component colors/Utility/Orange dark/utility-orange-dark-500",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378014",
+       "collection": "_Primitives",
+       "name": "Colors/Orange dark/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:378014",
+       "collection": "_Primitives",
+       "name": "Colors/Orange dark/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5399:389143",
+     "name": "Component colors/Utility/Orange dark/utility-orange-dark-600",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378013",
+       "collection": "_Primitives",
+       "name": "Colors/Orange dark/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:378015",
+       "collection": "_Primitives",
+       "name": "Colors/Orange dark/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398195",
+     "name": "Component colors/Utility/Orange dark/utility-orange-dark-700",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378012",
+       "collection": "_Primitives",
+       "name": "Colors/Orange dark/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:378016",
+       "collection": "_Primitives",
+       "name": "Colors/Orange dark/700"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398262",
+     "name": "Component colors/Utility/Orange/utility-orange-50",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378031",
+       "collection": "_Primitives",
+       "name": "Colors/Orange/950"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:378021",
+       "collection": "_Primitives",
+       "name": "Colors/Orange/50"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5409:398277",
+     "name": "Component colors/Utility/Orange/utility-orange-100",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378030",
+       "collection": "_Primitives",
+       "name": "Colors/Orange/900"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:378022",
+       "collection": "_Primitives",
+       "name": "Colors/Orange/100"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398247",
+     "name": "Component colors/Utility/Orange/utility-orange-200",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378029",
+       "collection": "_Primitives",
+       "name": "Colors/Orange/800"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:378023",
+       "collection": "_Primitives",
+       "name": "Colors/Orange/200"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6487:354325",
+     "name": "Component colors/Utility/Orange/utility-orange-300",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378028",
+       "collection": "_Primitives",
+       "name": "Colors/Orange/700"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:378024",
+       "collection": "_Primitives",
+       "name": "Colors/Orange/300"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5409:398441",
+     "name": "Component colors/Utility/Orange/utility-orange-400",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378027",
+       "collection": "_Primitives",
+       "name": "Colors/Orange/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:378025",
+       "collection": "_Primitives",
+       "name": "Colors/Orange/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398231",
+     "name": "Component colors/Utility/Orange/utility-orange-500",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378026",
+       "collection": "_Primitives",
+       "name": "Colors/Orange/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:378026",
+       "collection": "_Primitives",
+       "name": "Colors/Orange/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5399:389137",
+     "name": "Component colors/Utility/Orange/utility-orange-600",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378025",
+       "collection": "_Primitives",
+       "name": "Colors/Orange/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:378027",
+       "collection": "_Primitives",
+       "name": "Colors/Orange/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5400:398196",
+     "name": "Component colors/Utility/Orange/utility-orange-700",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378024",
+       "collection": "_Primitives",
+       "name": "Colors/Orange/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:378028",
+       "collection": "_Primitives",
+       "name": "Colors/Orange/700"
+      }
+     }
+    },
+    {
+     "id": "VariableID:7999:23190",
+     "name": "Component colors/Utility/Yellow/utility-yellow-50",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5253:372195",
+       "collection": "_Primitives",
+       "name": "Colors/Yellow/950"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:378033",
+       "collection": "_Primitives",
+       "name": "Colors/Yellow/50"
+      }
+     }
+    },
+    {
+     "id": "VariableID:7999:23191",
+     "name": "Component colors/Utility/Yellow/utility-yellow-100",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378042",
+       "collection": "_Primitives",
+       "name": "Colors/Yellow/900"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:378034",
+       "collection": "_Primitives",
+       "name": "Colors/Yellow/100"
+      }
+     }
+    },
+    {
+     "id": "VariableID:7999:23192",
+     "name": "Component colors/Utility/Yellow/utility-yellow-200",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378041",
+       "collection": "_Primitives",
+       "name": "Colors/Yellow/800"
+      },
+      "Light mode": {
+       "alias": "VariableID:5253:372196",
+       "collection": "_Primitives",
+       "name": "Colors/Yellow/200"
+      }
+     }
+    },
+    {
+     "id": "VariableID:7999:23193",
+     "name": "Component colors/Utility/Yellow/utility-yellow-300",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378039",
+       "collection": "_Primitives",
+       "name": "Colors/Yellow/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5253:372197",
+       "collection": "_Primitives",
+       "name": "Colors/Yellow/300"
+      }
+     }
+    },
+    {
+     "id": "VariableID:7999:23194",
+     "name": "Component colors/Utility/Yellow/utility-yellow-400",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378039",
+       "collection": "_Primitives",
+       "name": "Colors/Yellow/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:378037",
+       "collection": "_Primitives",
+       "name": "Colors/Yellow/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:7999:23195",
+     "name": "Component colors/Utility/Yellow/utility-yellow-500",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378038",
+       "collection": "_Primitives",
+       "name": "Colors/Yellow/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:378038",
+       "collection": "_Primitives",
+       "name": "Colors/Yellow/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:7999:23196",
+     "name": "Component colors/Utility/Yellow/utility-yellow-600",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378037",
+       "collection": "_Primitives",
+       "name": "Colors/Yellow/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:378039",
+       "collection": "_Primitives",
+       "name": "Colors/Yellow/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:7999:23197",
+     "name": "Component colors/Utility/Yellow/utility-yellow-700",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5253:372197",
+       "collection": "_Primitives",
+       "name": "Colors/Yellow/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:378040",
+       "collection": "_Primitives",
+       "name": "Colors/Yellow/700"
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "prefix": "Component colors/Utility/",
+ "readAt": "2026-11-09T20:53:29.112Z",
+ "run": "group-audit",
+ "slim": false
+}

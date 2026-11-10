@@ -1,0 +1,1165 @@
+{
+ "detail": {
+  "VariableID:23468:2": {
+   "aliasedBy": [
+    "1. Color modes › Colors/Border/border-primary"
+   ],
+   "anyCollectionSameName": [],
+   "codeSyntax": {},
+   "collection": "_Primitives",
+   "collectionId": "VariableCollectionId:5248:377685",
+   "comps": {},
+   "description": "",
+   "exactNameClash": [],
+   "groupPrefixExisting": false,
+   "hiddenFromPublishing": false,
+   "key": "a98aec83a092e0f06f991a05b173cb52ff559112",
+   "lookalikes": [],
+   "modes": {
+    "Style": {
+     "a": 1,
+     "b": 0.5921568870544434,
+     "g": 0.5568627715110779,
+     "r": 0.5411764979362488
+    }
+   },
+   "name": "Colors/Gray (light mode)/450",
+   "otherLayers": 0,
+   "proposed": "color/gray/450",
+   "remote": false,
+   "resolvedType": "COLOR",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "styles": []
+  },
+  "VariableID:5248:377715": {
+   "aliasedBy": [
+    "1. Color modes › Colors/Background/bg-brand-primary",
+    "1. Color modes › Colors/Border/border-brand_alt",
+    "1. Color modes › Colors/Foreground/fg-brand-primary (600)",
+    "1. Color modes › Colors/Text/text-brand-primary",
+    "1. Color modes › Colors/Text/text-brand-tertiary (600)",
+    "1. Color modes › Colors/Text/text-brand-tertiary_alt",
+    "1. Color modes › Component colors/Components/Icons/Featured icons/featured-icon-light-fg-brand",
+    "1. Color modes › Component colors/Components/Icons/Icons/icon-fg-brand",
+    "1. Color modes › Component colors/Components/Sliders/slider-handle-border",
+    "1. Color modes › Component colors/Utility/Brand/utility-brand-400",
+    "1. Color modes › Component colors/Utility/Brand/utility-brand-600",
+    "1. Color modes › Component colors/Utility/Brand/utility-brand-600_alt"
+   ],
+   "anyCollectionSameName": [],
+   "codeSyntax": {},
+   "collection": "_Primitives",
+   "collectionId": "VariableCollectionId:5248:377685",
+   "comps": {},
+   "description": "",
+   "exactNameClash": [],
+   "groupPrefixExisting": false,
+   "hiddenFromPublishing": false,
+   "key": "1c26773fc64decdfbfa267f76805d3a0c4f57e5c",
+   "lookalikes": [],
+   "modes": {
+    "Style": {
+     "a": 1,
+     "b": 0.9529411792755127,
+     "g": 0.33725491166114807,
+     "r": 0.33725491166114807
+    }
+   },
+   "name": "Colors/Brand/600",
+   "otherLayers": 0,
+   "proposed": "color/brand/600",
+   "remote": false,
+   "resolvedType": "COLOR",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "styles": [
+    "paint: Brand/600"
+   ]
+  },
+  "VariableID:5253:372203": {
+   "aliasedBy": [
+    "3. Spacing › spacing-lg"
+   ],
+   "anyCollectionSameName": [],
+   "codeSyntax": {},
+   "collection": "_Primitives",
+   "collectionId": "VariableCollectionId:5248:377685",
+   "comps": {},
+   "description": "",
+   "exactNameClash": [],
+   "groupPrefixExisting": false,
+   "hiddenFromPublishing": true,
+   "key": "402feebfa58428c3f84a073884185c6a5d606a32",
+   "lookalikes": [],
+   "modes": {
+    "Style": 12
+   },
+   "name": "Spacing/3 (12px)",
+   "otherLayers": 0,
+   "proposed": "spacing/3",
+   "remote": false,
+   "resolvedType": "FLOAT",
+   "scopes": [],
+   "styles": []
+  },
+  "VariableID:5263:373125": {
+   "aliasedBy": [],
+   "anyCollectionSameName": [],
+   "codeSyntax": {},
+   "collection": "1. Color modes",
+   "collectionId": "VariableCollectionId:5256:372339",
+   "comps": {
+    "Badge": {
+     "fields": {
+      "fills": 3
+     },
+     "n": 3
+    },
+    "Buttons/Button destructive": {
+     "fields": {
+      "fills": 28
+     },
+     "n": 28
+    },
+    "Helper text": {
+     "fields": {
+      "fills": 3
+     },
+     "n": 3
+    }
+   },
+   "description": "",
+   "exactNameClash": [],
+   "groupPrefixExisting": false,
+   "hiddenFromPublishing": false,
+   "key": "f23bdbe244ec5a4810c65e19bf621c31c6dbfc92",
+   "lookalikes": [],
+   "modes": {
+    "Dark mode": {
+     "alias": "VariableID:5248:377725",
+     "aliasName": "_Primitives › Colors/Error/400"
+    },
+    "Light mode": {
+     "alias": "VariableID:5248:377727",
+     "aliasName": "_Primitives › Colors/Error/600"
+    }
+   },
+   "name": "Colors/Text/text-error-primary",
+   "otherLayers": 0,
+   "proposed": "color/text/error-primary",
+   "remote": false,
+   "resolvedType": "COLOR",
+   "scopes": [
+    "TEXT_FILL"
+   ],
+   "styles": []
+  },
+  "VariableID:5270:371419": {
+   "aliasedBy": [],
+   "anyCollectionSameName": [],
+   "codeSyntax": {},
+   "collection": "1. Color modes",
+   "collectionId": "VariableCollectionId:5256:372339",
+   "comps": {
+    "Avatar group": {
+     "fields": {
+      "fills": 3
+     },
+     "n": 3
+    },
+    "Buttons/Button": {
+     "fields": {
+      "fills": 21
+     },
+     "n": 21
+    },
+    "Buttons/Button icon": {
+     "fields": {
+      "fills": 3
+     },
+     "n": 3
+    },
+    "Design system header": {
+     "fields": {
+      "fills": 1
+     },
+     "n": 1
+    },
+    "Flow heading": {
+     "fields": {
+      "fills": 1
+     },
+     "n": 1
+    },
+    "Radio / Checkbox": {
+     "fields": {
+      "fills": 36
+     },
+     "n": 36
+    },
+    "Radio group item": {
+     "fields": {
+      "fills": 36
+     },
+     "n": 36
+    },
+    "Tag count": {
+     "fields": {
+      "fills": 3
+     },
+     "n": 3
+    },
+    "Toggle": {
+     "fields": {
+      "fills": 4
+     },
+     "n": 4
+    },
+    "_Calendar cell": {
+     "fields": {
+      "fills": 1
+     },
+     "n": 1
+    },
+    "_Checkbox base": {
+     "fields": {
+      "fills": 24
+     },
+     "n": 24
+    },
+    "_Date picker menu": {
+     "fields": {
+      "fills": 10
+     },
+     "n": 10
+    },
+    "_Modal actions": {
+     "fields": {
+      "fills": 3
+     },
+     "n": 3
+    },
+    "_Nav featured card": {
+     "fields": {
+      "fills": 1
+     },
+     "n": 1
+    },
+    "_Toggle base": {
+     "fields": {
+      "fills": 4
+     },
+     "n": 4
+    }
+   },
+   "description": "",
+   "exactNameClash": [],
+   "groupPrefixExisting": false,
+   "hiddenFromPublishing": false,
+   "key": "4e0f7f0d7d9767480780777f9f7e0d285b82305d",
+   "lookalikes": [],
+   "modes": {
+    "Dark mode": {
+     "alias": "VariableID:5248:377715",
+     "aliasName": "_Primitives › Colors/Brand/600"
+    },
+    "Light mode": {
+     "alias": "VariableID:5248:377715",
+     "aliasName": "_Primitives › Colors/Brand/600"
+    }
+   },
+   "name": "Colors/Background/bg-brand-primary",
+   "otherLayers": 29,
+   "proposed": "color/bg/brand-primary",
+   "remote": false,
+   "resolvedType": "COLOR",
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "styles": []
+  },
+  "VariableID:5270:371435": {
+   "aliasedBy": [],
+   "anyCollectionSameName": [],
+   "codeSyntax": {},
+   "collection": "1. Color modes",
+   "collectionId": "VariableCollectionId:5256:372339",
+   "comps": {
+    "Alert": {
+     "fields": {
+      "strokes": 4
+     },
+     "n": 4
+    },
+    "Button group": {
+     "fields": {
+      "strokes": 30
+     },
+     "n": 30
+    },
+    "Buttons/Button": {
+     "fields": {
+      "strokes": 4
+     },
+     "n": 4
+    },
+    "Buttons/Button destructive": {
+     "fields": {
+      "strokes": 12
+     },
+     "n": 12
+    },
+    "Date picker dropdown": {
+     "fields": {
+      "strokes": 8
+     },
+     "n": 8
+    },
+    "Dropdown": {
+     "fields": {
+      "strokes": 1
+     },
+     "n": 1
+    },
+    "Input field": {
+     "fields": {
+      "strokes": 72
+     },
+     "n": 72
+    },
+    "Radio / Checkbox": {
+     "fields": {
+      "strokes": 27
+     },
+     "n": 27
+    },
+    "Radio group item": {
+     "fields": {
+      "strokes": 36
+     },
+     "n": 36
+    },
+    "Select": {
+     "fields": {
+      "strokes": 27
+     },
+     "n": 27
+    },
+    "Social button": {
+     "fields": {
+      "strokes": 42
+     },
+     "n": 42
+    },
+    "Social button groups": {
+     "fields": {
+      "strokes": 18
+     },
+     "n": 18
+    },
+    "Tag": {
+     "fields": {
+      "strokes": 30
+     },
+     "n": 30
+    },
+    "Textarea input field": {
+     "fields": {
+      "strokes": 40
+     },
+     "n": 40
+    },
+    "Verification code input field": {
+     "fields": {
+      "strokes": 12
+     },
+     "n": 12
+    },
+    "_Button group base": {
+     "fields": {
+      "strokes": 32
+     },
+     "n": 32
+    },
+    "_Checkbox base": {
+     "fields": {
+      "strokes": 15
+     },
+     "n": 15
+    },
+    "_Documentation table cell": {
+     "fields": {
+      "strokes": 4
+     },
+     "n": 4
+    },
+    "_Focus ring card": {
+     "fields": {
+      "strokes": 1
+     },
+     "n": 1
+    },
+    "_Input title": {
+     "fields": {
+      "strokes": 1
+     },
+     "n": 1
+    },
+    "_Mega input field base": {
+     "fields": {
+      "strokes": 3
+     },
+     "n": 3
+    },
+    "_Nav featured card": {
+     "fields": {
+      "strokes": 1
+     },
+     "n": 1
+    }
+   },
+   "description": "",
+   "exactNameClash": [],
+   "groupPrefixExisting": false,
+   "hiddenFromPublishing": false,
+   "key": "92fdb372b5be4f4a47db0627d93c7615feb0aae7",
+   "lookalikes": [],
+   "modes": {
+    "Dark mode": {
+     "alias": "VariableID:6671:87760",
+     "aliasName": "_Primitives › Colors/Gray (dark mode)/600"
+    },
+    "Light mode": {
+     "alias": "VariableID:23468:2",
+     "aliasName": "_Primitives › Colors/Gray (light mode)/450"
+    }
+   },
+   "name": "Colors/Border/border-primary",
+   "otherLayers": 6,
+   "proposed": "color/border/primary",
+   "remote": false,
+   "resolvedType": "COLOR",
+   "scopes": [
+    "STROKE_COLOR"
+   ],
+   "styles": []
+  },
+  "VariableID:5353:380427": {
+   "aliasedBy": [
+    "1. Color modes › Component colors/Components/Toggles/toggle-slim-border_pressed-hover"
+   ],
+   "anyCollectionSameName": [],
+   "codeSyntax": {},
+   "collection": "1. Color modes",
+   "collectionId": "VariableCollectionId:5256:372339",
+   "comps": {
+    "Buttons/Button": {
+     "fields": {
+      "fills": 14
+     },
+     "n": 14
+    },
+    "Buttons/Button action": {
+     "fields": {
+      "fills": 1
+     },
+     "n": 1
+    },
+    "Toggle": {
+     "fields": {
+      "fills": 2
+     },
+     "n": 2
+    },
+    "_Calendar cell": {
+     "fields": {
+      "fills": 1
+     },
+     "n": 1
+    },
+    "_Toggle base": {
+     "fields": {
+      "fills": 2
+     },
+     "n": 2
+    }
+   },
+   "description": "",
+   "exactNameClash": [],
+   "groupPrefixExisting": false,
+   "hiddenFromPublishing": false,
+   "key": "7887adbd14d374b68b74d7176baf2d9aca7fbdbc",
+   "lookalikes": [],
+   "modes": {
+    "Dark mode": {
+     "alias": "VariableID:5248:377716",
+     "aliasName": "_Primitives › Colors/Brand/700"
+    },
+    "Light mode": {
+     "alias": "VariableID:5248:377716",
+     "aliasName": "_Primitives › Colors/Brand/700"
+    }
+   },
+   "name": "Colors/Background/bg-brand-primary_hover",
+   "otherLayers": 0,
+   "proposed": "color/bg/brand-primary-hover",
+   "remote": false,
+   "resolvedType": "COLOR",
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "styles": []
+  },
+  "VariableID:6137:268549": {
+   "aliasedBy": [],
+   "anyCollectionSameName": [],
+   "codeSyntax": {},
+   "collection": "1. Color modes",
+   "collectionId": "VariableCollectionId:5256:372339",
+   "comps": {
+    "Badge": {
+     "fields": {
+      "fills": 6
+     },
+     "n": 6
+    },
+    "Buttons/Button": {
+     "fields": {
+      "fills": 24
+     },
+     "n": 24
+    }
+   },
+   "description": "",
+   "exactNameClash": [],
+   "groupPrefixExisting": false,
+   "hiddenFromPublishing": false,
+   "key": "775ed851d211e03bb07221953f0b0c01ffea1bcc",
+   "lookalikes": [],
+   "modes": {
+    "Dark mode": {
+     "alias": "VariableID:5248:377713",
+     "aliasName": "_Primitives › Colors/Brand/400"
+    },
+    "Light mode": {
+     "alias": "VariableID:5248:377715",
+     "aliasName": "_Primitives › Colors/Brand/600"
+    }
+   },
+   "name": "Colors/Text/text-brand-primary",
+   "otherLayers": 0,
+   "proposed": "color/text/brand-primary",
+   "remote": false,
+   "resolvedType": "COLOR",
+   "scopes": [
+    "TEXT_FILL"
+   ],
+   "styles": []
+  },
+  "VariableID:7371:212918": {
+   "aliasedBy": [],
+   "anyCollectionSameName": [],
+   "codeSyntax": {},
+   "collection": "1. Color modes",
+   "collectionId": "VariableCollectionId:5256:372339",
+   "comps": {
+    "Buttons/Button": {
+     "fields": {
+      "effects": 15
+     },
+     "n": 15
+    },
+    "Date picker dropdown": {
+     "fields": {
+      "effects": 8
+     },
+     "n": 8
+    },
+    "Dropdown": {
+     "fields": {
+      "effects": 1
+     },
+     "n": 1
+    },
+    "Input field": {
+     "fields": {
+      "effects": 8
+     },
+     "n": 8
+    },
+    "Radio / Checkbox": {
+     "fields": {
+      "effects": 21
+     },
+     "n": 21
+    },
+    "Radio group item": {
+     "fields": {
+      "effects": 48
+     },
+     "n": 48
+    },
+    "Social button": {
+     "fields": {
+      "effects": 18
+     },
+     "n": 18
+    },
+    "Toggle": {
+     "fields": {
+      "effects": 4
+     },
+     "n": 4
+    },
+    "_Application nav menu button": {
+     "fields": {
+      "effects": 2
+     },
+     "n": 2
+    },
+    "_Avatar add button": {
+     "fields": {
+      "effects": 3
+     },
+     "n": 3
+    },
+    "_Button group base": {
+     "fields": {
+      "effects": 8
+     },
+     "n": 8
+    },
+    "_Checkbox base": {
+     "fields": {
+      "effects": 13
+     },
+     "n": 13
+    },
+    "_Control handle": {
+     "fields": {
+      "effects": 3
+     },
+     "n": 3
+    },
+    "_Date picker list item": {
+     "fields": {
+      "effects": 2
+     },
+     "n": 2
+    },
+    "_Focus ring card": {
+     "fields": {
+      "effects": 1
+     },
+     "n": 1
+    },
+    "_Nav item base": {
+     "fields": {
+      "effects": 4
+     },
+     "n": 4
+    },
+    "_Nav item button": {
+     "fields": {
+      "effects": 4
+     },
+     "n": 4
+    },
+    "_Toggle base": {
+     "fields": {
+      "effects": 4
+     },
+     "n": 4
+    }
+   },
+   "description": "",
+   "exactNameClash": [],
+   "groupPrefixExisting": false,
+   "hiddenFromPublishing": true,
+   "key": "47d1f08462df47144feaa4981b11ebbd26882907",
+   "lookalikes": [],
+   "modes": {
+    "Dark mode": {
+     "alias": "VariableID:5248:377714",
+     "aliasName": "_Primitives › Colors/Brand/500"
+    },
+    "Light mode": {
+     "alias": "VariableID:5248:377714",
+     "aliasName": "_Primitives › Colors/Brand/500"
+    }
+   },
+   "name": "Colors/Effects/Focus rings/focus-ring-primary",
+   "otherLayers": 1,
+   "proposed": "color/focus-ring/primary",
+   "remote": false,
+   "resolvedType": "COLOR",
+   "scopes": [
+    "STROKE_COLOR",
+    "EFFECT_COLOR"
+   ],
+   "styles": [
+    "effect: Focus rings/focus-ring",
+    "effect: Focus rings/focus-ring-shadow-primary-xs",
+    "effect: Focus rings/focus-ring-shadow-sm"
+   ]
+  },
+  "VariableID:7405:102287": {
+   "aliasedBy": [],
+   "anyCollectionSameName": [],
+   "codeSyntax": {},
+   "collection": "6. Typography",
+   "collectionId": "VariableCollectionId:7403:16248",
+   "comps": {
+    "Avatar": {
+     "fields": {
+      "fontStyle": 48
+     },
+     "n": 48
+    },
+    "Avatar label group": {
+     "fields": {
+      "fontStyle": 4
+     },
+     "n": 4
+    },
+    "Buttons/Button": {
+     "fields": {
+      "fontStyle": 12
+     },
+     "n": 12
+    },
+    "Buttons/Button destructive": {
+     "fields": {
+      "fontStyle": 7
+     },
+     "n": 7
+    },
+    "DS note": {
+     "fields": {
+      "fontStyle": 2
+     },
+     "n": 2
+    },
+    "Flow heading": {
+     "fields": {
+      "fontStyle": 1
+     },
+     "n": 1
+    },
+    "Flow note": {
+     "fields": {
+      "fontStyle": 2
+     },
+     "n": 2
+    },
+    "Progress circle": {
+     "fields": {
+      "fontStyle": 5
+     },
+     "n": 5
+    },
+    "Social button": {
+     "fields": {
+      "fontStyle": 27
+     },
+     "n": 27
+    },
+    "Tooltip": {
+     "fields": {
+      "fontStyle": 14
+     },
+     "n": 14
+    },
+    "_Button group base": {
+     "fields": {
+      "fontStyle": 24
+     },
+     "n": 24
+    },
+    "_Control handle": {
+     "fields": {
+      "fontStyle": 3
+     },
+     "n": 3
+    },
+    "_Date picker menu": {
+     "fields": {
+      "fontStyle": 5
+     },
+     "n": 5
+    },
+    "_Documentation table cell": {
+     "fields": {
+      "fontStyle": 7
+     },
+     "n": 7
+    },
+    "_Filter button base": {
+     "fields": {
+      "fontStyle": 1
+     },
+     "n": 1
+    },
+    "_Modal header": {
+     "fields": {
+      "fontStyle": 1
+     },
+     "n": 1
+    },
+    "_Nav account card menu item": {
+     "fields": {
+      "fontStyle": 4
+     },
+     "n": 4
+    },
+    "_Nav featured card": {
+     "fields": {
+      "fontStyle": 6
+     },
+     "n": 6
+    },
+    "_Nav item base": {
+     "fields": {
+      "fontStyle": 6
+     },
+     "n": 6
+    },
+    "_Tab button base": {
+     "fields": {
+      "fontStyle": 4
+     },
+     "n": 4
+    },
+    "_Type scale base": {
+     "fields": {
+      "fontStyle": 1
+     },
+     "n": 1
+    }
+   },
+   "description": "",
+   "exactNameClash": [],
+   "groupPrefixExisting": false,
+   "hiddenFromPublishing": false,
+   "key": "8adb8f5c5c6cdf73260933027fb698ddf86a640b",
+   "lookalikes": [],
+   "modes": {
+    "Value": "Semibold"
+   },
+   "name": "Font weight/semibold",
+   "otherLayers": 10,
+   "proposed": "font/weight/semibold",
+   "remote": false,
+   "resolvedType": "STRING",
+   "scopes": [
+    "FONT_STYLE"
+   ],
+   "styles": [
+    "text: Display 2xl/Semibold",
+    "text: Display xl/Semibold",
+    "text: Display lg/Semibold",
+    "text: Display md/Semibold",
+    "text: Display sm/Semibold",
+    "text: Display xs/Semibold",
+    "text: Display xxs/Semibold",
+    "text: Display xxxs/Semibold",
+    "text: Text xxxl/Semibold",
+    "text: Text xxl/Semibold",
+    "text: Text xl/Semibold",
+    "text: Text lg/Semibold",
+    "text: Text md/Semibold",
+    "text: Text sm/Semibold",
+    "text: Text xs/Semibold",
+    "text: Text xxs/Semibold"
+   ]
+  },
+  "VariableID:7407:110365": {
+   "aliasedBy": [],
+   "anyCollectionSameName": [],
+   "codeSyntax": {},
+   "collection": "6. Typography",
+   "collectionId": "VariableCollectionId:7403:16248",
+   "comps": {
+    "Alert": {
+     "fields": {
+      "fontSize": 4,
+      "paragraphSpacing": 4
+     },
+     "n": 8
+    },
+    "Avatar": {
+     "fields": {
+      "fontSize": 8,
+      "paragraphSpacing": 8
+     },
+     "n": 16
+    },
+    "Avatar label group": {
+     "fields": {
+      "fontSize": 3,
+      "paragraphSpacing": 3
+     },
+     "n": 6
+    },
+    "Buttons/Button": {
+     "fields": {
+      "fontSize": 23,
+      "paragraphSpacing": 23
+     },
+     "n": 46
+    },
+    "Buttons/Button destructive": {
+     "fields": {
+      "fontSize": 11,
+      "paragraphSpacing": 11
+     },
+     "n": 22
+    },
+    "DS note": {
+     "fields": {
+      "fontSize": 1,
+      "paragraphSpacing": 1
+     },
+     "n": 2
+    },
+    "Input field": {
+     "fields": {
+      "fontSize": 54,
+      "paragraphSpacing": 54
+     },
+     "n": 108
+    },
+    "Radio / Checkbox": {
+     "fields": {
+      "fontSize": 32,
+      "paragraphSpacing": 32
+     },
+     "n": 64
+    },
+    "Radio group item": {
+     "fields": {
+      "fontSize": 128,
+      "paragraphSpacing": 128
+     },
+     "n": 256
+    },
+    "Select": {
+     "fields": {
+      "fontSize": 24,
+      "paragraphSpacing": 24
+     },
+     "n": 48
+    },
+    "Social button": {
+     "fields": {
+      "fontSize": 27,
+      "paragraphSpacing": 27
+     },
+     "n": 54
+    },
+    "Textarea input field": {
+     "fields": {
+      "fontSize": 9,
+      "paragraphSpacing": 9
+     },
+     "n": 18
+    },
+    "Textelement": {
+     "fields": {
+      "fontSize": 1,
+      "paragraphSpacing": 1
+     },
+     "n": 2
+    },
+    "_Control handle": {
+     "fields": {
+      "fontSize": 3,
+      "paragraphSpacing": 3
+     },
+     "n": 6
+    },
+    "_Date picker menu": {
+     "fields": {
+      "fontSize": 2,
+      "paragraphSpacing": 2
+     },
+     "n": 4
+    },
+    "_Documentation table cell": {
+     "fields": {
+      "fontSize": 8,
+      "paragraphSpacing": 8
+     },
+     "n": 16
+    },
+    "_Dropdown list item": {
+     "fields": {
+      "fontSize": 10,
+      "paragraphSpacing": 10
+     },
+     "n": 20
+    },
+    "_Modal header": {
+     "fields": {
+      "fontSize": 1,
+      "paragraphSpacing": 1
+     },
+     "n": 2
+    },
+    "_Nav item base": {
+     "fields": {
+      "fontSize": 6,
+      "paragraphSpacing": 6
+     },
+     "n": 12
+    },
+    "_Swatch base": {
+     "fields": {
+      "fontSize": 1,
+      "paragraphSpacing": 1
+     },
+     "n": 2
+    },
+    "_Type scale base": {
+     "fields": {
+      "fontSize": 2,
+      "paragraphSpacing": 2
+     },
+     "n": 4
+    }
+   },
+   "description": "",
+   "exactNameClash": [],
+   "groupPrefixExisting": false,
+   "hiddenFromPublishing": false,
+   "key": "42fe3b4f9782295a79cf9c1201ec38a1b9131a3c",
+   "lookalikes": [],
+   "modes": {
+    "Value": 16
+   },
+   "name": "Font size/text-md",
+   "otherLayers": 16,
+   "proposed": "font/size/base",
+   "remote": false,
+   "resolvedType": "FLOAT",
+   "scopes": [
+    "FONT_SIZE"
+   ],
+   "styles": [
+    "text: Text md/Regular",
+    "text: Text md/Medium",
+    "text: Text md/Semibold",
+    "text: Text md/Bold"
+   ]
+  }
+ },
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "pages": 39,
+ "readAt": "2026-11-09T19:59:53.156Z",
+ "summary": {
+  "VariableID:23468:2": {
+   "aliasedBy": 1,
+   "clash": 0,
+   "compBindings": 0,
+   "components": 0,
+   "name": "Colors/Gray (light mode)/450",
+   "otherLayers": 0,
+   "styles": 0
+  },
+  "VariableID:5248:377715": {
+   "aliasedBy": 12,
+   "clash": 0,
+   "compBindings": 0,
+   "components": 0,
+   "name": "Colors/Brand/600",
+   "otherLayers": 0,
+   "styles": 1
+  },
+  "VariableID:5253:372203": {
+   "aliasedBy": 1,
+   "clash": 0,
+   "compBindings": 0,
+   "components": 0,
+   "name": "Spacing/3 (12px)",
+   "otherLayers": 0,
+   "styles": 0
+  },
+  "VariableID:5263:373125": {
+   "aliasedBy": 0,
+   "clash": 0,
+   "compBindings": 34,
+   "components": 3,
+   "name": "Colors/Text/text-error-primary",
+   "otherLayers": 0,
+   "styles": 0
+  },
+  "VariableID:5270:371419": {
+   "aliasedBy": 0,
+   "clash": 0,
+   "compBindings": 151,
+   "components": 15,
+   "name": "Colors/Background/bg-brand-primary",
+   "otherLayers": 29,
+   "styles": 0
+  },
+  "VariableID:5270:371435": {
+   "aliasedBy": 0,
+   "clash": 0,
+   "compBindings": 420,
+   "components": 22,
+   "name": "Colors/Border/border-primary",
+   "otherLayers": 6,
+   "styles": 0
+  },
+  "VariableID:5353:380427": {
+   "aliasedBy": 1,
+   "clash": 0,
+   "compBindings": 20,
+   "components": 5,
+   "name": "Colors/Background/bg-brand-primary_hover",
+   "otherLayers": 0,
+   "styles": 0
+  },
+  "VariableID:6137:268549": {
+   "aliasedBy": 0,
+   "clash": 0,
+   "compBindings": 30,
+   "components": 2,
+   "name": "Colors/Text/text-brand-primary",
+   "otherLayers": 0,
+   "styles": 0
+  },
+  "VariableID:7371:212918": {
+   "aliasedBy": 0,
+   "clash": 0,
+   "compBindings": 167,
+   "components": 18,
+   "name": "Colors/Effects/Focus rings/focus-ring-primary",
+   "otherLayers": 1,
+   "styles": 3
+  },
+  "VariableID:7405:102287": {
+   "aliasedBy": 0,
+   "clash": 0,
+   "compBindings": 184,
+   "components": 21,
+   "name": "Font weight/semibold",
+   "otherLayers": 10,
+   "styles": 16
+  },
+  "VariableID:7407:110365": {
+   "aliasedBy": 0,
+   "clash": 0,
+   "compBindings": 716,
+   "components": 21,
+   "name": "Font size/text-md",
+   "otherLayers": 16,
+   "styles": 4
+  }
+ }
+}

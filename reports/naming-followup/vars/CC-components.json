@@ -1,0 +1,465 @@
+{
+ "check": "variables",
+ "collections": [
+  {
+   "count": 24,
+   "id": "VariableCollectionId:5256:372339",
+   "modes": [
+    "Light mode",
+    "Dark mode"
+   ],
+   "name": "1. Color modes",
+   "variables": [
+    {
+     "id": "VariableID:6179:409999",
+     "name": "Component colors/Components/App store badges/app-store-badge-border",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377686",
+       "collection": "_Primitives",
+       "name": "Colors/Base/white"
+      },
+      "Light mode": "#a6a6a6"
+     }
+    },
+    {
+     "id": "VariableID:7318:479624",
+     "name": "Component colors/Components/Avatars/avatar-styles-bg-neutral",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": "#e0e0e0",
+      "Light mode": "#e0e0e0"
+     }
+    },
+    {
+     "id": "VariableID:8818:78315",
+     "name": "Component colors/Components/Buttons/button-primary-icon",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377712",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377712",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/300"
+      }
+     }
+    },
+    {
+     "id": "VariableID:8818:112060",
+     "name": "Component colors/Components/Buttons/button-primary-icon_hover",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377711",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/200"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377711",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/200"
+      }
+     }
+    },
+    {
+     "id": "VariableID:8818:582703",
+     "name": "Component colors/Components/Buttons/button-destructive-primary-icon",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377724",
+       "collection": "_Primitives",
+       "name": "Colors/Error/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377724",
+       "collection": "_Primitives",
+       "name": "Colors/Error/300"
+      }
+     }
+    },
+    {
+     "id": "VariableID:8818:582704",
+     "name": "Component colors/Components/Buttons/button-destructive-primary-icon_hover",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377723",
+       "collection": "_Primitives",
+       "name": "Colors/Error/200"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377723",
+       "collection": "_Primitives",
+       "name": "Colors/Error/200"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6179:408305",
+     "name": "Component colors/Components/Footers/footer-button-fg",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87757",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377711",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/200"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6179:408311",
+     "name": "Component colors/Components/Footers/footer-button-fg_hover",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87755",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/100"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377686",
+       "collection": "_Primitives",
+       "name": "Colors/Base/white"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6169:481087",
+     "name": "Component colors/Components/Icons/Icons/icon-fg-brand",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87758",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377715",
+       "collection": "_Primitives",
+       "name": "color/brand/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6169:489279",
+     "name": "Component colors/Components/Icons/Icons/icon-fg-brand_on-brand",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87758",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377711",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/200"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5807:420926",
+     "name": "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-brand",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377711",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/200"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377715",
+       "collection": "_Primitives",
+       "name": "color/brand/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5807:420927",
+     "name": "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-gray",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87756",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/200"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377702",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5807:420928",
+     "name": "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-error",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377723",
+       "collection": "_Primitives",
+       "name": "Colors/Error/200"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377727",
+       "collection": "_Primitives",
+       "name": "Colors/Error/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5807:420929",
+     "name": "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-warning",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377735",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/200"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377739",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5807:420930",
+     "name": "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-success",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377749",
+       "collection": "_Primitives",
+       "name": "Colors/Success/200"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377753",
+       "collection": "_Primitives",
+       "name": "Colors/Success/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6132:238837",
+     "name": "Component colors/Components/Mockups/screen-mockup-border",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87761",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/700"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377706",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/900"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6051:432901",
+     "name": "Component colors/Components/Sliders/slider-handle-bg",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5366:382188",
+       "collection": "1. Color modes",
+       "name": "Colors/Foreground/fg-brand-primary (600)"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377686",
+       "collection": "_Primitives",
+       "name": "Colors/Base/white"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6051:432900",
+     "name": "Component colors/Components/Sliders/slider-handle-border",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5269:371407",
+       "collection": "1. Color modes",
+       "name": "Colors/Background/bg-primary"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377715",
+       "collection": "_Primitives",
+       "name": "color/brand/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6305:239517",
+     "name": "Component colors/Components/Toggles/toggle-button-fg_disabled",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87760",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377696",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/50"
+      }
+     }
+    },
+    {
+     "id": "VariableID:7923:539396",
+     "name": "Component colors/Components/Toggles/toggle-border",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5353:380363",
+       "collection": "_Primitives",
+       "name": "Colors/Base/transparent"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377700",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/300"
+      }
+     }
+    },
+    {
+     "id": "VariableID:7923:539867",
+     "name": "Component colors/Components/Toggles/toggle-slim-border_pressed-hover",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5353:380363",
+       "collection": "_Primitives",
+       "name": "Colors/Base/transparent"
+      },
+      "Light mode": {
+       "alias": "VariableID:5353:380427",
+       "collection": "1. Color modes",
+       "name": "color/bg/brand-primary-hover"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5376:386375",
+     "name": "Component colors/Components/Tooltips/tooltip-supporting-text",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87757",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377700",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/300"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5422:397822",
+     "name": "Component colors/Components/Text editor/text-editor-icon-fg",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87758",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377701",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5422:397823",
+     "name": "Component colors/Components/Text editor/text-editor-icon-fg_active",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377686",
+       "collection": "_Primitives",
+       "name": "Colors/Base/white"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377702",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/500"
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "prefix": "Component colors/Components/",
+ "readAt": "2026-11-09T20:53:30.176Z",
+ "run": "group-audit",
+ "slim": false
+}

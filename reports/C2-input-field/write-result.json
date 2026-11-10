@@ -1,0 +1,26 @@
+{
+ "exposedHelpers": 53,
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "helperProps": [
+  "Text#23530:0",
+  "Size",
+  "Status"
+ ],
+ "helperTextLayers": 15,
+ "helperTextProp": "Text#23530:0",
+ "inputProps": [
+  "Label#23498:0",
+  "Text#23498:54",
+  "Show helper#23530:16",
+  "Show optional#23530:70",
+  "Size",
+  "Type",
+  "Destructive",
+  "State"
+ ],
+ "instancesChecked": 26,
+ "optionalBound": 40,
+ "showHelper": "Show helper#23530:16",
+ "showOptional": "Show optional#23530:70",
+ "writtenAt": "2026-11-10T05:36:51.258Z"
+}

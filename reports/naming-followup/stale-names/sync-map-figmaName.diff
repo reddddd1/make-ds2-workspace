@@ -1,0 +1,100 @@
+--- a/sync/figma-variable-map.PpnTy1pkB2FTZFq6i6seSy.json	2026-11-09 17:55:57
++++ b/sync/figma-variable-map.PpnTy1pkB2FTZFq6i6seSy.json	2026-11-09 20:52:27
+@@ -6,14 +6,14 @@
+   "color.bg.brand-primary": {
+    "collection": "1. Color modes",
+    "variableId": "VariableID:5270:371419",
+-   "figmaName": "Colors/Background/bg-brand-primary",
++   "figmaName": "color/bg/brand-primary",
+    "status": "proposed",
+    "lastSynced": null
+   },
+   "color.bg.brand-primary-hover": {
+    "collection": "1. Color modes",
+    "variableId": "VariableID:5353:380427",
+-   "figmaName": "Colors/Background/bg-brand-primary_hover",
++   "figmaName": "color/bg/brand-primary-hover",
+    "status": "proposed",
+    "lastSynced": null
+   },
+@@ -34,7 +34,7 @@
+   "color.border.primary": {
+    "collection": "1. Color modes",
+    "variableId": "VariableID:5270:371435",
+-   "figmaName": "Colors/Border/border-primary",
++   "figmaName": "color/border/primary",
+    "status": "proposed",
+    "lastSynced": null
+   },
+@@ -83,7 +83,7 @@
+   "color.brand.600": {
+    "collection": "_Primitives",
+    "variableId": "VariableID:5248:377715",
+-   "figmaName": "Colors/Brand/600",
++   "figmaName": "color/brand/600",
+    "status": "proposed",
+    "lastSynced": null
+   },
+@@ -153,7 +153,7 @@
+   "color.focus-ring.primary": {
+    "collection": "1. Color modes",
+    "variableId": "VariableID:7371:212918",
+-   "figmaName": "Colors/Effects/Focus rings/focus-ring-primary",
++   "figmaName": "color/focus-ring/primary",
+    "status": "proposed",
+    "lastSynced": null
+   },
+@@ -286,7 +286,7 @@
+   "color.gray.450": {
+    "collection": "_Primitives",
+    "variableId": "VariableID:23468:2",
+-   "figmaName": "Colors/Gray (light mode)/450",
++   "figmaName": "color/gray/450",
+    "status": "created by P2-01 (row R1, approved 2026-11-09)",
+    "lastSynced": null
+   },
+@@ -419,7 +419,7 @@
+   "color.text.brand-primary": {
+    "collection": "1. Color modes",
+    "variableId": "VariableID:6137:268549",
+-   "figmaName": "Colors/Text/text-brand-primary",
++   "figmaName": "color/text/brand-primary",
+    "status": "proposed",
+    "lastSynced": null
+   },
+@@ -433,7 +433,7 @@
+   "color.text.error-primary": {
+    "collection": "1. Color modes",
+    "variableId": "VariableID:5263:373125",
+-   "figmaName": "Colors/Text/text-error-primary",
++   "figmaName": "color/text/error-primary",
+    "status": "proposed",
+    "lastSynced": null
+   },
+@@ -559,7 +559,7 @@
+   "font.size.base": {
+    "collection": "6. Typography",
+    "variableId": "VariableID:7407:110365",
+-   "figmaName": "Font size/text-md",
++   "figmaName": "font/size/base",
+    "status": "proposed",
+    "lastSynced": null
+   },
+@@ -594,7 +594,7 @@
+   "font.weight.semibold": {
+    "collection": "6. Typography",
+    "variableId": "VariableID:7405:102287",
+-   "figmaName": "Font weight/semibold",
++   "figmaName": "font/weight/semibold",
+    "status": "proposed",
+    "lastSynced": null
+   },
+@@ -790,7 +790,7 @@
+   "spacing.3": {
+    "collection": "_Primitives",
+    "variableId": "VariableID:5253:372203",
+-   "figmaName": "Spacing/3 (12px)",
++   "figmaName": "spacing/3",
+    "status": "proposed",
+    "lastSynced": null
+   },

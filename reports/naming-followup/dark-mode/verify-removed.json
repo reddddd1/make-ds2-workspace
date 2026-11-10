@@ -1,0 +1,44 @@
+{
+ "lastPages": [
+  [
+   "1291:157819",
+   "      ↳ Miscellaneous assets"
+  ],
+  [
+   "17557:14958",
+   "      ↳ Archive/Sources/Playground"
+  ],
+  [
+   "23518:2",
+   "🧪 Regression scratch (temporary)"
+  ]
+ ],
+ "nodesGone": [
+  [
+   "23518:3",
+   true
+  ],
+  [
+   "23518:5",
+   true
+  ],
+  [
+   "23518:110",
+   true
+  ],
+  [
+   "23518:242",
+   true
+  ],
+  [
+   "23518:379",
+   true
+  ]
+ ],
+ "pageCount": 40,
+ "scratchPage": [
+  "23518:2",
+  "🧪 Regression scratch (temporary)",
+  0
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "Primary Default": {
+  "effectStyle": null,
+  "effects": 0,
+  "fill": [
+   "#5656f3 ← color/bg/brand-primary"
+  ],
+  "label": [
+   "#ffffff ← Colors/Text/text-white"
+  ],
+  "stroke": []
+ },
+ "Primary Disabled": {
+  "effectStyle": null,
+  "effects": 0,
+  "fill": [
+   "#f5f5f5 ← Colors/Background/bg-disabled"
+  ],
+  "label": [
+   "#a4a7ae ← Colors/Foreground/fg-disabled"
+  ],
+  "stroke": [
+   "#e9eaeb ← Colors/Border/border-disabled_subtle"
+  ]
+ },
+ "Primary Hover": {
+  "effectStyle": null,
+  "effects": 0,
+  "fill": [
+   "#2323f0 ← color/bg/brand-primary-hover"
+  ],
+  "label": [
+   "#ffffff ← Colors/Text/text-white"
+  ],
+  "stroke": []
+ },
+ "Primary Pressed": {
+  "effectStyle": null,
+  "effects": 0,
+  "fill": [
+   "#2323f0 ← color/bg/brand-primary-hover"
+  ],
+  "label": [
+   "#ffffff ← Colors/Text/text-white"
+  ],
+  "stroke": []
+ },
+ "Primary_alt Default": {
+  "effectStyle": null,
+  "effects": 0,
+  "fill": [
+   "#d0ff00 ← Colors/Green lime/500"
+  ],
+  "label": [
+   "#000000 ← Colors/Text/text-primary_on-brandsecondary"
+  ],
+  "stroke": []
+ },
+ "Primary_alt Hover": {
+  "effectStyle": null,
+  "effects": 0,
+  "fill": [
+   "#d0ff00 ← Colors/Green lime/500"
+  ],
+  "label": [
+   "#000000 ← Colors/Text/text-primary_on-brandsecondary"
+  ],
+  "stroke": []
+ },
+ "Primary_alt Pressed": {
+  "effectStyle": null,
+  "effects": 0,
+  "fill": [
+   "#d0ff00 ← Colors/Green lime/500"
+  ],
+  "label": [
+   "#000000 ← Colors/Text/text-primary_on-brandsecondary"
+  ],
+  "stroke": []
+ }
+}

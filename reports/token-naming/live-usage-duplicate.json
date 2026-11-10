@@ -1,0 +1,5809 @@
+{
+ "countingRule": "v2: node.boundVariables entries only",
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "owners": 95,
+ "readAt": "2026-11-09T20:02:10.249Z",
+ "readAtPart2": "2026-11-09T20:02:14.057Z",
+ "script": "scripts/naming/live-usage-scan.js (PART 0 and 1, merged)",
+ "styles": {
+  "VariableID:17488:8405": {
+   "ex": [
+    "text: Text xxs/Regular",
+    "text: Text xxs/Medium",
+    "text: Text xxs/Semibold"
+   ],
+   "n": 4
+  },
+  "VariableID:17488:8409": {
+   "ex": [
+    "text: Display xxs/Regular",
+    "text: Display xxs/Medium",
+    "text: Display xxs/Semibold"
+   ],
+   "n": 12
+  },
+  "VariableID:17490:23031": {
+   "ex": [
+    "paint: Icon background/My wallet",
+    "paint: Icon background/My card"
+   ],
+   "n": 2
+  },
+  "VariableID:17496:23386": {
+   "ex": [
+    "effect: Focus rings/focus-ring-shadow-primaryalt-xs"
+   ],
+   "n": 1
+  },
+  "VariableID:21372:1655": {
+   "ex": [
+    "effect: Focus rings/focus-ring-shadow-secondary-xs"
+   ],
+   "n": 1
+  },
+  "VariableID:21490:3737": {
+   "ex": [
+    "text: Text xxl/Regular",
+    "text: Text xxl/Medium",
+    "text: Text xxl/Semibold"
+   ],
+   "n": 4
+  },
+  "VariableID:5248:377686": {
+   "ex": [
+    "paint: Base/White"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377687": {
+   "ex": [
+    "paint: Base/Black"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377690": {
+   "ex": [
+    "paint: Gray (light mode)/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377691": {
+   "ex": [
+    "paint: Gray blue/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377692": {
+   "ex": [
+    "paint: Gray cool/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377693": {
+   "ex": [
+    "paint: Gray modern/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377694": {
+   "ex": [
+    "paint: Gray neutral/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377696": {
+   "ex": [
+    "paint: Gray (light mode)/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377697": {
+   "ex": [
+    "paint: Gray neutral/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377698": {
+   "ex": [
+    "paint: Gray (light mode)/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377699": {
+   "ex": [
+    "paint: Gray (light mode)/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377700": {
+   "ex": [
+    "paint: Gray (light mode)/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377701": {
+   "ex": [
+    "paint: Gray (light mode)/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377702": {
+   "ex": [
+    "paint: Gray (light mode)/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377703": {
+   "ex": [
+    "paint: Gray (light mode)/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377704": {
+   "ex": [
+    "paint: Gray (light mode)/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377705": {
+   "ex": [
+    "paint: Gray (light mode)/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377706": {
+   "ex": [
+    "paint: Gray (light mode)/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377707": {
+   "ex": [
+    "paint: Gray (light mode)/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377708": {
+   "ex": [
+    "paint: Brand/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377709": {
+   "ex": [
+    "paint: Brand/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377710": {
+   "ex": [
+    "paint: Brand/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377711": {
+   "ex": [
+    "paint: Brand/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377712": {
+   "ex": [
+    "paint: Brand/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377713": {
+   "ex": [
+    "paint: Brand/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377714": {
+   "ex": [
+    "paint: Brand/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377715": {
+   "ex": [
+    "paint: Brand/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377716": {
+   "ex": [
+    "paint: Brand/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377717": {
+   "ex": [
+    "paint: Brand/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377718": {
+   "ex": [
+    "paint: Brand/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377719": {
+   "ex": [
+    "paint: Brand/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377720": {
+   "ex": [
+    "paint: Error/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377721": {
+   "ex": [
+    "paint: Error/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377722": {
+   "ex": [
+    "paint: Error/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377723": {
+   "ex": [
+    "paint: Error/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377724": {
+   "ex": [
+    "paint: Error/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377725": {
+   "ex": [
+    "paint: Error/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377726": {
+   "ex": [
+    "paint: Error/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377727": {
+   "ex": [
+    "paint: Error/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377728": {
+   "ex": [
+    "paint: Error/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377729": {
+   "ex": [
+    "paint: Error/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377730": {
+   "ex": [
+    "paint: Error/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377731": {
+   "ex": [
+    "paint: Error/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377732": {
+   "ex": [
+    "paint: Warning/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377733": {
+   "ex": [
+    "paint: Warning/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377734": {
+   "ex": [
+    "paint: Warning/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377735": {
+   "ex": [
+    "paint: Warning/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377736": {
+   "ex": [
+    "paint: Warning/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377737": {
+   "ex": [
+    "paint: Warning/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377738": {
+   "ex": [
+    "paint: Warning/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377739": {
+   "ex": [
+    "paint: Warning/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377740": {
+   "ex": [
+    "paint: Warning/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377741": {
+   "ex": [
+    "paint: Warning/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377742": {
+   "ex": [
+    "paint: Warning/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377743": {
+   "ex": [
+    "paint: Warning/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377745": {
+   "ex": [
+    "paint: Success/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377746": {
+   "ex": [
+    "paint: Green/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377747": {
+   "ex": [
+    "paint: Success/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377748": {
+   "ex": [
+    "paint: Success/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377749": {
+   "ex": [
+    "paint: Success/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377750": {
+   "ex": [
+    "paint: Success/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377751": {
+   "ex": [
+    "paint: Success/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377752": {
+   "ex": [
+    "paint: Success/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377753": {
+   "ex": [
+    "paint: Success/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377754": {
+   "ex": [
+    "paint: Success/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377755": {
+   "ex": [
+    "paint: Success/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377756": {
+   "ex": [
+    "paint: Success/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377757": {
+   "ex": [
+    "paint: Success/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377758": {
+   "ex": [
+    "paint: Gray blue/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377759": {
+   "ex": [
+    "paint: Gray blue/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377760": {
+   "ex": [
+    "paint: Gray blue/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377761": {
+   "ex": [
+    "paint: Gray blue/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377762": {
+   "ex": [
+    "paint: Gray blue/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377763": {
+   "ex": [
+    "paint: Gray blue/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377764": {
+   "ex": [
+    "paint: Gray blue/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377765": {
+   "ex": [
+    "paint: Gray blue/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377766": {
+   "ex": [
+    "paint: Gray blue/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377767": {
+   "ex": [
+    "paint: Gray blue/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377768": {
+   "ex": [
+    "paint: Gray blue/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377769": {
+   "ex": [
+    "paint: Gray cool/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377770": {
+   "ex": [
+    "paint: Gray cool/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377771": {
+   "ex": [
+    "paint: Gray cool/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377772": {
+   "ex": [
+    "paint: Gray cool/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377773": {
+   "ex": [
+    "paint: Gray cool/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377774": {
+   "ex": [
+    "paint: Gray cool/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377775": {
+   "ex": [
+    "paint: Gray cool/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377776": {
+   "ex": [
+    "paint: Gray cool/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377777": {
+   "ex": [
+    "paint: Gray cool/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377778": {
+   "ex": [
+    "paint: Gray cool/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377780": {
+   "ex": [
+    "paint: Gray modern/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377781": {
+   "ex": [
+    "paint: Gray modern/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377782": {
+   "ex": [
+    "paint: Gray modern/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377783": {
+   "ex": [
+    "paint: Gray modern/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377784": {
+   "ex": [
+    "paint: Gray modern/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377785": {
+   "ex": [
+    "paint: Gray modern/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377786": {
+   "ex": [
+    "paint: Gray modern/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377787": {
+   "ex": [
+    "paint: Gray modern/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377788": {
+   "ex": [
+    "paint: Gray modern/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377789": {
+   "ex": [
+    "paint: Gray modern/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377793": {
+   "ex": [
+    "paint: Gray neutral/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377794": {
+   "ex": [
+    "paint: Gray neutral/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377795": {
+   "ex": [
+    "paint: Gray neutral/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377796": {
+   "ex": [
+    "paint: Gray neutral/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377797": {
+   "ex": [
+    "paint: Gray neutral/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377798": {
+   "ex": [
+    "paint: Gray neutral/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377799": {
+   "ex": [
+    "paint: Gray neutral/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377800": {
+   "ex": [
+    "paint: Gray neutral/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377801": {
+   "ex": [
+    "paint: Gray neutral/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377803": {
+   "ex": [
+    "paint: Gray iron/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377804": {
+   "ex": [
+    "paint: Gray true/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377806": {
+   "ex": [
+    "paint: Gray iron/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377807": {
+   "ex": [
+    "paint: Gray true/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377808": {
+   "ex": [
+    "paint: Gray iron/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377809": {
+   "ex": [
+    "paint: Gray iron/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377810": {
+   "ex": [
+    "paint: Gray iron/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377811": {
+   "ex": [
+    "paint: Gray iron/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377812": {
+   "ex": [
+    "paint: Gray iron/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377813": {
+   "ex": [
+    "paint: Gray iron/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377814": {
+   "ex": [
+    "paint: Gray iron/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377815": {
+   "ex": [
+    "paint: Gray iron/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377816": {
+   "ex": [
+    "paint: Gray iron/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377818": {
+   "ex": [
+    "paint: Gray true/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377819": {
+   "ex": [
+    "paint: Gray true/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377820": {
+   "ex": [
+    "paint: Gray true/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377821": {
+   "ex": [
+    "paint: Gray true/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377822": {
+   "ex": [
+    "paint: Gray true/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377823": {
+   "ex": [
+    "paint: Gray true/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377824": {
+   "ex": [
+    "paint: Gray true/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377828": {
+   "ex": [
+    "paint: Gray warm/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377829": {
+   "ex": [
+    "paint: Gray warm/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377830": {
+   "ex": [
+    "paint: Gray warm/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377831": {
+   "ex": [
+    "paint: Gray warm/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377832": {
+   "ex": [
+    "paint: Gray warm/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377833": {
+   "ex": [
+    "paint: Gray warm/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377834": {
+   "ex": [
+    "paint: Gray warm/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377835": {
+   "ex": [
+    "paint: Gray warm/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377836": {
+   "ex": [
+    "paint: Gray warm/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377837": {
+   "ex": [
+    "paint: Gray warm/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377838": {
+   "ex": [
+    "paint: Gray warm/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377839": {
+   "ex": [
+    "paint: Gray warm/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377840": {
+   "ex": [
+    "paint: Moss/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377841": {
+   "ex": [
+    "paint: Moss/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377842": {
+   "ex": [
+    "paint: Moss/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377843": {
+   "ex": [
+    "paint: Moss/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377844": {
+   "ex": [
+    "paint: Moss/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377845": {
+   "ex": [
+    "paint: Moss/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377846": {
+   "ex": [
+    "paint: Moss/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377847": {
+   "ex": [
+    "paint: Moss/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377848": {
+   "ex": [
+    "paint: Moss/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377849": {
+   "ex": [
+    "paint: Moss/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377850": {
+   "ex": [
+    "paint: Moss/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377852": {
+   "ex": [
+    "paint: Green light/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377853": {
+   "ex": [
+    "paint: Green light/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377854": {
+   "ex": [
+    "paint: Green light/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377855": {
+   "ex": [
+    "paint: Green light/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377856": {
+   "ex": [
+    "paint: Green light/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377857": {
+   "ex": [
+    "paint: Green light/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377858": {
+   "ex": [
+    "paint: Green light/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377859": {
+   "ex": [
+    "paint: Green light/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377860": {
+   "ex": [
+    "paint: Green light/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377861": {
+   "ex": [
+    "paint: Green light/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377862": {
+   "ex": [
+    "paint: Green light/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377864": {
+   "ex": [
+    "paint: Green/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377865": {
+   "ex": [
+    "paint: Green/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377866": {
+   "ex": [
+    "paint: Green/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377867": {
+   "ex": [
+    "paint: Green/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377868": {
+   "ex": [
+    "paint: Green/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377869": {
+   "ex": [
+    "paint: Green/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377870": {
+   "ex": [
+    "paint: Green/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377871": {
+   "ex": [
+    "paint: Green/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377872": {
+   "ex": [
+    "paint: Green/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377873": {
+   "ex": [
+    "paint: Green/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377876": {
+   "ex": [
+    "paint: Teal/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377877": {
+   "ex": [
+    "paint: Teal/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377878": {
+   "ex": [
+    "paint: Teal/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377879": {
+   "ex": [
+    "paint: Teal/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377880": {
+   "ex": [
+    "paint: Teal/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377881": {
+   "ex": [
+    "paint: Teal/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377882": {
+   "ex": [
+    "paint: Teal/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377883": {
+   "ex": [
+    "paint: Teal/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377884": {
+   "ex": [
+    "paint: Teal/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377885": {
+   "ex": [
+    "paint: Teal/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377888": {
+   "ex": [
+    "paint: Cyan/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377889": {
+   "ex": [
+    "paint: Cyan/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377890": {
+   "ex": [
+    "paint: Cyan/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377891": {
+   "ex": [
+    "paint: Cyan/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377892": {
+   "ex": [
+    "paint: Cyan/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377893": {
+   "ex": [
+    "paint: Cyan/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377894": {
+   "ex": [
+    "paint: Cyan/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377895": {
+   "ex": [
+    "paint: Cyan/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377896": {
+   "ex": [
+    "paint: Cyan/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377897": {
+   "ex": [
+    "paint: Cyan/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377898": {
+   "ex": [
+    "paint: Cyan/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377899": {
+   "ex": [
+    "paint: Blue light/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377900": {
+   "ex": [
+    "paint: Blue light/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377901": {
+   "ex": [
+    "paint: Blue light/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377902": {
+   "ex": [
+    "paint: Blue light/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377903": {
+   "ex": [
+    "paint: Blue light/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377904": {
+   "ex": [
+    "paint: Blue light/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377905": {
+   "ex": [
+    "paint: Blue light/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377906": {
+   "ex": [
+    "paint: Blue light/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377907": {
+   "ex": [
+    "paint: Blue light/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377908": {
+   "ex": [
+    "paint: Blue light/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377909": {
+   "ex": [
+    "paint: Blue light/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377910": {
+   "ex": [
+    "paint: Blue light/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377911": {
+   "ex": [
+    "paint: Blue/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377912": {
+   "ex": [
+    "paint: Blue/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377913": {
+   "ex": [
+    "paint: Blue/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377914": {
+   "ex": [
+    "paint: Blue/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377915": {
+   "ex": [
+    "paint: Blue/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377916": {
+   "ex": [
+    "paint: Blue/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377917": {
+   "ex": [
+    "paint: Blue/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377918": {
+   "ex": [
+    "paint: Blue/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377919": {
+   "ex": [
+    "paint: Blue/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377920": {
+   "ex": [
+    "paint: Blue/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377921": {
+   "ex": [
+    "paint: Blue/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377922": {
+   "ex": [
+    "paint: Blue/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377924": {
+   "ex": [
+    "paint: Blue dark/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377925": {
+   "ex": [
+    "paint: Indigo/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377926": {
+   "ex": [
+    "paint: Blue dark/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377927": {
+   "ex": [
+    "paint: Blue dark/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377928": {
+   "ex": [
+    "paint: Blue dark/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377929": {
+   "ex": [
+    "paint: Blue dark/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377930": {
+   "ex": [
+    "paint: Blue dark/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377931": {
+   "ex": [
+    "paint: Blue dark/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377932": {
+   "ex": [
+    "paint: Blue dark/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377933": {
+   "ex": [
+    "paint: Blue dark/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377934": {
+   "ex": [
+    "paint: Blue dark/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377935": {
+   "ex": [
+    "paint: Blue dark/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377937": {
+   "ex": [
+    "paint: Indigo/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377938": {
+   "ex": [
+    "paint: Indigo/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377939": {
+   "ex": [
+    "paint: Indigo/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377940": {
+   "ex": [
+    "paint: Indigo/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377941": {
+   "ex": [
+    "paint: Indigo/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377942": {
+   "ex": [
+    "paint: Indigo/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377943": {
+   "ex": [
+    "paint: Indigo/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377944": {
+   "ex": [
+    "paint: Indigo/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377945": {
+   "ex": [
+    "paint: Indigo/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377946": {
+   "ex": [
+    "paint: Indigo/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377947": {
+   "ex": [
+    "paint: Indigo/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377948": {
+   "ex": [
+    "paint: Violet/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377949": {
+   "ex": [
+    "paint: Violet/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377950": {
+   "ex": [
+    "paint: Violet/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377951": {
+   "ex": [
+    "paint: Violet/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377952": {
+   "ex": [
+    "paint: Violet/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377953": {
+   "ex": [
+    "paint: Violet/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377954": {
+   "ex": [
+    "paint: Violet/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377955": {
+   "ex": [
+    "paint: Violet/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377956": {
+   "ex": [
+    "paint: Violet/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377957": {
+   "ex": [
+    "paint: Violet/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377958": {
+   "ex": [
+    "paint: Violet/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377960": {
+   "ex": [
+    "paint: Purple/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377961": {
+   "ex": [
+    "paint: Purple/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377962": {
+   "ex": [
+    "paint: Purple/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377963": {
+   "ex": [
+    "paint: Purple/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377964": {
+   "ex": [
+    "paint: Purple/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377965": {
+   "ex": [
+    "paint: Purple/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377966": {
+   "ex": [
+    "paint: Purple/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377967": {
+   "ex": [
+    "paint: Purple/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377968": {
+   "ex": [
+    "paint: Purple/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377969": {
+   "ex": [
+    "paint: Purple/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377970": {
+   "ex": [
+    "paint: Purple/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377971": {
+   "ex": [
+    "paint: Purple/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377972": {
+   "ex": [
+    "paint: Fuchsia/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377973": {
+   "ex": [
+    "paint: Fuchsia/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377974": {
+   "ex": [
+    "paint: Fuchsia/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377975": {
+   "ex": [
+    "paint: Fuchsia/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377976": {
+   "ex": [
+    "paint: Fuchsia/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377977": {
+   "ex": [
+    "paint: Fuchsia/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377978": {
+   "ex": [
+    "paint: Fuchsia/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377979": {
+   "ex": [
+    "paint: Fuchsia/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377980": {
+   "ex": [
+    "paint: Fuchsia/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377981": {
+   "ex": [
+    "paint: Fuchsia/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377982": {
+   "ex": [
+    "paint: Fuchsia/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377984": {
+   "ex": [
+    "paint: Pink/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377985": {
+   "ex": [
+    "paint: Pink/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377986": {
+   "ex": [
+    "paint: Pink/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377987": {
+   "ex": [
+    "paint: Pink/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377988": {
+   "ex": [
+    "paint: Pink/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377989": {
+   "ex": [
+    "paint: Pink/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377990": {
+   "ex": [
+    "paint: Pink/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377991": {
+   "ex": [
+    "paint: Pink/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377992": {
+   "ex": [
+    "paint: Pink/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377993": {
+   "ex": [
+    "paint: Pink/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377994": {
+   "ex": [
+    "paint: Pink/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377995": {
+   "ex": [
+    "paint: Pink/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377996": {
+   "ex": [
+    "paint: Rosé/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377997": {
+   "ex": [
+    "paint: Rosé/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377998": {
+   "ex": [
+    "paint: Rosé/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:377999": {
+   "ex": [
+    "paint: Rosé/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378000": {
+   "ex": [
+    "paint: Rosé/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378001": {
+   "ex": [
+    "paint: Rosé/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378002": {
+   "ex": [
+    "paint: Rosé/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378003": {
+   "ex": [
+    "paint: Rosé/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378004": {
+   "ex": [
+    "paint: Rosé/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378005": {
+   "ex": [
+    "paint: Rosé/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378006": {
+   "ex": [
+    "paint: Rosé/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378007": {
+   "ex": [
+    "paint: Rosé/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378008": {
+   "ex": [
+    "paint: Orange dark/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378009": {
+   "ex": [
+    "paint: Orange dark/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378010": {
+   "ex": [
+    "paint: Orange dark/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378011": {
+   "ex": [
+    "paint: Orange dark/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378012": {
+   "ex": [
+    "paint: Orange dark/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378013": {
+   "ex": [
+    "paint: Orange dark/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378014": {
+   "ex": [
+    "paint: Orange dark/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378015": {
+   "ex": [
+    "paint: Orange dark/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378016": {
+   "ex": [
+    "paint: Orange dark/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378017": {
+   "ex": [
+    "paint: Orange dark/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378018": {
+   "ex": [
+    "paint: Orange dark/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378019": {
+   "ex": [
+    "paint: Orange dark/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378020": {
+   "ex": [
+    "paint: Orange/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378021": {
+   "ex": [
+    "paint: Orange/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378022": {
+   "ex": [
+    "paint: Orange/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378023": {
+   "ex": [
+    "paint: Orange/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378024": {
+   "ex": [
+    "paint: Orange/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378025": {
+   "ex": [
+    "paint: Orange/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378026": {
+   "ex": [
+    "paint: Orange/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378027": {
+   "ex": [
+    "paint: Orange/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378028": {
+   "ex": [
+    "paint: Orange/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378029": {
+   "ex": [
+    "paint: Orange/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378030": {
+   "ex": [
+    "paint: Orange/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378031": {
+   "ex": [
+    "paint: Orange/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378032": {
+   "ex": [
+    "paint: Yellow/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378033": {
+   "ex": [
+    "paint: Yellow/50"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378034": {
+   "ex": [
+    "paint: Yellow/100"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378037": {
+   "ex": [
+    "paint: Yellow/400"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378038": {
+   "ex": [
+    "paint: Yellow/500"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378039": {
+   "ex": [
+    "paint: Yellow/600"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378040": {
+   "ex": [
+    "paint: Yellow/700"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378041": {
+   "ex": [
+    "paint: Yellow/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378042": {
+   "ex": [
+    "paint: Yellow/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378674": {
+   "ex": [
+    "paint: Gray cool/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378675": {
+   "ex": [
+    "paint: Gray modern/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378676": {
+   "ex": [
+    "paint: Gray neutral/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378678": {
+   "ex": [
+    "paint: Gray iron/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378685": {
+   "ex": [
+    "paint: Gray true/800"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378686": {
+   "ex": [
+    "paint: Gray true/900"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378687": {
+   "ex": [
+    "paint: Gray true/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378691": {
+   "ex": [
+    "paint: Moss/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378692": {
+   "ex": [
+    "paint: Green light/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378693": {
+   "ex": [
+    "paint: Green/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378694": {
+   "ex": [
+    "paint: Teal/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378695": {
+   "ex": [
+    "paint: Teal/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5248:378696": {
+   "ex": [
+    "paint: Cyan/25"
+   ],
+   "n": 1
+  },
+  "VariableID:5253:372192": {
+   "ex": [
+    "paint: Blue dark/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5253:372193": {
+   "ex": [
+    "paint: Violet/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5253:372194": {
+   "ex": [
+    "paint: Fuchsia/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5253:372195": {
+   "ex": [
+    "paint: Yellow/950"
+   ],
+   "n": 1
+  },
+  "VariableID:5253:372196": {
+   "ex": [
+    "paint: Yellow/200"
+   ],
+   "n": 1
+  },
+  "VariableID:5253:372197": {
+   "ex": [
+    "paint: Yellow/300"
+   ],
+   "n": 1
+  },
+  "VariableID:5269:371407": {
+   "ex": [
+    "effect: Focus rings/focus-ring",
+    "effect: Focus rings/focus-ring-shadow-primaryalt-xs",
+    "effect: Focus rings/focus-ring-shadow-primary-xs"
+   ],
+   "n": 8
+  },
+  "VariableID:6670:87753": {
+   "ex": [
+    "paint: Gray (dark mode)/25"
+   ],
+   "n": 1
+  },
+  "VariableID:6671:87754": {
+   "ex": [
+    "paint: Gray (dark mode)/50"
+   ],
+   "n": 1
+  },
+  "VariableID:6671:87755": {
+   "ex": [
+    "paint: Gray (dark mode)/100"
+   ],
+   "n": 1
+  },
+  "VariableID:6671:87756": {
+   "ex": [
+    "paint: Gray (dark mode)/200"
+   ],
+   "n": 1
+  },
+  "VariableID:6671:87757": {
+   "ex": [
+    "paint: Gray (dark mode)/300"
+   ],
+   "n": 1
+  },
+  "VariableID:6671:87758": {
+   "ex": [
+    "paint: Gray (dark mode)/400"
+   ],
+   "n": 1
+  },
+  "VariableID:6671:87759": {
+   "ex": [
+    "paint: Gray (dark mode)/500"
+   ],
+   "n": 1
+  },
+  "VariableID:6671:87760": {
+   "ex": [
+    "paint: Gray (dark mode)/600"
+   ],
+   "n": 1
+  },
+  "VariableID:6671:87761": {
+   "ex": [
+    "paint: Gray (dark mode)/700"
+   ],
+   "n": 1
+  },
+  "VariableID:6671:87762": {
+   "ex": [
+    "paint: Gray (dark mode)/800"
+   ],
+   "n": 1
+  },
+  "VariableID:6671:87763": {
+   "ex": [
+    "paint: Gray (dark mode)/900"
+   ],
+   "n": 1
+  },
+  "VariableID:6671:87764": {
+   "ex": [
+    "paint: Gray (dark mode)/950"
+   ],
+   "n": 1
+  },
+  "VariableID:7271:17030": {
+   "ex": [
+    "effect: Shadows/shadow-xs",
+    "effect: Shadows/shadow-xs-skeuomorphic",
+    "effect: Focus rings/focus-ring-shadow-primaryalt-xs"
+   ],
+   "n": 7
+  },
+  "VariableID:7276:18827": {
+   "ex": [
+    "effect: Shadows/shadow-sm",
+    "effect: Focus rings/focus-ring-shadow-sm"
+   ],
+   "n": 2
+  },
+  "VariableID:7276:18828": {
+   "ex": [
+    "effect: Shadows/shadow-lg"
+   ],
+   "n": 1
+  },
+  "VariableID:7276:18830": {
+   "ex": [
+    "effect: Shadows/shadow-lg"
+   ],
+   "n": 1
+  },
+  "VariableID:7276:18831": {
+   "ex": [
+    "effect: Shadows/shadow-sm",
+    "effect: Focus rings/focus-ring-shadow-sm"
+   ],
+   "n": 2
+  },
+  "VariableID:7276:18832": {
+   "ex": [
+    "effect: Shadows/shadow-3xl"
+   ],
+   "n": 1
+  },
+  "VariableID:7276:18833": {
+   "ex": [
+    "effect: Shadows/shadow-2xl"
+   ],
+   "n": 1
+  },
+  "VariableID:7371:212903": {
+   "ex": [
+    "effect: Shadows/shadow-md"
+   ],
+   "n": 1
+  },
+  "VariableID:7371:212904": {
+   "ex": [
+    "effect: Shadows/shadow-md"
+   ],
+   "n": 1
+  },
+  "VariableID:7371:212905": {
+   "ex": [
+    "effect: Shadows/shadow-xl"
+   ],
+   "n": 1
+  },
+  "VariableID:7371:212906": {
+   "ex": [
+    "effect: Shadows/shadow-xl"
+   ],
+   "n": 1
+  },
+  "VariableID:7371:212908": {
+   "ex": [
+    "effect: Shadows/Portfolio mockups/shadow-main-centre-md"
+   ],
+   "n": 1
+  },
+  "VariableID:7371:212909": {
+   "ex": [
+    "effect: Shadows/Portfolio mockups/shadow-main-centre-lg"
+   ],
+   "n": 1
+  },
+  "VariableID:7371:212910": {
+   "ex": [
+    "effect: Shadows/Portfolio mockups/shadow-overlay-right-lg",
+    "effect: Shadows/Portfolio mockups/shadow-overlay-left-lg"
+   ],
+   "n": 2
+  },
+  "VariableID:7371:212911": {
+   "ex": [
+    "effect: Shadows/Portfolio mockups/shadow-grid-md"
+   ],
+   "n": 1
+  },
+  "VariableID:7371:212918": {
+   "ex": [
+    "effect: Focus rings/focus-ring",
+    "effect: Focus rings/focus-ring-shadow-primary-xs",
+    "effect: Focus rings/focus-ring-shadow-sm"
+   ],
+   "n": 3
+  },
+  "VariableID:7371:212919": {
+   "ex": [
+    "effect: Focus rings/focus-ring-error-shadow-xs",
+    "effect: Focus rings/focus-ring-error-shadow-xs-skeuomorphic"
+   ],
+   "n": 2
+  },
+  "VariableID:7393:383290": {
+   "ex": [
+    "effect: Shadows/shadow-xs-skeuomorphic",
+    "effect: Focus rings/focus-ring-error-shadow-xs-skeuomorphic"
+   ],
+   "n": 2
+  },
+  "VariableID:7396:291712": {
+   "ex": [
+    "effect: Shadows/shadow-xs-skeuomorphic",
+    "effect: Focus rings/focus-ring-error-shadow-xs-skeuomorphic"
+   ],
+   "n": 2
+  },
+  "VariableID:7403:16250": {
+   "ex": [
+    "text: Display 2xl/Regular",
+    "text: Display 2xl/Medium",
+    "text: Display 2xl/Semibold"
+   ],
+   "n": 32
+  },
+  "VariableID:7403:16251": {
+   "ex": [
+    "text: Text xxxl/Regular",
+    "text: Text xxxl/Medium",
+    "text: Text xxxl/Semibold"
+   ],
+   "n": 33
+  },
+  "VariableID:7405:102283": {
+   "ex": [
+    "text: Display 2xl/Regular",
+    "text: Display xl/Regular",
+    "text: Display lg/Regular"
+   ],
+   "n": 16
+  },
+  "VariableID:7405:102285": {
+   "ex": [
+    "text: Display 2xl/Medium",
+    "text: Display xl/Medium",
+    "text: Display lg/Medium"
+   ],
+   "n": 16
+  },
+  "VariableID:7405:102287": {
+   "ex": [
+    "text: Display 2xl/Semibold",
+    "text: Display xl/Semibold",
+    "text: Display lg/Semibold"
+   ],
+   "n": 16
+  },
+  "VariableID:7405:102290": {
+   "ex": [
+    "text: Display 2xl/Bold",
+    "text: Display xl/Bold",
+    "text: Display lg/Bold"
+   ],
+   "n": 16
+  },
+  "VariableID:7407:110363": {
+   "ex": [
+    "text: Display xxs/Regular",
+    "text: Display xxs/Semibold",
+    "text: Display xxs/Bold"
+   ],
+   "n": 7
+  },
+  "VariableID:7407:110364": {
+   "ex": [
+    "text: Text sm/Regular",
+    "text: Text sm/Medium",
+    "text: Text sm/Semibold"
+   ],
+   "n": 4
+  },
+  "VariableID:7407:110365": {
+   "ex": [
+    "text: Text md/Regular",
+    "text: Text md/Medium",
+    "text: Text md/Semibold"
+   ],
+   "n": 4
+  },
+  "VariableID:7407:110366": {
+   "ex": [
+    "text: Display xs/Regular",
+    "text: Display xs/Medium",
+    "text: Display xs/Semibold"
+   ],
+   "n": 8
+  },
+  "VariableID:7407:110367": {
+   "ex": [
+    "text: Text xl/Regular",
+    "text: Text xl/Medium",
+    "text: Text xl/Semibold"
+   ],
+   "n": 4
+  },
+  "VariableID:7407:110368": {
+   "ex": [
+    "text: Display xxs/Regular",
+    "text: Display xxs/Medium",
+    "text: Display xxs/Semibold"
+   ],
+   "n": 4
+  },
+  "VariableID:7407:110369": {
+   "ex": [
+    "text: Display sm/Regular",
+    "text: Display sm/Medium",
+    "text: Display sm/Semibold"
+   ],
+   "n": 8
+  },
+  "VariableID:7407:110370": {
+   "ex": [
+    "text: Display md/Regular",
+    "text: Display md/Medium",
+    "text: Display md/Semibold"
+   ],
+   "n": 4
+  },
+  "VariableID:7407:110371": {
+   "ex": [
+    "text: Display lg/Regular",
+    "text: Display lg/Medium",
+    "text: Display lg/Semibold"
+   ],
+   "n": 4
+  },
+  "VariableID:7407:110372": {
+   "ex": [
+    "text: Display xl/Regular",
+    "text: Display xl/Medium",
+    "text: Display xl/Semibold"
+   ],
+   "n": 4
+  },
+  "VariableID:7407:110373": {
+   "ex": [
+    "text: Display 2xl/Regular",
+    "text: Display 2xl/Medium",
+    "text: Display 2xl/Semibold"
+   ],
+   "n": 4
+  },
+  "VariableID:7407:110580": {
+   "ex": [
+    "text: Text xs/Regular",
+    "text: Text xs/Medium",
+    "text: Text xs/Semibold"
+   ],
+   "n": 4
+  },
+  "VariableID:7407:110581": {
+   "ex": [
+    "text: Text sm/Regular",
+    "text: Text sm/Medium",
+    "text: Text sm/Semibold"
+   ],
+   "n": 4
+  },
+  "VariableID:7407:110582": {
+   "ex": [
+    "text: Display xs/Regular",
+    "text: Display xs/Medium",
+    "text: Display xs/Semibold"
+   ],
+   "n": 12
+  },
+  "VariableID:7407:110584": {
+   "ex": [
+    "text: Text xxl/Regular",
+    "text: Text xxl/Medium",
+    "text: Text xxl/Semibold"
+   ],
+   "n": 8
+  },
+  "VariableID:7407:110585": {
+   "ex": [
+    "text: Display sm/Regular",
+    "text: Display sm/Medium",
+    "text: Display sm/Semibold"
+   ],
+   "n": 8
+  },
+  "VariableID:7407:110587": {
+   "ex": [
+    "text: Display md/Regular",
+    "text: Display md/Medium",
+    "text: Display md/Semibold"
+   ],
+   "n": 4
+  },
+  "VariableID:7407:110588": {
+   "ex": [
+    "text: Display lg/Regular",
+    "text: Display lg/Medium",
+    "text: Display lg/Semibold"
+   ],
+   "n": 4
+  },
+  "VariableID:7407:110589": {
+   "ex": [
+    "text: Display xl/Regular",
+    "text: Display xl/Medium",
+    "text: Display xl/Semibold"
+   ],
+   "n": 4
+  },
+  "VariableID:7407:110590": {
+   "ex": [
+    "text: Display 2xl/Regular",
+    "text: Display 2xl/Medium",
+    "text: Display 2xl/Semibold"
+   ],
+   "n": 4
+  },
+  "VariableID:7981:234615": {
+   "ex": [
+    "effect: Shadows/shadow-lg"
+   ],
+   "n": 1
+  },
+  "VariableID:7981:234616": {
+   "ex": [
+    "effect: Shadows/shadow-xl"
+   ],
+   "n": 1
+  },
+  "VariableID:7981:234617": {
+   "ex": [
+    "effect: Shadows/shadow-2xl"
+   ],
+   "n": 1
+  },
+  "VariableID:7981:234618": {
+   "ex": [
+    "effect: Shadows/shadow-3xl"
+   ],
+   "n": 1
+  }
+ },
+ "use": {
+  "VariableID:111559a2951e7db7734db19bbcd0b3d48a677aae/6343:23": {
+   "c": 1,
+   "fields": {
+    "bottomLeftRadius": 32,
+    "bottomRightRadius": 32,
+    "topLeftRadius": 32,
+    "topRightRadius": 32
+   },
+   "n": 128,
+   "top": [
+    [
+     "Radio group item",
+     128
+    ]
+   ]
+  },
+  "VariableID:14761:1747": {
+   "c": 1,
+   "fields": {
+    "fills": 2
+   },
+   "n": 2,
+   "top": [
+    [
+     "Buttons/Button",
+     2
+    ]
+   ]
+  },
+  "VariableID:17488:32591": {
+   "c": 1,
+   "fields": {
+    "fills": 20
+   },
+   "n": 20,
+   "top": [
+    [
+     "Buttons/Button",
+     20
+    ]
+   ]
+  },
+  "VariableID:17488:8405": {
+   "c": 9,
+   "fields": {
+    "fontSize": 157
+   },
+   "n": 157,
+   "top": [
+    [
+     "Input field",
+     58
+    ],
+    [
+     "Buttons/Button",
+     23
+    ],
+    [
+     "Select",
+     21
+    ]
+   ]
+  },
+  "VariableID:17488:8409": {
+   "c": 12,
+   "fields": {
+    "lineHeight": 166
+   },
+   "n": 166,
+   "top": [
+    [
+     "Input field",
+     58
+    ],
+    [
+     "Buttons/Button",
+     23
+    ],
+    [
+     "Select",
+     21
+    ]
+   ]
+  },
+  "VariableID:17489:6181": {
+   "c": 1,
+   "fields": {
+    "fills": 35
+   },
+   "n": 35,
+   "top": [
+    [
+     "Buttons/Button",
+     35
+    ]
+   ]
+  },
+  "VariableID:17490:23426": {
+   "c": 11,
+   "fields": {
+    "bottomLeftRadius": 23,
+    "bottomRightRadius": 23,
+    "topLeftRadius": 24,
+    "topRightRadius": 24
+   },
+   "n": 94,
+   "top": [
+    [
+     "Physical card",
+     32
+    ],
+    [
+     "Virtual card",
+     24
+    ],
+    [
+     "Empty card",
+     8
+    ]
+   ]
+  },
+  "VariableID:17496:23386": {
+   "c": 1,
+   "fields": {
+    "effects": 7
+   },
+   "n": 7,
+   "top": [
+    [
+     "Buttons/Button",
+     7
+    ]
+   ]
+  },
+  "VariableID:17498:15836": {
+   "c": 7,
+   "fields": {
+    "fills": 95
+   },
+   "n": 95,
+   "top": [
+    [
+     "Buttons/Button",
+     35
+    ],
+    [
+     "Buttons/Button destructive",
+     28
+    ],
+    [
+     "Date picker dropdown",
+     16
+    ]
+   ]
+  },
+  "VariableID:17498:16357": {
+   "c": 2,
+   "fields": {
+    "fills": 7
+   },
+   "n": 7,
+   "top": [
+    [
+     "Buttons/Button icon",
+     6
+    ],
+    [
+     "Illustration/Custom img",
+     1
+    ]
+   ]
+  },
+  "VariableID:17499:16144": {
+   "c": 1,
+   "fields": {
+    "fills": 14
+   },
+   "n": 14,
+   "top": [
+    [
+     "Buttons/Button",
+     14
+    ]
+   ]
+  },
+  "VariableID:17598:19007": {
+   "c": 1,
+   "fields": {
+    "fills": 6
+   },
+   "n": 6,
+   "top": [
+    [
+     "Avatar",
+     6
+    ]
+   ]
+  },
+  "VariableID:17598:19008": {
+   "c": 1,
+   "fields": {
+    "fills": 6
+   },
+   "n": 6,
+   "top": [
+    [
+     "Avatar",
+     6
+    ]
+   ]
+  },
+  "VariableID:17598:19009": {
+   "c": 1,
+   "fields": {
+    "fills": 6
+   },
+   "n": 6,
+   "top": [
+    [
+     "Avatar",
+     6
+    ]
+   ]
+  },
+  "VariableID:17598:19010": {
+   "c": 1,
+   "fields": {
+    "fills": 6
+   },
+   "n": 6,
+   "top": [
+    [
+     "Avatar",
+     6
+    ]
+   ]
+  },
+  "VariableID:17598:19011": {
+   "c": 1,
+   "fields": {
+    "fills": 6
+   },
+   "n": 6,
+   "top": [
+    [
+     "Avatar",
+     6
+    ]
+   ]
+  },
+  "VariableID:17598:19012": {
+   "c": 1,
+   "fields": {
+    "fills": 6
+   },
+   "n": 6,
+   "top": [
+    [
+     "Avatar",
+     6
+    ]
+   ]
+  },
+  "VariableID:17598:19013": {
+   "c": 1,
+   "fields": {
+    "fills": 6
+   },
+   "n": 6,
+   "top": [
+    [
+     "Avatar",
+     6
+    ]
+   ]
+  },
+  "VariableID:17598:19014": {
+   "c": 1,
+   "fields": {
+    "fills": 6
+   },
+   "n": 6,
+   "top": [
+    [
+     "Avatar",
+     6
+    ]
+   ]
+  },
+  "VariableID:21169:11975": {
+   "c": 1,
+   "fields": {
+    "fills": 4
+   },
+   "n": 4,
+   "top": [
+    [
+     "Flow note",
+     4
+    ]
+   ]
+  },
+  "VariableID:21372:1655": {
+   "c": 1,
+   "fields": {
+    "effects": 10
+   },
+   "n": 10,
+   "top": [
+    [
+     "Select",
+     10
+    ]
+   ]
+  },
+  "VariableID:4c18b6c74ace4572ed24d626c24c570cc3a8879e/6283:2633": {
+   "c": 1,
+   "fields": {
+    "fills": 32
+   },
+   "n": 32,
+   "top": [
+    [
+     "Radio group item",
+     32
+    ]
+   ]
+  },
+  "VariableID:508555400d810053960fbc3cf4e739a48b1e160c/8790:918": {
+   "c": 1,
+   "fields": {
+    "strokes": 32
+   },
+   "n": 32,
+   "top": [
+    [
+     "Radio group item",
+     32
+    ]
+   ]
+  },
+  "VariableID:5248:377686": {
+   "c": 6,
+   "fields": {
+    "fills": 32,
+    "strokes": 4
+   },
+   "n": 36,
+   "top": [
+    [
+     "Mobile app store badge",
+     18
+    ],
+    [
+     "Input field",
+     7
+    ],
+    [
+     "Cursor",
+     5
+    ]
+   ]
+  },
+  "VariableID:5248:377687": {
+   "c": 6,
+   "fields": {
+    "fills": 24
+   },
+   "n": 24,
+   "top": [
+    [
+     "Cursor",
+     6
+    ],
+    [
+     "Mobile app store badge",
+     6
+    ],
+    [
+     "Social button",
+     6
+    ]
+   ]
+  },
+  "VariableID:5248:377706": {
+   "c": 1,
+   "fields": {
+    "fills": 1
+   },
+   "n": 1,
+   "top": [
+    [
+     "_Swatch base",
+     1
+    ]
+   ]
+  },
+  "VariableID:5248:377707": {
+   "c": 1,
+   "fields": {
+    "fills": 4
+   },
+   "n": 4,
+   "top": [
+    [
+     "Partner affiliate logos",
+     4
+    ]
+   ]
+  },
+  "VariableID:5248:378037": {
+   "c": 1,
+   "fields": {
+    "fills": 2
+   },
+   "n": 2,
+   "top": [
+    [
+     "Designer area",
+     2
+    ]
+   ]
+  },
+  "VariableID:5263:372565": {
+   "c": 20,
+   "fields": {
+    "fills": 156
+   },
+   "n": 156,
+   "top": [
+    [
+     "Avatar",
+     48
+    ],
+    [
+     "Input field",
+     40
+    ],
+    [
+     "Select",
+     15
+    ]
+   ]
+  },
+  "VariableID:5263:372566": {
+   "c": 14,
+   "fields": {
+    "fills": 258
+   },
+   "n": 258,
+   "top": [
+    [
+     "Radio group item",
+     160
+    ],
+    [
+     "Radio / Checkbox",
+     32
+    ],
+    [
+     "Tag",
+     30
+    ]
+   ]
+  },
+  "VariableID:5263:373123": {
+   "c": 20,
+   "fields": {
+    "fills": 6,
+    "strokes": 253
+   },
+   "n": 259,
+   "top": [
+    [
+     "Radio group",
+     80
+    ],
+    [
+     "Avatar",
+     54
+    ],
+    [
+     "Radio group item",
+     36
+    ]
+   ]
+  },
+  "VariableID:5263:373125": {
+   "c": 3,
+   "fields": {
+    "fills": 34
+   },
+   "n": 34,
+   "top": [
+    [
+     "Buttons/Button destructive",
+     28
+    ],
+    [
+     "Badge",
+     3
+    ],
+    [
+     "Helper text",
+     3
+    ]
+   ]
+  },
+  "VariableID:5263:373126": {
+   "c": 2,
+   "fields": {
+    "strokes": 25
+   },
+   "n": 25,
+   "top": [
+    [
+     "Input field",
+     21
+    ],
+    [
+     "Textarea input field",
+     4
+    ]
+   ]
+  },
+  "VariableID:5269:371407": {
+   "c": 63,
+   "fields": {
+    "effects": 202,
+    "fills": 626,
+    "strokes": 10
+   },
+   "n": 838,
+   "top": [
+    [
+     "Radio group item",
+     133
+    ],
+    [
+     "Input field",
+     108
+    ],
+    [
+     "Radio group",
+     101
+    ]
+   ]
+  },
+  "VariableID:5269:371408": {
+   "c": 8,
+   "fields": {
+    "fills": 66,
+    "strokes": 4
+   },
+   "n": 70,
+   "top": [
+    [
+     "Badge",
+     27
+    ],
+    [
+     "Tag",
+     10
+    ],
+    [
+     "_Tab button base",
+     8
+    ]
+   ]
+  },
+  "VariableID:5269:371411": {
+   "c": 2,
+   "fields": {
+    "fills": 7
+   },
+   "n": 7,
+   "top": [
+    [
+     "_Date picker menu",
+     5
+    ],
+    [
+     "_Variables icon",
+     2
+    ]
+   ]
+  },
+  "VariableID:5270:371419": {
+   "c": 15,
+   "fields": {
+    "fills": 151
+   },
+   "n": 151,
+   "top": [
+    [
+     "Radio / Checkbox",
+     36
+    ],
+    [
+     "Radio group item",
+     36
+    ],
+    [
+     "_Checkbox base",
+     24
+    ]
+   ]
+  },
+  "VariableID:5270:371434": {
+   "c": 1,
+   "fields": {
+    "fills": 2
+   },
+   "n": 2,
+   "top": [
+    [
+     "Illustration/success",
+     2
+    ]
+   ]
+  },
+  "VariableID:5270:371435": {
+   "c": 22,
+   "fields": {
+    "strokes": 420
+   },
+   "n": 420,
+   "top": [
+    [
+     "Input field",
+     72
+    ],
+    [
+     "Social button",
+     42
+    ],
+    [
+     "Textarea input field",
+     40
+    ]
+   ]
+  },
+  "VariableID:5270:371444": {
+   "c": 2,
+   "fields": {
+    "fills": 9
+   },
+   "n": 9,
+   "top": [
+    [
+     "Badge",
+     6
+    ],
+    [
+     "Helper text",
+     3
+    ]
+   ]
+  },
+  "VariableID:5270:371446": {
+   "c": 2,
+   "fields": {
+    "fills": 6
+   },
+   "n": 6,
+   "top": [
+    [
+     "Badge",
+     3
+    ],
+    [
+     "Helper text",
+     3
+    ]
+   ]
+  },
+  "VariableID:5270:371448": {
+   "c": 6,
+   "fields": {
+    "fills": 23
+   },
+   "n": 23,
+   "top": [
+    [
+     "_Toggle base",
+     12
+    ],
+    [
+     "_Checkbox base",
+     6
+    ],
+    [
+     "_Calendar cell",
+     2
+    ]
+   ]
+  },
+  "VariableID:5270:371453": {
+   "c": 5,
+   "fields": {
+    "fills": 58
+   },
+   "n": 58,
+   "top": [
+    [
+     "Buttons/Button",
+     20
+    ],
+    [
+     "Buttons/Button destructive",
+     16
+    ],
+    [
+     "Tooltip",
+     14
+    ]
+   ]
+  },
+  "VariableID:5270:371456": {
+   "c": 2,
+   "fields": {
+    "fills": 1,
+    "strokes": 60
+   },
+   "n": 61,
+   "top": [
+    [
+     "Slider",
+     60
+    ],
+    [
+     "_Nav featured card",
+     1
+    ]
+   ]
+  },
+  "VariableID:5270:371460": {
+   "c": 2,
+   "fields": {
+    "fills": 24
+   },
+   "n": 24,
+   "top": [
+    [
+     "Buttons/Button destructive",
+     21
+    ],
+    [
+     "Buttons/Button icon",
+     3
+    ]
+   ]
+  },
+  "VariableID:5340:371764": {
+   "c": 18,
+   "fields": {
+    "fills": 219
+   },
+   "n": 219,
+   "top": [
+    [
+     "Radio group item",
+     96
+    ],
+    [
+     "Radio / Checkbox",
+     32
+    ],
+    [
+     "Progress bar",
+     22
+    ]
+   ]
+  },
+  "VariableID:5342:374622": {
+   "c": 4,
+   "fields": {
+    "fills": 6
+   },
+   "n": 6,
+   "top": [
+    [
+     "_Calendar cell",
+     2
+    ],
+    [
+     "_Nav item button",
+     2
+    ],
+    [
+     "_Date picker list item",
+     1
+    ]
+   ]
+  },
+  "VariableID:5353:380344": {
+   "c": 11,
+   "fields": {
+    "fills": 43
+   },
+   "n": 43,
+   "top": [
+    [
+     "Social button",
+     14
+    ],
+    [
+     "_Button group base",
+     8
+    ],
+    [
+     "_Nav account card menu item",
+     6
+    ]
+   ]
+  },
+  "VariableID:5353:380346": {
+   "c": 7,
+   "fields": {
+    "fills": 25
+   },
+   "n": 25,
+   "top": [
+    [
+     "Buttons/Button",
+     7
+    ],
+    [
+     "Filter group",
+     6
+    ],
+    [
+     "Toggle",
+     4
+    ]
+   ]
+  },
+  "VariableID:5353:380348": {
+   "c": 4,
+   "fields": {
+    "fills": 26,
+    "strokes": 10
+   },
+   "n": 36,
+   "top": [
+    [
+     "Mobile app store badge",
+     26
+    ],
+    [
+     "Illustration/QR",
+     7
+    ],
+    [
+     "_Tab button base",
+     2
+    ]
+   ]
+  },
+  "VariableID:5353:380350": {
+   "c": 2,
+   "fields": {
+    "fills": 16
+   },
+   "n": 16,
+   "top": [
+    [
+     "Buttons/Button",
+     12
+    ],
+    [
+     "_Calendar cell",
+     4
+    ]
+   ]
+  },
+  "VariableID:5353:380352": {
+   "c": 7,
+   "fields": {
+    "fills": 36
+   },
+   "n": 36,
+   "top": [
+    [
+     "Input field",
+     16
+    ],
+    [
+     "_Button group base",
+     6
+    ],
+    [
+     "Select",
+     4
+    ]
+   ]
+  },
+  "VariableID:5353:380353": {
+   "c": 7,
+   "fields": {
+    "fills": 37
+   },
+   "n": 37,
+   "top": [
+    [
+     "_Button group base",
+     12
+    ],
+    [
+     "Social button",
+     7
+    ],
+    [
+     "_Date picker list item",
+     4
+    ]
+   ]
+  },
+  "VariableID:5353:380364": {
+   "c": 8,
+   "fields": {
+    "fills": 53
+   },
+   "n": 53,
+   "top": [
+    [
+     "_Calendar cell",
+     20
+    ],
+    [
+     "_Date picker menu",
+     15
+    ],
+    [
+     "_Button group base",
+     8
+    ]
+   ]
+  },
+  "VariableID:5353:380427": {
+   "c": 5,
+   "fields": {
+    "fills": 20
+   },
+   "n": 20,
+   "top": [
+    [
+     "Buttons/Button",
+     14
+    ],
+    [
+     "Toggle",
+     2
+    ],
+    [
+     "_Toggle base",
+     2
+    ]
+   ]
+  },
+  "VariableID:5353:381354": {
+   "c": 17,
+   "fields": {
+    "fills": 1,
+    "strokes": 135
+   },
+   "n": 136,
+   "top": [
+    [
+     "Radio group item",
+     36
+    ],
+    [
+     "Radio group",
+     20
+    ],
+    [
+     "Buttons/Button",
+     12
+    ]
+   ]
+  },
+  "VariableID:5353:382144": {
+   "c": 6,
+   "fields": {
+    "strokes": 74
+   },
+   "n": 74,
+   "top": [
+    [
+     "Radio group item",
+     32
+    ],
+    [
+     "Radio / Checkbox",
+     21
+    ],
+    [
+     "_Checkbox base",
+     13
+    ]
+   ]
+  },
+  "VariableID:5353:385108": {
+   "c": 1,
+   "fields": {
+    "strokes": 2
+   },
+   "n": 2,
+   "top": [
+    [
+     "Textarea input field",
+     2
+    ]
+   ]
+  },
+  "VariableID:5363:390066": {
+   "c": 1,
+   "fields": {
+    "fills": 1
+   },
+   "n": 1,
+   "top": [
+    [
+     "_Nav featured card",
+     1
+    ]
+   ]
+  },
+  "VariableID:5366:382188": {
+   "c": 5,
+   "fields": {
+    "fills": 69,
+    "strokes": 13
+   },
+   "n": 82,
+   "top": [
+    [
+     "Progress bar",
+     33
+    ],
+    [
+     "Slider",
+     30
+    ],
+    [
+     "Loading indicator",
+     8
+    ]
+   ]
+  },
+  "VariableID:5366:382191": {
+   "c": 2,
+   "fields": {
+    "fills": 3
+   },
+   "n": 3,
+   "top": [
+    [
+     "_Date picker menu",
+     2
+    ],
+    [
+     "_Indicator",
+     1
+    ]
+   ]
+  },
+  "VariableID:5367:383138": {
+   "c": 2,
+   "fields": {
+    "fills": 5
+   },
+   "n": 5,
+   "top": [
+    [
+     "_Documentation table cell",
+     3
+    ],
+    [
+     "_Nav featured card",
+     2
+    ]
+   ]
+  },
+  "VariableID:5373:441756": {
+   "c": 9,
+   "fields": {
+    "fills": 104
+   },
+   "n": 104,
+   "top": [
+    [
+     "Radio group item",
+     48
+    ],
+    [
+     "Radio / Checkbox",
+     21
+    ],
+    [
+     "_Checkbox base",
+     13
+    ]
+   ]
+  },
+  "VariableID:5376:386375": {
+   "c": 1,
+   "fields": {
+    "fills": 7
+   },
+   "n": 7,
+   "top": [
+    [
+     "Tooltip",
+     7
+    ]
+   ]
+  },
+  "VariableID:5376:386706": {
+   "c": 4,
+   "fields": {
+    "fills": 64,
+    "strokes": 5
+   },
+   "n": 69,
+   "top": [
+    [
+     "Progress bar",
+     33
+    ],
+    [
+     "Slider",
+     30
+    ],
+    [
+     "Progress circle",
+     5
+    ]
+   ]
+  },
+  "VariableID:5394:386250": {
+   "c": 2,
+   "fields": {
+    "fills": 5
+   },
+   "n": 5,
+   "top": [
+    [
+     "_Mega input field base",
+     3
+    ],
+    [
+     "_Checkbox base",
+     2
+    ]
+   ]
+  },
+  "VariableID:5399:389132": {
+   "c": 1,
+   "fields": {
+    "fills": 1
+   },
+   "n": 1,
+   "top": [
+    [
+     "Flow heading",
+     1
+    ]
+   ]
+  },
+  "VariableID:5400:398227": {
+   "c": 2,
+   "fields": {
+    "strokes": 2
+   },
+   "n": 2,
+   "top": [
+    [
+     "Modal",
+     1
+    ],
+    [
+     "Slot",
+     1
+    ]
+   ]
+  },
+  "VariableID:5400:398233": {
+   "c": 7,
+   "fields": {
+    "fills": 1,
+    "strokes": 43
+   },
+   "n": 44,
+   "top": [
+    [
+     "Badge",
+     27
+    ],
+    [
+     "_Nav item base",
+     6
+    ],
+    [
+     "Physical card",
+     4
+    ]
+   ]
+  },
+  "VariableID:5400:398248": {
+   "c": 1,
+   "fields": {
+    "fills": 6
+   },
+   "n": 6,
+   "top": [
+    [
+     "_Nav item base",
+     6
+    ]
+   ]
+  },
+  "VariableID:5409:398264": {
+   "c": 1,
+   "fields": {
+    "fills": 2
+   },
+   "n": 2,
+   "top": [
+    [
+     "DS note",
+     2
+    ]
+   ]
+  },
+  "VariableID:5409:398439": {
+   "c": 1,
+   "fields": {
+    "fills": 1
+   },
+   "n": 1,
+   "top": [
+    [
+     "Slot",
+     1
+    ]
+   ]
+  },
+  "VariableID:5419:395627": {
+   "c": 2,
+   "fields": {
+    "strokes": 27
+   },
+   "n": 27,
+   "top": [
+    [
+     "Radio group item",
+     16
+    ],
+    [
+     "Buttons/Button",
+     11
+    ]
+   ]
+  },
+  "VariableID:5419:395653": {
+   "c": 3,
+   "fields": {
+    "fills": 30
+   },
+   "n": 30,
+   "top": [
+    [
+     "Input field",
+     17
+    ],
+    [
+     "Textarea input field",
+     8
+    ],
+    [
+     "Select",
+     5
+    ]
+   ]
+  },
+  "VariableID:5419:395654": {
+   "c": 1,
+   "fields": {
+    "fills": 3
+   },
+   "n": 3,
+   "top": [
+    [
+     "_Mega input field base",
+     3
+    ]
+   ]
+  },
+  "VariableID:5503:400270": {
+   "c": 2,
+   "fields": {
+    "fills": 7
+   },
+   "n": 7,
+   "top": [
+    [
+     "Alert",
+     4
+    ],
+    [
+     "_Control handle",
+     3
+    ]
+   ]
+  },
+  "VariableID:5574:413585": {
+   "c": 1,
+   "fields": {
+    "fills": 1
+   },
+   "n": 1,
+   "top": [
+    [
+     "Navigation button group",
+     1
+    ]
+   ]
+  },
+  "VariableID:5574:413587": {
+   "c": 1,
+   "fields": {
+    "fills": 2
+   },
+   "n": 2,
+   "top": [
+    [
+     "Virtual card",
+     2
+    ]
+   ]
+  },
+  "VariableID:5574:413589": {
+   "c": 1,
+   "fields": {
+    "fills": 1
+   },
+   "n": 1,
+   "top": [
+    [
+     "Design system header",
+     1
+    ]
+   ]
+  },
+  "VariableID:5574:413591": {
+   "c": 3,
+   "fields": {
+    "fills": 4
+   },
+   "n": 4,
+   "top": [
+    [
+     "Physical card",
+     2
+    ],
+    [
+     "Virtual card",
+     1
+    ],
+    [
+     "_Application nav menu button",
+     1
+    ]
+   ]
+  },
+  "VariableID:5574:413592": {
+   "c": 7,
+   "fields": {
+    "fills": 2,
+    "strokes": 105
+   },
+   "n": 107,
+   "top": [
+    [
+     "Radio group item",
+     32
+    ],
+    [
+     "Avatar group",
+     27
+    ],
+    [
+     "Avatar",
+     26
+    ]
+   ]
+  },
+  "VariableID:5574:413596": {
+   "c": 1,
+   "fields": {
+    "strokes": 2
+   },
+   "n": 2,
+   "top": [
+    [
+     "Buttons/Button loading icon",
+     2
+    ]
+   ]
+  },
+  "VariableID:5674:411615": {
+   "c": 9,
+   "fields": {
+    "fills": 76
+   },
+   "n": 76,
+   "top": [
+    [
+     "Input field",
+     40
+    ],
+    [
+     "Select",
+     21
+    ],
+    [
+     "_Tab button base",
+     4
+    ]
+   ]
+  },
+  "VariableID:5965:435454": {
+   "c": 1,
+   "fields": {
+    "fills": 1
+   },
+   "n": 1,
+   "top": [
+    [
+     "Background overlay",
+     1
+    ]
+   ]
+  },
+  "VariableID:6051:432900": {
+   "c": 1,
+   "fields": {
+    "strokes": 9
+   },
+   "n": 9,
+   "top": [
+    [
+     "_Control handle",
+     9
+    ]
+   ]
+  },
+  "VariableID:6051:432901": {
+   "c": 1,
+   "fields": {
+    "fills": 9
+   },
+   "n": 9,
+   "top": [
+    [
+     "_Control handle",
+     9
+    ]
+   ]
+  },
+  "VariableID:6080:479732": {
+   "c": 1,
+   "fields": {
+    "fills": 1
+   },
+   "n": 1,
+   "top": [
+    [
+     "_Scroll bar (control fill with bottom padding)",
+     1
+    ]
+   ]
+  },
+  "VariableID:6080:479733": {
+   "c": 1,
+   "fields": {
+    "strokes": 1
+   },
+   "n": 1,
+   "top": [
+    [
+     "_Scroll bar (control fill with bottom padding)",
+     1
+    ]
+   ]
+  },
+  "VariableID:6137:268549": {
+   "c": 2,
+   "fields": {
+    "fills": 30
+   },
+   "n": 30,
+   "top": [
+    [
+     "Buttons/Button",
+     24
+    ],
+    [
+     "Badge",
+     6
+    ]
+   ]
+  },
+  "VariableID:6139:331930": {
+   "c": 4,
+   "fields": {
+    "fills": 8
+   },
+   "n": 8,
+   "top": [
+    [
+     "Tag count",
+     3
+    ],
+    [
+     "Flow heading",
+     2
+    ],
+    [
+     "_Tab button base",
+     2
+    ]
+   ]
+  },
+  "VariableID:6139:331957": {
+   "c": 1,
+   "fields": {
+    "fills": 1
+   },
+   "n": 1,
+   "top": [
+    [
+     "Flow heading",
+     1
+    ]
+   ]
+  },
+  "VariableID:6139:331990": {
+   "c": 1,
+   "fields": {
+    "fills": 1
+   },
+   "n": 1,
+   "top": [
+    [
+     "Flow heading",
+     1
+    ]
+   ]
+  },
+  "VariableID:6179:409999": {
+   "c": 1,
+   "fields": {
+    "strokes": 6
+   },
+   "n": 6,
+   "top": [
+    [
+     "Mobile app store badge",
+     6
+    ]
+   ]
+  },
+  "VariableID:6179:410199": {
+   "c": 1,
+   "fields": {
+    "fills": 1
+   },
+   "n": 1,
+   "top": [
+    [
+     "Design system header",
+     1
+    ]
+   ]
+  },
+  "VariableID:6188:191015": {
+   "c": 1,
+   "fields": {
+    "fills": 6
+   },
+   "n": 6,
+   "top": [
+    [
+     "_Mega input field base",
+     6
+    ]
+   ]
+  },
+  "VariableID:6188:245678": {
+   "c": 4,
+   "fields": {
+    "fills": 32
+   },
+   "n": 32,
+   "top": [
+    [
+     "Tooltip",
+     26
+    ],
+    [
+     "Tab group",
+     2
+    ],
+    [
+     "_Documentation table cell",
+     2
+    ]
+   ]
+  },
+  "VariableID:6283:328783": {
+   "c": 1,
+   "fields": {
+    "maxWidth": 1
+   },
+   "n": 1,
+   "top": [
+    [
+     "Header navigation",
+     1
+    ]
+   ]
+  },
+  "VariableID:6283:332005": {
+   "c": 2,
+   "fields": {
+    "paddingLeft": 3,
+    "paddingRight": 3
+   },
+   "n": 6,
+   "top": [
+    [
+     "Date picker modal",
+     4
+    ],
+    [
+     "Header navigation",
+     2
+    ]
+   ]
+  },
+  "VariableID:6283:332605": {
+   "c": 2,
+   "fields": {
+    "paddingLeft": 3,
+    "paddingRight": 2
+   },
+   "n": 5,
+   "top": [
+    [
+     "Date picker modal",
+     4
+    ],
+    [
+     "Header navigation",
+     1
+    ]
+   ]
+  },
+  "VariableID:6298:45311": {
+   "c": 3,
+   "fields": {
+    "maxWidth": 4
+   },
+   "n": 4,
+   "top": [
+    [
+     "Flow heading",
+     2
+    ],
+    [
+     "DS note",
+     1
+    ],
+    [
+     "Design system header",
+     1
+    ]
+   ]
+  },
+  "VariableID:6298:45384": {
+   "c": 16,
+   "fields": {
+    "itemSpacing": 34,
+    "paddingBottom": 38,
+    "paddingLeft": 80,
+    "paddingRight": 41,
+    "paddingTop": 36
+   },
+   "n": 229,
+   "top": [
+    [
+     "Input field",
+     61
+    ],
+    [
+     "_Tab button base",
+     48
+    ],
+    [
+     "Select",
+     30
+    ]
+   ]
+  },
+  "VariableID:6298:45385": {
+   "c": 27,
+   "fields": {
+    "itemSpacing": 172,
+    "paddingBottom": 141,
+    "paddingLeft": 170,
+    "paddingRight": 166,
+    "paddingTop": 188
+   },
+   "n": 837,
+   "top": [
+    [
+     "Buttons/Button",
+     184
+    ],
+    [
+     "Tag",
+     100
+    ],
+    [
+     "Buttons/Button destructive",
+     86
+    ]
+   ]
+  },
+  "VariableID:6298:45386": {
+   "c": 33,
+   "fields": {
+    "bottomLeftRadius": 39,
+    "bottomRightRadius": 39,
+    "counterAxisSpacing": 5,
+    "itemSpacing": 640,
+    "paddingBottom": 60,
+    "paddingLeft": 153,
+    "paddingRight": 153,
+    "paddingTop": 61,
+    "topLeftRadius": 39,
+    "topRightRadius": 39
+   },
+   "n": 1228,
+   "top": [
+    [
+     "Input field",
+     218
+    ],
+    [
+     "Radio group item",
+     192
+    ],
+    [
+     "Radio / Checkbox",
+     128
+    ]
+   ]
+  },
+  "VariableID:6298:45387": {
+   "c": 43,
+   "fields": {
+    "bottomLeftRadius": 33,
+    "bottomRightRadius": 33,
+    "itemSpacing": 218,
+    "paddingBottom": 182,
+    "paddingLeft": 230,
+    "paddingRight": 208,
+    "paddingTop": 184,
+    "topLeftRadius": 33,
+    "topRightRadius": 33
+   },
+   "n": 1154,
+   "top": [
+    [
+     "Progress bar",
+     143
+    ],
+    [
+     "Buttons/Button",
+     113
+    ],
+    [
+     "Select",
+     76
+    ]
+   ]
+  },
+  "VariableID:6298:45389": {
+   "c": 33,
+   "fields": {
+    "bottomLeftRadius": 60,
+    "bottomRightRadius": 60,
+    "itemSpacing": 327,
+    "paddingBottom": 148,
+    "paddingLeft": 101,
+    "paddingRight": 101,
+    "paddingTop": 147,
+    "topLeftRadius": 60,
+    "topRightRadius": 60
+   },
+   "n": 1064,
+   "top": [
+    [
+     "Slider",
+     240
+    ],
+    [
+     "Radio group item",
+     130
+    ],
+    [
+     "Buttons/Button",
+     90
+    ]
+   ]
+  },
+  "VariableID:6298:45390": {
+   "c": 25,
+   "fields": {
+    "itemSpacing": 41,
+    "paddingBottom": 219,
+    "paddingLeft": 470,
+    "paddingRight": 416,
+    "paddingTop": 222
+   },
+   "n": 1368,
+   "top": [
+    [
+     "Radio group",
+     400
+    ],
+    [
+     "Radio group item",
+     400
+    ],
+    [
+     "Input field",
+     159
+    ]
+   ]
+  },
+  "VariableID:6298:45391": {
+   "c": 3,
+   "fields": {
+    "itemSpacing": 2,
+    "paddingBottom": 5,
+    "paddingTop": 6
+   },
+   "n": 13,
+   "top": [
+    [
+     "_Date picker menu",
+     10
+    ],
+    [
+     "Loading indicator",
+     2
+    ],
+    [
+     "Modal",
+     1
+    ]
+   ]
+  },
+  "VariableID:6298:45392": {
+   "c": 6,
+   "fields": {
+    "paddingBottom": 5,
+    "paddingLeft": 7,
+    "paddingRight": 10,
+    "paddingTop": 3
+   },
+   "n": 25,
+   "top": [
+    [
+     "_Date picker menu",
+     10
+    ],
+    [
+     "_Focus ring card",
+     4
+    ],
+    [
+     "_Shadow card",
+     4
+    ]
+   ]
+  },
+  "VariableID:6298:45393": {
+   "c": 4,
+   "fields": {
+    "itemSpacing": 5,
+    "paddingBottom": 1,
+    "paddingLeft": 1,
+    "paddingRight": 1,
+    "paddingTop": 1
+   },
+   "n": 9,
+   "top": [
+    [
+     "Design system header",
+     4
+    ],
+    [
+     "Date picker modal",
+     2
+    ],
+    [
+     "_Type scale base",
+     2
+    ]
+   ]
+  },
+  "VariableID:6298:45394": {
+   "c": 2,
+   "fields": {
+    "paddingBottom": 2,
+    "paddingLeft": 2,
+    "paddingRight": 2,
+    "paddingTop": 2
+   },
+   "n": 8,
+   "top": [
+    [
+     "Design system header",
+     4
+    ],
+    [
+     "Flow heading",
+     4
+    ]
+   ]
+  },
+  "VariableID:6298:45395": {
+   "c": 1,
+   "fields": {
+    "paddingLeft": 1,
+    "paddingRight": 7
+   },
+   "n": 8,
+   "top": [
+    [
+     "_Documentation table cell",
+     8
+    ]
+   ]
+  },
+  "VariableID:6298:45396": {
+   "c": 1,
+   "fields": {
+    "paddingBottom": 2
+   },
+   "n": 2,
+   "top": [
+    [
+     "Date picker modal",
+     2
+    ]
+   ]
+  },
+  "VariableID:6298:45398": {
+   "c": 1,
+   "fields": {
+    "paddingLeft": 1
+   },
+   "n": 1,
+   "top": [
+    [
+     "_Documentation table cell",
+     1
+    ]
+   ]
+  },
+  "VariableID:6298:46475": {
+   "c": 4,
+   "fields": {
+    "bottomLeftRadius": 16,
+    "bottomRightRadius": 16,
+    "topLeftRadius": 15,
+    "topRightRadius": 15
+   },
+   "n": 62,
+   "top": [
+    [
+     "Tab group",
+     40
+    ],
+    [
+     "_Tab button base",
+     16
+    ],
+    [
+     "Designer area",
+     4
+    ]
+   ]
+  },
+  "VariableID:6298:46477": {
+   "c": 12,
+   "fields": {
+    "bottomLeftRadius": 170,
+    "bottomRightRadius": 170,
+    "topLeftRadius": 170,
+    "topRightRadius": 170
+   },
+   "n": 680,
+   "top": [
+    [
+     "Radio group item",
+     192
+    ],
+    [
+     "Input field",
+     160
+    ],
+    [
+     "_Checkbox base",
+     96
+    ]
+   ]
+  },
+  "VariableID:6298:46478": {
+   "c": 13,
+   "fields": {
+    "bottomLeftRadius": 149,
+    "bottomRightRadius": 149,
+    "topLeftRadius": 149,
+    "topRightRadius": 149
+   },
+   "n": 596,
+   "top": [
+    [
+     "Radio group item",
+     192
+    ],
+    [
+     "Badge",
+     72
+    ],
+    [
+     "Tag",
+     72
+    ]
+   ]
+  },
+  "VariableID:6298:46479": {
+   "c": 9,
+   "fields": {
+    "bottomLeftRadius": 37,
+    "bottomRightRadius": 37,
+    "topLeftRadius": 37,
+    "topRightRadius": 37
+   },
+   "n": 148,
+   "top": [
+    [
+     "Badge",
+     36
+    ],
+    [
+     "Tag",
+     36
+    ],
+    [
+     "Social button groups",
+     24
+    ]
+   ]
+  },
+  "VariableID:6298:46480": {
+   "c": 8,
+   "fields": {
+    "bottomLeftRadius": 108,
+    "bottomRightRadius": 108,
+    "topLeftRadius": 108,
+    "topRightRadius": 108
+   },
+   "n": 432,
+   "top": [
+    [
+     "Radio group",
+     160
+    ],
+    [
+     "Buttons/Button",
+     136
+    ],
+    [
+     "Buttons/Button destructive",
+     64
+    ]
+   ]
+  },
+  "VariableID:6298:46481": {
+   "c": 12,
+   "fields": {
+    "bottomLeftRadius": 122,
+    "bottomRightRadius": 122,
+    "topLeftRadius": 122,
+    "topRightRadius": 122
+   },
+   "n": 488,
+   "top": [
+    [
+     "Buttons/Button",
+     136
+    ],
+    [
+     "Date picker dropdown",
+     96
+    ],
+    [
+     "Buttons/Button destructive",
+     64
+    ]
+   ]
+  },
+  "VariableID:6298:46482": {
+   "c": 6,
+   "fields": {
+    "bottomLeftRadius": 18,
+    "bottomRightRadius": 18,
+    "topLeftRadius": 18,
+    "topRightRadius": 18
+   },
+   "n": 72,
+   "top": [
+    [
+     "Select",
+     20
+    ],
+    [
+     "Verification code input field",
+     16
+    ],
+    [
+     "_Mega input field base",
+     16
+    ]
+   ]
+  },
+  "VariableID:6298:46485": {
+   "c": 33,
+   "fields": {
+    "bottomLeftRadius": 774,
+    "bottomRightRadius": 774,
+    "topLeftRadius": 774,
+    "topRightRadius": 774
+   },
+   "n": 3096,
+   "top": [
+    [
+     "_Date picker menu",
+     980
+    ],
+    [
+     "Avatar",
+     320
+    ],
+    [
+     "Progress bar",
+     264
+    ]
+   ]
+  },
+  "VariableID:6305:239517": {
+   "c": 1,
+   "fields": {
+    "fills": 4
+   },
+   "n": 4,
+   "top": [
+    [
+     "_Toggle base",
+     4
+    ]
+   ]
+  },
+  "VariableID:6306:268582": {
+   "c": 19,
+   "fields": {
+    "bottomLeftRadius": 435,
+    "bottomRightRadius": 435,
+    "topLeftRadius": 435,
+    "topRightRadius": 435
+   },
+   "n": 1740,
+   "top": [
+    [
+     "Radio group item",
+     384
+    ],
+    [
+     "Radio group",
+     240
+    ],
+    [
+     "Social button",
+     216
+    ]
+   ]
+  },
+  "VariableID:6379:57496": {
+   "c": 1,
+   "fields": {
+    "width": 1
+   },
+   "n": 1,
+   "top": [
+    [
+     "DS note",
+     1
+    ]
+   ]
+  },
+  "VariableID:6425:327765": {
+   "c": 30,
+   "fields": {
+    "bottomLeftRadius": 20,
+    "bottomRightRadius": 20,
+    "itemSpacing": 455,
+    "paddingBottom": 155,
+    "paddingLeft": 97,
+    "paddingRight": 79,
+    "paddingTop": 155,
+    "topLeftRadius": 20,
+    "topRightRadius": 20
+   },
+   "n": 1021,
+   "top": [
+    [
+     "Input field",
+     281
+    ],
+    [
+     "Select",
+     211
+    ],
+    [
+     "Radio / Checkbox",
+     80
+    ]
+   ]
+  },
+  "VariableID:6433:93631": {
+   "c": 2,
+   "fields": {
+    "itemSpacing": 1,
+    "paddingLeft": 1,
+    "paddingRight": 1
+   },
+   "n": 3,
+   "top": [
+    [
+     "Flow heading",
+     2
+    ],
+    [
+     "Designer area",
+     1
+    ]
+   ]
+  },
+  "VariableID:6671:87762": {
+   "c": 1,
+   "fields": {
+    "fills": 1
+   },
+   "n": 1,
+   "top": [
+    [
+     "Partner affiliate logos",
+     1
+    ]
+   ]
+  },
+  "VariableID:7124793b26d0ceff4b963d9ca68153a43bf37619/17818:787": {
+   "c": 3,
+   "fields": {
+    "fills": 7
+   },
+   "n": 7,
+   "top": [
+    [
+     "Logo",
+     3
+    ],
+    [
+     "Logomark",
+     3
+    ],
+    [
+     "Virtual card",
+     1
+    ]
+   ]
+  },
+  "VariableID:7271:17030": {
+   "c": 11,
+   "fields": {
+    "effects": 140
+   },
+   "n": 140,
+   "top": [
+    [
+     "Social button",
+     54
+    ],
+    [
+     "Social button groups",
+     24
+    ],
+    [
+     "Buttons/Button",
+     15
+    ]
+   ]
+  },
+  "VariableID:7276:18827": {
+   "c": 2,
+   "fields": {
+    "effects": 19
+   },
+   "n": 19,
+   "top": [
+    [
+     "_Toggle base",
+     16
+    ],
+    [
+     "_Control handle",
+     3
+    ]
+   ]
+  },
+  "VariableID:7276:18828": {
+   "c": 6,
+   "fields": {
+    "effects": 40
+   },
+   "n": 40,
+   "top": [
+    [
+     "Help icon",
+     14
+    ],
+    [
+     "Tooltip",
+     14
+    ],
+    [
+     "Select",
+     5
+    ]
+   ]
+  },
+  "VariableID:7276:18830": {
+   "c": 6,
+   "fields": {
+    "effects": 40
+   },
+   "n": 40,
+   "top": [
+    [
+     "Help icon",
+     14
+    ],
+    [
+     "Tooltip",
+     14
+    ],
+    [
+     "Select",
+     5
+    ]
+   ]
+  },
+  "VariableID:7276:18831": {
+   "c": 2,
+   "fields": {
+    "effects": 19
+   },
+   "n": 19,
+   "top": [
+    [
+     "_Toggle base",
+     16
+    ],
+    [
+     "_Control handle",
+     3
+    ]
+   ]
+  },
+  "VariableID:7371:212903": {
+   "c": 1,
+   "fields": {
+    "effects": 6
+   },
+   "n": 6,
+   "top": [
+    [
+     "_Control handle",
+     6
+    ]
+   ]
+  },
+  "VariableID:7371:212904": {
+   "c": 1,
+   "fields": {
+    "effects": 6
+   },
+   "n": 6,
+   "top": [
+    [
+     "_Control handle",
+     6
+    ]
+   ]
+  },
+  "VariableID:7371:212918": {
+   "c": 18,
+   "fields": {
+    "effects": 167
+   },
+   "n": 167,
+   "top": [
+    [
+     "Radio group item",
+     48
+    ],
+    [
+     "Radio / Checkbox",
+     21
+    ],
+    [
+     "Social button",
+     18
+    ]
+   ]
+  },
+  "VariableID:7371:212919": {
+   "c": 1,
+   "fields": {
+    "effects": 15
+   },
+   "n": 15,
+   "top": [
+    [
+     "Buttons/Button destructive",
+     15
+    ]
+   ]
+  },
+  "VariableID:7393:383290": {
+   "c": 3,
+   "fields": {
+    "effects": 81
+   },
+   "n": 81,
+   "top": [
+    [
+     "Social button",
+     54
+    ],
+    [
+     "Social button groups",
+     24
+    ],
+    [
+     "Button group",
+     3
+    ]
+   ]
+  },
+  "VariableID:7396:291712": {
+   "c": 3,
+   "fields": {
+    "effects": 81
+   },
+   "n": 81,
+   "top": [
+    [
+     "Social button",
+     54
+    ],
+    [
+     "Social button groups",
+     24
+    ],
+    [
+     "Button group",
+     3
+    ]
+   ]
+  },
+  "VariableID:7397:524104": {
+   "c": 1,
+   "fields": {
+    "strokes": 4
+   },
+   "n": 4,
+   "top": [
+    [
+     "_Nav featured card",
+     4
+    ]
+   ]
+  },
+  "VariableID:7403:16250": {
+   "c": 7,
+   "fields": {
+    "fontFamily": 29
+   },
+   "n": 29,
+   "top": [
+    [
+     "_Mega input field base",
+     12
+    ],
+    [
+     "Progress circle",
+     4
+    ],
+    [
+     "_Type scale base",
+     4
+    ]
+   ]
+  },
+  "VariableID:7403:16251": {
+   "c": 43,
+   "fields": {
+    "fontFamily": 1013
+   },
+   "n": 1013,
+   "top": [
+    [
+     "Radio group item",
+     256
+    ],
+    [
+     "Input field",
+     126
+    ],
+    [
+     "Buttons/Button",
+     92
+    ]
+   ]
+  },
+  "VariableID:7405:102283": {
+   "c": 27,
+   "fields": {
+    "fontStyle": 451
+   },
+   "n": 451,
+   "top": [
+    [
+     "Radio group item",
+     160
+    ],
+    [
+     "Input field",
+     113
+    ],
+    [
+     "Select",
+     45
+    ]
+   ]
+  },
+  "VariableID:7405:102285": {
+   "c": 26,
+   "fields": {
+    "fontStyle": 395
+   },
+   "n": 395,
+   "top": [
+    [
+     "Radio group item",
+     96
+    ],
+    [
+     "Buttons/Button",
+     74
+    ],
+    [
+     "Buttons/Button destructive",
+     37
+    ]
+   ]
+  },
+  "VariableID:7405:102287": {
+   "c": 21,
+   "fields": {
+    "fontStyle": 184
+   },
+   "n": 184,
+   "top": [
+    [
+     "Avatar",
+     48
+    ],
+    [
+     "Social button",
+     27
+    ],
+    [
+     "_Button group base",
+     24
+    ]
+   ]
+  },
+  "VariableID:7405:102290": {
+   "c": 5,
+   "fields": {
+    "fontStyle": 10
+   },
+   "n": 10,
+   "top": [
+    [
+     "Buttons/Button",
+     6
+    ],
+    [
+     "Design system header",
+     1
+    ],
+    [
+     "Designer area",
+     1
+    ]
+   ]
+  },
+  "VariableID:7407:110363": {
+   "c": 17,
+   "fields": {
+    "fontSize": 115,
+    "paragraphSpacing": 108
+   },
+   "n": 223,
+   "top": [
+    [
+     "Buttons/Button",
+     46
+    ],
+    [
+     "Tooltip",
+     42
+    ],
+    [
+     "Tag",
+     24
+    ]
+   ]
+  },
+  "VariableID:7407:110364": {
+   "c": 25,
+   "fields": {
+    "fontSize": 343,
+    "paragraphSpacing": 341
+   },
+   "n": 684,
+   "top": [
+    [
+     "Radio group item",
+     256
+    ],
+    [
+     "Radio / Checkbox",
+     64
+    ],
+    [
+     "_Button group base",
+     48
+    ]
+   ]
+  },
+  "VariableID:7407:110365": {
+   "c": 21,
+   "fields": {
+    "fontSize": 358,
+    "paragraphSpacing": 358
+   },
+   "n": 716,
+   "top": [
+    [
+     "Radio group item",
+     256
+    ],
+    [
+     "Input field",
+     108
+    ],
+    [
+     "Radio / Checkbox",
+     64
+    ]
+   ]
+  },
+  "VariableID:7407:110366": {
+   "c": 9,
+   "fields": {
+    "fontSize": 23,
+    "paragraphSpacing": 23
+   },
+   "n": 46,
+   "top": [
+    [
+     "Avatar",
+     16
+    ],
+    [
+     "Loading indicator",
+     8
+    ],
+    [
+     "DS note",
+     4
+    ]
+   ]
+  },
+  "VariableID:7407:110367": {
+   "c": 5,
+   "fields": {
+    "fontSize": 21,
+    "paragraphSpacing": 21
+   },
+   "n": 42,
+   "top": [
+    [
+     "Avatar",
+     32
+    ],
+    [
+     "Flow heading",
+     4
+    ],
+    [
+     "DS note",
+     2
+    ]
+   ]
+  },
+  "VariableID:7407:110368": {
+   "c": 3,
+   "fields": {
+    "paragraphSpacing": 7
+   },
+   "n": 7,
+   "top": [
+    [
+     "Buttons/Button action",
+     3
+    ],
+    [
+     "Buttons/Button navigation",
+     3
+    ],
+    [
+     "Progress circle",
+     1
+    ]
+   ]
+  },
+  "VariableID:7407:110369": {
+   "c": 3,
+   "fields": {
+    "fontSize": 10,
+    "paragraphSpacing": 10
+   },
+   "n": 20,
+   "top": [
+    [
+     "_Mega input field base",
+     16
+    ],
+    [
+     "Designer area",
+     2
+    ],
+    [
+     "Progress circle",
+     2
+    ]
+   ]
+  },
+  "VariableID:7407:110370": {
+   "c": 3,
+   "fields": {
+    "fontSize": 6,
+    "paragraphSpacing": 6
+   },
+   "n": 12,
+   "top": [
+    [
+     "_Mega input field base",
+     8
+    ],
+    [
+     "Flow heading",
+     2
+    ],
+    [
+     "Progress circle",
+     2
+    ]
+   ]
+  },
+  "VariableID:7407:110371": {
+   "c": 1,
+   "fields": {
+    "fontSize": 1,
+    "paragraphSpacing": 1
+   },
+   "n": 2,
+   "top": [
+    [
+     "Progress circle",
+     2
+    ]
+   ]
+  },
+  "VariableID:7407:110372": {
+   "c": 2,
+   "fields": {
+    "fontSize": 5,
+    "paragraphSpacing": 5
+   },
+   "n": 10,
+   "top": [
+    [
+     "_Type scale base",
+     8
+    ],
+    [
+     "Flow heading",
+     2
+    ]
+   ]
+  },
+  "VariableID:7407:110373": {
+   "c": 1,
+   "fields": {
+    "fontSize": 1,
+    "paragraphSpacing": 1
+   },
+   "n": 2,
+   "top": [
+    [
+     "Design system header",
+     2
+    ]
+   ]
+  },
+  "VariableID:7407:110580": {
+   "c": 15,
+   "fields": {
+    "lineHeight": 108
+   },
+   "n": 108,
+   "top": [
+    [
+     "Buttons/Button",
+     23
+    ],
+    [
+     "Tooltip",
+     21
+    ],
+    [
+     "Tag",
+     12
+    ]
+   ]
+  },
+  "VariableID:7407:110581": {
+   "c": 24,
+   "fields": {
+    "lineHeight": 341
+   },
+   "n": 341,
+   "top": [
+    [
+     "Radio group item",
+     128
+    ],
+    [
+     "Radio / Checkbox",
+     32
+    ],
+    [
+     "_Button group base",
+     24
+    ]
+   ]
+  },
+  "VariableID:7407:110582": {
+   "c": 25,
+   "fields": {
+    "lineHeight": 381
+   },
+   "n": 381,
+   "top": [
+    [
+     "Radio group item",
+     128
+    ],
+    [
+     "Input field",
+     54
+    ],
+    [
+     "Radio / Checkbox",
+     32
+    ]
+   ]
+  },
+  "VariableID:7407:110584": {
+   "c": 5,
+   "fields": {
+    "lineHeight": 21
+   },
+   "n": 21,
+   "top": [
+    [
+     "Avatar",
+     16
+    ],
+    [
+     "Flow heading",
+     2
+    ],
+    [
+     "DS note",
+     1
+    ]
+   ]
+  },
+  "VariableID:7407:110585": {
+   "c": 3,
+   "fields": {
+    "lineHeight": 10
+   },
+   "n": 10,
+   "top": [
+    [
+     "_Mega input field base",
+     8
+    ],
+    [
+     "Designer area",
+     1
+    ],
+    [
+     "Progress circle",
+     1
+    ]
+   ]
+  },
+  "VariableID:7407:110587": {
+   "c": 3,
+   "fields": {
+    "lineHeight": 6
+   },
+   "n": 6,
+   "top": [
+    [
+     "_Mega input field base",
+     4
+    ],
+    [
+     "Flow heading",
+     1
+    ],
+    [
+     "Progress circle",
+     1
+    ]
+   ]
+  },
+  "VariableID:7407:110588": {
+   "c": 1,
+   "fields": {
+    "lineHeight": 1
+   },
+   "n": 1,
+   "top": [
+    [
+     "Progress circle",
+     1
+    ]
+   ]
+  },
+  "VariableID:7407:110589": {
+   "c": 2,
+   "fields": {
+    "lineHeight": 5
+   },
+   "n": 5,
+   "top": [
+    [
+     "_Type scale base",
+     4
+    ],
+    [
+     "Flow heading",
+     1
+    ]
+   ]
+  },
+  "VariableID:7407:110590": {
+   "c": 1,
+   "fields": {
+    "lineHeight": 1
+   },
+   "n": 1,
+   "top": [
+    [
+     "Design system header",
+     1
+    ]
+   ]
+  },
+  "VariableID:793f44500a7cc7fa504e07b677b9328fdd73a4ee/21466:8": {
+   "c": 2,
+   "fields": {
+    "fills": 29
+   },
+   "n": 29,
+   "top": [
+    [
+     "Radio group item",
+     28
+    ],
+    [
+     "Alert",
+     1
+    ]
+   ]
+  },
+  "VariableID:7981:234615": {
+   "c": 6,
+   "fields": {
+    "effects": 40
+   },
+   "n": 40,
+   "top": [
+    [
+     "Help icon",
+     14
+    ],
+    [
+     "Tooltip",
+     14
+    ],
+    [
+     "Select",
+     5
+    ]
+   ]
+  },
+  "VariableID:8714:124491": {
+   "c": 5,
+   "fields": {
+    "strokes": 21
+   },
+   "n": 21,
+   "top": [
+    [
+     "Date picker dropdown",
+     8
+    ],
+    [
+     "Select",
+     5
+    ],
+    [
+     "_Date picker menu",
+     4
+    ]
+   ]
+  },
+  "VariableID:8818:78315": {
+   "c": 1,
+   "fields": {
+    "strokes": 2
+   },
+   "n": 2,
+   "top": [
+    [
+     "Buttons/Button loading icon",
+     2
+    ]
+   ]
+  },
+  "VariableID:9860:25270": {
+   "c": 1,
+   "fields": {
+    "fills": 7
+   },
+   "n": 7,
+   "top": [
+    [
+     "Buttons/Button destructive",
+     7
+    ]
+   ]
+  },
+  "VariableID:a6f72933dbee8ed63cd1d01040e89937377abe02/21464:811": {
+   "c": 1,
+   "fields": {
+    "fills": 1
+   },
+   "n": 1,
+   "top": [
+    [
+     "Alert",
+     1
+    ]
+   ]
+  },
+  "VariableID:b3a02d57cad5c40b669ea462e576ac87ba664690/6343:26": {
+   "c": 2,
+   "fields": {
+    "bottomLeftRadius": 36,
+    "bottomRightRadius": 36,
+    "topLeftRadius": 36,
+    "topRightRadius": 36
+   },
+   "n": 144,
+   "top": [
+    [
+     "Radio group item",
+     128
+    ],
+    [
+     "Alert",
+     16
+    ]
+   ]
+  },
+  "VariableID:bde21419c36d2c5e353452dee5c3eb10f29a86d8/21464:781": {
+   "c": 1,
+   "fields": {
+    "fills": 1
+   },
+   "n": 1,
+   "top": [
+    [
+     "Alert",
+     1
+    ]
+   ]
+  },
+  "VariableID:c778fefa46f100b6b10f0af2d31b18ff7d73573e/21515:333": {
+   "c": 1,
+   "fields": {
+    "fills": 2
+   },
+   "n": 2,
+   "top": [
+    [
+     "Buttons/Button navigation",
+     2
+    ]
+   ]
+  },
+  "VariableID:e5fa7130c3ee48866c146e651c73c8b91813d2fc/21464:774": {
+   "c": 2,
+   "fields": {
+    "fills": 5
+   },
+   "n": 5,
+   "top": [
+    [
+     "Radio group item",
+     4
+    ],
+    [
+     "Alert",
+     1
+    ]
+   ]
+  },
+  "VariableID:f78fa1ac2ac1cee90031807b85a40e87a71636e3/17818:1124": {
+   "c": 2,
+   "fields": {
+    "fills": 8
+   },
+   "n": 8,
+   "top": [
+    [
+     "Logo",
+     4
+    ],
+    [
+     "Logomark",
+     4
+    ]
+   ]
+  }
+ },
+ "variablesUsed": 177
+}

@@ -1,0 +1,2126 @@
+{
+ "check": "variables",
+ "collections": [
+  {
+   "count": 115,
+   "id": "VariableCollectionId:5256:372339",
+   "modes": [
+    "Light mode",
+    "Dark mode"
+   ],
+   "name": "1. Color modes",
+   "variables": [
+    {
+     "id": "VariableID:5263:372565",
+     "name": "Colors/Text/text-primary (900)",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87754",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/50"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377707",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/950"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6139:331930",
+     "name": "Colors/Text/text-primary_on-brandprimary",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377686",
+       "collection": "_Primitives",
+       "name": "Colors/Base/white"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377686",
+       "collection": "_Primitives",
+       "name": "Colors/Base/white"
+      }
+     }
+    },
+    {
+     "id": "VariableID:17488:32591",
+     "name": "Colors/Text/text-primary_on-brandsecondary",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377687",
+       "collection": "_Primitives",
+       "name": "Colors/Base/black"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377687",
+       "collection": "_Primitives",
+       "name": "Colors/Base/black"
+      }
+     }
+    },
+    {
+     "id": "VariableID:17488:32592",
+     "name": "Colors/Text/text-primary_on-brandtertiary",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377687",
+       "collection": "_Primitives",
+       "name": "Colors/Base/black"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377687",
+       "collection": "_Primitives",
+       "name": "Colors/Base/black"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5340:371764",
+     "name": "Colors/Text/text-secondary (700)",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87757",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377704",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/700"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5353:380353",
+     "name": "Colors/Text/text-secondary_hover",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87756",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/200"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377705",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/800"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6139:331957",
+     "name": "Colors/Text/text-secondary_on-brand",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87757",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377711",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/200"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5263:372566",
+     "name": "Colors/Text/text-tertiary (600)",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87758",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377703",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5353:380355",
+     "name": "Colors/Text/text-tertiary_hover",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87757",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377704",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/700"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6139:331990",
+     "name": "Colors/Text/text-tertiary_on-brand",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87758",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377711",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/200"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5674:411615",
+     "name": "Colors/Text/text-quaternary (500)",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87758",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377702",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6179:410199",
+     "name": "Colors/Text/text-quaternary_on-brand",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87758",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377712",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/300"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5270:371453",
+     "name": "Colors/Text/text-white",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377686",
+       "collection": "_Primitives",
+       "name": "Colors/Base/white"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377686",
+       "collection": "_Primitives",
+       "name": "Colors/Base/white"
+      }
+     }
+    },
+    {
+     "id": "VariableID:21169:11975",
+     "name": "Colors/Text/text-black",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377687",
+       "collection": "_Primitives",
+       "name": "Colors/Base/black"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377687",
+       "collection": "_Primitives",
+       "name": "Colors/Base/black"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5353:380352",
+     "name": "Colors/Text/text-disabled",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87758",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377701",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5419:395653",
+     "name": "Colors/Text/text-placeholder",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87758",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377701",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5419:395654",
+     "name": "Colors/Text/text-placeholder_subtle",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87761",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/700"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377700",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/300"
+      }
+     }
+    },
+    {
+     "id": "VariableID:17499:16144",
+     "name": "Colors/Text/text-brand-primary-hover",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377712",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377716",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/700"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5373:442648",
+     "name": "Colors/Text/text-brand-secondary (700)",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377716",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/700"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377716",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/700"
+      }
+     }
+    },
+    {
+     "id": "VariableID:14761:1747",
+     "name": "Colors/Text/text-brand-secondary_hover",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377717",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/800"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377717",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/800"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5419:395655",
+     "name": "Colors/Text/text-brand-tertiary (600)",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377715",
+       "collection": "_Primitives",
+       "name": "color/brand/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377715",
+       "collection": "_Primitives",
+       "name": "color/brand/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6188:191015",
+     "name": "Colors/Text/text-brand-tertiary_alt",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377715",
+       "collection": "_Primitives",
+       "name": "color/brand/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377715",
+       "collection": "_Primitives",
+       "name": "color/brand/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:8753:389622",
+     "name": "Colors/Text/text-error-primary_hover",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377724",
+       "collection": "_Primitives",
+       "name": "Colors/Error/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377725",
+       "collection": "_Primitives",
+       "name": "Colors/Error/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5270:371444",
+     "name": "Colors/Text/text-warning-primary",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377737",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377740",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/700"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5270:371446",
+     "name": "Colors/Text/text-success-primary",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377751",
+       "collection": "_Primitives",
+       "name": "Colors/Success/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377754",
+       "collection": "_Primitives",
+       "name": "Colors/Success/700"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5263:373123",
+     "name": "Colors/Border/border-secondary",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87762",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/800"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377699",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/200"
+      }
+     }
+    },
+    {
+     "id": "VariableID:8714:124491",
+     "name": "Colors/Border/border-secondary_alt",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87762",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/800"
+      },
+      "Light mode": "#00000014"
+     }
+    },
+    {
+     "id": "VariableID:6132:176485",
+     "name": "Colors/Border/border-tertiary",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87762",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/800"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377698",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/100"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5353:382144",
+     "name": "Colors/Border/border-disabled",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87761",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/700"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377700",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/300"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5419:395627",
+     "name": "Colors/Border/border-disabled_subtle",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87762",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/800"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377699",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/200"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5353:381354",
+     "name": "Colors/Border/border-brand",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377713",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377714",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:7397:524104",
+     "name": "Colors/Border/border-brand_alt",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87761",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/700"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377715",
+       "collection": "_Primitives",
+       "name": "color/brand/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:17596:18682",
+     "name": "Colors/Border/border-brand subtle",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377710",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/100"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377710",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/100"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5353:385108",
+     "name": "Colors/Border/border-error",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377725",
+       "collection": "_Primitives",
+       "name": "Colors/Error/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377726",
+       "collection": "_Primitives",
+       "name": "Colors/Error/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5263:373126",
+     "name": "Colors/Border/border-error_subtle",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377723",
+       "collection": "_Primitives",
+       "name": "Colors/Error/200"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377724",
+       "collection": "_Primitives",
+       "name": "Colors/Error/300"
+      }
+     }
+    },
+    {
+     "id": "VariableID:21259:769",
+     "name": "Colors/Border/border-success",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377751",
+       "collection": "_Primitives",
+       "name": "Colors/Success/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377752",
+       "collection": "_Primitives",
+       "name": "Colors/Success/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5353:380348",
+     "name": "Colors/Foreground/fg-primary (900)",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377686",
+       "collection": "_Primitives",
+       "name": "Colors/Base/white"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377707",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/950"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5269:371411",
+     "name": "Colors/Foreground/fg-secondary (700)",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87757",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377704",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/700"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5343:378282",
+     "name": "Colors/Foreground/fg-secondary_hover",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87756",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/200"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377705",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/800"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5503:400808",
+     "name": "Colors/Foreground/fg-tertiary (600)",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87758",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377703",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5503:400809",
+     "name": "Colors/Foreground/fg-tertiary_hover",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87757",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377704",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/700"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5366:382191",
+     "name": "Colors/Foreground/fg-quaternary (400)",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87760",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377701",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5366:382193",
+     "name": "Colors/Foreground/fg-quaternary_hover",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87759",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377702",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5270:371448",
+     "name": "Colors/Foreground/fg-white",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377686",
+       "collection": "_Primitives",
+       "name": "Colors/Base/white"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377686",
+       "collection": "_Primitives",
+       "name": "Colors/Base/white"
+      }
+     }
+    },
+    {
+     "id": "VariableID:17488:21151",
+     "name": "Colors/Foreground/fg-black",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377687",
+       "collection": "_Primitives",
+       "name": "Colors/Base/black"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377687",
+       "collection": "_Primitives",
+       "name": "Colors/Base/black"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5353:380350",
+     "name": "Colors/Foreground/fg-disabled",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87759",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377701",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5394:386250",
+     "name": "Colors/Foreground/fg-disabled_subtle",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87760",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377700",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/300"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5366:382188",
+     "name": "Colors/Foreground/fg-brand-primary (600)",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377714",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377715",
+       "collection": "_Primitives",
+       "name": "color/brand/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5574:402478",
+     "name": "Colors/Foreground/fg-brand-primary_alt",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87757",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/300"
+      },
+      "Light mode": {
+       "alias": "VariableID:5366:382188",
+       "collection": "1. Color modes",
+       "name": "Colors/Foreground/fg-brand-primary (600)"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5360:390058",
+     "name": "Colors/Foreground/fg-brand-secondary (500)",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377714",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377714",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:8753:343716",
+     "name": "Colors/Foreground/fg-brand-secondary_alt",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377713",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377713",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:8823:598175",
+     "name": "Colors/Foreground/fg-brand-secondary_hover",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377713",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377713",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5367:383135",
+     "name": "Colors/Foreground/fg-error-primary",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377726",
+       "collection": "_Primitives",
+       "name": "Colors/Error/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377726",
+       "collection": "_Primitives",
+       "name": "Colors/Error/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5270:371432",
+     "name": "Colors/Foreground/fg-warning-primary",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377738",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377738",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5270:371434",
+     "name": "Colors/Foreground/fg-success-primary",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377752",
+       "collection": "_Primitives",
+       "name": "Colors/Success/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377752",
+       "collection": "_Primitives",
+       "name": "Colors/Success/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5269:371407",
+     "name": "Colors/Background/bg-primary",
+     "remote": false,
+     "scopes": 3,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377687",
+       "collection": "_Primitives",
+       "name": "Colors/Base/black"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377686",
+       "collection": "_Primitives",
+       "name": "Colors/Base/white"
+      }
+     }
+    },
+    {
+     "id": "VariableID:17498:16357",
+     "name": "Colors/Background/bg-canvas",
+     "remote": false,
+     "scopes": 3,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378678",
+       "collection": "_Primitives",
+       "name": "Colors/Gray iron/950"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377693",
+       "collection": "_Primitives",
+       "name": "Colors/Gray modern/25"
+      }
+     }
+    },
+    {
+     "id": "VariableID:21372:1655",
+     "name": "Colors/Effects/Focus rings/focus-ring-neutral",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377788",
+       "collection": "_Primitives",
+       "name": "Colors/Gray modern/800"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377783",
+       "collection": "_Primitives",
+       "name": "Colors/Gray modern/300"
+      }
+     }
+    },
+    {
+     "id": "VariableID:17496:23386",
+     "name": "Colors/Effects/Focus rings/focus-ring-alt",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:17489:6181",
+       "collection": "_Primitives",
+       "name": "Colors/Green lime/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:17489:6181",
+       "collection": "_Primitives",
+       "name": "Colors/Green lime/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:7371:212919",
+     "name": "Colors/Effects/Focus rings/focus-ring-error",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377726",
+       "collection": "_Primitives",
+       "name": "Colors/Error/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377726",
+       "collection": "_Primitives",
+       "name": "Colors/Error/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:7271:17030",
+     "name": "Colors/Effects/Shadows/shadow-xs",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5353:380363",
+       "collection": "_Primitives",
+       "name": "Colors/Base/transparent"
+      },
+      "Light mode": "#0a0d120d"
+     }
+    },
+    {
+     "id": "VariableID:7276:18831",
+     "name": "Colors/Effects/Shadows/shadow-sm_01",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5353:380363",
+       "collection": "_Primitives",
+       "name": "Colors/Base/transparent"
+      },
+      "Light mode": "#0a0d121a"
+     }
+    },
+    {
+     "id": "VariableID:7276:18827",
+     "name": "Colors/Effects/Shadows/shadow-sm_02",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5353:380363",
+       "collection": "_Primitives",
+       "name": "Colors/Base/transparent"
+      },
+      "Light mode": "#0a0d121a"
+     }
+    },
+    {
+     "id": "VariableID:7371:212903",
+     "name": "Colors/Effects/Shadows/shadow-md_01",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5353:380363",
+       "collection": "_Primitives",
+       "name": "Colors/Base/transparent"
+      },
+      "Light mode": "#0a0d121a"
+     }
+    },
+    {
+     "id": "VariableID:7371:212904",
+     "name": "Colors/Effects/Shadows/shadow-md_02",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5353:380363",
+       "collection": "_Primitives",
+       "name": "Colors/Base/transparent"
+      },
+      "Light mode": "#0a0d120f"
+     }
+    },
+    {
+     "id": "VariableID:7276:18828",
+     "name": "Colors/Effects/Shadows/shadow-lg_01",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5353:380363",
+       "collection": "_Primitives",
+       "name": "Colors/Base/transparent"
+      },
+      "Light mode": "#0a0d1214"
+     }
+    },
+    {
+     "id": "VariableID:7276:18830",
+     "name": "Colors/Effects/Shadows/shadow-lg_02",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5353:380363",
+       "collection": "_Primitives",
+       "name": "Colors/Base/transparent"
+      },
+      "Light mode": "#0a0d1208"
+     }
+    },
+    {
+     "id": "VariableID:7981:234615",
+     "name": "Colors/Effects/Shadows/shadow-lg_03",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5353:380363",
+       "collection": "_Primitives",
+       "name": "Colors/Base/transparent"
+      },
+      "Light mode": "#0a0d120a"
+     }
+    },
+    {
+     "id": "VariableID:7371:212905",
+     "name": "Colors/Effects/Shadows/shadow-xl_01",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5353:380363",
+       "collection": "_Primitives",
+       "name": "Colors/Base/transparent"
+      },
+      "Light mode": "#0a0d1214"
+     }
+    },
+    {
+     "id": "VariableID:7371:212906",
+     "name": "Colors/Effects/Shadows/shadow-xl_02",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5353:380363",
+       "collection": "_Primitives",
+       "name": "Colors/Base/transparent"
+      },
+      "Light mode": "#0a0d1208"
+     }
+    },
+    {
+     "id": "VariableID:7981:234616",
+     "name": "Colors/Effects/Shadows/shadow-xl_03",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5353:380363",
+       "collection": "_Primitives",
+       "name": "Colors/Base/transparent"
+      },
+      "Light mode": "#0a0d120a"
+     }
+    },
+    {
+     "id": "VariableID:7276:18833",
+     "name": "Colors/Effects/Shadows/shadow-2xl_01",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5353:380363",
+       "collection": "_Primitives",
+       "name": "Colors/Base/transparent"
+      },
+      "Light mode": "#0a0d122e"
+     }
+    },
+    {
+     "id": "VariableID:7981:234617",
+     "name": "Colors/Effects/Shadows/shadow-2xl_02",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5353:380363",
+       "collection": "_Primitives",
+       "name": "Colors/Base/transparent"
+      },
+      "Light mode": "#0a0d120a"
+     }
+    },
+    {
+     "id": "VariableID:7276:18832",
+     "name": "Colors/Effects/Shadows/shadow-3xl_01",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5353:380363",
+       "collection": "_Primitives",
+       "name": "Colors/Base/transparent"
+      },
+      "Light mode": "#0a0d1224"
+     }
+    },
+    {
+     "id": "VariableID:7981:234618",
+     "name": "Colors/Effects/Shadows/shadow-3xl_02",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5353:380363",
+       "collection": "_Primitives",
+       "name": "Colors/Base/transparent"
+      },
+      "Light mode": "#0a0d120a"
+     }
+    },
+    {
+     "id": "VariableID:7393:383290",
+     "name": "Colors/Effects/Shadows/shadow-skeumorphic-inner",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": "#0c0e120d",
+      "Light mode": "#0a0d120d"
+     }
+    },
+    {
+     "id": "VariableID:7396:291712",
+     "name": "Colors/Effects/Shadows/shadow-skeumorphic-inner-border",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": "#0c0e122e",
+      "Light mode": "#0a0d122e"
+     }
+    },
+    {
+     "id": "VariableID:5503:400270",
+     "name": "Colors/Background/bg-primary_alt",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5367:383138",
+       "collection": "1. Color modes",
+       "name": "Colors/Background/bg-secondary"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377686",
+       "collection": "_Primitives",
+       "name": "Colors/Base/white"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5353:380344",
+     "name": "Colors/Background/bg-primary_hover",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87762",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/800"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377696",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/50"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6188:245678",
+     "name": "Colors/Background/bg-primary-solid",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5367:383138",
+       "collection": "1. Color modes",
+       "name": "Colors/Background/bg-secondary"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377707",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/950"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5367:383138",
+     "name": "Colors/Background/bg-secondary",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87763",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/900"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377696",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/50"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5574:403136",
+     "name": "Colors/Background/bg-secondary_alt",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5269:371407",
+       "collection": "1. Color modes",
+       "name": "Colors/Background/bg-primary"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377696",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/50"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5342:374622",
+     "name": "Colors/Background/bg-secondary_hover",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87762",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/800"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377698",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/100"
+      }
+     }
+    },
+    {
+     "id": "VariableID:6059:440423",
+     "name": "Colors/Background/bg-secondary_subtle",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87763",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/900"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377690",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/25"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5270:371458",
+     "name": "Colors/Background/bg-secondary-solid",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87760",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377703",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5269:371408",
+     "name": "Colors/Background/bg-tertiary",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87762",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/800"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377698",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/100"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5376:386706",
+     "name": "Colors/Background/bg-quaternary",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87761",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/700"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377699",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/200"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5353:380364",
+     "name": "Colors/Background/bg-active",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377687",
+       "collection": "_Primitives",
+       "name": "Colors/Base/black"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377709",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/50"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5353:380346",
+     "name": "Colors/Background/bg-disabled",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87763",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/900"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377698",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/100"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5373:441756",
+     "name": "Colors/Background/bg-disabled_subtle",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87763",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/900"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377696",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (light mode)/50"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5965:435454",
+     "name": "Colors/Background/bg-overlay",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5574:413591",
+       "collection": "1. Color modes",
+       "name": "Component colors/Alpha/alpha-white-10"
+      },
+      "Light mode": {
+       "alias": "VariableID:5574:413595",
+       "collection": "1. Color modes",
+       "name": "Component colors/Alpha/alpha-black-40"
+      }
+     }
+    },
+    {
+     "id": "VariableID:17490:23031",
+     "name": "Colors/Background/bg-brand-primary_subtle",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377709",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/50"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377709",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/50"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5363:390066",
+     "name": "Colors/Background/bg-brand-secondary",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:17489:6181",
+       "collection": "_Primitives",
+       "name": "Colors/Green lime/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:17489:6181",
+       "collection": "_Primitives",
+       "name": "Colors/Green lime/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:17490:23032",
+     "name": "Colors/Background/bg-brand-secondary_subtle",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:17489:6178",
+       "collection": "_Primitives",
+       "name": "Colors/Green lime/200"
+      },
+      "Light mode": {
+       "alias": "VariableID:17489:6178",
+       "collection": "_Primitives",
+       "name": "Colors/Green lime/200"
+      }
+     }
+    },
+    {
+     "id": "VariableID:17490:23029",
+     "name": "Colors/Background/bg-brand-secondary_hover",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:17489:6180",
+       "collection": "_Primitives",
+       "name": "Colors/Green lime/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:17489:6180",
+       "collection": "_Primitives",
+       "name": "Colors/Green lime/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:21485:6459",
+     "name": "Colors/Background/bg-brand-tertiary",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:17490:5441",
+       "collection": "_Primitives",
+       "name": "Colors/Magenta/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:17490:5441",
+       "collection": "_Primitives",
+       "name": "Colors/Magenta/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:21485:6460",
+     "name": "Colors/Background/bg-brand-tertiary_hover",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:17490:5440",
+       "collection": "_Primitives",
+       "name": "Colors/Magenta/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:17490:5440",
+       "collection": "_Primitives",
+       "name": "Colors/Magenta/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5353:386814",
+     "name": "Colors/Background/bg-error-primary",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377727",
+       "collection": "_Primitives",
+       "name": "Colors/Error/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377721",
+       "collection": "_Primitives",
+       "name": "Colors/Error/50"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5270:371424",
+     "name": "Colors/Background/bg-error-secondary",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377727",
+       "collection": "_Primitives",
+       "name": "Colors/Error/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377722",
+       "collection": "_Primitives",
+       "name": "Colors/Error/100"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5270:371460",
+     "name": "Colors/Background/bg-error-solid",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377727",
+       "collection": "_Primitives",
+       "name": "Colors/Error/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377727",
+       "collection": "_Primitives",
+       "name": "Colors/Error/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:9860:25270",
+     "name": "Colors/Background/bg-error-solid_hover",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377726",
+       "collection": "_Primitives",
+       "name": "Colors/Error/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377726",
+       "collection": "_Primitives",
+       "name": "Colors/Error/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5270:371425",
+     "name": "Colors/Background/bg-warning-primary",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377742",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/900"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377733",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/50"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5270:371426",
+     "name": "Colors/Background/bg-warning-secondary",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377741",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/800"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377734",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/100"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5270:371462",
+     "name": "Colors/Background/bg-warning-solid",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377739",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377739",
+       "collection": "_Primitives",
+       "name": "Colors/Warning/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5270:371427",
+     "name": "Colors/Background/bg-success-primary",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377757",
+       "collection": "_Primitives",
+       "name": "Colors/Success/950"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377747",
+       "collection": "_Primitives",
+       "name": "Colors/Success/50"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5270:371428",
+     "name": "Colors/Background/bg-success-secondary",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377753",
+       "collection": "_Primitives",
+       "name": "Colors/Success/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377748",
+       "collection": "_Primitives",
+       "name": "Colors/Success/100"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5270:371464",
+     "name": "Colors/Background/bg-success-solid",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377753",
+       "collection": "_Primitives",
+       "name": "Colors/Success/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377753",
+       "collection": "_Primitives",
+       "name": "Colors/Success/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:17598:19007",
+     "name": "Colors/Background/bg-avatar-color1",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:17489:6180",
+       "collection": "_Primitives",
+       "name": "Colors/Green lime/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:17489:6180",
+       "collection": "_Primitives",
+       "name": "Colors/Green lime/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:17598:19008",
+     "name": "Colors/Background/bg-avatar-color2",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377965",
+       "collection": "_Primitives",
+       "name": "Colors/Purple/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377965",
+       "collection": "_Primitives",
+       "name": "Colors/Purple/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:17598:19009",
+     "name": "Colors/Background/bg-avatar-color3",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377989",
+       "collection": "_Primitives",
+       "name": "Colors/Pink/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:378001",
+       "collection": "_Primitives",
+       "name": "Colors/Rosé/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:17598:19010",
+     "name": "Colors/Background/bg-avatar-color4",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378013",
+       "collection": "_Primitives",
+       "name": "Colors/Orange dark/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:378013",
+       "collection": "_Primitives",
+       "name": "Colors/Orange dark/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:17598:19011",
+     "name": "Colors/Background/bg-avatar-color5",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377930",
+       "collection": "_Primitives",
+       "name": "Colors/Blue dark/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377916",
+       "collection": "_Primitives",
+       "name": "Colors/Blue/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:17598:19012",
+     "name": "Colors/Background/bg-avatar-color6",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377892",
+       "collection": "_Primitives",
+       "name": "Colors/Cyan/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377892",
+       "collection": "_Primitives",
+       "name": "Colors/Cyan/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:17598:19013",
+     "name": "Colors/Background/bg-avatar-color7",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377857",
+       "collection": "_Primitives",
+       "name": "Colors/Green light/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377857",
+       "collection": "_Primitives",
+       "name": "Colors/Green light/400"
+      }
+     }
+    },
+    {
+     "id": "VariableID:17598:19014",
+     "name": "Colors/Background/bg-avatar-color8",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:378037",
+       "collection": "_Primitives",
+       "name": "Colors/Yellow/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:378037",
+       "collection": "_Primitives",
+       "name": "Colors/Yellow/400"
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "prefix": "Colors/",
+ "readAt": "2026-11-09T20:42:47.063Z",
+ "run": "after-naming-pilot",
+ "slim": false
+}

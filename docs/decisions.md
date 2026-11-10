@@ -71,6 +71,16 @@ Source of approvals: Mike Salcedo, Cowork chat, **2026-11-09**. Agents may not c
 - This workspace is a separate git repo at `~/Documents/Codex/MAKEDSv2-refactor-plan`, remote `github.com/reddddd1/make-ds2-workspace` (private). **APPROVED, VERIFIED pushed (025c85b)**
 - `design-tokens` stays a separate repo, not a submodule. **APPROVED**
 
+## 4b. Naming migration — simplified (Mike, 2026-11-09, "Simplify and Move Forward")
+
+- **Priority:** a reliable, usable MAKE DS2 library over perfect naming or full token coverage. **APPROVED**
+- **Done:** `dryrun.py` ID-first seeding; 11 map display names; 17 registry metadata-only updates (`figma`, `figmaLegacy`, `figmaVariableId`) applied to the token repo working tree after preflight (keys/values/aliases unchanged, `dist/` identical except `builtAt`, 29/29 tests, dry-run 0 operations with and without map). Token repo change **not committed**. **APPLIED**
+- **18 partially renamed groups are accepted as a temporary state.** Documented in `reports/token-naming-group-audit.md`; the migration is not expanded. **APPROVED**
+- **Missing canonical tokens are added incrementally**, only when an approved component task needs them, and only with approval before any token change. **APPROVED**
+- **Unchanged:** legacy (Figma-only) variables, radius naming (R1 deferred), Tailwind global defaults (ADR-0009), batches 1–5 of the naming plan (paused, not scheduled). **APPROVED**
+- **Alert Dark-mode Featured-icon circle = known issue S-2** (remote MAKER Icon library variables ignore the DS Dark mode). Broader icon-library migration deferred. **RECORDED**
+- **Next priority:** component readiness — functional defects over cosmetic naming; targeted validation per change. Login screens (P2-08) stay on hold. **APPROVED**
+
 ## 5. Rejected alternatives (do not reintroduce)
 
 - Figma radius names with Figma values (P5): superseded by ADR-0006.

@@ -1,0 +1,11 @@
+/*! tailwindcss v4.3.5 | MIT License | https://tailwindcss.com */
+@layer theme {
+  :root, :host {
+    --color-gray-100: #f5f5f5;
+  }
+}
+@layer utilities {
+  .bg-gray-100 {
+    background-color: var(--color-gray-100);
+  }
+}

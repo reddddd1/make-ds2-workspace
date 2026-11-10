@@ -1,0 +1,163 @@
+{
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "mode": "preflight (no writes)",
+ "ops": [
+  {
+   "before": {
+    "codeSyntax": {},
+    "hidden": false,
+    "modes": 1,
+    "scopes": [
+     "ALL_SCOPES"
+    ],
+    "type": "COLOR"
+   },
+   "from": "Colors/Brand/600",
+   "id": "VariableID:5248:377715",
+   "to": "color/brand/600"
+  },
+  {
+   "before": {
+    "codeSyntax": {},
+    "hidden": false,
+    "modes": 1,
+    "scopes": [
+     "ALL_SCOPES"
+    ],
+    "type": "COLOR"
+   },
+   "from": "Colors/Gray (light mode)/450",
+   "id": "VariableID:23468:2",
+   "to": "color/gray/450"
+  },
+  {
+   "before": {
+    "codeSyntax": {},
+    "hidden": false,
+    "modes": 2,
+    "scopes": [
+     "FRAME_FILL",
+     "SHAPE_FILL"
+    ],
+    "type": "COLOR"
+   },
+   "from": "Colors/Background/bg-brand-primary",
+   "id": "VariableID:5270:371419",
+   "to": "color/bg/brand-primary"
+  },
+  {
+   "before": {
+    "codeSyntax": {},
+    "hidden": false,
+    "modes": 2,
+    "scopes": [
+     "FRAME_FILL",
+     "SHAPE_FILL"
+    ],
+    "type": "COLOR"
+   },
+   "from": "Colors/Background/bg-brand-primary_hover",
+   "id": "VariableID:5353:380427",
+   "to": "color/bg/brand-primary-hover"
+  },
+  {
+   "before": {
+    "codeSyntax": {},
+    "hidden": false,
+    "modes": 2,
+    "scopes": [
+     "TEXT_FILL"
+    ],
+    "type": "COLOR"
+   },
+   "from": "Colors/Text/text-brand-primary",
+   "id": "VariableID:6137:268549",
+   "to": "color/text/brand-primary"
+  },
+  {
+   "before": {
+    "codeSyntax": {},
+    "hidden": false,
+    "modes": 2,
+    "scopes": [
+     "TEXT_FILL"
+    ],
+    "type": "COLOR"
+   },
+   "from": "Colors/Text/text-error-primary",
+   "id": "VariableID:5263:373125",
+   "to": "color/text/error-primary"
+  },
+  {
+   "before": {
+    "codeSyntax": {},
+    "hidden": false,
+    "modes": 2,
+    "scopes": [
+     "STROKE_COLOR"
+    ],
+    "type": "COLOR"
+   },
+   "from": "Colors/Border/border-primary",
+   "id": "VariableID:5270:371435",
+   "to": "color/border/primary"
+  },
+  {
+   "before": {
+    "codeSyntax": {},
+    "hidden": true,
+    "modes": 2,
+    "scopes": [
+     "STROKE_COLOR",
+     "EFFECT_COLOR"
+    ],
+    "type": "COLOR"
+   },
+   "from": "Colors/Effects/Focus rings/focus-ring-primary",
+   "id": "VariableID:7371:212918",
+   "to": "color/focus-ring/primary"
+  },
+  {
+   "before": {
+    "codeSyntax": {},
+    "hidden": true,
+    "modes": 1,
+    "scopes": [],
+    "type": "FLOAT"
+   },
+   "from": "Spacing/3 (12px)",
+   "id": "VariableID:5253:372203",
+   "to": "spacing/3"
+  },
+  {
+   "before": {
+    "codeSyntax": {},
+    "hidden": false,
+    "modes": 1,
+    "scopes": [
+     "FONT_SIZE"
+    ],
+    "type": "FLOAT"
+   },
+   "from": "Font size/text-md",
+   "id": "VariableID:7407:110365",
+   "to": "font/size/base"
+  },
+  {
+   "before": {
+    "codeSyntax": {},
+    "hidden": false,
+    "modes": 1,
+    "scopes": [
+     "FONT_STYLE"
+    ],
+    "type": "STRING"
+   },
+   "from": "Font weight/semibold",
+   "id": "VariableID:7405:102287",
+   "to": "font/weight/semibold"
+  }
+ ],
+ "readNote": "use_figma preflight, 2026-11-09 (after the 19:59:53Z final-review read); write branch removed from the executed copy",
+ "rollback": false
+}

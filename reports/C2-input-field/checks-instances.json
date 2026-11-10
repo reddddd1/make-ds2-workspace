@@ -1,0 +1,15 @@
+{
+ "defaultCount": 32,
+ "defaultHelperTexts": [
+  "{Support text}"
+ ],
+ "destructiveCount": 21,
+ "destructiveHelperTexts": [
+  "{Error}"
+ ],
+ "instances": 26,
+ "summary": {
+  "Label=Label, Show optional=false, Text=Placeholder text, Show helper=false, Size=sm, Type=Default, Destructive=False, State=Filled || exposed: Icon wrapper{Crypto=21485:6680, Currency=21465:361, Icon=21539:2024, Size=md, Type=Icon, Icon pair?=No, Style=-, Intent=Neutral} Icon wrapper{Crypto=21485:6680, Currency=21465:361, Icon=21590:1219, Size=md, Type=Icon, Icon pair?=No, Style=-, Intent=Neutral} Helper text{Text={Support text}, Size=md, Status=Informative default} || helperVisible=false || values=[\"Jan 10, 2025\",\"Optional\"]": 17,
+  "Label=Label, Show optional=false, Text=Placeholder text, Show helper=false, Size=sm, Type=Default, Destructive=False, State=Filled || exposed: Icon wrapper{Crypto=21485:6680, Currency=21465:361, Icon=21539:2024, Size=md, Type=Icon, Icon pair?=No, Style=-, Intent=Neutral} Icon wrapper{Crypto=21485:6680, Currency=21465:361, Icon=21590:1219, Size=md, Type=Icon, Icon pair?=No, Style=-, Intent=Neutral} Helper text{Text={Support text}, Size=md, Status=Informative default} || helperVisible=false || values=[\"Jan 16, 2025\",\"Optional\"]": 9
+ }
+}

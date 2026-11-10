@@ -1,0 +1,79 @@
+{
+ "status": "PROPOSED — not approved, not applied",
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "batch": "4",
+ "title": "Semantic roles (text, border)",
+ "count": 5,
+ "directBindings": 39,
+ "styleRefs": 0,
+ "aliasedBy": 0,
+ "risk": {
+  "medium": 5
+ },
+ "splitFamilies": [
+  "1. Color modes › Colors/Border",
+  "1. Color modes › Colors/Text"
+ ],
+ "rows": [
+  {
+   "id": "VariableID:5353:385108",
+   "collection": "1. Color modes",
+   "old": "Colors/Border/border-error",
+   "new": "color/border/error",
+   "token": "color.border.error",
+   "directBindings": 2,
+   "components": 1,
+   "styleRefs": 0,
+   "aliasedBy": 0,
+   "risk": "medium"
+  },
+  {
+   "id": "VariableID:17499:16144",
+   "collection": "1. Color modes",
+   "old": "Colors/Text/text-brand-primary-hover",
+   "new": "color/text/brand-primary-hover",
+   "token": "color.text.brand-primary-hover",
+   "directBindings": 14,
+   "components": 1,
+   "styleRefs": 0,
+   "aliasedBy": 0,
+   "risk": "medium"
+  },
+  {
+   "id": "VariableID:6139:331930",
+   "collection": "1. Color modes",
+   "old": "Colors/Text/text-primary_on-brandprimary",
+   "new": "color/text/primary-on-brand",
+   "token": "color.text.primary-on-brand",
+   "directBindings": 8,
+   "components": 4,
+   "styleRefs": 0,
+   "aliasedBy": 0,
+   "risk": "medium"
+  },
+  {
+   "id": "VariableID:5270:371446",
+   "collection": "1. Color modes",
+   "old": "Colors/Text/text-success-primary",
+   "new": "color/text/success-primary",
+   "token": "color.text.success-primary",
+   "directBindings": 6,
+   "components": 2,
+   "styleRefs": 0,
+   "aliasedBy": 0,
+   "risk": "medium"
+  },
+  {
+   "id": "VariableID:5270:371444",
+   "collection": "1. Color modes",
+   "old": "Colors/Text/text-warning-primary",
+   "new": "color/text/warning-primary",
+   "token": "color.text.warning-primary",
+   "directBindings": 9,
+   "components": 2,
+   "styleRefs": 0,
+   "aliasedBy": 0,
+   "risk": "medium"
+  }
+ ]
+}

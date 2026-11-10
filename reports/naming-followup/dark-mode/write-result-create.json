@@ -1,0 +1,127 @@
+{
+ "created": [
+  {
+   "id": "23518:5",
+   "main": "3287:427299",
+   "set": "Buttons/Button",
+   "variant": "Size=md, Hierarchy=Primary, State=Default, Icon only=False"
+  },
+  {
+   "id": "23518:19",
+   "main": "3287:427383",
+   "set": "Buttons/Button",
+   "variant": "Size=md, Hierarchy=Primary, State=Hover, Icon only=False"
+  },
+  {
+   "id": "23518:32",
+   "main": "23481:5",
+   "set": "Buttons/Button",
+   "variant": "Size=md, Hierarchy=Primary, State=Pressed, Icon only=False"
+  },
+  {
+   "id": "23518:45",
+   "main": "3287:427355",
+   "set": "Buttons/Button",
+   "variant": "Size=md, Hierarchy=Primary, State=Focused, Icon only=False"
+  },
+  {
+   "id": "23518:58",
+   "main": "3287:427327",
+   "set": "Buttons/Button",
+   "variant": "Size=md, Hierarchy=Primary, State=Disabled, Icon only=False"
+  },
+  {
+   "id": "23518:71",
+   "main": "17496:23075",
+   "set": "Buttons/Button",
+   "variant": "Size=md, Hierarchy=Primary_alt, State=Default, Icon only=False"
+  },
+  {
+   "id": "23518:84",
+   "main": "3287:427323",
+   "set": "Buttons/Button",
+   "variant": "Size=md, Hierarchy=Secondary, State=Default, Icon only=False"
+  },
+  {
+   "id": "23518:97",
+   "main": "3287:427307",
+   "set": "Buttons/Button",
+   "variant": "Size=md, Hierarchy=Link brand, State=Default, Icon only=False"
+  },
+  {
+   "id": "23518:110",
+   "main": "17517:10998",
+   "set": "Input field",
+   "variant": "Size=lg, Type=Default, Destructive=False, State=Placeholder"
+  },
+  {
+   "id": "23518:134",
+   "main": "17517:11025",
+   "set": "Input field",
+   "variant": "Size=lg, Type=Default, Destructive=False, State=Filled"
+  },
+  {
+   "id": "23518:156",
+   "main": "17517:11048",
+   "set": "Input field",
+   "variant": "Size=lg, Type=Default, Destructive=False, State=Focused"
+  },
+  {
+   "id": "23518:178",
+   "main": "17517:11071",
+   "set": "Input field",
+   "variant": "Size=lg, Type=Default, Destructive=False, State=Disabled"
+  },
+  {
+   "id": "23518:200",
+   "main": "17524:15952",
+   "set": "Input field",
+   "variant": "Size=lg, Type=Default, Destructive=True, State=Placeholder"
+  },
+  {
+   "id": "23518:220",
+   "main": "17588:6932",
+   "set": "Input field",
+   "variant": "Size=lg, Type=Password, Destructive=False, State=Filled"
+  },
+  {
+   "id": "23518:242",
+   "main": "4050:412610",
+   "set": "Alert",
+   "variant": "Color=Default"
+  },
+  {
+   "id": "23518:276",
+   "main": "1130:82796",
+   "set": "Alert",
+   "variant": "Color=Brand"
+  },
+  {
+   "id": "23518:310",
+   "main": "21258:2087",
+   "set": "Alert",
+   "variant": "Color=Error"
+  },
+  {
+   "id": "23518:344",
+   "main": "21258:2125",
+   "set": "Alert",
+   "variant": "Color=Success"
+  },
+  {
+   "id": "23518:379",
+   "main": "4057:417149",
+   "set": "Modal",
+   "variant": "Type=Default slotted"
+  }
+ ],
+ "explicitModes": {
+  "VariableCollectionId:5256:372339": "5353:0"
+ },
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "frameId": "23518:3",
+ "frameName": "TEMP — Dark-mode regression test (naming follow-up 2026-11-09) — safe to delete",
+ "instances": 19,
+ "pageId": "23518:2",
+ "writtenAt": "2026-11-09T20:57:46.375Z"
+}

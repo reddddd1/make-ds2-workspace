@@ -1,0 +1,876 @@
+{
+ "check": "variables",
+ "collections": [
+  {
+   "count": 171,
+   "id": "VariableCollectionId:5256:372339",
+   "modes": [
+    "Light mode",
+    "Dark mode"
+   ],
+   "name": "1. Color modes",
+   "variables": [
+    {
+     "id": "VariableID:5574:413591",
+     "name": "Component colors/Alpha/alpha-white-10",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5574:413590",
+     "name": "Component colors/Alpha/alpha-white-20",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5574:413589",
+     "name": "Component colors/Alpha/alpha-white-30",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5574:413588",
+     "name": "Component colors/Alpha/alpha-white-40",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5574:413587",
+     "name": "Component colors/Alpha/alpha-white-50",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5574:413586",
+     "name": "Component colors/Alpha/alpha-white-60",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5574:413585",
+     "name": "Component colors/Alpha/alpha-white-70",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5574:413584",
+     "name": "Component colors/Alpha/alpha-white-80",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5574:413581",
+     "name": "Component colors/Alpha/alpha-white-90",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6080:479733",
+     "name": "Component colors/Alpha/alpha-white-100",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5574:413592",
+     "name": "Component colors/Alpha/alpha-black-10",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5574:413593",
+     "name": "Component colors/Alpha/alpha-black-20",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5574:413594",
+     "name": "Component colors/Alpha/alpha-black-30",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5574:413595",
+     "name": "Component colors/Alpha/alpha-black-40",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5574:413596",
+     "name": "Component colors/Alpha/alpha-black-50",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5574:413597",
+     "name": "Component colors/Alpha/alpha-black-60",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5574:413598",
+     "name": "Component colors/Alpha/alpha-black-70",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5574:413599",
+     "name": "Component colors/Alpha/alpha-black-80",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5574:413600",
+     "name": "Component colors/Alpha/alpha-black-90",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6080:479732",
+     "name": "Component colors/Alpha/alpha-black-100",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398248",
+     "name": "Component colors/Utility/Gray/utility-gray-50",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6179:409999",
+     "name": "Component colors/Components/App store badges/app-store-badge-border",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:7318:479624",
+     "name": "Component colors/Components/Avatars/avatar-styles-bg-neutral",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:8818:78315",
+     "name": "Component colors/Components/Buttons/button-primary-icon",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:8818:112060",
+     "name": "Component colors/Components/Buttons/button-primary-icon_hover",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:8818:582703",
+     "name": "Component colors/Components/Buttons/button-destructive-primary-icon",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:8818:582704",
+     "name": "Component colors/Components/Buttons/button-destructive-primary-icon_hover",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6179:408305",
+     "name": "Component colors/Components/Footers/footer-button-fg",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6179:408311",
+     "name": "Component colors/Components/Footers/footer-button-fg_hover",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6169:481087",
+     "name": "Component colors/Components/Icons/Icons/icon-fg-brand",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6169:489279",
+     "name": "Component colors/Components/Icons/Icons/icon-fg-brand_on-brand",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5807:420926",
+     "name": "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-brand",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5807:420927",
+     "name": "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-gray",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5807:420928",
+     "name": "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-error",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5807:420929",
+     "name": "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-warning",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5807:420930",
+     "name": "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-success",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6132:238837",
+     "name": "Component colors/Components/Mockups/screen-mockup-border",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6051:432901",
+     "name": "Component colors/Components/Sliders/slider-handle-bg",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6051:432900",
+     "name": "Component colors/Components/Sliders/slider-handle-border",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6305:239517",
+     "name": "Component colors/Components/Toggles/toggle-button-fg_disabled",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:7923:539396",
+     "name": "Component colors/Components/Toggles/toggle-border",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:7923:539867",
+     "name": "Component colors/Components/Toggles/toggle-slim-border_pressed-hover",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5376:386375",
+     "name": "Component colors/Components/Tooltips/tooltip-supporting-text",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5422:397822",
+     "name": "Component colors/Components/Text editor/text-editor-icon-fg",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5422:397823",
+     "name": "Component colors/Components/Text editor/text-editor-icon-fg_active",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5409:398263",
+     "name": "Component colors/Utility/Gray/utility-gray-100",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398233",
+     "name": "Component colors/Utility/Gray/utility-gray-200",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6060:442843",
+     "name": "Component colors/Utility/Gray/utility-gray-300",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5409:398424",
+     "name": "Component colors/Utility/Gray/utility-gray-400",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398203",
+     "name": "Component colors/Utility/Gray/utility-gray-500",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398183",
+     "name": "Component colors/Utility/Gray/utility-gray-600",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5399:389133",
+     "name": "Component colors/Utility/Gray/utility-gray-700",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6124:61598",
+     "name": "Component colors/Utility/Gray/utility-gray-800",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6123:195663",
+     "name": "Component colors/Utility/Gray/utility-gray-900",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:17498:15836",
+     "name": "Component colors/Utility/Brand/utility-brand-25",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398249",
+     "name": "Component colors/Utility/Brand/utility-brand-50",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6049:416908",
+     "name": "Component colors/Utility/Brand/utility-brand-50_alt",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5409:398264",
+     "name": "Component colors/Utility/Brand/utility-brand-100",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6049:416909",
+     "name": "Component colors/Utility/Brand/utility-brand-100_alt",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398234",
+     "name": "Component colors/Utility/Brand/utility-brand-200",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6049:416910",
+     "name": "Component colors/Utility/Brand/utility-brand-200_alt",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6053:436906",
+     "name": "Component colors/Utility/Brand/utility-brand-300",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6487:349940",
+     "name": "Component colors/Utility/Brand/utility-brand-300_alt",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5409:398426",
+     "name": "Component colors/Utility/Brand/utility-brand-400",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6049:416911",
+     "name": "Component colors/Utility/Brand/utility-brand-400_alt",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398205",
+     "name": "Component colors/Utility/Brand/utility-brand-500",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6049:416912",
+     "name": "Component colors/Utility/Brand/utility-brand-500_alt",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5399:389132",
+     "name": "Component colors/Utility/Brand/utility-brand-600",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6049:416913",
+     "name": "Component colors/Utility/Brand/utility-brand-600_alt",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398186",
+     "name": "Component colors/Utility/Brand/utility-brand-700",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6049:416914",
+     "name": "Component colors/Utility/Brand/utility-brand-700_alt",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6124:61597",
+     "name": "Component colors/Utility/Brand/utility-brand-800",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6487:349941",
+     "name": "Component colors/Utility/Brand/utility-brand-800_alt",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6123:195662",
+     "name": "Component colors/Utility/Brand/utility-brand-900",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6487:349942",
+     "name": "Component colors/Utility/Brand/utility-brand-900_alt",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398250",
+     "name": "Component colors/Utility/Error/utility-error-50",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5409:398265",
+     "name": "Component colors/Utility/Error/utility-error-100",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398235",
+     "name": "Component colors/Utility/Error/utility-error-200",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6487:354313",
+     "name": "Component colors/Utility/Error/utility-error-300",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5409:398427",
+     "name": "Component colors/Utility/Error/utility-error-400",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398207",
+     "name": "Component colors/Utility/Error/utility-error-500",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5399:389134",
+     "name": "Component colors/Utility/Error/utility-error-600",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398187",
+     "name": "Component colors/Utility/Error/utility-error-700",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398251",
+     "name": "Component colors/Utility/Warning/utility-warning-50",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5409:398266",
+     "name": "Component colors/Utility/Warning/utility-warning-100",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398236",
+     "name": "Component colors/Utility/Warning/utility-warning-200",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6487:354314",
+     "name": "Component colors/Utility/Warning/utility-warning-300",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5409:398430",
+     "name": "Component colors/Utility/Warning/utility-warning-400",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398209",
+     "name": "Component colors/Utility/Warning/utility-warning-500",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5399:389135",
+     "name": "Component colors/Utility/Warning/utility-warning-600",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398188",
+     "name": "Component colors/Utility/Warning/utility-warning-700",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398252",
+     "name": "Component colors/Utility/Success/utility-success-50",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5409:398267",
+     "name": "Component colors/Utility/Success/utility-success-100",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398237",
+     "name": "Component colors/Utility/Success/utility-success-200",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6487:354315",
+     "name": "Component colors/Utility/Success/utility-success-300",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5409:398431",
+     "name": "Component colors/Utility/Success/utility-success-400",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398211",
+     "name": "Component colors/Utility/Success/utility-success-500",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5399:389136",
+     "name": "Component colors/Utility/Success/utility-success-600",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398189",
+     "name": "Component colors/Utility/Success/utility-success-700",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:7999:23182",
+     "name": "Component colors/Utility/Green/utility-green-50",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:7999:23183",
+     "name": "Component colors/Utility/Green/utility-green-100",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:7999:23184",
+     "name": "Component colors/Utility/Green/utility-green-200",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:7999:23185",
+     "name": "Component colors/Utility/Green/utility-green-300",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:7999:23186",
+     "name": "Component colors/Utility/Green/utility-green-400",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:7999:23187",
+     "name": "Component colors/Utility/Green/utility-green-500",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:7999:23188",
+     "name": "Component colors/Utility/Green/utility-green-600",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:7999:23189",
+     "name": "Component colors/Utility/Green/utility-green-700",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398254",
+     "name": "Component colors/Utility/Blue light/utility-blue-light-50",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5409:398269",
+     "name": "Component colors/Utility/Blue light/utility-blue-light-100",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398239",
+     "name": "Component colors/Utility/Blue light/utility-blue-light-200",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6487:354317",
+     "name": "Component colors/Utility/Blue light/utility-blue-light-300",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5409:398433",
+     "name": "Component colors/Utility/Blue light/utility-blue-light-400",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398215",
+     "name": "Component colors/Utility/Blue light/utility-blue-light-500",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398182",
+     "name": "Component colors/Utility/Blue light/utility-blue-light-600",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398198",
+     "name": "Component colors/Utility/Blue light/utility-blue-light-700",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398255",
+     "name": "Component colors/Utility/Blue/utility-blue-50",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5409:398270",
+     "name": "Component colors/Utility/Blue/utility-blue-100",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398240",
+     "name": "Component colors/Utility/Blue/utility-blue-200",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6487:354318",
+     "name": "Component colors/Utility/Blue/utility-blue-300",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5409:398434",
+     "name": "Component colors/Utility/Blue/utility-blue-400",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398217",
+     "name": "Component colors/Utility/Blue/utility-blue-500",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5374:385385",
+     "name": "Component colors/Utility/Blue/utility-blue-600",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398197",
+     "name": "Component colors/Utility/Blue/utility-blue-700",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398256",
+     "name": "Component colors/Utility/Blue dark/utility-blue-dark-50",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5409:398271",
+     "name": "Component colors/Utility/Blue dark/utility-blue-dark-100",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398241",
+     "name": "Component colors/Utility/Blue dark/utility-blue-dark-200",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6487:354319",
+     "name": "Component colors/Utility/Blue dark/utility-blue-dark-300",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5409:398435",
+     "name": "Component colors/Utility/Blue dark/utility-blue-dark-400",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398219",
+     "name": "Component colors/Utility/Blue dark/utility-blue-dark-500",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5399:389138",
+     "name": "Component colors/Utility/Blue dark/utility-blue-dark-600",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398190",
+     "name": "Component colors/Utility/Blue dark/utility-blue-dark-700",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398258",
+     "name": "Component colors/Utility/Purple/utility-purple-50",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5409:398273",
+     "name": "Component colors/Utility/Purple/utility-purple-100",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398243",
+     "name": "Component colors/Utility/Purple/utility-purple-200",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6487:354321",
+     "name": "Component colors/Utility/Purple/utility-purple-300",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5409:398437",
+     "name": "Component colors/Utility/Purple/utility-purple-400",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398223",
+     "name": "Component colors/Utility/Purple/utility-purple-500",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5399:389142",
+     "name": "Component colors/Utility/Purple/utility-purple-600",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398192",
+     "name": "Component colors/Utility/Purple/utility-purple-700",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398260",
+     "name": "Component colors/Utility/Pink/utility-pink-50",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5409:398275",
+     "name": "Component colors/Utility/Pink/utility-pink-100",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398245",
+     "name": "Component colors/Utility/Pink/utility-pink-200",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6487:354323",
+     "name": "Component colors/Utility/Pink/utility-pink-300",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5409:398439",
+     "name": "Component colors/Utility/Pink/utility-pink-400",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398227",
+     "name": "Component colors/Utility/Pink/utility-pink-500",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5399:389141",
+     "name": "Component colors/Utility/Pink/utility-pink-600",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398194",
+     "name": "Component colors/Utility/Pink/utility-pink-700",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398261",
+     "name": "Component colors/Utility/Orange dark/utility-orange-dark-50",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5409:398276",
+     "name": "Component colors/Utility/Orange dark/utility-orange-dark-100",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398246",
+     "name": "Component colors/Utility/Orange dark/utility-orange-dark-200",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6487:354324",
+     "name": "Component colors/Utility/Orange dark/utility-orange-dark-300",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5409:398440",
+     "name": "Component colors/Utility/Orange dark/utility-orange-dark-400",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398229",
+     "name": "Component colors/Utility/Orange dark/utility-orange-dark-500",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5399:389143",
+     "name": "Component colors/Utility/Orange dark/utility-orange-dark-600",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398195",
+     "name": "Component colors/Utility/Orange dark/utility-orange-dark-700",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398262",
+     "name": "Component colors/Utility/Orange/utility-orange-50",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5409:398277",
+     "name": "Component colors/Utility/Orange/utility-orange-100",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398247",
+     "name": "Component colors/Utility/Orange/utility-orange-200",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:6487:354325",
+     "name": "Component colors/Utility/Orange/utility-orange-300",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5409:398441",
+     "name": "Component colors/Utility/Orange/utility-orange-400",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398231",
+     "name": "Component colors/Utility/Orange/utility-orange-500",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5399:389137",
+     "name": "Component colors/Utility/Orange/utility-orange-600",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:5400:398196",
+     "name": "Component colors/Utility/Orange/utility-orange-700",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:7999:23190",
+     "name": "Component colors/Utility/Yellow/utility-yellow-50",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:7999:23191",
+     "name": "Component colors/Utility/Yellow/utility-yellow-100",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:7999:23192",
+     "name": "Component colors/Utility/Yellow/utility-yellow-200",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:7999:23193",
+     "name": "Component colors/Utility/Yellow/utility-yellow-300",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:7999:23194",
+     "name": "Component colors/Utility/Yellow/utility-yellow-400",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:7999:23195",
+     "name": "Component colors/Utility/Yellow/utility-yellow-500",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:7999:23196",
+     "name": "Component colors/Utility/Yellow/utility-yellow-600",
+     "type": "COLOR"
+    },
+    {
+     "id": "VariableID:7999:23197",
+     "name": "Component colors/Utility/Yellow/utility-yellow-700",
+     "type": "COLOR"
+    }
+   ]
+  }
+ ],
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "prefix": "Component colors/",
+ "readAt": "2026-11-09T20:42:49.211Z",
+ "run": "after-naming-pilot",
+ "slim": true
+}

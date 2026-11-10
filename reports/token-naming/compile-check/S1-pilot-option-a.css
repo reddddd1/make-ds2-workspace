@@ -1,0 +1,89 @@
+/*! tailwindcss v4.3.5 | MIT License | https://tailwindcss.com */
+@layer properties;
+@layer theme {
+  :root, :host {
+    --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --color-gray-100: oklch(96.7% 0.003 264.542);
+    --spacing: 0.25rem;
+    --text-base: 1rem;
+    --text-base--line-height: calc(1.5 / 1);
+    --font-weight-semibold: 600;
+    --radius-lg: 0.5rem;
+    --background-color-brand-primary: var(--make-color-brand-600);
+    --background-color-brand-primary-hover: var(--make-color-brand-700);
+    --text-color-brand-primary: var(--make-color-brand-600);
+    --text-color-error-primary: var(--make-color-error-600);
+    --border-color-primary: var(--make-color-gray-450);
+    --ring-color-primary: var(--make-color-brand-500);
+  }
+}
+@layer utilities {
+  .gap-3 {
+    gap: calc(var(--spacing) * 3);
+  }
+  .rounded-lg {
+    border-radius: var(--radius-lg);
+  }
+  .border-primary {
+    border-color: var(--border-color-primary);
+  }
+  .bg-brand-primary {
+    background-color: var(--background-color-brand-primary);
+  }
+  .bg-brand-primary-hover {
+    background-color: var(--background-color-brand-primary-hover);
+  }
+  .bg-gray-100 {
+    background-color: var(--color-gray-100);
+  }
+  .p-3 {
+    padding: calc(var(--spacing) * 3);
+  }
+  .font-sans {
+    font-family: var(--font-sans);
+  }
+  .text-base {
+    font-size: var(--text-base);
+    line-height: var(--tw-leading, var(--text-base--line-height));
+  }
+  .font-semibold {
+    --tw-font-weight: var(--font-weight-semibold);
+    font-weight: var(--font-weight-semibold);
+  }
+  .text-brand-primary {
+    color: var(--text-color-brand-primary);
+  }
+  .text-error-primary {
+    color: var(--text-color-error-primary);
+  }
+  .ring-primary {
+    --tw-ring-color: var(--ring-color-primary);
+  }
+}
+:root {
+  --make-color-brand-400: #9090f6;
+  --make-color-brand-500: #7373f5;
+  --make-color-brand-600: #5656f3;
+  --make-color-brand-700: #2323f0;
+  --make-color-error-400: #fe6286;
+  --make-color-error-600: #ca0050;
+  --make-color-gray-450: #8a8e97;
+  --make-color-gray-dark-600: #61656c;
+}
+.dark {
+  --text-color-brand-primary: var(--make-color-brand-400);
+  --text-color-error-primary: var(--make-color-error-400);
+  --border-color-primary: var(--make-color-gray-dark-600);
+}
+@property --tw-font-weight {
+  syntax: "*";
+  inherits: false;
+}
+@layer properties {
+  @supports ((-webkit-hyphens: none) and (not (margin-trim: block))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
+    *, ::before, ::after, ::backdrop {
+      --tw-font-weight: initial;
+    }
+  }
+}

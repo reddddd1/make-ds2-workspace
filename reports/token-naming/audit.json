@@ -1,0 +1,5280 @@
+{
+ "compileCheck": {
+  "defaultsObserved": {
+   "color-gray-100": "oklch(96.7% 0.003 264.542)",
+   "font-weight-semibold": "600",
+   "radius-lg": "0.5rem",
+   "spacing": "0.25rem",
+   "text-base": "1rem",
+   "text-base--line-height": "calc(1.5 / 1)"
+  },
+  "node": "v26.13.0",
+  "nodeLts": "Lithium",
+  "passed": 48,
+  "tailwindcss": "4.3.5",
+  "total": 48
+ },
+ "conflicts": [
+  {
+   "detail": "0 duplicate class(es)",
+   "id": "C1",
+   "items": [],
+   "kind": "Same utility class from two registry tokens",
+   "severity": "none"
+  },
+  {
+   "detail": "0 overlap(s); checked 6 text-colour + 64 palette keys vs 13 font sizes",
+   "id": "C2",
+   "items": [],
+   "kind": "text-* colour vs font-size key overlap (colour wins in Tailwind 4.3.5)",
+   "severity": "none"
+  },
+  {
+   "detail": "families ['sans']; weights 9",
+   "id": "C3",
+   "items": [],
+   "kind": "font-* family vs weight overlap",
+   "severity": "none"
+  },
+  {
+   "detail": "28 key(s) shared with the 4.3.5 default theme, 11 with a different value",
+   "id": "C4",
+   "items": [
+    [
+     "color.black",
+     "--color-black",
+     "#000000",
+     "#000 (#000000)",
+     "same value"
+    ],
+    [
+     "color.gray.100",
+     "--color-gray-100",
+     "#f5f5f5",
+     "oklch(96.7% 0.003 264.542) (#f3f4f6)",
+     "DIFFERENT value"
+    ],
+    [
+     "color.gray.200",
+     "--color-gray-200",
+     "#e9eaeb",
+     "oklch(92.8% 0.006 264.531) (#e5e7eb)",
+     "DIFFERENT value"
+    ],
+    [
+     "color.gray.300",
+     "--color-gray-300",
+     "#d5d7da",
+     "oklch(87.2% 0.01 258.338) (#d1d5dc)",
+     "DIFFERENT value"
+    ],
+    [
+     "color.gray.400",
+     "--color-gray-400",
+     "#a4a7ae",
+     "oklch(70.7% 0.022 261.325) (#99a1af)",
+     "DIFFERENT value"
+    ],
+    [
+     "color.gray.50",
+     "--color-gray-50",
+     "#fafafa",
+     "oklch(98.5% 0.002 247.839) (#f9fafb)",
+     "DIFFERENT value"
+    ],
+    [
+     "color.gray.500",
+     "--color-gray-500",
+     "#717680",
+     "oklch(55.1% 0.027 264.364) (#6a7282)",
+     "DIFFERENT value"
+    ],
+    [
+     "color.gray.600",
+     "--color-gray-600",
+     "#535862",
+     "oklch(44.6% 0.03 256.802) (#4a5565)",
+     "DIFFERENT value"
+    ],
+    [
+     "color.gray.700",
+     "--color-gray-700",
+     "#414651",
+     "oklch(37.3% 0.034 259.733) (#364153)",
+     "DIFFERENT value"
+    ],
+    [
+     "color.gray.800",
+     "--color-gray-800",
+     "#252b37",
+     "oklch(27.8% 0.033 256.848) (#1e2939)",
+     "DIFFERENT value"
+    ],
+    [
+     "color.gray.950",
+     "--color-gray-950",
+     "#0a0d12",
+     "oklch(13% 0.028 261.692) (#030712)",
+     "DIFFERENT value"
+    ],
+    [
+     "color.white",
+     "--color-white",
+     "#ffffff",
+     "#fff (#ffffff)",
+     "same value"
+    ],
+    [
+     "font.family.sans",
+     "--font-sans",
+     "Inter, -apple-system, …",
+     "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+     "DIFFERENT value"
+    ],
+    [
+     "font.letter-spacing.normal",
+     "--tracking-normal",
+     "0px",
+     "0em",
+     "same value"
+    ],
+    [
+     "font.size.base",
+     "--text-base",
+     "16px",
+     "1rem",
+     "same value"
+    ],
+    [
+     "font.size.sm",
+     "--text-sm",
+     "14px",
+     "0.875rem",
+     "same value"
+    ],
+    [
+     "font.size.xs",
+     "--text-xs",
+     "12px",
+     "0.75rem",
+     "same value"
+    ],
+    [
+     "font.weight.medium",
+     "--font-weight-medium",
+     "500",
+     "500",
+     "same value"
+    ],
+    [
+     "font.weight.normal",
+     "--font-weight-normal",
+     "400",
+     "400",
+     "same value"
+    ],
+    [
+     "font.weight.semibold",
+     "--font-weight-semibold",
+     "600",
+     "600",
+     "same value"
+    ],
+    [
+     "radius.2xl",
+     "--radius-2xl",
+     "16px",
+     "1rem",
+     "same value"
+    ],
+    [
+     "radius.3xl",
+     "--radius-3xl",
+     "24px",
+     "1.5rem",
+     "same value"
+    ],
+    [
+     "radius.4xl",
+     "--radius-4xl",
+     "32px",
+     "2rem",
+     "same value"
+    ],
+    [
+     "radius.lg",
+     "--radius-lg",
+     "8px",
+     "0.5rem",
+     "same value"
+    ],
+    [
+     "radius.md",
+     "--radius-md",
+     "6px",
+     "0.375rem",
+     "same value"
+    ],
+    [
+     "radius.sm",
+     "--radius-sm",
+     "4px",
+     "0.25rem",
+     "same value"
+    ],
+    [
+     "radius.xl",
+     "--radius-xl",
+     "12px",
+     "0.75rem",
+     "same value"
+    ],
+    [
+     "radius.xs",
+     "--radius-xs",
+     "2px",
+     "0.125rem",
+     "same value"
+    ]
+   ],
+   "kind": "Registry key would redefine a Tailwind default theme variable (global override; ADR-0009 pending)",
+   "severity": "high"
+  },
+  {
+   "detail": "0 duplicate(s), 0 clash(es) with current names",
+   "id": "C5",
+   "items": [],
+   "kind": "Figma proposed name duplicates or clashes with an existing variable",
+   "severity": "none"
+  },
+  {
+   "detail": "0 in the rename candidates. Radius is DEFERRED: the ADR-0006 names would shift 7 of 11 mapped radius variables; proposal R1 shifts 0",
+   "id": "C6",
+   "items": [
+    [
+     "DEFERRED",
+     "radius-3xl",
+     "radius/2-5xl",
+     "20px"
+    ],
+    [
+     "DEFERRED",
+     "radius-4xl",
+     "radius/3xl",
+     "24px"
+    ],
+    [
+     "DEFERRED",
+     "radius-5xl",
+     "radius/4xl",
+     "32px"
+    ],
+    [
+     "DEFERRED",
+     "radius-md",
+     "radius/lg",
+     "8px"
+    ],
+    [
+     "DEFERRED",
+     "radius-sm",
+     "radius/md",
+     "6px"
+    ],
+    [
+     "DEFERRED",
+     "radius-xs",
+     "radius/sm",
+     "4px"
+    ],
+    [
+     "DEFERRED",
+     "radius-xxs",
+     "radius/xs",
+     "2px"
+    ]
+   ],
+   "kind": "Same short name, different size after rename (human confusion; not a technical clash)",
+   "severity": "none"
+  },
+  {
+   "detail": "0 of 32",
+   "id": "C7",
+   "items": [],
+   "kind": "Spacing token not equal to n × 4px (would break the --spacing multiplier rule)",
+   "severity": "none"
+  },
+  {
+   "detail": "3 variable(s)",
+   "id": "C8",
+   "items": [
+    [
+     "Colors/Gray (dark mode alpha)/950",
+     "#ffffff00",
+     [
+      "color.transparent"
+     ]
+    ],
+    [
+     "Colors/Gray (dark mode)/25",
+     "#fafafa",
+     [
+      "color.gray.50"
+     ]
+    ],
+    [
+     "Colors/Gray iron/50",
+     "#fafafa",
+     [
+      "color.gray.50"
+     ]
+    ]
+   ],
+   "kind": "Figma-only primitive with the same value as a registry primitive (merge candidate, structural)",
+   "severity": "medium"
+  },
+  {
+   "detail": "spacing `_` → `.` in classes (p-0.5); radius `2-5xl` → `rounded-2-5xl` (custom, not Tailwind)",
+   "id": "C9",
+   "items": [
+    "radius.2-5xl",
+    "spacing.0_5",
+    "spacing.1_5"
+   ],
+   "kind": "Non-standard path segments (decimal / custom step)",
+   "severity": "low"
+  },
+  {
+   "detail": "0 case(s)",
+   "id": "C10",
+   "items": [],
+   "kind": "A kept (Figma-only) variable would normalise to the same name as a renamed variable",
+   "severity": "none"
+  },
+  {
+   "detail": "0 case(s) in the rename candidates (the radius-lg vs radius/lg case disappears with radius deferred; R1 removes it permanently, see C13)",
+   "id": "C11",
+   "items": [],
+   "kind": "Kept variable and renamed variable read the same with separators ignored, but differ in value",
+   "severity": "none"
+  },
+  {
+   "detail": "8 composites → 8 unique classes; Tailwind 4.3.5 has no core `type-*` utility (compile check S2: `type-base` generates nothing)",
+   "id": "C12",
+   "items": [
+    [
+     "type-base-medium",
+     "typography.text.base.medium",
+     "Text md/Medium"
+    ],
+    [
+     "type-base-normal",
+     "typography.text.base.normal",
+     "Text md/Regular"
+    ],
+    [
+     "type-base-semibold",
+     "typography.text.base.semibold",
+     "Text md/Semibold"
+    ],
+    [
+     "type-sm-medium",
+     "typography.text.sm.medium",
+     "Text sm/Medium"
+    ],
+    [
+     "type-sm-normal",
+     "typography.text.sm.normal",
+     "Text sm/Regular"
+    ],
+    [
+     "type-xs-medium",
+     "typography.text.xs.medium",
+     "Text xs/Medium"
+    ],
+    [
+     "type-xs-normal",
+     "typography.text.xs.normal",
+     "Text xs/Regular"
+    ],
+    [
+     "type-xs-semibold",
+     "typography.text.xs.semibold",
+     "Text xs/Semibold"
+    ]
+   ],
+   "kind": "Composite typography `type-*` classes: duplicates or awkward doubled words",
+   "severity": "none"
+  },
+  {
+   "detail": "12 Figma radius variables → 12 unique R1 names; 0 Tailwind default key(s); 0 shifts (name = value)",
+   "id": "C13",
+   "items": [],
+   "kind": "Radius proposal R1 (name = px value): duplicate names or Tailwind default keys",
+   "severity": "none"
+  }
+ ],
+ "counts": {
+  "byClass": {
+   "cosmetic": 117
+  },
+  "byRisk": {
+   "low": 100,
+   "medium": 17
+  },
+  "notRenamed": {
+   "Widths/Containers (no registry tokens): unchanged": 15,
+   "component colour (D-05, 171): unchanged": 171,
+   "figma-only in synced collections: unchanged in this migration": 368
+  },
+  "radiusDeferred": 11,
+  "registryWithoutFigmaVariable": 9,
+  "remaining": 106,
+  "renameRows": 117,
+  "renamedByPilot": 11
+ },
+ "inputs": {
+  "dryrunPending": {},
+  "figmaVariables": 682,
+  "liveCountingRule": "v2: node.boundVariables entries only",
+  "liveUsage": "2026-11-09T20:02:10.249Z",
+  "mapRows": 128,
+  "tailwindThemeVars": 419,
+  "tokens": "/Users/mike/Documents/Codex/design-tokens"
+ },
+ "radiusDeferred": [
+  {
+   "aliasedBy": 0,
+   "build": "`@theme`",
+   "class": "cosmetic",
+   "collection": "2. Radius",
+   "componentCount": 19,
+   "components": [
+    [
+     "Radio group item",
+     384
+    ],
+    [
+     "Radio group",
+     240
+    ],
+    [
+     "Social button",
+     216
+    ]
+   ],
+   "cssVar": "--radius-2-5xl",
+   "current": "radius-3xl",
+   "directUses": 1740,
+   "modes": [
+    "all"
+   ],
+   "namespace": "radius",
+   "nativewind": "borderRadius['2-5xl']",
+   "originalName": "radius-3xl",
+   "proposed": "radius/2-5xl",
+   "px": 20,
+   "r1Figma": "radius/20",
+   "r1Token": "radius.20",
+   "r1Utility": "rounded-20",
+   "risk": "high",
+   "riskWhy": "name step shifts (3xl → 2-5xl); same name means a different size after rename",
+   "status": "DEFERRED: not renamed",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "radius.2-5xl",
+   "utilities": [
+    "rounded-2-5xl"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:6306:268582"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "not emitted: equals Tailwind default",
+   "class": "cosmetic",
+   "collection": "2. Radius",
+   "componentCount": 12,
+   "components": [
+    [
+     "Buttons/Button",
+     136
+    ],
+    [
+     "Date picker dropdown",
+     96
+    ],
+    [
+     "Buttons/Button destructive",
+     64
+    ]
+   ],
+   "cssVar": "--radius-2xl",
+   "current": "radius-2xl",
+   "directUses": 488,
+   "modes": [
+    "all"
+   ],
+   "namespace": "radius",
+   "nativewind": "borderRadius['2xl']",
+   "originalName": "radius-2xl",
+   "proposed": "radius/2xl",
+   "px": 16,
+   "r1Figma": "radius/16",
+   "r1Token": "radius.16",
+   "r1Utility": "rounded-16",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "DEFERRED: not renamed",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "radius.2xl",
+   "utilities": [
+    "rounded-2xl"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:6298:46481"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "not emitted: equals Tailwind default",
+   "class": "cosmetic",
+   "collection": "2. Radius",
+   "componentCount": 6,
+   "components": [
+    [
+     "Select",
+     20
+    ],
+    [
+     "Verification code input field",
+     16
+    ],
+    [
+     "_Mega input field base",
+     16
+    ]
+   ],
+   "cssVar": "--radius-3xl",
+   "current": "radius-4xl",
+   "directUses": 72,
+   "modes": [
+    "all"
+   ],
+   "namespace": "radius",
+   "nativewind": "borderRadius['3xl']",
+   "originalName": "radius-4xl",
+   "proposed": "radius/3xl",
+   "px": 24,
+   "r1Figma": "radius/24",
+   "r1Token": "radius.24",
+   "r1Utility": "rounded-24",
+   "risk": "high",
+   "riskWhy": "name step shifts (4xl → 3xl); same name means a different size after rename",
+   "status": "DEFERRED: not renamed",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "radius.3xl",
+   "utilities": [
+    "rounded-3xl"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:6298:46482"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "not emitted: equals Tailwind default",
+   "class": "cosmetic",
+   "collection": "2. Radius",
+   "componentCount": 11,
+   "components": [
+    [
+     "Physical card",
+     32
+    ],
+    [
+     "Virtual card",
+     24
+    ],
+    [
+     "Empty card",
+     8
+    ]
+   ],
+   "cssVar": "--radius-4xl",
+   "current": "radius-5xl",
+   "directUses": 94,
+   "modes": [
+    "all"
+   ],
+   "namespace": "radius",
+   "nativewind": "borderRadius['4xl']",
+   "originalName": "radius-5xl",
+   "proposed": "radius/4xl",
+   "px": 32,
+   "r1Figma": "radius/32",
+   "r1Token": "radius.32",
+   "r1Utility": "rounded-32",
+   "risk": "high",
+   "riskWhy": "name step shifts (5xl → 4xl); same name means a different size after rename",
+   "status": "DEFERRED: not renamed",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "radius.4xl",
+   "utilities": [
+    "rounded-4xl"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:17490:23426"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "not emitted: static built-in",
+   "class": "cosmetic",
+   "collection": "2. Radius",
+   "componentCount": 33,
+   "components": [
+    [
+     "_Date picker menu",
+     980
+    ],
+    [
+     "Avatar",
+     320
+    ],
+    [
+     "Progress bar",
+     264
+    ]
+   ],
+   "cssVar": "--radius-full",
+   "current": "radius-full",
+   "directUses": 3096,
+   "modes": [
+    "all"
+   ],
+   "namespace": "radius",
+   "nativewind": "borderRadius['full']",
+   "originalName": "radius-full",
+   "proposed": "radius/full",
+   "px": 9999,
+   "r1Figma": "radius/full",
+   "r1Token": "radius.full",
+   "r1Utility": "rounded-full",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "DEFERRED: not renamed",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "radius.full",
+   "utilities": [
+    "rounded-full"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:6298:46485"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "not emitted: equals Tailwind default",
+   "class": "cosmetic",
+   "collection": "2. Radius",
+   "componentCount": 9,
+   "components": [
+    [
+     "Badge",
+     36
+    ],
+    [
+     "Tag",
+     36
+    ],
+    [
+     "Social button groups",
+     24
+    ]
+   ],
+   "cssVar": "--radius-lg",
+   "current": "radius-md",
+   "directUses": 148,
+   "modes": [
+    "all"
+   ],
+   "namespace": "radius",
+   "nativewind": "borderRadius['lg']",
+   "originalName": "radius-md",
+   "proposed": "radius/lg",
+   "px": 8,
+   "r1Figma": "radius/8",
+   "r1Token": "radius.8",
+   "r1Utility": "rounded-8",
+   "risk": "high",
+   "riskWhy": "name step shifts (md → lg); same name means a different size after rename",
+   "status": "DEFERRED: not renamed",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "radius.lg",
+   "utilities": [
+    "rounded-lg"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:6298:46479"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "not emitted: equals Tailwind default",
+   "class": "cosmetic",
+   "collection": "2. Radius",
+   "componentCount": 13,
+   "components": [
+    [
+     "Radio group item",
+     192
+    ],
+    [
+     "Badge",
+     72
+    ],
+    [
+     "Tag",
+     72
+    ]
+   ],
+   "cssVar": "--radius-md",
+   "current": "radius-sm",
+   "directUses": 596,
+   "modes": [
+    "all"
+   ],
+   "namespace": "radius",
+   "nativewind": "borderRadius['md']",
+   "originalName": "radius-sm",
+   "proposed": "radius/md",
+   "px": 6,
+   "r1Figma": "radius/6",
+   "r1Token": "radius.6",
+   "r1Utility": "rounded-6",
+   "risk": "high",
+   "riskWhy": "name step shifts (sm → md); same name means a different size after rename",
+   "status": "DEFERRED: not renamed",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "radius.md",
+   "utilities": [
+    "rounded-md"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:6298:46478"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "not emitted: static built-in",
+   "class": "cosmetic",
+   "collection": "2. Radius",
+   "componentCount": 4,
+   "components": [
+    [
+     "Tab group",
+     40
+    ],
+    [
+     "_Tab button base",
+     16
+    ],
+    [
+     "Designer area",
+     4
+    ]
+   ],
+   "cssVar": "--radius-none",
+   "current": "radius-none",
+   "directUses": 62,
+   "modes": [
+    "all"
+   ],
+   "namespace": "radius",
+   "nativewind": "borderRadius['none']",
+   "originalName": "radius-none",
+   "proposed": "radius/none",
+   "px": 0,
+   "r1Figma": "radius/none",
+   "r1Token": "radius.none",
+   "r1Utility": "rounded-none",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "DEFERRED: not renamed",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "radius.none",
+   "utilities": [
+    "rounded-none"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:6298:46475"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "not emitted: equals Tailwind default",
+   "class": "cosmetic",
+   "collection": "2. Radius",
+   "componentCount": 12,
+   "components": [
+    [
+     "Radio group item",
+     192
+    ],
+    [
+     "Input field",
+     160
+    ],
+    [
+     "_Checkbox base",
+     96
+    ]
+   ],
+   "cssVar": "--radius-sm",
+   "current": "radius-xs",
+   "directUses": 680,
+   "modes": [
+    "all"
+   ],
+   "namespace": "radius",
+   "nativewind": "borderRadius['sm']",
+   "originalName": "radius-xs",
+   "proposed": "radius/sm",
+   "px": 4,
+   "r1Figma": "radius/4",
+   "r1Token": "radius.4",
+   "r1Utility": "rounded-4",
+   "risk": "high",
+   "riskWhy": "name step shifts (xs → sm); same name means a different size after rename",
+   "status": "DEFERRED: not renamed",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "radius.sm",
+   "utilities": [
+    "rounded-sm"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:6298:46477"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "not emitted: equals Tailwind default",
+   "class": "cosmetic",
+   "collection": "2. Radius",
+   "componentCount": 8,
+   "components": [
+    [
+     "Radio group",
+     160
+    ],
+    [
+     "Buttons/Button",
+     136
+    ],
+    [
+     "Buttons/Button destructive",
+     64
+    ]
+   ],
+   "cssVar": "--radius-xl",
+   "current": "radius-xl",
+   "directUses": 432,
+   "modes": [
+    "all"
+   ],
+   "namespace": "radius",
+   "nativewind": "borderRadius['xl']",
+   "originalName": "radius-xl",
+   "proposed": "radius/xl",
+   "px": 12,
+   "r1Figma": "radius/12",
+   "r1Token": "radius.12",
+   "r1Utility": "rounded-12",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "DEFERRED: not renamed",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "radius.xl",
+   "utilities": [
+    "rounded-xl"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:6298:46480"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "not emitted: equals Tailwind default",
+   "class": "cosmetic",
+   "collection": "2. Radius",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--radius-xs",
+   "current": "radius-xxs",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "radius",
+   "nativewind": "borderRadius['xs']",
+   "originalName": "radius-xxs",
+   "proposed": "radius/xs",
+   "px": 2,
+   "r1Figma": "radius/2",
+   "r1Token": "radius.2",
+   "r1Utility": "rounded-2",
+   "risk": "high",
+   "riskWhy": "name step shifts (xxs → xs); same name means a different size after rename",
+   "status": "DEFERRED: not renamed",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "radius.xs",
+   "utilities": [
+    "rounded-xs"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:6298:46476"
+  }
+ ],
+ "radiusR1": [
+  {
+   "adr0006Token": "radius.none",
+   "components": 4,
+   "figma": "radius-none",
+   "id": "VariableID:6298:46475",
+   "px": 0,
+   "r1Figma": "radius/none",
+   "r1Token": "radius.none",
+   "r1Utility": "rounded-none",
+   "r1Var": "— (static built-in)",
+   "twDefault": false,
+   "uses": 62
+  },
+  {
+   "adr0006Token": "radius.xs",
+   "components": 0,
+   "figma": "radius-xxs",
+   "id": "VariableID:6298:46476",
+   "px": 2,
+   "r1Figma": "radius/2",
+   "r1Token": "radius.2",
+   "r1Utility": "rounded-2",
+   "r1Var": "--radius-2",
+   "twDefault": false,
+   "uses": 0
+  },
+  {
+   "adr0006Token": "radius.sm",
+   "components": 12,
+   "figma": "radius-xs",
+   "id": "VariableID:6298:46477",
+   "px": 4,
+   "r1Figma": "radius/4",
+   "r1Token": "radius.4",
+   "r1Utility": "rounded-4",
+   "r1Var": "--radius-4",
+   "twDefault": false,
+   "uses": 680
+  },
+  {
+   "adr0006Token": "radius.md",
+   "components": 13,
+   "figma": "radius-sm",
+   "id": "VariableID:6298:46478",
+   "px": 6,
+   "r1Figma": "radius/6",
+   "r1Token": "radius.6",
+   "r1Utility": "rounded-6",
+   "r1Var": "--radius-6",
+   "twDefault": false,
+   "uses": 596
+  },
+  {
+   "adr0006Token": "radius.lg",
+   "components": 9,
+   "figma": "radius-md",
+   "id": "VariableID:6298:46479",
+   "px": 8,
+   "r1Figma": "radius/8",
+   "r1Token": "radius.8",
+   "r1Utility": "rounded-8",
+   "r1Var": "--radius-8",
+   "twDefault": false,
+   "uses": 148
+  },
+  {
+   "adr0006Token": null,
+   "components": 0,
+   "figma": "radius-lg",
+   "id": "VariableID:6300:24234",
+   "px": 10,
+   "r1Figma": "radius/10",
+   "r1Token": "radius.10",
+   "r1Utility": "rounded-10",
+   "r1Var": "--radius-10",
+   "twDefault": false,
+   "uses": 0
+  },
+  {
+   "adr0006Token": "radius.xl",
+   "components": 8,
+   "figma": "radius-xl",
+   "id": "VariableID:6298:46480",
+   "px": 12,
+   "r1Figma": "radius/12",
+   "r1Token": "radius.12",
+   "r1Utility": "rounded-12",
+   "r1Var": "--radius-12",
+   "twDefault": false,
+   "uses": 432
+  },
+  {
+   "adr0006Token": "radius.2xl",
+   "components": 12,
+   "figma": "radius-2xl",
+   "id": "VariableID:6298:46481",
+   "px": 16,
+   "r1Figma": "radius/16",
+   "r1Token": "radius.16",
+   "r1Utility": "rounded-16",
+   "r1Var": "--radius-16",
+   "twDefault": false,
+   "uses": 488
+  },
+  {
+   "adr0006Token": "radius.2-5xl",
+   "components": 19,
+   "figma": "radius-3xl",
+   "id": "VariableID:6306:268582",
+   "px": 20,
+   "r1Figma": "radius/20",
+   "r1Token": "radius.20",
+   "r1Utility": "rounded-20",
+   "r1Var": "--radius-20",
+   "twDefault": false,
+   "uses": 1740
+  },
+  {
+   "adr0006Token": "radius.3xl",
+   "components": 6,
+   "figma": "radius-4xl",
+   "id": "VariableID:6298:46482",
+   "px": 24,
+   "r1Figma": "radius/24",
+   "r1Token": "radius.24",
+   "r1Utility": "rounded-24",
+   "r1Var": "--radius-24",
+   "twDefault": false,
+   "uses": 72
+  },
+  {
+   "adr0006Token": "radius.4xl",
+   "components": 11,
+   "figma": "radius-5xl",
+   "id": "VariableID:17490:23426",
+   "px": 32,
+   "r1Figma": "radius/32",
+   "r1Token": "radius.32",
+   "r1Utility": "rounded-32",
+   "r1Var": "--radius-32",
+   "twDefault": false,
+   "uses": 94
+  },
+  {
+   "adr0006Token": "radius.full",
+   "components": 33,
+   "figma": "radius-full",
+   "id": "VariableID:6298:46485",
+   "px": 9999,
+   "r1Figma": "radius/full",
+   "r1Token": "radius.full",
+   "r1Utility": "rounded-full",
+   "r1Var": "— (static built-in)",
+   "twDefault": false,
+   "uses": 3096
+  }
+ ],
+ "registryWithoutFigmaVariable": [
+  "font.letter-spacing.normal",
+  "typography.text.base.medium",
+  "typography.text.base.normal",
+  "typography.text.base.semibold",
+  "typography.text.sm.medium",
+  "typography.text.sm.normal",
+  "typography.text.xs.medium",
+  "typography.text.xs.normal",
+  "typography.text.xs.semibold"
+ ],
+ "rows": [
+  {
+   "aliasedBy": 0,
+   "build": "`@theme` (role)",
+   "class": "cosmetic",
+   "collection": "1. Color modes",
+   "componentCount": 15,
+   "components": [
+    [
+     "Radio / Checkbox",
+     36
+    ],
+    [
+     "Radio group item",
+     36
+    ],
+    [
+     "_Checkbox base",
+     24
+    ]
+   ],
+   "cssVar": "--background-color-brand-primary",
+   "current": "color/bg/brand-primary",
+   "directUses": 151,
+   "modes": [
+    "dark",
+    "light"
+   ],
+   "namespace": "background-color",
+   "nativewind": "backgroundColor['brand-primary']",
+   "originalName": "Colors/Background/bg-brand-primary",
+   "proposed": "color/bg/brand-primary",
+   "risk": "medium",
+   "riskWhy": "semantic role renamed (Untitled UI name designers know)",
+   "status": "DONE (pilot 2026-11-09)",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "theme",
+   "token": "color.bg.brand-primary",
+   "utilities": [
+    "bg-brand-primary"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5270:371419"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "`@theme` (role)",
+   "class": "cosmetic",
+   "collection": "1. Color modes",
+   "componentCount": 5,
+   "components": [
+    [
+     "Buttons/Button",
+     14
+    ],
+    [
+     "Toggle",
+     2
+    ],
+    [
+     "_Toggle base",
+     2
+    ]
+   ],
+   "cssVar": "--background-color-brand-primary-hover",
+   "current": "color/bg/brand-primary-hover",
+   "directUses": 20,
+   "modes": [
+    "dark",
+    "light"
+   ],
+   "namespace": "background-color",
+   "nativewind": "backgroundColor['brand-primary-hover']",
+   "originalName": "Colors/Background/bg-brand-primary_hover",
+   "proposed": "color/bg/brand-primary-hover",
+   "risk": "medium",
+   "riskWhy": "semantic role renamed (Untitled UI name designers know)",
+   "status": "DONE (pilot 2026-11-09)",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "theme",
+   "token": "color.bg.brand-primary-hover",
+   "utilities": [
+    "bg-brand-primary-hover"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5353:380427"
+  },
+  {
+   "aliasedBy": 10,
+   "build": "not emitted: equals Tailwind default",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 6,
+   "components": [
+    [
+     "Cursor",
+     6
+    ],
+    [
+     "Mobile app store badge",
+     6
+    ],
+    [
+     "Social button",
+     6
+    ]
+   ],
+   "cssVar": "--color-black",
+   "current": "Colors/Base/black",
+   "directUses": 24,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors.black",
+   "originalName": "Colors/Base/black",
+   "proposed": "color/black",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Base/Black"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.black",
+   "utilities": [
+    "bg-black",
+    "text-black",
+    "border-black"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377687"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "`@theme` (role)",
+   "class": "cosmetic",
+   "collection": "1. Color modes",
+   "componentCount": 1,
+   "components": [
+    [
+     "Textarea input field",
+     2
+    ]
+   ],
+   "cssVar": "--border-color-error",
+   "current": "Colors/Border/border-error",
+   "directUses": 2,
+   "modes": [
+    "dark",
+    "light"
+   ],
+   "namespace": "border-color",
+   "nativewind": "borderColor['error']",
+   "originalName": "Colors/Border/border-error",
+   "proposed": "color/border/error",
+   "risk": "medium",
+   "riskWhy": "semantic role renamed (Untitled UI name designers know)",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "theme",
+   "token": "color.border.error",
+   "utilities": [
+    "border-error"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5353:385108"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "`@theme` (role)",
+   "class": "cosmetic",
+   "collection": "1. Color modes",
+   "componentCount": 22,
+   "components": [
+    [
+     "Input field",
+     72
+    ],
+    [
+     "Social button",
+     42
+    ],
+    [
+     "Textarea input field",
+     40
+    ]
+   ],
+   "cssVar": "--border-color-primary",
+   "current": "color/border/primary",
+   "directUses": 420,
+   "modes": [
+    "dark",
+    "light"
+   ],
+   "namespace": "border-color",
+   "nativewind": "borderColor['primary']",
+   "originalName": "Colors/Border/border-primary",
+   "proposed": "color/border/primary",
+   "risk": "medium",
+   "riskWhy": "semantic role renamed (Untitled UI name designers know)",
+   "status": "DONE (pilot 2026-11-09)",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "theme",
+   "token": "color.border.primary",
+   "utilities": [
+    "border-primary"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5270:371435"
+  },
+  {
+   "aliasedBy": 2,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-brand-100",
+   "current": "Colors/Brand/100",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['brand']['100']",
+   "originalName": "Colors/Brand/100",
+   "proposed": "color/brand/100",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Brand/100"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.brand.100",
+   "utilities": [
+    "bg-brand-100",
+    "text-brand-100",
+    "border-brand-100"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377710"
+  },
+  {
+   "aliasedBy": 2,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-brand-200",
+   "current": "Colors/Brand/200",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['brand']['200']",
+   "originalName": "Colors/Brand/200",
+   "proposed": "color/brand/200",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Brand/200"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.brand.200",
+   "utilities": [
+    "bg-brand-200",
+    "text-brand-200",
+    "border-brand-200"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377711"
+  },
+  {
+   "aliasedBy": 2,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-brand-300",
+   "current": "Colors/Brand/300",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['brand']['300']",
+   "originalName": "Colors/Brand/300",
+   "proposed": "color/brand/300",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Brand/300"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.brand.300",
+   "utilities": [
+    "bg-brand-300",
+    "text-brand-300",
+    "border-brand-300"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377712"
+  },
+  {
+   "aliasedBy": 6,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-brand-400",
+   "current": "Colors/Brand/400",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['brand']['400']",
+   "originalName": "Colors/Brand/400",
+   "proposed": "color/brand/400",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Brand/400"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.brand.400",
+   "utilities": [
+    "bg-brand-400",
+    "text-brand-400",
+    "border-brand-400"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377713"
+  },
+  {
+   "aliasedBy": 3,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-brand-50",
+   "current": "Colors/Brand/50",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['brand']['50']",
+   "originalName": "Colors/Brand/50",
+   "proposed": "color/brand/50",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Brand/50"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.brand.50",
+   "utilities": [
+    "bg-brand-50",
+    "text-brand-50",
+    "border-brand-50"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377709"
+  },
+  {
+   "aliasedBy": 6,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-brand-500",
+   "current": "Colors/Brand/500",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['brand']['500']",
+   "originalName": "Colors/Brand/500",
+   "proposed": "color/brand/500",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Brand/500"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.brand.500",
+   "utilities": [
+    "bg-brand-500",
+    "text-brand-500",
+    "border-brand-500"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377714"
+  },
+  {
+   "aliasedBy": 9,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-brand-600",
+   "current": "color/brand/600",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['brand']['600']",
+   "originalName": "Colors/Brand/600",
+   "proposed": "color/brand/600",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "DONE (pilot 2026-11-09)",
+   "styleEx": [
+    "paint: Brand/600"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.brand.600",
+   "utilities": [
+    "bg-brand-600",
+    "text-brand-600",
+    "border-brand-600"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377715"
+  },
+  {
+   "aliasedBy": 5,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-brand-700",
+   "current": "Colors/Brand/700",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['brand']['700']",
+   "originalName": "Colors/Brand/700",
+   "proposed": "color/brand/700",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Brand/700"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.brand.700",
+   "utilities": [
+    "bg-brand-700",
+    "text-brand-700",
+    "border-brand-700"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377716"
+  },
+  {
+   "aliasedBy": 2,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-brand-800",
+   "current": "Colors/Brand/800",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['brand']['800']",
+   "originalName": "Colors/Brand/800",
+   "proposed": "color/brand/800",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Brand/800"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.brand.800",
+   "utilities": [
+    "bg-brand-800",
+    "text-brand-800",
+    "border-brand-800"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377717"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-error-100",
+   "current": "Colors/Error/100",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['error']['100']",
+   "originalName": "Colors/Error/100",
+   "proposed": "color/error/100",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Error/100"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.error.100",
+   "utilities": [
+    "bg-error-100",
+    "text-error-100",
+    "border-error-100"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377722"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-error-200",
+   "current": "Colors/Error/200",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['error']['200']",
+   "originalName": "Colors/Error/200",
+   "proposed": "color/error/200",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Error/200"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.error.200",
+   "utilities": [
+    "bg-error-200",
+    "text-error-200",
+    "border-error-200"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377723"
+  },
+  {
+   "aliasedBy": 2,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-error-300",
+   "current": "Colors/Error/300",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['error']['300']",
+   "originalName": "Colors/Error/300",
+   "proposed": "color/error/300",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Error/300"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.error.300",
+   "utilities": [
+    "bg-error-300",
+    "text-error-300",
+    "border-error-300"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377724"
+  },
+  {
+   "aliasedBy": 3,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-error-400",
+   "current": "Colors/Error/400",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['error']['400']",
+   "originalName": "Colors/Error/400",
+   "proposed": "color/error/400",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Error/400"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.error.400",
+   "utilities": [
+    "bg-error-400",
+    "text-error-400",
+    "border-error-400"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377725"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-error-50",
+   "current": "Colors/Error/50",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['error']['50']",
+   "originalName": "Colors/Error/50",
+   "proposed": "color/error/50",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Error/50"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.error.50",
+   "utilities": [
+    "bg-error-50",
+    "text-error-50",
+    "border-error-50"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377721"
+  },
+  {
+   "aliasedBy": 7,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-error-500",
+   "current": "Colors/Error/500",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['error']['500']",
+   "originalName": "Colors/Error/500",
+   "proposed": "color/error/500",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Error/500"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.error.500",
+   "utilities": [
+    "bg-error-500",
+    "text-error-500",
+    "border-error-500"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377726"
+  },
+  {
+   "aliasedBy": 5,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-error-600",
+   "current": "Colors/Error/600",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['error']['600']",
+   "originalName": "Colors/Error/600",
+   "proposed": "color/error/600",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Error/600"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.error.600",
+   "utilities": [
+    "bg-error-600",
+    "text-error-600",
+    "border-error-600"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377727"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "`@theme` (role)",
+   "class": "cosmetic",
+   "collection": "1. Color modes",
+   "componentCount": 18,
+   "components": [
+    [
+     "Radio group item",
+     48
+    ],
+    [
+     "Radio / Checkbox",
+     21
+    ],
+    [
+     "Social button",
+     18
+    ]
+   ],
+   "cssVar": "--ring-color-primary",
+   "current": "color/focus-ring/primary",
+   "directUses": 167,
+   "modes": [
+    "dark",
+    "light"
+   ],
+   "namespace": "ring-color",
+   "nativewind": "ringColor['primary']",
+   "originalName": "Colors/Effects/Focus rings/focus-ring-primary",
+   "proposed": "color/focus-ring/primary",
+   "risk": "medium",
+   "riskWhy": "semantic role renamed (Untitled UI name designers know)",
+   "status": "DONE (pilot 2026-11-09)",
+   "styleEx": [
+    "effect: Focus rings/focus-ring",
+    "effect: Focus rings/focus-ring-shadow-primary-xs",
+    "effect: Focus rings/focus-ring-shadow-sm"
+   ],
+   "styleRefs": 3,
+   "tier": "theme",
+   "token": "color.focus-ring.primary",
+   "utilities": [
+    "ring-primary",
+    "outline-primary*"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:7371:212918"
+  },
+  {
+   "aliasedBy": 2,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-gray-dark-200",
+   "current": "Colors/Gray (dark mode)/200",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['gray-dark']['200']",
+   "originalName": "Colors/Gray (dark mode)/200",
+   "proposed": "color/gray-dark/200",
+   "risk": "low",
+   "riskWhy": "family slug (Gray (dark mode) → gray-dark)",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Gray (dark mode)/200"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.gray-dark.200",
+   "utilities": [
+    "bg-gray-dark-200",
+    "text-gray-dark-200",
+    "border-gray-dark-200"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:6671:87756"
+  },
+  {
+   "aliasedBy": 6,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-gray-dark-300",
+   "current": "Colors/Gray (dark mode)/300",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['gray-dark']['300']",
+   "originalName": "Colors/Gray (dark mode)/300",
+   "proposed": "color/gray-dark/300",
+   "risk": "low",
+   "riskWhy": "family slug (Gray (dark mode) → gray-dark)",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Gray (dark mode)/300"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.gray-dark.300",
+   "utilities": [
+    "bg-gray-dark-300",
+    "text-gray-dark-300",
+    "border-gray-dark-300"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:6671:87757"
+  },
+  {
+   "aliasedBy": 7,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-gray-dark-400",
+   "current": "Colors/Gray (dark mode)/400",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['gray-dark']['400']",
+   "originalName": "Colors/Gray (dark mode)/400",
+   "proposed": "color/gray-dark/400",
+   "risk": "low",
+   "riskWhy": "family slug (Gray (dark mode) → gray-dark)",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Gray (dark mode)/400"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.gray-dark.400",
+   "utilities": [
+    "bg-gray-dark-400",
+    "text-gray-dark-400",
+    "border-gray-dark-400"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:6671:87758"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-gray-dark-50",
+   "current": "Colors/Gray (dark mode)/50",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['gray-dark']['50']",
+   "originalName": "Colors/Gray (dark mode)/50",
+   "proposed": "color/gray-dark/50",
+   "risk": "low",
+   "riskWhy": "family slug (Gray (dark mode) → gray-dark)",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Gray (dark mode)/50"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.gray-dark.50",
+   "utilities": [
+    "bg-gray-dark-50",
+    "text-gray-dark-50",
+    "border-gray-dark-50"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:6671:87754"
+  },
+  {
+   "aliasedBy": 2,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-gray-dark-500",
+   "current": "Colors/Gray (dark mode)/500",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['gray-dark']['500']",
+   "originalName": "Colors/Gray (dark mode)/500",
+   "proposed": "color/gray-dark/500",
+   "risk": "low",
+   "riskWhy": "family slug (Gray (dark mode) → gray-dark)",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Gray (dark mode)/500"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.gray-dark.500",
+   "utilities": [
+    "bg-gray-dark-500",
+    "text-gray-dark-500",
+    "border-gray-dark-500"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:6671:87759"
+  },
+  {
+   "aliasedBy": 4,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-gray-dark-600",
+   "current": "Colors/Gray (dark mode)/600",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['gray-dark']['600']",
+   "originalName": "Colors/Gray (dark mode)/600",
+   "proposed": "color/gray-dark/600",
+   "risk": "low",
+   "riskWhy": "family slug (Gray (dark mode) → gray-dark)",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Gray (dark mode)/600"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.gray-dark.600",
+   "utilities": [
+    "bg-gray-dark-600",
+    "text-gray-dark-600",
+    "border-gray-dark-600"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:6671:87760"
+  },
+  {
+   "aliasedBy": 4,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-gray-dark-700",
+   "current": "Colors/Gray (dark mode)/700",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['gray-dark']['700']",
+   "originalName": "Colors/Gray (dark mode)/700",
+   "proposed": "color/gray-dark/700",
+   "risk": "low",
+   "riskWhy": "family slug (Gray (dark mode) → gray-dark)",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Gray (dark mode)/700"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.gray-dark.700",
+   "utilities": [
+    "bg-gray-dark-700",
+    "text-gray-dark-700",
+    "border-gray-dark-700"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:6671:87761"
+  },
+  {
+   "aliasedBy": 7,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 1,
+   "components": [
+    [
+     "Partner affiliate logos",
+     1
+    ]
+   ],
+   "cssVar": "--color-gray-dark-800",
+   "current": "Colors/Gray (dark mode)/800",
+   "directUses": 1,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['gray-dark']['800']",
+   "originalName": "Colors/Gray (dark mode)/800",
+   "proposed": "color/gray-dark/800",
+   "risk": "low",
+   "riskWhy": "family slug (Gray (dark mode) → gray-dark)",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Gray (dark mode)/800"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.gray-dark.800",
+   "utilities": [
+    "bg-gray-dark-800",
+    "text-gray-dark-800",
+    "border-gray-dark-800"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:6671:87762"
+  },
+  {
+   "aliasedBy": 4,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-gray-dark-900",
+   "current": "Colors/Gray (dark mode)/900",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['gray-dark']['900']",
+   "originalName": "Colors/Gray (dark mode)/900",
+   "proposed": "color/gray-dark/900",
+   "risk": "low",
+   "riskWhy": "family slug (Gray (dark mode) → gray-dark)",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Gray (dark mode)/900"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.gray-dark.900",
+   "utilities": [
+    "bg-gray-dark-900",
+    "text-gray-dark-900",
+    "border-gray-dark-900"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:6671:87763"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-gray-iron-950",
+   "current": "Colors/Gray iron/950",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['gray-iron']['950']",
+   "originalName": "Colors/Gray iron/950",
+   "proposed": "color/gray-iron/950",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Gray iron/950"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.gray-iron.950",
+   "utilities": [
+    "bg-gray-iron-950",
+    "text-gray-iron-950",
+    "border-gray-iron-950"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:378678"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-gray-modern-25",
+   "current": "Colors/Gray modern/25",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['gray-modern']['25']",
+   "originalName": "Colors/Gray modern/25",
+   "proposed": "color/gray-modern/25",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Gray modern/25"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.gray-modern.25",
+   "utilities": [
+    "bg-gray-modern-25",
+    "text-gray-modern-25",
+    "border-gray-modern-25"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377693"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-gray-modern-300",
+   "current": "Colors/Gray modern/300",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['gray-modern']['300']",
+   "originalName": "Colors/Gray modern/300",
+   "proposed": "color/gray-modern/300",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Gray modern/300"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.gray-modern.300",
+   "utilities": [
+    "bg-gray-modern-300",
+    "text-gray-modern-300",
+    "border-gray-modern-300"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377783"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-gray-modern-800",
+   "current": "Colors/Gray modern/800",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['gray-modern']['800']",
+   "originalName": "Colors/Gray modern/800",
+   "proposed": "color/gray-modern/800",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Gray modern/800"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.gray-modern.800",
+   "utilities": [
+    "bg-gray-modern-800",
+    "text-gray-modern-800",
+    "border-gray-modern-800"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377788"
+  },
+  {
+   "aliasedBy": 4,
+   "build": "C4: `:root --make-*` only until ADR-0009",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-gray-100",
+   "current": "Colors/Gray (light mode)/100",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['gray']['100']",
+   "originalName": "Colors/Gray (light mode)/100",
+   "proposed": "color/gray/100",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Gray (light mode)/100"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.gray.100",
+   "utilities": [
+    "bg-gray-100",
+    "text-gray-100",
+    "border-gray-100"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377698"
+  },
+  {
+   "aliasedBy": 3,
+   "build": "C4: `:root --make-*` only until ADR-0009",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-gray-200",
+   "current": "Colors/Gray (light mode)/200",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['gray']['200']",
+   "originalName": "Colors/Gray (light mode)/200",
+   "proposed": "color/gray/200",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Gray (light mode)/200"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.gray.200",
+   "utilities": [
+    "bg-gray-200",
+    "text-gray-200",
+    "border-gray-200"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377699"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-gray-25",
+   "current": "Colors/Gray (light mode)/25",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['gray']['25']",
+   "originalName": "Colors/Gray (light mode)/25",
+   "proposed": "color/gray/25",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Gray (light mode)/25"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.gray.25",
+   "utilities": [
+    "bg-gray-25",
+    "text-gray-25",
+    "border-gray-25"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377690"
+  },
+  {
+   "aliasedBy": 3,
+   "build": "C4: `:root --make-*` only until ADR-0009",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-gray-300",
+   "current": "Colors/Gray (light mode)/300",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['gray']['300']",
+   "originalName": "Colors/Gray (light mode)/300",
+   "proposed": "color/gray/300",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Gray (light mode)/300"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.gray.300",
+   "utilities": [
+    "bg-gray-300",
+    "text-gray-300",
+    "border-gray-300"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377700"
+  },
+  {
+   "aliasedBy": 4,
+   "build": "C4: `:root --make-*` only until ADR-0009",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-gray-400",
+   "current": "Colors/Gray (light mode)/400",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['gray']['400']",
+   "originalName": "Colors/Gray (light mode)/400",
+   "proposed": "color/gray/400",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Gray (light mode)/400"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.gray.400",
+   "utilities": [
+    "bg-gray-400",
+    "text-gray-400",
+    "border-gray-400"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377701"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-gray-450",
+   "current": "color/gray/450",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['gray']['450']",
+   "originalName": "Colors/Gray (light mode)/450",
+   "proposed": "color/gray/450",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "DONE (pilot 2026-11-09)",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "color.gray.450",
+   "utilities": [
+    "bg-gray-450",
+    "text-gray-450",
+    "border-gray-450"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:23468:2"
+  },
+  {
+   "aliasedBy": 4,
+   "build": "C4: `:root --make-*` only until ADR-0009",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-gray-50",
+   "current": "Colors/Gray (light mode)/50",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['gray']['50']",
+   "originalName": "Colors/Gray (light mode)/50",
+   "proposed": "color/gray/50",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Gray (light mode)/50"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.gray.50",
+   "utilities": [
+    "bg-gray-50",
+    "text-gray-50",
+    "border-gray-50"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377696"
+  },
+  {
+   "aliasedBy": 2,
+   "build": "C4: `:root --make-*` only until ADR-0009",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-gray-500",
+   "current": "Colors/Gray (light mode)/500",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['gray']['500']",
+   "originalName": "Colors/Gray (light mode)/500",
+   "proposed": "color/gray/500",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Gray (light mode)/500"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.gray.500",
+   "utilities": [
+    "bg-gray-500",
+    "text-gray-500",
+    "border-gray-500"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377702"
+  },
+  {
+   "aliasedBy": 3,
+   "build": "C4: `:root --make-*` only until ADR-0009",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-gray-600",
+   "current": "Colors/Gray (light mode)/600",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['gray']['600']",
+   "originalName": "Colors/Gray (light mode)/600",
+   "proposed": "color/gray/600",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Gray (light mode)/600"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.gray.600",
+   "utilities": [
+    "bg-gray-600",
+    "text-gray-600",
+    "border-gray-600"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377703"
+  },
+  {
+   "aliasedBy": 4,
+   "build": "C4: `:root --make-*` only until ADR-0009",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-gray-700",
+   "current": "Colors/Gray (light mode)/700",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['gray']['700']",
+   "originalName": "Colors/Gray (light mode)/700",
+   "proposed": "color/gray/700",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Gray (light mode)/700"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.gray.700",
+   "utilities": [
+    "bg-gray-700",
+    "text-gray-700",
+    "border-gray-700"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377704"
+  },
+  {
+   "aliasedBy": 2,
+   "build": "C4: `:root --make-*` only until ADR-0009",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-gray-800",
+   "current": "Colors/Gray (light mode)/800",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['gray']['800']",
+   "originalName": "Colors/Gray (light mode)/800",
+   "proposed": "color/gray/800",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Gray (light mode)/800"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.gray.800",
+   "utilities": [
+    "bg-gray-800",
+    "text-gray-800",
+    "border-gray-800"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377705"
+  },
+  {
+   "aliasedBy": 3,
+   "build": "C4: `:root --make-*` only until ADR-0009",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 1,
+   "components": [
+    [
+     "Partner affiliate logos",
+     4
+    ]
+   ],
+   "cssVar": "--color-gray-950",
+   "current": "Colors/Gray (light mode)/950",
+   "directUses": 4,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['gray']['950']",
+   "originalName": "Colors/Gray (light mode)/950",
+   "proposed": "color/gray/950",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Gray (light mode)/950"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.gray.950",
+   "utilities": [
+    "bg-gray-950",
+    "text-gray-950",
+    "border-gray-950"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377707"
+  },
+  {
+   "aliasedBy": 2,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-green-lime-200",
+   "current": "Colors/Green lime/200",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['green-lime']['200']",
+   "originalName": "Colors/Green lime/200",
+   "proposed": "color/green-lime/200",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "color.green-lime.200",
+   "utilities": [
+    "bg-green-lime-200",
+    "text-green-lime-200",
+    "border-green-lime-200"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:17489:6178"
+  },
+  {
+   "aliasedBy": 4,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-green-lime-400",
+   "current": "Colors/Green lime/400",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['green-lime']['400']",
+   "originalName": "Colors/Green lime/400",
+   "proposed": "color/green-lime/400",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "color.green-lime.400",
+   "utilities": [
+    "bg-green-lime-400",
+    "text-green-lime-400",
+    "border-green-lime-400"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:17489:6180"
+  },
+  {
+   "aliasedBy": 4,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 1,
+   "components": [
+    [
+     "Buttons/Button",
+     35
+    ]
+   ],
+   "cssVar": "--color-green-lime-500",
+   "current": "Colors/Green lime/500",
+   "directUses": 35,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['green-lime']['500']",
+   "originalName": "Colors/Green lime/500",
+   "proposed": "color/green-lime/500",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "color.green-lime.500",
+   "utilities": [
+    "bg-green-lime-500",
+    "text-green-lime-500",
+    "border-green-lime-500"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:17489:6181"
+  },
+  {
+   "aliasedBy": 2,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-magenta-400",
+   "current": "Colors/Magenta/400",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['magenta']['400']",
+   "originalName": "Colors/Magenta/400",
+   "proposed": "color/magenta/400",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "color.magenta.400",
+   "utilities": [
+    "bg-magenta-400",
+    "text-magenta-400",
+    "border-magenta-400"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:17490:5440"
+  },
+  {
+   "aliasedBy": 2,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-magenta-500",
+   "current": "Colors/Magenta/500",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['magenta']['500']",
+   "originalName": "Colors/Magenta/500",
+   "proposed": "color/magenta/500",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "color.magenta.500",
+   "utilities": [
+    "bg-magenta-500",
+    "text-magenta-500",
+    "border-magenta-500"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:17490:5441"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-success-100",
+   "current": "Colors/Success/100",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['success']['100']",
+   "originalName": "Colors/Success/100",
+   "proposed": "color/success/100",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Success/100"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.success.100",
+   "utilities": [
+    "bg-success-100",
+    "text-success-100",
+    "border-success-100"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377748"
+  },
+  {
+   "aliasedBy": 2,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-success-400",
+   "current": "Colors/Success/400",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['success']['400']",
+   "originalName": "Colors/Success/400",
+   "proposed": "color/success/400",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Success/400"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.success.400",
+   "utilities": [
+    "bg-success-400",
+    "text-success-400",
+    "border-success-400"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377751"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-success-50",
+   "current": "Colors/Success/50",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['success']['50']",
+   "originalName": "Colors/Success/50",
+   "proposed": "color/success/50",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Success/50"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.success.50",
+   "utilities": [
+    "bg-success-50",
+    "text-success-50",
+    "border-success-50"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377747"
+  },
+  {
+   "aliasedBy": 3,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-success-500",
+   "current": "Colors/Success/500",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['success']['500']",
+   "originalName": "Colors/Success/500",
+   "proposed": "color/success/500",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Success/500"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.success.500",
+   "utilities": [
+    "bg-success-500",
+    "text-success-500",
+    "border-success-500"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377752"
+  },
+  {
+   "aliasedBy": 3,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-success-600",
+   "current": "Colors/Success/600",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['success']['600']",
+   "originalName": "Colors/Success/600",
+   "proposed": "color/success/600",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Success/600"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.success.600",
+   "utilities": [
+    "bg-success-600",
+    "text-success-600",
+    "border-success-600"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377753"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-success-700",
+   "current": "Colors/Success/700",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['success']['700']",
+   "originalName": "Colors/Success/700",
+   "proposed": "color/success/700",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Success/700"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.success.700",
+   "utilities": [
+    "bg-success-700",
+    "text-success-700",
+    "border-success-700"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377754"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-success-950",
+   "current": "Colors/Success/950",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['success']['950']",
+   "originalName": "Colors/Success/950",
+   "proposed": "color/success/950",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Success/950"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.success.950",
+   "utilities": [
+    "bg-success-950",
+    "text-success-950",
+    "border-success-950"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377757"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "`@theme` (role)",
+   "class": "cosmetic",
+   "collection": "1. Color modes",
+   "componentCount": 2,
+   "components": [
+    [
+     "Buttons/Button",
+     24
+    ],
+    [
+     "Badge",
+     6
+    ]
+   ],
+   "cssVar": "--text-color-brand-primary",
+   "current": "color/text/brand-primary",
+   "directUses": 30,
+   "modes": [
+    "dark",
+    "light"
+   ],
+   "namespace": "text-color",
+   "nativewind": "textColor['brand-primary']",
+   "originalName": "Colors/Text/text-brand-primary",
+   "proposed": "color/text/brand-primary",
+   "risk": "medium",
+   "riskWhy": "semantic role renamed (Untitled UI name designers know)",
+   "status": "DONE (pilot 2026-11-09)",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "theme",
+   "token": "color.text.brand-primary",
+   "utilities": [
+    "text-brand-primary"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:6137:268549"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "`@theme` (role)",
+   "class": "cosmetic",
+   "collection": "1. Color modes",
+   "componentCount": 1,
+   "components": [
+    [
+     "Buttons/Button",
+     14
+    ]
+   ],
+   "cssVar": "--text-color-brand-primary-hover",
+   "current": "Colors/Text/text-brand-primary-hover",
+   "directUses": 14,
+   "modes": [
+    "dark",
+    "light"
+   ],
+   "namespace": "text-color",
+   "nativewind": "textColor['brand-primary-hover']",
+   "originalName": "Colors/Text/text-brand-primary-hover",
+   "proposed": "color/text/brand-primary-hover",
+   "risk": "medium",
+   "riskWhy": "semantic role renamed (Untitled UI name designers know)",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "theme",
+   "token": "color.text.brand-primary-hover",
+   "utilities": [
+    "text-brand-primary-hover"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:17499:16144"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "`@theme` (role)",
+   "class": "cosmetic",
+   "collection": "1. Color modes",
+   "componentCount": 3,
+   "components": [
+    [
+     "Buttons/Button destructive",
+     28
+    ],
+    [
+     "Badge",
+     3
+    ],
+    [
+     "Helper text",
+     3
+    ]
+   ],
+   "cssVar": "--text-color-error-primary",
+   "current": "color/text/error-primary",
+   "directUses": 34,
+   "modes": [
+    "dark",
+    "light"
+   ],
+   "namespace": "text-color",
+   "nativewind": "textColor['error-primary']",
+   "originalName": "Colors/Text/text-error-primary",
+   "proposed": "color/text/error-primary",
+   "risk": "medium",
+   "riskWhy": "semantic role renamed (Untitled UI name designers know)",
+   "status": "DONE (pilot 2026-11-09)",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "theme",
+   "token": "color.text.error-primary",
+   "utilities": [
+    "text-error-primary"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5263:373125"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "`@theme` (role)",
+   "class": "cosmetic",
+   "collection": "1. Color modes",
+   "componentCount": 4,
+   "components": [
+    [
+     "Tag count",
+     3
+    ],
+    [
+     "Flow heading",
+     2
+    ],
+    [
+     "_Tab button base",
+     2
+    ]
+   ],
+   "cssVar": "--text-color-primary-on-brand",
+   "current": "Colors/Text/text-primary_on-brandprimary",
+   "directUses": 8,
+   "modes": [
+    "dark",
+    "light"
+   ],
+   "namespace": "text-color",
+   "nativewind": "textColor['primary-on-brand']",
+   "originalName": "Colors/Text/text-primary_on-brandprimary",
+   "proposed": "color/text/primary-on-brand",
+   "risk": "medium",
+   "riskWhy": "semantic role renamed (Untitled UI name designers know)",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "theme",
+   "token": "color.text.primary-on-brand",
+   "utilities": [
+    "text-primary-on-brand"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:6139:331930"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "`@theme` (role)",
+   "class": "cosmetic",
+   "collection": "1. Color modes",
+   "componentCount": 2,
+   "components": [
+    [
+     "Badge",
+     3
+    ],
+    [
+     "Helper text",
+     3
+    ]
+   ],
+   "cssVar": "--text-color-success-primary",
+   "current": "Colors/Text/text-success-primary",
+   "directUses": 6,
+   "modes": [
+    "dark",
+    "light"
+   ],
+   "namespace": "text-color",
+   "nativewind": "textColor['success-primary']",
+   "originalName": "Colors/Text/text-success-primary",
+   "proposed": "color/text/success-primary",
+   "risk": "medium",
+   "riskWhy": "semantic role renamed (Untitled UI name designers know)",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "theme",
+   "token": "color.text.success-primary",
+   "utilities": [
+    "text-success-primary"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5270:371446"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "`@theme` (role)",
+   "class": "cosmetic",
+   "collection": "1. Color modes",
+   "componentCount": 2,
+   "components": [
+    [
+     "Badge",
+     6
+    ],
+    [
+     "Helper text",
+     3
+    ]
+   ],
+   "cssVar": "--text-color-warning-primary",
+   "current": "Colors/Text/text-warning-primary",
+   "directUses": 9,
+   "modes": [
+    "dark",
+    "light"
+   ],
+   "namespace": "text-color",
+   "nativewind": "textColor['warning-primary']",
+   "originalName": "Colors/Text/text-warning-primary",
+   "proposed": "color/text/warning-primary",
+   "risk": "medium",
+   "riskWhy": "semantic role renamed (Untitled UI name designers know)",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "theme",
+   "token": "color.text.warning-primary",
+   "utilities": [
+    "text-warning-primary"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5270:371444"
+  },
+  {
+   "aliasedBy": 15,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-transparent",
+   "current": "Colors/Base/transparent",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors.transparent",
+   "originalName": "Colors/Base/transparent",
+   "proposed": "color/transparent",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "color.transparent",
+   "utilities": [
+    "bg-transparent",
+    "text-transparent",
+    "border-transparent"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5353:380363"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-warning-100",
+   "current": "Colors/Warning/100",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['warning']['100']",
+   "originalName": "Colors/Warning/100",
+   "proposed": "color/warning/100",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Warning/100"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.warning.100",
+   "utilities": [
+    "bg-warning-100",
+    "text-warning-100",
+    "border-warning-100"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377734"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-warning-400",
+   "current": "Colors/Warning/400",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['warning']['400']",
+   "originalName": "Colors/Warning/400",
+   "proposed": "color/warning/400",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Warning/400"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.warning.400",
+   "utilities": [
+    "bg-warning-400",
+    "text-warning-400",
+    "border-warning-400"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377737"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-warning-50",
+   "current": "Colors/Warning/50",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['warning']['50']",
+   "originalName": "Colors/Warning/50",
+   "proposed": "color/warning/50",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Warning/50"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.warning.50",
+   "utilities": [
+    "bg-warning-50",
+    "text-warning-50",
+    "border-warning-50"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377733"
+  },
+  {
+   "aliasedBy": 2,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-warning-500",
+   "current": "Colors/Warning/500",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['warning']['500']",
+   "originalName": "Colors/Warning/500",
+   "proposed": "color/warning/500",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Warning/500"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.warning.500",
+   "utilities": [
+    "bg-warning-500",
+    "text-warning-500",
+    "border-warning-500"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377738"
+  },
+  {
+   "aliasedBy": 2,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-warning-600",
+   "current": "Colors/Warning/600",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['warning']['600']",
+   "originalName": "Colors/Warning/600",
+   "proposed": "color/warning/600",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Warning/600"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.warning.600",
+   "utilities": [
+    "bg-warning-600",
+    "text-warning-600",
+    "border-warning-600"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377739"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-warning-700",
+   "current": "Colors/Warning/700",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['warning']['700']",
+   "originalName": "Colors/Warning/700",
+   "proposed": "color/warning/700",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Warning/700"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.warning.700",
+   "utilities": [
+    "bg-warning-700",
+    "text-warning-700",
+    "border-warning-700"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377740"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-warning-800",
+   "current": "Colors/Warning/800",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['warning']['800']",
+   "originalName": "Colors/Warning/800",
+   "proposed": "color/warning/800",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Warning/800"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.warning.800",
+   "utilities": [
+    "bg-warning-800",
+    "text-warning-800",
+    "border-warning-800"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377741"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "`:root --make-*` only (option A)",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--color-warning-900",
+   "current": "Colors/Warning/900",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors['warning']['900']",
+   "originalName": "Colors/Warning/900",
+   "proposed": "color/warning/900",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Warning/900"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.warning.900",
+   "utilities": [
+    "bg-warning-900",
+    "text-warning-900",
+    "border-warning-900"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377742"
+  },
+  {
+   "aliasedBy": 9,
+   "build": "not emitted: equals Tailwind default",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 6,
+   "components": [
+    [
+     "Mobile app store badge",
+     18
+    ],
+    [
+     "Input field",
+     7
+    ],
+    [
+     "Cursor",
+     5
+    ]
+   ],
+   "cssVar": "--color-white",
+   "current": "Colors/Base/white",
+   "directUses": 36,
+   "modes": [
+    "all"
+   ],
+   "namespace": "color",
+   "nativewind": "colors.white",
+   "originalName": "Colors/Base/white",
+   "proposed": "color/white",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "paint: Base/White"
+   ],
+   "styleRefs": 1,
+   "tier": "primitive",
+   "token": "color.white",
+   "utilities": [
+    "bg-white",
+    "text-white",
+    "border-white"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5248:377686"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "C4: `:root --make-*` only until ADR-0009",
+   "class": "cosmetic",
+   "collection": "6. Typography",
+   "componentCount": 43,
+   "components": [
+    [
+     "Radio group item",
+     256
+    ],
+    [
+     "Input field",
+     126
+    ],
+    [
+     "Buttons/Button",
+     92
+    ]
+   ],
+   "cssVar": "--font-sans",
+   "current": "Font family/font-family-primary",
+   "directUses": 1013,
+   "modes": [
+    "all"
+   ],
+   "namespace": "font",
+   "nativewind": "fontFamily['sans']",
+   "originalName": "Font family/font-family-primary",
+   "proposed": "font/family/sans",
+   "risk": "medium",
+   "riskWhy": "Figma name differs (regular → normal / primary → sans)",
+   "status": "candidate",
+   "styleEx": [
+    "text: Text xxxl/Regular",
+    "text: Text xxxl/Medium",
+    "text: Text xxxl/Semibold"
+   ],
+   "styleRefs": 33,
+   "tier": "primitive",
+   "token": "font.family.sans",
+   "utilities": [
+    "font-sans"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:7403:16251"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "`@theme`",
+   "class": "cosmetic",
+   "collection": "6. Typography",
+   "componentCount": 25,
+   "components": [
+    [
+     "Radio group item",
+     128
+    ],
+    [
+     "Input field",
+     54
+    ],
+    [
+     "Radio / Checkbox",
+     32
+    ]
+   ],
+   "cssVar": "--leading-base",
+   "current": "Line height/text-md",
+   "directUses": 381,
+   "modes": [
+    "all"
+   ],
+   "namespace": "leading",
+   "nativewind": "lineHeight['base']",
+   "originalName": "Line height/text-md",
+   "proposed": "font/line-height/base",
+   "risk": "medium",
+   "riskWhy": "Figma size name differs from Tailwind name (text-md → base)",
+   "status": "candidate",
+   "styleEx": [
+    "text: Display xs/Regular",
+    "text: Display xs/Medium",
+    "text: Display xs/Semibold"
+   ],
+   "styleRefs": 12,
+   "tier": "primitive",
+   "token": "font.line-height.base",
+   "utilities": [
+    "leading-base"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:7407:110582"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "`@theme`",
+   "class": "cosmetic",
+   "collection": "6. Typography",
+   "componentCount": 24,
+   "components": [
+    [
+     "Radio group item",
+     128
+    ],
+    [
+     "Radio / Checkbox",
+     32
+    ],
+    [
+     "_Button group base",
+     24
+    ]
+   ],
+   "cssVar": "--leading-sm",
+   "current": "Line height/text-sm",
+   "directUses": 341,
+   "modes": [
+    "all"
+   ],
+   "namespace": "leading",
+   "nativewind": "lineHeight['sm']",
+   "originalName": "Line height/text-sm",
+   "proposed": "font/line-height/sm",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "text: Text sm/Regular",
+    "text: Text sm/Medium",
+    "text: Text sm/Semibold"
+   ],
+   "styleRefs": 4,
+   "tier": "primitive",
+   "token": "font.line-height.sm",
+   "utilities": [
+    "leading-sm"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:7407:110581"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "`@theme`",
+   "class": "cosmetic",
+   "collection": "6. Typography",
+   "componentCount": 15,
+   "components": [
+    [
+     "Buttons/Button",
+     23
+    ],
+    [
+     "Tooltip",
+     21
+    ],
+    [
+     "Tag",
+     12
+    ]
+   ],
+   "cssVar": "--leading-xs",
+   "current": "Line height/text-xs",
+   "directUses": 108,
+   "modes": [
+    "all"
+   ],
+   "namespace": "leading",
+   "nativewind": "lineHeight['xs']",
+   "originalName": "Line height/text-xs",
+   "proposed": "font/line-height/xs",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "text: Text xs/Regular",
+    "text: Text xs/Medium",
+    "text: Text xs/Semibold"
+   ],
+   "styleRefs": 4,
+   "tier": "primitive",
+   "token": "font.line-height.xs",
+   "utilities": [
+    "leading-xs"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:7407:110580"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "not emitted: equals Tailwind default",
+   "class": "cosmetic",
+   "collection": "6. Typography",
+   "componentCount": 21,
+   "components": [
+    [
+     "Radio group item",
+     256
+    ],
+    [
+     "Input field",
+     108
+    ],
+    [
+     "Radio / Checkbox",
+     64
+    ]
+   ],
+   "cssVar": "--text-base",
+   "current": "font/size/base",
+   "directUses": 716,
+   "modes": [
+    "all"
+   ],
+   "namespace": "text",
+   "nativewind": "fontSize['base']",
+   "originalName": "Font size/text-md",
+   "proposed": "font/size/base",
+   "risk": "medium",
+   "riskWhy": "Figma size name differs from Tailwind name (text-md → base)",
+   "status": "DONE (pilot 2026-11-09)",
+   "styleEx": [
+    "text: Text md/Regular",
+    "text: Text md/Medium",
+    "text: Text md/Semibold"
+   ],
+   "styleRefs": 4,
+   "tier": "primitive",
+   "token": "font.size.base",
+   "utilities": [
+    "text-base"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:7407:110365"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "not emitted: equals Tailwind default",
+   "class": "cosmetic",
+   "collection": "6. Typography",
+   "componentCount": 25,
+   "components": [
+    [
+     "Radio group item",
+     256
+    ],
+    [
+     "Radio / Checkbox",
+     64
+    ],
+    [
+     "_Button group base",
+     48
+    ]
+   ],
+   "cssVar": "--text-sm",
+   "current": "Font size/text-sm",
+   "directUses": 684,
+   "modes": [
+    "all"
+   ],
+   "namespace": "text",
+   "nativewind": "fontSize['sm']",
+   "originalName": "Font size/text-sm",
+   "proposed": "font/size/sm",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "text: Text sm/Regular",
+    "text: Text sm/Medium",
+    "text: Text sm/Semibold"
+   ],
+   "styleRefs": 4,
+   "tier": "primitive",
+   "token": "font.size.sm",
+   "utilities": [
+    "text-sm"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:7407:110364"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "not emitted: equals Tailwind default",
+   "class": "cosmetic",
+   "collection": "6. Typography",
+   "componentCount": 17,
+   "components": [
+    [
+     "Buttons/Button",
+     46
+    ],
+    [
+     "Tooltip",
+     42
+    ],
+    [
+     "Tag",
+     24
+    ]
+   ],
+   "cssVar": "--text-xs",
+   "current": "Font size/text-xs",
+   "directUses": 223,
+   "modes": [
+    "all"
+   ],
+   "namespace": "text",
+   "nativewind": "fontSize['xs']",
+   "originalName": "Font size/text-xs",
+   "proposed": "font/size/xs",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [
+    "text: Display xxs/Regular",
+    "text: Display xxs/Semibold",
+    "text: Display xxs/Bold"
+   ],
+   "styleRefs": 7,
+   "tier": "primitive",
+   "token": "font.size.xs",
+   "utilities": [
+    "text-xs"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:7407:110363"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "not emitted: equals Tailwind default",
+   "class": "cosmetic",
+   "collection": "6. Typography",
+   "componentCount": 26,
+   "components": [
+    [
+     "Radio group item",
+     96
+    ],
+    [
+     "Buttons/Button",
+     74
+    ],
+    [
+     "Buttons/Button destructive",
+     37
+    ]
+   ],
+   "cssVar": "--font-weight-medium",
+   "current": "Font weight/medium",
+   "directUses": 395,
+   "modes": [
+    "all"
+   ],
+   "namespace": "font-weight",
+   "nativewind": "fontWeight['medium']",
+   "originalName": "Font weight/medium",
+   "proposed": "font/weight/medium",
+   "risk": "medium",
+   "riskWhy": "Figma name differs (regular → normal / primary → sans)",
+   "status": "candidate",
+   "styleEx": [
+    "text: Display 2xl/Medium",
+    "text: Display xl/Medium",
+    "text: Display lg/Medium"
+   ],
+   "styleRefs": 16,
+   "tier": "primitive",
+   "token": "font.weight.medium",
+   "utilities": [
+    "font-medium"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:7405:102285"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "not emitted: equals Tailwind default",
+   "class": "cosmetic",
+   "collection": "6. Typography",
+   "componentCount": 27,
+   "components": [
+    [
+     "Radio group item",
+     160
+    ],
+    [
+     "Input field",
+     113
+    ],
+    [
+     "Select",
+     45
+    ]
+   ],
+   "cssVar": "--font-weight-normal",
+   "current": "Font weight/regular",
+   "directUses": 451,
+   "modes": [
+    "all"
+   ],
+   "namespace": "font-weight",
+   "nativewind": "fontWeight['normal']",
+   "originalName": "Font weight/regular",
+   "proposed": "font/weight/normal",
+   "risk": "medium",
+   "riskWhy": "Figma name differs (regular → normal / primary → sans)",
+   "status": "candidate",
+   "styleEx": [
+    "text: Display 2xl/Regular",
+    "text: Display xl/Regular",
+    "text: Display lg/Regular"
+   ],
+   "styleRefs": 16,
+   "tier": "primitive",
+   "token": "font.weight.normal",
+   "utilities": [
+    "font-normal"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:7405:102283"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "not emitted: equals Tailwind default",
+   "class": "cosmetic",
+   "collection": "6. Typography",
+   "componentCount": 21,
+   "components": [
+    [
+     "Avatar",
+     48
+    ],
+    [
+     "Social button",
+     27
+    ],
+    [
+     "_Button group base",
+     24
+    ]
+   ],
+   "cssVar": "--font-weight-semibold",
+   "current": "font/weight/semibold",
+   "directUses": 184,
+   "modes": [
+    "all"
+   ],
+   "namespace": "font-weight",
+   "nativewind": "fontWeight['semibold']",
+   "originalName": "Font weight/semibold",
+   "proposed": "font/weight/semibold",
+   "risk": "medium",
+   "riskWhy": "Figma name differs (regular → normal / primary → sans)",
+   "status": "DONE (pilot 2026-11-09)",
+   "styleEx": [
+    "text: Display 2xl/Semibold",
+    "text: Display xl/Semibold",
+    "text: Display lg/Semibold"
+   ],
+   "styleRefs": 16,
+   "tier": "primitive",
+   "token": "font.weight.semibold",
+   "utilities": [
+    "font-semibold"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:7405:102287"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/0 (0px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['0'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/0 (0px)",
+   "proposed": "spacing/0",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.0",
+   "utilities": [
+    "p-0",
+    "gap-0",
+    "m-0"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5253:372198"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/0․5 (2px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['0.5'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/0․5 (2px)",
+   "proposed": "spacing/0_5",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.0_5",
+   "utilities": [
+    "p-0.5",
+    "gap-0.5",
+    "m-0.5"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5253:372200"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/1 (4px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['1'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/1 (4px)",
+   "proposed": "spacing/1",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.1",
+   "utilities": [
+    "p-1",
+    "gap-1",
+    "m-1"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5253:372201"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/10 (40px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['10'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/10 (40px)",
+   "proposed": "spacing/10",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.10",
+   "utilities": [
+    "p-10",
+    "gap-10",
+    "m-10"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5253:372208"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/12 (48px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['12'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/12 (48px)",
+   "proposed": "spacing/12",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.12",
+   "utilities": [
+    "p-12",
+    "gap-12",
+    "m-12"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5253:372209"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/120 (480px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['120'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/120 (480px)",
+   "proposed": "spacing/120",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.120",
+   "utilities": [
+    "p-120",
+    "gap-120",
+    "m-120"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5257:372476"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/140 (560px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['140'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/140 (560px)",
+   "proposed": "spacing/140",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.140",
+   "utilities": [
+    "p-140",
+    "gap-140",
+    "m-140"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:6363:125204"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/16 (64px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['16'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/16 (64px)",
+   "proposed": "spacing/16",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.16",
+   "utilities": [
+    "p-16",
+    "gap-16",
+    "m-16"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5253:372210"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/160 (640px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['160'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/160 (640px)",
+   "proposed": "spacing/160",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.160",
+   "utilities": [
+    "p-160",
+    "gap-160",
+    "m-160"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5257:372477"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/180 (720px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['180'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/180 (720px)",
+   "proposed": "spacing/180",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.180",
+   "utilities": [
+    "p-180",
+    "gap-180",
+    "m-180"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:6379:57497"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/192 (768px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['192'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/192 (768px)",
+   "proposed": "spacing/192",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.192",
+   "utilities": [
+    "p-192",
+    "gap-192",
+    "m-192"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5257:372478"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/1․5 (6px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['1.5'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/1․5 (6px)",
+   "proposed": "spacing/1_5",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.1_5",
+   "utilities": [
+    "p-1.5",
+    "gap-1.5",
+    "m-1.5"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5263:372520"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/2 (8px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['2'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/2 (8px)",
+   "proposed": "spacing/2",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.2",
+   "utilities": [
+    "p-2",
+    "gap-2",
+    "m-2"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5253:372202"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/20 (80px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['20'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/20 (80px)",
+   "proposed": "spacing/20",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.20",
+   "utilities": [
+    "p-20",
+    "gap-20",
+    "m-20"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5253:372211"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/24 (96px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['24'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/24 (96px)",
+   "proposed": "spacing/24",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.24",
+   "utilities": [
+    "p-24",
+    "gap-24",
+    "m-24"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5253:372212"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/256 (1,024px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['256'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/256 (1,024px)",
+   "proposed": "spacing/256",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.256",
+   "utilities": [
+    "p-256",
+    "gap-256",
+    "m-256"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5257:372479"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "spacing/3",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['3'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/3 (12px)",
+   "proposed": "spacing/3",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "DONE (pilot 2026-11-09)",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.3",
+   "utilities": [
+    "p-3",
+    "gap-3",
+    "m-3"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5253:372203"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/32 (128px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['32'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/32 (128px)",
+   "proposed": "spacing/32",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.32",
+   "utilities": [
+    "p-32",
+    "gap-32",
+    "m-32"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5253:372213"
+  },
+  {
+   "aliasedBy": 2,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/320 (1,280px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['320'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/320 (1,280px)",
+   "proposed": "spacing/320",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.320",
+   "utilities": [
+    "p-320",
+    "gap-320",
+    "m-320"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5257:372480"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/360 (1,440px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['360'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/360 (1,440px)",
+   "proposed": "spacing/360",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.360",
+   "utilities": [
+    "p-360",
+    "gap-360",
+    "m-360"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5257:372481"
+  },
+  {
+   "aliasedBy": 2,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/4 (16px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['4'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/4 (16px)",
+   "proposed": "spacing/4",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.4",
+   "utilities": [
+    "p-4",
+    "gap-4",
+    "m-4"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5253:372204"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/40 (160px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['40'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/40 (160px)",
+   "proposed": "spacing/40",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.40",
+   "utilities": [
+    "p-40",
+    "gap-40",
+    "m-40"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5253:372214"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/400 (1,600px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['400'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/400 (1,600px)",
+   "proposed": "spacing/400",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.400",
+   "utilities": [
+    "p-400",
+    "gap-400",
+    "m-400"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5257:372482"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/48 (192px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['48'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/48 (192px)",
+   "proposed": "spacing/48",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.48",
+   "utilities": [
+    "p-48",
+    "gap-48",
+    "m-48"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5253:372215"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/480 (1,920px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['480'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/480 (1,920px)",
+   "proposed": "spacing/480",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.480",
+   "utilities": [
+    "p-480",
+    "gap-480",
+    "m-480"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5257:372483"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/5 (20px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['5'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/5 (20px)",
+   "proposed": "spacing/5",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.5",
+   "utilities": [
+    "p-5",
+    "gap-5",
+    "m-5"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5253:372205"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/56 (224px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['56'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/56 (224px)",
+   "proposed": "spacing/56",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.56",
+   "utilities": [
+    "p-56",
+    "gap-56",
+    "m-56"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5253:372216"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/6 (24px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['6'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/6 (24px)",
+   "proposed": "spacing/6",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.6",
+   "utilities": [
+    "p-6",
+    "gap-6",
+    "m-6"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5253:372206"
+  },
+  {
+   "aliasedBy": 0,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/64 (256px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['64'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/64 (256px)",
+   "proposed": "spacing/64",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.64",
+   "utilities": [
+    "p-64",
+    "gap-64",
+    "m-64"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5253:372217"
+  },
+  {
+   "aliasedBy": 2,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/8 (32px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['8'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/8 (32px)",
+   "proposed": "spacing/8",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.8",
+   "utilities": [
+    "p-8",
+    "gap-8",
+    "m-8"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5253:372207"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/80 (320px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['80'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/80 (320px)",
+   "proposed": "spacing/80",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.80",
+   "utilities": [
+    "p-80",
+    "gap-80",
+    "m-80"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5257:372475"
+  },
+  {
+   "aliasedBy": 1,
+   "build": "not emitted: Tailwind `--spacing` multiplier",
+   "class": "cosmetic",
+   "collection": "_Primitives",
+   "componentCount": 0,
+   "components": [],
+   "cssVar": "--spacing (multiplier 4px; no per-key var)",
+   "current": "Spacing/96 (384px)",
+   "directUses": 0,
+   "modes": [
+    "all"
+   ],
+   "namespace": "spacing",
+   "nativewind": "spacing['96'] (Tailwind 3 default scale)",
+   "originalName": "Spacing/96 (384px)",
+   "proposed": "spacing/96",
+   "risk": "low",
+   "riskWhy": "name-only; bindings use the variable ID",
+   "status": "candidate",
+   "styleEx": [],
+   "styleRefs": 0,
+   "tier": "primitive",
+   "token": "spacing.96",
+   "utilities": [
+    "p-96",
+    "gap-96",
+    "m-96"
+   ],
+   "valueEqual": true,
+   "variableId": "VariableID:5253:372218"
+  }
+ ]
+}

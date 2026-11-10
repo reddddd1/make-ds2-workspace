@@ -1,0 +1,118 @@
+{
+ "status": "PROPOSED — not approved, not applied",
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "batch": "5",
+ "title": "Typography primitives",
+ "count": 8,
+ "directBindings": 3596,
+ "styleRefs": 96,
+ "aliasedBy": 0,
+ "risk": {
+  "medium": 4,
+  "low": 4
+ },
+ "splitFamilies": [
+  "6. Typography › Font family",
+  "6. Typography › Font size",
+  "6. Typography › Font weight",
+  "6. Typography › Line height"
+ ],
+ "rows": [
+  {
+   "id": "VariableID:7403:16251",
+   "collection": "6. Typography",
+   "old": "Font family/font-family-primary",
+   "new": "font/family/sans",
+   "token": "font.family.sans",
+   "directBindings": 1013,
+   "components": 43,
+   "styleRefs": 33,
+   "aliasedBy": 0,
+   "risk": "medium"
+  },
+  {
+   "id": "VariableID:7407:110582",
+   "collection": "6. Typography",
+   "old": "Line height/text-md",
+   "new": "font/line-height/base",
+   "token": "font.line-height.base",
+   "directBindings": 381,
+   "components": 25,
+   "styleRefs": 12,
+   "aliasedBy": 0,
+   "risk": "medium"
+  },
+  {
+   "id": "VariableID:7407:110581",
+   "collection": "6. Typography",
+   "old": "Line height/text-sm",
+   "new": "font/line-height/sm",
+   "token": "font.line-height.sm",
+   "directBindings": 341,
+   "components": 24,
+   "styleRefs": 4,
+   "aliasedBy": 0,
+   "risk": "low"
+  },
+  {
+   "id": "VariableID:7407:110580",
+   "collection": "6. Typography",
+   "old": "Line height/text-xs",
+   "new": "font/line-height/xs",
+   "token": "font.line-height.xs",
+   "directBindings": 108,
+   "components": 15,
+   "styleRefs": 4,
+   "aliasedBy": 0,
+   "risk": "low"
+  },
+  {
+   "id": "VariableID:7407:110364",
+   "collection": "6. Typography",
+   "old": "Font size/text-sm",
+   "new": "font/size/sm",
+   "token": "font.size.sm",
+   "directBindings": 684,
+   "components": 25,
+   "styleRefs": 4,
+   "aliasedBy": 0,
+   "risk": "low"
+  },
+  {
+   "id": "VariableID:7407:110363",
+   "collection": "6. Typography",
+   "old": "Font size/text-xs",
+   "new": "font/size/xs",
+   "token": "font.size.xs",
+   "directBindings": 223,
+   "components": 17,
+   "styleRefs": 7,
+   "aliasedBy": 0,
+   "risk": "low"
+  },
+  {
+   "id": "VariableID:7405:102285",
+   "collection": "6. Typography",
+   "old": "Font weight/medium",
+   "new": "font/weight/medium",
+   "token": "font.weight.medium",
+   "directBindings": 395,
+   "components": 26,
+   "styleRefs": 16,
+   "aliasedBy": 0,
+   "risk": "medium"
+  },
+  {
+   "id": "VariableID:7405:102283",
+   "collection": "6. Typography",
+   "old": "Font weight/regular",
+   "new": "font/weight/normal",
+   "token": "font.weight.normal",
+   "directBindings": 451,
+   "components": 27,
+   "styleRefs": 16,
+   "aliasedBy": 0,
+   "risk": "medium"
+  }
+ ]
+}

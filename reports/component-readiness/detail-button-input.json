@@ -1,0 +1,91 @@
+{
+ "buttonPrimitiveBound": {
+  "Colors/Green lime/500": {
+   "ex": [
+    "Hierarchy=Primary_alt,State=Default:ROOT",
+    "Hierarchy=Primary_alt,State=Focused:ROOT",
+    "Hierarchy=Primary_alt,State=Hover:ROOT",
+    "Hierarchy=Primary_alt,State=Loading:ROOT",
+    "Hierarchy=Primary_alt,State=Pressed:ROOT"
+   ],
+   "n": 35
+  }
+ },
+ "buttonUnboundPaints": [
+  [
+   "Size=md, Hierarchy=Link brand, State=Focused, Icon only=False",
+   "ROOT",
+   "fills",
+   "#ffffff op0.0010000000474974513",
+   "w1"
+  ],
+  [
+   "Size=md, Hierarchy=Primary, State=Hover, Icon only=True",
+   "ROOT",
+   "strokes",
+   "GRADIENT_LINEAR",
+   "w2"
+  ],
+  [
+   "Size=lg, Hierarchy=Link brand, State=Focused, Icon only=False",
+   "ROOT",
+   "fills",
+   "#ffffff op0.0010000000474974513",
+   "w1"
+  ],
+  [
+   "Size=lg, Hierarchy=Primary, State=Hover, Icon only=True",
+   "ROOT",
+   "strokes",
+   "GRADIENT_LINEAR",
+   "w2"
+  ],
+  [
+   "Size=sm, Hierarchy=Link brand, State=Focused, Icon only=False",
+   "ROOT",
+   "fills",
+   "#ffffff op0.0010000000474974513",
+   "w1"
+  ],
+  [
+   "Size=xxs, Hierarchy=Link brand, State=Focused, Icon only=False",
+   "ROOT",
+   "fills",
+   "#ffffff op0.0010000000474974513",
+   "w1"
+  ],
+  [
+   "Size=sm, Hierarchy=Primary, State=Hover, Icon only=True",
+   "ROOT",
+   "strokes",
+   "GRADIENT_LINEAR",
+   "w2"
+  ],
+  [
+   "Size=md, Hierarchy=Primary, State=Pressed, Icon only=True",
+   "ROOT",
+   "strokes",
+   "GRADIENT_LINEAR",
+   "w2"
+  ],
+  [
+   "Size=lg, Hierarchy=Primary, State=Pressed, Icon only=True",
+   "ROOT",
+   "strokes",
+   "GRADIENT_LINEAR",
+   "w2"
+  ],
+  [
+   "Size=sm, Hierarchy=Primary, State=Pressed, Icon only=True",
+   "ROOT",
+   "strokes",
+   "GRADIENT_LINEAR",
+   "w2"
+  ]
+ ],
+ "inputHiddenNoProp": {
+  "Icon wrapper (instance)": 18,
+  "optional": 40
+ },
+ "inputVariantsWithTextProps": "13/53"
+}

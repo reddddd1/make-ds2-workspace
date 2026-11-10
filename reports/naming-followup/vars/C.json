@@ -1,0 +1,135 @@
+{
+ "check": "variables",
+ "collections": [
+  {
+   "count": 6,
+   "id": "VariableCollectionId:5256:372339",
+   "modes": [
+    "Light mode",
+    "Dark mode"
+   ],
+   "name": "1. Color modes",
+   "variables": [
+    {
+     "id": "VariableID:6137:268549",
+     "name": "color/text/brand-primary",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377713",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377715",
+       "collection": "_Primitives",
+       "name": "color/brand/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5263:373125",
+     "name": "color/text/error-primary",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377725",
+       "collection": "_Primitives",
+       "name": "Colors/Error/400"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377727",
+       "collection": "_Primitives",
+       "name": "Colors/Error/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5270:371435",
+     "name": "color/border/primary",
+     "remote": false,
+     "scopes": 1,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:6671:87760",
+       "collection": "_Primitives",
+       "name": "Colors/Gray (dark mode)/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:23468:2",
+       "collection": "_Primitives",
+       "name": "color/gray/450"
+      }
+     }
+    },
+    {
+     "id": "VariableID:7371:212918",
+     "name": "color/focus-ring/primary",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377714",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/500"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377714",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/500"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5270:371419",
+     "name": "color/bg/brand-primary",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377715",
+       "collection": "_Primitives",
+       "name": "color/brand/600"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377715",
+       "collection": "_Primitives",
+       "name": "color/brand/600"
+      }
+     }
+    },
+    {
+     "id": "VariableID:5353:380427",
+     "name": "color/bg/brand-primary-hover",
+     "remote": false,
+     "scopes": 2,
+     "type": "COLOR",
+     "values": {
+      "Dark mode": {
+       "alias": "VariableID:5248:377716",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/700"
+      },
+      "Light mode": {
+       "alias": "VariableID:5248:377716",
+       "collection": "_Primitives",
+       "name": "Colors/Brand/700"
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "prefix": "color/",
+ "readAt": "2026-11-09T20:42:48.225Z",
+ "run": "after-naming-pilot",
+ "slim": false
+}

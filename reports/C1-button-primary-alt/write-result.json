@@ -1,0 +1,284 @@
+{
+ "added": [
+  {
+   "id": "23524:5",
+   "name": "Size=md, Hierarchy=Primary_alt, State=Disabled, Icon only=False",
+   "parentOk": true,
+   "restoredRefs": 3,
+   "source": "3287:427327",
+   "xy": [
+    363,
+    1782
+   ]
+  },
+  {
+   "id": "23524:19",
+   "name": "Size=md, Hierarchy=Primary_alt, State=Disabled, Icon only=True",
+   "parentOk": true,
+   "restoredRefs": 0,
+   "source": "3287:427463",
+   "xy": [
+    950,
+    1782
+   ]
+  },
+  {
+   "id": "23524:25",
+   "name": "Size=lg, Hierarchy=Primary_alt, State=Disabled, Icon only=False",
+   "parentOk": true,
+   "restoredRefs": 3,
+   "source": "3287:427855",
+   "xy": [
+    553,
+    1778
+   ]
+  },
+  {
+   "id": "23524:38",
+   "name": "Size=lg, Hierarchy=Primary_alt, State=Disabled, Icon only=True",
+   "parentOk": true,
+   "restoredRefs": 0,
+   "source": "3287:427991",
+   "xy": [
+    1022,
+    1778
+   ]
+  },
+  {
+   "id": "23524:44",
+   "name": "Size=sm, Hierarchy=Primary_alt, State=Disabled, Icon only=False",
+   "parentOk": true,
+   "restoredRefs": 3,
+   "source": "3287:429439",
+   "xy": [
+    177,
+    1786
+   ]
+  },
+  {
+   "id": "23524:57",
+   "name": "Size=xxs, Hierarchy=Primary_alt, State=Disabled, Icon only=False",
+   "parentOk": true,
+   "restoredRefs": 3,
+   "source": "17496:23288",
+   "xy": [
+    45,
+    1792
+   ]
+  },
+  {
+   "id": "23524:71",
+   "name": "Size=sm, Hierarchy=Primary_alt, State=Disabled, Icon only=True",
+   "parentOk": true,
+   "restoredRefs": 0,
+   "source": "3287:429575",
+   "xy": [
+    882,
+    1786
+   ]
+  }
+ ],
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "moved": [
+  [
+   "17503:16162",
+   2301
+  ],
+  [
+   "21539:9592",
+   3255
+  ],
+  [
+   "21543:896",
+   3255
+  ]
+ ],
+ "rebound": 35,
+ "reboundDetail": [
+  [
+   "17496:23075",
+   "Size=md State=Default Icon only=False",
+   "Colors/Background/bg-brand-secondary"
+  ],
+  [
+   "17496:23085",
+   "Size=md State=Focused Icon only=False",
+   "Colors/Background/bg-brand-secondary"
+  ],
+  [
+   "17496:23090",
+   "Size=md State=Hover Icon only=False",
+   "Colors/Background/bg-brand-secondary_hover"
+  ],
+  [
+   "17496:23095",
+   "Size=md State=Loading Icon only=False",
+   "Colors/Background/bg-brand-secondary"
+  ],
+  [
+   "17498:17593",
+   "Size=md State=Default Icon only=True",
+   "Colors/Background/bg-brand-secondary"
+  ],
+  [
+   "17498:17597",
+   "Size=md State=Focused Icon only=True",
+   "Colors/Background/bg-brand-secondary"
+  ],
+  [
+   "17498:17599",
+   "Size=md State=Hover Icon only=True",
+   "Colors/Background/bg-brand-secondary_hover"
+  ],
+  [
+   "17498:17601",
+   "Size=md State=Loading Icon only=True",
+   "Colors/Background/bg-brand-secondary"
+  ],
+  [
+   "17496:23099",
+   "Size=lg State=Default Icon only=False",
+   "Colors/Background/bg-brand-secondary"
+  ],
+  [
+   "17496:23109",
+   "Size=lg State=Focused Icon only=False",
+   "Colors/Background/bg-brand-secondary"
+  ],
+  [
+   "17496:23114",
+   "Size=lg State=Hover Icon only=False",
+   "Colors/Background/bg-brand-secondary_hover"
+  ],
+  [
+   "17496:23119",
+   "Size=lg State=Loading Icon only=False",
+   "Colors/Background/bg-brand-secondary"
+  ],
+  [
+   "17498:17603",
+   "Size=lg State=Default Icon only=True",
+   "Colors/Background/bg-brand-secondary"
+  ],
+  [
+   "17498:17607",
+   "Size=lg State=Focused Icon only=True",
+   "Colors/Background/bg-brand-secondary"
+  ],
+  [
+   "17498:17609",
+   "Size=lg State=Hover Icon only=True",
+   "Colors/Background/bg-brand-secondary_hover"
+  ],
+  [
+   "17498:17611",
+   "Size=lg State=Loading Icon only=True",
+   "Colors/Background/bg-brand-secondary"
+  ],
+  [
+   "17496:23351",
+   "Size=xxs State=Default Icon only=False",
+   "Colors/Background/bg-brand-secondary"
+  ],
+  [
+   "17496:23123",
+   "Size=sm State=Default Icon only=False",
+   "Colors/Background/bg-brand-secondary"
+  ],
+  [
+   "17496:23361",
+   "Size=xxs State=Focused Icon only=False",
+   "Colors/Background/bg-brand-secondary"
+  ],
+  [
+   "17496:23133",
+   "Size=sm State=Focused Icon only=False",
+   "Colors/Background/bg-brand-secondary"
+  ],
+  [
+   "17496:23366",
+   "Size=xxs State=Hover Icon only=False",
+   "Colors/Background/bg-brand-secondary_hover"
+  ],
+  [
+   "17496:23138",
+   "Size=sm State=Hover Icon only=False",
+   "Colors/Background/bg-brand-secondary_hover"
+  ],
+  [
+   "17496:23371",
+   "Size=xxs State=Loading Icon only=False",
+   "Colors/Background/bg-brand-secondary"
+  ],
+  [
+   "17496:23143",
+   "Size=sm State=Loading Icon only=False",
+   "Colors/Background/bg-brand-secondary"
+  ],
+  [
+   "17498:17613",
+   "Size=sm State=Default Icon only=True",
+   "Colors/Background/bg-brand-secondary"
+  ],
+  [
+   "17498:17617",
+   "Size=sm State=Focused Icon only=True",
+   "Colors/Background/bg-brand-secondary"
+  ],
+  [
+   "17498:17619",
+   "Size=sm State=Hover Icon only=True",
+   "Colors/Background/bg-brand-secondary_hover"
+  ],
+  [
+   "17498:17621",
+   "Size=sm State=Loading Icon only=True",
+   "Colors/Background/bg-brand-secondary"
+  ],
+  [
+   "23481:10",
+   "Size=md State=Pressed Icon only=False",
+   "Colors/Background/bg-brand-secondary_hover"
+  ],
+  [
+   "23481:26",
+   "Size=md State=Pressed Icon only=True",
+   "Colors/Background/bg-brand-secondary_hover"
+  ],
+  [
+   "23481:35",
+   "Size=lg State=Pressed Icon only=False",
+   "Colors/Background/bg-brand-secondary_hover"
+  ],
+  [
+   "23481:51",
+   "Size=lg State=Pressed Icon only=True",
+   "Colors/Background/bg-brand-secondary_hover"
+  ],
+  [
+   "23481:65",
+   "Size=xxs State=Pressed Icon only=False",
+   "Colors/Background/bg-brand-secondary_hover"
+  ],
+  [
+   "23481:70",
+   "Size=sm State=Pressed Icon only=False",
+   "Colors/Background/bg-brand-secondary_hover"
+  ],
+  [
+   "23481:95",
+   "Size=sm State=Pressed Icon only=True",
+   "Colors/Background/bg-brand-secondary_hover"
+  ]
+ ],
+ "section": [
+  3916,
+  3695
+ ],
+ "setSize": [
+  1126,
+  1862
+ ],
+ "variants": 150,
+ "writtenAt": "2026-11-09T21:23:57.384Z"
+}

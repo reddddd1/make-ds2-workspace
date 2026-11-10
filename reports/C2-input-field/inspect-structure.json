@@ -1,0 +1,1112 @@
+{
+ "helperSets": [
+  {
+   "id": "3307:417515",
+   "name": "Tag",
+   "page": "      ↳ Tags",
+   "props": [
+    "Size:VARIANT=xs",
+    "Icon:VARIANT=False",
+    "Action:VARIANT=Text only",
+    "Checkbox:VARIANT=False",
+    "Avatar:VARIANT=False"
+   ],
+   "variants": [
+    "Size=xs, Icon=False, Action=Text only, Checkbox=False, Avatar=False",
+    "Size=xs, Icon=False, Action=Text only, Checkbox=True, Avatar=False",
+    "Size=xs, Icon=False, Action=Text only, Checkbox=True, Avatar=True",
+    "Size=xs, Icon=False, Action=X close, Checkbox=False, Avatar=False",
+    "Size=xs, Icon=False, Action=X close, Checkbox=True, Avatar=False",
+    "Size=xs, Icon=False, Action=X close, Checkbox=True, Avatar=True",
+    "Size=xs, Icon=False, Action=Count, Checkbox=False, Avatar=False",
+    "Size=xs, Icon=False, Action=Count, Checkbox=True, Avatar=False",
+    "Size=xs, Icon=False, Action=Count, Checkbox=True, Avatar=True",
+    "Size=sm, Icon=False, Action=Text only, Checkbox=False, Avatar=False",
+    "Size=sm, Icon=False, Action=Text only, Checkbox=True, Avatar=False",
+    "Size=sm, Icon=False, Action=Text only, Checkbox=False, Avatar=True",
+    "Size=md, Icon=False, Action=Text only, Checkbox=False, Avatar=False",
+    "Size=md, Icon=False, Action=Text only, Checkbox=True, Avatar=False",
+    "Size=md, Icon=False, Action=Text only, Checkbox=False, Avatar=True",
+    "Size=lg, Icon=False, Action=Text only, Checkbox=False, Avatar=True",
+    "Size=md, Icon=False, Action=X close, Checkbox=False, Avatar=False",
+    "Size=md, Icon=False, Action=X close, Checkbox=True, Avatar=False",
+    "Size=md, Icon=False, Action=X close, Checkbox=False, Avatar=True",
+    "Size=lg, Icon=False, Action=X close, Checkbox=False, Avatar=True",
+    "Size=sm, Icon=False, Action=X close, Checkbox=False, Avatar=False",
+    "Size=sm, Icon=False, Action=X close, Checkbox=True, Avatar=False",
+    "Size=sm, Icon=False, Action=X close, Checkbox=False, Avatar=True",
+    "Size=sm, Icon=False, Action=Count, Checkbox=False, Avatar=False",
+    "Size=sm, Icon=False, Action=Count, Checkbox=True, Avatar=False",
+    "Size=sm, Icon=False, Action=Count, Checkbox=False, Avatar=True",
+    "Size=md, Icon=False, Action=Count, Checkbox=False, Avatar=False",
+    "Size=md, Icon=False, Action=Count, Checkbox=True, Avatar=False",
+    "Size=md, Icon=False, Action=Count, Checkbox=False, Avatar=True",
+    "Size=lg, Icon=False, Action=Count, Checkbox=False, Avatar=True"
+   ]
+  },
+  {
+   "id": "17515:929",
+   "name": "Helper text",
+   "page": "      ↳ Inputs",
+   "props": [
+    "Size:VARIANT=lg",
+    "Status:VARIANT=Informative default"
+   ],
+   "variants": [
+    "Size=lg, Status=Informative default",
+    "Size=lg, Status=Informative subtle",
+    "Size=lg, Status=Success",
+    "Size=lg, Status=Error",
+    "Size=lg, Status=Alert",
+    "Size=md, Status=Informative default",
+    "Size=md, Status=Informative subtle",
+    "Size=md, Status=Success",
+    "Size=md, Status=Error",
+    "Size=md, Status=Alert",
+    "Size=sm, Status=Informative default",
+    "Size=sm, Status=Informative subtle",
+    "Size=sm, Status=Success",
+    "Size=sm, Status=Error",
+    "Size=sm, Status=Alert"
+   ]
+  },
+  {
+   "id": "17571:10947",
+   "name": "_Input title",
+   "page": "      ↳ Inputs",
+   "props": [
+    "Required?:VARIANT=No",
+    "Tooltip?:VARIANT=No"
+   ],
+   "variants": [
+    "Required?=Yes, Tooltip?=Yes",
+    "Required?=No, Tooltip?=Yes",
+    "Required?=No, Tooltip?=No"
+   ]
+  }
+ ],
+ "instanceUse": {
+  "sm, Default, False, Filled @ Date picker dropdown": 12,
+  "sm, Default, False, Filled @ Date picker modal": 6,
+  "sm, Default, False, Filled @ _Date picker menu": 6,
+  "sm, Default, False, Filled @ page": 2
+ },
+ "props": [
+  "Label#23498:0:TEXT",
+  "Text#23498:54:TEXT",
+  "Size:VARIANT",
+  "Type:VARIANT",
+  "Destructive:VARIANT",
+  "State:VARIANT"
+ ],
+ "rows": [
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"{Text}\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "sm, Default, False, Filled"
+  },
+  {
+   "hiddenOwn": [],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"Search\"",
+    "Text=\"{Search string}\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "sm, Search, False, Filled"
+  },
+  {
+   "hiddenOwn": [],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Tag→Tag",
+    "Tag→Tag",
+    "Icon wrapper→Icon wrapper(h)[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"Larry\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "sm, Search + Tags, False, Filled"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper(h)[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"{Text}\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "sm, Default, True, Filled"
+  },
+  {
+   "hiddenOwn": [],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"Search\"",
+    "Text=\"{Search string}\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "sm, Search, True, Filled"
+  },
+  {
+   "hiddenOwn": [],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Tag→Tag",
+    "Tag→Tag",
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"Larry\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "sm, Search + Tags, True, Filled"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"{Text}\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "sm, Default, False, Focused"
+  },
+  {
+   "hiddenOwn": [],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"Search\"",
+    "Text=\"{Search string}\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "sm, Search, False, Focused"
+  },
+  {
+   "hiddenOwn": [],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Tag→Tag",
+    "Tag→Tag",
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"Larry\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "sm, Search + Tags, False, Focused"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"{Text}\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "sm, Default, False, Disabled"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper(h)[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"Search\"",
+    "Text=\"{Search string}\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "sm, Search, False, Disabled"
+  },
+  {
+   "hiddenOwn": [],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Tag→Tag",
+    "Tag→Tag",
+    "Icon wrapper→Icon wrapper(h)[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "sm, Search + Tags, False, Disabled"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper(h)[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"{Text}\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "sm, Default, True, Disabled"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Label=\"Label\"[P]",
+    "Text=\"Placeholder text\"[P]",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Label row",
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Default, False, Placeholder"
+  },
+  {
+   "hiddenOwn": [],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Label=\"Label\"[P]",
+    "Text=\"Password\""
+   ],
+   "top": [
+    "F:Label row",
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Password, False, Placeholder"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"Placeholder text\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Leading icon, False, Placeholder"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"Placeholder text\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "sm, Default, False, Placeholder"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper(h)[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"Search\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "sm, Search, False, Placeholder"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper(h)[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"Search\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "sm, Search + Tags, False, Placeholder"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper(h)[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Label=\"Label\"[P]",
+    "Text=\"Placeholder text\"[P]",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Label row",
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Default, True, Placeholder"
+  },
+  {
+   "hiddenOwn": [],
+   "inst": [
+    "Icon wrapper→Icon wrapper(h)[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Label=\"Label\"[P]",
+    "Text=\"Password\""
+   ],
+   "top": [
+    "F:Label row",
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Password, True, Placeholder"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper(h)[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"Placeholder text\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Leading icon, True, Placeholder"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper(h)[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"Placeholder text\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "sm, Default, True, Placeholder"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper(h)[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"Search\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "sm, Search, True, Placeholder"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper(h)[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"Search\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "sm, Search + Tags, True, Placeholder"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"JP\"",
+    "Text=\"+34 600 123 456\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Leading drowdown, False, Placeholder"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Payment method icon→Payment method icon",
+    "Radio / Checkbox→Radio / Checkbox",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"Card number\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Payment, False, Placeholder"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Payment method icon→Payment method icon",
+    "Radio / Checkbox→Radio / Checkbox",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"Card number\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Payment, True, Placeholder"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Payment method icon→Payment method icon",
+    "Radio / Checkbox→Radio / Checkbox",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"5424 9812 1891 901\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Payment, False, Disabled"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Payment method icon→Payment method icon",
+    "Radio / Checkbox→Radio / Checkbox",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"5424 9812 1891 901\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Payment, True, Disabled"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"JP\"",
+    "Text=\"+34 600 123 456\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Leading drowdown, True, Placeholder"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"JP\"",
+    "Text=\"Phone number\"",
+    "Text=\"+34 600 123 456\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Leading drowdown, False, Filled"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Payment method icon→Payment method icon",
+    "Radio / Checkbox→Radio / Checkbox",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"Card number\"",
+    "Text=\"5424 9812 1891 901\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Payment, False, Filled"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Payment method icon→Payment method icon",
+    "Radio / Checkbox→Radio / Checkbox",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"Card number\"",
+    "Text=\"5424 9812 1891 901\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Payment, True, Filled"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Payment method icon→Payment method icon",
+    "Radio / Checkbox→Radio / Checkbox",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"Card number\"",
+    "Text=\"5424 9812 1891 901\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Payment, False, Focused"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"JP\"",
+    "Text=\"Phone number\"",
+    "Text=\"+34 600 123 456\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Leading drowdown, True, Filled"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"JP\"",
+    "Text=\"Phone number\"",
+    "Text=\"+34 600 123 456\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Leading drowdown, False, Focused"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"JP\"",
+    "Text=\"Phone number\"",
+    "Text=\"+34 600 123 456\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Leading drowdown, False, Disabled"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"JP\"",
+    "Text=\"Phone number\"",
+    "Text=\"+34 600 123 456\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Leading drowdown, True, Disabled"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Label=\"Label\"[P]",
+    "Text=\"Placeholder text\"[P]",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Label row",
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Default, False, Filled"
+  },
+  {
+   "hiddenOwn": [],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Label=\"Label\"[P]",
+    "Text=\"●●●●●●●●\""
+   ],
+   "top": [
+    "F:Label row",
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Password, False, Filled"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"Label\"",
+    "Text=\"{Text}\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Leading icon, False, Filled"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper(h)[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Label=\"Label\"[P]",
+    "Text=\"Placeholder text\"[P]",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Label row",
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Default, True, Filled"
+  },
+  {
+   "hiddenOwn": [],
+   "inst": [
+    "Icon wrapper→Icon wrapper(h)[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Label=\"Label\"[P]",
+    "Text=\"●●●●●●●●\""
+   ],
+   "top": [
+    "F:Label row",
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Password, True, Filled"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper(h)[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"Label\"",
+    "Text=\"{Text}\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Leading icon, True, Filled"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Label=\"Label\"[P]",
+    "Text=\"Placeholder text\"[P]",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Label row",
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Default, False, Focused"
+  },
+  {
+   "hiddenOwn": [],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Label=\"Label\"[P]",
+    "Text=\"●●●●●●●●\""
+   ],
+   "top": [
+    "F:Label row",
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Password, False, Focused"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"{Text}\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Leading icon, False, Focused"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Label=\"Label\"[P]",
+    "Text=\"Placeholder text\"[P]",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Label row",
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Default, False, Disabled"
+  },
+  {
+   "hiddenOwn": [],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Label=\"Label\"[P]",
+    "Text=\"●●●●●●●●\""
+   ],
+   "top": [
+    "F:Label row",
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Password, False, Disabled"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"{Text}\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Leading icon, False, Disabled"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper(h)[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Label=\"Label\"[P]",
+    "Text=\"Placeholder text\"[P]",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Label row",
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Default, True, Disabled"
+  },
+  {
+   "hiddenOwn": [
+    "F:optional in wrapper"
+   ],
+   "inst": [
+    "Icon wrapper→Icon wrapper[ex]",
+    "Icon wrapper→Icon wrapper(h)[ex]",
+    "Helper text→Helper text"
+   ],
+   "texts": [
+    "Text=\"{Text}\"",
+    "Text=\"Optional\""
+   ],
+   "top": [
+    "F:Input",
+    "I:Helper text"
+   ],
+   "v": "lg, Leading icon, True, Disabled"
+  }
+ ]
+}

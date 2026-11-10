@@ -1,0 +1,29 @@
+# Regression check: variants — PASS
+
+- File `PpnTy1pkB2FTZFq6i6seSy` · baseline `after-dark-test` (2026-11-09T21:00:17.086Z) vs current `after-c1-primary-alt` (2026-11-09T21:24:51.451Z)
+- Spec: `reports/C1-button-primary-alt/spec.json`
+- Checks: 21 · failed: 0
+
+| Result | Check | Detail |
+|---|---|---|
+| ✅ | file fingerprint (variables, collections, styles) unchanged | 682 variables, 7 collections |
+| ✅ | [Buttons/Button] property definitions unchanged |  |
+| ✅ | [Buttons/Button] no variants removed |  |
+| ✅ | [Buttons/Button] no unexpected variants added | Size=md, Hierarchy=Primary_alt, State=Disabled, Icon only=False, Size=md, Hierarchy=Primary_alt, State=Disabled, Icon only=True, Size=lg, Hierarchy=Primary_alt, State=Disabled, Icon only=False, Size=lg, Hierarchy=Primary_alt, State=Disabled, Icon only=True, Size=sm, Hierarchy=Primary_alt, State=Disabled, Icon only=False |
+| ✅ | [Buttons/Button] R-PAPER-01 expected = actual changed variants | expected 35, actual 35 |
+| ✅ | [Buttons/Button] no change outside expected scope (150 variants) |  |
+| ✅ | [Input field] property definitions unchanged |  |
+| ✅ | [Input field] no variants removed |  |
+| ✅ | [Input field] no change outside expected scope (53 variants) |  |
+| ✅ | [Modal] property definitions unchanged |  |
+| ✅ | [Modal] no variants removed |  |
+| ✅ | [Modal] no change outside expected scope (1 variants) |  |
+| ✅ | [_Modal header] property definitions unchanged |  |
+| ✅ | [_Modal header] no variants removed |  |
+| ✅ | [_Modal header] no change outside expected scope (1 variants) |  |
+| ✅ | [_Modal actions] property definitions unchanged |  |
+| ✅ | [_Modal actions] no variants removed |  |
+| ✅ | [_Modal actions] no change outside expected scope (3 variants) |  |
+| ✅ | [Alert] property definitions unchanged |  |
+| ✅ | [Alert] no variants removed |  |
+| ✅ | [Alert] no change outside expected scope (4 variants) |  |

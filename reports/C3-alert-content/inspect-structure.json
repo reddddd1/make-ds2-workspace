@@ -1,0 +1,402 @@
+{
+ "alertInstances": 0,
+ "props": [
+  "Actions#3255:383:BOOLEAN=true",
+  "Supporting text#3255:394:BOOLEAN=true",
+  "Show icon#21258:12:BOOLEAN=true",
+  "Show close?#21258:24:BOOLEAN=true",
+  "Color:VARIANT=Default"
+ ],
+ "rows": [
+  {
+   "frames": [
+    {
+     "gap": 12,
+     "gapBound": true,
+     "pad": "0,0,0,0",
+     "padBound": false,
+     "path": "Content",
+     "refs": {}
+    },
+    {
+     "gap": 10,
+     "gapBound": false,
+     "pad": "12,12,12,12",
+     "padBound": false,
+     "path": "Content/Featured icon",
+     "refs": {
+      "visible": "Show icon#21258:12"
+     }
+    },
+    {
+     "gap": 12,
+     "gapBound": false,
+     "pad": "0,0,0,0",
+     "padBound": false,
+     "path": "Content/wrapper",
+     "refs": {}
+    },
+    {
+     "gap": 4,
+     "gapBound": true,
+     "pad": "0,16,0,0",
+     "padBound": false,
+     "path": "Content/wrapper/Text and supporting text",
+     "refs": {}
+    },
+    {
+     "gap": 12,
+     "gapBound": true,
+     "pad": "0,0,0,0",
+     "padBound": false,
+     "path": "Content/wrapper/Actions",
+     "refs": {
+      "visible": "Actions#3255:383"
+     }
+    },
+    {
+     "gap": 4,
+     "gapBound": true,
+     "pad": "0,0,0,0",
+     "padBound": false,
+     "path": "Content/wrapper/Actions/Buttons/Button",
+     "refs": {}
+    },
+    {
+     "gap": 4,
+     "gapBound": true,
+     "pad": "0,0,0,0",
+     "padBound": false,
+     "path": "Content/wrapper/Actions/Buttons/Button",
+     "refs": {}
+    },
+    {
+     "gap": 0,
+     "gapBound": false,
+     "pad": "0,0,0,0",
+     "padBound": false,
+     "path": "Icon wrapper",
+     "refs": {
+      "visible": "Show close?#21258:24"
+     }
+    }
+   ],
+   "texts": [
+    {
+     "chars": "{Title}",
+     "path": "Content/wrapper/Text and supporting text/Text",
+     "refs": {},
+     "style": "style",
+     "visible": true
+    },
+    {
+     "chars": "{Text Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum dolor.}",
+     "path": "Content/wrapper/Text and supporting text/Supporting text",
+     "refs": {
+      "visible": "Supporting text#3255:394"
+     },
+     "style": "style",
+     "visible": true
+    }
+   ],
+   "v": "Color=Brand"
+  },
+  {
+   "frames": [
+    {
+     "gap": 12,
+     "gapBound": true,
+     "pad": "0,0,0,0",
+     "padBound": false,
+     "path": "Content",
+     "refs": {}
+    },
+    {
+     "gap": 10,
+     "gapBound": false,
+     "pad": "12,12,12,12",
+     "padBound": false,
+     "path": "Content/Featured icon",
+     "refs": {
+      "visible": "Show icon#21258:12"
+     }
+    },
+    {
+     "gap": 12,
+     "gapBound": false,
+     "pad": "0,0,0,0",
+     "padBound": false,
+     "path": "Content/wrapper",
+     "refs": {}
+    },
+    {
+     "gap": 4,
+     "gapBound": true,
+     "pad": "0,16,0,0",
+     "padBound": false,
+     "path": "Content/wrapper/Text and supporting text",
+     "refs": {}
+    },
+    {
+     "gap": 12,
+     "gapBound": true,
+     "pad": "0,0,0,0",
+     "padBound": false,
+     "path": "Content/wrapper/Actions",
+     "refs": {
+      "visible": "Actions#3255:383"
+     }
+    },
+    {
+     "gap": 4,
+     "gapBound": true,
+     "pad": "0,0,0,0",
+     "padBound": false,
+     "path": "Content/wrapper/Actions/Buttons/Button",
+     "refs": {}
+    },
+    {
+     "gap": 4,
+     "gapBound": true,
+     "pad": "0,0,0,0",
+     "padBound": false,
+     "path": "Content/wrapper/Actions/Buttons/Button",
+     "refs": {}
+    },
+    {
+     "gap": 0,
+     "gapBound": false,
+     "pad": "0,0,0,0",
+     "padBound": false,
+     "path": "Icon wrapper",
+     "refs": {
+      "visible": "Show close?#21258:24"
+     }
+    }
+   ],
+   "texts": [
+    {
+     "chars": "{Title}",
+     "path": "Content/wrapper/Text and supporting text/Text",
+     "refs": {},
+     "style": "style",
+     "visible": true
+    },
+    {
+     "chars": "{Text Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum dolor.}",
+     "path": "Content/wrapper/Text and supporting text/Supporting text",
+     "refs": {
+      "visible": "Supporting text#3255:394"
+     },
+     "style": "style",
+     "visible": true
+    }
+   ],
+   "v": "Color=Default"
+  },
+  {
+   "frames": [
+    {
+     "gap": 12,
+     "gapBound": true,
+     "pad": "0,0,0,0",
+     "padBound": false,
+     "path": "Content",
+     "refs": {}
+    },
+    {
+     "gap": 10,
+     "gapBound": false,
+     "pad": "12,12,12,12",
+     "padBound": false,
+     "path": "Content/Featured icon",
+     "refs": {
+      "visible": "Show icon#21258:12"
+     }
+    },
+    {
+     "gap": 12,
+     "gapBound": false,
+     "pad": "0,0,0,0",
+     "padBound": false,
+     "path": "Content/wrapper",
+     "refs": {}
+    },
+    {
+     "gap": 4,
+     "gapBound": true,
+     "pad": "0,16,0,0",
+     "padBound": false,
+     "path": "Content/wrapper/Text and supporting text",
+     "refs": {}
+    },
+    {
+     "gap": 12,
+     "gapBound": true,
+     "pad": "0,0,0,0",
+     "padBound": false,
+     "path": "Content/wrapper/Actions",
+     "refs": {
+      "visible": "Actions#3255:383"
+     }
+    },
+    {
+     "gap": 4,
+     "gapBound": true,
+     "pad": "0,0,0,0",
+     "padBound": false,
+     "path": "Content/wrapper/Actions/Buttons/Button",
+     "refs": {}
+    },
+    {
+     "gap": 4,
+     "gapBound": true,
+     "pad": "0,0,0,0",
+     "padBound": false,
+     "path": "Content/wrapper/Actions/Buttons/Button",
+     "refs": {}
+    },
+    {
+     "gap": 0,
+     "gapBound": false,
+     "pad": "0,0,0,0",
+     "padBound": false,
+     "path": "Icon wrapper",
+     "refs": {
+      "visible": "Show close?#21258:24"
+     }
+    }
+   ],
+   "texts": [
+    {
+     "chars": "{Title}",
+     "path": "Content/wrapper/Text and supporting text/Text",
+     "refs": {},
+     "style": "style",
+     "visible": true
+    },
+    {
+     "chars": "{Text Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum dolor.}",
+     "path": "Content/wrapper/Text and supporting text/Supporting text",
+     "refs": {
+      "visible": "Supporting text#3255:394"
+     },
+     "style": "style",
+     "visible": true
+    }
+   ],
+   "v": "Color=Error"
+  },
+  {
+   "frames": [
+    {
+     "gap": 12,
+     "gapBound": true,
+     "pad": "0,0,0,0",
+     "padBound": false,
+     "path": "Content",
+     "refs": {}
+    },
+    {
+     "gap": 10,
+     "gapBound": false,
+     "pad": "12,12,12,12",
+     "padBound": false,
+     "path": "Content/Featured icon",
+     "refs": {
+      "visible": "Show icon#21258:12"
+     }
+    },
+    {
+     "gap": 12,
+     "gapBound": false,
+     "pad": "0,0,0,0",
+     "padBound": false,
+     "path": "Content/wrapper",
+     "refs": {}
+    },
+    {
+     "gap": 4,
+     "gapBound": true,
+     "pad": "0,16,0,0",
+     "padBound": false,
+     "path": "Content/wrapper/Text and supporting text",
+     "refs": {}
+    },
+    {
+     "gap": 12,
+     "gapBound": true,
+     "pad": "0,0,0,0",
+     "padBound": false,
+     "path": "Content/wrapper/Actions",
+     "refs": {
+      "visible": "Actions#3255:383"
+     }
+    },
+    {
+     "gap": 4,
+     "gapBound": true,
+     "pad": "0,0,0,0",
+     "padBound": false,
+     "path": "Content/wrapper/Actions/Buttons/Button",
+     "refs": {}
+    },
+    {
+     "gap": 4,
+     "gapBound": true,
+     "pad": "0,0,0,0",
+     "padBound": false,
+     "path": "Content/wrapper/Actions/Buttons/Button",
+     "refs": {}
+    },
+    {
+     "gap": 0,
+     "gapBound": false,
+     "pad": "0,0,0,0",
+     "padBound": false,
+     "path": "Icon wrapper",
+     "refs": {
+      "visible": "Show close?#21258:24"
+     }
+    }
+   ],
+   "texts": [
+    {
+     "chars": "{Title}",
+     "path": "Content/wrapper/Text and supporting text/Text",
+     "refs": {},
+     "style": "style",
+     "visible": true
+    },
+    {
+     "chars": "{Text Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum dolor.}",
+     "path": "Content/wrapper/Text and supporting text/Supporting text",
+     "refs": {
+      "visible": "Supporting text#3255:394"
+     },
+     "style": "style",
+     "visible": true
+    }
+   ],
+   "v": "Color=Success"
+  }
+ ],
+ "spacing12": [
+  [
+   "VariableID:5253:372203",
+   "_Primitives › spacing/3",
+   ""
+  ],
+  [
+   "VariableID:6298:45389",
+   "3. Spacing › spacing-lg",
+   "GAP"
+  ]
+ ],
+ "spacingUsedInAlert": {
+  "itemSpacing spacing-lg": 8,
+  "itemSpacing spacing-xs": 12,
+  "paddingRight spacing-xl": 4
+ },
+ "where": {}
+}

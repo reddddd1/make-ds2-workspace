@@ -1,0 +1,294 @@
+{
+ "PASS": true,
+ "checks": {
+  "allPilotOk": true,
+  "bindingTotals": [
+   1722,
+   1722
+  ],
+  "collectionsUnchanged": true,
+  "exactly11ChangedAndAllPilot": true,
+  "fingerprintsChanged": [
+   "23468:2",
+   "5248:377715",
+   "5253:372203",
+   "5263:373125",
+   "5270:371419",
+   "5270:371435",
+   "5353:380427",
+   "6137:268549",
+   "7371:212918",
+   "7405:102287",
+   "7407:110365"
+  ],
+  "sameFile": true,
+  "styleCount": [
+   483,
+   483
+  ],
+  "stylesDigest": [
+   "60523ba6",
+   "60523ba6"
+  ],
+  "variableCount": [
+   682,
+   682
+  ],
+  "variableIdSetUnchanged": true
+ },
+ "perVariable": {
+  "VariableID:23468:2": {
+   "after": "color/gray/450",
+   "aliasedBy": [
+    1,
+    1
+   ],
+   "before": "Colors/Gray (light mode)/450",
+   "bindingsAfter": 0,
+   "bindingsBefore": 0,
+   "components": 0,
+   "nameOk": true,
+   "ok": true,
+   "otherFieldDiffs": [],
+   "otherLayers": [
+    0,
+    0
+   ],
+   "perComponentIdentical": true,
+   "styles": [
+    0,
+    0
+   ]
+  },
+  "VariableID:5248:377715": {
+   "after": "color/brand/600",
+   "aliasedBy": [
+    12,
+    12
+   ],
+   "before": "Colors/Brand/600",
+   "bindingsAfter": 0,
+   "bindingsBefore": 0,
+   "components": 0,
+   "nameOk": true,
+   "ok": true,
+   "otherFieldDiffs": [],
+   "otherLayers": [
+    0,
+    0
+   ],
+   "perComponentIdentical": true,
+   "styles": [
+    1,
+    1
+   ]
+  },
+  "VariableID:5253:372203": {
+   "after": "spacing/3",
+   "aliasedBy": [
+    1,
+    1
+   ],
+   "before": "Spacing/3 (12px)",
+   "bindingsAfter": 0,
+   "bindingsBefore": 0,
+   "components": 0,
+   "nameOk": true,
+   "ok": true,
+   "otherFieldDiffs": [],
+   "otherLayers": [
+    0,
+    0
+   ],
+   "perComponentIdentical": true,
+   "styles": [
+    0,
+    0
+   ]
+  },
+  "VariableID:5263:373125": {
+   "after": "color/text/error-primary",
+   "aliasedBy": [
+    0,
+    0
+   ],
+   "before": "Colors/Text/text-error-primary",
+   "bindingsAfter": 34,
+   "bindingsBefore": 34,
+   "components": 3,
+   "nameOk": true,
+   "ok": true,
+   "otherFieldDiffs": [],
+   "otherLayers": [
+    0,
+    0
+   ],
+   "perComponentIdentical": true,
+   "styles": [
+    0,
+    0
+   ]
+  },
+  "VariableID:5270:371419": {
+   "after": "color/bg/brand-primary",
+   "aliasedBy": [
+    0,
+    0
+   ],
+   "before": "Colors/Background/bg-brand-primary",
+   "bindingsAfter": 151,
+   "bindingsBefore": 151,
+   "components": 15,
+   "nameOk": true,
+   "ok": true,
+   "otherFieldDiffs": [],
+   "otherLayers": [
+    29,
+    29
+   ],
+   "perComponentIdentical": true,
+   "styles": [
+    0,
+    0
+   ]
+  },
+  "VariableID:5270:371435": {
+   "after": "color/border/primary",
+   "aliasedBy": [
+    0,
+    0
+   ],
+   "before": "Colors/Border/border-primary",
+   "bindingsAfter": 420,
+   "bindingsBefore": 420,
+   "components": 22,
+   "nameOk": true,
+   "ok": true,
+   "otherFieldDiffs": [],
+   "otherLayers": [
+    6,
+    6
+   ],
+   "perComponentIdentical": true,
+   "styles": [
+    0,
+    0
+   ]
+  },
+  "VariableID:5353:380427": {
+   "after": "color/bg/brand-primary-hover",
+   "aliasedBy": [
+    1,
+    1
+   ],
+   "before": "Colors/Background/bg-brand-primary_hover",
+   "bindingsAfter": 20,
+   "bindingsBefore": 20,
+   "components": 5,
+   "nameOk": true,
+   "ok": true,
+   "otherFieldDiffs": [],
+   "otherLayers": [
+    0,
+    0
+   ],
+   "perComponentIdentical": true,
+   "styles": [
+    0,
+    0
+   ]
+  },
+  "VariableID:6137:268549": {
+   "after": "color/text/brand-primary",
+   "aliasedBy": [
+    0,
+    0
+   ],
+   "before": "Colors/Text/text-brand-primary",
+   "bindingsAfter": 30,
+   "bindingsBefore": 30,
+   "components": 2,
+   "nameOk": true,
+   "ok": true,
+   "otherFieldDiffs": [],
+   "otherLayers": [
+    0,
+    0
+   ],
+   "perComponentIdentical": true,
+   "styles": [
+    0,
+    0
+   ]
+  },
+  "VariableID:7371:212918": {
+   "after": "color/focus-ring/primary",
+   "aliasedBy": [
+    0,
+    0
+   ],
+   "before": "Colors/Effects/Focus rings/focus-ring-primary",
+   "bindingsAfter": 167,
+   "bindingsBefore": 167,
+   "components": 18,
+   "nameOk": true,
+   "ok": true,
+   "otherFieldDiffs": [],
+   "otherLayers": [
+    1,
+    1
+   ],
+   "perComponentIdentical": true,
+   "styles": [
+    3,
+    3
+   ]
+  },
+  "VariableID:7405:102287": {
+   "after": "font/weight/semibold",
+   "aliasedBy": [
+    0,
+    0
+   ],
+   "before": "Font weight/semibold",
+   "bindingsAfter": 184,
+   "bindingsBefore": 184,
+   "components": 21,
+   "nameOk": true,
+   "ok": true,
+   "otherFieldDiffs": [],
+   "otherLayers": [
+    10,
+    10
+   ],
+   "perComponentIdentical": true,
+   "styles": [
+    16,
+    16
+   ]
+  },
+  "VariableID:7407:110365": {
+   "after": "font/size/base",
+   "aliasedBy": [
+    0,
+    0
+   ],
+   "before": "Font size/text-md",
+   "bindingsAfter": 716,
+   "bindingsBefore": 716,
+   "components": 21,
+   "nameOk": true,
+   "ok": true,
+   "otherFieldDiffs": [],
+   "otherLayers": [
+    16,
+    16
+   ],
+   "perComponentIdentical": true,
+   "styles": [
+    4,
+    4
+   ]
+  }
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "check": "variants",
+ "verdict": "PASS",
+ "baseline": "reports/P2-05-input-normalise/variants-after-properties.json",
+ "current": "reports/naming-followup/variants-after-naming-pilot.json",
+ "spec": null,
+ "rows": [
+  {
+   "check": "file fingerprint (variables, collections, styles) unchanged",
+   "pass": true,
+   "detail": "682 variables, 7 collections"
+  },
+  {
+   "check": "[Buttons/Button] property definitions unchanged",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[Buttons/Button] no variants removed",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[Buttons/Button] no change outside expected scope (143 variants)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[Input field] property definitions unchanged",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[Input field] no variants removed",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[Input field] no change outside expected scope (53 variants)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[Modal] property definitions unchanged",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[Modal] no variants removed",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[Modal] no change outside expected scope (1 variants)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[_Modal header] property definitions unchanged",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[_Modal header] no variants removed",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[_Modal header] no change outside expected scope (1 variants)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[_Modal actions] property definitions unchanged",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[_Modal actions] no variants removed",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[_Modal actions] no change outside expected scope (3 variants)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[Alert] property definitions unchanged",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[Alert] no variants removed",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "[Alert] no change outside expected scope (4 variants)",
+   "pass": true,
+   "detail": ""
+  }
+ ],
+ "totals": null,
+ "knownIssues": []
+}

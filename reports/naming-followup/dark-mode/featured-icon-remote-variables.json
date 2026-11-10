@@ -1,0 +1,427 @@
+{
+ "rows": [
+  {
+   "alert": "23518:242",
+   "collection": "2. Radius",
+   "collectionId": "VariableCollectionId:59e5fa2bcc11ce917e1e83c265711af8b012f600/6298:849",
+   "collectionIsLocal": false,
+   "field": "topLeftRadius",
+   "frameHasModeForIt": false,
+   "id": "VariableID:b3a02d57cad5c40b669ea462e576ac87ba664690/6343:26",
+   "key": "b3a02d57cad5c40b669ea462e576ac87ba664690",
+   "modes": [
+    "Mode 1"
+   ],
+   "node": "Featured icon",
+   "remote": true,
+   "variable": "radius-full"
+  },
+  {
+   "alert": "23518:242",
+   "collection": "2. Radius",
+   "collectionId": "VariableCollectionId:59e5fa2bcc11ce917e1e83c265711af8b012f600/6298:849",
+   "collectionIsLocal": false,
+   "field": "topRightRadius",
+   "frameHasModeForIt": false,
+   "id": "VariableID:b3a02d57cad5c40b669ea462e576ac87ba664690/6343:26",
+   "key": "b3a02d57cad5c40b669ea462e576ac87ba664690",
+   "modes": [
+    "Mode 1"
+   ],
+   "node": "Featured icon",
+   "remote": true,
+   "variable": "radius-full"
+  },
+  {
+   "alert": "23518:242",
+   "collection": "2. Radius",
+   "collectionId": "VariableCollectionId:59e5fa2bcc11ce917e1e83c265711af8b012f600/6298:849",
+   "collectionIsLocal": false,
+   "field": "bottomLeftRadius",
+   "frameHasModeForIt": false,
+   "id": "VariableID:b3a02d57cad5c40b669ea462e576ac87ba664690/6343:26",
+   "key": "b3a02d57cad5c40b669ea462e576ac87ba664690",
+   "modes": [
+    "Mode 1"
+   ],
+   "node": "Featured icon",
+   "remote": true,
+   "variable": "radius-full"
+  },
+  {
+   "alert": "23518:242",
+   "collection": "2. Radius",
+   "collectionId": "VariableCollectionId:59e5fa2bcc11ce917e1e83c265711af8b012f600/6298:849",
+   "collectionIsLocal": false,
+   "field": "bottomRightRadius",
+   "frameHasModeForIt": false,
+   "id": "VariableID:b3a02d57cad5c40b669ea462e576ac87ba664690/6343:26",
+   "key": "b3a02d57cad5c40b669ea462e576ac87ba664690",
+   "modes": [
+    "Mode 1"
+   ],
+   "node": "Featured icon",
+   "remote": true,
+   "variable": "radius-full"
+  },
+  {
+   "alert": "23518:242",
+   "collection": "1. Color modes",
+   "collectionId": "VariableCollectionId:88d42a783b7928e00cf917469aef76607b56a8e9/8790:935",
+   "collectionIsLocal": false,
+   "field": "fills",
+   "frameHasModeForIt": false,
+   "id": "VariableID:e5fa7130c3ee48866c146e651c73c8b91813d2fc/21464:774",
+   "key": "e5fa7130c3ee48866c146e651c73c8b91813d2fc",
+   "modes": [
+    "Light mode",
+    "Dark mode"
+   ],
+   "node": "Featured icon",
+   "remote": true,
+   "variable": "Colors/Background/bg-tertiary"
+  },
+  {
+   "alert": "23518:242",
+   "collection": "1. Color modes",
+   "collectionId": "VariableCollectionId:88d42a783b7928e00cf917469aef76607b56a8e9/8790:935",
+   "collectionIsLocal": false,
+   "field": "strokes",
+   "frameHasModeForIt": false,
+   "id": "VariableID:e66e35b994ab9a249003d130e0e324eab48ba1b2/21466:49",
+   "key": "e66e35b994ab9a249003d130e0e324eab48ba1b2",
+   "modes": [
+    "Light mode",
+    "Dark mode"
+   ],
+   "node": "Vector",
+   "remote": true,
+   "variable": "Colors/Foreground/fg-brand-secondary_alt"
+  },
+  {
+   "alert": "23518:242",
+   "featuredIconMain": "Featured icon › Size=lg, Color=Gray, Type=Default",
+   "featuredIconRemote": true
+  },
+  {
+   "alert": "23518:276",
+   "collection": "2. Radius",
+   "collectionId": "VariableCollectionId:59e5fa2bcc11ce917e1e83c265711af8b012f600/6298:849",
+   "collectionIsLocal": false,
+   "field": "topLeftRadius",
+   "frameHasModeForIt": false,
+   "id": "VariableID:b3a02d57cad5c40b669ea462e576ac87ba664690/6343:26",
+   "key": "b3a02d57cad5c40b669ea462e576ac87ba664690",
+   "modes": [
+    "Mode 1"
+   ],
+   "node": "Featured icon",
+   "remote": true,
+   "variable": "radius-full"
+  },
+  {
+   "alert": "23518:276",
+   "collection": "2. Radius",
+   "collectionId": "VariableCollectionId:59e5fa2bcc11ce917e1e83c265711af8b012f600/6298:849",
+   "collectionIsLocal": false,
+   "field": "topRightRadius",
+   "frameHasModeForIt": false,
+   "id": "VariableID:b3a02d57cad5c40b669ea462e576ac87ba664690/6343:26",
+   "key": "b3a02d57cad5c40b669ea462e576ac87ba664690",
+   "modes": [
+    "Mode 1"
+   ],
+   "node": "Featured icon",
+   "remote": true,
+   "variable": "radius-full"
+  },
+  {
+   "alert": "23518:276",
+   "collection": "2. Radius",
+   "collectionId": "VariableCollectionId:59e5fa2bcc11ce917e1e83c265711af8b012f600/6298:849",
+   "collectionIsLocal": false,
+   "field": "bottomLeftRadius",
+   "frameHasModeForIt": false,
+   "id": "VariableID:b3a02d57cad5c40b669ea462e576ac87ba664690/6343:26",
+   "key": "b3a02d57cad5c40b669ea462e576ac87ba664690",
+   "modes": [
+    "Mode 1"
+   ],
+   "node": "Featured icon",
+   "remote": true,
+   "variable": "radius-full"
+  },
+  {
+   "alert": "23518:276",
+   "collection": "2. Radius",
+   "collectionId": "VariableCollectionId:59e5fa2bcc11ce917e1e83c265711af8b012f600/6298:849",
+   "collectionIsLocal": false,
+   "field": "bottomRightRadius",
+   "frameHasModeForIt": false,
+   "id": "VariableID:b3a02d57cad5c40b669ea462e576ac87ba664690/6343:26",
+   "key": "b3a02d57cad5c40b669ea462e576ac87ba664690",
+   "modes": [
+    "Mode 1"
+   ],
+   "node": "Featured icon",
+   "remote": true,
+   "variable": "radius-full"
+  },
+  {
+   "alert": "23518:276",
+   "collection": "1. Color modes",
+   "collectionId": "VariableCollectionId:88d42a783b7928e00cf917469aef76607b56a8e9/8790:935",
+   "collectionIsLocal": false,
+   "field": "fills",
+   "frameHasModeForIt": false,
+   "id": "VariableID:793f44500a7cc7fa504e07b677b9328fdd73a4ee/21466:8",
+   "key": "793f44500a7cc7fa504e07b677b9328fdd73a4ee",
+   "modes": [
+    "Light mode",
+    "Dark mode"
+   ],
+   "node": "Featured icon",
+   "remote": true,
+   "variable": "Colors/Background/bg-brand-primary_subtle"
+  },
+  {
+   "alert": "23518:276",
+   "collection": "1. Color modes",
+   "collectionId": "VariableCollectionId:88d42a783b7928e00cf917469aef76607b56a8e9/8790:935",
+   "collectionIsLocal": false,
+   "field": "strokes",
+   "frameHasModeForIt": false,
+   "id": "VariableID:e13bebfc64b4f5385072c4838942f953d251d708/21466:86",
+   "key": "e13bebfc64b4f5385072c4838942f953d251d708",
+   "modes": [
+    "Light mode",
+    "Dark mode"
+   ],
+   "node": "Vector",
+   "remote": true,
+   "variable": "Colors/Foreground/fg-brand-primary (600)"
+  },
+  {
+   "alert": "23518:276",
+   "featuredIconMain": "Featured icon › Size=lg, Color=Brand, Type=Default",
+   "featuredIconRemote": true
+  },
+  {
+   "alert": "23518:310",
+   "collection": "2. Radius",
+   "collectionId": "VariableCollectionId:59e5fa2bcc11ce917e1e83c265711af8b012f600/6298:849",
+   "collectionIsLocal": false,
+   "field": "topLeftRadius",
+   "frameHasModeForIt": false,
+   "id": "VariableID:b3a02d57cad5c40b669ea462e576ac87ba664690/6343:26",
+   "key": "b3a02d57cad5c40b669ea462e576ac87ba664690",
+   "modes": [
+    "Mode 1"
+   ],
+   "node": "Featured icon",
+   "remote": true,
+   "variable": "radius-full"
+  },
+  {
+   "alert": "23518:310",
+   "collection": "2. Radius",
+   "collectionId": "VariableCollectionId:59e5fa2bcc11ce917e1e83c265711af8b012f600/6298:849",
+   "collectionIsLocal": false,
+   "field": "topRightRadius",
+   "frameHasModeForIt": false,
+   "id": "VariableID:b3a02d57cad5c40b669ea462e576ac87ba664690/6343:26",
+   "key": "b3a02d57cad5c40b669ea462e576ac87ba664690",
+   "modes": [
+    "Mode 1"
+   ],
+   "node": "Featured icon",
+   "remote": true,
+   "variable": "radius-full"
+  },
+  {
+   "alert": "23518:310",
+   "collection": "2. Radius",
+   "collectionId": "VariableCollectionId:59e5fa2bcc11ce917e1e83c265711af8b012f600/6298:849",
+   "collectionIsLocal": false,
+   "field": "bottomLeftRadius",
+   "frameHasModeForIt": false,
+   "id": "VariableID:b3a02d57cad5c40b669ea462e576ac87ba664690/6343:26",
+   "key": "b3a02d57cad5c40b669ea462e576ac87ba664690",
+   "modes": [
+    "Mode 1"
+   ],
+   "node": "Featured icon",
+   "remote": true,
+   "variable": "radius-full"
+  },
+  {
+   "alert": "23518:310",
+   "collection": "2. Radius",
+   "collectionId": "VariableCollectionId:59e5fa2bcc11ce917e1e83c265711af8b012f600/6298:849",
+   "collectionIsLocal": false,
+   "field": "bottomRightRadius",
+   "frameHasModeForIt": false,
+   "id": "VariableID:b3a02d57cad5c40b669ea462e576ac87ba664690/6343:26",
+   "key": "b3a02d57cad5c40b669ea462e576ac87ba664690",
+   "modes": [
+    "Mode 1"
+   ],
+   "node": "Featured icon",
+   "remote": true,
+   "variable": "radius-full"
+  },
+  {
+   "alert": "23518:310",
+   "collection": "1. Color modes",
+   "collectionId": "VariableCollectionId:88d42a783b7928e00cf917469aef76607b56a8e9/8790:935",
+   "collectionIsLocal": false,
+   "field": "fills",
+   "frameHasModeForIt": false,
+   "id": "VariableID:a6f72933dbee8ed63cd1d01040e89937377abe02/21464:811",
+   "key": "a6f72933dbee8ed63cd1d01040e89937377abe02",
+   "modes": [
+    "Light mode",
+    "Dark mode"
+   ],
+   "node": "Featured icon",
+   "remote": true,
+   "variable": "Colors/Background/bg-error-primary"
+  },
+  {
+   "alert": "23518:310",
+   "collection": "1. Color modes",
+   "collectionId": "VariableCollectionId:88d42a783b7928e00cf917469aef76607b56a8e9/8790:935",
+   "collectionIsLocal": false,
+   "field": "strokes",
+   "frameHasModeForIt": false,
+   "id": "VariableID:b717a9a70c06dffc9b9845ff0c474c5cf51b231a/21464:817",
+   "key": "b717a9a70c06dffc9b9845ff0c474c5cf51b231a",
+   "modes": [
+    "Light mode",
+    "Dark mode"
+   ],
+   "node": "Vector",
+   "remote": true,
+   "variable": "Colors/Foreground/fg-error-primary"
+  },
+  {
+   "alert": "23518:310",
+   "featuredIconMain": "Featured icon › Size=lg, Color=Critical, Type=Default",
+   "featuredIconRemote": true
+  },
+  {
+   "alert": "23518:344",
+   "collection": "2. Radius",
+   "collectionId": "VariableCollectionId:59e5fa2bcc11ce917e1e83c265711af8b012f600/6298:849",
+   "collectionIsLocal": false,
+   "field": "topLeftRadius",
+   "frameHasModeForIt": false,
+   "id": "VariableID:b3a02d57cad5c40b669ea462e576ac87ba664690/6343:26",
+   "key": "b3a02d57cad5c40b669ea462e576ac87ba664690",
+   "modes": [
+    "Mode 1"
+   ],
+   "node": "Featured icon",
+   "remote": true,
+   "variable": "radius-full"
+  },
+  {
+   "alert": "23518:344",
+   "collection": "2. Radius",
+   "collectionId": "VariableCollectionId:59e5fa2bcc11ce917e1e83c265711af8b012f600/6298:849",
+   "collectionIsLocal": false,
+   "field": "topRightRadius",
+   "frameHasModeForIt": false,
+   "id": "VariableID:b3a02d57cad5c40b669ea462e576ac87ba664690/6343:26",
+   "key": "b3a02d57cad5c40b669ea462e576ac87ba664690",
+   "modes": [
+    "Mode 1"
+   ],
+   "node": "Featured icon",
+   "remote": true,
+   "variable": "radius-full"
+  },
+  {
+   "alert": "23518:344",
+   "collection": "2. Radius",
+   "collectionId": "VariableCollectionId:59e5fa2bcc11ce917e1e83c265711af8b012f600/6298:849",
+   "collectionIsLocal": false,
+   "field": "bottomLeftRadius",
+   "frameHasModeForIt": false,
+   "id": "VariableID:b3a02d57cad5c40b669ea462e576ac87ba664690/6343:26",
+   "key": "b3a02d57cad5c40b669ea462e576ac87ba664690",
+   "modes": [
+    "Mode 1"
+   ],
+   "node": "Featured icon",
+   "remote": true,
+   "variable": "radius-full"
+  },
+  {
+   "alert": "23518:344",
+   "collection": "2. Radius",
+   "collectionId": "VariableCollectionId:59e5fa2bcc11ce917e1e83c265711af8b012f600/6298:849",
+   "collectionIsLocal": false,
+   "field": "bottomRightRadius",
+   "frameHasModeForIt": false,
+   "id": "VariableID:b3a02d57cad5c40b669ea462e576ac87ba664690/6343:26",
+   "key": "b3a02d57cad5c40b669ea462e576ac87ba664690",
+   "modes": [
+    "Mode 1"
+   ],
+   "node": "Featured icon",
+   "remote": true,
+   "variable": "radius-full"
+  },
+  {
+   "alert": "23518:344",
+   "collection": "1. Color modes",
+   "collectionId": "VariableCollectionId:88d42a783b7928e00cf917469aef76607b56a8e9/8790:935",
+   "collectionIsLocal": false,
+   "field": "fills",
+   "frameHasModeForIt": false,
+   "id": "VariableID:bde21419c36d2c5e353452dee5c3eb10f29a86d8/21464:781",
+   "key": "bde21419c36d2c5e353452dee5c3eb10f29a86d8",
+   "modes": [
+    "Light mode",
+    "Dark mode"
+   ],
+   "node": "Featured icon",
+   "remote": true,
+   "variable": "Colors/Background/bg-success-secondary"
+  },
+  {
+   "alert": "23518:344",
+   "collection": "1. Color modes",
+   "collectionId": "VariableCollectionId:24ea2d5be5ee1374a4ca26e11cf67c47d2f87d09/8790:935",
+   "collectionIsLocal": false,
+   "field": "strokes",
+   "frameHasModeForIt": false,
+   "id": "VariableID:5f97e55140077bb04aa654ac034cf0a5ddc2024a/8790:897",
+   "key": "5f97e55140077bb04aa654ac034cf0a5ddc2024a",
+   "modes": [
+    "Light mode",
+    "Dark mode"
+   ],
+   "node": "Vector",
+   "remote": true,
+   "variable": "Colors/Foreground/fg-success-secondary"
+  },
+  {
+   "alert": "23518:344",
+   "featuredIconMain": "Featured icon › Size=lg, Color=Success, Type=Default",
+   "featuredIconRemote": true
+  }
+ ],
+ "sameKeyLocal": {
+  "Colors/Background/bg-brand-primary_subtle": "none (different key)",
+  "Colors/Background/bg-error-primary": "none (different key)",
+  "Colors/Background/bg-success-secondary": "none (different key)",
+  "Colors/Background/bg-tertiary": "none (different key)",
+  "Colors/Foreground/fg-brand-primary (600)": "none (different key)",
+  "Colors/Foreground/fg-brand-secondary_alt": "none (different key)",
+  "Colors/Foreground/fg-error-primary": "none (different key)",
+  "Colors/Foreground/fg-success-secondary": "none (different key)",
+  "radius-full": "none (different key)"
+ }
+}

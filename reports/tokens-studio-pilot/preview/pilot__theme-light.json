@@ -1,0 +1,72 @@
+{
+  "color": {
+    "text": {
+      "error-primary": {
+        "$type": "color",
+        "$value": "{Colors.Error.600}"
+      },
+      "brand-primary": {
+        "$type": "color",
+        "$value": "{color.brand.600}"
+      }
+    },
+    "bg": {
+      "brand-primary": {
+        "$type": "color",
+        "$value": "{color.brand.600}"
+      },
+      "brand-primary-hover": {
+        "$type": "color",
+        "$value": "{Colors.Brand.700}"
+      }
+    },
+    "border": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.gray.450}"
+      }
+    },
+    "focus-ring": {
+      "primary": {
+        "$type": "color",
+        "$value": "{Colors.Brand.500}"
+      }
+    }
+  },
+  "Colors": {
+    "Text": {
+      "text-success-primary": {
+        "$type": "color",
+        "$value": "{Colors.Success.700}"
+      },
+      "text-warning-primary": {
+        "$type": "color",
+        "$value": "{Colors.Warning.700}"
+      },
+      "text-primary_on-brandprimary": {
+        "$type": "color",
+        "$value": "{Colors.Base.white}"
+      },
+      "text-brand-primary-hover": {
+        "$type": "color",
+        "$value": "{Colors.Brand.700}"
+      }
+    },
+    "Background": {
+      "bg-brand-secondary": {
+        "$type": "color",
+        "$value": "{Colors.Green lime.500}"
+      },
+      "bg-brand-secondary_hover": {
+        "$type": "color",
+        "$value": "{Colors.Green lime.400}"
+      }
+    },
+    "Border": {
+      "border-error": {
+        "$type": "color",
+        "$value": "{Colors.Error.500}"
+      }
+    }
+  }
+}

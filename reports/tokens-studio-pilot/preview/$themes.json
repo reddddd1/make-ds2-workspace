@@ -1,0 +1,83 @@
+[
+  {
+    "id": "pilot-primitives",
+    "name": "Style",
+    "group": "_Primitives",
+    "selectedTokenSets": {
+      "pilot/primitives": "enabled"
+    },
+    "$figmaCollectionId": "VariableCollectionId:5248:377685",
+    "$figmaModeId": "5248:3",
+    "$figmaVariableReferences": {
+      "Colors.Brand.300": "75c4ef552b64c7bbe8e5998f997914b1cc7a5c3d",
+      "Colors.Brand.400": "293b2f092037ac2f864d5d1369cd99bf27917861",
+      "Colors.Brand.500": "dab80eae6dacd0e8dc3c1a51a8c4e93ff6f1f59d",
+      "color.brand.600": "1c26773fc64decdfbfa267f76805d3a0c4f57e5c",
+      "Colors.Brand.700": "a41f3d29061e7799d206d9350762aaec627a6c7b",
+      "Colors.Error.400": "b80c6de6f35b2f4f67e68ff6a4881f15436af2b2",
+      "Colors.Error.500": "a0a062575a829f5a1882a2f668cbafe86eef3bed",
+      "Colors.Error.600": "53c1175f3c6023282f2a5e607c781f6f435e15e1",
+      "Colors.Gray (dark mode).600": "6fe9458df906510e46ab475264cf17ec1afdcb83",
+      "color.gray.450": "a98aec83a092e0f06f991a05b173cb52ff559112",
+      "Colors.Green lime.400": "0605226b5dec92cf4e0ef7b33aeee490479b968c",
+      "Colors.Green lime.500": "4f1b9db59d5baef0a5eeabb46b74f792dac61631",
+      "Colors.Success.400": "e0c5a2fe70c1a551a2b954816c51d6aab134c9dc",
+      "Colors.Success.700": "7bde930a06f3d446dc36dde1b28b9c011d2b7421",
+      "Colors.Warning.400": "d01ff9b6336a31890ae0b3d261ce75fabddf79f2",
+      "Colors.Warning.700": "4da6ec8f14fe94ef545b9c937b1b243900a1b1e6",
+      "Colors.Base.white": "1acebf9f8803107fec1f2f9a801945327b40637d"
+    }
+  },
+  {
+    "id": "pilot-light",
+    "name": "Light mode",
+    "group": "1. Color modes",
+    "selectedTokenSets": {
+      "pilot/primitives": "source",
+      "pilot/theme-light": "enabled"
+    },
+    "$figmaCollectionId": "VariableCollectionId:5256:372339",
+    "$figmaModeId": "5256:0",
+    "$figmaVariableReferences": {
+      "Colors.Text.text-brand-primary-hover": "440d37845a4a4d5737ced1479720956d66ea447a",
+      "color.text.error-primary": "f23bdbe244ec5a4810c65e19bf621c31c6dbfc92",
+      "Colors.Text.text-success-primary": "a4bc21379dd11f859d39308e5428104acfa78d91",
+      "Colors.Text.text-warning-primary": "d71d8b40561385787b590e45a97d1ad0f52ac248",
+      "color.text.brand-primary": "775ed851d211e03bb07221953f0b0c01ffea1bcc",
+      "Colors.Text.text-primary_on-brandprimary": "fe9235dcaa9d8d2b472ca716febda59d3130df58",
+      "color.bg.brand-primary": "4e0f7f0d7d9767480780777f9f7e0d285b82305d",
+      "color.bg.brand-primary-hover": "7887adbd14d374b68b74d7176baf2d9aca7fbdbc",
+      "Colors.Background.bg-brand-secondary": "b0e57e780c56db125e43b59ccd7bc23bbb46c292",
+      "Colors.Background.bg-brand-secondary_hover": "94e8e8abb6926d44e053cd12dbbfc451dc566ca8",
+      "color.border.primary": "92fdb372b5be4f4a47db0627d93c7615feb0aae7",
+      "Colors.Border.border-error": "b2c508f9bb16dad08bd3093cbfc2e6165227096d",
+      "color.focus-ring.primary": "47d1f08462df47144feaa4981b11ebbd26882907"
+    }
+  },
+  {
+    "id": "pilot-dark",
+    "name": "Dark mode",
+    "group": "1. Color modes",
+    "selectedTokenSets": {
+      "pilot/primitives": "source",
+      "pilot/theme-dark": "enabled"
+    },
+    "$figmaCollectionId": "VariableCollectionId:5256:372339",
+    "$figmaModeId": "5353:0",
+    "$figmaVariableReferences": {
+      "Colors.Text.text-brand-primary-hover": "440d37845a4a4d5737ced1479720956d66ea447a",
+      "color.text.error-primary": "f23bdbe244ec5a4810c65e19bf621c31c6dbfc92",
+      "Colors.Text.text-success-primary": "a4bc21379dd11f859d39308e5428104acfa78d91",
+      "Colors.Text.text-warning-primary": "d71d8b40561385787b590e45a97d1ad0f52ac248",
+      "color.text.brand-primary": "775ed851d211e03bb07221953f0b0c01ffea1bcc",
+      "Colors.Text.text-primary_on-brandprimary": "fe9235dcaa9d8d2b472ca716febda59d3130df58",
+      "color.bg.brand-primary": "4e0f7f0d7d9767480780777f9f7e0d285b82305d",
+      "color.bg.brand-primary-hover": "7887adbd14d374b68b74d7176baf2d9aca7fbdbc",
+      "Colors.Background.bg-brand-secondary": "b0e57e780c56db125e43b59ccd7bc23bbb46c292",
+      "Colors.Background.bg-brand-secondary_hover": "94e8e8abb6926d44e053cd12dbbfc451dc566ca8",
+      "color.border.primary": "92fdb372b5be4f4a47db0627d93c7615feb0aae7",
+      "Colors.Border.border-error": "b2c508f9bb16dad08bd3093cbfc2e6165227096d",
+      "color.focus-ring.primary": "47d1f08462df47144feaa4981b11ebbd26882907"
+    }
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "tokenSetOrder": [
+    "pilot/primitives",
+    "pilot/theme-light",
+    "pilot/theme-dark"
+  ]
+}

@@ -1,0 +1,501 @@
+{
+ "schema": "make.figma-snapshot/2",
+ "fileKey": "WVQqJt4NTRSzDbR6Qqv7tn",
+ "takenFrom": "2026-11-10T15:45:37.784Z",
+ "takenTo": "2026-11-10T15:45:37.853Z",
+ "collections": [
+  {
+   "id": "VariableCollectionId:1:2",
+   "name": "_Primitives",
+   "modes": [
+    "1:0=Style"
+   ],
+   "count": 17,
+   "hidden": 1
+  },
+  {
+   "id": "VariableCollectionId:1:3",
+   "name": "1. Color modes",
+   "modes": [
+    "1:1=Light mode",
+    "1:2=Dark mode"
+   ],
+   "count": 13,
+   "hidden": 0
+  }
+ ],
+ "variables": [
+  {
+   "id": "1:10",
+   "key": "54b434997c0b0427cb40861bb0c9b5a9b2226367",
+   "name": "Colors/Error/500",
+   "col": "_Primitives",
+   "type": "C",
+   "scopes": "ALL_SCOPES",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Style": "#ff0466ff"
+   }
+  },
+  {
+   "id": "1:11",
+   "key": "a9b949eaf4ca61e0b009e31baa1ebd5cc50a38dc",
+   "name": "Colors/Error/600",
+   "col": "_Primitives",
+   "type": "C",
+   "scopes": "ALL_SCOPES",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Style": "#ca0050ff"
+   }
+  },
+  {
+   "id": "1:12",
+   "key": "4f6002befb467068c8179eee5d5da89d55cdb02e",
+   "name": "Colors/Gray (dark mode)/600",
+   "col": "_Primitives",
+   "type": "C",
+   "scopes": "ALL_SCOPES",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Style": "#61656cff"
+   }
+  },
+  {
+   "id": "1:13",
+   "key": "03dccd4f16a1c415f908c1639412168e35b484c9",
+   "name": "color/gray/450",
+   "col": "_Primitives",
+   "type": "C",
+   "scopes": "ALL_SCOPES",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Style": "#8a8e97ff"
+   }
+  },
+  {
+   "id": "1:14",
+   "key": "bf9926c22217ceb2deda32445cc26869e0311276",
+   "name": "Colors/Green lime/400",
+   "col": "_Primitives",
+   "type": "C",
+   "scopes": "ALL_SCOPES",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Style": "#d9ff75ff"
+   }
+  },
+  {
+   "id": "1:15",
+   "key": "732937b42f41b70a5a82874b9c1dde3c4b39746c",
+   "name": "Colors/Green lime/500",
+   "col": "_Primitives",
+   "type": "C",
+   "scopes": "ALL_SCOPES",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Style": "#d0ff00ff"
+   }
+  },
+  {
+   "id": "1:16",
+   "key": "d21e801a6af1e1f0e36ce73217da06b10aa28e9b",
+   "name": "Colors/Success/400",
+   "col": "_Primitives",
+   "type": "C",
+   "scopes": "ALL_SCOPES",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Style": "#47cd89ff"
+   }
+  },
+  {
+   "id": "1:17",
+   "key": "d4fd25ffd2da1d264d67c85861ac5fe3cfdfd923",
+   "name": "Colors/Success/700",
+   "col": "_Primitives",
+   "type": "C",
+   "scopes": "ALL_SCOPES",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Style": "#067647ff"
+   }
+  },
+  {
+   "id": "1:18",
+   "key": "f7eb7147d9be038374f56135759d609050edcbe5",
+   "name": "Colors/Warning/400",
+   "col": "_Primitives",
+   "type": "C",
+   "scopes": "ALL_SCOPES",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Style": "#fdb022ff"
+   }
+  },
+  {
+   "id": "1:19",
+   "key": "bb91f60d4bc3ca45380080b7443297075e5a9e46",
+   "name": "Colors/Warning/700",
+   "col": "_Primitives",
+   "type": "C",
+   "scopes": "ALL_SCOPES",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Style": "#b54708ff"
+   }
+  },
+  {
+   "id": "1:20",
+   "key": "cdafb1f788334dd3713490909c9dce9737c6c178",
+   "name": "Colors/Base/white",
+   "col": "_Primitives",
+   "type": "C",
+   "scopes": "ALL_SCOPES",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Style": "#ffffffff"
+   }
+  },
+  {
+   "id": "1:21",
+   "key": "9fc2041484ba5720cf3f61afb97050fcf41d7d68",
+   "name": "Colors/Text/text-brand-primary-hover",
+   "col": "1. Color modes",
+   "type": "C",
+   "scopes": "TEXT_FILL",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Light mode": "@1:8",
+    "Dark mode": "@1:4"
+   }
+  },
+  {
+   "id": "1:22",
+   "key": "3611b3757133661f0cf51b3e11f3c3732e088c91",
+   "name": "color/text/error-primary",
+   "col": "1. Color modes",
+   "type": "C",
+   "scopes": "TEXT_FILL",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Light mode": "@1:11",
+    "Dark mode": "@1:9"
+   }
+  },
+  {
+   "id": "1:23",
+   "key": "6f10c9a47506c791fefee8a49e76725de5706973",
+   "name": "Colors/Text/text-success-primary",
+   "col": "1. Color modes",
+   "type": "C",
+   "scopes": "TEXT_FILL",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Light mode": "@1:17",
+    "Dark mode": "@1:16"
+   }
+  },
+  {
+   "id": "1:24",
+   "key": "90389a381764a699059b62c58925fb3ac2a18d25",
+   "name": "Colors/Text/text-warning-primary",
+   "col": "1. Color modes",
+   "type": "C",
+   "scopes": "TEXT_FILL",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Light mode": "@1:19",
+    "Dark mode": "@1:18"
+   }
+  },
+  {
+   "id": "1:25",
+   "key": "db53cf40a8789151abb3f410668ba041691b3645",
+   "name": "color/text/brand-primary",
+   "col": "1. Color modes",
+   "type": "C",
+   "scopes": "TEXT_FILL",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Light mode": "@1:7",
+    "Dark mode": "@1:5"
+   }
+  },
+  {
+   "id": "1:26",
+   "key": "f26e672e398a6225c6dd869aa14e82f8148eb705",
+   "name": "Colors/Text/text-primary_on-brandprimary",
+   "col": "1. Color modes",
+   "type": "C",
+   "scopes": "TEXT_FILL",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Light mode": "@1:20",
+    "Dark mode": "@1:20"
+   }
+  },
+  {
+   "id": "1:27",
+   "key": "080451cc17eaa114c1a2d2fb9d5aa69e2f41245b",
+   "name": "color/bg/brand-primary",
+   "col": "1. Color modes",
+   "type": "C",
+   "scopes": "FRAME_FILL,SHAPE_FILL",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Light mode": "@1:7",
+    "Dark mode": "@1:7"
+   }
+  },
+  {
+   "id": "1:28",
+   "key": "d7bb8ec1e75318bab34bf0e397eb717ebe16a4a6",
+   "name": "color/bg/brand-primary-hover",
+   "col": "1. Color modes",
+   "type": "C",
+   "scopes": "FRAME_FILL,SHAPE_FILL",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Light mode": "@1:8",
+    "Dark mode": "@1:8"
+   }
+  },
+  {
+   "id": "1:29",
+   "key": "a1d33108d2ea9398680d21dfd12962c914023d8b",
+   "name": "Colors/Background/bg-brand-secondary",
+   "col": "1. Color modes",
+   "type": "C",
+   "scopes": "FRAME_FILL,SHAPE_FILL",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Light mode": "@1:15",
+    "Dark mode": "@1:15"
+   }
+  },
+  {
+   "id": "1:30",
+   "key": "34287a121ce0a6948c95738f8229507ef994cd2c",
+   "name": "Colors/Background/bg-brand-secondary_hover",
+   "col": "1. Color modes",
+   "type": "C",
+   "scopes": "FRAME_FILL,SHAPE_FILL",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Light mode": "@1:14",
+    "Dark mode": "@1:14"
+   }
+  },
+  {
+   "id": "1:31",
+   "key": "40bfde86ddd3b8bcea5d2a369e636ab18d0238af",
+   "name": "color/border/primary",
+   "col": "1. Color modes",
+   "type": "C",
+   "scopes": "STROKE_COLOR",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Light mode": "@1:13",
+    "Dark mode": "@1:12"
+   }
+  },
+  {
+   "id": "1:32",
+   "key": "0bbadc7d98f09f9b587134497090ae8762acc5b5",
+   "name": "Colors/Border/border-error",
+   "col": "1. Color modes",
+   "type": "C",
+   "scopes": "STROKE_COLOR",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Light mode": "@1:10",
+    "Dark mode": "@1:9"
+   }
+  },
+  {
+   "id": "1:33",
+   "key": "fdc8bff736d689eb8161f82599039e0c658c56c7",
+   "name": "color/focus-ring/primary",
+   "col": "1. Color modes",
+   "type": "C",
+   "scopes": "STROKE_COLOR,EFFECT_COLOR",
+   "hidden": 1,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Light mode": "@1:6",
+    "Dark mode": "@1:6"
+   }
+  },
+  {
+   "id": "1:4",
+   "key": "8c314cb50d6fe98112db71b8262174a2843a633f",
+   "name": "Colors/Brand/300",
+   "col": "_Primitives",
+   "type": "C",
+   "scopes": "ALL_SCOPES",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Style": "#ababf8ff"
+   }
+  },
+  {
+   "id": "1:5",
+   "key": "13979f6d74d762ed95cb5054a193b5c557b7eb79",
+   "name": "Colors/Brand/400",
+   "col": "_Primitives",
+   "type": "C",
+   "scopes": "ALL_SCOPES",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Style": "#9090f6ff"
+   }
+  },
+  {
+   "id": "1:6",
+   "key": "7f670cf5c3c129fc96db347cae28baf393597d9a",
+   "name": "Colors/Brand/500",
+   "col": "_Primitives",
+   "type": "C",
+   "scopes": "ALL_SCOPES",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Style": "#7373f5ff"
+   }
+  },
+  {
+   "id": "1:7",
+   "key": "fa9a9c725af91bfb64717e411fdb270f0bf5a090",
+   "name": "color/brand/600",
+   "col": "_Primitives",
+   "type": "C",
+   "scopes": "ALL_SCOPES",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Style": "#5656f3ff"
+   }
+  },
+  {
+   "id": "1:8",
+   "key": "a903da1dca9202163e981cf921b3eec7edc16b5f",
+   "name": "Colors/Brand/700",
+   "col": "_Primitives",
+   "type": "C",
+   "scopes": "ALL_SCOPES",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Style": "#2323f0ff"
+   }
+  },
+  {
+   "id": "1:9",
+   "key": "6faa4734be38918a533cc4cfbed745c3b0f492d6",
+   "name": "Colors/Error/400",
+   "col": "_Primitives",
+   "type": "C",
+   "scopes": "ALL_SCOPES",
+   "hidden": 0,
+   "codeSyntax": "",
+   "desc": "",
+   "values": {
+    "Style": "#fe6286ff"
+   }
+  }
+ ],
+ "paintStyles": [
+  {
+   "name": "Gray (dark mode)/600",
+   "paints": "#61656cff|color:1:12"
+  },
+  {
+   "name": "Success/700",
+   "paints": "#067647ff|color:1:17"
+  },
+  {
+   "name": "Warning/400",
+   "paints": "#fdb022ff|color:1:18"
+  },
+  {
+   "name": "Warning/700",
+   "paints": "#b54708ff~0.711529434,0.279670596,0.0296470523,1|color:1:19"
+  }
+ ],
+ "textStyles": null,
+ "effectStyles": null,
+ "bindings": {
+  "pages": 1,
+  "nodes": 13,
+  "counts": {
+   "1:21": "f1",
+   "1:22": "f1",
+   "1:23": "f1",
+   "1:24": "f1",
+   "1:25": "f1",
+   "1:26": "f1",
+   "1:27": "f1",
+   "1:28": "f1",
+   "1:29": "f1",
+   "1:30": "f1",
+   "1:31": "f1",
+   "1:32": "f1",
+   "1:33": "f1"
+  }
+ }
+}

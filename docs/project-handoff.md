@@ -16,7 +16,7 @@
 | Duplicate URL / file key | https://www.figma.com/design/PpnTy1pkB2FTZFq6i6seSy/MAKER-DS-v2--WIP-Refactor- · `PpnTy1pkB2FTZFq6i6seSy` | VERIFIED (P1-03) |
 | Token repo live state | `main` = `origin/main` at `dcee093` (ADR-0011, P1-02); `tokens/` pushed; 10 approved + 15 proposal token files; validator not runnable (no Node.js) | VERIFIED (P1-01, P1-02) |
 | App repo (GitLab) | No access; Claude GitLab connector needs authorization | BLOCKED |
-| Tokens Studio | Free (operating rule); no paid feature needed in Phase 1; scripted sync needs none | UNVERIFIED plan · Unblocked |
+| Tokens Studio | **Licensed (Mike, 2026-11-10: "I have a Tokens Studio license already")**; plan tier not yet confirmed. D-03 (scripted sync preferred) and D-11 (operating rule) are **unchanged** until Mike decides; the scripted `use_figma` sync stays the active method | STATED by Mike · tier UNVERIFIED |
 | Original library protection | Fingerprint + 180 pilot-variant hashes unchanged at end of Phase 1 (`reports/P1-13/protection-check.md`) | VERIFIED |
 
 ## Identifiers

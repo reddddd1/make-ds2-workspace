@@ -21,7 +21,27 @@ const cases = [
   ['style rep (Warning/700 cache refresh)', (s) => { const p = s.paintStyles.find((x) => x.name === 'Warning/700'); p.paints = '#b54708ff|color:5248:377740'; }, 0, 'REPRESENTATION-ONLY'],
   ['style hex change', (s) => { const p = s.paintStyles.find((x) => x.name === 'Brand/600'); p.paints = '#5757f3ff|color:5248:377715'; }, 1, 'BLOCKING'],
 ];
+// --renames cases (naming migration): a 2-entry approved map
+const MAP = { renames: [{ id: '5270:371446', old: v(base, '5270:371446').name, new: 'color/text/success-primary' }, { id: '5248:377716', old: v(base, '5248:377716').name, new: 'color/brand/700' }] };
+writeFileSync('/tmp/renames.json', JSON.stringify(MAP));
+const runR = (mut) => { const s = structuredClone(base); mut(s); writeFileSync('/tmp/after.json', JSON.stringify(s));
+  try { return [0, execFileSync('node', [new URL('compare-snapshots.mjs', import.meta.url).pathname, process.argv[2] || 'baseline-2026-11-10.json', '/tmp/after.json', '--scope', process.argv[3] || 'scope.pilot.json', '--renames', '/tmp/renames.json', '--json']).toString()]; }
+  catch (e) { return [e.status, e.stdout.toString()]; } };
+const both = (s) => { v(s, '5270:371446').name = 'color/text/success-primary'; v(s, '5248:377716').name = 'color/brand/700'; };
+const rcases = [
+  ['renames: all applied', both, 0, 'RENAME-ONLY'],
+  ['renames: one missing', (s) => { v(s, '5270:371446').name = 'color/text/success-primary'; }, 1, 'BLOCKING'],
+  ['renames: wrong target', (s) => { both(s); v(s, '5248:377716').name = 'color/brand/700b'; }, 1, 'BLOCKING'],
+  ['renames: unlisted rename', (s) => { both(s); v(s, '5248:377714').name = 'color/brand/500'; }, 1, 'BLOCKING'],
+  ['renames: plus value change', (s) => { both(s); v(s, '5248:377715').values.Style = '#5757f3ff'; }, 1, 'BLOCKING'],
+  ['renames: plus binding drop', (s) => { both(s); s.bindings.counts['5270:371419'] = 'f244'; }, 1, 'BLOCKING'],
+];
 let fail = 0;
+for (const [name, mut, code, verdict] of rcases) {
+  const [c, out] = runR(mut); const got = JSON.parse(out).summary.verdict;
+  const ok = c === code && got === verdict; if (!ok) fail++;
+  console.log(`${ok ? 'ok  ' : 'FAIL'} ${name}: exit ${c}, ${got}`);
+}
 for (const [name, mut, code, verdict] of cases) {
   const [c, out] = run(mut); const got = JSON.parse(out).summary.verdict;
   const ok = c === code && got === verdict; if (!ok) fail++;

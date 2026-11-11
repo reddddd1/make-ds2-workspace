@@ -1,0 +1,26 @@
+{
+ "renamesApplied": 391,
+ "expected": {
+  "bindings@0": {
+   "counts": "fnv:57b7a20"
+  },
+  "styles@0": {
+   "paint": "fnv:4af95ce1"
+  },
+  "styles@200": {
+   "paint": "fnv:8fa60ebc",
+   "text": "fnv:aeb4e67d",
+   "effect": "fnv:22766d6a"
+  },
+  "vars@0": {
+   "collections": "fnv:292be3df",
+   "variables": "fnv:d732b381"
+  },
+  "vars@230": {
+   "variables": "fnv:84f2e09e"
+  },
+  "vars@460": {
+   "variables": "fnv:5a2d32aa"
+  }
+ }
+}

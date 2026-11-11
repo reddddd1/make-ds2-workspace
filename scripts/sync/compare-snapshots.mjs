@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Compare two make.figma-snapshot/2 files (before/after a Tokens Studio export) and classify every difference.
-// Usage: node compare-snapshots.mjs BEFORE.json AFTER.json [--scope adapters/tokens-studio/figma-binding.pilot.json] [--json]
+// Usage: node compare-snapshots.mjs BEFORE.json AFTER.json [--scope adapters/tokens-studio/figma-binding.pilot.json] [--renames color-rename-map.json] [--json]
 // Exit codes: 0 = no differences or only REPRESENTATION inside scope · 1 = blocking differences · 2 = usage error
 //
 // Classes (per variable / mode, per style, per binding count):
@@ -12,16 +12,19 @@
 //   ADDED / REMOVED variable, collection, mode or style appeared / disappeared
 //   STYLE           paint/text/effect style changed beyond REPRESENTATION (hex, binding, font, …)
 //   BINDING         number of node bindings to a variable changed
+//   EXPECTED-RENAME with --renames: a NAME change exactly as listed in the approved map (non-blocking)
+//   RENAME-MISSING  with --renames: a listed rename that did not happen (or landed on another name) (blocking)
 // Anything other than IDENTICAL/REPRESENTATION is BLOCKING. REPRESENTATION outside --scope is also BLOCKING
 // (an export must not touch variables it does not own).
 import { readFileSync } from 'node:fs';
 
 const args = process.argv.slice(2);
-const files = args.filter((a, i) => !a.startsWith('--') && args[i - 1] !== '--scope');
+const files = args.filter((a, i) => !a.startsWith('--') && args[i - 1] !== '--scope' && args[i - 1] !== '--renames');
 if (files.length !== 2) { console.error('usage: compare-snapshots.mjs BEFORE.json AFTER.json [--scope binding.json] [--json]'); process.exit(2); }
 const [A, B] = files.map((f) => JSON.parse(readFileSync(f, 'utf8')));
 const scopeFile = args.includes('--scope') ? JSON.parse(readFileSync(args[args.indexOf('--scope') + 1], 'utf8')) : null;
 const scope = scopeFile ? new Set(Object.values(scopeFile.tokens).map((t) => t.variableId.replace(/^VariableID:/, ''))) : null;
+const renames = args.includes('--renames') ? new Map(JSON.parse(readFileSync(args[args.indexOf('--renames') + 1], 'utf8')).renames.map((r) => [r.id, r])) : null;
 if (A.fileKey !== B.fileKey) { console.error(`fileKey mismatch ${A.fileKey} vs ${B.fileKey}`); process.exit(2); }
 
 const findings = [];
@@ -50,7 +53,9 @@ const names = new Map(); for (const v of B.variables) names.set(v.name + '|' + v
 for (const [k, n] of names) if (n > 1) add('ADDED', 'duplicate-name', k, `${n} variables share this name`);
 for (const [id, a] of av) {
   const b = bv.get(id); if (!b) continue;
-  if (a.name !== b.name) add('NAME', 'variable', id, `${a.name} -> ${b.name}`);
+  const rn = renames && renames.get(id);
+  if (a.name !== b.name) add(rn && rn.old === a.name && rn.new === b.name ? 'EXPECTED-RENAME' : 'NAME', 'variable', id, `${a.name} -> ${b.name}`);
+  else if (rn && rn.old !== rn.new) add('RENAME-MISSING', 'variable', id, `${a.name}: expected -> ${rn.new}`);
   for (const f of ['col', 'type', 'scopes', 'hidden', 'codeSyntax', 'desc', 'key']) if (JSON.stringify(a[f]) !== JSON.stringify(b[f])) add('META', `variable.${f}`, id, `${a.name}: ${JSON.stringify(a[f])} -> ${JSON.stringify(b[f])}`);
   const modes = new Set([...Object.keys(a.values), ...Object.keys(b.values)]);
   for (const m of modes) {
@@ -86,11 +91,12 @@ if (A.bindings && B.bindings) {
   if (A.bindings.nodes !== B.bindings.nodes) add('BINDING', 'node-count', 'file', `${A.bindings.nodes} -> ${B.bindings.nodes} nodes scanned`);
 }
 
-const blocking = findings.filter((f) => !(f.cls === 'IDENTICAL' || (f.cls === 'REPRESENTATION' && f.inScope !== false)));
+if (renames) for (const [id, r] of renames) if (!av.has(id) || !bv.has(id)) add('RENAME-MISSING', 'variable', id, `${r.old}: variable not present in both snapshots`);
+const blocking = findings.filter((f) => !(f.cls === 'IDENTICAL' || f.cls === 'EXPECTED-RENAME' || (f.cls === 'REPRESENTATION' && f.inScope !== false)));
 const summary = {
   before: A.takenFrom, after: B.takenFrom, fileKey: A.fileKey,
   counts: { variables: `${A.variables.length} -> ${B.variables.length}`, ...Object.fromEntries(Object.entries(findings.reduce((o, f) => ((o[f.cls] = (o[f.cls] || 0) + 1), o), {}))) },
-  verdict: blocking.length ? 'BLOCKING' : findings.length ? 'REPRESENTATION-ONLY' : 'IDENTICAL',
+  verdict: blocking.length ? 'BLOCKING' : findings.some((f) => f.cls === 'EXPECTED-RENAME') ? 'RENAME-ONLY' : findings.length ? 'REPRESENTATION-ONLY' : 'IDENTICAL',
 };
 if (args.includes('--json')) console.log(JSON.stringify({ summary, findings }, null, 1));
 else {

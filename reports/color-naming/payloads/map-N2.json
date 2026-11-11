@@ -1,0 +1,1565 @@
+{
+ "schema": "make.color-rename-map/1",
+ "fileKey": "PpnTy1pkB2FTZFq6i6seSy",
+ "source": "2026-11-11T07:47:52.131Z",
+ "summary": {
+  "colorVariables": 570,
+  "alreadyNew": 8,
+  "toRename": 562,
+  "byLayer": {
+   "primitive": 276,
+   "semantic": 115,
+   "component": 171
+  },
+  "registryBound": 43,
+  "blocking": 0
+ },
+ "problems": [
+  [
+   "REGISTRY-OVERRIDE",
+   "6139:331930",
+   "Colors/Text/text-primary_on-brandprimary: rule gives color/text/primary-on-brand-primary, registry key color.text.primary-on-brand"
+  ]
+ ],
+ "renames": [
+  {
+   "id": "17498:15836",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Brand/utility-brand-25",
+   "new": "color/utility/brand/25",
+   "registry": null
+  },
+  {
+   "id": "5374:385385",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Blue/utility-blue-600",
+   "new": "color/utility/blue/600",
+   "registry": null
+  },
+  {
+   "id": "5376:386375",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Components/Tooltips/tooltip-supporting-text",
+   "new": "color/component/tooltip-supporting-text",
+   "registry": null
+  },
+  {
+   "id": "5399:389132",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Brand/utility-brand-600",
+   "new": "color/utility/brand/600",
+   "registry": null
+  },
+  {
+   "id": "5399:389133",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Gray/utility-gray-700",
+   "new": "color/utility/gray/700",
+   "registry": null
+  },
+  {
+   "id": "5399:389134",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Error/utility-error-600",
+   "new": "color/utility/error/600",
+   "registry": null
+  },
+  {
+   "id": "5399:389135",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Warning/utility-warning-600",
+   "new": "color/utility/warning/600",
+   "registry": null
+  },
+  {
+   "id": "5399:389136",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Success/utility-success-600",
+   "new": "color/utility/success/600",
+   "registry": null
+  },
+  {
+   "id": "5399:389137",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Orange/utility-orange-600",
+   "new": "color/utility/orange/600",
+   "registry": null
+  },
+  {
+   "id": "5399:389138",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Blue dark/utility-blue-dark-600",
+   "new": "color/utility/blue-dark/600",
+   "registry": null
+  },
+  {
+   "id": "5399:389141",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Pink/utility-pink-600",
+   "new": "color/utility/pink/600",
+   "registry": null
+  },
+  {
+   "id": "5399:389142",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Purple/utility-purple-600",
+   "new": "color/utility/purple/600",
+   "registry": null
+  },
+  {
+   "id": "5399:389143",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Orange dark/utility-orange-dark-600",
+   "new": "color/utility/orange-dark/600",
+   "registry": null
+  },
+  {
+   "id": "5400:398182",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Blue light/utility-blue-light-600",
+   "new": "color/utility/blue-light/600",
+   "registry": null
+  },
+  {
+   "id": "5400:398183",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Gray/utility-gray-600",
+   "new": "color/utility/gray/600",
+   "registry": null
+  },
+  {
+   "id": "5400:398186",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Brand/utility-brand-700",
+   "new": "color/utility/brand/700",
+   "registry": null
+  },
+  {
+   "id": "5400:398187",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Error/utility-error-700",
+   "new": "color/utility/error/700",
+   "registry": null
+  },
+  {
+   "id": "5400:398188",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Warning/utility-warning-700",
+   "new": "color/utility/warning/700",
+   "registry": null
+  },
+  {
+   "id": "5400:398189",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Success/utility-success-700",
+   "new": "color/utility/success/700",
+   "registry": null
+  },
+  {
+   "id": "5400:398190",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Blue dark/utility-blue-dark-700",
+   "new": "color/utility/blue-dark/700",
+   "registry": null
+  },
+  {
+   "id": "5400:398192",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Purple/utility-purple-700",
+   "new": "color/utility/purple/700",
+   "registry": null
+  },
+  {
+   "id": "5400:398194",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Pink/utility-pink-700",
+   "new": "color/utility/pink/700",
+   "registry": null
+  },
+  {
+   "id": "5400:398195",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Orange dark/utility-orange-dark-700",
+   "new": "color/utility/orange-dark/700",
+   "registry": null
+  },
+  {
+   "id": "5400:398196",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Orange/utility-orange-700",
+   "new": "color/utility/orange/700",
+   "registry": null
+  },
+  {
+   "id": "5400:398197",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Blue/utility-blue-700",
+   "new": "color/utility/blue/700",
+   "registry": null
+  },
+  {
+   "id": "5400:398198",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Blue light/utility-blue-light-700",
+   "new": "color/utility/blue-light/700",
+   "registry": null
+  },
+  {
+   "id": "5400:398203",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Gray/utility-gray-500",
+   "new": "color/utility/gray/500",
+   "registry": null
+  },
+  {
+   "id": "5400:398205",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Brand/utility-brand-500",
+   "new": "color/utility/brand/500",
+   "registry": null
+  },
+  {
+   "id": "5400:398207",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Error/utility-error-500",
+   "new": "color/utility/error/500",
+   "registry": null
+  },
+  {
+   "id": "5400:398209",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Warning/utility-warning-500",
+   "new": "color/utility/warning/500",
+   "registry": null
+  },
+  {
+   "id": "5400:398211",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Success/utility-success-500",
+   "new": "color/utility/success/500",
+   "registry": null
+  },
+  {
+   "id": "5400:398215",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Blue light/utility-blue-light-500",
+   "new": "color/utility/blue-light/500",
+   "registry": null
+  },
+  {
+   "id": "5400:398217",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Blue/utility-blue-500",
+   "new": "color/utility/blue/500",
+   "registry": null
+  },
+  {
+   "id": "5400:398219",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Blue dark/utility-blue-dark-500",
+   "new": "color/utility/blue-dark/500",
+   "registry": null
+  },
+  {
+   "id": "5400:398223",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Purple/utility-purple-500",
+   "new": "color/utility/purple/500",
+   "registry": null
+  },
+  {
+   "id": "5400:398227",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Pink/utility-pink-500",
+   "new": "color/utility/pink/500",
+   "registry": null
+  },
+  {
+   "id": "5400:398229",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Orange dark/utility-orange-dark-500",
+   "new": "color/utility/orange-dark/500",
+   "registry": null
+  },
+  {
+   "id": "5400:398231",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Orange/utility-orange-500",
+   "new": "color/utility/orange/500",
+   "registry": null
+  },
+  {
+   "id": "5400:398233",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Gray/utility-gray-200",
+   "new": "color/utility/gray/200",
+   "registry": null
+  },
+  {
+   "id": "5400:398234",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Brand/utility-brand-200",
+   "new": "color/utility/brand/200",
+   "registry": null
+  },
+  {
+   "id": "5400:398235",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Error/utility-error-200",
+   "new": "color/utility/error/200",
+   "registry": null
+  },
+  {
+   "id": "5400:398236",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Warning/utility-warning-200",
+   "new": "color/utility/warning/200",
+   "registry": null
+  },
+  {
+   "id": "5400:398237",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Success/utility-success-200",
+   "new": "color/utility/success/200",
+   "registry": null
+  },
+  {
+   "id": "5400:398239",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Blue light/utility-blue-light-200",
+   "new": "color/utility/blue-light/200",
+   "registry": null
+  },
+  {
+   "id": "5400:398240",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Blue/utility-blue-200",
+   "new": "color/utility/blue/200",
+   "registry": null
+  },
+  {
+   "id": "5400:398241",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Blue dark/utility-blue-dark-200",
+   "new": "color/utility/blue-dark/200",
+   "registry": null
+  },
+  {
+   "id": "5400:398243",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Purple/utility-purple-200",
+   "new": "color/utility/purple/200",
+   "registry": null
+  },
+  {
+   "id": "5400:398245",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Pink/utility-pink-200",
+   "new": "color/utility/pink/200",
+   "registry": null
+  },
+  {
+   "id": "5400:398246",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Orange dark/utility-orange-dark-200",
+   "new": "color/utility/orange-dark/200",
+   "registry": null
+  },
+  {
+   "id": "5400:398247",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Orange/utility-orange-200",
+   "new": "color/utility/orange/200",
+   "registry": null
+  },
+  {
+   "id": "5400:398248",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Gray/utility-gray-50",
+   "new": "color/utility/gray/50",
+   "registry": null
+  },
+  {
+   "id": "5400:398249",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Brand/utility-brand-50",
+   "new": "color/utility/brand/50",
+   "registry": null
+  },
+  {
+   "id": "5400:398250",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Error/utility-error-50",
+   "new": "color/utility/error/50",
+   "registry": null
+  },
+  {
+   "id": "5400:398251",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Warning/utility-warning-50",
+   "new": "color/utility/warning/50",
+   "registry": null
+  },
+  {
+   "id": "5400:398252",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Success/utility-success-50",
+   "new": "color/utility/success/50",
+   "registry": null
+  },
+  {
+   "id": "5400:398254",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Blue light/utility-blue-light-50",
+   "new": "color/utility/blue-light/50",
+   "registry": null
+  },
+  {
+   "id": "5400:398255",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Blue/utility-blue-50",
+   "new": "color/utility/blue/50",
+   "registry": null
+  },
+  {
+   "id": "5400:398256",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Blue dark/utility-blue-dark-50",
+   "new": "color/utility/blue-dark/50",
+   "registry": null
+  },
+  {
+   "id": "5400:398258",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Purple/utility-purple-50",
+   "new": "color/utility/purple/50",
+   "registry": null
+  },
+  {
+   "id": "5400:398260",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Pink/utility-pink-50",
+   "new": "color/utility/pink/50",
+   "registry": null
+  },
+  {
+   "id": "5400:398261",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Orange dark/utility-orange-dark-50",
+   "new": "color/utility/orange-dark/50",
+   "registry": null
+  },
+  {
+   "id": "5400:398262",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Orange/utility-orange-50",
+   "new": "color/utility/orange/50",
+   "registry": null
+  },
+  {
+   "id": "5409:398263",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Gray/utility-gray-100",
+   "new": "color/utility/gray/100",
+   "registry": null
+  },
+  {
+   "id": "5409:398264",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Brand/utility-brand-100",
+   "new": "color/utility/brand/100",
+   "registry": null
+  },
+  {
+   "id": "5409:398265",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Error/utility-error-100",
+   "new": "color/utility/error/100",
+   "registry": null
+  },
+  {
+   "id": "5409:398266",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Warning/utility-warning-100",
+   "new": "color/utility/warning/100",
+   "registry": null
+  },
+  {
+   "id": "5409:398267",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Success/utility-success-100",
+   "new": "color/utility/success/100",
+   "registry": null
+  },
+  {
+   "id": "5409:398269",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Blue light/utility-blue-light-100",
+   "new": "color/utility/blue-light/100",
+   "registry": null
+  },
+  {
+   "id": "5409:398270",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Blue/utility-blue-100",
+   "new": "color/utility/blue/100",
+   "registry": null
+  },
+  {
+   "id": "5409:398271",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Blue dark/utility-blue-dark-100",
+   "new": "color/utility/blue-dark/100",
+   "registry": null
+  },
+  {
+   "id": "5409:398273",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Purple/utility-purple-100",
+   "new": "color/utility/purple/100",
+   "registry": null
+  },
+  {
+   "id": "5409:398275",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Pink/utility-pink-100",
+   "new": "color/utility/pink/100",
+   "registry": null
+  },
+  {
+   "id": "5409:398276",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Orange dark/utility-orange-dark-100",
+   "new": "color/utility/orange-dark/100",
+   "registry": null
+  },
+  {
+   "id": "5409:398277",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Orange/utility-orange-100",
+   "new": "color/utility/orange/100",
+   "registry": null
+  },
+  {
+   "id": "5409:398424",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Gray/utility-gray-400",
+   "new": "color/utility/gray/400",
+   "registry": null
+  },
+  {
+   "id": "5409:398426",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Brand/utility-brand-400",
+   "new": "color/utility/brand/400",
+   "registry": null
+  },
+  {
+   "id": "5409:398427",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Error/utility-error-400",
+   "new": "color/utility/error/400",
+   "registry": null
+  },
+  {
+   "id": "5409:398430",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Warning/utility-warning-400",
+   "new": "color/utility/warning/400",
+   "registry": null
+  },
+  {
+   "id": "5409:398431",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Success/utility-success-400",
+   "new": "color/utility/success/400",
+   "registry": null
+  },
+  {
+   "id": "5409:398433",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Blue light/utility-blue-light-400",
+   "new": "color/utility/blue-light/400",
+   "registry": null
+  },
+  {
+   "id": "5409:398434",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Blue/utility-blue-400",
+   "new": "color/utility/blue/400",
+   "registry": null
+  },
+  {
+   "id": "5409:398435",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Blue dark/utility-blue-dark-400",
+   "new": "color/utility/blue-dark/400",
+   "registry": null
+  },
+  {
+   "id": "5409:398437",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Purple/utility-purple-400",
+   "new": "color/utility/purple/400",
+   "registry": null
+  },
+  {
+   "id": "5409:398439",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Pink/utility-pink-400",
+   "new": "color/utility/pink/400",
+   "registry": null
+  },
+  {
+   "id": "5409:398440",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Orange dark/utility-orange-dark-400",
+   "new": "color/utility/orange-dark/400",
+   "registry": null
+  },
+  {
+   "id": "5409:398441",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Orange/utility-orange-400",
+   "new": "color/utility/orange/400",
+   "registry": null
+  },
+  {
+   "id": "5422:397822",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Components/Text editor/text-editor-icon-fg",
+   "new": "color/component/text-editor-icon-fg",
+   "registry": null
+  },
+  {
+   "id": "5422:397823",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Components/Text editor/text-editor-icon-fg_active",
+   "new": "color/component/text-editor-icon-fg-active",
+   "registry": null
+  },
+  {
+   "id": "5574:413581",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Alpha/alpha-white-90",
+   "new": "color/alpha/white-90",
+   "registry": null
+  },
+  {
+   "id": "5574:413584",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Alpha/alpha-white-80",
+   "new": "color/alpha/white-80",
+   "registry": null
+  },
+  {
+   "id": "5574:413585",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Alpha/alpha-white-70",
+   "new": "color/alpha/white-70",
+   "registry": null
+  },
+  {
+   "id": "5574:413586",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Alpha/alpha-white-60",
+   "new": "color/alpha/white-60",
+   "registry": null
+  },
+  {
+   "id": "5574:413587",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Alpha/alpha-white-50",
+   "new": "color/alpha/white-50",
+   "registry": null
+  },
+  {
+   "id": "5574:413588",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Alpha/alpha-white-40",
+   "new": "color/alpha/white-40",
+   "registry": null
+  },
+  {
+   "id": "5574:413589",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Alpha/alpha-white-30",
+   "new": "color/alpha/white-30",
+   "registry": null
+  },
+  {
+   "id": "5574:413590",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Alpha/alpha-white-20",
+   "new": "color/alpha/white-20",
+   "registry": null
+  },
+  {
+   "id": "5574:413591",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Alpha/alpha-white-10",
+   "new": "color/alpha/white-10",
+   "registry": null
+  },
+  {
+   "id": "5574:413592",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Alpha/alpha-black-10",
+   "new": "color/alpha/black-10",
+   "registry": null
+  },
+  {
+   "id": "5574:413593",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Alpha/alpha-black-20",
+   "new": "color/alpha/black-20",
+   "registry": null
+  },
+  {
+   "id": "5574:413594",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Alpha/alpha-black-30",
+   "new": "color/alpha/black-30",
+   "registry": null
+  },
+  {
+   "id": "5574:413595",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Alpha/alpha-black-40",
+   "new": "color/alpha/black-40",
+   "registry": null
+  },
+  {
+   "id": "5574:413596",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Alpha/alpha-black-50",
+   "new": "color/alpha/black-50",
+   "registry": null
+  },
+  {
+   "id": "5574:413597",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Alpha/alpha-black-60",
+   "new": "color/alpha/black-60",
+   "registry": null
+  },
+  {
+   "id": "5574:413598",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Alpha/alpha-black-70",
+   "new": "color/alpha/black-70",
+   "registry": null
+  },
+  {
+   "id": "5574:413599",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Alpha/alpha-black-80",
+   "new": "color/alpha/black-80",
+   "registry": null
+  },
+  {
+   "id": "5574:413600",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Alpha/alpha-black-90",
+   "new": "color/alpha/black-90",
+   "registry": null
+  },
+  {
+   "id": "5807:420926",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-brand",
+   "new": "color/component/featured-icon-light-fg-brand",
+   "registry": null
+  },
+  {
+   "id": "5807:420927",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-gray",
+   "new": "color/component/featured-icon-light-fg-gray",
+   "registry": null
+  },
+  {
+   "id": "5807:420928",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-error",
+   "new": "color/component/featured-icon-light-fg-error",
+   "registry": null
+  },
+  {
+   "id": "5807:420929",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-warning",
+   "new": "color/component/featured-icon-light-fg-warning",
+   "registry": null
+  },
+  {
+   "id": "5807:420930",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Components/Icons/Featured icons/featured-icon-light-fg-success",
+   "new": "color/component/featured-icon-light-fg-success",
+   "registry": null
+  },
+  {
+   "id": "6049:416908",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Brand/utility-brand-50_alt",
+   "new": "color/utility/brand/50-alt",
+   "registry": null
+  },
+  {
+   "id": "6049:416909",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Brand/utility-brand-100_alt",
+   "new": "color/utility/brand/100-alt",
+   "registry": null
+  },
+  {
+   "id": "6049:416910",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Brand/utility-brand-200_alt",
+   "new": "color/utility/brand/200-alt",
+   "registry": null
+  },
+  {
+   "id": "6049:416911",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Brand/utility-brand-400_alt",
+   "new": "color/utility/brand/400-alt",
+   "registry": null
+  },
+  {
+   "id": "6049:416912",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Brand/utility-brand-500_alt",
+   "new": "color/utility/brand/500-alt",
+   "registry": null
+  },
+  {
+   "id": "6049:416913",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Brand/utility-brand-600_alt",
+   "new": "color/utility/brand/600-alt",
+   "registry": null
+  },
+  {
+   "id": "6049:416914",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Brand/utility-brand-700_alt",
+   "new": "color/utility/brand/700-alt",
+   "registry": null
+  },
+  {
+   "id": "6051:432900",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Components/Sliders/slider-handle-border",
+   "new": "color/component/slider-handle-border",
+   "registry": null
+  },
+  {
+   "id": "6051:432901",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Components/Sliders/slider-handle-bg",
+   "new": "color/component/slider-handle-bg",
+   "registry": null
+  },
+  {
+   "id": "6053:436906",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Brand/utility-brand-300",
+   "new": "color/utility/brand/300",
+   "registry": null
+  },
+  {
+   "id": "6060:442843",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Gray/utility-gray-300",
+   "new": "color/utility/gray/300",
+   "registry": null
+  },
+  {
+   "id": "6080:479732",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Alpha/alpha-black-100",
+   "new": "color/alpha/black-100",
+   "registry": null
+  },
+  {
+   "id": "6080:479733",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Alpha/alpha-white-100",
+   "new": "color/alpha/white-100",
+   "registry": null
+  },
+  {
+   "id": "6123:195662",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Brand/utility-brand-900",
+   "new": "color/utility/brand/900",
+   "registry": null
+  },
+  {
+   "id": "6123:195663",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Gray/utility-gray-900",
+   "new": "color/utility/gray/900",
+   "registry": null
+  },
+  {
+   "id": "6124:61597",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Brand/utility-brand-800",
+   "new": "color/utility/brand/800",
+   "registry": null
+  },
+  {
+   "id": "6124:61598",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Gray/utility-gray-800",
+   "new": "color/utility/gray/800",
+   "registry": null
+  },
+  {
+   "id": "6132:238837",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Components/Mockups/screen-mockup-border",
+   "new": "color/component/screen-mockup-border",
+   "registry": null
+  },
+  {
+   "id": "6169:481087",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Components/Icons/Icons/icon-fg-brand",
+   "new": "color/component/icon-fg-brand",
+   "registry": null
+  },
+  {
+   "id": "6169:489279",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Components/Icons/Icons/icon-fg-brand_on-brand",
+   "new": "color/component/icon-fg-brand-on-brand",
+   "registry": null
+  },
+  {
+   "id": "6179:408305",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Components/Footers/footer-button-fg",
+   "new": "color/component/footer-button-fg",
+   "registry": null
+  },
+  {
+   "id": "6179:408311",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Components/Footers/footer-button-fg_hover",
+   "new": "color/component/footer-button-fg-hover",
+   "registry": null
+  },
+  {
+   "id": "6179:409999",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Components/App store badges/app-store-badge-border",
+   "new": "color/component/app-store-badge-border",
+   "registry": null
+  },
+  {
+   "id": "6305:239517",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Components/Toggles/toggle-button-fg_disabled",
+   "new": "color/component/toggle-button-fg-disabled",
+   "registry": null
+  },
+  {
+   "id": "6487:349940",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Brand/utility-brand-300_alt",
+   "new": "color/utility/brand/300-alt",
+   "registry": null
+  },
+  {
+   "id": "6487:349941",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Brand/utility-brand-800_alt",
+   "new": "color/utility/brand/800-alt",
+   "registry": null
+  },
+  {
+   "id": "6487:349942",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Brand/utility-brand-900_alt",
+   "new": "color/utility/brand/900-alt",
+   "registry": null
+  },
+  {
+   "id": "6487:354313",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Error/utility-error-300",
+   "new": "color/utility/error/300",
+   "registry": null
+  },
+  {
+   "id": "6487:354314",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Warning/utility-warning-300",
+   "new": "color/utility/warning/300",
+   "registry": null
+  },
+  {
+   "id": "6487:354315",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Success/utility-success-300",
+   "new": "color/utility/success/300",
+   "registry": null
+  },
+  {
+   "id": "6487:354317",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Blue light/utility-blue-light-300",
+   "new": "color/utility/blue-light/300",
+   "registry": null
+  },
+  {
+   "id": "6487:354318",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Blue/utility-blue-300",
+   "new": "color/utility/blue/300",
+   "registry": null
+  },
+  {
+   "id": "6487:354319",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Blue dark/utility-blue-dark-300",
+   "new": "color/utility/blue-dark/300",
+   "registry": null
+  },
+  {
+   "id": "6487:354321",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Purple/utility-purple-300",
+   "new": "color/utility/purple/300",
+   "registry": null
+  },
+  {
+   "id": "6487:354323",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Pink/utility-pink-300",
+   "new": "color/utility/pink/300",
+   "registry": null
+  },
+  {
+   "id": "6487:354324",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Orange dark/utility-orange-dark-300",
+   "new": "color/utility/orange-dark/300",
+   "registry": null
+  },
+  {
+   "id": "6487:354325",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Orange/utility-orange-300",
+   "new": "color/utility/orange/300",
+   "registry": null
+  },
+  {
+   "id": "7318:479624",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Components/Avatars/avatar-styles-bg-neutral",
+   "new": "color/component/avatar-styles-bg-neutral",
+   "registry": null
+  },
+  {
+   "id": "7923:539396",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Components/Toggles/toggle-border",
+   "new": "color/component/toggle-border",
+   "registry": null
+  },
+  {
+   "id": "7923:539867",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Components/Toggles/toggle-slim-border_pressed-hover",
+   "new": "color/component/toggle-slim-border-pressed-hover",
+   "registry": null
+  },
+  {
+   "id": "7999:23182",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Green/utility-green-50",
+   "new": "color/utility/green/50",
+   "registry": null
+  },
+  {
+   "id": "7999:23183",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Green/utility-green-100",
+   "new": "color/utility/green/100",
+   "registry": null
+  },
+  {
+   "id": "7999:23184",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Green/utility-green-200",
+   "new": "color/utility/green/200",
+   "registry": null
+  },
+  {
+   "id": "7999:23185",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Green/utility-green-300",
+   "new": "color/utility/green/300",
+   "registry": null
+  },
+  {
+   "id": "7999:23186",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Green/utility-green-400",
+   "new": "color/utility/green/400",
+   "registry": null
+  },
+  {
+   "id": "7999:23187",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Green/utility-green-500",
+   "new": "color/utility/green/500",
+   "registry": null
+  },
+  {
+   "id": "7999:23188",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Green/utility-green-600",
+   "new": "color/utility/green/600",
+   "registry": null
+  },
+  {
+   "id": "7999:23189",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Green/utility-green-700",
+   "new": "color/utility/green/700",
+   "registry": null
+  },
+  {
+   "id": "7999:23190",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Yellow/utility-yellow-50",
+   "new": "color/utility/yellow/50",
+   "registry": null
+  },
+  {
+   "id": "7999:23191",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Yellow/utility-yellow-100",
+   "new": "color/utility/yellow/100",
+   "registry": null
+  },
+  {
+   "id": "7999:23192",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Yellow/utility-yellow-200",
+   "new": "color/utility/yellow/200",
+   "registry": null
+  },
+  {
+   "id": "7999:23193",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Yellow/utility-yellow-300",
+   "new": "color/utility/yellow/300",
+   "registry": null
+  },
+  {
+   "id": "7999:23194",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Yellow/utility-yellow-400",
+   "new": "color/utility/yellow/400",
+   "registry": null
+  },
+  {
+   "id": "7999:23195",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Yellow/utility-yellow-500",
+   "new": "color/utility/yellow/500",
+   "registry": null
+  },
+  {
+   "id": "7999:23196",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Yellow/utility-yellow-600",
+   "new": "color/utility/yellow/600",
+   "registry": null
+  },
+  {
+   "id": "7999:23197",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Utility/Yellow/utility-yellow-700",
+   "new": "color/utility/yellow/700",
+   "registry": null
+  },
+  {
+   "id": "8818:112060",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Components/Buttons/button-primary-icon_hover",
+   "new": "color/component/button-primary-icon-hover",
+   "registry": null
+  },
+  {
+   "id": "8818:582703",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Components/Buttons/button-destructive-primary-icon",
+   "new": "color/component/button-destructive-primary-icon",
+   "registry": null
+  },
+  {
+   "id": "8818:582704",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Components/Buttons/button-destructive-primary-icon_hover",
+   "new": "color/component/button-destructive-primary-icon-hover",
+   "registry": null
+  },
+  {
+   "id": "8818:78315",
+   "collection": "1. Color modes",
+   "layer": "component",
+   "rule": "R3",
+   "old": "Component colors/Components/Buttons/button-primary-icon",
+   "new": "color/component/button-primary-icon",
+   "registry": null
+  }
+ ]
+}
